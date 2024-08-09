@@ -1,8 +1,12 @@
 # Unity AR
 
-## Setup
+This Worksheet will guide you through creating a Augmented reality(AR) tracked image Unity project and deploying it to an Android devices.
 
-### Create a new AR project
+The screen shot were created on a PC using Unity version 2022.3.20f1, they may look slightly different on a Mac but as long as you have a similar version of Unity the functionality is the same.
+
+if you get stuck please ask for help.
+
+## Create a new AR project
 
 - Create a new Unity Project in Unity Hub
 
@@ -24,48 +28,276 @@ We will be deploying our project to an Android tablet, so need to change the tar
 
 ![](images/switch_platform.png)
 
+### New Scene
+
+First we are going to create a brand new scene
+
+- In the top menu go to **File > New Scene**
+
+- Choose **AR** and press **Create**
+
+![](images/new_ar_scene.png)
+
+- Delete the cube in the Hierachy
+
+#### Save the scene
+
+- In the top menu, go to **File > Save as** and save your scene in the **Scenes** folder. Call it "burger_marker_scene".
+
+## Add an AR Marker
+
+Our first project is to get a 3D object to appear on an image in the real world. The image could be on your business card or on a poster, product packaging or billboard, anywhere you can put an image and point your camera at it.
+
+- [AR business card](https://www.youtube.com/watch?v=xBYDmauqdaw)
+
+### Tracked Image Manager
+
+Our project needs to look out for our marker image.
+
+- Select the **XR Origin (AR Rig)** object in your Hierarchy and in the inspector, add a **Tracked Image Manager** component.
+
+![](images/tracked_image_manager.png)
+
+You should see that this component needs a **Serialized Library**, which is just a list which contains the marker images we want to track and **Tracked Image Prefab** which is the 3D object we want to appear when the camera sees our marker image.
+
+We will first get our marker image.
+
+### Create a tracker image and add it to your project
+
+I have given you a tracker image you can download here:
+
+[burger.png](./assets_for_worksheet/burger.png)
+
+When you create you own, Unity gives the following advise:
+
+- Size must be at least 300 x 300 pixels.
+- Format must be PNG or JPG. 
+- Image can be black and white or colour but must have strong contrast. 
+- Image should avoid repeated patterns.
+
+- Add the image to your project by dragging it into the Assets folder.
+
+#### Reference Image library
+
+We will now create a **Reference Image library** to store our image.
+
+- **Right click** in the Assets panel and choose **Create > XR > Reference Image Library**
+
+- Rename you new library ( I called mine "burger_image_library"
+
+- Select the new library and press **Add Image** in the inspector
+
+![](images/add_image.png)
+
+- Press **Select** and choose your burger image, or just drag it in from your assets.
+
+- Make sure you turn on **Keep Texture at Runtime**
+
+![](images/burger_image_in_library.png)
+
+### Prefab
+
+We want to display a 3D model on the tracker, the model can be as complex as you like, with animations and scripts attached, but for this worksheet we will keep it simple.
+
+Download the model of a burger here:
+
+[burger.fbx](./assets_for_worksheet/burger.fbx)
+
+- Drag your model into the assets panel.
+
+### Connect up the manager
+
+Now we have our image library and prefab we can add them to our tracked image manager.
+
+- Select the **XR Origin (AR Rig)** in the Hierachy.
+
+- Drag the burger 3d model on to the **Tracked Image Prefab** slot.
+
+- Drag the image library onto the **Serialized Library** slot.
+
+![](images/library_and_prefab_on_manager.png)
+
+## Simulated Environment
+
+To avoid having to build this project to an actual device every time we want to test it we will create a simulated environment in Unity.
+
+- On the top menu select **window > XR > AR Foundation > XR Environment**
+
+- Duplicate the default default environment and save it in your assets folder.
+
+![](images/duplicate_environment.png)
+
+This is our simulated real world. 
+
+The Camera in this environment is the camera on your mobile device.
+
+You should see a black square with the Unity logo on it, this represents your physical tracker in the real world.
+
+- Try to navigate around this environment by holding Hold down the **right mouse button**
+	+ Move the mouse to rotate.
+	+ Press **W,S,A or D** to move.
+	+ Press **Q or E** to go up and down.
+
+#### Add our tracked image to the simulated environment
+
+The simulated environment already has a tracked image in it with the Unity Log on it, We want to create our own with our burger image.
+
+- Select the **Simulated Tracked Image** in the Hierarchy and delete it.
+
+![](images/delete_simulated_image.png)
+
+- In the Hierarchy **right click** and choose **Create empty** to make a new empty object.
+- Rename it to "simulated burger tracker"
+- In the inspector add the **Simulated Tracker Image** component
+- Add your burger image to the **Image** slot in the component.
+- Change the Physical Size to 0.5 ( this half a meter, which is larger than your actual image will be but makes it easier to test.)
+
+![](images/simulated_tracker_image.png)
+
+The tracker will now be recognised in the simulation, but we want to add the image to make it look correct.
+
+- **Right click** and create a new quad inside this new object and rename it to "ImageQuad".
+
+![](images/quad_image.png)
+
+We now need to add the tracked image to the quad as a material.
+
+- Create a new materials by **right clicking** in the Assets panel and choosing **Create > material**
+- Rename the material "burgerImageMat".
+- In the Inspector, change the shader to **Unlit/Texture** and add the burger tracker image as the texture.
+
+![](images/Unlit_texture.png)
+
+- Drag the new material onto the Quad you made earlier.
+
+![](images/burger_marker_in_scene.png)
 
 
+### Test your simulation
+
+Now that we have a simulated environment with a simulated tracked image in it we can test our scene.
+
+- Press the play button 
+
+- Navigate around your scene you should see the 3D burger appear on the marker.
+
+![](images/burger_on_marker.png) 
+
+You can see that the stacker is on its side.
+
+- Go back to the simulated environment and rotate the image quad by 90 degrees so it is horizontal
+
+- Move the parent **SimulatedBurgerTracker** down onto the floor.
+
+![](images/tracker_on_floor.png)
+
+- Press play to test your scene again
+
+## Test on a device
+
+Now that we have successfully tested our project in the simulated environment we can try it on a real device.
+
+### Android
+
+We will be building to an Android device in this worksheet. It is possible to build to an an IOS device, but it takes extra steps.
+
+If you want to learn more about building to an IOS device, you can follow this tutorial
+
+https://betterprogramming.pub/test-your-unity-game-on-an-ios-device-without-a-developer-account-ac256fb00a1
+
+### Set-up you device
+
+All Android devices are slightly different, so you may need to research how to do this on your particular device
+
+Most require 2 steps on the device:
+1. Turn on developer mode
+2. turn on USB debugging
+
+#### Turn on developer mode
+
+- On your phone or tablet, go to **settings**
+- Open the **about** section (nomally at the bottom)
+- Tap the build number 7 times.
+
+You should get a message confirming you are now a developer.
+
+#### Turn on USB debugging
+
+Still in the settings
+
+- Open the **System** section
+- Find **Developer Options**
+- Turn on **USB debugging**
+
+### Plug in
+
+Now that you have set up your device you can plug it in
+
+- Plug your Android device into your computer using the USB cable.
+
+You should get 2 message boxes appearing on your device asking for permission to share files and to connect for debugging.
+
+- Accept both pop up messages, if you accidently refuse one, just unplug and try again.
+
+### Build you app
+
+Now that our device is ready we can build to it from Unity.
+
+- Back in Unity, go to **File > Build Settings**
+- Press **Add Open Scene** to make sure you are building the correct scene, **untick** the sample scene.
+- **Refresh** Run devices and choose the device you plugged in.
+- Press **Build and Run**
+
+![](images/build_and_run.png)
+
+- Create a folder called "Build" inside your project folder. (If you are using git, the default unity gitignore file will helpfully ignore the build folder)
+- Go into the new Build folder, name your file, I called mine "AR Burger".
+
+![](images/saveBuild.png)
+
+- Press **Save** and your project will build and deploy the app to your device. It may take a few minutes the first time.
+
+#### Trouble shooting
+
+You may run into problems deploying to a device. If your project appears on your device you can skip to **Testing** bellow.
+
+Try the following :
+- Unplug and re-plug the device, make sure you accept and popup messages.
+- Check you have chosen the correct device on the build and run screen.
+
+Do you get errors when you try to build? firstly read the error and see if gives you any clues. The most common will be because the version of Unity on your device is older than the version you are building for.
+
+First find the Android version on your device, It is normally in **Settings > About**
+
+Then in Unity go to  **Edit > Project Settings** and in the **Player** section find **Minimum API Level** change this so it matches your device.
+
+![](images/minimum_api.png)
 
 
+### Testing
 
-- switch build to Android
-- show XR Environment
-	+ window > XR > AR Foundation > XR Environment
-- delete Main camera
-- Add Ar session to scene
-	+ in Hierachy - right click > XR > AR session
-- Add XR origin to scene
-	+ in Hierachy - right click > XR > AR Origin (mobile AR)
+We are expecting the burger 3D model to appear on our burger tracker image.
 
-- press play to test scene
-- navigate scene by right clicking and rotating, WSAD, QE
+You can print one out, or just open it on your screen and point your camera at it.
 
-## Create new environment
+You should see a the burger model appear on your screen locked to the tracking image.
 
-- In XR Environment
-	+ pencil > duplicate > name and save
-- in Hieracy
-	+ delete simulated tracked image
-	+ delete simenvironmentprobe
+## Next steps
 
+Now that we have completed a basic AR project we can take it further in a few ways.
 
+- Add a script to detect when a marker is found, triggering a sound or animation.
+	+ [Unity documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/features/image-tracking.html)
 
-## marker
+- Add multiple markers which display different 3D models.
+
+- Add a user interface to interact with the models
+
+- Add face tracking
 
 
-### events - trigger 
+#### References
 
-
-
-### marker making guidelines
-
-Size must be at least 300 x 300 pixels. (However, markers do not have to be square!).
-Format must be PNG or JPG. 
-Image must have a strong color value contrast. 
-Image should avoid repeated patterns.
-
-## face
-
-## scan and click to add
-
+- [Burger model](https://skfb.ly/onCMo)
+- [Burger image](https://www.vecteezy.com/vector-art/17503957-hot-burgers-vector-logo-illustration-modern-burgers-emblem-vector-art)
+- [Unity AR Foundation documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/features/image-tracking.html)
