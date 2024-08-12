@@ -36,9 +36,13 @@ First we are going to create a brand new scene
 
 - Choose **AR** and press **Create**
 
-![](images/new_ar_scene.png)
+### Scene Contents
 
-- Delete the cube in the Hierachy
+We could have set this up ourselves manualy but using teh AR template saves us time.
+
+The two main things an AR scene needs are an **XR origin** and **XR Session**
+
+- Delete the Cube from the Hierarchy.
 
 #### Save the scene
 
@@ -277,7 +281,7 @@ Then in Unity go to  **Edit > Project Settings** and in the **Player** section f
 
 We are expecting the burger 3D model to appear on our burger tracker image.
 
-You can print one out, or just open it on your screen and point your camera at it.
+You can just use an image on your  screen but printing it out whi
 
 You should see a the burger model appear on your screen locked to the tracking image.
 
