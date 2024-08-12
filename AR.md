@@ -109,7 +109,7 @@ Download the model of a burger here:
 
 Now we have our image library and prefab we can add them to our tracked image manager.
 
-- Select the **XR Origin (AR Rig)** in the Hierachy.
+- Select the **XR Origin (AR Rig)** in the Hierarchy.
 
 - Drag the burger 3d model on to the **Tracked Image Prefab** slot.
 
@@ -119,7 +119,7 @@ Now we have our image library and prefab we can add them to our tracked image ma
 
 ## Simulated Environment
 
-To avoid having to build this project to an actual device every time we want to test it we will create a simulated environment in Unity.
+To avoid having to build this project to an actual device every time we want to test it we will create a simulated environment in Unity. This will take time to build, but will save us a considerable amount of time when testing our app.
 
 - On the top menu select **window > XR > AR Foundation > XR Environment**
 
@@ -140,7 +140,7 @@ You should see a black square with the Unity logo on it, this represents your ph
 
 #### Add our tracked image to the simulated environment
 
-The simulated environment already has a tracked image in it with the Unity Log on it, We want to create our own with our burger image.
+The simulated environment already has a tracked image in it with the Unity Logo on it, We want to create our own with our burger image.
 
 - Select the **Simulated Tracked Image** in the Hierarchy and delete it.
 
@@ -150,7 +150,7 @@ The simulated environment already has a tracked image in it with the Unity Log o
 - Rename it to "simulated burger tracker"
 - In the inspector add the **Simulated Tracker Image** component
 - Add your burger image to the **Image** slot in the component.
-- Change the Physical Size to 0.5 ( this half a meter, which is larger than your actual image will be but makes it easier to test.)
+- Change the Physical Size to 0.1 (this is 10 cm, the same size it will be in the real world)
 
 ![](images/simulated_tracker_image.png)
 
@@ -172,6 +172,9 @@ We now need to add the tracked image to the quad as a material.
 
 ![](images/burger_marker_in_scene.png)
 
+- Finally, scale your quad down to 0.1, and rotate by 90 in X.
+
+![](images/ScaleImageQuad.png)
 
 ### Test your simulation
 
@@ -181,17 +184,13 @@ Now that we have a simulated environment with a simulated tracked image in it we
 
 - Navigate around your scene you should see the 3D burger appear on the marker.
 
-![](images/burger_on_marker.png) 
+![](images/burger_on_marker.png)
 
-You can see that the stacker is on its side.
+Make sure the burger sits centrally on the marker.
 
-- Go back to the simulated environment and rotate the image quad by 90 degrees so it is horizontal
+This simulated environment allows you to test without having to build your scene to a proper device. You can add props such as tables and chairs to make it look more like a real room, then position your tracker image appropriately in the environment, this can help to make sure you have the scale correct.
 
-- Move the parent **SimulatedBurgerTracker** down onto the floor.
-
-![](images/tracker_on_floor.png)
-
-- Press play to test your scene again
+However, we are happy that the burger appears so will now test on a real device.
 
 ## Test on a device
 
@@ -216,7 +215,7 @@ Most require 2 steps on the device:
 #### Turn on developer mode
 
 - On your phone or tablet, go to **settings**
-- Open the **about** section (nomally at the bottom)
+- Open the **about** section (normally at the bottom)
 - Tap the build number 7 times.
 
 You should get a message confirming you are now a developer.
@@ -237,7 +236,7 @@ Now that you have set up your device you can plug it in
 
 You should get 2 message boxes appearing on your device asking for permission to share files and to connect for debugging.
 
-- Accept both pop up messages, if you accidently refuse one, just unplug and try again.
+- Accept both pop up messages, if you accidentally refuse one, just unplug and try again.
 
 ### Build you app
 
@@ -250,7 +249,7 @@ Now that our device is ready we can build to it from Unity.
 
 ![](images/build_and_run.png)
 
-- Create a folder called "Build" inside your project folder. (If you are using git, the default unity gitignore file will helpfully ignore the build folder)
+- Create a folder called "Build" inside your project folder. (If you are using git, the default unity git ignore file will helpfully ignore the build folder)
 - Go into the new Build folder, name your file, I called mine "AR Burger".
 
 ![](images/saveBuild.png)
