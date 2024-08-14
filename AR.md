@@ -6,7 +6,7 @@ The screen shot were created on a PC using Unity version 2022.3.20f1, they may l
 
 if you get stuck please ask for help.
 
-## Create a new AR project
+## 1. Create a new AR project
 
 - Create a new Unity Project in Unity Hub
 
@@ -16,7 +16,7 @@ if you get stuck please ask for help.
 
 ![](images/new_project_settings.png)
 
-The project has a lot of dependancys so may take a while to load the first time.
+The project has a lot of dependencies so may take a while to load the first time.
 
 ### Convert to Android
 
@@ -27,6 +27,15 @@ We will be deploying our project to an Android tablet, so need to change the tar
 - Choose **Android** and **Switch settings**
 
 ![](images/switch_platform.png)
+
+AR core is only supported on more recent versions of Android, so we need to set the minimum version.
+
+- In the top menu, go to  **Edit > Project Settings**
+- In the **Player** Section find the **Other settings** section
+- Change the**Minimum API Level** to **27**.
+
+
+![](images/minimum_api.png)
 
 ### New Scene
 
@@ -48,7 +57,7 @@ The two main things an AR scene needs are an **XR origin** and **XR Session**
 
 - In the top menu, go to **File > Save as** and save your scene in the **Scenes** folder. Call it "burger_marker_scene".
 
-## Add an AR Marker
+## 2. Add an AR tracked image
 
 Our first project is to get a 3D object to appear on an image in the real world. The image could be on your business card or on a poster, product packaging or billboard, anywhere you can put an image and point your camera at it.
 
@@ -121,7 +130,7 @@ Now we have our image library and prefab we can add them to our tracked image ma
 
 ![](images/library_and_prefab_on_manager.png)
 
-## Simulated Environment
+## 3. Simulated Environment
 
 To avoid having to build this project to an actual device every time we want to test it we will create a simulated environment in Unity. This will take time to build, but will save us a considerable amount of time when testing our app.
 
@@ -196,7 +205,7 @@ This simulated environment allows you to test without having to build your scene
 
 However, we are happy that the burger appears so will now test on a real device.
 
-## Test on a device
+## 4. Test on a device
 
 Now that we have successfully tested our project in the simulated environment we can try it on a real device.
 
@@ -260,23 +269,6 @@ Now that our device is ready we can build to it from Unity.
 
 - Press **Save** and your project will build and deploy the app to your device. It may take a few minutes the first time.
 
-#### Trouble shooting
-
-You may run into problems deploying to a device. If your project appears on your device you can skip to **Testing** bellow.
-
-Try the following :
-- Unplug and re-plug the device, make sure you accept and popup messages.
-- Check you have chosen the correct device on the build and run screen.
-
-Do you get errors when you try to build? firstly read the error and see if gives you any clues. The most common will be because the version of Unity on your device is older than the version you are building for.
-
-First find the Android version on your device, It is normally in **Settings > About**
-
-Then in Unity go to  **Edit > Project Settings** and in the **Player** section find **Minimum API Level** change this so it matches your device.
-
-![](images/minimum_api.png)
-
-
 ### Testing
 
 We are expecting the burger 3D model to appear on our burger tracker image.
@@ -287,16 +279,17 @@ You should see a the burger model appear on your screen locked to the tracking i
 
 Try moving the device and tracking object around and see how it responds.
 
-## Next steps
+## 5. Challenges
 
-Now that we have completed a basic AR project we can take it further in a few ways.
+Now that we have completed a basic AR project we can take it 
+further in a few ways.
 
-- Add a script to detect when a marker is found, triggering a sound or animation.
-	+ [Unity documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/features/image-tracking.html)
+- Replace the burger with a different 3D object, choose something with an animation.
 
-- Add multiple markers which display different 3D models.
+- Add a script to detect when a marker is found, you could use this to trigger a sound or animation on your object.
+	+ [Unity documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.1/manual/features/image-tracking.html)
 
-- Add a user interface to interact with the models
+- 
 
 - Add face tracking
 
