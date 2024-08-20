@@ -1,0 +1,39 @@
+/**    <link rel="stylesheet" href="styles/styles.css"> **/
+
+@import url('../fonts/Ubuntu/Ubuntu-Regular.ttf?family=Ubuntu:wght@300&display=swap');
+
+body{
+    max-width:960px;
+    margin:auto;
+    padding: 50px 80px;
+    background:#242424;
+    color:#d4d4d4;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+h1{
+    background: white;
+    color: black;
+    padding: 10px 20px;
+}
+
+h2{
+    background: white;
+    color: black;
+    padding: 0 10px;
+}
+
+h3{
+    color: #ffd93e;
+}
+
+img{
+    margin:auto;
+    width:90%;
+    display:block;
+}
+
+a{
+    color:yellowgreen;
+}

@@ -1,4 +1,4 @@
-# Unity AR
+# Unity AR - face tracking
 
 This Worksheet will guide you through creating a Augmented reality(AR) face tracking Unity project and deploying it to an Android devices.
 
@@ -252,4 +252,5 @@ If you added the glasses model you should see that you can see the arms of the g
 - Turn the **Mesh Render** back on on the Face
 - Drag the material onto the face.
 - Test again
+- The face should not appear, but will hide anything behind it.
 

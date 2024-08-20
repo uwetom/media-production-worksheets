@@ -1,0 +1,373 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Ar Mobile Interaciton</title>
+  </head>
+  <body>
+    <h1>Unity AR - Mobile interaction</h1>
+    <p>
+      This Worksheet will guide you through creating a Augmented reality(AR)
+      face tracking Unity project and deploying it to an Android devices.
+    </p>
+    <p>
+      The screen shot were created on a PC using Unity version 2022.3.20f1, they
+      may look slightly different on a Mac but as long as you have a similar
+      version of Unity the functionality is the same.
+    </p>
+    <p>if you get stuck please ask for help.</p>
+    <h2>1. Create a new AR project</h2>
+    <ul>
+      <li>Create a new Unity Project in Unity Hub</li>
+    </ul>
+    <p><img src="images/new_project.png" alt="New Project" /></p>
+    <ul>
+      <li>
+        Choose the <strong>AR Mobile core</strong> template (you may need to
+        download it first)
+      </li>
+    </ul>
+    <p><img src="images/new_project_settings.png" alt="" /></p>
+    <p>
+      The project has a lot of dependencies so may take a while to load the
+      first time.
+    </p>
+    <h3>Convert to Android</h3>
+    <p>
+      We will be deploying our project to an Android tablet, so need to change
+      the target platform, it is best to do this now before we start.
+    </p>
+    <ul>
+      <li>
+        <p>In the top menu go to <strong>File &gt; Build settings</strong></p>
+      </li>
+      <li>
+        <p>
+          Choose <strong>Android</strong> and <strong>Switch settings</strong>
+        </p>
+      </li>
+    </ul>
+    <p><img src="images/switch_platform.png" alt="" /></p>
+    <p>
+      AR core is only supported on more recent versions of Android, so we need
+      to set the minimum version.
+    </p>
+    <ul>
+      <li>
+        In the top menu, go to <strong>Edit &gt; Project Settings</strong>
+      </li>
+      <li>
+        In the <strong>Player</strong> Section find the
+        <strong>Other settings</strong> section
+      </li>
+      <li>
+        Change the<strong>Minimum API Level</strong> to <strong>27</strong>.
+      </li>
+    </ul>
+    <p><img src="images/minimum_api.png" alt="" /></p>
+    <h3>New Scene</h3>
+    <p>First we are going to create a brand new scene</p>
+    <ul>
+      <li>
+        <p>In the top menu go to <strong>File &gt; New Scene</strong></p>
+      </li>
+      <li>
+        <p>Choose <strong>AR</strong> and press <strong>Create</strong></p>
+      </li>
+    </ul>
+    <h4>Save the scene</h4>
+    <ul>
+      <li>
+        In the top menu, go to <strong>File &gt; Save as</strong> and save your
+        scene in the <strong>Scenes</strong> folder. Call it "Mobile_interaction
+        scene".
+      </li>
+    </ul>
+    <h2>2. UI</h2>
+    <p>
+      We can add a button to the screen and use it to interact with our AR
+      object.
+    </p>
+    <p>
+      For this simple example, the button will hide and show a cube, but this
+      will give you a good starting point to create more complex functionality.
+    </p>
+    <h3>Create UI</h3>
+    <h4>Create an XR Canvas</h4>
+    <p>You need to use a spectial UI canvas when working in VR</p>
+    <ul>
+      <li>
+        In the <strong>Hierarchy</strong>, <strong>Right Click</strong> and
+        create a <strong>XR &gt; UI Canvas</strong>
+      </li>
+    </ul>
+    <p>
+      The canvas is set to <strong>World space</strong> by default, this can be
+      useful if you want the canvas to appear within the environment.
+    </p>
+    <p>
+      We want the canvas to just stick to the screen and scale to different
+      screen sizes.
+    </p>
+    <ul>
+      <li>
+        <p>
+          With the Canvas selected, in the <strong>Inspector</strong> find the
+          <strong>Canvas</strong> component and change the
+          <strong>Render Mode</strong> to
+          <strong>Screen Space - Overlay</strong>
+        </p>
+      </li>
+      <li>
+        <p>
+          In the <strong>Canvas Scaler</strong> component change the **UI Scale
+          Mode to <strong>Scale With Screen Size</strong>
+        </p>
+      </li>
+    </ul>
+    <p><img src="images/screen_space_overlay.png" alt="" /></p>
+    <h4>Create a button</h4>
+    <p>We can add normal UI components in the canvas.</p>
+    <ul>
+      <li>
+        <strong>Right click</strong> in the new canvas and create a
+        <strong>UI &gt; Button - Text Mesh Pro</strong>
+      </li>
+    </ul>
+    <p>We want the Button to stick to the bottom of the screen</p>
+    <ul>
+      <li>Move the button to the bottom of the canvas</li>
+    </ul>
+    <p>We want the button to stick to the bottom and stretch horizontally</p>
+    <ul>
+      <li>
+        On the button, click the <strong>Anchor presets</strong> button and
+        choose the correct option.
+      </li>
+    </ul>
+    <p><img src="images/stretch_and_stick.png" alt="" /></p>
+    <h3>add input module</h3>
+    <p>
+      The default scene will not recognise touch screen inputs on it own.
+      However, when you added your Canvas, an Event System object was also
+      created in your Hierarchy.
+    </p>
+    <ul>
+      <li>
+        Find the <strong>XR UI Input Module</strong> component in the
+        EventSystem
+      </li>
+    </ul>
+    <p>
+      We need to assign the input actions, helpfully these have already been
+      defined for you in the template.
+    </p>
+    <ul>
+      <li>
+        Click the little circle to the right of the inputs and assign the
+        correct reference, You may need to search for it. We only need the top
+        two for touch controls.
+      </li>
+    </ul>
+    <p><img src="images/input_system.png" alt="" /></p>
+    <h3>create script</h3>
+    <ul>
+      <li>Create a new c# script and call it "UIController".</li>
+      <li>Open the script and add 2 new variables at the top.</li>
+    </ul>
+    <p>""" public GameObject cube; private bool visibleToggle = true; """</p>
+    <p>
+      The first will hold a reference to our cube, the second will store the
+      current visability of the cube.
+    </p>
+    <ul>
+      <li>
+        Add a new function to the script, I have called mine "ButtonPressed".
+      </li>
+    </ul>
+    <p>""" public void ButtonPressed() {</p>
+    <p>} """</p>
+    <ul>
+      <li>
+        Inside the function, add a log message, toggle the boolean variable and
+        set the visibility of the cube. Please ask if you don"t understand any
+        of these lines.
+      </li>
+    </ul>
+    <p>
+      """ Debug.Log("button pressed"); // swap toggle, because its a boolean //
+      !visibleToggle is the opposite of its current value (true/false)
+      visibleToggle = !visibleToggle; //hide or show cube
+      cube.SetActive(visibleToggle); """
+    </p>
+    <ul>
+      <li>Save the script</li>
+    </ul>
+    <h3>Add the script</h3>
+    <p>We an now connect the script up.</p>
+    <ul>
+      <li>
+        <p>
+          Drag the Script on to the <strong>Canvas</strong>, we could put it
+          anywhere but this seems most appropriate.
+        </p>
+      </li>
+      <li>
+        <p>
+          Drag the cube from your <strong>Hierarchy</strong> onto the Cube Slot
+          on your script.
+        </p>
+      </li>
+    </ul>
+    <h3>hook up the button</h3>
+    <ul>
+      <li>
+        On the Button, find the <strong>On Click</strong> input and press the
+        plus
+      </li>
+    </ul>
+    <p><img src="images/onClick.png" alt="" /></p>
+    <p>
+      Here we can add the function we want to run when the button is clicked.
+    </p>
+    <ul>
+      <li>
+        Drag the canvas onto the Object slot, and choose the script name and
+        function you want to run.
+      </li>
+    </ul>
+    <p><img src="images/on_click_filled.png" alt="" /></p>
+    <h2>3. Test</h2>
+    <ul>
+      <li>
+        Press play to test the button, clicking it should hide and show the
+        cube. you may need to move the camera around to see the cube.
+      </li>
+    </ul>
+    <h3>4. Test on the device</h3>
+    <p>
+      The project seems to be working as expected, however, we will only know
+      for sure that it works on a small touch screen by building to an actual
+      device.
+    </p>
+    <p>
+      As this process with be the same every time you build to android I have
+      made a separate guide showing you how to do it.
+    </p>
+    <p><a href="./build_to_android.html">Build to an android device</a></p>
+    <h2>5. Interacting with objects</h2>
+    <p>
+      We Can also interact directly with 3D object in the scene. We will change
+      the colour of the cube when it is touched
+    </p>
+    <ul>
+      <li>
+        <p>
+          On the Cube, add an <strong>XR Simple Interactable</strong> component.
+        </p>
+      </li>
+      <li>
+        <p>Create a new script and drag it onto the cube.</p>
+      </li>
+    </ul>
+    <p>""" using UnityEngine;</p>
+    <p>
+      public class CubeBehaviour : MonoBehaviour { // private reference to a
+      material Material cubeMaterial;
+    </p>
+    <pre><code>// Start is called before the first frame update
+void Start()
+{
+    // get the material of the object this script is attached to
+    cubeMaterial = GetComponent&lt;Renderer&gt;().material;
+    //change the colour to green
+    cubeMaterial.color = Color.green;
+}
+
+//Change the colour of the material
+public void ChangeColour()
+{
+    cubeMaterial.color = Color.red;
+}
+</code></pre>
+    <p>} """</p>
+    <ul>
+      <li>
+        Before you run the code, predict what colour you think it will be.
+      </li>
+      <li>Press play and check the colour of the cube</li>
+    </ul>
+    <p>
+      Next we need to hook it up so the <strong>ChangeColour</strong> function
+      so it runs when we press the cube.
+    </p>
+    <ul>
+      <li>
+        <p>
+          On the <strong>XR Simple Interactable</strong> component on the cube
+          open the <strong>Interactable Events</strong> section and find the
+          <strong>Focus entered</strong> Event
+        </p>
+      </li>
+      <li>
+        <p>Add the <strong>ChangeColour</strong> function from the cube.</p>
+      </li>
+    </ul>
+    <p><img src="images/focus_entered_event.png" alt="" /></p>
+    <ul>
+      <li>
+        <p>
+          Now press play to test the project, the cube should change colour when
+          clicked.
+        </p>
+      </li>
+      <li>
+        <p>
+          Try building to a device to make sure it still works on a touch
+          screen.
+        </p>
+      </li>
+    </ul>
+    <p>
+      Althought this example is very simple it gives you a good foundation to
+      add your own functionality,
+    </p>
+    <h2>6. Challenges</h2>
+    <h3>Challenge 1</h3>
+    <p>Make the cube change to a random colour when touched.</p>
+    <p>
+      Documentation:
+      <a
+        href="https://docs.unity3d.com/ScriptReference/Color-operator_Vector4.html"
+        >colour</a
+      >
+    </p>
+    <p>
+      <a href="https://docs.unity3d.com/ScriptReference/Random.Range.html"
+        >random range</a
+      >
+    </p>
+    <h3>Challenge 2</h3>
+    <p>Add a text box to the ui and display the new colour values.</p>
+    <p>
+      Documentation:
+      <a
+        href="https://learn.unity.com/tutorial/working-with-textmesh-pro#5f86410eedbc2a00249a4928"
+        >text mesh pro</a
+      >
+      - look at section 3 for scripting.
+    </p>
+    <h2>References</h2>
+    <p>
+      <a href="https://github.com/Unity-Technologies/arfoundation-samples"
+        >Unity AR Foundation samples</a
+      >
+    </p>
+    <p>
+      <a
+        href="https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@3.0/manual/xr-simple-interactable.html"
+        >Unity XR Interaction toolkit 3.0.5</a
+      >
+    </p>
+  </body>
+</html>

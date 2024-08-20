@@ -1,0 +1,147 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Build to an Android Device</title>
+  </head>
+  <body>
+    <h2>Building to an Android device</h2>
+    <p>
+      This worksheet will show you how to build from Unity to an Android device.
+      This works for phones, tablets and Meta Quest VR devices.
+    </p>
+    <h3>Android</h3>
+    <p>
+      We will be building to an Android device in this worksheet. It is possible
+      to build to an an IOS device, but it takes extra steps.
+    </p>
+    <p>
+      If you want to learn more about building to an IOS device, you can follow
+      this tutorial
+    </p>
+    <p>
+      <a
+        href="https://betterprogramming.pub/test-your-unity-game-on-an-ios-device-without-a-developer-account-ac256fb00a1"
+        >https://betterprogramming.pub/test-your-unity-game-on-an-ios-device-without-a-developer-account-ac256fb00a1</a
+      >
+    </p>
+    <h3>Build settings</h3>
+    <p>
+      Unity will build to Windows, Mac or Linux by default, depending on which
+      operating system you are using. We want to switch our target platform to
+      Android. It is best to do this right at the start of you project but can
+      be done at any time.
+    </p>
+    <ul>
+      <li>
+        <p>In the top menu go to <strong>File &gt; Build settings</strong></p>
+      </li>
+      <li>
+        <p>
+          Check that the correct scenes are in the
+          <strong>Scenes in Build</strong> section
+        </p>
+      </li>
+      <li>
+        <p>
+          Choose <strong>Android</strong> and <strong>Switch settings</strong>
+        </p>
+      </li>
+    </ul>
+    <p><img src="images/switch_platform.png" alt="" /></p>
+    <h4>AR</h4>
+    <p>
+      AR core is only supported on more recent versions of Android, so we need
+      to set the minimum version to support the maximum number of devices which
+      support AR core.
+    </p>
+    <ul>
+      <li>
+        In the top menu, go to <strong>Edit &gt; Project Settings</strong>
+      </li>
+      <li>
+        In the <strong>Player</strong> Section find the
+        <strong>Other settings</strong> section
+      </li>
+      <li>
+        Change the<strong>Minimum API Level</strong> to <strong>27</strong>.
+      </li>
+    </ul>
+    <h3>Set-up you device</h3>
+    <p>
+      All Android devices are slightly different, so you may need to research
+      how to do this on your particular device
+    </p>
+    <p>Most phones and tablets require 2 steps on the device:</p>
+    <ol>
+      <li>Turn on developer mode</li>
+      <li>turn on USB debugging</li>
+    </ol>
+    <h4>Turn on developer mode</h4>
+    <ul>
+      <li>On your phone or tablet, go to <strong>settings</strong></li>
+      <li>Open the <strong>about</strong> section (normally at the bottom)</li>
+      <li>Tap the build number 7 times.</li>
+    </ul>
+    <p>You should get a message confirming you are now a developer.</p>
+    <h4>Turn on USB debugging</h4>
+    <p>Still in the settings</p>
+    <ul>
+      <li>Open the <strong>System</strong> section</li>
+      <li>Find <strong>Developer Options</strong></li>
+      <li>Turn on <strong>USB debugging</strong></li>
+    </ul>
+    <h4>VR devices</h4>
+    <p>
+      To turn on developer mode on a meta quest you need to open the meta app on
+      your phone, find the vr device and turn on developer mode in the settins.
+    </p>
+    <h3>Plug in</h3>
+    <p>Now that you have set up your device you can plug it in</p>
+    <ul>
+      <li>Plug your Android device into your computer using the USB cable.</li>
+    </ul>
+    <p>
+      You should get 2 message boxes appearing on your device asking for
+      permission to share files and to connect for debugging.
+    </p>
+    <ul>
+      <li>
+        Accept both pop up messages, if you accidentally refuse one, just unplug
+        and try again.
+      </li>
+    </ul>
+    <h3>Build you app</h3>
+    <p>Now that our device is ready we can build to it from Unity.</p>
+    <ul>
+      <li>Back in Unity, go to <strong>File &gt; Build Settings</strong></li>
+      <li>
+        Press <strong>Add Open Scene</strong> to make sure you are building the
+        correct scene, <strong>untick</strong> the sample scene.
+      </li>
+      <li>
+        <strong>Refresh</strong> Run devices and choose the device you plugged
+        in.
+      </li>
+      <li>Press <strong>Build and Run</strong></li>
+    </ul>
+    <p><img src="images/build_and_run.png" alt="" /></p>
+    <ul>
+      <li>
+        Create a folder called "Build" inside your project folder. (If you are
+        using git, the default unity git ignore file will helpfully ignore the
+        build folder)
+      </li>
+      <li>
+        Go into the new Build folder, name your file, I called mine "AR Burger".
+      </li>
+    </ul>
+    <p><img src="images/saveBuild.png" alt="" /></p>
+    <ul>
+      <li>
+        Press <strong>Save</strong> and your project will build and deploy the
+        app to your device. It may take a few minutes the first time.
+      </li>
+    </ul>
+  </body>
+</html>

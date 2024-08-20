@@ -1,4 +1,4 @@
-# Unity AR
+# Unity AR - face tracking
 
 This Worksheet will guide you through creating a Augmented reality(AR) face tracking Unity project and deploying it to an Android devices.
 
@@ -107,67 +107,9 @@ We can now test the project on a real device
 
 Now that we have successfully tested our project in the simulated environment we can try it on a real device.
 
-If you remember how to do this from a previous worksheet, build to your device now and then skip to section 4.
+As this process with be the same every time you build to android I have made a seperate guide showing you how to do it.
 
-### Android
-
-We will be building to an Android device in this worksheet. It is possible to build to an an IOS device, but it takes extra steps.
-
-If you want to learn more about building to an IOS device, you can follow this tutorial
-
-https://betterprogramming.pub/test-your-unity-game-on-an-ios-device-without-a-developer-account-ac256fb00a1
-
-### Set-up you device
-
-All Android devices are slightly different, so you may need to research how to do this on your particular device
-
-Most require 2 steps on the device:
-1. Turn on developer mode
-2. turn on USB debugging
-
-#### Turn on developer mode
-
-- On your phone or tablet, go to **settings**
-- Open the **about** section (normally at the bottom)
-- Tap the build number 7 times.
-
-You should get a message confirming you are now a developer.
-
-#### Turn on USB debugging
-
-Still in the settings
-
-- Open the **System** section
-- Find **Developer Options**
-- Turn on **USB debugging**
-
-### Plug in
-
-Now that you have set up your device you can plug it in
-
-- Plug your Android device into your computer using the USB cable.
-
-You should get 2 message boxes appearing on your device asking for permission to share files and to connect for debugging.
-
-- Accept both pop up messages, if you accidentally refuse one, just unplug and try again.
-
-### Build you app
-
-Now that our device is ready we can build to it from Unity.
-
-- Back in Unity, go to **File > Build Settings**
-- Press **Add Open Scene** to make sure you are building the correct scene, **untick** the sample scene.
-- **Refresh** Run devices and choose the device you plugged in.
-- Press **Build and Run**
-
-![](images/build_and_run.png)
-
-- Create a folder called "Build" inside your project folder. (If you are using git, the default unity git ignore file will helpfully ignore the build folder)
-- Go into the new Build folder, name your file, I called mine "AR Burger".
-
-![](images/saveBuild.png)
-
-- Press **Save** and your project will build and deploy the app to your device. It may take a few minutes the first time.
+[Build to an android device](./build_to_android.html)
 
 ## 4. Testing
 

@@ -1,0 +1,466 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="styles/styles.css" />
+    <title>Ar Tracked Image</title>
+  </head>
+  <body>
+    <h1>Unity AR - Tracked Image</h1>
+    <p>
+      This Worksheet will guide you through creating a Augmented reality(AR)
+      tracked image Unity project
+    </p>
+    <p>
+      The screen shot were created on a PC using Unity version 2022.3.20f1, they
+      may look slightly different on a Mac but as long as you have a similar
+      version of Unity the functionality is the same.
+    </p>
+    <p>if you get stuck please ask for help.</p>
+    <h2>1. Create a new AR project</h2>
+    <ul>
+      <li>Create a new Unity Project in Unity Hub</li>
+    </ul>
+    <p><img src="images/new_project.png" alt="New Project" /></p>
+    <ul>
+      <li>
+        Choose the <strong>AR Mobile core</strong> template (you may need to
+        download it first)
+      </li>
+    </ul>
+    <p><img src="images/new_project_settings.png" alt="" /></p>
+    <p>
+      The project has a lot of dependencies so may take a while to load the
+      first time.
+    </p>
+    <h3>Convert to Android</h3>
+    <p>
+      We will be deploying our project to an Android tablet, so need to change
+      the target platform, it is best to do this now before we start.
+    </p>
+    <ul>
+      <li>
+        <p>In the top menu go to <strong>File &gt; Build settings</strong></p>
+      </li>
+      <li>
+        <p>
+          Choose <strong>Android</strong> and <strong>Switch settings</strong>
+        </p>
+      </li>
+    </ul>
+    <p><img src="images/switch_platform.png" alt="" /></p>
+    <p>
+      AR core is only supported on more recent versions of Android, so we need
+      to set the minimum version.
+    </p>
+    <ul>
+      <li>
+        In the top menu, go to <strong>Edit &gt; Project Settings</strong>
+      </li>
+      <li>
+        In the <strong>Player</strong> Section find the
+        <strong>Other settings</strong> section
+      </li>
+      <li>
+        Change the<strong>Minimum API Level</strong> to <strong>27</strong>.
+      </li>
+    </ul>
+    <p><img src="images/minimum_api.png" alt="" /></p>
+    <h3>New Scene</h3>
+    <p>First we are going to create a brand new scene</p>
+    <ul>
+      <li>
+        <p>In the top menu go to <strong>File &gt; New Scene</strong></p>
+      </li>
+      <li>
+        <p>Choose <strong>AR</strong> and press <strong>Create</strong></p>
+      </li>
+    </ul>
+    <h3>Scene Contents</h3>
+    <p>
+      We could have set this up ourselves manualy but using teh AR template
+      saves us time.
+    </p>
+    <p>
+      The two main things an AR scene needs are an
+      <strong>XR origin</strong> and <strong>XR Session</strong>
+    </p>
+    <ul>
+      <li>Delete the Cube from the Hierarchy.</li>
+    </ul>
+    <h4>Save the scene</h4>
+    <ul>
+      <li>
+        In the top menu, go to <strong>File &gt; Save as</strong> and save your
+        scene in the <strong>Scenes</strong> folder. Call it
+        "burger_marker_scene".
+      </li>
+    </ul>
+    <h2>2. Add an AR tracked image</h2>
+    <p>
+      Our first project is to get a 3D object to appear on an image in the real
+      world. The image could be on your business card or on a poster, product
+      packaging or billboard, anywhere you can put an image and point your
+      camera at it.
+    </p>
+    <ul>
+      <li>
+        <a href="https://www.youtube.com/watch?v=xBYDmauqdaw"
+          >AR business card</a
+        >
+      </li>
+    </ul>
+    <h3>Tracked Image Manager</h3>
+    <p>Our project needs to look out for our marker image.</p>
+    <ul>
+      <li>
+        Select the <strong>XR Origin (AR Rig)</strong> object in your Hierarchy
+        and in the inspector, add a
+        <strong>Tracked Image Manager</strong> component.
+      </li>
+    </ul>
+    <p><img src="images/tracked_image_manager.png" alt="" /></p>
+    <p>
+      You should see that this component needs a
+      <strong>Serialized Library</strong>, which is just a list which contains
+      the marker images we want to track and
+      <strong>Tracked Image Prefab</strong> which is the 3D object we want to
+      appear when the camera sees our marker image.
+    </p>
+    <p>We will first get our marker image.</p>
+    <h3>Create a tracker image and add it to your project</h3>
+    <p>I have given you a tracker image you can download here:</p>
+    <p><a href="./assets_for_worksheet/burger.png">burger.png</a></p>
+    <p>When you create you own, Unity gives the following advise:</p>
+    <ul>
+      <li>
+        <p>Size must be at least 300 x 300 pixels.</p>
+      </li>
+      <li>
+        <p>Format must be PNG or JPG.</p>
+      </li>
+      <li>
+        <p>
+          Image can be black and white or colour but must have strong contrast.
+        </p>
+      </li>
+      <li>
+        <p>Image should avoid repeated patterns.</p>
+      </li>
+      <li>
+        <p>
+          Add the image to your project by dragging it into the Assets folder.
+        </p>
+      </li>
+    </ul>
+    <h4>Reference Image library</h4>
+    <p>
+      We will now create a <strong>Reference Image library</strong> to store our
+      image.
+    </p>
+    <ul>
+      <li>
+        <p>
+          <strong>Right click</strong> in the Assets panel and choose
+          <strong>Create &gt; XR &gt; Reference Image Library</strong>
+        </p>
+      </li>
+      <li>
+        <p>Rename you new library ( I called mine "burger_image_library"</p>
+      </li>
+      <li>
+        <p>
+          Select the new library and press <strong>Add Image</strong> in the
+          inspector
+        </p>
+      </li>
+    </ul>
+    <p><img src="images/add_image.png" alt="" /></p>
+    <ul>
+      <li>
+        <p>
+          Press <strong>Select</strong> and choose your burger image, or just
+          drag it in from your assets.
+        </p>
+      </li>
+      <li>
+        <p>Make sure you turn on <strong>Keep Texture at Runtime</strong></p>
+      </li>
+    </ul>
+    <p><img src="images/burger_image_in_library.png" alt="" /></p>
+    <h3>Prefab</h3>
+    <p>
+      We want to display a 3D model on the tracker, the model can be as complex
+      as you like, with animations and scripts attached, but for this worksheet
+      we will keep it simple.
+    </p>
+    <p>Download the model of a burger here:</p>
+    <p><a href="./assets_for_worksheet/burger.fbx">burger.fbx</a></p>
+    <ul>
+      <li>Drag your model into the assets panel.</li>
+    </ul>
+    <h3>Connect up the manager</h3>
+    <p>
+      Now we have our image library and prefab we can add them to our tracked
+      image manager.
+    </p>
+    <ul>
+      <li>
+        <p>Select the <strong>XR Origin (AR Rig)</strong> in the Hierarchy.</p>
+      </li>
+      <li>
+        <p>
+          Drag the burger 3d model on to the
+          <strong>Tracked Image Prefab</strong> slot.
+        </p>
+      </li>
+      <li>
+        <p>
+          Drag the image library onto the
+          <strong>Serialized Library</strong> slot.
+        </p>
+      </li>
+    </ul>
+    <p><img src="images/library_and_prefab_on_manager.png" alt="" /></p>
+    <h2>3. Simulated Environment</h2>
+    <p>
+      To avoid having to build this project to an actual device every time we
+      want to test it we will create a simulated environment in Unity. This will
+      take time to build, but will save us a considerable amount of time when
+      testing our app.
+    </p>
+    <ul>
+      <li>
+        <p>
+          On the top menu select
+          <strong>window &gt; XR &gt; AR Foundation &gt; XR Environment</strong>
+        </p>
+      </li>
+      <li>
+        <p>
+          Duplicate the default default environment and save it in your assets
+          folder.
+        </p>
+      </li>
+    </ul>
+    <p><img src="images/duplicate_environment.png" alt="" /></p>
+    <p>This is our simulated real world.</p>
+    <p>The Camera in this environment is the camera on your mobile device.</p>
+    <p>
+      You should see a black square with the Unity logo on it, this represents
+      your physical tracker in the real world.
+    </p>
+    <ul>
+      <li>
+        Try to navigate around this environment by holding Hold down the
+        <strong>right mouse button</strong>
+        <ul>
+          <li>Move the mouse to rotate.</li>
+          <li>Press <strong>W,S,A or D</strong> to move.</li>
+          <li>Press <strong>Q or E</strong> to go up and down.</li>
+        </ul>
+      </li>
+    </ul>
+    <h4>Add our tracked image to the simulated environment</h4>
+    <p>
+      The simulated environment already has a tracked image in it with the Unity
+      Logo on it, We want to create our own with our burger image.
+    </p>
+    <ul>
+      <li>
+        Select the <strong>Simulated Tracked Image</strong> in the Hierarchy and
+        delete it.
+      </li>
+    </ul>
+    <p><img src="images/delete_simulated_image.png" alt="" /></p>
+    <ul>
+      <li>
+        In the Hierarchy <strong>right click</strong> and choose
+        <strong>Create empty</strong> to make a new empty object.
+      </li>
+      <li>Rename it to "simulated burger tracker"</li>
+      <li>
+        In the inspector add the
+        <strong>Simulated Tracker Image</strong> component
+      </li>
+      <li>
+        Add your burger image to the <strong>Image</strong> slot in the
+        component.
+      </li>
+      <li>
+        Change the Physical Size to 0.1 (this is 10 cm, the same size it will be
+        in the real world)
+      </li>
+    </ul>
+    <p><img src="images/simulated_tracker_image.png" alt="" /></p>
+    <p>
+      The tracker will now be recognised in the simulation, but we want to add
+      the image to make it look correct.
+    </p>
+    <ul>
+      <li>
+        <strong>Right click</strong> and create a new quad inside this new
+        object and rename it to "ImageQuad".
+      </li>
+    </ul>
+    <p><img src="images/quad_image.png" alt="" /></p>
+    <p>We now need to add the tracked image to the quad as a material.</p>
+    <ul>
+      <li>
+        Create a new materials by <strong>right clicking</strong> in the Assets
+        panel and choosing <strong>Create &gt; material</strong>
+      </li>
+      <li>Rename the material "burgerImageMat".</li>
+      <li>
+        In the Inspector, change the shader to
+        <strong>Unlit/Texture</strong> and add the burger tracker image as the
+        texture.
+      </li>
+    </ul>
+    <p><img src="images/Unlit_texture.png" alt="" /></p>
+    <ul>
+      <li>Drag the new material onto the Quad you made earlier.</li>
+    </ul>
+    <p><img src="images/burger_marker_in_scene.png" alt="" /></p>
+    <ul>
+      <li>Finally, scale your quad down to 0.1, and rotate by 90 in X.</li>
+    </ul>
+    <p><img src="images/ScaleImageQuad.png" alt="" /></p>
+    <h3>Test your simulation</h3>
+    <p>
+      Now that we have a simulated environment with a simulated tracked image in
+      it we can test our scene.
+    </p>
+    <ul>
+      <li>
+        <p>Press the play button</p>
+      </li>
+      <li>
+        <p>
+          Navigate around your scene you should see the 3D burger appear on the
+          marker.
+        </p>
+      </li>
+    </ul>
+    <p><img src="images/burger_on_marker.png" alt="" /></p>
+    <p>Make sure the burger sits centrally on the marker.</p>
+    <p>
+      This simulated environment allows you to test without having to build your
+      scene to a proper device. You can add props such as tables and chairs to
+      make it look more like a real room, then position your tracker image
+      appropriately in the environment, this can help to make sure you have the
+      scale correct.
+    </p>
+    <p>
+      However, we are happy that the burger appears so will now test on a real
+      device.
+    </p>
+    <h2>4. Test on a device</h2>
+    <p>
+      Now that we have successfully tested our project in the simulated
+      environment we can try it on a real device.
+    </p>
+    <p>
+      As this process with be the same every time you build to android I have
+      made a seperate guide showing you how to do it.
+    </p>
+    <p><a href="./build_to_android.html">Build to an android device</a></p>
+    <h3>Testing</h3>
+    <p>
+      We are expecting the burger 3D model to appear on our burger tracker
+      image.
+    </p>
+    <p>
+      You can just use an image on your screen but printing it out will give you
+      a better result.
+    </p>
+    <p>
+      You should see a the burger model appear on your screen locked to the
+      tracking image.
+    </p>
+    <p>
+      Try moving the device and tracking object around and see how it responds.
+    </p>
+    <h2>5. Challenges</h2>
+    <p>
+      Now that we have completed a basic AR project we can take it further in a
+      few ways.
+    </p>
+    <h3>Challenge 1</h3>
+    <p>
+      Replace the burger with a different 3D object, choose something with an
+      animation.
+    </p>
+    <h3>Challenge 2</h3>
+    <p>Add a script to detect when a marker is found.</p>
+    <p>
+      This script will listen for new tracked images and place and place a 3D
+      prefab model on to them. you could extend it to check the name of the
+      tracked image and place a different prefab.
+    </p>
+    <pre><code>using UnityEngine;
+using UnityEngine.XR.ARFoundation;
+
+public class MyTrackedImages : MonoBehaviour
+{
+	private ARTrackedImageManager m_TrackedImageManager;
+	[SerializeField]
+	public GameObject myPrefab ;
+	
+	void OnEnable() =&gt; m_TrackedImageManager.trackedImagesChanged += OnChanged;
+	
+	void OnDisable() =&gt; m_TrackedImageManager.trackedImagesChanged -= OnChanged;
+	
+	/**
+	** Detect when tracked images change
+	**/
+	void OnChanged(ARTrackedImagesChangedEventArgs eventArgs)
+	{
+	    foreach (var newImage in eventArgs.added)
+	    {
+	        // Handle added event
+	        Debug.Log(newImage.referenceImage.name);
+	        
+	        // check name of tracked image
+	        if( newImage.referenceImage.name == &quot;tracked image name&quot;){
+	        // create a copy of my prefab at the location of the tracked image
+	        Instantiate(myPrefab, newImage.transform);
+	        
+	        }
+	    }
+	
+	    foreach (var updatedImage in eventArgs.updated)
+	    {
+	        // Handle updated event
+	    }
+	
+	    foreach (var removedImage in eventArgs.removed)
+	    {
+	        // Handle removed event
+	    }
+	}
+}
+</code></pre>
+    <p>
+      <a
+        href="https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.1/manual/features/image-tracking.html"
+        >Unity documentation</a
+      >
+    </p>
+    <h2>References</h2>
+    <ul>
+      <li><a href="https://skfb.ly/onCMo">Burger model</a></li>
+      <li>
+        <a
+          href="https://www.vecteezy.com/vector-art/17503957-hot-burgers-vector-logo-illustration-modern-burgers-emblem-vector-art"
+          >Burger image</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/features/image-tracking.html"
+          >Unity AR Foundation documentation</a
+        >
+      </li>
+    </ul>
+  </body>
+</html>

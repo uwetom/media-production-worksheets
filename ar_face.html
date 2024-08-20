@@ -1,0 +1,318 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Ar Face tracking</title>
+  </head>
+  <body>
+    <h1>Unity AR - face tracking</h1>
+    <p>
+      This Worksheet will guide you through creating a Augmented reality(AR)
+      face tracking Unity project and deploying it to an Android devices.
+    </p>
+    <p>
+      The screen shot were created on a PC using Unity version 2022.3.20f1, they
+      may look slightly different on a Mac but as long as you have a similar
+      version of Unity the functionality is the same.
+    </p>
+    <p>if you get stuck please ask for help.</p>
+    <h2>1. Create a new AR project</h2>
+    <ul>
+      <li>Create a new Unity Project in Unity Hub</li>
+    </ul>
+    <p><img src="images/new_project.png" alt="New Project" /></p>
+    <ul>
+      <li>
+        Choose the <strong>AR Mobile core</strong> template (you may need to
+        download it first)
+      </li>
+    </ul>
+    <p><img src="images/new_project_settings.png" alt="" /></p>
+    <p>
+      The project has a lot of dependencies so may take a while to load the
+      first time.
+    </p>
+    <h3>Convert to Android</h3>
+    <p>
+      We will be deploying our project to an Android tablet, so need to change
+      the target platform, it is best to do this now before we start.
+    </p>
+    <ul>
+      <li>
+        <p>In the top menu go to <strong>File &gt; Build settings</strong></p>
+      </li>
+      <li>
+        <p>
+          Choose <strong>Android</strong> and <strong>Switch settings</strong>
+        </p>
+      </li>
+    </ul>
+    <p><img src="images/switch_platform.png" alt="" /></p>
+    <p>
+      AR core is only supported on more recent versions of Android, so we need
+      to set the minimum version.
+    </p>
+    <ul>
+      <li>
+        In the top menu, go to <strong>Edit &gt; Project Settings</strong>
+      </li>
+      <li>
+        In the <strong>Player</strong> Section find the
+        <strong>Other settings</strong> section
+      </li>
+      <li>
+        Change the<strong>Minimum API Level</strong> to <strong>27</strong>.
+      </li>
+    </ul>
+    <p><img src="images/minimum_api.png" alt="" /></p>
+    <h3>New Scene</h3>
+    <p>First we are going to create a brand new scene</p>
+    <ul>
+      <li>
+        <p>In the top menu go to <strong>File &gt; New Scene</strong></p>
+      </li>
+      <li>
+        <p>Choose <strong>AR</strong> and press <strong>Create</strong></p>
+      </li>
+    </ul>
+    <h3>Scene Contents</h3>
+    <p>
+      We could have set this up ourselves manualy but using teh AR template
+      saves us time.
+    </p>
+    <p>
+      The two main things an AR scene needs are an
+      <strong>XR origin</strong> and <strong>XR Session</strong>
+    </p>
+    <ul>
+      <li>Delete the Cube from the Hierarchy.</li>
+    </ul>
+    <h4>Save the scene</h4>
+    <ul>
+      <li>
+        In the top menu, go to <strong>File &gt; Save as</strong> and save your
+        scene in the <strong>Scenes</strong> folder. Call it
+        "face_tracking_scene".
+      </li>
+    </ul>
+    <h2>2. Add a face</h2>
+    <p>To begin with, we just want to see a blank face.</p>
+    <h3>Create a face</h3>
+    <ul>
+      <li>
+        In the Hierarchy, <strong>right click</strong> and choose
+        <strong>XR &gt; AR Default face</strong>
+      </li>
+    </ul>
+    <p><img src="images/default_face.png" alt="default face menu" /></p>
+    <p>
+      The default face has a broken pink texture on it so we need to make a new
+      one.
+    </p>
+    <ul>
+      <li>
+        <p>
+          <strong>Right click</strong> in the Assets panel and make create a new
+          materials (<strong>Create &gt; Material</strong>). Rename it and
+          Change the Base Map colour.
+        </p>
+      </li>
+      <li>
+        <p>
+          Drag the material onto the <strong>AR default Face</strong> in your
+          Hierachy.
+        </p>
+      </li>
+    </ul>
+    <p>We now need to turn this edited face into a prefab</p>
+    <ul>
+      <li>
+        Drag the <strong>AR Default Face</strong> from the
+        <strong>Hierarchy</strong> into the <strong>Assets</strong> Panel, it
+        should turn blue.
+      </li>
+      <li></li>
+    </ul>
+    <p><img src="images/default_face_prefab.png" alt="" /></p>
+    <h3>Create a face manager</h3>
+    <ul>
+      <li>
+        On the <strong>XR Origin</strong>, add an
+        <strong>AR Face Manager</strong> component.
+      </li>
+      <li>
+        Drag your new <strong>AR Default Face</strong> prefab from the
+        <strong>Assets</strong> panel onto the <strong>Face Prefab</strong> slot
+        on the <strong>AR Face Manager</strong>.
+      </li>
+    </ul>
+    <p><img src="images/AR_face_manager.png" alt="" /></p>
+    <h2>Change camera</h2>
+    <p>
+      Unity uses the rear camera as the default, for face tracking we need to
+      use the front facing camera.
+    </p>
+    <ul>
+      <li>
+        In the <strong>Hierarchy</strong> find the
+        <strong>Main Camera</strong> inside the <strong>XR Origin</strong>.
+      </li>
+    </ul>
+    <p><img src="images/Main_Camera.png" alt="" /></p>
+    <ul>
+      <li>
+        In the <strong>Inspector</strong>, in the
+        <strong>AR Camera Manager</strong> component, change the
+        <strong>Facing Direction</strong> to <strong>User</strong>
+      </li>
+    </ul>
+    <p><img src="images/facing_direction.png" alt="" /></p>
+    <h2>Test on a device</h2>
+    <p>We can now test the project on a real device</p>
+    <h2>3. Test on a device</h2>
+    <p>
+      Now that we have successfully tested our project in the simulated
+      environment we can try it on a real device.
+    </p>
+    <p>
+      As this process with be the same every time you build to android I have
+      made a seperate guide showing you how to do it.
+    </p>
+    <p><a href="./build_to_android.html">Build to an android device</a></p>
+    <h2>4. Testing</h2>
+    <p>
+      You should see a mask covering you face on your device. If it doesn"t
+      work, go back and make sure you have not missed anything.
+    </p>
+    <h2>5. More textures</h2>
+    <p>
+      The default face deforms to fit your face and reacts to your face. this
+      works well with materials with image textures on them.
+    </p>
+    <ul>
+      <li>Download these images and put them in your assets folder.</li>
+    </ul>
+    <p>
+      <a href="./assets_for_worksheet/tattoo.png">tattoo image</a>
+      <a href="./assets_for_worksheet/luchadores.png">mask image</a>
+      <a href="./assets_for_worksheet/lightning.png">lighning image</a>
+    </p>
+    <ul>
+      <li>
+        <p>
+          Make a new material in the assets panel, and call it "face_material"
+        </p>
+      </li>
+      <li>
+        <p>
+          Change the <strong>Surface Type</strong> to
+          <strong>Transparent</strong>
+        </p>
+      </li>
+      <li>
+        <p>Drag one of your images into the <strong>Base Map</strong> slot</p>
+      </li>
+    </ul>
+    <p>
+      You can test the material by creating a new sphere in the
+      <strong>hierarchy</strong> and dragging the material on to it.
+    </p>
+    <p>
+      To improve the edges of transparency you can experiment with the alpha
+      clipping and blend modes properties on the material.
+    </p>
+    <p>
+      <img src="images/transparency.png" alt="transparent material on sphere" />
+    </p>
+    <p>
+      When you are happy you can apply delete your test sphere you can now apply
+      the texture to the face.
+    </p>
+    <ul>
+      <li>
+        <strong>Double click</strong> the
+        <strong>AR Default face</strong> prefab to open it
+      </li>
+    </ul>
+    <p>
+      <img src="images/default_face_prefab.png" alt="Ar Default face icon" />
+    </p>
+    <ul>
+      <li>
+        <p>
+          Drag the new material onto the <strong>AR Default Face</strong> in the
+          Hierarchy.
+        </p>
+      </li>
+      <li>
+        <p>Now rebuild the project to test the face on your device.</p>
+      </li>
+    </ul>
+    <h2>6. Object</h2>
+    <p>You can also add different prefabs to your face.</p>
+    <p>download the following objects:</p>
+    <p>
+      <a href="./assets_for_worksheet/head.fbx">head.fbx</a>
+      <a href="./assets_for_worksheet/glasses.fbx">glasses.fbx</a>
+      <a href="./assets_for_worksheet/stach.fbx">moustache.fbx</a>
+    </p>
+    <p>
+      First we need a referece so we know where to put the objects on the face.
+    </p>
+    <ul>
+      <li>Open the <strong>AR Default Face</strong> prefab.</li>
+      <li>
+        Drag the head you just downloaded onto the <strong>Hierarchy</strong>,
+        make sure it is placed at 0,0,0 position in the inspector.
+      </li>
+    </ul>
+    <p>
+      You can now use this head as a guild to add and position the other
+      objects.
+    </p>
+    <ul>
+      <li>Add as many objects as you want and position them on the head</li>
+    </ul>
+    <p>You may need the head again, but we want to hide it for now.</p>
+    <ul>
+      <li>
+        In the <strong>Inspector</strong> <strong>un-check</strong> the tick box
+        at the top.
+      </li>
+    </ul>
+    <p><img src="images/Uncheck.png" alt="" /></p>
+    <p>We also need to hide the original face</p>
+    <ul>
+      <li>
+        In the <strong>Hierearchy</strong> select the
+        <strong>AR Default Face</strong> and turn off the
+        <strong>Mesh Renderer</strong> component.
+      </li>
+    </ul>
+    <p>You can now build your project again to test it.</p>
+    <h2>7. Challenge</h2>
+    <p>There are a few improvements and additions we can make.</p>
+    <h3>Challenge 1</h3>
+    <ul>
+      <li>
+        Find and add your own models and textures to the face maybe some with
+        animations.
+      </li>
+    </ul>
+    <h3>Challenge 2</h3>
+    <p>
+      If you added the glasses model you should see that you can see the arms of
+      the glasses through your head if you look to the side.
+    </p>
+    <ul>
+      <li>
+        Fix this by creating a new material with a shader of
+        <strong>AR /Occlusion</strong>
+      </li>
+      <li>Turn the <strong>Mesh Render</strong> back on on the Face</li>
+      <li>Drag the material onto the face.</li>
+      <li>Test again</li>
+      <li>The face should not appear, but will hide anything behind it.</li>
+    </ul>
+  </body>
+</html>
