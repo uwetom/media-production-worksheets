@@ -37,3 +37,10 @@ img{
 a{
     color:yellowgreen;
 }
+
+pre{
+    background-color: darkslategray;
+    margin-left: 40px;
+    padding: 10px;
+    border: solid white 1px;
+}

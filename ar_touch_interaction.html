@@ -2,7 +2,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="styles/styles.css" />
-    <title>Ar Mobile Interaciton</title>
+    <title>Ar Touch interaction</title>
   </head>
   <body>
     <h1>Unity AR - Mobile interaction</h1>
@@ -175,7 +175,9 @@
       <li>Create a new c# script and call it "UIController".</li>
       <li>Open the script and add 2 new variables at the top.</li>
     </ul>
-    <p>""" public GameObject cube; private bool visibleToggle = true; """</p>
+    <pre><code>public GameObject cube;
+private bool visibleToggle = true;
+</code></pre>
     <p>
       The first will hold a reference to our cube, the second will store the
       current visability of the cube.
@@ -185,8 +187,11 @@
         Add a new function to the script, I have called mine "ButtonPressed".
       </li>
     </ul>
-    <p>""" public void ButtonPressed() {</p>
-    <p>} """</p>
+    <pre><code>public void ButtonPressed()
+{
+
+}
+</code></pre>
     <ul>
       <li>
         Inside the function, add a log message, toggle the boolean variable and
@@ -194,12 +199,13 @@
         of these lines.
       </li>
     </ul>
-    <p>
-      """ Debug.Log("button pressed"); // swap toggle, because its a boolean //
-      !visibleToggle is the opposite of its current value (true/false)
-      visibleToggle = !visibleToggle; //hide or show cube
-      cube.SetActive(visibleToggle); """
-    </p>
+    <pre><code>Debug.Log(&quot;button pressed&quot;);
+// swap toggle, because its a boolean 
+// !visibleToggle is the opposite of its current value (true/false)
+visibleToggle = !visibleToggle;
+//hide or show cube
+cube.SetActive(visibleToggle);
+</code></pre>
     <ul>
       <li>Save the script</li>
     </ul>
@@ -270,27 +276,29 @@
         <p>Create a new script and drag it onto the cube.</p>
       </li>
     </ul>
-    <p>""" using UnityEngine;</p>
-    <p>
-      public class CubeBehaviour : MonoBehaviour { // private reference to a
-      material Material cubeMaterial;
-    </p>
-    <pre><code>// Start is called before the first frame update
-void Start()
-{
-    // get the material of the object this script is attached to
-    cubeMaterial = GetComponent&lt;Renderer&gt;().material;
-    //change the colour to green
-    cubeMaterial.color = Color.green;
-}
+    <pre><code>using UnityEngine;
 
-//Change the colour of the material
-public void ChangeColour()
+public class CubeBehaviour : MonoBehaviour
 {
-    cubeMaterial.color = Color.red;
+    // private reference to a material
+    Material cubeMaterial;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        // get the material of the object this script is attached to
+        cubeMaterial = GetComponent&lt;Renderer&gt;().material;
+        //change the colour to green
+        cubeMaterial.color = Color.green;
+    }
+
+    //Change the colour of the material
+    public void ChangeColour()
+    {
+        cubeMaterial.color = Color.red;
+    }
 }
 </code></pre>
-    <p>} """</p>
     <ul>
       <li>
         Before you run the code, predict what colour you think it will be.
