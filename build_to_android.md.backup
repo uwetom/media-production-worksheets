@@ -17,6 +17,8 @@ Unity will build to Windows, Mac or Linux by default, depending on which operati
 
 - In the top menu go to **File > Build settings**
 
+- Check that the correct scenes are in the **Scenes in Build** section
+
 - Choose **Android** and **Switch settings**
 
 ![](images/switch_platform.png)
