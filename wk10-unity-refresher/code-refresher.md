@@ -74,9 +74,11 @@ The rough plan for the script looks like this:
 
 
 
-The next step is to send that collision information over to the light and add some scripting to the light to turn it on and off. So that's what we're going to do next.
+The next step is to trigger the  that collision information over to the light and add some scripting to the light to turn it on and off. So that's what we're going to do next.
+
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=61c114ae-2c23-4ceb-889d-b2030100f505&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP code refresher - 8 access a function from another script" ></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MzIyOTQ3NiwxMzUyOTk1NTY2LC04ND
+eyJoaXN0b3J5IjpbLTIyMzQ1MDYzMiwxMzUyOTk1NTY2LC04ND
 I3MjE0OTYsLTEzNDcyMzUyNDksMTMxNTI1MzY2NywzNDU1NDk5
 NTQsMTEwNDg4MzE1N119
 -->
