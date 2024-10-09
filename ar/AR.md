@@ -1,4 +1,6 @@
-<a href="http://example.com/" target="_blank">Hello, world!</a>
+
+[link](http://example.com/){target="_blank"}
+
 
 # Unity AR - Tracked Image
 
