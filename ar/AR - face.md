@@ -10,6 +10,8 @@ if you get stuck please ask for help.
 
 - Create a new Unity Project in Unity Hub
 
+![New Project](ar/images/new_project.png)
+
 
 - Choose the **AR Mobile core** template (you may need to download it first)
 
@@ -196,5 +198,5 @@ If you added the glasses model you should see that you can see the arms of the g
 - The face should not appear, but will hide anything behind it.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyODk3MTYzXX0=
+eyJoaXN0b3J5IjpbLTE4Njk4ODgwMCwtNDI4OTcxNjNdfQ==
 -->
