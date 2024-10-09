@@ -15,9 +15,9 @@ Video 3 explains how to create a prefab:
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=ed46776a-1729-447c-8e89-b2010162e642&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP code refresher - 3 prefabs" ></iframe>
 
-Video 4 uses the 'instantiate' function to create a gameo
+Video 4 uses the 'instantiate' function to add a gameobject to a scene at run time:
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=52a65920-4bce-4bb3-aeb0-b20101648a53&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP code refresher - 4 -instantiate gameobjects" ></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA0NTg2NDU1XX0=
+eyJoaXN0b3J5IjpbMjA4NTU5NTE1MV19
 -->
