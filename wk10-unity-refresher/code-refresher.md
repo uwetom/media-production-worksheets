@@ -59,7 +59,7 @@ Need the solution?
 ## Turning the light on and off
 Video 7 shows you how to turn the light on and off, and also how to detect if the light is on and off.
 
-The script will need to roughly work like this:
+The rough plan for the script looks like this:
 
     // create isOn bool variable
     // create ChangeLight() function to turn light on and off
@@ -76,7 +76,7 @@ The script will need to roughly work like this:
 
 The next step is to send that collision information over to the light and add some scripting to the light to turn it on and off. So that's what we're going to do next.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MjA4NjEwNywxMzUyOTk1NTY2LC04ND
-I3MjE0OTYsLTEzNDcyMzUyNDksMTMxNTI1MzY2NywzNDU1NDk5
-NTQsMTEwNDg4MzE1N119
+eyJoaXN0b3J5IjpbLTE1NDE4MTEzMTcsMTM1Mjk5NTU2NiwtOD
+QyNzIxNDk2LC0xMzQ3MjM1MjQ5LDEzMTUyNTM2NjcsMzQ1NTQ5
+OTU0LDExMDQ4ODMxNTddfQ==
 -->
