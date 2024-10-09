@@ -55,7 +55,7 @@ See if you can work out you how to detect collisions in your scene with c#
 
 Tip you'll need to use `OnCollisionEnter` to detect a collision and retrieve information about the collision object.
 
-Need the solution?
+[Need the solution?](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=604c37fc-f50c-4481-abbb-b20201198cf3)
 
 ## Turning the light on and off
 Video 7 shows you how to turn the light on and off while the scene is running, and also how to detect if the light is on and off.
@@ -84,7 +84,7 @@ Specifically we need the collision detection script to run the `ChangeLight()` f
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=61c114ae-2c23-4ceb-889d-b2030100f505&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP code refresher - 8 access a function from another script" ></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAxNTI5OTAzLDEwNTEyNzg4MzgsMTM1Mj
-k5NTU2NiwtODQyNzIxNDk2LC0xMzQ3MjM1MjQ5LDEzMTUyNTM2
-NjcsMzQ1NTQ5OTU0LDExMDQ4ODMxNTddfQ==
+eyJoaXN0b3J5IjpbLTEyNjQxMDYxNzIsMTA1MTI3ODgzOCwxMz
+UyOTk1NTY2LC04NDI3MjE0OTYsLTEzNDcyMzUyNDksMTMxNTI1
+MzY2NywzNDU1NDk5NTQsMTEwNDg4MzE1N119
 -->
