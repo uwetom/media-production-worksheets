@@ -40,7 +40,7 @@ Need the solution?
 
 ## Creating an interaction with collisions
 
-The next task is use the collision created by the spheres falling to the grouns
+The next task is to use the collision created by the spheres falling to the ground
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMTMwMjExNCwxMTA0ODgzMTU3XX0=
+eyJoaXN0b3J5IjpbMzQ1NTQ5OTU0LDExMDQ4ODMxNTddfQ==
 -->
