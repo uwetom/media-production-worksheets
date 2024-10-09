@@ -56,10 +56,11 @@ Tip you'll need to use `OnCollisionEnter` to detect a collision and retrieve inf
 
 Need the solution?
 
+## Turning the light on and off
 
 The next step is to send that collision information over to the light and add some scripting to the light to turn it on and off. So that's what we're going to do next.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MDc0MSwxMzUyOTk1NTY2LC04NDI3Mj
-E0OTYsLTEzNDcyMzUyNDksMTMxNTI1MzY2NywzNDU1NDk5NTQs
-MTEwNDg4MzE1N119
+eyJoaXN0b3J5IjpbMTcwNDQ3Mjk5OCwxMzUyOTk1NTY2LC04ND
+I3MjE0OTYsLTEzNDcyMzUyNDksMTMxNTI1MzY2NywzNDU1NDk5
+NTQsMTEwNDg4MzE1N119
 -->
