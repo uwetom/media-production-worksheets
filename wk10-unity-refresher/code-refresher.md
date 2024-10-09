@@ -51,8 +51,16 @@ Intro to the next part of the task
 
 Video 6 shows you how to detect collisions in your scene with c#
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=b0f2ae28-7ff1-4904-9b28-b2020117a4e3&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP code refresher - 6 - code challenge" ></iframe>
+
+This video uses `OnCollisionEnter` to a collision and  detect the name of 
+
+    void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log(collision.gameObject.name);
+    }
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjkyMzYxNzQsLTg0MjcyMTQ5NiwtMT
-M0NzIzNTI0OSwxMzE1MjUzNjY3LDM0NTU0OTk1NCwxMTA0ODgz
-MTU3XX0=
+eyJoaXN0b3J5IjpbLTg2MTcwNjA4LC04NDI3MjE0OTYsLTEzND
+cyMzUyNDksMTMxNTI1MzY2NywzNDU1NDk5NTQsMTEwNDg4MzE1
+N119
 -->
