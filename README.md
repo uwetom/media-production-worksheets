@@ -3,8 +3,8 @@
 ## wk10 Unity Refresher
 
  - Add a URP Third Person Controller 
- - C# Code Refresher
+ - C# Code Refresher (Instantiate / collision detection / communication between scripts)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjU1NjE0NDFdfQ==
+eyJoaXN0b3J5IjpbMTE4MjMxMjE3OV19
 -->
