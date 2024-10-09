@@ -46,8 +46,13 @@ The next task is to use the collision created by the spheres falling to the grou
 
 Intro to the next part of the task
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=7b3a43c7-2e03-4d99-b104-b20201168c30&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP code refresher - 5" ></iframe>
+
+## Collision detection
+
+Once you have instantiated a single gameobject work out how to instantiate 20 of the same objects into your scene:
+Watch the full description of the Code Challenge:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjQ5OTUxMTAsLTg0MjcyMTQ5NiwtMT
-M0NzIzNTI0OSwxMzE1MjUzNjY3LDM0NTU0OTk1NCwxMTA0ODgz
-MTU3XX0=
+eyJoaXN0b3J5IjpbLTY2NzM5NjE1OSwtODQyNzIxNDk2LC0xMz
+Q3MjM1MjQ5LDEzMTUyNTM2NjcsMzQ1NTQ5OTU0LDExMDQ4ODMx
+NTddfQ==
 -->
