@@ -11,8 +11,7 @@ kdjfgs dfg
 
 ![enter image description here](https://github.com/uwetom/media-production-worksheets/blob/master/ar/images/build_and_run.png?raw=true)
 
-
+![enter image description here](../ar/images/build_and_run.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTIzNDg4NjgsLTE4NzYwNjc1MThdfQ
-==
+eyJoaXN0b3J5IjpbMTk4MjU4OTQwMiwtMTg3NjA2NzUxOF19
 -->
