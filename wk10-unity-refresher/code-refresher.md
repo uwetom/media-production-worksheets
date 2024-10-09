@@ -18,7 +18,7 @@ Video 3 explains how to create a prefab:
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=ed46776a-1729-447c-8e89-b2010162e642&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP code refresher - 3 prefabs" ></iframe>
 
-## Instantiate (create) gameobjects 
+## Instantiate (create) gameobjects as your scene is running
 Video 4 uses the 'instantiate' function to add a gameobject to a scene at run time:
 
 The  'instantiate()' function needs 3 parameters (I think I say 4 in the video below):
@@ -38,5 +38,5 @@ Watch the full description of the Code Challenge:
 
 Need the solution?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MDE5ODA2NV19
+eyJoaXN0b3J5IjpbLTE0MzU2NDM0MDNdfQ==
 -->
