@@ -42,8 +42,8 @@ Need the solution?
 
 The next task is to use the collision created by the spheres falling to the ground to trigger the spot light to turn on and off.
 
-![enter image description here](wk10-unity-refresher/images/interaction-flow-1.png)
+![enter image description here](images/interaction-flow-1.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkzMzMwMjY0LDEzMTUyNTM2NjcsMzQ1NT
-Q5OTU0LDExMDQ4ODMxNTddfQ==
+eyJoaXN0b3J5IjpbLTEzNDcyMzUyNDksMTMxNTI1MzY2NywzND
+U1NDk5NTQsMTEwNDg4MzE1N119
 -->
