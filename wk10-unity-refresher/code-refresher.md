@@ -17,7 +17,10 @@ Video 3 explains how to create a prefab:
 
 Video 4 uses the 'instantiate' function to add a gameobject to a scene at run time:
 
+T
+
+
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=52a65920-4bce-4bb3-aeb0-b20101648a53&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP code refresher - 4 -instantiate gameobjects" ></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NTU5NTE1MV19
+eyJoaXN0b3J5IjpbLTgxNTAxODk3XX0=
 -->
