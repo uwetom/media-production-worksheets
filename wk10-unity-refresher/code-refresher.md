@@ -28,7 +28,9 @@ Watch the video to see how to use it.
 
 ## Code Challenge
 
-Once you have instantiated a single gameobject work out how to instantiate 20 of the same objects into your sceen
+Once you have instantiated a single gameobject work out how to instantiate 20 of the same objects into your scene:
+Watch the full description of the Code Challenge:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MjU3ODYwOF19
+eyJoaXN0b3J5IjpbNzUyNzM1ODldfQ==
 -->
