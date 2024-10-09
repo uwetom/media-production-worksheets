@@ -83,8 +83,12 @@ So we need know how to let the scripts communicate with each other.
 Specifically we need the collision detection script to run the `ChangeLight()` function in the light script...  So that's what we're going to do next.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=61c114ae-2c23-4ceb-889d-b2030100f505&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP code refresher - 8 access a function from another script" ></iframe>
+
+
+## Add more lights detection challenge
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=ea4b51a1-ec0a-44ee-b6cc-b203011340cb&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP code refresher - 8 code challenge" ></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjQxMDYxNzIsMTA1MTI3ODgzOCwxMz
-UyOTk1NTY2LC04NDI3MjE0OTYsLTEzNDcyMzUyNDksMTMxNTI1
-MzY2NywzNDU1NDk5NTQsMTEwNDg4MzE1N119
+eyJoaXN0b3J5IjpbMTYxMTkzMTE5OCwxMDUxMjc4ODM4LDEzNT
+I5OTU1NjYsLTg0MjcyMTQ5NiwtMTM0NzIzNTI0OSwxMzE1MjUz
+NjY3LDM0NTU0OTk1NCwxMTA0ODgzMTU3XX0=
 -->
