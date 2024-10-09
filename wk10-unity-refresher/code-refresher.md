@@ -76,12 +76,12 @@ The rough plan for the script looks like this:
 ## Access a function in another script
 The next step is to trigger the `ChangeLight()` function to run when there is a collision.
 
-However  the `ChangeLight()` function is in a different script to the collision information.
+However  the `ChangeLight()` function is in a different script to the collision detection.
 So we need how to let the scripts communicate and for collision script to run a function in the light script...  So that's what we're going to do next.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=61c114ae-2c23-4ceb-889d-b2030100f505&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP code refresher - 8 access a function from another script" ></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3ODg3NzU5MywxMzUyOTk1NTY2LC04ND
+eyJoaXN0b3J5IjpbLTg3MjkxMjkxNCwxMzUyOTk1NTY2LC04ND
 I3MjE0OTYsLTEzNDcyMzUyNDksMTMxNTI1MzY2NywzNDU1NDk5
 NTQsMTEwNDg4MzE1N119
 -->
