@@ -52,15 +52,11 @@ Intro to the next part of the task
 See if you can work out you how to detect collisions in your scene with c#
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=b0f2ae28-7ff1-4904-9b28-b2020117a4e3&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP code refresher - 6 - code challenge" ></iframe>
 
-Tip you'll need to use `OnCollisionEnter` to a collision and reterive information about the collision object.
+Tip you'll need to use `OnCollisionEnter` to detect a collision and retrieve information about the collision object.
 
-    void OnCollisionEnter(Collision collision)
-    {
-        Debug.Log(collision.gameObject.name);
-    }
-
+Need the solution?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwODAwOTI1OSwtODQyNzIxNDk2LC0xMz
+eyJoaXN0b3J5IjpbMTM1Mjk5NTU2NiwtODQyNzIxNDk2LC0xMz
 Q3MjM1MjQ5LDEzMTUyNTM2NjcsMzQ1NTQ5OTU0LDExMDQ4ODMx
 NTddfQ==
 -->
