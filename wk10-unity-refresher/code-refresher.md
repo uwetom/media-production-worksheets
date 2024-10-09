@@ -37,6 +37,10 @@ Watch the full description of the Code Challenge:
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=ba59dd76-a3d4-4ab5-891d-b2010170eaef&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP code refresher - 4 code challenge" ></iframe>
 
 Need the solution?
+
+## Creating an interaction with collisions
+
+The next task is use the collision created by the spheres falling to the grouns
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNDg4MzE1N119
+eyJoaXN0b3J5IjpbMTMzMTMwMjExNCwxMTA0ODgzMTU3XX0=
 -->
