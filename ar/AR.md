@@ -1,5 +1,3 @@
-https://codepen.io/Coderesting/pen/yLyaJMz
-
 # Unity AR - Tracked Image
 
 This Worksheet will guide you through creating a Augmented reality(AR) tracked image Unity project
