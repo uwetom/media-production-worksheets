@@ -1,8 +1,4 @@
 
-<a href="http://example.com/" target="_blank">Hello, world!</a>
-
-
-
 # Unity AR - Tracked Image
 
 This Worksheet will guide you through creating a Augmented reality(AR) tracked image Unity project
