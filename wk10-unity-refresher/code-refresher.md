@@ -37,7 +37,7 @@ Once you have instantiated a single gameobject work out how to instantiate 20 of
 Watch the full description of the Code Challenge:
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=ba59dd76-a3d4-4ab5-891d-b2010170eaef&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP code refresher - 4 code challenge" ></iframe>
 
-Need the solution?
+[Need the solution?](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e0bddfca-7769-4715-9b5a-b201016f069d)
 
 ## Creating an interaction with collisions
 
@@ -84,7 +84,7 @@ Specifically we need the collision detection script to run the `ChangeLight()` f
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=61c114ae-2c23-4ceb-889d-b2030100f505&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP code refresher - 8 access a function from another script" ></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MTI3ODgzOCwxMzUyOTk1NTY2LC04ND
-I3MjE0OTYsLTEzNDcyMzUyNDksMTMxNTI1MzY2NywzNDU1NDk5
-NTQsMTEwNDg4MzE1N119
+eyJoaXN0b3J5IjpbNDAxNTI5OTAzLDEwNTEyNzg4MzgsMTM1Mj
+k5NTU2NiwtODQyNzIxNDk2LC0xMzQ3MjM1MjQ5LDEzMTUyNTM2
+NjcsMzQ1NTQ5OTU0LDExMDQ4ODMxNTddfQ==
 -->
