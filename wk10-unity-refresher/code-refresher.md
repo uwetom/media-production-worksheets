@@ -59,12 +59,29 @@ Need the solution?
 ## Turning the light on and off
 Video 7 shows you how to turn the light on and off, and also how to detect if the light is on and off.
 
+The script will look roughly like this:
+
+    Turn light on / off
+
+  
+
+// create isOn bool variable
+
+  
+
+// create ChangeLight() function to turn light on and off
+
+// if light is on turn off
+
+// if light is off turn on
+
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=8d383c54-1f52-44ac-83e7-b20300faba59&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP code refresher - 7 turn light on and off" ></iframe>
+
 
 
 The next step is to send that collision information over to the light and add some scripting to the light to turn it on and off. So that's what we're going to do next.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTQ5Nzg5NjgsMTM1Mjk5NTU2NiwtOD
+eyJoaXN0b3J5IjpbLTE0OTAxNzI1MTUsMTM1Mjk5NTU2NiwtOD
 QyNzIxNDk2LC0xMzQ3MjM1MjQ5LDEzMTUyNTM2NjcsMzQ1NTQ5
 OTU0LDExMDQ4ODMxNTddfQ==
 -->
