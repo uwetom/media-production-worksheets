@@ -40,7 +40,8 @@ Need the solution?
 
 ## Creating an interaction with collisions
 
-The next task is to use the collision created by the spheres falling to the ground
+The next task is to use the collision created by the spheres falling to the ground to trigger the spot light to turn on and off.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ1NTQ5OTU0LDExMDQ4ODMxNTddfQ==
+eyJoaXN0b3J5IjpbMTMxNTI1MzY2NywzNDU1NDk5NTQsMTEwND
+g4MzE1N119
 -->
