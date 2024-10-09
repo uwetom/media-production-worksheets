@@ -26,7 +26,7 @@ They are : 1. the prefab gameobject to create, 2. its xyz position in space (a V
 
     Instantiate(gameobject, new Vector3(x,y,z), rotation);
 
-Look at [https://docs.unity3d.com/](https://docs.unity3d.com/)
+Find the  documentation for Instantiate at [https://docs.unity3d.com/](https://docs.unity3d.com/) to see the documentation
 Watch  video 4 to see how to use it. 
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=52a65920-4bce-4bb3-aeb0-b20101648a53&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP code refresher - 4 -instantiate gameobjects" ></iframe>
@@ -84,7 +84,7 @@ Specifically we need the collision detection script to run the `ChangeLight()` f
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=61c114ae-2c23-4ceb-889d-b2030100f505&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP code refresher - 8 access a function from another script" ></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxODYxNDM2NCwxMzUyOTk1NTY2LC04ND
-I3MjE0OTYsLTEzNDcyMzUyNDksMTMxNTI1MzY2NywzNDU1NDk5
-NTQsMTEwNDg4MzE1N119
+eyJoaXN0b3J5IjpbNzI0NDM2NDg3LDEzNTI5OTU1NjYsLTg0Mj
+cyMTQ5NiwtMTM0NzIzNTI0OSwxMzE1MjUzNjY3LDM0NTU0OTk1
+NCwxMTA0ODgzMTU3XX0=
 -->
