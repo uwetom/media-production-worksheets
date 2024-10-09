@@ -22,7 +22,7 @@ Video 3 explains how to create a prefab:
 Video 4 uses the 'instantiate' function to add a gameobject to a scene at run time:
 
 The  'instantiate()' function needs 3 parameters (I think I say 4 in the video below):
-The prefab gameobject to create, its xyz position in space (a Vector3), and it's rotation
+the prefab gameobject to create, its xyz position in space (a Vector3), and it's rotation
 
     Instantiate(gameobject, xyz position, rotation);
 
@@ -38,5 +38,5 @@ Watch the full description of the Code Challenge:
 
 Need the solution?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzU2NDM0MDNdfQ==
+eyJoaXN0b3J5IjpbMTEwNDg4MzE1N119
 -->
