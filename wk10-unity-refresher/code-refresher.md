@@ -67,7 +67,7 @@ The rough plan for the script looks like this:
     // if isOn == true 
     //		turn off the light
     // if light is off 
-    if isOn == false 
+    // else if isOn == false 
     //		turn off the light
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=8d383c54-1f52-44ac-83e7-b20300faba59&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP code refresher - 7 turn light on and off" ></iframe>
@@ -76,7 +76,7 @@ The rough plan for the script looks like this:
 
 The next step is to send that collision information over to the light and add some scripting to the light to turn it on and off. So that's what we're going to do next.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDE4MTEzMTcsMTM1Mjk5NTU2NiwtOD
-QyNzIxNDk2LC0xMzQ3MjM1MjQ5LDEzMTUyNTM2NjcsMzQ1NTQ5
-OTU0LDExMDQ4ODMxNTddfQ==
+eyJoaXN0b3J5IjpbMTM5MzIyOTQ3NiwxMzUyOTk1NTY2LC04ND
+I3MjE0OTYsLTEzNDcyMzUyNDksMTMxNTI1MzY2NywzNDU1NDk5
+NTQsMTEwNDg4MzE1N119
 -->
