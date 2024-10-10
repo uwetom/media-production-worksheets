@@ -27,8 +27,8 @@ You can find a list of unsecured data with API access here
 
 [https://free-apis.github.io/#/browse](https://free-apis.github.io/#/browse)
 
-Install a JSON formatter browser extension / addon
-Chrome browser extension
+## Install a JSON formatter browser extension / addon Chrome browser extension
+
 https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en 
 
 Firefox addon
@@ -37,5 +37,5 @@ https://addons.mozilla.org/en-GB/firefox/addon/basic-json-formatter/
 Use Safari or Edge? We feel for you…
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzM5NDcyODMsOTMxMjMxNDY0XX0=
+eyJoaXN0b3J5IjpbLTIxMjc0OTQ2ODMsOTMxMjMxNDY0XX0=
 -->
