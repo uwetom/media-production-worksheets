@@ -31,14 +31,14 @@ You can find a list of unsecured data with API access here
 So that we can easily read the returned data Install one of these browser extensions.
 
 The data that will be returned to us will be formatted as javaScript Object Notation. The browser extension will make it much easier to read.
-
+Chrome extension:
 https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en 
 
-Firefox addon
+Firefox addon:
 https://addons.mozilla.org/en-GB/firefox/addon/basic-json-formatter/ 
 
 Use Safari or Edge? We feel for you…
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMzc0MTM0Miw5MzEyMzE0NjRdfQ==
+eyJoaXN0b3J5IjpbOTA5MTY4MzgxLDkzMTIzMTQ2NF19
 -->
