@@ -39,6 +39,20 @@ https://addons.mozilla.org/en-GB/firefox/addon/basic-json-formatter/
 
 Use Safari or Edge? We feel for you…
 
+## Getting some data
+Let's start getting some data with a joke API to begin with. This API returns a random / different joke on every request.
+
+Put this URl in your browser
+[https://v2.jokeapi.dev/joke/Any?safe-mode](https://v2.jokeapi.dev/joke/Any?safe-mode)
+If you have successfully installed the Chrome or Firefox extension you should see the following.
+
+  
+
+## Code Challenge - get some data
+Now you have a go using weather data using open meteo. Look at the documentation and try and work out what request you need to make in order to return some whether data about our current location…
+
+[https://open-meteo.com/](https://open-meteo.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA5MTY4MzgxLDkzMTIzMTQ2NF19
+eyJoaXN0b3J5IjpbLTY5MjYwODAxNiw5MDkxNjgzODEsOTMxMj
+MxNDY0XX0=
 -->
