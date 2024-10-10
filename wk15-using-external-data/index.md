@@ -50,9 +50,11 @@ If you have successfully installed the Chrome or Firefox extension you should se
 
 ## Code Challenge - get some data
 Now you have a go using weather data using open meteo. Look at the documentation and try and work out what request you need to make in order to return some weather data about our current location…
+(Hint: use maps to get our Latitude and Longitude position)
 
 [https://open-meteo.com/](https://open-meteo.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNjEyODIwOCwtNjY5ODM5MzEwLC02OT
-I2MDgwMTYsOTA5MTY4MzgxLDkzMTIzMTQ2NF19
+eyJoaXN0b3J5IjpbMTM4NDg1ODE3OCwxMzM2MTI4MjA4LC02Nj
+k4MzkzMTAsLTY5MjYwODAxNiw5MDkxNjgzODEsOTMxMjMxNDY0
+XX0=
 -->
