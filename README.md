@@ -12,8 +12,9 @@
 
  - Using external data (Intro to what are APIs)
  - Getting external data into Unity
- - Solutions
+ - [Solutions](https://uwetom.github.io/media-production-worksheets/wk15-using-external-data/api-solutions.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNDgzNzU0NywtMTEyNzE4OTY5Nl19
+eyJoaXN0b3J5IjpbMTg0NTU2MTkwMCwxOTA0ODM3NTQ3LC0xMT
+I3MTg5Njk2XX0=
 -->
