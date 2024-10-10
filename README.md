@@ -10,10 +10,10 @@
 
 ## wk15 Using External Data in Unity
 
- - Using external data (What are APIs)
+ - Using external data (Intro to what are APIs)
  - Getting external data into Unity
- - Solution
+ - Solutions
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNjE4Nzc5MywtMTEyNzE4OTY5Nl19
+eyJoaXN0b3J5IjpbMTkwNDgzNzU0NywtMTEyNzE4OTY5Nl19
 -->
