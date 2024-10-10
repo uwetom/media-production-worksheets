@@ -58,8 +58,10 @@ The returned data should look like:
 ![enter image description here](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/meteo-api-1.png)
 
 [Need the solution?](https://uwetom.github.io/media-production-worksheets)
+
+Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTU4OTAxMDcsLTEwNDAxNTMxMjMsMT
-M4NDg1ODE3OCwxMzM2MTI4MjA4LC02Njk4MzkzMTAsLTY5MjYw
-ODAxNiw5MDkxNjgzODEsOTMxMjMxNDY0XX0=
+eyJoaXN0b3J5IjpbMTYyMTc1OTc2NywtMTA0MDE1MzEyMywxMz
+g0ODU4MTc4LDEzMzYxMjgyMDgsLTY2OTgzOTMxMCwtNjkyNjA4
+MDE2LDkwOTE2ODM4MSw5MzEyMzE0NjRdfQ==
 -->
