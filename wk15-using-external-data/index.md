@@ -28,6 +28,9 @@ You can find a list of unsecured data with API access here
 [https://free-apis.github.io/#/browse](https://free-apis.github.io/#/browse)
 
 ## Install a JSON formatter browser extension / addon Chrome browser extension
+So that we can easily read the returned data Install one of these browser extensions.
+
+The data that will be returned to us will be formatted as javaScript Object Notation. The browser extension will make it much easier to read.
 
 https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en 
 
@@ -37,5 +40,5 @@ https://addons.mozilla.org/en-GB/firefox/addon/basic-json-formatter/
 Use Safari or Edge? We feel for you…
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjc0OTQ2ODMsOTMxMjMxNDY0XX0=
+eyJoaXN0b3J5IjpbLTMxMzc0MTM0Miw5MzEyMzE0NjRdfQ==
 -->
