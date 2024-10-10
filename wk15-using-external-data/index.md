@@ -49,10 +49,10 @@ If you have successfully installed the Chrome or Firefox extension you should se
   ![JSON data](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/joke-api-1.png)
 
 ## Code Challenge - get some data
-Now have a go using weather data using open meteo. Look at the documentation and try and work out what request you need to make in order to return some whether data about our current location…
+Now you have a go using weather data using open meteo. Look at the documentation and try and work out what request you need to make in order to return some weather data about our current location…
 
 [https://open-meteo.com/](https://open-meteo.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2OTgzOTMxMCwtNjkyNjA4MDE2LDkwOT
-E2ODM4MSw5MzEyMzE0NjRdfQ==
+eyJoaXN0b3J5IjpbMTMzNjEyODIwOCwtNjY5ODM5MzEwLC02OT
+I2MDgwMTYsOTA5MTY4MzgxLDkzMTIzMTQ2NF19
 -->
