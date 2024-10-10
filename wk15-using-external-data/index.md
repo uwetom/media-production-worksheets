@@ -53,9 +53,13 @@ Now you have a go using weather forecast data using open meteo. Look at the docu
 [https://open-meteo.com/](https://open-meteo.com/)
 (Hint: use maps to get our Latitude and Longitude position)
 
+The returned data should look like:
+
+![enter image description here](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/meteo-api-1.png)
+
 [Need the solution?](https://uwetom.github.io/media-production-worksheets)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDAxNTMxMjMsMTM4NDg1ODE3OCwxMz
-M2MTI4MjA4LC02Njk4MzkzMTAsLTY5MjYwODAxNiw5MDkxNjgz
-ODEsOTMxMjMxNDY0XX0=
+eyJoaXN0b3J5IjpbLTIwMTU4OTAxMDcsLTEwNDAxNTMxMjMsMT
+M4NDg1ODE3OCwxMzM2MTI4MjA4LC02Njk4MzkzMTAsLTY5MjYw
+ODAxNiw5MDkxNjgzODEsOTMxMjMxNDY0XX0=
 -->
