@@ -46,13 +46,13 @@ Put this URl in your browser
 [https://v2.jokeapi.dev/joke/Any?safe-mode](https://v2.jokeapi.dev/joke/Any?safe-mode)
 If you have successfully installed the Chrome or Firefox extension you should see the following.
 
-  
+  ![JSON data](wk15-using-external-data/images/joke-api-1.png)
 
 ## Code Challenge - get some data
 Now you have a go using weather data using open meteo. Look at the documentation and try and work out what request you need to make in order to return some whether data about our current location…
 
 [https://open-meteo.com/](https://open-meteo.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MjYwODAxNiw5MDkxNjgzODEsOTMxMj
-MxNDY0XX0=
+eyJoaXN0b3J5IjpbNzgzOTMwMDIxLC02OTI2MDgwMTYsOTA5MT
+Y4MzgxLDkzMTIzMTQ2NF19
 -->
