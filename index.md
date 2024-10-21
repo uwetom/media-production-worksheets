@@ -7,6 +7,7 @@
  
 ## wk12 Animating with Motion Capture Data
 
+## wk13 Introduction to VR
 
 ## wk15 Using External Data in Unity
 
@@ -14,6 +15,7 @@
  - Getting external data into Unity
  - [Solutions](https://uwetom.github.io/media-production-worksheets/wk15-using-external-data/api-solutions.html)
 
+## wk17 Introduction to AR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDA5NTI0ODFdfQ==
+eyJoaXN0b3J5IjpbMTk3MDU3MDk3NiwtMjAwMDk1MjQ4MV19
 -->
