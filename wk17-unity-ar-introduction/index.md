@@ -7,11 +7,11 @@ First we want to create a new Unity project, helpfully, Unity hub has a template
 - Create a new Unity project using the AR Core template, you may need to download it first.
 ![Create AR core project in Unity Hub ](https://github.com/uwetom/media-production-worksheets/blob/master/wk17-unity-ar-introduction/images/ar_core_template.jpg?raw=true)
 
-
+Once the project is open we wi
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNjY1MDk1NiwtMjE0OTY2MDU4LDk3MD
-QyMzQxMiw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE0NjkwNTY3NjMsLTYxNjY1MDk1NiwtMj
+E0OTY2MDU4LDk3MDQyMzQxMiw3MzA5OTgxMTZdfQ==
 -->
