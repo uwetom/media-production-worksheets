@@ -13,7 +13,9 @@ You'll also need to import your motion capture data / .fbx file into your Unity 
 ![enter image description here](https://uwetom.github.io/media-production-worksheets/wk12-animating-mocap-data/images/folders.jpg)
 
 Next we'll set up our character in the scene with the animation and skin that you downloaded.
+
+Change your Unity scene name to 'Main'.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg3OTY4MDY5LDI2NDUxNDA2OSwtMjAxNj
-QxOTM0Niw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEwODgxMTUyNzIsMjY0NTE0MDY5LC0yMD
+E2NDE5MzQ2LDczMDk5ODExNl19
 -->
