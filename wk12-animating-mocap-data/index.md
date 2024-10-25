@@ -11,7 +11,9 @@ This is a free website with 1000s of animations amd 100s of characters that you 
 You'll also need to import your motion capture data / .fbx file into your Unity project. Make an Animations folder for everything.
 
 ![enter image description here](https://uwetom.github.io/media-production-worksheets/wk12-animating-mocap-data/images/folders.jpg)
+
+Next we'll set up our character in the scene with the animation and skin that you downloaded.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NjI4NDA0OSwyNjQ1MTQwNjksLTIwMT
-Y0MTkzNDYsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbODg3OTY4MDY5LDI2NDUxNDA2OSwtMjAxNj
+QxOTM0Niw3MzA5OTgxMTZdfQ==
 -->
