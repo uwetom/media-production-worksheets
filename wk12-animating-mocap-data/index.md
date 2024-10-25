@@ -2,7 +2,9 @@
 
 # Animating with MoCap data 
 
-To begi
+To start using MoCap data you'll need a new project set up and have downloaded a Mixamo character with an animation attached from https://www.mixamo.com/
+
+This is a free website with 1000s of animations amthat you can use in your project
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM1MDc5OTc5LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTUwNTA3MTg2NCw3MzA5OTgxMTZdfQ==
 -->
