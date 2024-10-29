@@ -42,9 +42,10 @@ This video steps through adding MoCap animations to an Animation Controller to u
 
 In this video I add further animations to the Animtion Controller and create multiple transitions.
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTYxMDE0MTIsMTY2NDMzNDM2NCw5NT
-cyNTY1MjcsLTE2OTA0NDc3NTAsMTcwMTE3NzUwNywtNzI5OTQ4
-MjA3LC0xNjA3NTEzMzY3LC0xMDg4MTE1MjcyLDI2NDUxNDA2OS
-wtMjAxNjQxOTM0Niw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMjAyMDY0NDYxOCwxNjY0MzM0MzY0LDk1Nz
+I1NjUyNywtMTY5MDQ0Nzc1MCwxNzAxMTc3NTA3LC03Mjk5NDgy
+MDcsLTE2MDc1MTMzNjcsLTEwODgxMTUyNzIsMjY0NTE0MDY5LC
+0yMDE2NDE5MzQ2LDczMDk5ODExNl19
 -->
