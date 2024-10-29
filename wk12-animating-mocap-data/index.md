@@ -14,8 +14,9 @@ You'll also need to import your motion capture data / .fbx file into your Unity 
 
 Next we'll set up our character in the scene with the animation and skin that you downloaded.
 
-Change your Unity scene name to 'Main'.
+Change your Unity scene name to 'Main'. Add a cube and scale it to make a ground p
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDc1MTMzNjcsLTEwODgxMTUyNzIsMj
-Y0NTE0MDY5LC0yMDE2NDE5MzQ2LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE1Nzk5NzU5MzcsLTE2MDc1MTMzNjcsLT
+EwODgxMTUyNzIsMjY0NTE0MDY5LC0yMDE2NDE5MzQ2LDczMDk5
+ODExNl19
 -->
