@@ -15,7 +15,7 @@
 
 ## wk13 & 14 Introduction to VR
 
-## wk15 Using External Data in Unity
+## wk15 & 16 Using External Data in Unity
 
  - [Using external data (Intro to what are APIs)](https://uwetom.github.io/media-production-worksheets/wk15-using-external-data/)
  - Getting external data into Unity
@@ -23,6 +23,6 @@
 
 ## wk17 Introduction to AR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NDEwNTI3MywtMTgyODQ5NDkwMiwxOT
+eyJoaXN0b3J5IjpbMTI3NjE5Mzk1NCwtMTgyODQ5NDkwMiwxOT
 cwNTcwOTc2LC0yMDAwOTUyNDgxXX0=
 -->
