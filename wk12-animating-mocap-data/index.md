@@ -35,10 +35,10 @@ This video steps through setting up an  Animation Controller and adding a basic 
 ## Add a MoCap animation to the Animation Controller
 
 This video steps through adding MoCap animations to an Animation Controller to use the MoCap animations with the character.
-
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=5b75fd48-de63-49ea-951b-b21800f6c60d&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-MoCap-3.2" ></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NDMzNDM2NCw5NTcyNTY1MjcsLTE2OT
-A0NDc3NTAsMTcwMTE3NzUwNywtNzI5OTQ4MjA3LC0xNjA3NTEz
-MzY3LC0xMDg4MTE1MjcyLDI2NDUxNDA2OSwtMjAxNjQxOTM0Ni
-w3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE5MDcyOTc0MTcsMTY2NDMzNDM2NCw5NT
+cyNTY1MjcsLTE2OTA0NDc3NTAsMTcwMTE3NzUwNywtNzI5OTQ4
+MjA3LC0xNjA3NTEzMzY3LC0xMDg4MTE1MjcyLDI2NDUxNDA2OS
+wtMjAxNjQxOTM0Niw3MzA5OTgxMTZdfQ==
 -->
