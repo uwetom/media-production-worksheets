@@ -22,9 +22,12 @@ Now there are several steps that you need to follow to use your mocap data in a 
 
 Next we'll set up our character. Changing the rig to humanoid and attaching textures and materials.
 
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=8ab30e50-8e4e-4751-bdf5-b21800de5863&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-MoCap-2  2024" ></iframe>
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTA0NDc3NTAsMTcwMTE3NzUwNywtNz
-I5OTQ4MjA3LC0xNjA3NTEzMzY3LC0xMDg4MTE1MjcyLDI2NDUx
-NDA2OSwtMjAxNjQxOTM0Niw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbOTU3MjU2NTI3LC0xNjkwNDQ3NzUwLDE3MD
+ExNzc1MDcsLTcyOTk0ODIwNywtMTYwNzUxMzM2NywtMTA4ODEx
+NTI3MiwyNjQ1MTQwNjksLTIwMTY0MTkzNDYsNzMwOTk4MTE2XX
+0=
 -->
