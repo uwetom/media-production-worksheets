@@ -21,8 +21,8 @@
  - Getting external data into Unity
  - [Solutions](https://uwetom.github.io/media-production-worksheets/wk15-using-external-data/api-solutions.html)
 
-## wk17 Introduction to AR
+## wk17 & 18 Introduction to AR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NjE5Mzk1NCwtMTgyODQ5NDkwMiwxOT
+eyJoaXN0b3J5IjpbMTgwMjA4NDg4MywtMTgyODQ5NDkwMiwxOT
 cwNTcwOTc2LC0yMDAwOTUyNDgxXX0=
 -->
