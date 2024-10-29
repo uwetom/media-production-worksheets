@@ -20,11 +20,11 @@ Now there are several steps that you need to follow to use your mocap data in a 
 
 ## Set up the character
 
-Next we'll set up our character in the scene with the animation and skin that you downloaded.
+Next we'll set up our character. Changing the rig to humanoid and attaching textures and materials.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMTE3NzUwNywtNzI5OTQ4MjA3LC0xNj
-A3NTEzMzY3LC0xMDg4MTE1MjcyLDI2NDUxNDA2OSwtMjAxNjQx
-OTM0Niw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE2OTA0NDc3NTAsMTcwMTE3NzUwNywtNz
+I5OTQ4MjA3LC0xNjA3NTEzMzY3LC0xMDg4MTE1MjcyLDI2NDUx
+NDA2OSwtMjAxNjQxOTM0Niw3MzA5OTgxMTZdfQ==
 -->
