@@ -7,6 +7,7 @@
  - Using GitHub with Unity
 
 ## wk11 Ideation and Motion capture intro
+- Using the MoCap suit and software
  
 ## wk12 Animating with Motion Capture Data
 
@@ -22,6 +23,6 @@
 
 ## wk17 Introduction to AR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI0Mjg4NjYxLC0xODI4NDk0OTAyLDE5Nz
-A1NzA5NzYsLTIwMDA5NTI0ODFdfQ==
+eyJoaXN0b3J5IjpbLTEyNjU4NTMyMzAsLTE4Mjg0OTQ5MDIsMT
+k3MDU3MDk3NiwtMjAwMDk1MjQ4MV19
 -->
