@@ -4,6 +4,7 @@
 
  - [Add a URP Third Person Controller](https://uwetom.github.io/media-production-worksheets/wk10-unity-refresher/) 
  - [C# Code Refresher](https://uwetom.github.io/media-production-worksheets/wk10-unity-refresher/code-refresher.html) (Instantiate / collision detection / communication between scripts)
+ - Using GitHub with Unity
  
 ## wk12 Animating with Motion Capture Data
 
@@ -19,6 +20,6 @@
 
 ## wk17 Introduction to AR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjg0OTQ5MDIsMTk3MDU3MDk3NiwtMj
-AwMDk1MjQ4MV19
+eyJoaXN0b3J5IjpbLTQ4MjgxNjQ3NSwtMTgyODQ5NDkwMiwxOT
+cwNTcwOTc2LC0yMDAwOTUyNDgxXX0=
 -->
