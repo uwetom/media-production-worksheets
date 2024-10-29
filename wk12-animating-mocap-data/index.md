@@ -28,15 +28,17 @@ Next we'll set up our character. Changing the rig to humanoid and attaching text
 
 ## Create an Animation Controller and add animations to the character
 
-This video steps through setting up an Add MoCap animations to the Animation Controller
+This video steps through setting up an  Animation Controller and adding a basic animation to it.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=1c8d5b05-a3b1-4b81-a585-b21800f1141d&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-MoCap-3.1  2024" ></iframe>
 
 ## Add MoCap animations to the Animation Controller
 
+This video steps through adding MoCap animations to an Animation Controller to use the MoCap animations with the character.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTQyODcxODgsOTU3MjU2NTI3LC0xNj
-kwNDQ3NzUwLDE3MDExNzc1MDcsLTcyOTk0ODIwNywtMTYwNzUx
-MzM2NywtMTA4ODExNTI3MiwyNjQ1MTQwNjksLTIwMTY0MTkzND
-YsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTA5MjY4ODg3OCw5NTcyNTY1MjcsLTE2OT
+A0NDc3NTAsMTcwMTE3NzUwNywtNzI5OTQ4MjA3LC0xNjA3NTEz
+MzY3LC0xMDg4MTE1MjcyLDI2NDUxNDA2OSwtMjAxNjQxOTM0Ni
+w3MzA5OTgxMTZdfQ==
 -->
