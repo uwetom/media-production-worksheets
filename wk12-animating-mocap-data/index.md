@@ -17,6 +17,8 @@ You'll also need to import your motion capture data / .fbx file into your Unity 
 Now there are several steps that you need to follow to use your mocap data in a character animation in your scene:
 
  - Set up the character
+ - Create an Animation Controller and add animations to the character
+ - Add MoCap animations to the Animation Controller
 
 ## Set up the character
 
@@ -24,10 +26,17 @@ Next we'll set up our character. Changing the rig to humanoid and attaching text
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=8ab30e50-8e4e-4751-bdf5-b21800de5863&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-MoCap-2  2024" ></iframe>
 
+## Create an Animation Controller and add animations to the character
+
+This video steps through setting up an Add MoCap animations to the Animation Controller
+
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=1c8d5b05-a3b1-4b81-a585-b21800f1141d&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-MoCap-3.1  2024" ></iframe>
+
+## Add MoCap animations to the Animation Controller
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU3MjU2NTI3LC0xNjkwNDQ3NzUwLDE3MD
-ExNzc1MDcsLTcyOTk0ODIwNywtMTYwNzUxMzM2NywtMTA4ODEx
-NTI3MiwyNjQ1MTQwNjksLTIwMTY0MTkzNDYsNzMwOTk4MTE2XX
-0=
+eyJoaXN0b3J5IjpbLTEwMTQyODcxODgsOTU3MjU2NTI3LC0xNj
+kwNDQ3NzUwLDE3MDExNzc1MDcsLTcyOTk0ODIwNywtMTYwNzUx
+MzM2NywtMTA4ODExNTI3MiwyNjQ1MTQwNjksLTIwMTY0MTkzND
+YsNzMwOTk4MTE2XX0=
 -->
