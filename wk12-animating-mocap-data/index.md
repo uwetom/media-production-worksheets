@@ -42,10 +42,10 @@ This video steps through adding MoCap animations to an Animation Controller to u
 
 In this video I add further animations to the Animtion Controller and create multiple transitions.
 
-
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=85987f50-48b4-4734-b74e-b21800faae87&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-MoCap-3.3" ></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMDY0NDYxOCwxNjY0MzM0MzY0LDk1Nz
-I1NjUyNywtMTY5MDQ0Nzc1MCwxNzAxMTc3NTA3LC03Mjk5NDgy
-MDcsLTE2MDc1MTMzNjcsLTEwODgxMTUyNzIsMjY0NTE0MDY5LC
-0yMDE2NDE5MzQ2LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTgxOTE4NTA0OCwyMDIwNjQ0NjE4LDE2Nj
+QzMzQzNjQsOTU3MjU2NTI3LC0xNjkwNDQ3NzUwLDE3MDExNzc1
+MDcsLTcyOTk0ODIwNywtMTYwNzUxMzM2NywtMTA4ODExNTI3Mi
+wyNjQ1MTQwNjksLTIwMTY0MTkzNDYsNzMwOTk4MTE2XX0=
 -->
