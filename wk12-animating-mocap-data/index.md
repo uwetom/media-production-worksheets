@@ -12,11 +12,14 @@ You'll also need to import your motion capture data / .fbx file into your Unity 
 
 ![enter image description here](https://uwetom.github.io/media-production-worksheets/wk12-animating-mocap-data/images/folders.jpg)
 
+Now there are several steps that you need to follow to use your mocap data in animation in the :
+Set up the character
+
 Next we'll set up our character in the scene with the animation and skin that you downloaded.
 
 Change your Unity scene name to 'Main'. Add a cube in the scene and scale it to make a ground plane.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyOTk0ODIwNywtMTYwNzUxMzM2NywtMT
-A4ODExNTI3MiwyNjQ1MTQwNjksLTIwMTY0MTkzNDYsNzMwOTk4
-MTE2XX0=
+eyJoaXN0b3J5IjpbMjEzOTM5ODAzNSwtNzI5OTQ4MjA3LC0xNj
+A3NTEzMzY3LC0xMDg4MTE1MjcyLDI2NDUxNDA2OSwtMjAxNjQx
+OTM0Niw3MzA5OTgxMTZdfQ==
 -->
