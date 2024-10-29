@@ -19,6 +19,7 @@ Now there are several steps that you need to follow to use your mocap data in a 
  - Set up the character
  - Create an Animation Controller and add animations to the character
  - Add MoCap animations to the Animation Controller
+ - Looping and chaining animations in the Animation Controller
 
 ## Set up the character
 
@@ -36,8 +37,13 @@ This video steps through setting up an  Animation Controller and adding a basic 
 
 This video steps through adding MoCap animations to an Animation Controller to use the MoCap animations with the character.
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=5b75fd48-de63-49ea-951b-b21800f6c60d&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-MoCap-3.2" ></iframe>
+
+## Looping and chaining more MoCap animations in the Animation Controller.
+
+In this video I add further animations to the Animtion Controller and create multiple transitions.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDcyOTc0MTcsMTY2NDMzNDM2NCw5NT
+eyJoaXN0b3J5IjpbLTEyOTYxMDE0MTIsMTY2NDMzNDM2NCw5NT
 cyNTY1MjcsLTE2OTA0NDc3NTAsMTcwMTE3NzUwNywtNzI5OTQ4
 MjA3LC0xNjA3NTEzMzY3LC0xMDg4MTE1MjcyLDI2NDUxNDA2OS
 wtMjAxNjQxOTM0Niw3MzA5OTgxMTZdfQ==
