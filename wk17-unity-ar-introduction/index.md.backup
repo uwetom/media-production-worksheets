@@ -82,7 +82,7 @@ Now we can create a script to instantiate our prefab on the image.
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.XR.ARFoundation; // include xr library
+using UnityEngine.XR.ARFoundation;
 
 public class TrackImage : MonoBehaviour
 {
