@@ -76,13 +76,11 @@ I have created a Unity package with some simple assets in it to get us started.
 
 The following video shows you how to add an image manager to your scene and tell which image you want to track
 
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=b04ae597-ee18-43d5-b702-b21e00aa3994&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity-add image manager" ></iframe>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=81aacb95-ecc8-475e-bd26-b21e00aef8e9&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity_ add tracked image manager" ></iframe>
 
 Now we can create a script to instantiate our prefab on the image.
 
-
-
------------- add simple script video---------------------
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=80700da8-4d1e-47a6-9d74-b21e00b10c40&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity - add prefab" ></iframe>
 
 <details>
 <summary>Finished Script</summary>
@@ -131,7 +129,7 @@ We can now build and test the scene again on our device.
 
 If you point your camera at your image the model should appear.
 
--------------video of working tracked image--------------
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=e3e42657-f347-4b16-909d-b21e00b86980&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="android ship demo" ></iframe>
 
 ## Add Extras
 
