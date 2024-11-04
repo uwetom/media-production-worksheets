@@ -68,17 +68,24 @@ This image can be anything we want, but for accurate tracking Unity recommends:
 
 I have created a Unity package with some simple assets in it to get us started. 
 
-- Download it and import it in to Unity
+[unity ship package download](assets/ship.unitypackage)
+
+- Download it and drag it into the assets panel in Unity to include it in your project
 - Save the template scene with a new name in the scenes folder ("tracked_image_scene")
 - Delete the cube from the scene
 
 The following video shows you how to add an image manager to your scene and tell which image you want to track
 
-------------tracked image manager and image library video---------------------
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=b04ae597-ee18-43d5-b702-b21e00aa3994&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity-add image manager" ></iframe>
 
 Now we can create a script to instantiate our prefab on the image.
 
+
+
 ------------ add simple script video---------------------
+
+<details>
+<summary>Finished Script</summary>
 
 ```
 using System.Collections;
@@ -110,6 +117,8 @@ public class TrackImage : MonoBehaviour
 }
 
 ```
+
+<details>
 
 ## Build and Test the Scene
 
