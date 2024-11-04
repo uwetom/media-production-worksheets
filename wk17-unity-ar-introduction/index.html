@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><p><a href="https://uwetom.github.io/media-production-worksheets">Back</a></p>
+<h1 id="introduction-to-augmented-reality-ar-in-unity">Introduction to Augmented Reality (AR) in Unity</h1>
+<h2 id="setup-ar-project">Setup AR Project</h2>
+<p>First we want to create a new Unity project, Unity Hub has an Ar Core template but I have found it unreliable and bloated so we will set up our own that we can use with all our future AR projects.</p>
+<p>In the following video walking through setting up an AR project we will:</p>
+<ul>
+<li>Create a new Unity project using the <strong>Universal 3D</strong> template</li>
+<li>Switch to build with Android</li>
+<li>Install AR packages</li>
+<li>Adjust the settings for AR</li>
+<li>Make a blank AR scene</li>
+</ul>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=889f2f8a-87c2-4ff2-a202-b21a008f305a&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<h2 id="template">Template</h2>
+<p>Now that we have a template AR project we can save it so that we can use it for all future AR projects.</p>
+<p>I have created a GitHub repository with this template project which you can <strong>fork</strong> if you cant find your own template.</p>
+<p><a href="https://github.com/uwetom/unity_ar_template">https://github.com/uwetom/unity_ar_template</a></p>
+<p><img src="https://github.com/uwetom/media-production-worksheets/blob/master/wk17-unity-ar-introduction/images/fork.jpg?raw=true" alt="fork button on github.com"></p>
+<h2 id="build-to-android-device">Build to Android Device</h2>
+<p>Now that we have a basic AR project and scene we want to check that it actually runs on a device.</p>
+<h3 id="android-developer-mode">Android Developer mode</h3>
+<p>First we have to turn on <strong>developer</strong> mode on our Android device so that we copy our new app to it.</p>
+<p>Most Android devices will have the following procedure, but the menu items may be in different locations.</p>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=f24a7422-8565-43e6-af75-b21e00a0a1b5&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<h3 id="build">Build</h3>
+<p>Now that we have set the device up we can build to it</p>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=1c0abd93-e11a-40b9-8d4d-b21e00a3fea0&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<h3 id="test">Test</h3>
+<p>This is a very simple project but move the phone around and see if you can see you cube hanging in space. It should open automatically when you unlock you device, if it does not you should be able to find it installed in your app library just like any other app.</p>
+<h2 id="position-virtual-object">Position Virtual Object</h2>
+<p>In our template, the cube is located at the origin or our scene. This does not correspond to anything specifically in the real world, so when the app opens it arbitrarily decides where this is.</p>
+<p>We want to be able to decide exactly where object will appear in the real world.</p>
+<h2 id="tracked-image">Tracked Image</h2>
+<p>The first way we will do this is with a tracked image.</p>
+<p>This allows us to link virtual 3D objects to real images.</p>
+<p>This image can be anything we want, but for accurate tracking Unity recommends:</p>
+<ul>
+<li>Size must be at least 300 x 300 pixels.</li>
+<li>Format must be PNG or JPG.</li>
+<li>Image can be black and white or colour but must have strong contrast.</li>
+<li>Image should avoid repeated patterns.</li>
+</ul>
+<p>I have created a Unity package with some simple assets in it to get us started.</p>
+<p><a href="assets/ship.unitypackage">unity ship package download</a></p>
+<ul>
+<li>Download it and drag it into the assets panel in Unity to include it in your project</li>
+<li>Save the template scene with a new name in the scenes folder (“tracked_image_scene”)</li>
+<li>Delete the cube from the scene</li>
+</ul>
+<p>The following video shows you how to add an image manager to your scene and tell which image you want to track</p>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=81aacb95-ecc8-475e-bd26-b21e00aef8e9&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<p>Now we can create a script to instantiate our prefab on the image.</p>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=80700da8-4d1e-47a6-9d74-b21e00b10c40&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+
+Finished Script
+<pre><code>using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.XR.ARFoundation; // include xr library
+
+public class TrackImage : MonoBehaviour
+{
+    [SerializeField]
+    ARTrackedImageManager m_TrackedImageManager; 
+    public GameObject prefab; //Prefab you want to appear on marker image
+    
+    void OnEnable() =&gt; m_TrackedImageManager.trackedImagesChanged += OnChanged;
+
+    void OnDisable() =&gt; m_TrackedImageManager.trackedImagesChanged -= OnChanged;
+
+    void OnChanged(ARTrackedImagesChangedEventArgs eventArgs)
+    {
+    	// When the camera picks up a new image marker Unity adds a game object to it called newImage, this will stick to maker.
+        foreach (ARTrackedImage newImage in eventArgs.added)
+        {
+       	  // Create new copy of your prefab
+          GameObject newObj = GameObject.Instantiate(prefab);
+          // parent prefab to the newImage so that they stick together.
+          newObj.transform.parent = newImage.transform;
+        }
+    }
+}
+
+</code></pre>
+
+<h2 id="build-and-test-the-scene">Build and Test the Scene</h2>
+<p>We can now build and test the scene again on our device.</p>
+<ul>
+<li>First, on your Android device delete the previous build buy holding down on it and dragging it to delete.</li>
+<li>Go to <strong>File &gt; Build Settings</strong> and add the current scene, untick the old template scene.</li>
+<li>Check You <strong>run device</strong> is still connected and selected and press build and run.</li>
+<li>Name the build something different than before.</li>
+</ul>
+<p>If you point your camera at your image the model should appear.</p>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=e3e42657-f347-4b16-909d-b21e00b86980&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<h2 id="add-extras">Add Extras</h2>
+<p>Now we have a basic tracked image system working we can think about adding more to this scene</p>
+<p>— adding sound video–</p>
+<h2 id="challenges">Challenges</h2>
+<ul>
+<li>
+<p>Add extra marker images with extra models</p>
+</li>
+<li>
+<p>Add particle effect when maker found</p>
+</li>
+</ul>
+</div>
+</body>
+
+</html>

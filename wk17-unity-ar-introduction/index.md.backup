@@ -24,7 +24,7 @@ I have created a GitHub repository with this template project which you can **fo
 
 [https://github.com/uwetom/unity_ar_template](https://github.com/uwetom/unity_ar_template)
 
-![fork button on github.com](images/fork.jpg)
+![fork button on github.com](https://github.com/uwetom/media-production-worksheets/blob/master/wk17-unity-ar-introduction/images/fork.jpg?raw=true)
 
 ## Build to Android Device
 
@@ -38,13 +38,11 @@ Most Android devices will have the following procedure, but the menu items may b
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=f24a7422-8565-43e6-af75-b21e00a0a1b5&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Android developer mode" ></iframe>
 
 ### Build
-
 Now that we have set the device up we can build to it
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=1c0abd93-e11a-40b9-8d4d-b21e00a3fea0&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity-build to android" ></iframe>
 
 ### Test
-
 This is a very simple project but move the phone around and see if you can see you cube hanging in space. It should open automatically when you unlock you device, if it does not you should be able to find it installed in your app library just like any other app.
 
 ## Position Virtual Object
@@ -143,3 +141,6 @@ Now we have a basic tracked image system working we can think about adding more 
 
 - Add particle effect when maker found
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE0MTA0NjY0M119
+-->
