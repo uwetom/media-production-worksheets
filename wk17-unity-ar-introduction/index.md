@@ -92,7 +92,7 @@ public class TrackImage : MonoBehaviour
 {
     [SerializeField]
     ARTrackedImageManager m_TrackedImageManager; 
-    public GameObject prefab; //Prefab you want to appear on marker image
+    public GameObject shipPrefab; //Prefab you want to appear on marker image
     
     void OnEnable() => m_TrackedImageManager.trackedImagesChanged += OnChanged;
 
@@ -104,9 +104,9 @@ public class TrackImage : MonoBehaviour
         foreach (ARTrackedImage newImage in eventArgs.added)
         {
        	  // Create new copy of your prefab
-          GameObject newObj = GameObject.Instantiate(prefab);
+          GameObject newObj = GameObject.Instantiate(shipPrefab);
           // parent prefab to the newImage so that they stick together.
-          newObj.transform.parent = newImage.transform;
+          newObject.transform.SetParent(newImage.transform, false);
         }
     }
 }
@@ -128,18 +128,41 @@ If you point your camera at your image the model should appear.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=e3e42657-f347-4b16-909d-b21e00b86980&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="android ship demo" ></iframe>
 
-## Add Extras
-
-Now we have a basic tracked image system working we can think about adding more to this scene.
-
---- adding sound video--
-
 ## Challenges
 
-- Add extra marker images with extra models
+### Add sound
 
-- Add particle effect when maker found
+Now that we have a simple image marker scene working we can think about taking it further. In the script, after you instantiate the new prefab you add more code to play sounds, start an animation or a particle effect.
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MDk2MTQ4NV19
--->
+In the ship folder you can find a sound file, try to make this play when the ship is instantiated.
+
+<details>
+<summary>Hint</summary>
+
+- Add an audio source component to the xr origin
+	+ ```public AudioClip sound;```
+- Add a public AudioClip variable to your script to hold your splash sound
+- In your script, find the Audio source component
+	+ ```AudioSource source = GetComponent<AudioSource>();```
+- Use it to play your sound
+	+ ```source.PlayOneShot(sound);```
+
+</details>
+
+### Add multiple markers
+
+In the ship folder you can find two boats and 2 images. Add both images to your image reference library and add to your script to a different boat for each image.
+
+<details>
+<summary>Hint</summary>
+
+- Add the second image to your image library and give it a different name
+- In your script, you can check which marker has been found using the following code:
+	+ ```newImage.referenceImage.name```
+- Put this in an if statement to check if the name on the image matches the name of the image in your library.
+
+</details>
+
+## Virutal Environement
+
+You may not always have an Android device availiabe for testing. 
