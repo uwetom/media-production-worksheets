@@ -2,11 +2,11 @@
 
 # Introduction to Augmented Reality (AR) in Unity
 
-## Setup AR Project
+## Create Project
 
 First we want to create a new Unity project, Unity Hub has an Ar Core template but I have found it unreliable and bloated so we will set up our own that we can use with all our future AR projects.
 
-In the following video walking through setting up an AR project we will:
+In the following video we will:
 - Create a new Unity project using the **Universal 3D** template
 - Switch to build with Android
 - Install AR packages
@@ -16,24 +16,14 @@ In the following video walking through setting up an AR project we will:
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=889f2f8a-87c2-4ff2-a202-b21a008f305a&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity- ar_template" ></iframe>
 
-## Template
-
-Now that we have a template AR project we can save it so that we can use it for all future AR projects.
-
-I have created a GitHub repository with this template project which you can **fork** if you cant find your own template.
-
-[https://github.com/uwetom/unity_ar_template](https://github.com/uwetom/unity_ar_template)
-
-![fork button on github.com](images/fork.jpg)
-
 ## Build to Android Device
 
-Now that we have a basic AR project and scene we want to check that it actually runs on a device.
+Now that we have a basic AR project and scene we want to check that it runs on a real device.
 
 ### Android Developer mode
-First we have to turn on **developer** mode on our Android device so that we copy our new app to it.
+Before we build, we need to turn on **developer mode** on our Android device so that we copy our new app to it.
 
-Most Android devices will have the following procedure, but the menu items may be in different locations.
+The menus items may be in different places, but the following video shows how to enable developer mode on most Android devices:
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=f24a7422-8565-43e6-af75-b21e00a0a1b5&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Android developer mode" ></iframe>
 
@@ -45,11 +35,14 @@ Now that we have set the device up we can build to it
 
 ### Test
 
-This is a very simple project but move the phone around and see if you can see you cube hanging in space. It should open automatically when you unlock you device, if it does not you should be able to find it installed in your app library just like any other app.
+Move the phone around and see if you can see you cube hanging in space, you may need to move backwards. It should open automatically when you unlock you device, if it does not you should be able to find it installed in your app library.
+
+- If you cannot find the cube, try restarting the app. 
+- If you still cannot find it, check that you build the correct scene in Unity.
 
 ## Position Virtual Object
 
-In our template, the cube is located at the origin or our scene. This does not correspond to anything specifically in the real world, so when the app opens it arbitrarily decides where this is.
+In our template, the cube is located at the origin or our scene. This is normally where the phones camera is when you first open the app, but does not correspond to anything specifically in the real world.
 
 We want to be able to decide exactly where object will appear in the real world.
 
@@ -74,9 +67,13 @@ I have created a Unity package with some simple assets in it to get us started.
 - Save the template scene with a new name in the scenes folder ("tracked_image_scene")
 - Delete the cube from the scene
 
-The following video shows you how to add an image manager to your scene and tell which image you want to track
+### Tracked image manager
+
+The tracked image manager component manages all the images we want to track.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=81aacb95-ecc8-475e-bd26-b21e00aef8e9&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity_ add tracked image manager" ></iframe>
+
+### Instantiate a prefab
 
 Now we can create a script to instantiate our prefab on the image.
 
@@ -133,7 +130,7 @@ If you point your camera at your image the model should appear.
 
 ## Add Extras
 
-Now we have a basic tracked image system working we can think about adding more to this scene
+Now we have a basic tracked image system working we can think about adding more to this scene.
 
 --- adding sound video--
 
