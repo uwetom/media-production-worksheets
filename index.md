@@ -22,7 +22,9 @@
  - [Solutions](https://uwetom.github.io/media-production-worksheets/wk15-using-external-data/api-solutions.html)
 
 ## wk17 & 18 Introduction to AR
+
+- [Introduction to AR](https://uwetom.github.io/media-production-worksheets/wk17-unity-ar-introduction/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMjA4NDg4MywtMTgyODQ5NDkwMiwxOT
-cwNTcwOTc2LC0yMDAwOTUyNDgxXX0=
+eyJoaXN0b3J5IjpbMTc2ODUzMzUwNCwxODAyMDg0ODgzLC0xOD
+I4NDk0OTAyLDE5NzA1NzA5NzYsLTIwMDA5NTI0ODFdfQ==
 -->
