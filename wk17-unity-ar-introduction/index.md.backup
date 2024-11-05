@@ -134,8 +134,7 @@ You may not always have an Android device available for testing and as your proj
 
 To get around this you can create a virtual environment in Unity.
 
-
-
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=94c4dac7-3a89-45f1-a3fe-b21f00b95897&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity-xr simulation" ></iframe>
 
 
 ## Challenges
@@ -172,7 +171,3 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 - Put this in an if statement to check if the name on the image matches the name of the image in your library.
 
 </details>
-
-## Virutal Environement
-
-You may not always have an Android device availiabe for testing. 
