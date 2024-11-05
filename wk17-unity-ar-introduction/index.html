@@ -111,42 +111,27 @@ public class TrackImage : MonoBehaviour
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=94c4dac7-3a89-45f1-a3fe-b21f00b95897&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
 <h2 id="challenges">Challenges</h2>
 <h3 id="add-sound">Add sound</h3>
-<p>Now that we have a simple image marker scene working we can think about taking it further. In the script, after you instantiate the new prefab you add more code to play sounds, start an animation or a particle effect.</p>
+<p>Now that we have a simple image marker scene working we can think about taking it further. In the script, after you instantiate the new prefab you can play a sounds, start an animation or a particle effect.</p>
 <p>In the ship folder you can find a sound file, try to make this play when the ship is instantiated.</p>
 
-Hint
-<ul>
-<li>Add an audio source component to the xr origin
-<ul>
-<li><code>public AudioClip sound;</code></li>
-</ul>
-</li>
-<li>Add a public AudioClip variable to your script to hold your splash sound</li>
-<li>In your script, find the Audio source component
-<ul>
-<li><code>AudioSource source = GetComponent&lt;AudioSource&gt;();</code></li>
-</ul>
-</li>
-<li>Use it to play your sound
-<ul>
-<li><code>source.PlayOneShot(sound);</code></li>
-</ul>
-</li>
-</ul>
+Solution
+1. Add an audio source component to the xr origin.	
+2. Add a public AudioClip variable to your script to hold your splash sound
+	+ ```public AudioClip sound;```
+- In your script, find the Audio source component
+	+ ```AudioSource source = GetComponent();```
+- Use it to play your sound
+	+ ```source.PlayOneShot(sound);```
 
 <h3 id="add-multiple-markers">Add multiple markers</h3>
 <p>In the ship folder you can find two boats and 2 images. Add both images to your image reference library and add to your script to a different boat for each image.</p>
 
-Hint
-<ul>
-<li>Add the second image to your image library and give it a different name</li>
-<li>In your script, you can check which marker has been found using the following code:
-<ul>
-<li><code>newImage.referenceImage.name</code></li>
-</ul>
-</li>
-<li>Put this in an if statement to check if the name on the image matches the name of the image in your library.</li>
-</ul>
+Solution
+1. Add the second image to your image library and give it a different name.
+2. In your script add another public gameObject variable to hold  a different prefab.
+3. In your script, you can access the name of image, use this in an if statement to check if the name matches an image in your library.
+	+ ```newImage.referenceImage.name```
+3. If it matches, instantiate the correct prefab.
 
 </div>
 </body>
