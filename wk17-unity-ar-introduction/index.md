@@ -141,21 +141,19 @@ To get around this you can create a virtual environment in Unity.
 
 ### Add sound
 
-Now that we have a simple image marker scene working we can think about taking it further. In the script, after you instantiate the new prefab you add more code to play sounds, start an animation or a particle effect.
+Now that we have a simple image marker scene working we can think about taking it further. In the script, after you instantiate the new prefab you can play a sounds, start an animation or a particle effect.
 
 In the ship folder you can find a sound file, try to make this play when the ship is instantiated.
 
 <details>
-<summary>Hint</summary>
-
-- Add an audio source component to the xr origin
+<summary>Solution</summary>
+1. Add an audio source component to the xr origin.	
+2. Add a public AudioClip variable to your script to hold your splash sound
 	+ ```public AudioClip sound;```
-- Add a public AudioClip variable to your script to hold your splash sound
 - In your script, find the Audio source component
 	+ ```AudioSource source = GetComponent<AudioSource>();```
 - Use it to play your sound
 	+ ```source.PlayOneShot(sound);```
-
 </details>
 
 ### Add multiple markers
@@ -163,11 +161,10 @@ In the ship folder you can find a sound file, try to make this play when the shi
 In the ship folder you can find two boats and 2 images. Add both images to your image reference library and add to your script to a different boat for each image.
 
 <details>
-<summary>Hint</summary>
-
-- Add the second image to your image library and give it a different name
-- In your script, you can check which marker has been found using the following code:
+<summary>Solution</summary>
+1. Add the second image to your image library and give it a different name.
+2. In your script add another public gameObject variable to hold  a different prefab.
+3. In your script, you can access the name of image, use this in an if statement to check if the name matches an image in your library.
 	+ ```newImage.referenceImage.name```
-- Put this in an if statement to check if the name on the image matches the name of the image in your library.
-
+3. If it matches, instantiate the correct prefab.
 </details>
