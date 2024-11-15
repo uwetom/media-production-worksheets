@@ -18,8 +18,7 @@
 - [Introduction to AR](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/)
 
 ## wk14 AR Interactions
-- [Introduction to AR](https://uwetom.github.io/media-production-worksheets/wk14-unity-ar-introduction/)
-- 
+- [AR Interactions](https://uwetom.github.io/media-production-worksheets/wk14-unity-ar-introduction/)
 
 ## wk15 & 16 Using External Data in Unity
 
@@ -31,5 +30,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzMxMTk0MjldfQ==
+eyJoaXN0b3J5IjpbLTIwNTAyNjgyMzhdfQ==
 -->
