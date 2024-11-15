@@ -12,7 +12,7 @@ If you do not have a completed marker tracking project you can fork and clone my
 
 [Github repository](https://github.com/uwetom/Unity-Worksheet-1-finished)
 
-![fork button on github.com](https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar/images/fork.jpg?raw=true)
+![fork button on github.com](https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/fork.jpg?raw=true)
 
 The following video will show you how to do this if you are unsure.
 
@@ -42,7 +42,7 @@ We will be using it for AR, but as the name suggests, the XR toolkit also also w
 - In Unity Registry, search for "XR"
 - Install the **XR Interaction Toolkit**
 
-![turn on XR Simulation](https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar/images/interaction_toolkit.jpg?raw=true)
+![turn on XR Simulation](https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/interaction_toolkit.jpg?raw=true)
 
 As XR technology is rapidly evolving, Unity frequently updates this package with major changes. We will be using version 2.5 as it is the latest stable release for Unity 2023.
 
@@ -56,7 +56,7 @@ We will also add the starter assets samples which will give us some assets.
 
 - In the **XR Interation Toolkit** open the **Samples** tab and import the **Starter Assets**
 
-![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar/images/toolkit_samples.jpg?raw=true)
+![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/toolkit_samples.jpg?raw=true)
 
 ## Interaction Toolkit Components
 
@@ -87,7 +87,7 @@ The object will also need a collider, we don't need it to match the shape of the
 
 - Add a **Box Collider** component 
 
-![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar/images/ship_collider.jpg?raw=true)
+![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/ship_collider.jpg?raw=true)
 
 You can now save and go back to the scene
 
@@ -107,7 +107,7 @@ We can now add our manager
 
 - In the scene hierachy, **right click** and select **XR > XR Interaction Manager**
 
-![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar/images/interaction_manger.jpg?raw=true)
+![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/interaction_manger.jpg?raw=true)
 
 We now have everything set up, you can now select the object by clicking on it.  But, we can't test it yet as we haven't told Unity to do anything when the object is selected.
 
@@ -151,7 +151,7 @@ We can now add this script to our Object
 - Open the Ship-large object
 - Drag your new script on the object. ( you may need to lock the inspector panel in the top right)
 
-![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar/images/add_script.jpg?raw=true)
+![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/add_script.jpg?raw=true)
 
 ### Connect the interactor to the script
 
@@ -159,7 +159,7 @@ We can now add this script to our Object
 
 You can now press play and test your scene in the simulated environment, the ship should appear on the marker image, and when you click on it you should get a message in your console.
 
-![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar/images/console.jpg?raw=true)
+![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/console.jpg?raw=true)
 
 Now that we have a script hooked up to the interaction we fire off any other code we want, we could play a sound, instantiate another object, play an animation, all three or anything else we can think of.
 
@@ -212,11 +212,11 @@ public class Interactions : MonoBehaviour
 
 In my script I have set the visibility of the annotation to be false at the start, so I want to turn it off in Unity
 
-![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar/images/turn_off_anotation.jpg?raw=true)
+![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/turn_off_anotation.jpg?raw=true)
 
 Lastly, I need to drag my annotation object into the new slot I just created on my script.
 
-![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk18-unity-ar/images/drag_anotation.jpg?raw=true)
+![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/drag_anotation.jpg?raw=true)
 
 ## Test
 
