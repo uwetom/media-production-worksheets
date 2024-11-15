@@ -60,7 +60,7 @@ This image can be anything we want, but for accurate tracking Unity recommends:
 
 I have created a Unity package with some simple assets in it to get us started. 
 
-[unity ship package downloadre project in Unity Hub ](https://github.com/uwetom/media-production-worksheets/raw/refs/heads/master/wk17-unity-ar-introduction/assets/ship.unitypackage)
+[unity ship package download](https://github.com/uwetom/media-production-worksheets/raw/refs/heads/master/wk13-unity-ar-introduction/assets/ship.unitypackage)
 
 - Download it and drag it into the assets panel in Unity to include it in your project
 - Save the template scene with a new name in the scenes folder ("tracked_image_scene")
