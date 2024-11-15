@@ -64,7 +64,7 @@ This image can be anything we want, but for accurate tracking Unity recommends:
 
 I have created a Unity package with some simple assets in it to get us started. 
 
-[unity ship package downloadre project in Unity Hub ](https://github.com/uwetom/media-production-worksheets/raw/refs/headsblob/master/wk17-unity-ar-introduction/assets/ship.unitypackage)
+[unity ship package downloadre project in Unity Hub ](https://github.com/uwetom/media-production-worksheets/raw/refs/heads/master/wk17-unity-ar-introduction/assets/ship.unitypackage)
 
 - Download it and drag it into the assets panel in Unity to include it in your project
 - Save the template scene with a new name in the scenes folder ("tracked_image_scene")
@@ -109,7 +109,7 @@ public class TrackImage : MonoBehaviour
         	// Create new copy of your prefab
         	GameObject newObject = GameObject.Instantiate(shipPrefab);
         	// parent prefab to the newImage so that they stick together.
-		newObject.transform.SetParent(newImage.transform, false);
+			newObject.transform.SetParent(newImage.transform, false);
         }
     }
 }
@@ -178,5 +178,5 @@ Once the project is open we will get a helpful box telling us to set the planfor
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNjMwMDgyNV19
+eyJoaXN0b3J5IjpbNDY3ODIxNzk1LC04MDYzMDA4MjVdfQ==
 -->
