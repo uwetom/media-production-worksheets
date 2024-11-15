@@ -66,7 +66,8 @@ There are three main **components** we need to add to our scene when using the t
 	- These are added to individual objects in our scene, marking them as interactable so they can be selected and manipulated by the user.
 2. Interactor
 	- This is placed on the camera or controller which will select the interactables.
-3. Interaction manager - This Contects the interactables to the interactors.
+3. Interaction manager 
+	- This Contects the interactables to the interactors.
 
 ### 1. Interactable
 
