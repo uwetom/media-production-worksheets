@@ -181,6 +181,7 @@ Try to write this yourself before looking at the solution bellow
 
 <details>
 <summary>finished Script</summary>
+
 ```
 using System.Collections;
 using System.Collections.Generic;
@@ -209,6 +210,7 @@ public class Interactions : MonoBehaviour
     }
 }
 ```
+
 </details>
 
 In my script I have set the visibility of the annotation to be false at the start, so I want to turn it off in Unity
