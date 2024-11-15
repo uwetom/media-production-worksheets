@@ -16,9 +16,7 @@ If you do not have a completed marker tracking project you can fork and clone my
 
 The following video will show you how to do this if you are unsure.
 
-
--------------CLONE and fork video ------------------------
-
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=45ab7838-4187-448d-8f39-b229010e266e&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="fork and clone repo" ></iframe>
 
 ## Duplicate Scene
 
@@ -92,29 +90,9 @@ We want to select our object by touching the screen on our device. Do do this we
 
 1. specify user interactions, this needs to register clicks in the simulated environment and touches on the phone.
 2. link those interactions to actions in unity
-2. when the action is triggered send out a ray from where the user touches and check if it hits an object
+3. when the action is triggered send out a ray from where the user touches and check if it hits an object
 
-
-
-
------------------ interactor video ----------------
-
-
-
-
-Add an input Action Manager component XR origin
-	add an action asset
-	add default input actions ( uses new input system)
-	
-Add raycast manager
-
-make a new object next to the main camera and call it "interactor"
-	add an xr ray interactor - tick enable ar raycasting
-	add a screen space controller
-		add tap start and drag current touch gestures
-		
-		
------------
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=981498de-a32c-4e12-981b-b22901135358&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity ar - interactor" ></iframe>
 	
 ### 3. Interaction Manager
 
@@ -123,8 +101,6 @@ We can now add our manager
 - In the scene hierachy, **right click** and select **XR > XR Interaction Manager**
 
 ![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk18-unity-ar/images/interaction_manger.jpg?raw=true)
-
-### 
 
 We now have everything set up, you can now select the object by clicking on it.  But, we can't test it yet as we haven't told Unity to do anything when the object is selected.
 
@@ -168,38 +144,35 @@ We can now add this script to our Object
 - Open the Ship-large object
 - Drag your new script on the object. ( you may need to lock the inspector panel in the top right)
 
+![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk18-unity-ar/images/add_script.jpg?raw=true)
+
 ### Connect the interactor to the script
 
-
-----------connect the interactor to the script video --------------------
-
-- Go into the simple interactable component and go into interactable events
-- Press plus on the Select Entered section
-- drag the main controller onto it
-- choose the interaction.selected function
-
-
----------------
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=60315a18-282a-424f-afe6-b2290117a99c&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="ar - connect script to event" ></iframe>
 
 You can now press play and test your scene in the simulated environment, the ship should appear on the marker image, and when you click on it you should get a message in your console.
 
+![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk18-unity-ar/images/console.jpg?raw=true)
 
 Now that we have a script hooked up to the interaction we fire off any other code we want, we could play a sound, instantiate another object, play an animation, all three or anything else we can think of.
 
-#### Annotation
+## Annotation
 
 We will add some annotations to the ship which appear when its touched.
 
------------create ui video---------------------
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=db94a496-57f2-48e7-baa3-b2290119d8a1&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity ar - extra functionality" ></iframe>
 
 
-- create new empty game object in ship and call it annotation
-- add a text mesh-pro - text component ( install tmp)
-- add any other things you want 
+We now want to alter our interaction script to show and hide the annotation.
 
-alter the script
+- Add a new boolean variable to hold the current visibility of the ship, set it to false
+- Add a public GameObject variable to hold the annotation object.
+- Add an if statement to your selected function to toggle the SetActive() property of your annotation object.
 
+Try to write this yourself before looking at the solution bellow
 
+<details>
+<summary>finished Script</summary>
 ```
 using System.Collections;
 using System.Collections.Generic;
@@ -208,13 +181,14 @@ using UnityEngine;
 public class Interactions : MonoBehaviour
 {
 
-    bool annotationVisible = false;
-    public GameObject annotation;
+    bool annotationVisible = false; //current visibility of ship
+    public GameObject annotation; // annotation object
 
     public void selected()
     {
 
         Debug.Log("show annotation");
+        //toggle visibility of the annotation
         if (annotationVisible)
         {
             annotation.SetActive(false);
@@ -227,7 +201,33 @@ public class Interactions : MonoBehaviour
     }
 }
 ```
+</details>
 
+In my script I have set the visibility of the annotation to be false at the start, so I want to turn it off in Unity
+
+![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk18-unity-ar/images/turn_off_anotation.jpg?raw=true)
+
+Lastly, I need to drag my annotation object into the new slot I just created on my script.
+
+![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk18-unity-ar/images/drag_anotation.jpg?raw=true)
+
+## Test
+
+Now we can test our project. press play, then click the ship to see the text appearing and disappearing.
+
+## Test on a device
+
+We have done quite a lot of work, so its now important to test on a real device to make sure it works on a touch screen.
+
+Build your project to an Android device, if you cannot remember how go back to last weeks worksheet
+
+## Challenges
+
+Now that We have the basic functionality working try to use your Unity skills to take this project further. Try to do one of the following:
+
+- Animate the ship when selected, you could make the sails or ship rock
+- Make a sound when the ship is selected
+- Create a second ship with different text.
 
 
 
