@@ -13,7 +13,13 @@
 
 - [Animating Mo Cap data](https://uwetom.github.io/media-production-worksheets/wk12-animating-mocap-data/)
 
-## wk13 & 14 Introduction to VR
+## wk13 Introduction to AR
+
+- [Introduction to AR](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/)
+
+## wk14 AR Interactions
+- [Introduction to AR](https://uwetom.github.io/media-production-worksheets/wk14-unity-ar-introduction/)
+- 
 
 ## wk15 & 16 Using External Data in Unity
 
@@ -21,9 +27,9 @@
  - Getting external data into Unity
  - [Solutions](https://uwetom.github.io/media-production-worksheets/wk15-using-external-data/api-solutions.html)
 
-## wk17 & 18 Introduction to AR
+## wk17 & 18 Introduction to VR
 
-- [Introduction to AR](https://uwetom.github.io/media-production-worksheets/wk17-unity-ar-introduction/)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2ODUzMzUwNF19
+eyJoaXN0b3J5IjpbLTE2MzMxMTk0MjldfQ==
 -->
