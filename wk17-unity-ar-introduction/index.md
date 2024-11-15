@@ -116,7 +116,7 @@ public class TrackImage : MonoBehaviour
 
 ```
 
-<details>
+</details>
 
 ## Build and Test the Scene
 
