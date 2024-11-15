@@ -74,14 +74,7 @@ We just want to be able to select our object, so we just need a simple interacta
 
 - In the ship folder, double click to open the ship prefab.
 - go into the **Ship-large** object
-- AddPlanes and faces
-
-
-## Template
-
-At the start of the last worksheet you created a template AR project.
-
-I have created a GitHub repository with this template project which you can **fork** and **XR Simple Interactable** component to it.
+- Add an **XR Simple Interactable** component to it.
 
 The object will also need a collider, we don't need it to match the shape of the ship so will just use a box.
 
@@ -247,18 +240,4 @@ Now that We have the basic functionality working try to use your Unity skills to
 
 
 
-clone**
 
-[https://github.com/uwetom/unity_ar_template](https://github.com/uwetom/unity_ar_template)
-
-![fork button on github.com](images/fork.jpg)
-
-Once opened in Unity you may need switch the build target to Android.
-
-- In the top menu, go to **File > Build Settings**
-- Switch the platform to **Android**
-
-## Detect Planes
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUyNzg2MTNdfQ==
--->

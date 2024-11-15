@@ -4,7 +4,7 @@
 
 ## Create Project
 
-First we want to create a new Unity project, Unity Hub has an Ar Core template but I have found it unreliable and bloated so we will set up our own that we can use with all our future AR projects.
+First we want to create a new Unity project, Unity Hub has an AR Core template but I have found it unreliable and bloated so we will set up our own that we can use with all our future AR projects.
 
 In the following video we will:
 - Create a new Unity project using the **Universal 3D** template
@@ -12,7 +12,6 @@ In the following video we will:
 - Install AR packages
 - Adjust the settings for AR
 - Make a blank AR scene
-
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=889f2f8a-87c2-4ff2-a202-b21a008f305a&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity- ar_template" ></iframe>
 
@@ -23,7 +22,7 @@ Now that we have a basic AR project and scene we want to check that it runs on a
 ### Android Developer mode
 Before we build, we need to turn on **developer mode** on our Android device so that we copy our new app to it.
 
-The menus items may be in differenthelpfully, Unity hub has a template which includes all the recommended places, but the following video shows how to enable developer mode on most Android devices:
+The menus items may be in different, but the following video shows how to enable developer mode on most Android devices:
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=f24a7422-8565-43e6-af75-b21e00a0a1b5&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Android developer mode" ></iframe>
 
@@ -56,10 +55,7 @@ This image can be anything we want, but for accurate tracking Unity recommends:
 
 - Size must be at least 300 x 300 pixels.
 - Format must be PNG or JPG.
-- Image can be black and whikages and settings so we can get started quickly.
-
-- Create a new Unity project using the AR Core template, you may need to download it first.
-![Create orAR colour but must have strong contrast.
+- Image can be black and white or colour but must have strong contrast.
 - Image should avoid repeated patterns.
 
 I have created a Unity package with some simple assets in it to get us started. 
@@ -152,11 +148,11 @@ In the ship folder you can find a sound file, try to make this play when the shi
 <summary>Solution</summary>
 1. Add an audio source component to the xr origin.	
 2. Add a public AudioClip variable to your script to hold your splash sound
-	+ ```public AudioClip sound;```
-- In your script, find the Audio source component
-	+ ```AudioSource source = GetComponent<AudioSource>();```
-- Use it to play your sound
-	+ ```source.PlayOneShot(sound);```
+	```public AudioClip sound;```
+3 In your script, find the Audio source component
+	```AudioSource source = GetComponent<AudioSource>();```
+4 Use it to play your sound
+	```source.PlayOneShot(sound);```
 </details>
 
 ### Add multiple markers
@@ -168,15 +164,6 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 1. Add the second image to your image library and give it a different name.
 2. In your script add another public gameObject variable to hold  a different prefab.
 3. In your script, you can access the name of image, use this in an if statement to check if the name matches an image in your library.
-	+ ```newImage.referenceImage.name```
-3. If it matches, instantiate the correct prefab.
-</details>images/ar_core_template.jpg?raw=true)
-
-Once the project is open we will get a helpful box telling us to set the planforms we wish to deploy to.
-
-
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY3ODIxNzk1LC04MDYzMDA4MjVdfQ==
--->
+	```newImage.referenceImage.name```
+4. If it matches, instantiate the correct prefab.
+</details>
