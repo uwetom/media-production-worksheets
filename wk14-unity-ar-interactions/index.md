@@ -75,14 +75,7 @@ We just want to be able to select our object, so we just need a simple interacta
 
 - In the ship folder, double click to open the ship prefab.
 - go into the **Ship-large** object
-- AddPlanes and faces
-
-
-## Template
-
-At the start of the last worksheet you created a template AR project.
-
-I have created a GitHub repository with this template project which you can **fork** and **XR Simple Interactable** component to it.
+- Add an **XR Simple Interactable** component to it.
 
 The object will also need a collider, we don't need it to match the shape of the ship so will just use a box.
 
@@ -94,11 +87,11 @@ You can now save and go back to the scene
 
 ### 2. Interactor
 
-We want to select our object by touching the screen on our device. Do do this we need to setup 2 things
+We want to select our object by touching the screen on our device. To do this we need to setup two things:
 
-1. specify user interactions, this needs to register clicks in the simulated environment and touches on the phone.
-2. link those interactions to actions in unity
-3. when the action is triggered send out a ray from where the user touches and check if it hits an object
+1. Specify user interactions, this needs to register clicks in the simulated environment and touches on the phone.
+2. Link those interactions to actions in unity.
+3. When the action is triggered send out a ray from where the user touches and check if it hits an object.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=981498de-a32c-4e12-981b-b22901135358&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity ar - interactor" ></iframe>
 	
