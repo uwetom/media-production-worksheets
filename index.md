@@ -19,7 +19,7 @@
 
 ## wk14 AR Interactions
 
-- [Introduction to AR](https://uwetom.github.io/media-production-worksheets/wk14-unity-ar-interactions/)
+- [AR Interactions](https://uwetom.github.io/media-production-worksheets/wk14-unity-ar-interactions/)
 
 ## wk15 & 16 Using External Data in Unity
 
@@ -28,3 +28,6 @@
  - [Solutions](https://uwetom.github.io/media-production-worksheets/wk15-using-external-data/api-solutions.html)
 
 ## wk17 & 18 VR
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTgzMzI4ODMyXX0=
+-->
