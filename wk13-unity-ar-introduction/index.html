@@ -1,71 +1,153 @@
 ﻿<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <link rel="stylesheet" href="https://stackedit.io/style.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>index</title>
-  <link rel="stylesheet" href="https://stackedit.io/style.css" />
-</head>
+  <body class="stackedit">
+    <div class="stackedit__html">
+      <p>
+        <a href="https://uwetom.github.io/media-production-worksheets">Back</a>
+      </p>
+      <h1 id="introduction-to-augmented-reality-ar-in-unity">
+        Introduction to Augmented Reality (AR) in Unity
+      </h1>
+      <h2 id="create-project">Create Project</h2>
+      <p>
+        First we want to create a new Unity project, Unity Hub has an AR Core
+        template but I have found it unreliable and bloated so we will set up
+        our own that we can use with all our future AR projects.
+      </p>
+      <p>In the following video we will:</p>
+      <ul>
+        <li>
+          Create a new Unity project using the
+          <strong>Universal 3D</strong> template
+        </li>
+        <li>Switch to build with Android</li>
+        <li>Install AR packages</li>
+        <li>Adjust the settings for AR</li>
+        <li>Make a blank AR scene</li>
+      </ul>
+      <iframe
+        src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=889f2f8a-87c2-4ff2-a202-b21a008f305a&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all"
+        height="405"
+        width="720"
+        allowfullscreen=""
+      ></iframe>
+      <h2 id="build-to-android-device">Build to Android Device</h2>
+      <p>
+        Now that we have a basic AR project and scene we want to check that it
+        runs on a real device.
+      </p>
+      <h3 id="android-developer-mode">Android Developer mode</h3>
+      <p>
+        Before we build, we need to turn on <strong>developer mode</strong> on
+        our Android device so that we copy our new app to it.
+      </p>
+      <p>
+        The menus items may be in different, but the following video shows how
+        to enable developer mode on most Android devices:
+      </p>
+      <iframe
+        src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=f24a7422-8565-43e6-af75-b21e00a0a1b5&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all"
+        height="405"
+        width="720"
+        allowfullscreen=""
+      ></iframe>
+      <h3 id="build">Build</h3>
+      <p>Now that we have set the device up we can build to it</p>
+      <iframe
+        src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=1c0abd93-e11a-40b9-8d4d-b21e00a3fea0&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all"
+        height="405"
+        width="720"
+        allowfullscreen=""
+      ></iframe>
+      <h3 id="test">Test</h3>
+      <p>
+        Move the phone around and see if you can see you cube hanging in space,
+        you may need to move backwards. It should open automatically when you
+        unlock you device, if it does not you should be able to find it
+        installed in your app library.
+      </p>
+      <ul>
+        <li>If you cannot find the cube, try restarting the app.</li>
+        <li>
+          If you still cannot find it, check that you build the correct scene in
+          Unity.
+        </li>
+      </ul>
+      <h2 id="position-virtual-object">Position Virtual Object</h2>
+      <p>
+        In our template, the cube is located at the origin or our scene. This is
+        normally where the phones camera is when you first open the app, but
+        does not correspond to anything specifically in the real world.
+      </p>
+      <p>
+        We want to be able to decide exactly where object will appear in the
+        real world.
+      </p>
+      <h2 id="tracked-image">Tracked Image</h2>
+      <p>The first way we will do this is with a tracked image.</p>
+      <p>This allows us to link virtual 3D objects to real images.</p>
+      <p>
+        This image can be anything we want, but for accurate tracking Unity
+        recommends:
+      </p>
+      <ul>
+        <li>Size must be at least 300 x 300 pixels.</li>
+        <li>Format must be PNG or JPG.</li>
+        <li>
+          Image can be black and white or colour but must have strong contrast.
+        </li>
+        <li>Image should avoid repeated patterns.</li>
+      </ul>
+      <p>
+        I have created a Unity package with some simple assets in it to get us
+        started.
+      </p>
+      <p>
+        <a
+          href="https://github.com/uwetom/media-production-worksheets/raw/refs/heads/master/wk13-unity-ar-introduction/assets/ship.unitypackage"
+          >unity ship package download</a
+        >
+      </p>
+      <ul>
+        <li>
+          Download it and drag it into the assets panel in Unity to include it
+          in your project
+        </li>
+        <li>
+          Save the template scene with a new name in the scenes folder
+          (“tracked_image_scene”)
+        </li>
+        <li>Delete the cube from the scene</li>
+      </ul>
+      <h3 id="tracked-image-manager">Tracked image manager</h3>
+      <p>
+        The tracked image manager component manages all the images we want to
+        track.
+      </p>
+      <iframe
+        src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=67d369cb-c479-4dc7-8732-b21f00951b6a&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all"
+        height="405"
+        width="720"
+        allowfullscreen=""
+      ></iframe>
+      <h3 id="instantiate-a-prefab">Instantiate a prefab</h3>
+      <p>Now we can create a script to instantiate our prefab on the image.</p>
+      <iframe
+        src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=09532d13-dd25-4ab8-8bb5-b21f0096e46c&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all"
+        height="405"
+        width="720"
+        allowfullscreen=""
+      ></iframe>
 
-<body class="stackedit">
-  <div class="stackedit__html"><p><a href="https://uwetom.github.io/media-production-worksheets">Back</a></p>
-<h1 id="introduction-to-augmented-reality-ar-in-unity">Introduction to Augmented Reality (AR) in Unity</h1>
-<h2 id="create-project">Create Project</h2>
-<p>First we want to create a new Unity project, Unity Hub has an AR Core template but I have found it unreliable and bloated so we will set up our own that we can use with all our future AR projects.</p>
-<p>In the following video we will:</p>
-<ul>
-<li>Create a new Unity project using the <strong>Universal 3D</strong> template</li>
-<li>Switch to build with Android</li>
-<li>Install AR packages</li>
-<li>Adjust the settings for AR</li>
-<li>Make a blank AR scene</li>
-</ul>
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=889f2f8a-87c2-4ff2-a202-b21a008f305a&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
-<h2 id="build-to-android-device">Build to Android Device</h2>
-<p>Now that we have a basic AR project and scene we want to check that it runs on a real device.</p>
-<h3 id="android-developer-mode">Android Developer mode</h3>
-<p>Before we build, we need to turn on <strong>developer mode</strong> on our Android device so that we copy our new app to it.</p>
-<p>The menus items may be in different, but the following video shows how to enable developer mode on most Android devices:</p>
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=f24a7422-8565-43e6-af75-b21e00a0a1b5&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
-<h3 id="build">Build</h3>
-<p>Now that we have set the device up we can build to it</p>
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=1c0abd93-e11a-40b9-8d4d-b21e00a3fea0&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
-<h3 id="test">Test</h3>
-<p>Move the phone around and see if you can see you cube hanging in space, you may need to move backwards. It should open automatically when you unlock you device, if it does not you should be able to find it installed in your app library.</p>
-<ul>
-<li>If you cannot find the cube, try restarting the app.</li>
-<li>If you still cannot find it, check that you build the correct scene in Unity.</li>
-</ul>
-<h2 id="position-virtual-object">Position Virtual Object</h2>
-<p>In our template, the cube is located at the origin or our scene. This is normally where the phones camera is when you first open the app, but does not correspond to anything specifically in the real world.</p>
-<p>We want to be able to decide exactly where object will appear in the real world.</p>
-<h2 id="tracked-image">Tracked Image</h2>
-<p>The first way we will do this is with a tracked image.</p>
-<p>This allows us to link virtual 3D objects to real images.</p>
-<p>This image can be anything we want, but for accurate tracking Unity recommends:</p>
-<ul>
-<li>Size must be at least 300 x 300 pixels.</li>
-<li>Format must be PNG or JPG.</li>
-<li>Image can be black and white or colour but must have strong contrast.</li>
-<li>Image should avoid repeated patterns.</li>
-</ul>
-<p>I have created a Unity package with some simple assets in it to get us started.</p>
-<p><a href="https://github.com/uwetom/media-production-worksheets/raw/refs/heads/master/wk13-unity-ar-introduction/assets/ship.unitypackage">unity ship package download</a></p>
-<ul>
-<li>Download it and drag it into the assets panel in Unity to include it in your project</li>
-<li>Save the template scene with a new name in the scenes folder (“tracked_image_scene”)</li>
-<li>Delete the cube from the scene</li>
-</ul>
-<h3 id="tracked-image-manager">Tracked image manager</h3>
-<p>The tracked image manager component manages all the images we want to track.</p>
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=67d369cb-c479-4dc7-8732-b21f00951b6a&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
-<h3 id="instantiate-a-prefab">Instantiate a prefab</h3>
-<p>Now we can create a script to instantiate our prefab on the image.</p>
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=09532d13-dd25-4ab8-8bb5-b21f0096e46c&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
-
-Finished Script
-<pre><code>using System.Collections;
+      Finished Script
+      <pre><code>using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation; // include xr library
@@ -95,45 +177,86 @@ public class TrackImage : MonoBehaviour
 
 </code></pre>
 
-<h2 id="build-and-test-the-scene">Build and Test the Scene</h2>
-<p>We can now build and test the scene again on our device.</p>
-<ul>
-<li>First, on your Android device delete the previous build buy holding down on it and dragging it to delete.</li>
-<li>Go to <strong>File &gt; Build Settings</strong> and add the current scene, untick the old template scene.</li>
-<li>Check You <strong>run device</strong> is still connected and selected and press build and run.</li>
-<li>Name the build something different than before.</li>
-</ul>
-<p>If you point your camera at your image the model should appear.</p>
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=e3e42657-f347-4b16-909d-b21e00b86980&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
-<h2 id="virtual-environment">Virtual Environment</h2>
-<p>You may not always have an Android device available for testing and as your project expands it can take a while to do a full build each time you need to test.</p>
-<p>To get around this you can create a virtual environment in Unity.</p>
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=94c4dac7-3a89-45f1-a3fe-b21f00b95897&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
-<h2 id="challenges">Challenges</h2>
-<h3 id="add-sound">Add sound</h3>
-<p>Now that we have a simple image marker scene working we can think about taking it further. In the script, after you instantiate the new prefab you can play a sounds, start an animation or a particle effect.</p>
-<p>In the ship folder you can find a sound file, try to make this play when the ship is instantiated.</p>
+      <h2 id="build-and-test-the-scene">Build and Test the Scene</h2>
+      <p>We can now build and test the scene again on our device.</p>
+      <ul>
+        <li>
+          First, on your Android device delete the previous build buy holding
+          down on it and dragging it to delete.
+        </li>
+        <li>
+          Go to <strong>File &gt; Build Settings</strong> and add the current
+          scene, untick the old template scene.
+        </li>
+        <li>
+          Check You <strong>run device</strong> is still connected and selected
+          and press build and run.
+        </li>
+        <li>Name the build something different than before.</li>
+      </ul>
+      <p>If you point your camera at your image the model should appear.</p>
+      <iframe
+        src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=e3e42657-f347-4b16-909d-b21e00b86980&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all"
+        height="405"
+        width="720"
+        allowfullscreen=""
+      ></iframe>
+      <h2 id="virtual-environment">Virtual Environment</h2>
+      <p>
+        You may not always have an Android device available for testing and as
+        your project expands it can take a while to do a full build each time
+        you need to test.
+      </p>
+      <p>To get around this you can create a virtual environment in Unity.</p>
+      <iframe
+        src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=94c4dac7-3a89-45f1-a3fe-b21f00b95897&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all"
+        height="405"
+        width="720"
+        allowfullscreen=""
+      ></iframe>
+      <h2 id="challenges">Challenges</h2>
+      <h3 id="add-sound">Add sound</h3>
+      <p>
+        Now that we have a simple image marker scene working we can think about
+        taking it further. In the script, after you instantiate the new prefab
+        you can play a sounds, start an animation or a particle effect.
+      </p>
+      <p>
+        In the ship folder you can find a sound file, try to make this play when
+        the ship is instantiated.
+      </p>
+      
+      <details>
+      <summary>Solution</summary>
+      <ol>
+      <li>Add an audio source component to the xr origin.</li>
+      <li>Add a public AudioClip variable to your script to hold your splash sound</li>
+        ```public AudioClip sound;``` 
+      <li>your script, find the Audio source component</li> 
+        ```AudioSource source = GetComponent();```
+      <li>Use it to play your sound</li> 
+        ```source.PlayOneShot(sound);```
+      </ol>
+      </details>
 
-Solution
-1. Add an audio source component to the xr origin.	
-2. Add a public AudioClip variable to your script to hold your splash sound
-	```public AudioClip sound;```
-3 In your script, find the Audio source component
-	```AudioSource source = GetComponent();```
-4 Use it to play your sound
-	```source.PlayOneShot(sound);```
+      <h3 id="add-multiple-markers">Add multiple markers</h3>
+      <p>
+        In the ship folder you can find two boats and 2 images. Add both images
+        to your image reference library and add to your script to a different
+        boat for each image.
+      </p>
 
-<h3 id="add-multiple-markers">Add multiple markers</h3>
-<p>In the ship folder you can find two boats and 2 images. Add both images to your image reference library and add to your script to a different boat for each image.</p>
-
-Solution
-1. Add the second image to your image library and give it a different name.
-2. In your script add another public gameObject variable to hold  a different prefab.
-3. In your script, you can access the name of image, use this in an if statement to check if the name matches an image in your library.
-	```newImage.referenceImage.name```
-4. If it matches, instantiate the correct prefab.
-
-</div>
-</body>
-
+      <details>
+        <summary>Solution</summary>
+        <ol>
+        <li>Add the second image to your image library and give it a different name.</li>
+      <li>In your script add another public gameObject variable to hold a different prefab.</li>
+       <li>In your script, you can access the name of image, use this in an if statement to check if the name matches an image
+      in your library.</li>
+       ```newImage.referenceImage.name```
+      <li>If it matches, instantiate the correct prefab.</li>
+        </ol>
+      </details>
+    </div>
+  </body>
 </html>
