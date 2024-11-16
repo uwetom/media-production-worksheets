@@ -1,343 +1,149 @@
 ﻿<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>index</title>
-    <link rel="stylesheet" href="https://stackedit.io/style.css" />
-  </head>
 
-  <body class="stackedit">
-    <div class="stackedit__html">
-      <h2 id="more-unity-ar---interactions">More Unity AR - Interactions</h2>
-      <p>
-        In this worksheet we will look at adding interactions in our AR project.
-      </p>
-      <h2 id="starting-project">Starting project</h2>
-      <p>
-        This worksheet continues on from last weeks marker tracking project.
-      </p>
-      <p>
-        If you have a finished working version of this project open that and
-        skip to <strong>Duplicate Scene</strong>
-      </p>
-      <p>
-        If you do not have a completed marker tracking project you can fork and
-        clone my template project from github.
-      </p>
-      <p>
-        <a href="https://github.com/uwetom/Unity-Worksheet-1-finished"
-          >Github repository</a
-        >
-      </p>
-      <p>
-        <img
-          src="https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/fork.jpg?raw=true"
-          alt="fork button on github.com"
-        />
-      </p>
-      <p>The following video will show you how to do this if you are unsure.</p>
-      <iframe
-        src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=45ab7838-4187-448d-8f39-b229010e266e&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all"
-        height="405"
-        width="720"
-        allowfullscreen=""
-      ></iframe>
-      <h2 id="duplicate-scene">Duplicate Scene</h2>
-      <p>
-        In the <strong>Scenes</strong> folder, duplicate and rename your tracked
-        image scene (it should be called <strong>AR_tracked_image</strong> ) and
-        name it “AR_Interaction”.
-      </p>
-      <h2 id="test-the-new-scene">Test the new scene</h2>
-      <p>
-        Open your new scene and press play to test it, you should see a ship
-        appear on your marker in the virtual environment.
-      </p>
-      <p>
-        You will also want to test that the correct build platform is selected,
-      </p>
-      <ul>
-        <li>
-          In the top menu, go to <strong>File &gt; Build Settings</strong> and
-          check that the current Platform is Android ( if not switch to it)
-        </li>
-      </ul>
-      <h2 id="xr-interaction-toolkit">XR Interaction toolkit</h2>
-      <p>
-        We want to interact with the objects in our scene by touching the
-        screen.
-      </p>
-      <p>
-        We could manually setup and program the inputs ourselves but helpfully
-        Unity has made an interaction toolkit package which contains everything
-        we need.
-      </p>
-      <p>
-        We will be using it for AR, but as the name suggests, the XR toolkit
-        also also works with VR projects and we will use it again later in the
-        course.
-      </p>
-      <ul>
-        <li>go to <strong>Windows &gt; Package Manager</strong></li>
-        <li>In Unity Registry, search for “XR”</li>
-        <li>Install the <strong>XR Interaction Toolkit</strong></li>
-      </ul>
-      <p>
-        <img
-          src="https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/interaction_toolkit.jpg?raw=true"
-          alt="turn on XR Simulation"
-        />
-      </p>
-      <p>
-        As XR technology is rapidly evolving, Unity frequently updates this
-        package with major changes. We will be using version 2.5 as it is the
-        latest stable release for Unity 2023.
-      </p>
-      <p>
-        WARNING: Tutorials you find online may be using other versions of Unity
-        and the toolkit which may not be compatible with what is covered in this
-        worksheet
-      </p>
-      <p>If in doubt, as always, check the documentation:</p>
-      <p>
-        <a
-          href="https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/index.html"
-          >XR Interaction toolkit 2.5</a
-        >
-      </p>
-      <p>
-        We will also add the starter assets samples which will give us some
-        assets.
-      </p>
-      <ul>
-        <li>
-          In the <strong>XR Interation Toolkit</strong> open the
-          <strong>Samples</strong> tab and import the
-          <strong>Starter Assets</strong>
-        </li>
-      </ul>
-      <p>
-        <img
-          src="https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/toolkit_samples.jpg?raw=true"
-          alt="toolkit samples"
-        />
-      </p>
-      <h2 id="interaction-toolkit-components">
-        Interaction Toolkit Components
-      </h2>
-      <p>
-        There are three main <strong>components</strong> we need to add to our
-        scene when using the toolkit for AR.
-      </p>
-      <ol>
-        <li>
-          Interactables
-          <ul>
-            <li>
-              These are added to individual objects in our scene, marking them
-              as interactable so they can be selected and manipulated by the
-              user.
-            </li>
-          </ul>
-        </li>
-        <li>
-          Interactor
-          <ul>
-            <li>
-              This is placed on the camera or controller which will select the
-              interactables.
-            </li>
-          </ul>
-        </li>
-        <li>
-          Interaction manager
-          <ul>
-            <li>This Contects the interactables to the interactors.</li>
-          </ul>
-        </li>
-      </ol>
-      <h3 id="interactable">1. Interactable</h3>
-      <p>
-        We just want to be able to select our object, so we just need a simple
-        interactable,
-      </p>
-      <ul>
-        <li>In the ship folder, double click to open the ship prefab.</li>
-        <li>go into the <strong>Ship-large</strong> object</li>
-        <li>AddPlanes and faces</li>
-      </ul>
-      <h2 id="template">Template</h2>
-      <p>
-        At the start of the last worksheet you created a template AR project.
-      </p>
-      <p>
-        I have created a GitHub repository with this template project which you
-        can <strong>fork</strong> and
-        <strong>XR Simple Interactable</strong> component to it.
-      </p>
-      <p>
-        The object will also need a collider, we don’t need it to match the
-        shape of the ship so will just use a box.
-      </p>
-      <ul>
-        <li>Add a <strong>Box Collider</strong> component</li>
-      </ul>
-      <p>
-        <img
-          src="https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/ship_collider.jpg?raw=true"
-          alt="toolkit samples"
-        />
-      </p>
-      <p>You can now save and go back to the scene</p>
-      <h3 id="interactor">2. Interactor</h3>
-      <p>
-        We want to select our object by touching the screen on our device. Do do
-        this we need to setup 2 things
-      </p>
-      <ol>
-        <li>
-          specify user interactions, this needs to register clicks in the
-          simulated environment and touches on the phone.
-        </li>
-        <li>link those interactions to actions in unity</li>
-        <li>
-          when the action is triggered send out a ray from where the user
-          touches and check if it hits an object
-        </li>
-      </ol>
-      <iframe
-        src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=981498de-a32c-4e12-981b-b22901135358&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all"
-        height="405"
-        width="720"
-        allowfullscreen=""
-      ></iframe>
-      <h3 id="interaction-manager">3. Interaction Manager</h3>
-      <p>We can now add our manager</p>
-      <ul>
-        <li>
-          In the scene hierachy, <strong>right click</strong> and select
-          <strong>XR &gt; XR Interaction Manager</strong>
-        </li>
-      </ul>
-      <p>
-        <img
-          src="https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/interaction_manger.jpg?raw=true"
-          alt="toolkit samples"
-        />
-      </p>
-      <p>
-        We now have everything set up, you can now select the object by clicking
-        on it. But, we can’t test it yet as we haven’t told Unity to do anything
-        when the object is selected.
-      </p>
-      <p>
-        We will make a script with a function that we can call when the object
-        is selected.
-      </p>
-      <h4 id="challenge">Challenge</h4>
-      <p>
-        Make a new script with a <strong>public</strong> function which shows a
-        simple message on the console when called.
-      </p>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
 
-      <details>
-        <summary>HINT</summary>
-        Debug.Log("my message"); 
-      </details>
-       
-       
-       <details>
-        <summary>Solution</summary>
-        <li>Create a new script in the script folder by right clicking and selecting **create &gt; c# Script** </li> 
-        <li>Delete the update and start methods </li>
-        <li>Create a new public function logging out message</li>
-       
-        <pre><code>using System.Collections;
-          using System.Collections.Generic;
-          using UnityEngine;
-          
-          public class Interactions : MonoBehaviour
-          {
-             public void selected()
-             {
-                  Debug.Log("ship selected");
-             }
-          }
-          </code></pre>
-      
-      </details>
-    
-      <h3 id="add-the-script-to-your-object">Add the script to your object</h3>
-      <p>We can now add this script to our Object</p>
-      <ul>
-        <li>Open your Ship prefab</li>
-        <li>Open the Ship-large object</li>
-        <li>
-          Drag your new script on the object. ( you may need to lock the
-          inspector panel in the top right)
-        </li>
-      </ul>
-      <p>
-        <img
-          src="https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/add_script.jpg?raw=true"
-          alt="toolkit samples"
-        />
-      </p>
-      <h3 id="connect-the-interactor-to-the-script">
-        Connect the interactor to the script
-      </h3>
-      <iframe
-        src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=60315a18-282a-424f-afe6-b2290117a99c&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all"
-        height="405"
-        width="720"
-        allowfullscreen=""
-      ></iframe>
-      <p>
-        You can now press play and test your scene in the simulated environment,
-        the ship should appear on the marker image, and when you click on it you
-        should get a message in your console.
-      </p>
-      <p>
-        <img
-          src="https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/console.jpg?raw=true"
-          alt="toolkit samples"
-        />
-      </p>
-      <p>
-        Now that we have a script hooked up to the interaction we fire off any
-        other code we want, we could play a sound, instantiate another object,
-        play an animation, all three or anything else we can think of.
-      </p>
-      <h2 id="annotation">Annotation</h2>
-      <p>
-        We will add some annotations to the ship which appear when its touched.
-      </p>
-      <iframe
-        src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=db94a496-57f2-48e7-baa3-b2290119d8a1&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all"
-        height="405"
-        width="720"
-        allowfullscreen=""
-      ></iframe>
-      <p>
-        We now want to alter our interaction script to show and hide the
-        annotation.
-      </p>
-      <ul>
-        <li>
-          Add a new boolean variable to hold the current visibility of the ship,
-          set it to false
-        </li>
-        <li>Add a public GameObject variable to hold the annotation object.</li>
-        <li>
-          Add an if statement to your selected function to toggle the
-          SetActive() property of your annotation object.
-        </li>
-      </ul>
-      <p>Try to write this yourself before looking at the solution bellow</p>
+<body class="stackedit">
+  <div class="stackedit__html"><h2 id="more-unity-ar---interactions">More Unity AR - Interactions</h2>
+<p>In this worksheet we will look at adding interactions in our AR project.</p>
+<h2 id="starting-project">Starting project</h2>
+<p>This worksheet continues on from last weeks marker tracking project.</p>
+<p>If you have a finished working version of this project open that and skip to <strong>Duplicate Scene</strong></p>
+<p>If you do not have a completed marker tracking project you can fork and clone my template project from github.</p>
+<p><a href="https://github.com/uwetom/Unity-Worksheet-1-finished">Github repository</a></p>
+<p><img src="https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/fork.jpg?raw=true" alt="fork button on github.com"></p>
+<p>The following video will show you how to do this if you are unsure.</p>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=45ab7838-4187-448d-8f39-b229010e266e&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<h2 id="duplicate-scene">Duplicate Scene</h2>
+<p>In the <strong>Scenes</strong> folder, duplicate and rename your tracked image scene (it should be called <strong>AR_tracked_image</strong> ) and name it “AR_Interaction”.</p>
+<h2 id="test-the-new-scene">Test the new scene</h2>
+<p>Open your new scene and press play to test it, you should see a ship appear on your marker in the virtual environment.</p>
+<p>You will also want to test that the correct build platform is selected,</p>
+<ul>
+<li>In the top menu, go to <strong>File &gt; Build Settings</strong> and check that the current Platform is Android ( if not switch to it)</li>
+</ul>
+<h2 id="xr-interaction-toolkit">XR Interaction toolkit</h2>
+<p>We want to interact with the objects in our scene by touching the screen.</p>
+<p>We could manually setup and program the inputs ourselves but helpfully Unity has made an interaction toolkit package which contains everything we need.</p>
+<p>We will be using it for AR, but as the name suggests, the XR toolkit also also works with VR projects and we will use it again later in the course.</p>
+<ul>
+<li>go to <strong>Windows &gt; Package Manager</strong></li>
+<li>In Unity Registry, search for “XR”</li>
+<li>Install the <strong>XR Interaction Toolkit</strong></li>
+</ul>
+<p><img src="https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/interaction_toolkit.jpg?raw=true" alt="turn on XR Simulation"></p>
+<p>As XR technology is rapidly evolving, Unity frequently updates this package with major changes. We will be using version 2.5 as it is the latest stable release for Unity 2023.</p>
+<p>WARNING: Tutorials you find online may be using other versions of Unity and the toolkit which may not be compatible with what is covered in this worksheet</p>
+<p>If in doubt, as always, check the documentation:</p>
+<p><a href="https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/index.html">XR Interaction toolkit 2.5</a></p>
+<p>We will also add the starter assets samples which will give us some assets.</p>
+<ul>
+<li>In the <strong>XR Interation Toolkit</strong> open the <strong>Samples</strong> tab and import the <strong>Starter Assets</strong></li>
+</ul>
+<p><img src="https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/toolkit_samples.jpg?raw=true" alt="toolkit samples"></p>
+<h2 id="interaction-toolkit-components">Interaction Toolkit Components</h2>
+<p>There are three main <strong>components</strong> we need to add to our scene when using the toolkit for AR.</p>
+<ol>
+<li>Interactables
+<ul>
+<li>These are added to individual objects in our scene, marking them as interactable so they can be selected and manipulated by the user.</li>
+</ul>
+</li>
+<li>Interactor
+<ul>
+<li>This is placed on the camera or controller which will select the interactables.</li>
+</ul>
+</li>
+<li>Interaction manager
+<ul>
+<li>This Contects the interactables to the interactors.</li>
+</ul>
+</li>
+</ol>
+<h3 id="interactable">1. Interactable</h3>
+<p>We just want to be able to select our object, so we just need a simple interactable,</p>
+<ul>
+<li>In the ship folder, double click to open the ship prefab.</li>
+<li>go into the <strong>Ship-large</strong> object</li>
+<li>Add an <strong>XR Simple Interactable</strong> component to it.</li>
+</ul>
+<p>The object will also need a collider, we don’t need it to match the shape of the ship so will just use a box.</p>
+<ul>
+<li>Add a <strong>Box Collider</strong> component</li>
+</ul>
+<p><img src="https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/ship_collider.jpg?raw=true" alt="toolkit samples"></p>
+<p>You can now save and go back to the scene</p>
+<h3 id="interactor">2. Interactor</h3>
+<p>We want to select our object by touching the screen on our device. To do this we need to setup two things:</p>
+<ol>
+<li>Specify user interactions, this needs to register clicks in the simulated environment and touches on the phone.</li>
+<li>Link those interactions to actions in unity.</li>
+<li>When the action is triggered send out a ray from where the user touches and check if it hits an object.</li>
+</ol>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=981498de-a32c-4e12-981b-b22901135358&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<h3 id="interaction-manager">3. Interaction Manager</h3>
+<p>We can now add our manager</p>
+<ul>
+<li>In the scene hierachy, <strong>right click</strong> and select <strong>XR &gt; XR Interaction Manager</strong></li>
+</ul>
+<p><img src="https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/interaction_manger.jpg?raw=true" alt="toolkit samples"></p>
+<p>We now have everything set up, you can now select the object by clicking on it.  But, we can’t test it yet as we haven’t told Unity to do anything when the object is selected.</p>
+<p>We will make a script with a function that we can call when the object is selected.</p>
+<h4 id="challenge">Challenge</h4>
+<p>Make a new script with a <strong>public</strong> function which shows a simple message on the console when called.</p>
 
-      finished Script
-      <pre><code>using System.Collections;
+HINT
+Debug.Log("my message");
+
+
+Solution
+- Create a new script in the script folder by right clicking and selecting **create &gt; c# Script**
+- Delete the update and start methods
+- Create a new public function logging out a message
+<pre><code>using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Interactions : MonoBehaviour
+{
+   public void selected()
+   {
+        Debug.Log("ship selected");
+   }
+}
+</code></pre>
+
+<h3 id="add-the-script-to-your-object">Add the script to your object</h3>
+<p>We can now add this script to our Object</p>
+<ul>
+<li>Open your Ship prefab</li>
+<li>Open the Ship-large object</li>
+<li>Drag your new script on the object. ( you may need to lock the inspector panel in the top right)</li>
+</ul>
+<p><img src="https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/add_script.jpg?raw=true" alt="toolkit samples"></p>
+<h3 id="connect-the-interactor-to-the-script">Connect the interactor to the script</h3>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=60315a18-282a-424f-afe6-b2290117a99c&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<p>You can now press play and test your scene in the simulated environment, the ship should appear on the marker image, and when you click on it you should get a message in your console.</p>
+<p><img src="https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/console.jpg?raw=true" alt="toolkit samples"></p>
+<p>Now that we have a script hooked up to the interaction we fire off any other code we want, we could play a sound, instantiate another object, play an animation, all three or anything else we can think of.</p>
+<h2 id="annotation">Annotation</h2>
+<p>We will add some annotations to the ship which appear when its touched.</p>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=db94a496-57f2-48e7-baa3-b2290119d8a1&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<p>We now want to alter our interaction script to show and hide the annotation.</p>
+<ul>
+<li>Add a new boolean variable to hold the current visibility of the ship, set it to false</li>
+<li>Add a public GameObject variable to hold the annotation object.</li>
+<li>Add an if statement to your selected function to toggle the SetActive() property of your annotation object.</li>
+</ul>
+<p>Try to write this yourself before looking at the solution bellow</p>
+
+finished Script
+<pre><code>using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -365,52 +171,23 @@ public class Interactions : MonoBehaviour
 }
 </code></pre>
 
-      <p>
-        In my script I have set the visibility of the annotation to be false at
-        the start, so I want to turn it off in Unity
-      </p>
-      <p>
-        <img
-          src="https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/turn_off_anotation.jpg?raw=true"
-          alt="toolkit samples"
-        />
-      </p>
-      <p>
-        Lastly, I need to drag my annotation object into the new slot I just
-        created on my script.
-      </p>
-      <p>
-        <img
-          src="https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/drag_anotation.jpg?raw=true"
-          alt="toolkit samples"
-        />
-      </p>
-      <h2 id="test">Test</h2>
-      <p>
-        Now we can test our project. press play, then click the ship to see the
-        text appearing and disappearing.
-      </p>
-      <h2 id="test-on-a-device">Test on a device</h2>
-      <p>
-        We have done quite a lot of work, so its now important to test on a real
-        device to make sure it works on a touch screen.
-      </p>
-      <p>
-        Build your project to an Android device, if you cannot remember how go
-        back to last weeks worksheet
-      </p>
-      <h2 id="challenges">Challenges</h2>
-      <p>
-        Now that We have the basic functionality working try to use your Unity
-        skills to take this project further. Try to do one of the following:
-      </p>
-      <ul>
-        <li>
-          Animate the ship when selected, you could make the sails or ship rock
-        </li>
-        <li>Make a sound when the ship is selected</li>
-        <li>Create a second ship with different text.</li>
-      </ul>
-    </div>
-  </body>
+<p>In my script I have set the visibility of the annotation to be false at the start, so I want to turn it off in Unity</p>
+<p><img src="https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/turn_off_anotation.jpg?raw=true" alt="toolkit samples"></p>
+<p>Lastly, I need to drag my annotation object into the new slot I just created on my script.</p>
+<p><img src="https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/drag_anotation.jpg?raw=true" alt="toolkit samples"></p>
+<h2 id="test">Test</h2>
+<p>Now we can test our project. press play, then click the ship to see the text appearing and disappearing.</p>
+<h2 id="test-on-a-device">Test on a device</h2>
+<p>We have done quite a lot of work, so its now important to test on a real device to make sure it works on a touch screen.</p>
+<p>Build your project to an Android device, if you cannot remember how go back to last weeks worksheet</p>
+<h2 id="challenges">Challenges</h2>
+<p>Now that We have the basic functionality working try to use your Unity skills to take this project further. Try to do one of the following:</p>
+<ul>
+<li>Animate the ship when selected, you could make the sails or ship rock</li>
+<li>Make a sound when the ship is selected</li>
+<li>Create a second ship with different text.</li>
+</ul>
+</div>
+</body>
+
 </html>
