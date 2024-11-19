@@ -4,6 +4,7 @@
 
 ## Create Project
 
+Before you begin make sure that your Unity Editor (2023.2.20f1) 
 First we want to create a new Unity project, Unity Hub has an AR Core template but I have found it unreliable and bloated so we will set up our own that we can use with all our future AR projects.
 
 In the following video we will:
@@ -167,3 +168,6 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 	```newImage.referenceImage.name```
 4. If it matches, instantiate the correct prefab.
 </details>
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTQ5NTQ2MDcwXX0=
+-->
