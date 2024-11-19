@@ -7,6 +7,7 @@
 Before you begin make sure that your Unity Editor (2023.2.20f1) is installed in inside a parent a folder that contains no spaces. EG: UnityVersions rather than Unity Versions.
 
 
+If it is installed in a parent folder with spaces you will need to rename the folder and re-add the Unity editor to Unity Hub.
 
 First we want to create a new Unity project, Unity Hub has an AR Core template but I have found it unreliable and bloated so we will set up our own that we can use with all our future AR projects.
 
@@ -172,5 +173,5 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 4. If it matches, instantiate the correct prefab.
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzYyMzcwODBdfQ==
+eyJoaXN0b3J5IjpbNTA0MDUyNzU4XX0=
 -->
