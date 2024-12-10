@@ -2,9 +2,7 @@
 
 # Using Triggers with Animation Controllers and MoCap Animations 
 
-To start using MoCap data you'll need a new project set up and have downloaded a Mixamo character with an animation attached from https://www.mixamo.com/
-
-This is a free website with 1000s of animations amd 100s of characters that you can download and use in your project.
+The first step is download a T pose character and some animations, import these into Unity and prep them ready for use.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNDczMjAwXX0=
+eyJoaXN0b3J5IjpbMTU2MTM5MDc2NV19
 -->
