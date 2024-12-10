@@ -7,9 +7,9 @@ The first step is download a T pose character and some animations, import these 
 
 Then we will build an animation controller to run the animations and animate the character.
 
-Next we will add a trigger to one of the transitions.
+Next we will add a trigger to one of the transitions / animations.
 
-
+Finally we will create a script that sets the trigger
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MDM0MDk2OV19
+eyJoaXN0b3J5IjpbLTEyNzA5OTA0MjddfQ==
 -->
