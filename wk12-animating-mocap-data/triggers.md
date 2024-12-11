@@ -9,7 +9,7 @@ Then we are going to use a trigger function to trigger the motion capture animat
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=3ac7a880-29b9-43b8-9a92-b2430004b235&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-Mocap-2.0 Intro Wednesday, 11 December 2024 at 00:16:47" ></iframe>
 
 The first step is download a T pose character  import it into Unity and prep it for use.
-You need to make sure your charcater is in a T Pose 
+You need to make sure your character is in a T Pose (and not animated).
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=951a8601-c0d1-4106-8b58-b242017a9a80&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-Mocap-2.1  10 December 2024 at 22:57:11" ></iframe>
 
@@ -52,8 +52,8 @@ Then edit the script to set the bool to true when the Return key is pressed.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=2a635d01-05b9-4eb9-8360-b24300006747&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-Mocap-2.6 scripting Wednesday, 11 December 2024 at 00:01:21" ></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzY0Mzk5MzMsMTIyNjUzNDM5MSw1OD
-Q1MDc4NzUsMTg4NTQyODk0Niw0NDg4OTEzODAsMTE3NTUyODAw
-NywtMTcxMTYzNDk3MywtMTgyMzI3Mjk5MSwtMTI3MDk5MDQyN1
-19
+eyJoaXN0b3J5IjpbLTU2NTIwMjQ5MSwxMjI2NTM0MzkxLDU4ND
+UwNzg3NSwxODg1NDI4OTQ2LDQ0ODg5MTM4MCwxMTc1NTI4MDA3
+LC0xNzExNjM0OTczLC0xODIzMjcyOTkxLC0xMjcwOTkwNDI3XX
+0=
 -->
