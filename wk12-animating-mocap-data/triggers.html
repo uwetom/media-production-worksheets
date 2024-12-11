@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>triggers</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><p><a href="https://uwetom.github.io/media-production-worksheets">Back</a></p>
+<h1 id="using-triggers-with-animation-controllers-and-mocap-animations">Using Triggers with Animation Controllers and MoCap Animations</h1>
+<p>In this tutorial we’re going to download a new character from <a href="http://Mixamo.com">Mixamo.com</a> and we’re going to apply a set of animations to it from scratch.</p>
+<p>Then we are going to use a trigger function to trigger the motion capture animations to play on a keypress. Like this (the animation changes when I press ‘1’ on my keyboard):</p>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=3ac7a880-29b9-43b8-9a92-b2430004b235&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=true&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<p>The first step is download a T pose character  import it into Unity and prep it for use</p>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=951a8601-c0d1-4106-8b58-b242017a9a80&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=true&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<p>Then download an animation, and import it into Unity and prep ready for use.</p>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=446e35cb-aa22-41cd-a6f2-b242017e3900&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=true&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<p>Then we will build an animation controller to run the animations and animate the character.</p>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=a1405d08-aee1-4e63-832d-b2420180121e&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=true&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<p>Next we will add a trigger to one of the transitions / animations.</p>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=a978cc3c-a1d8-4c28-874a-b24201836239&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=true&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<p>Finally we will create a script that sets the trigger</p>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=d35d633d-77ca-4215-9b51-b2420185cde7&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=true&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<h2 id="adding-a-bool-trigger">Adding a bool trigger</h2>
+<p>Instead of a ‘Trigger’ it is possible set a bool to true or false to start and stop an animation.</p>
+<p>This maybe more useful, giving you complete control over the animations.</p>
+<p>To do this we will add a bool parameter to the animation controller</p>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=900f15dc-e08f-48a5-84c0-b2420189d2b9&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=true&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<p>Then edit the script to set the bool to true when the Return key is pressed.</p>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=2a635d01-05b9-4eb9-8360-b24300006747&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=true&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+</div>
+</body>
+
+</html>
