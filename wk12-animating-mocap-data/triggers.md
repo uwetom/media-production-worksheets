@@ -2,9 +2,7 @@
 
 # Using Triggers with Animation Controllers and MoCap Animations 
 
-In this videos we're going to download a new character from Maximo.
-
-And we're going to apply a set of animations to it from scratch.
+In this tutorial we're going to download a new character from Maximo and we're going to apply a set of animations to it from scratch.
 
 Then we are going to use a trigger function to trigger some of the motion capture videos that we're going to enter to play on a keypress.
 
@@ -31,6 +29,6 @@ Finally we will create a script that sets the trigger
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NTUyODAwNywtMTcxMTYzNDk3MywtMT
-gyMzI3Mjk5MSwtMTI3MDk5MDQyN119
+eyJoaXN0b3J5IjpbMTY0NjQwMTU4MywxMTc1NTI4MDA3LC0xNz
+ExNjM0OTczLC0xODIzMjcyOTkxLC0xMjcwOTkwNDI3XX0=
 -->
