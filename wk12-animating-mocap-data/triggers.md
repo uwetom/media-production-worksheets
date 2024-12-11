@@ -2,7 +2,7 @@
 
 # Using Triggers with Animation Controllers and MoCap Animations 
 
-In this tutorial we're going to download a new character from Mixamo and we're going to apply a set of animations to it from scratch.
+In this tutorial we're going to download a new character from Mixamo.com and we're going to apply a set of animations to it from scratch.
 
 Then we are going to use a trigger function to trigger the motion capture animations to play on a keypress. Like this (the animation changes when I press '1' on my keyboard):
 
@@ -42,7 +42,7 @@ Then edit the script to set the bool to true when the Return key is pressed.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=2a635d01-05b9-4eb9-8360-b24300006747&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-Mocap-2.6 scripting Wednesday, 11 December 2024 at 00:01:21" ></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODA5ODkzMTcsNDQ4ODkxMzgwLDExNz
-U1MjgwMDcsLTE3MTE2MzQ5NzMsLTE4MjMyNzI5OTEsLTEyNzA5
-OTA0MjddfQ==
+eyJoaXN0b3J5IjpbMTAzMTI4MDA3Miw0NDg4OTEzODAsMTE3NT
+UyODAwNywtMTcxMTYzNDk3MywtMTgyMzI3Mjk5MSwtMTI3MDk5
+MDQyN119
 -->
