@@ -8,6 +8,7 @@ Then we are going to use a trigger function to trigger the motion capture animat
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=3ac7a880-29b9-43b8-9a92-b2430004b235&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-Mocap-2.0 Intro Wednesday, 11 December 2024 at 00:16:47" ></iframe>
 
+## Download and prep a character and animation
 The first step is download a T pose character  import it into Unity and prep it for use.
 You need to make sure your character is in a T Pose (and not animated).
 
@@ -17,6 +18,8 @@ Then download an animation, and import it into Unity and prep ready for use.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=446e35cb-aa22-41cd-a6f2-b242017e3900&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-Mocap-2.2 Tuesday, 10 December 2024 at 23:10:50" ></iframe>
 
+
+## Download and prep a character and animation
 Then we will build an animation controller to run the animations and animate the character.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=a1405d08-aee1-4e63-832d-b2420180121e&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-Mocap-2.2 animation controller 10 December 2024 at 23:18:06" ></iframe>
@@ -52,8 +55,8 @@ Then edit the script to set the bool to true when the Return key is pressed.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=2a635d01-05b9-4eb9-8360-b24300006747&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-Mocap-2.6 scripting Wednesday, 11 December 2024 at 00:01:21" ></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NTIwMjQ5MSwxMjI2NTM0MzkxLDU4ND
-UwNzg3NSwxODg1NDI4OTQ2LDQ0ODg5MTM4MCwxMTc1NTI4MDA3
-LC0xNzExNjM0OTczLC0xODIzMjcyOTkxLC0xMjcwOTkwNDI3XX
-0=
+eyJoaXN0b3J5IjpbLTc3NzA2MzU5NywtNTY1MjAyNDkxLDEyMj
+Y1MzQzOTEsNTg0NTA3ODc1LDE4ODU0Mjg5NDYsNDQ4ODkxMzgw
+LDExNzU1MjgwMDcsLTE3MTE2MzQ5NzMsLTE4MjMyNzI5OTEsLT
+EyNzA5OTA0MjddfQ==
 -->
