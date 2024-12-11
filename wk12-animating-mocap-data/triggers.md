@@ -28,8 +28,10 @@ Finally we will create a script that sets the trigger
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=d35d633d-77ca-4215-9b51-b2420185cde7&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-Mocap-2.4 scripting Tuesday, 10 December 2024 at 23:38:50" ></iframe>
 
+## Adding a bool trigger 
 
+Instead of a 'Trigger' it is possible set a bool to true or false to start and stop an animatio
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDMzODg4OTUsMTE3NTUyODAwNywtMT
+eyJoaXN0b3J5IjpbLTEyNDY2NTYyODAsMTE3NTUyODAwNywtMT
 cxMTYzNDk3MywtMTgyMzI3Mjk5MSwtMTI3MDk5MDQyN119
 -->
