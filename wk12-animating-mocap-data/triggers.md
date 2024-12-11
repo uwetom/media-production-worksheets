@@ -4,8 +4,9 @@
 
 In this tutorial we're going to download a new character from Maximo and we're going to apply a set of animations to it from scratch.
 
-Then we are going to use a trigger function to trigger the motion capture animations to play on a keypress. Like this:
+Then we are going to use a trigger function to trigger the motion capture animations to play on a keypress. Like this (the animation changes when I press '1':
 
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=3ac7a880-29b9-43b8-9a92-b2430004b235&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-Mocap-2.0 Intro Wednesday, 11 December 2024 at 00:16:47" ></iframe>
 
 The first step is download a T pose character  import these into Unity and prep it for use 
 
@@ -29,6 +30,6 @@ Finally we will create a script that sets the trigger
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMTI3ODQ5MiwxMTc1NTI4MDA3LC0xNz
-ExNjM0OTczLC0xODIzMjcyOTkxLC0xMjcwOTkwNDI3XX0=
+eyJoaXN0b3J5IjpbLTE4NTEyOTE3MjgsMTE3NTUyODAwNywtMT
+cxMTYzNDk3MywtMTgyMzI3Mjk5MSwtMTI3MDk5MDQyN119
 -->
