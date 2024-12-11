@@ -21,7 +21,7 @@ Then we will build an animation controller to run the animations and animate the
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=a1405d08-aee1-4e63-832d-b2420180121e&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-Mocap-2.2 animation controller 10 December 2024 at 23:18:06" ></iframe>
 
 You may find that you want to edit / delete animations from your animation controller.
-To do this click on the animation node in the animation controller and 
+To do this right click on the animation node in the animation controller. 
 
 Next we will add a trigger to one of the transitions / animations.
 
@@ -45,7 +45,7 @@ Then edit the script to set the bool to true when the Return key is pressed.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=2a635d01-05b9-4eb9-8360-b24300006747&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-Mocap-2.6 scripting Wednesday, 11 December 2024 at 00:01:21" ></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0NTA3ODc1LDE4ODU0Mjg5NDYsNDQ4OD
-kxMzgwLDExNzU1MjgwMDcsLTE3MTE2MzQ5NzMsLTE4MjMyNzI5
-OTEsLTEyNzA5OTA0MjddfQ==
+eyJoaXN0b3J5IjpbLTE1OTg5OTY3MDgsNTg0NTA3ODc1LDE4OD
+U0Mjg5NDYsNDQ4ODkxMzgwLDExNzU1MjgwMDcsLTE3MTE2MzQ5
+NzMsLTE4MjMyNzI5OTEsLTEyNzA5OTA0MjddfQ==
 -->
