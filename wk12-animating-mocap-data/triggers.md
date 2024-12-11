@@ -30,8 +30,14 @@ Finally we will create a script that sets the trigger
 
 ## Adding a bool trigger 
 
-Instead of a 'Trigger' it is possible set a bool to true or false to start and stop an animatio
+Instead of a 'Trigger' it is possible set a bool to true or false to start and stop an animation.
+
+This maybe more useful, giving you complete control over the animations.
+
+To do this we will add a bool parameter to the animation controller
+
+Then edit the script to set the bool to true when the Return key is pressed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDY2NTYyODAsMTE3NTUyODAwNywtMT
+eyJoaXN0b3J5IjpbLTEzNjc0MjkwNjMsMTE3NTUyODAwNywtMT
 cxMTYzNDk3MywtMTgyMzI3Mjk5MSwtMTI3MDk5MDQyN119
 -->
