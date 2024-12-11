@@ -14,7 +14,7 @@ You need to make sure your character is in a T Pose (and not animated).
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=951a8601-c0d1-4106-8b58-b242017a9a80&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-Mocap-2.1  10 December 2024 at 22:57:11" ></iframe>
 
-Then download an animation, and import it into Unity and prep ready for use.
+Then download an animation (just the animation, not the character), and import it into Unity and prep ready for use.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=446e35cb-aa22-41cd-a6f2-b242017e3900&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-Mocap-2.2 Tuesday, 10 December 2024 at 23:10:50" ></iframe>
 
@@ -58,8 +58,8 @@ Then edit the script to set the bool to true when the Return key is pressed.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=2a635d01-05b9-4eb9-8360-b24300006747&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-Mocap-2.6 scripting Wednesday, 11 December 2024 at 00:01:21" ></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDM3MTU5ODYsLTU2NTIwMjQ5MSwxMj
-I2NTM0MzkxLDU4NDUwNzg3NSwxODg1NDI4OTQ2LDQ0ODg5MTM4
-MCwxMTc1NTI4MDA3LC0xNzExNjM0OTczLC0xODIzMjcyOTkxLC
-0xMjcwOTkwNDI3XX0=
+eyJoaXN0b3J5IjpbLTYyODQwODE1MywtNTY1MjAyNDkxLDEyMj
+Y1MzQzOTEsNTg0NTA3ODc1LDE4ODU0Mjg5NDYsNDQ4ODkxMzgw
+LDExNzU1MjgwMDcsLTE3MTE2MzQ5NzMsLTE4MjMyNzI5OTEsLT
+EyNzA5OTA0MjddfQ==
 -->
