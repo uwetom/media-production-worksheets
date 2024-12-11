@@ -12,6 +12,7 @@
 ## wk12 Animating with Motion Capture Data
 
 - [Animating Mo Cap data](https://uwetom.github.io/media-production-worksheets/wk12-animating-mocap-data/)
+- [Animating Mo Cap data with triggers](https://uwetom.github.io/media-production-worksheets/wk12-animating-mocap-data/triggers.html)
 
 ## wk13 Introduction to AR
 
@@ -29,5 +30,5 @@
 
 ## wk17 & 18 VR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMzI4ODMyXX0=
+eyJoaXN0b3J5IjpbNjU4NDQyNDMsLTgzMzI4ODMyXX0=
 -->
