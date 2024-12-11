@@ -39,7 +39,9 @@ To do this we will add a bool parameter to the animation controller
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=900f15dc-e08f-48a5-84c0-b2420189d2b9&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-Mocap 2.5 - bools Tuesday, 10 December 2024 at 23:53:44" ></iframe>
 
 Then edit the script to set the bool to true when the Return key is pressed.
+
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=2a635d01-05b9-4eb9-8360-b24300006747&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-Mocap-2.6 scripting Wednesday, 11 December 2024 at 00:01:21" ></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NDE1OTk0NCwxMTc1NTI4MDA3LC0xNz
-ExNjM0OTczLC0xODIzMjcyOTkxLC0xMjcwOTkwNDI3XX0=
+eyJoaXN0b3J5IjpbNDQ4ODkxMzgwLDExNzU1MjgwMDcsLTE3MT
+E2MzQ5NzMsLTE4MjMyNzI5OTEsLTEyNzA5OTA0MjddfQ==
 -->
