@@ -39,6 +39,7 @@ Next we will add a trigger to one of the transitions / animations.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=a978cc3c-a1d8-4c28-874a-b24201836239&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-Mocap-2.3 triggers Tuesday, 10 December 2024 at 23:30:18" ></iframe>
 
+## Scripting for the Trigger to an animation controller
 Finally we will create a script that sets the trigger
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=d35d633d-77ca-4215-9b51-b2420185cde7&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-Mocap-2.4 scripting Tuesday, 10 December 2024 at 23:38:50" ></iframe>
@@ -57,7 +58,7 @@ Then edit the script to set the bool to true when the Return key is pressed.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=2a635d01-05b9-4eb9-8360-b24300006747&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-Mocap-2.6 scripting Wednesday, 11 December 2024 at 00:01:21" ></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njk5OTYyMjksLTU2NTIwMjQ5MSwxMj
+eyJoaXN0b3J5IjpbLTEzOTAyMzY0NDgsLTU2NTIwMjQ5MSwxMj
 I2NTM0MzkxLDU4NDUwNzg3NSwxODg1NDI4OTQ2LDQ0ODg5MTM4
 MCwxMTc1NTI4MDA3LC0xNzExNjM0OTczLC0xODIzMjcyOTkxLC
 0xMjcwOTkwNDI3XX0=
