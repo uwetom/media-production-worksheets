@@ -4,7 +4,7 @@
 
 In this tutorial we're going to download a new character from Maximo and we're going to apply a set of animations to it from scratch.
 
-Then we are going to use a trigger function to trigger some of the motion capture videos that we're going to enter to play on a keypress.
+Then we are going to use a trigger function to trigger the motion capture animations to play on a keypress.
 
 
 The first step is download a T pose character  import these into Unity and prep it for use 
@@ -29,6 +29,6 @@ Finally we will create a script that sets the trigger
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NjQwMTU4MywxMTc1NTI4MDA3LC0xNz
+eyJoaXN0b3J5IjpbMTQ5NzU4MTA1MywxMTc1NTI4MDA3LC0xNz
 ExNjM0OTczLC0xODIzMjcyOTkxLC0xMjcwOTkwNDI3XX0=
 -->
