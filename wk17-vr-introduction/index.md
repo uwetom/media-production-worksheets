@@ -2,9 +2,7 @@
 
 # Introduction to VR
 
-## Work in Pairs
-
-For this worksheet you should work in pairs, each pair will have one headset and work on one machine.
+In This worksheet I will introduce you to VR in Unity, showing you how to create an XR rig and navigate around a scene.
 
 ## VR Headsets
 
@@ -13,7 +11,6 @@ We are using Meta Quest headsets, they can be used as stand alone devices. This 
 We will be using Meta Quest 1 and 2 headsets, you can also use the Quest 3 if you have one. All the projects created in these worksheets will work for all 3 headsets.
 
 These headsets require you to create an account and sign in to use. To save time I will do this for you before the in class workshops, but you will need to do yourself if you use them outside class.
-
 
 ## Be aware of your environment
 
@@ -80,10 +77,6 @@ This scene demonstrates basic VR interactions and motion. When you create your o
 - Within your pair, try out the scene in the simulator and on the VR headset and swap over so you both get to experience both.
 - Practice with the controls, moving around the scene and interacting with the objects and UI
 
-### On the headset
-
-We can build the scene to the headset, but as this can take a while, to save time I have pre-installed it for you.
-
 ### Simulated environment
 
 To play the scene in the simulator you can just press the play button as normal.
@@ -92,23 +85,35 @@ To play the scene in the simulator you can just press the play button as normal.
 
 The guide on the left of screen show you the controls, They are not very intuitive, but are useful to test the functionality of your project without having to do a full build to a real headset.
 
+- When the scene starts press # to lock the mouse
+- Press **tab** to cycle between controlling the head set and each controller.
+- With the right controller selected, press WSAD to move around.
+- With the left controller selected, w to teleport.
+
+### On the headset
+
+We can build the scene to the headset, but as this can take a while, to save time I have pre-installed it for you.
+
 ## Start our own scene
 
-We now want to make our own scene.
+We now want to make our own scene. We could create a new empty scene and add a floor and XR rig, but this has already been done for us.
  
-- Create a new scene in the **Scenes** folder and name it "PracticeScene".
-	- (HINT:right click > create)
-- Add a plane to make a floor and name it "floor" in hierarchy.
-- Add concrete material to it from **Assets > VRTemplateAssets > Materials > Environment**
+- Open **BasicScene** in the Scenes folder
 
-We could create our own XR Character but we will use the prefab from the demo scene.
+![Locomotion System](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/basicscene.jpg)
 
-- Add **Assets > VRTemplateAssets > Prefab > Setup > Complete XR Orgin Setup Variant**
-- Delete the Main Camera
+To avoid changing this template scene, we now want to save the scene with a different name.
 
-![simulated environment](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/character_and_floor.jpg)
+- In the top menu, go to **File > Save as**
+- Save the scene in the Scenes folder and call it "PracticeScene"
 
-- Now press play to test your scene and make sure the character moves around.
+The Scene has a floor plane and a complete XR rig.
+
+- Press play to make sure the scene plays without any issues and you can move around.
+
+## Tour of the XR rig
+
+----------Video
 
 ### Movement
 
@@ -152,29 +157,102 @@ Meta have come up with useful guidelines that you may want to consider:
 
 [VR Locomotion](https://developers.meta.com/horizon/resources/locomotion-comfort-usability/?locale=en_GB)
 
-### Teleportation
+## Teleportation 
 
-A good solution to motion sickness is to allow the user to move around through teleportation. 
+Teleportation is turned on by default on our XR rig, It allows users to move around the scene more comfortably then using continuous movement.
 
-add teleportation area and test
-add a teleportation anchor and test
+### Area
 
+Select the plane and look at the inspector.
 
--- build to device
+You should see it has a **Teleportation Area** component.
 
+- Create a new plane and place it next to the existing one.
 
-- interactables
-- 
-worksheet 2
+- Add a **Teleportation Area** component to it.
 
+- Change the **Interaction Layer Mask** to **Teleport**
 
--affordance?
+![Locomotion System](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/teleportation_area.jpg)
 
--- grabables
--- buttons
--- ui
--- 
+- Test it out, try to teleport from one plane to the other.
 
+### Anchor
+
+You can also use a teleportation anchor. These allow you to pick specific spots for the player to teleport to. 
+
+- Add a cube to the scene
+- scale it down so its flatter
+- move it next to one of the planes
+- Add a **Teleportation Anchor** component to it
+- Change the **Interaction layer mask** to Teleport
+
+![Locomotion System](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/anchor.jpg)
+
+- Test it out
+
+Notice that although you can select anywhere on the cube, as soon as you teleport it locks you to the center.
+
+## Grab
+
+Next we want to be able to pick up an object.
+
+- Add a cylinder to your scene
+- rename it to "staff"
+- Scale it so it is long and thin.
+- Add a **Rigidbody** component to it.
+- Add an **XR Grab Interactable** component to it.
+
+You can now test this in your scene
+
+- In the simulator, tab to the right controller, press g while pointing at the staff to grab it.
+- Use the w and s keys to move reel it in.
+
+### Change grab position
+
+By default the object is grabbed at its origin. But normally we want to be able to control where it is grabbed.
+
+- Create an empty game object inside your staff (HINT:right click > create empty)
+- Rename it to "grabPosition"
+- Move it to the bottom of the staff
+
+![Locomotion System](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/grab_position.jpg)
+
+- On the **XR Grab Interactable** component on the staff, scroll to the bottom
+- Drag the new **grabPosition** object onto the **Attach Transform** slot.
+
+Now, test this out, when you grab the staff you should attach to its base.
+
+## Build to the headset
+
+Building to a Meta Quest headset it just as easy as building to any Android device.
+
+On the headset:
+
+- Plug it into the computer
+- Put it on and accept the connection.
+
+In Unity:
+
+- On the top menu, select **File > Build settings**
+- Make sure correct scene is ticked at the top
+- In **Run Device** Select the headset
+- Press **Build and Run**
+
+![build settings](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/build.jpg)
+
+The first time, it may take quite a while ( it took me 10 minutes) to build but will be much quicker when you make changes and build again.
+
+When finished put the headset on and test your scene.
+
+## Build a mini scene
+
+Download these object or find your own and make a simple scene.
+
+[tools pack](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/assets/tools.unitypackage)
+
+- Include multiple teleportation anchors and grabable objects which are grabbed at an appropriate point.
+- Hint, grabables need a ridgid body, collider and xr grab interactable components.
 
 ## Documentation
 
@@ -183,8 +261,6 @@ These workshops will get you started, but for your own project you will want to 
 [Unity VR Template documentation](https://docs.unity3d.com/Packages/com.unity.template.vr@8.0/manual/index.html)
 
 [Unity Interaction toolkit documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/index.html)
-
-
 
 
 
