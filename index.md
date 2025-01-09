@@ -30,15 +30,15 @@
 
 ## wk17 Introdution to VR
 
- 
+ -[Introduction to VR]()
 
 
 ## 18 VR Interactions
-This week we will explore interacting with objects and createing auser interface in VR.
+This week we will explore interacting with objects and creating a user interface in VR.
 
 -[VR Interactions](https://uwetom.github.io/media-production-worksheets/wk18-more-vr)
 -[Setup your headset for development](https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1NzQ1MjUzLDY1ODQ0MjQzLC04MzMyOD
-gzMl19
+eyJoaXN0b3J5IjpbMTAyMjcwNzI3NSw2NTg0NDI0MywtODMzMj
+g4MzJdfQ==
 -->
