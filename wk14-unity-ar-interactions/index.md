@@ -81,7 +81,7 @@ We just want to be able to select our object, so we just need a simple interacta
 
 The object will also need a collider, we don't need it to match the shape of the ship so will just use a box.
 
-- Add a **Box Collider** component 
+- Add an a **Box Collider** component 
 
 ![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/ship_collider.jpg?raw=true)
 
@@ -89,11 +89,11 @@ You can now save and go back to the scene
 
 ### 2. Interactor
 
-We want to select our object by touching the screen on our device. To do this we need to setup two things:
+We want to select our object by touching the screen on our device. o do this we need to setup  things:
 
-1. Specify user interactions, this needs to register clicks in the simulated environment and touches on the phone.
-2. Link those interactions to actions in unity.
-3. When the action is triggered send out a ray from where the user touches and check if it hits an object.
+1. pecify user interactions, this needs to register clicks in the simulated environment and touches on the phone.
+2. ink those interactions to actions in unity.
+3. hen the action is triggered send out a ray from where the user touches and check if it hits an object.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=981498de-a32c-4e12-981b-b22901135358&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity ar - interactor" ></iframe>
 	
@@ -234,3 +234,6 @@ Now that We have the basic functionality working try to use your Unity skills to
 - Make a sound when the ship is selected
 - Create a second ship with different text.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTY5OTUyNjE1XX0=
+-->
