@@ -28,11 +28,16 @@
  - Getting external data into Unity
  - [Solutions](https://uwetom.github.io/media-production-worksheets/wk15-using-external-data/api-solutions.html)
 
-## wk17 Introdution to VR 
+## wk17 Introdution to VR
+
+ 
 
 
-##18 VR
+## 18 VR Interactions
+
+-[](https://uwetom.github.io/media-production-worksheets/wk18-more-vr)
+-[Setup your headset for development](https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkwNzg5NDM3LDY1ODQ0MjQzLC04MzMyOD
+eyJoaXN0b3J5IjpbNDA0Mjk2MzkwLDY1ODQ0MjQzLC04MzMyOD
 gzMl19
 -->
