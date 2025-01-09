@@ -30,7 +30,7 @@
 
 ## wk17 Introdution to VR
 
- -[Introduction to VR]()
+ -[Introduction to VR](https://uwetom.github.io/media-production-worksheets/wk14-unity-ar-interactions/)
 
 
 ## 18 VR Interactions
@@ -39,6 +39,6 @@ This week we will explore interacting with objects and creating a user interface
 -[VR Interactions](https://uwetom.github.io/media-production-worksheets/wk18-more-vr)
 -[Setup your headset for development](https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjcwNzI3NSw2NTg0NDI0MywtODMzMj
-g4MzJdfQ==
+eyJoaXN0b3J5IjpbLTIxMjEzOTU5NzAsMTAyMjcwNzI3NSw2NT
+g0NDI0MywtODMzMjg4MzJdfQ==
 -->
