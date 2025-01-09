@@ -2,22 +2,18 @@
 
 # Introduction to VR
 
+## Work in Pairs
+
+For this worksheet you should work in pairs, each pair will have one headset and work on one machine.
+
 ## VR Headsets
 
-There are many headsets available, we are using the Meta Quest as they can be used as stand alone devices. This allows you to build content directly to the headset without requiring the user to be  tethered to a powerful PC. They are also relatively affordable and the most popular.
+We are using Meta Quest headsets, they can be used as stand alone devices. This allows you to build content directly to the headset without requiring the user to be tethered to a powerful PC. They are also relatively affordable and the best selling.
 
 We will be using Meta Quest 1 and 2 headsets, you can also use the Quest 3 if you have one. All the projects created in these worksheets will work for all 3 headsets.
 
 These headsets require you to create an account and sign in to use. To save time I will do this for you before the in class workshops, but you will need to do yourself if you use them outside class.
 
-
-## Documentation
-
-These workshops will get you started, but for your own project you will want to dive more deeply into the detail, the documention is a great starting point:
-
-[Unity VR Template documentation](https://docs.unity3d.com/Packages/com.unity.template.vr@8.0/manual/index.html)
-
-[Unity Interaction toolkit documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/index.html)
 
 ## Be aware of your environment
 
@@ -66,7 +62,7 @@ We also want to be able to test our device in Unity without having to build to t
 
 ![uwe xr device simulator button](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/use_simulation.jpg)
 
-Accept the popup to download the simulator package.
+Accept the pop-up to download the simulator package.
 
 - Finally, in the **Project Validation** Section check for any issues issues in the 
 window and Android tabs and press **Fix all**
@@ -77,34 +73,70 @@ We are now set up all the VR settings.
 
 The VR sample scene should already be open, if not, you can find it in **Scenes > Sample Scenes**
 
-- Press play and experiment with the Simulated controllers.
+This scene demonstrates basic VR interactions and motion. When you create your own scene, this demo scene is a useful reference to work out how to implement similar functionality.
 
-![v](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/simulated_environment.jpg)
+### Test out the scene
 
-The guide on the left of screen show you the controls, They are not very intuitive or simple to use, but are very useful to test the functionality of your project without having to do a full build to a real headset.
+- Within your pair, try out the scene in the simulator and on the VR headset and swap over so you both get to experience both.
+- Practice with the controls, moving around the scene and interacting with the objects and UI
 
-We can also build this scene to our VR headset  but as this can take quite a long time we will do it later.
+### On the headset
+
+We can build the scene to the headset, but as this can take a while, to save time I have pre-installed it for you.
+
+### Simulated environment
+
+To play the scene in the simulator you can just press the play button as normal.
+
+![simulated environment](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/simulated_environment.jpg)
+
+The guide on the left of screen show you the controls, They are not very intuitive, but are useful to test the functionality of your project without having to do a full build to a real headset.
 
 ## Start our own scene
 
-- Create a new scene
-- save it to the scenes folder
-- add a cube and scale it up to make a floor ( name it floor in hieracty)
-- add Assets > VRTemplateAssets > Prefab > Setup > Complete XR Orgin Setup Variant
+We now want to make our own scene.
+ 
+- Create a new scene in the **Scenes** folder and name it "PracticeScene".
+	- (HINT:right click > create)
+- Add a plane to make a floor and name it "floor" in hierarchy.
+- Add concrete material to it from **Assets > VRTemplateAssets > Materials > Environment**
+
+We could create our own XR Character but we will use the prefab from the demo scene.
+
+- Add **Assets > VRTemplateAssets > Prefab > Setup > Complete XR Orgin Setup Variant**
+- Delete the Main Camera
+
+![simulated environment](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/character_and_floor.jpg)
+
+- Now press play to test your scene and make sure the character moves around.
 
 ### Movement
 
-look at  xr origin > locomotion system to see all the components
+The XR character prefab we have used already contains all the motion components we need.
 
-- turn > continuous turn provider
-- turn > snap turn provider
-	be careful of user comfort
-	- xr origin > camera offset > main camera > 
+But for your own projects you may want to limit or alter how the player moves so it is useful to explore the components used.
 
-- move > dynamic move provider
+- In the Hierarchy, open up **Complete XR Origin Set > xr origin > locomotion system** to see all the movement objects.
 
-- grab move
-- climb
+![Locomotion System](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/locomotion_system.jpg)
+
+#### Turn
+
+With the Turn object selected you should see 2 components in the Inspector.
+
+**Snap Turn Provider**
+Instantly rotate by a set amount pressing the thumb stick, by default this is set to 45 degrees per turn.
+
+**Continuous Turn Provider**
+Continuously turns the character, this is set to 60 degrees per second by default.
+
+Although both components are added, they cannot be used simultaneously on the same control. Snap turn is used by default, to switch to continuous motions enable smooth turn on the right controller (inside Camera Offset)
+
+#### Move
+
+**Dynamic Move Provider** lets you use the left stick to move around just like you normally would in a first person controller.
+
+**Grab and Climb providers** Allow you to use objects and handles in the world to pull yourself around.
 
 #### Comfort
 
@@ -114,7 +146,7 @@ The major cause of sickness is a disconnect between what the user can see and wh
 
 One factor is frame rate, if your add too much to your scene the frame rate will drop. This will cause a delay between moving in the real world and your view in the virtual world. Even a tiny delay will be uncomfortable.
 
-The other factor is motion, although you want to be able to move your character around, if you are standing still in the real world, but your virutal character is running the discrepency can be uncomfortable.
+The other factor is motion, although you want to be able to move your character around, if you are standing still in the real world, but your virtual character is running the discrepancy can be uncomfortable.
 
 Meta have come up with useful guidelines that you may want to consider:
 
@@ -122,28 +154,35 @@ Meta have come up with useful guidelines that you may want to consider:
 
 ### Teleportation
 
-One way to 
+A good solution to motion sickness is to allow the user to move around through teleportation. 
 
 add teleportation area and test
 add a teleportation anchor and test
 
 
-
-
-
 -- build to device
 
--- hands?
+
+- interactables
+- 
+worksheet 2
+
 
 -affordance?
-- interactables
+
 -- grabables
 -- buttons
 -- ui
 -- 
 
 
+## Documentation
 
+These workshops will get you started, but for your own project you will want to dive more deeply into the detail, the documentation is a great starting point:
+
+[Unity VR Template documentation](https://docs.unity3d.com/Packages/com.unity.template.vr@8.0/manual/index.html)
+
+[Unity Interaction toolkit documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/index.html)
 
 
 
