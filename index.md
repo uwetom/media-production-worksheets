@@ -34,10 +34,11 @@
 
 
 ## 18 VR Interactions
+This week we will explore interacting with objects and createing auser interface in VR.
 
--[](https://uwetom.github.io/media-production-worksheets/wk18-more-vr)
+-[VR Interactions](https://uwetom.github.io/media-production-worksheets/wk18-more-vr)
 -[Setup your headset for development](https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA0Mjk2MzkwLDY1ODQ0MjQzLC04MzMyOD
+eyJoaXN0b3J5IjpbMjI1NzQ1MjUzLDY1ODQ0MjQzLC04MzMyOD
 gzMl19
 -->
