@@ -4,13 +4,17 @@
 
 In This worksheet I will introduce you to VR in Unity, showing you how to create an XR rig and navigate around a scene.
 
+We will be using Unity version **2023.2.20f1**
+
 ## VR Headsets
 
-We are using Meta Quest headsets, they can be used as stand alone devices. This allows you to build content directly to the headset without requiring the user to be tethered to a powerful PC. They are also relatively affordable and the best selling.
+We are using Meta Quest headsets, they can be used as stand alone devices allowing you to build content directly to the headset without requiring the user to be tethered to a powerful PC (although you can also do this on a Windows PC).
 
-We will be using Meta Quest 1 and 2 headsets, you can also use the Quest 3 if you have one. All the projects created in these worksheets will work for all 3 headsets.
+We will be using Meta Quest 1 and 2 headsets, you can also use the Quest 3 if you have one. All the projects created in these worksheets will work for all 3 headset.
 
 These headsets require you to create an account and sign in to use. To save time I will do this for you before the in class workshops, but you will need to do yourself if you use them outside class.
+
+!(How to setup your own headset)[https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset/]
 
 ## Be aware of your environment
 
@@ -24,7 +28,7 @@ The video show the creation of a large guardian boundary, but you are also able 
 
 ## Create a Unity project
 
-First we want to create a new project, we will use the VR template for this.
+First we want to create a new project, we will use the built in VR template:
 
 ![VR core template in unity hub](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/vr_core.jpg)
 
@@ -32,7 +36,7 @@ This will set up our project with all the packages we need and also include some
 
 ## Set up
 
-The template does not know which headset we are using, so we have to tell it. A helpful message telling us this should pop up
+The template works with many different brands of headset,so we have to tell it which one we are using. A helpful message telling us this should pop up
 
 - Close the message.
 
@@ -74,7 +78,7 @@ This scene demonstrates basic VR interactions and motion. When you create your o
 
 ### Test out the scene
 
-- Within your pair, try out the scene in the simulator and on the VR headset and swap over so you both get to experience both.
+- Try out the scene in the simulator **and** on the VR headset
 - Practice with the controls, moving around the scene and interacting with the objects and UI
 
 ### Simulated environment
@@ -83,16 +87,11 @@ To play the scene in the simulator you can just press the play button as normal.
 
 ![simulated environment](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/simulated_environment.jpg)
 
-The guide on the left of screen show you the controls, They are not very intuitive, but are useful to test the functionality of your project without having to do a full build to a real headset.
-
-- When the scene starts press # to lock the mouse
-- Press **tab** to cycle between controlling the head set and each controller.
-- With the right controller selected, press WSAD to move around.
-- With the left controller selected, w to teleport.
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=77afc393-1244-453f-82a7-b26100a887f6&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Unity VR - Simulator" ></iframe>
 
 ### On the headset
 
-We can build the scene to the headset, but as this can take a while, to save time I have pre-installed it for you.
+We can build the scene to the headset, but as this can take a while, to save time I have pre-installed it for you. I will show you how to do it yourself at the bottom of this worksheet.
 
 ## Start our own scene
 
@@ -111,37 +110,11 @@ The Scene has a floor plane and a complete XR rig.
 
 - Press play to make sure the scene plays without any issues and you can move around.
 
-## Tour of the XR rig
+## XR rig
 
-----------Video
+### Controllers
 
-### Movement
-
-The XR character prefab we have used already contains all the motion components we need.
-
-But for your own projects you may want to limit or alter how the player moves so it is useful to explore the components used.
-
-- In the Hierarchy, open up **Complete XR Origin Set > xr origin > locomotion system** to see all the movement objects.
-
-![Locomotion System](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/locomotion_system.jpg)
-
-#### Turn
-
-With the Turn object selected you should see 2 components in the Inspector.
-
-**Snap Turn Provider**
-Instantly rotate by a set amount pressing the thumb stick, by default this is set to 45 degrees per turn.
-
-**Continuous Turn Provider**
-Continuously turns the character, this is set to 60 degrees per second by default.
-
-Although both components are added, they cannot be used simultaneously on the same control. Snap turn is used by default, to switch to continuous motions enable smooth turn on the right controller (inside Camera Offset)
-
-#### Move
-
-**Dynamic Move Provider** lets you use the left stick to move around just like you normally would in a first person controller.
-
-**Grab and Climb providers** Allow you to use objects and handles in the world to pull yourself around.
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=5521f875-99ec-4074-952b-b26100bf24dd&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Unity VR -XR rig" ></iframe>
 
 #### Comfort
 
@@ -156,6 +129,18 @@ The other factor is motion, although you want to be able to move your character 
 Meta have come up with useful guidelines that you may want to consider:
 
 [VR Locomotion](https://developers.meta.com/horizon/resources/locomotion-comfort-usability/?locale=en_GB)
+
+### Turning
+
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=3fb895a5-2840-4774-abb1-b26100c1000a&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity vr - turning" ></iframe>
+
+### Movement
+
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=c28280c2-e9d2-437d-a58a-b26100c39c0a&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Unity VR - Motion" ></iframe>
+
+### Other movement
+
+You should also see **Grab and Climb providers** these allow you to use objects and handles in the world to pull yourself around.
 
 ## Teleportation 
 
@@ -245,15 +230,17 @@ The first time, it may take quite a while ( it took me 10 minutes) to build but 
 
 When finished put the headset on and test your scene.
 
-## Build a mini scene
+## Challenge - Build a mini scene
 
 Download these object or find your own and make a simple scene.
 
 [tools pack](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/assets/tools.unitypackage)
 
-- Include multiple teleportation anchors and grabable objects which are grabbed at an appropriate point.
-- Hint, grabables need a ridgid body, collider and xr grab interactable components.
-
+Try to Include
+- Multiple teleportation anchors
+- Grabable objects which are grabbed at an appropriate point. (Make sure they have a ridgid body, collider and xr grab interactable component)
+- Change the controllers.
+- 
 ## Documentation
 
 These workshops will get you started, but for your own project you will want to dive more deeply into the detail, the documentation is a great starting point:
