@@ -1,0 +1,257 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><p><a href="https://uwetom.github.io/media-production-worksheets">Back</a></p>
+<h1 id="introduction-to-vr">Introduction to VR</h1>
+<p>In This worksheet I will introduce you to VR in Unity, showing you how to create an XR rig and navigate around a scene.</p>
+<p>We will be using Unity version <strong>2023.2.20f1</strong>## Work in Pairs</p>
+<p>For this worksheet you should work in pairs, each pair will have one headset and work on one machine.</p>
+<h2 id="vr-headsets">VR Headsets</h2>
+<p>We are using Meta Quest headsets, they can be used as stand alone devices. This allowings you to build content directly to the headset without requiring the user to be tethered to a powerful PC (although you can also do this on a Windows PC). They are also relatively affordable and the best selling.</p>
+<p>We will be using Meta Quest 1 and 2 headsets, you can also use the Quest 3 if you have one. All the projects created in these worksheets will work for all 3 headsets.</p>
+<p>These headsets require you to create an account and sign in to use. To save time I will do this for you before the in class workshops, but you will need to do yourself if you use them outside class.</p>
+<p>!(How to setup your own headset)[<a href="https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset/">https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset/</a>]</p>
+<h2 id="be-aware-of-your-environment">Be aware of your environment</h2>
+<p>When using a VR headset you may not be able to see the world around you, it is therefore very important that you setup your space to ensure you don’t injure yourself, others or the equipment.</p>
+<p>Please watch the following Meta Video shows you how to safely use the headset.</p>
+<p><a href="https://www.youtube.com/watch?v=Ke4MefpmRmc">Safely use the Meta Quest</a></p>
+<p>The video show the creation of a large guardian boundary, but you are also able to create a stationary boundary for seated experiences.</p>
+<h2 id="create-a-unity-project">Create a Unity project</h2>
+<p>First we want to create a new project, we will use the built in VR template: for this.</p>
+<p><img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/vr_core.jpg" alt="VR core template in unity hub"></p>
+<p>This will set up our project with all the packages we need and also include some helpful starter assets.</p>
+<h2 id="set-up">Set up</h2>
+<p>The template works with many different brands of headset,so we have to tell it which one we are usingdoes not know which headset we are using, so we have to tell it. A helpful message telling us this should pop up</p>
+<ul>
+<li>Close the message.</li>
+</ul>
+<p><img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/popup.jpg" alt="Vr proejct popup"></p>
+<h3 id="android">Android</h3>
+<p>The Meta Quest runs on Android so we need to switch the platform.</p>
+<ul>
+<li>In the top menu, select <strong>File &gt; Build Settings</strong> and change the Platform to <strong>Android</strong></li>
+<li>Press <strong>Switch Platform</strong></li>
+</ul>
+<p><img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/switch_platform.jpg" alt="Select Android build"></p>
+<h3 id="device-simulation">Device Simulation</h3>
+<p>We also want to be able to test our device in Unity without having to build to the headset.</p>
+<ul>
+<li>Go into <strong>File &gt; Project Settings</strong> and open <strong>Player Settings…</strong></li>
+</ul>
+<p><img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/player_settings.jpg" alt="Player Settings button"></p>
+<ul>
+<li>At the bottom, in <strong>XR Plug-in Management</strong>, under <strong>XR Interaction Toolkit</strong>  turn on <strong>Use XR Device Simulator in Scene</strong></li>
+</ul>
+<p><img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/use_simulation.jpg" alt="uwe xr device simulator button"></p>
+<p>Accept the pop-up to download the simulator package.</p>
+<ul>
+<li>Finally, in the <strong>Project Validation</strong> Section check for any issues issues in the<br>
+window and Android tabs and press <strong>Fix all</strong></li>
+</ul>
+<p>We are now set up all the VR settings.</p>
+<h2 id="open-starter-assets-scene">Open Starter assets scene</h2>
+<p>The VR sample scene should already be open, if not, you can find it in <strong>Scenes &gt; Sample Scenes</strong></p>
+<p>This scene demonstrates basic VR interactions and motion. When you create your own scene, this demo scene is a useful reference to work out how to implement similar functionality.</p>
+<h3 id="test-out-the-scene">Test out the scene</h3>
+<ul>
+<li>TWithin your pair, try out the scene in the simulator <strong>and</strong> on the VR headset and swap over so you both get to experience both.</li>
+<li>Practice with the controls, moving around the scene and interacting with the objects and UI</li>
+</ul>
+<h3 id="on-the-headset">On the headset</h3>
+<p>We can build the scene to the headset, but as this can take a while, to save time I have pre-installed it for you.</p>
+<h3 id="simulated-environment">Simulated environment</h3>
+<p>To play the scene in the simulator you can just press the play button as normal.</p>
+<p><img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/simulated_environment.jpg" alt="simulated environment"></p>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=77afc393-1244-453f-82a7-b26100a887f6&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<h3 id="on-the-headset-1">On the headset</h3>
+<p>We can build the scene to the headset, but as this can take a while, to save time I have pre-installed it for you. I will show you how to do it yourself at the bottom of this worksheet.</p>
+<h2 id="start-our-own-scene">Start our own scene</h2>
+<p>We now want to make our own scene. We could create a new empty scene and add a floor and XR rig, but this has already been done forThe guide on the left of screen show you the controls, They are not very intuitive, but are useful to test the functionality of your project without having to do a full build to a real headset.</p>
+<h2 id="start-our-own-scene-1">Start our own scene</h2>
+<p>We now want to make our own scene.</p>
+<ul>
+<li>Create a new scene in the <strong>Scenes</strong> folder and name it “PracticeScene”.
+<ul>
+<li>(HINT:right click &gt; create)</li>
+</ul>
+</li>
+<li>Add a plane to make a floor and name it “floor” in hierarchy.</li>
+<li>Add concrete material to it from <strong>Assets &gt; VRTemplateAssets &gt; Materials &gt; Environment</strong></li>
+</ul>
+<p>We could create our own XR Character but we will use the prefab from the demo scene.</p>
+<ul>
+<li>Add <strong>Assets &gt; VRTemplateAssets &gt; Prefab &gt; Setup &gt; Complete XR Orgin Setup Variant</strong></li>
+<li>Delete the Main Camera</li>
+</ul>
+<p><img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/character_and_floor.jpg" alt="simulated environment"></p>
+<ul>
+<li>Now press play to test your scene and make sure the character moves around.</li>
+</ul>
+<h3 id="movement">Movement</h3>
+<p>The XR character prefab we have used already contains all the motion components we need.</p>
+<p>But for your own projects you may want to limit or alter how the player moves so it is useful to explore the components used.</p>
+<ul>
+<li>Open <strong>BasicScene</strong> in the Scenes folder</li>
+</ul>
+<p><img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/basicscene.jpg" alt="Locomotion System"></p>
+<p>To avoid changing this template scene, we now want to save the scene with a different name.</p>
+<ul>
+<li>In the top menu, go to <strong>File &gt; Save as</strong></li>
+<li>Save the scene in the Scenes folder and call it “PracticeScene”</li>
+</ul>
+<p>The Scene has a floor plane and a complete XR rig.</p>
+<ul>
+<li>Press play to make sure the scene plays without any issues and you can move around.</li>
+</ul>
+<h2 id="xr-rig">XR rig</h2>
+<h3 id="controllers">Controllers</h3>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=5521f875-99ec-4074-952b-b26100bf24dd&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<h4 id="comfort">Comfort</h4>
+<p>Users Can feel motion sickness when in VR, as a creator, it is your responsibility to minimise this as much as you can in your project.</p>
+<p>The major cause of sickness is a disconnect between what the user can see and what there body is physically experiencing.</p>
+<p>One factor is frame rate, if your add too much to your scene the frame rate will drop. This will cause a delay between moving in the real world and your view in the virtual world. Even a tiny delay will be uncomfortable.</p>
+<p>The other factor is motion, although you want to be able to move your character around, if you are standing still in the real world, but your virtual character is running the discrepancy can be uncomfortable.</p>
+<p>Meta have come up with useful guidelines that you may want to consider:</p>
+<p><a href="https://developers.meta.com/horizon/resources/locomotion-comfort-usability/?locale=en_GB">VR Locomotion</a></p>
+<h3 id="turning">Turning</h3>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=3fb895a5-2840-4774-abb1-b26100c1000a&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<h3 id="movement-1">Movement</h3>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=c28280c2-e9d2-437d-a58a-b26100c39c0a&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<h3 id="other-movement">Other movement</h3>
+<p>You should also see <strong>Grab and Climb providers</strong> these allow you to use objects and handles in the world to pull yourself around.</p>
+<h2 id="teleportation">Teleportation</h2>
+<p>Teleportation is turned on by default on our XR rig, It allows users to move around the scene more comfortably then using continuous movement.</p>
+<h3 id="area">Area</h3>
+<p>Select the plane and look at the inspector.</p>
+<p>You should see it has a <strong>Teleportation Area</strong> component.</p>
+<ul>
+<li>
+<p>Create a new plane and place it next to the existing one.</p>
+</li>
+<li>
+<p>Add a **TIn the Hierarchy, open up <strong>Complete XR Origin Set &gt; xr origin &gt; locomotion system</strong> to see all the movement objects.</p>
+</li>
+</ul>
+<p><img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/locomotion_system.jpg" alt="Locomotion System"></p>
+<h4 id="turn">Turn</h4>
+<p>With the Turn object selected you should see 2 components in the Inspector.</p>
+<p><strong>Snap Turn Provider</strong><br>
+Instantly rotate by a set amount pressing the thumb stick, by default this is set to 45 degrees per turn.</p>
+<p><strong>Continuous Turn Provider</strong><br>
+Continuously turns the character, this is set to 60 degrees per second by default.</p>
+<p>Although both components are added, they cannot be used simultaneously on the same control. Snap turn is used by default, to switch to continuous motions enable smooth turn on the right controller (inside Camera Offset)</p>
+<h4 id="move">Move</h4>
+<p><strong>Dynamic Move Provider</strong> lets you use the left stick to move around just like you normally would in a first person controller.</p>
+<p><strong>Grab and Climb providers</strong> Allow you to use objects and handles in the world to pull yourself around.</p>
+<h4 id="comfort-1">Comfort</h4>
+<p>Users Can feel motion sickness when in VR, as a creator, it is your responsibility to minimise this as much as you can in your project.</p>
+<p>The major cause of sickness is a disconnect between what the user can see and what there body is physically experiencing.</p>
+<p>One factor is frame rate, if your add too much to your scene the frame rate will drop. This will cause a delay between moving in the real world and your view in the virtual world. Even a tiny delay will be uncomfortable.</p>
+<p>The other factor is motion, although you want to be able to move your character around, if you are standing still in the real world, but your virtual character is running the discrepancy can be uncomfortable.</p>
+<p>Meta have come up with useful guidelines that you may want to consider:</p>
+<p><a href="https://developers.meta.com/horizon/resources/locomotion-comfort-usability/?locale=en_GB">VR Locomotion</a></p>
+<h3 id="teleportation-1">Teleportation</h3>
+<p>A good solution to motion sickness is to allow the user to move around through teleportation.</p>
+<p>add teleportation Aarea** component to it.</p>
+<ul>
+<li>Change the <strong>Interaction Layer Mask</strong> to <strong>Teleport</strong></li>
+</ul>
+<p><img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/teleportation_area.jpg" alt="Locomotion System"></p>
+<ul>
+<li>Test it out, try to teleport from one plane to the other.</li>
+</ul>
+<h3 id="anchor">Anchor</h3>
+<p>You can also use a teleportation anchor. These allow you to pick specific spots for the player to teleport to.</p>
+<ul>
+<li>Add a cube to the scene</li>
+<li>scale it down so its flatter</li>
+<li>move it next to one of the planes</li>
+<li>Add a <strong>Teleportation Anchor</strong> component to it</li>
+<li>Change the <strong>Interaction layer mask</strong> to Teleport</li>
+</ul>
+<p><img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/anchor.jpg" alt="Locomotion System"></p>
+<ul>
+<li>Test it out</li>
+</ul>
+<p>Notice that although you can select anywhere on the cube, as soon as you teleport it locks you to the center.</p>
+<h2 id="grab">Grab</h2>
+<p>Next we want to be able to pick up an object.</p>
+<ul>
+<li>Add a cylinder to your scene</li>
+<li>rename it to “staff”</li>
+<li>Scale it so it is long and thin.</li>
+<li>Add a <strong>Rigidbody</strong> component to it.</li>
+<li>Add an <strong>XR Grab Interactable</strong> component to it.</li>
+</ul>
+<p>You can now test this in your scene</p>
+<ul>
+<li>In the simulator, tab to the right controller, press g while pointing at the staff to grab it.</li>
+<li>Use the w and s keys to move reel it in.</li>
+</ul>
+<h3 id="change-grab-position">Change grab position</h3>
+<p>By default the object is grabbed at its origin. But normally we want to be able to control where it is grabbed.</p>
+<ul>
+<li>Create an empty game object inside your staff (HINT:right click &gt; create empty)</li>
+<li>Rename it to “grabPosition”</li>
+<li>Move it to the bottom of the staff</li>
+</ul>
+<p><img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/grab_position.jpg" alt="Locomotion System"></p>
+<ul>
+<li>On the <strong>XR Grab Interactable</strong> component on the staff, scroll to the bottom</li>
+<li>Drag the new <strong>grabPosition</strong> object onto the <strong>Attach Transform</strong> slot.</li>
+</ul>
+<p>Now, test this out, when you grab the staff you should attach to its base.</p>
+<h2 id="build-to-the-headset">Build to the headset</h2>
+<p>Building to a Meta Quest headset it just as easy as building to any Android device.</p>
+<p>On the headset:</p>
+<ul>
+<li>Plug it into the computer</li>
+<li>Put it on and accept the connection.</li>
+</ul>
+<p>In Unity:</p>
+<ul>
+<li>On the top menu, select <strong>File &gt; Build settings</strong></li>
+<li>Make sure correct scene is ticked at the top</li>
+<li>In <strong>Run Device</strong> Select the headset</li>
+<li>Press <strong>Build and Run</strong></li>
+</ul>
+<p><img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/build.jpg" alt="build settings"></p>
+<p>The first time, it may take quite a while ( it took me 10 minutes) to build but will be much quicker when you make changes and build again.</p>
+<p>When finished put the headset on and test your scene.</p>
+<h2 id="challenge---build-a-mini-scene">Challenge - Build a mini scene</h2>
+<p>Download these object or find your own and make a simple scene.</p>
+<p><a href="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/assets/tools.unitypackage">tools pack</a></p>
+<p>Try to Include</p>
+<ul>
+<li>Multiple teleportation anchors</li>
+<li>Grabable objects which are grabbed at an appropriate point. (Make sure they have a ridgid body, collider and xr grab interactable component)</li>
+<li>Change the controllers.</li>
+<li>and test<br>
+add a teleportation anchor and test</li>
+</ul>
+<p>– build to device</p>
+<ul>
+<li>interactables</li>
+<li></li>
+</ul>
+<p>worksheet 2</p>
+<p>-affordance?</p>
+<h2 id="grabables---buttons---ui">– grabables<br>
+– buttons<br>
+– ui</h2>
+<h2 id="documentation">Documentation</h2>
+<p>These workshops will get you started, but for your own project you will want to dive more deeply into the detail, the documentation is a great starting point:</p>
+<p><a href="https://docs.unity3d.com/Packages/com.unity.template.vr@8.0/manual/index.html">Unity VR Template documentation</a></p>
+<p><a href="https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/index.html">Unity Interaction toolkit documentation</a></p>
+</div>
+</body>
+
+</html>
