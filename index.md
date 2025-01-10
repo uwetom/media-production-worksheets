@@ -28,17 +28,17 @@
  - Getting external data into Unity
  - [Solutions](https://uwetom.github.io/media-production-worksheets/wk15-using-external-data/api-solutions.html)
 
-## wk17 Introdution to VR
+## wk17 Introduction to VR
 
- -[Introduction to VR](https://uwetom.github.io/media-production-worksheets/wk14-unity-ar-interactions/)
+ -[Introduction to VR](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction)
 
 
-## 18 VR Interactions
+## wk18 VR Interactions
 This week we will explore interacting with objects and creating a user interface in VR.
 
 -[VR Interactions](https://uwetom.github.io/media-production-worksheets/wk18-more-vr)
 -[Setup your headset for development](https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjEzOTU5NzAsMTAyMjcwNzI3NSw2NT
-g0NDI0MywtODMzMjg4MzJdfQ==
+eyJoaXN0b3J5IjpbLTQwNTMxMDMxOSwxMDIyNzA3Mjc1LDY1OD
+Q0MjQzLC04MzMyODgzMl19
 -->
