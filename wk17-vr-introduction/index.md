@@ -4,13 +4,15 @@
 
 In This worksheet I will introduce you to VR in Unity, showing you how to create an XR rig and navigate around a scene.
 
-We will be using Unity version **2023.2.20f1**
+We will be using Unity version **2023.2.20f1**## Work in Pairs
+
+For this worksheet you should work in pairs, each pair will have one headset and work on one machine.
 
 ## VR Headsets
 
-We are using Meta Quest headsets, they can be used as stand alone devices allowing you to build content directly to the headset without requiring the user to be tethered to a powerful PC (although you can also do this on a Windows PC).
+We are using Meta Quest headsets, they can be used as stand alone devices. This allowings you to build content directly to the headset without requiring the user to be tethered to a powerful PC (although you can also do this on a Windows PC). They are also relatively affordable and the best selling.
 
-We will be using Meta Quest 1 and 2 headsets, you can also use the Quest 3 if you have one. All the projects created in these worksheets will work for all 3 headset.
+We will be using Meta Quest 1 and 2 headsets, you can also use the Quest 3 if you have one. All the projects created in these worksheets will work for all 3 headsets.
 
 These headsets require you to create an account and sign in to use. To save time I will do this for you before the in class workshops, but you will need to do yourself if you use them outside class.
 
@@ -28,7 +30,7 @@ The video show the creation of a large guardian boundary, but you are also able 
 
 ## Create a Unity project
 
-First we want to create a new project, we will use the built in VR template:
+First we want to create a new project, we will use the built in VR template: for this.
 
 ![VR core template in unity hub](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/vr_core.jpg)
 
@@ -36,7 +38,7 @@ This will set up our project with all the packages we need and also include some
 
 ## Set up
 
-The template works with many different brands of headset,so we have to tell it which one we are using. A helpful message telling us this should pop up
+The template works with many different brands of headset,so we have to tell it which one we are usingdoes not know which headset we are using, so we have to tell it. A helpful message telling us this should pop up
 
 - Close the message.
 
@@ -78,8 +80,12 @@ This scene demonstrates basic VR interactions and motion. When you create your o
 
 ### Test out the scene
 
-- Try out the scene in the simulator **and** on the VR headset
+- TWithin your pair, try out the scene in the simulator **and** on the VR headset and swap over so you both get to experience both.
 - Practice with the controls, moving around the scene and interacting with the objects and UI
+
+### On the headset
+
+We can build the scene to the headset, but as this can take a while, to save time I have pre-installed it for you.
 
 ### Simulated environment
 
@@ -95,7 +101,31 @@ We can build the scene to the headset, but as this can take a while, to save tim
 
 ## Start our own scene
 
-We now want to make our own scene. We could create a new empty scene and add a floor and XR rig, but this has already been done for us.
+We now want to make our own scene. We could create a new empty scene and add a floor and XR rig, but this has already been done forThe guide on the left of screen show you the controls, They are not very intuitive, but are useful to test the functionality of your project without having to do a full build to a real headset.
+
+## Start our own scene
+
+We now want to make our own scene.
+ 
+- Create a new scene in the **Scenes** folder and name it "PracticeScene".
+	- (HINT:right click > create)
+- Add a plane to make a floor and name it "floor" in hierarchy.
+- Add concrete material to it from **Assets > VRTemplateAssets > Materials > Environment**
+
+We could create our own XR Character but we will use the prefab from the demo scene.
+
+- Add **Assets > VRTemplateAssets > Prefab > Setup > Complete XR Orgin Setup Variant**
+- Delete the Main Camera
+
+![simulated environment](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/character_and_floor.jpg)
+
+- Now press play to test your scene and make sure the character moves around.
+
+### Movement
+
+The XR character prefab we have used already contains all the motion components we need.
+
+But for your own projects you may want to limit or alter how the player moves so it is useful to explore the components used.
  
 - Open **BasicScene** in the Scenes folder
 
@@ -154,7 +184,47 @@ You should see it has a **Teleportation Area** component.
 
 - Create a new plane and place it next to the existing one.
 
-- Add a **Teleportation Area** component to it.
+- Add a **TIn the Hierarchy, open up **Complete XR Origin Set > xr origin > locomotion system** to see all the movement objects.
+
+![Locomotion System](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/locomotion_system.jpg)
+
+#### Turn
+
+With the Turn object selected you should see 2 components in the Inspector.
+
+**Snap Turn Provider**
+Instantly rotate by a set amount pressing the thumb stick, by default this is set to 45 degrees per turn.
+
+**Continuous Turn Provider**
+Continuously turns the character, this is set to 60 degrees per second by default.
+
+Although both components are added, they cannot be used simultaneously on the same control. Snap turn is used by default, to switch to continuous motions enable smooth turn on the right controller (inside Camera Offset)
+
+#### Move
+
+**Dynamic Move Provider** lets you use the left stick to move around just like you normally would in a first person controller.
+
+**Grab and Climb providers** Allow you to use objects and handles in the world to pull yourself around.
+
+#### Comfort
+
+Users Can feel motion sickness when in VR, as a creator, it is your responsibility to minimise this as much as you can in your project.
+
+The major cause of sickness is a disconnect between what the user can see and what there body is physically experiencing.
+
+One factor is frame rate, if your add too much to your scene the frame rate will drop. This will cause a delay between moving in the real world and your view in the virtual world. Even a tiny delay will be uncomfortable.
+
+The other factor is motion, although you want to be able to move your character around, if you are standing still in the real world, but your virtual character is running the discrepancy can be uncomfortable.
+
+Meta have come up with useful guidelines that you may want to consider:
+
+[VR Locomotion](https://developers.meta.com/horizon/resources/locomotion-comfort-usability/?locale=en_GB)
+
+### Teleportation
+
+A good solution to motion sickness is to allow the user to move around through teleportation. 
+
+add teleportation Aarea** component to it.
 
 - Change the **Interaction Layer Mask** to **Teleport**
 
@@ -240,7 +310,26 @@ Try to Include
 - Multiple teleportation anchors
 - Grabable objects which are grabbed at an appropriate point. (Make sure they have a ridgid body, collider and xr grab interactable component)
 - Change the controllers.
+-  and test
+add a teleportation anchor and test
+
+
+-- build to device
+
+
+- interactables
 - 
+worksheet 2
+
+
+-affordance?
+
+-- grabables
+-- buttons
+-- ui
+-- 
+
+
 ## Documentation
 
 These workshops will get you started, but for your own project you will want to dive more deeply into the detail, the documentation is a great starting point:
@@ -255,3 +344,8 @@ These workshops will get you started, but for your own project you will want to 
 
 
 
+
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjcxMTMyNDkwXX0=
+-->
