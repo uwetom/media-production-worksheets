@@ -88,7 +88,7 @@ We can build the scene to the headset, but as this can take a while, to save tim
 - Put the headset on, clear the space around you and follow the instructions to create a guardian boundary.
 - Open the app:
 
-![app](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/imagesvr_app.png)
+![app](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/vr_app.png)
 
 ### Simulated environment
 
