@@ -145,3 +145,18 @@ UI works broadly in the same way as it does with the first person controller, th
 ### Documentation
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
+
+- interactables
+- 
+worksheet 2
+
+
+-affordance?
+
+-- grabables
+-- buttons
+-- ui
+-- 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjA5MjY2NTU0XX0=
+-->
