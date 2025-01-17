@@ -18,33 +18,10 @@ We want to be able to interact with our environment, triggering sounds, animatio
 
 ## Simple Interactable
 
-Twith a new name
-
-## Simple Interactable
-
-- VIDEO
-
-We can add an **Interactable** component to an object in our scene to allow the xr rig to interact with objects in the scene we need two parts, and **Interactor** component on the rig, anit.
-
-This most basic **Interactable** component is a **Simple Interactable** which we can use to work out if our user has interacted.
-
-- Add a cube to your scene.
-- Add an **Simple Interactable** component on the object.
+To allow the xr rig to interact with objects in the scene we need two parts, and **Interactor** component on the rig, and an **Interactable** component on the object.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=44ca29a5-e698-41cd-9e8c-b26600e01254&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Unity vr - simple interactable" ></iframe>
- to it.
-
-By giving an object an interactable we can detect some events
-
-**Hover** - When the users controller or its ray hovers collides with our object
-**Select** - When the user presses the grab button while hovering
-**Activate** - When the user presses the trigger button while the object is selected.
-.
-
-## 
-
-- Add the following code to your script
-
+ 
 '''
 	public void Hovered()
     {
@@ -64,15 +41,17 @@ By giving an object an interactable we can detect some events
 
 ## Grab
 
-A more advance interaction is a grab, this allows you to pick up objects in your scene
+A more advance interaction is a grab, this allows you to pick up objects in your scene.
+
+### Make a simple torch
 
 - Add a cylinder to your scene
 - rename it to "torch"
 - Scale it to 0.15
 - Add a **Rigidbody** component to it so that it is effected by gravity.
--  an able** component to it.
+- Add an **XR Grab Interactable** component to it.
 
-, reat the be a![torch object](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/torch1.jpg)
+![torch object](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/torch1.jpg)
 
 We can now test the scene, We should be able to pick up the torch.
 
@@ -82,24 +61,17 @@ We can now test the scene, We should be able to pick up the torch.
 
 A torch is not functional without a light.
 
-- **Right Click** on the torch and add a child objectYou can now test this in your scene
-
-- In the simulator, tab to the right controller, prename it "Light"
+- **Right Click** on the torch and add a child object, rename it "Light"
 - Add a **Light** component to it and change it to a spotlight.
-- Rotss g while pointing ate the light and move it to the front of  the torch.
+- Rotate the light and move it to the front of  the torch.
 
 ![torch object](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/spotlight.jpg)
 
-We now have a torch, but if you rotate the whole torch round, you should see it doesn't seem to create any light.th t
+We now have a torch, but if you rotate the whole torch round, you should see it doesn't seem to create any light.
 
 ### Change Quality settings
 
-The VR template we are using has helpfully setup our project to maximise performance. lighting and shadows can be computationally expensive so the template has limited the numstaff to grab it.
-- Use the w and s keys to move reel it in.
-
-### Change grab position
-
-By default the object is grabbed at its origin. But normally we want to ber and quality of our lighting.
+The VR template we are using has helpfully setup our project to maximise performance. lighting and shadows can be computationally expensive so the template has limited the number and quality of our lighting.
 
 We need to carefully adjust the settings to allow us to render our light.
 
@@ -107,15 +79,9 @@ We need to carefully adjust the settings to allow us to render our light.
 
 - To see the light more clearly, reduce the **intensity** of the **Directional Light** to 0.1.
 
-![torch objectble to control where it is grabbed.
+![torch object](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/directional_light.jpg)
 
-- Create an empty game object inside your staff (HINT:right click > create empty)
-- Rename it to "grabPosition"
-- Move it to the bottom of the staff
-
-![Locomotion System](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/directional_lightgrab_position.jpg)
-
-- TestOn the scene again.
+- Test the scene again.
 
 ### Change grab position
 
@@ -229,70 +195,14 @@ Create a new torch when the button is clicked.
 Hints
 
 - Create a new script with a public function on it and drag it onto the canvas button
-- Turn **XR Grab Interactable** component on the staff, scroll to the bottom
-- Drag the new **grabPosition** object onto the **Attach Transform** slot.
-
-Now, test this out, when you grab the staff you should attach to its base.
-
-
-
-### Button
-
-There are more advanced interactable examples in the template.
-
-- Search for "push" in the assets
-- Drag the **Push Button** prefab into your scene.
-
-If you select the button in the **Hierarchy** you can see it has a **Simple Interactable** component, you use the events just like you did on the cube.
-
-It also has a couple of **poke** components which allow it to be 'physically' pressed down.
-
-Lastly, it has an **Affordance** object and components. Affordance components give the player feedback, here **Color Material Propery Affordance** changes the color of the button when it is selected and pushed down.
-
-### Trigger
-
-OnTriggerEnter works the same way as it does with the first person controller.
-
-- add another cube
-- change its box collider to **is trigger**
-- add this to your script
-
-'''
-     private void OnTriggerEnter(Collider other)
-  {
-      Debug.Log(other.gameObject.name);
-      if (other.gameObject.name == "XR Origin (XR Rig)")
-      {
-         GetComponent<Renderer>().material.SetColor("_BaseColor", Color.red);
-      }
-    
-  }
-'''
-
-### UI
-
-UI works broadly in the same way as it does withe torch into a prefab ([Create prefab](https://docs.unity3d.com/Manual/CreatingPrefabs.html))
+- Turn the torch into a prefab ([Create prefab](https://docs.unity3d.com/Manual/CreatingPrefabs.html))
 - Instantiate a new torch in the script ([Instantiate documentation](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.Instantiate.html))
 - Use the **on Click** box on the **Button** to call the function
 
 Solution
 
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=95b1a9f7-3aac-444c-add8-b26800edfc1b&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity vr - create torch" ></iframe>he first person controller, the main difference is that you want the canvas to be in **World space**
-
-
-
-
-
-
-
-
-### Challenge
-
-
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=95b1a9f7-3aac-444c-add8-b26800edfc1b&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity vr - create torch" ></iframe>
 
 ### Documentation
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTE2MjM5ODVdfQ==
--->
