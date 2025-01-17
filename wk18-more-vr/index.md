@@ -112,8 +112,10 @@ Open the new script and add code to toggle the light on and off
 	```
 	torchLight.enabled = false;
 	```
-Solution
+<details>
+<summary>Solution</summary>
 This is one possible solution:
+
 ```
 using System.Collections;
 using System.Collections.Generic;
@@ -130,6 +132,8 @@ public class TorchController : MonoBehaviour{
 	}
 }
 ```
+
+</details>
 
 We can now hook this script up to the torch **activate** state.
 
@@ -190,7 +194,6 @@ Generate a new torch in the scene when the button is clicked.
  
 <details>
 <summary>Solution</summary>
-
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=95b1a9f7-3aac-444c-add8-b26800edfc1b&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity vr - create torch" ></iframe>
 </details>
  
@@ -200,6 +203,6 @@ Generate a new torch in the scene when the button is clicked.
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTI0MTIzNzYsMTg2MTg1NzgyOCwzMj
-QzNDgxMzAsMjA5MDkwNDMwOF19
+eyJoaXN0b3J5IjpbMjEzNTA4MjIxMCwxODYxODU3ODI4LDMyND
+M0ODEzMCwyMDkwOTA0MzA4XX0=
 -->
