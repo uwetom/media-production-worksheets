@@ -78,31 +78,17 @@ We need to carefully adjust the settings to allow us to render our light.
 
 ![torch object](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/directional_light.jpg)
 
-  
-
 - Test the scene again.
-
-  
 
 ### Change grab position
 
-  
-
 By default the object is grabbed at its origin, for the torch it means it is pointing upward. We want to be able to control where it is grabbed.
-
-  
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=56285cfa-1dd6-4aa8-b61b-b26800defa70&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity vr - grab position" ></iframe>
 
-  
-
 ### Toggle the light
 
-  
-
-Grabbing the torch uses the **Select** action. Now that it has been selected we can utilise its **Activate** action to turn the torch on and off.
-
-  
+Grabbing the torch uses the **Select** action. Now that it has been selected we can utilise its **Activate** action to turn the torch on and off. 
 
 - Create a new Script in the **Scripts** folder and call it "TorchController".
 
@@ -324,5 +310,5 @@ Solution
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzA2MDE4MjMsMjA5MDkwNDMwOF19
+eyJoaXN0b3J5IjpbLTU3MzgxOTI0OSwyMDkwOTA0MzA4XX0=
 -->
