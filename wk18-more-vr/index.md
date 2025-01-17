@@ -113,53 +113,21 @@ Open the new script and add code to toggle the light on and off
 	torchLight.enabled = false;
 	```
 Solution
-
-  
-
 This is one possible solution:
-
-  
-
 ```
-
 using System.Collections;
-
 using System.Collections.Generic;
-
 using UnityEngine;
 
-  
-
-public class TorchController : MonoBehaviour
-
-{
-
-public void ToggleLight()
-
-{
-
-Light torchLight = GetComponentInChildren<Light>();
-
-  
-
-if (torchLight.isActiveAndEnabled)
-
-{
-
-torchLight.enabled = false;
-
-}
-
-else
-
-{
-
-torchLight.enabled = true;
-
-}
-
-}
-
+public class TorchController : MonoBehaviour{
+	public void ToggleLight(){
+		Light torchLight = GetComponentInChildren<Light>();
+		if (torchLight.isActiveAndEnabled){
+			torchLight.enabled = false;
+		}else{
+			torchLight.enabled = true;
+		}
+	}
 }
 
 ```
@@ -284,5 +252,5 @@ Solution
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2Njk1NTI1NCwyMDkwOTA0MzA4XX0=
+eyJoaXN0b3J5IjpbLTE3OTk3MzM1NzAsMjA5MDkwNDMwOF19
 -->
