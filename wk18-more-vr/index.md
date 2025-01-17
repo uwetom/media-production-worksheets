@@ -22,47 +22,23 @@ To allow the xr rig to interact with objects in the scene we need two parts, and
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=44ca29a5-e698-41cd-9e8c-b26600e01254&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Unity vr - simple interactable" ></iframe>
 
-'''
-
-public void Hovered()
-
-{
-
-Debug.Log("hovered");
-
+```
+public void Hovered(){
+	Debug.Log("hovered");
+}
+public void Selected(){
+	Debug.Log("Selected");
+	GetComponent<Renderer>().material.SetColor("_BaseColor",Color.red);
 }
 
-  
-
-public void Selected()
-
-{
-
-Debug.Log("Selected");
-
-GetComponent<Renderer>().material.SetColor("_BaseColor", Color.red);
-
+public void Activated(){
+	Debug.Log("activated");
 }
-
-public void Activated()
-
-{
-
-Debug.Log("activated");
-
-}
-
-'''
-
-  
+```
 
 ## Grab
 
-  
-
 A more advance interaction is a grab, this allows you to pick up objects in your scene.
-
-  
 
 ### Make a simple torch
 
@@ -384,5 +360,5 @@ Solution
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNzkzOTgyOCwyMDkwOTA0MzA4XX0=
+eyJoaXN0b3J5IjpbNjkyMjA5MTUwLDIwOTA5MDQzMDhdfQ==
 -->
