@@ -158,11 +158,11 @@ A VR UI uses the same components as we use in other Unity project, the main diff
 
 - On the canvas component, scale the canvas down to 0.02.
 
-Notice that the render mode is **World Space**, in theory, we could make this canvas a child of a grab  
+Notice that the render mode is **World Space**,  for your projects, you could make the canvas a grabable object, allowing you to pick it up and move it around.
 
 ![canvas sale](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/canvas_scale.jpg)
 
-- Add a **UI Panel, Textbox and Button** to the canvas (HINT: Right click one the canvas in the hierarchy, and choose )
+- Add a **UI Panel, Textbox and Button** to the canvas (HINT: Right click one the canvas in the hierarchy, and choose **UI > panel** etc...  )
 
 - Change the width, height and font size in the **Instpector** to size the appropriately.
 
@@ -218,5 +218,5 @@ Solution
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzc0Nzc4OTQsMjA5MDkwNDMwOF19
+eyJoaXN0b3J5IjpbLTk4NTQ0MjcwNywyMDkwOTA0MzA4XX0=
 -->
