@@ -42,47 +42,25 @@ A more advance interaction is a grab, this allows you to pick up objects in your
 
 ### Make a simple torch
 
-  
-
-- Add a cylinder to your scene
-
-- rename it to "torch"
-
+- Add a cylinder to your scene.
+- Rename it to "torch".
 - Scale it to 0.15
-
 - Add a **Rigidbody** component to it so that it is effected by gravity.
-
 - Add an **XR Grab Interactable** component to it.
 
-  
-
-![torch object](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/torch1.jpg)
-
-  
+![torch object](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/torch1.jpg)
 
 We can now test the scene, We should be able to pick up the torch.
 
-  
-
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=99a84900-005e-4a34-ba3b-b26800dd5b26&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity vr - test light 1" ></iframe>
-
-  
 
 ### Add a Light
 
-  
-
 A torch is not functional without a light.
 
-  
-
 - **Right Click** on the torch and add a child object, rename it "Light"
-
 - Add a **Light** component to it and change it to a spotlight.
-
 - Rotate the light and move it to the front of the torch.
-
-  
 
 ![torch object](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/spotlight.jpg)
 
@@ -360,5 +338,5 @@ Solution
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkyMjA5MTUwLDIwOTA5MDQzMDhdfQ==
+eyJoaXN0b3J5IjpbLTExNjgzMjQ4NDIsMjA5MDkwNDMwOF19
 -->
