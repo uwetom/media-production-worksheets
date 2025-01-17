@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><p><a href="https://uwetom.github.io/media-production-worksheets">Back</a></p>
+<h1 id="vr-interactions">VR Interactions</h1>
+<p>We want to be able to interact with our environment, triggering sounds, animations and scripts.</p>
+<h2 id="open-a-project">Open a project</h2>
+<ul>
+<li>Open last weeks Unity Project, or create a new VR Core project.</li>
+</ul>
+<p><img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/vr_core.jpg" alt="vr core template"></p>
+<ul>
+<li>Open the <strong>Basic Scene</strong> inside the Scenes folder.</li>
+</ul>
+<p><img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/basicscene.jpg" alt="Basic scene"></p>
+<ul>
+<li>Save it back into the Scene folder and name it “interactions”.</li>
+</ul>
+<h2 id="simple-interactable">Simple Interactable</h2>
+<p>To allow the xr rig to interact with objects in the scene we need two parts, and <strong>Interactor</strong> component on the rig, and an <strong>Interactable</strong> component on the object.</p>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=44ca29a5-e698-41cd-9e8c-b26600e01254&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<pre><code>public void Hovered(){
+	Debug.Log("hovered");
+}
+public void Selected(){
+	Debug.Log("Selected");
+	GetComponent&lt;Renderer&gt;().material.SetColor("_BaseColor",Color.red);
+}
+
+public void Activated(){
+	Debug.Log("activated");
+}
+</code></pre>
+<h2 id="grab">Grab</h2>
+<p>A more advance interaction is a grab, this allows you to pick up objects in your scene.</p>
+<h3 id="make-a-simple-torch">Make a simple torch</h3>
+<ul>
+<li>Add a cylinder to your scene.</li>
+<li>Rename it to “torch”.</li>
+<li>Scale it to 0.15</li>
+<li>Add a <strong>Rigidbody</strong> component to it so that it is effected by gravity.</li>
+<li>Add an <strong>XR Grab Interactable</strong> component to it.</li>
+</ul>
+<p><img src="https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/torch1.jpg" alt="torch object"></p>
+<p>We can now test the scene, We should be able to pick up the torch.</p>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=99a84900-005e-4a34-ba3b-b26800dd5b26&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<h3 id="add-a-light">Add a Light</h3>
+<p>A torch is not functional without a light.</p>
+<ul>
+<li><strong>Right Click</strong> on the torch and add a child object, rename it “Light”</li>
+<li>Add a <strong>Light</strong> component to it and change it to a spotlight.</li>
+<li>Rotate the light and move it to the front of the torch.</li>
+</ul>
+<p><img src="https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/spotlight.jpg" alt="torch object"></p>
+<p>We now have a torch, but if you rotate the whole torch round, you should see it doesn’t actually seem to create any light.</p>
+<h3 id="change-quality-settings">Change Quality settings</h3>
+<p>The VR template we are using has helpfully setup our project to maximise performance. lighting and shadows can be computationally expensive so the template has limited the number and quality of our lighting.</p>
+<p>We need to carefully adjust the settings to allow us to render our light.</p>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=e192d413-27fb-4b03-84d0-b26800d715d9&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<ul>
+<li>To see the light more clearly, reduce the <strong>intensity</strong> of the <strong>Directional Light</strong> to 0.1.</li>
+</ul>
+<p><img src="https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/directional_light.jpg" alt="torch object"></p>
+<ul>
+<li>Test the scene again.</li>
+</ul>
+<h3 id="change-grab-position">Change grab position</h3>
+<p>By default the object is grabbed at its origin, for the torch it means it is pointing upward. We want to be able to control where it is grabbed.</p>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=56285cfa-1dd6-4aa8-b61b-b26800defa70&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<h3 id="toggle-the-light">Toggle the light</h3>
+<p>Grabbing the torch uses the <strong>Select</strong> action. Now that it has been selected we can utilise its <strong>Activate</strong> action to turn the torch on and off.</p>
+<ul>
+<li>Create a new Script in the <strong>Scripts</strong> folder and call it “TorchController”.</li>
+<li>Drag the new script on the <strong>Torch</strong> in the <strong>Hierarchy</strong></li>
+</ul>
+<h3 id="challlenge">Challlenge</h3>
+<p>Open the new script and add code to toggle the light on and off</p>
+<h4 id="hints">Hints</h4>
+<ul>
+<li>Make a new <strong>Public</strong> function and call it “ToggleLight”</li>
+<li>Create a Light variable and store the Light component in<pre><code>Light torchLight = GetComponentInChildren&lt;Light&gt;();
+</code></pre>
+</li>
+<li>Create an if statement to turn the light on if it is off and off if it is on.</li>
+<li>We can find out if the light is on using:<pre><code>torchLight.isActiveAndEnabled
+</code></pre>
+</li>
+<li>We can turn the component off using:<pre><code>torchLight.enabled = false;
+</code></pre>
+</li>
+</ul>
+
+Solution
+This is one possible solution:
+<pre><code>using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class TorchController : MonoBehaviour{
+	public void ToggleLight(){
+		Light torchLight = GetComponentInChildren&lt;Light&gt;();
+		if (torchLight.isActiveAndEnabled){
+			torchLight.enabled = false;
+		}else{
+			torchLight.enabled = true;
+		}
+	}
+}
+</code></pre>
+
+<p>We can now hook this script up to the torch <strong>activate</strong> state.</p>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=ceefc0e5-75a1-46f2-9e5e-b26800e2bb44&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<p>Think about other objects you could add which may be useful to activate.</p>
+<h2 id="affordance">Affordance</h2>
+<p>The Affordance system (<a href="https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/affordance-system.html">documentation</a>) allows you to create audio and visual feedback to the user about the current state of the object.</p>
+<p>We will use it to play a sound when the user picks up and turns the light on and off.</p>
+<ul>
+<li>
+<p>First download the following sounds (or find your own) and add them to your assets.</p>
+<p><a href="https://uwetom.github.io/media-production-worksheets/wk18-more-vr/assets/click.wav">pickup sound</a><br>
+<a href="https://uwetom.github.io/media-production-worksheets/wk18-more-vr/assets/bubbleClick.wav">turn on sound</a></p>
+</li>
+</ul>
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=c9b3d362-8cb0-467d-b3ce-b26800e59a19&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<h2 id="user-interface">User Interface</h2>
+<p>A VR UI uses the same components as we use in other Unity project, the main difference is that you want to use the XR canvas which is created in <strong>World space</strong>.</p>
+<ul>
+<li><strong>Right click</strong> in the Hierarchy and choose <strong>XR &gt; UI CANVAS</strong></li>
+</ul>
+<p><img src="https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/ui_canvas.jpg" alt="canvas"></p>
+<ul>
+<li>On the canvas component, scale the canvas down to 0.02.</li>
+</ul>
+<p>Notice that the render mode is <strong>World Space</strong>.</p>
+<p><img src="https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/canvas_scale.jpg" alt="canvas sale"></p>
+<ul>
+<li>
+<p>Add a <strong>UI Panel, Textbox and Button</strong> to the canvas (HINT: Right click one the canvas in the hierarchy, and choose <strong>UI &gt; panel</strong> etc…  )</p>
+</li>
+<li>
+<p>Change the width, height and font size in the <strong>Instpector</strong> to size the appropriately.</p>
+</li>
+</ul>
+<p><img src="https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/ui_panel.jpg" alt="canvas sale"></p>
+<p>We could use affordance to change the color or the button when it is highlighted, but its easier to just use the build in options.</p>
+<p><img src="https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/button_colors.jpg" alt="canvas sale"></p>
+<p>Finally, we want to do something when the button is pressed.</p>
+<h3 id="challenge">Challenge</h3>
+<p>Generate a new torch in the scene when the button is clicked.</p>
+<h4 id="hints-1">Hints</h4>
+<ul>
+<li>Create a new script with a <strong>public</strong> function on it and drag it onto the canvas button.</li>
+<li>Turn the torch into a prefab (<a href="https://docs.unity3d.com/Manual/CreatingPrefabs.html">Create prefab</a>)</li>
+<li>Instantiate a new torch in the script (<a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.Instantiate.html">Instantiate documentation</a>)</li>
+<li>Use the <strong>on Click</strong> box on the <strong>Button</strong> to call the function</li>
+</ul>
+
+Solution
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=95b1a9f7-3aac-444c-add8-b26800edfc1b&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+
+<h3 id="documentation">Documentation</h3>
+<p><a href="https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html">XR Interaction 2.5 documentation</a></p>
+</div>
+</body>
+
+</html>
