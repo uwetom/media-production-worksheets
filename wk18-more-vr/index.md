@@ -166,57 +166,36 @@ Notice that the render mode is **World Space**,  for your projects, you could ma
 
 - Change the width, height and font size in the **Instpector** to size the appropriately.
 
-  
-
 ![canvas sale](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/ui_panel.jpg)
 
-  
-
 We could use affordance to change the color or the button when it is highlighted, but its easier to just use the build in options.
-
-  
 
 ![canvas sale](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/button_colors.jpg)
 
 Finally, we want to do something when the button is pressed.
 
-  
-
 ### Challenge
 
-  
+Generate a new torch in the scene when the button is clicked.
 
-Create a new torch when the button is clicked.
+#### Hints
 
-  
-
-Hints
-
-  
-
-- Create a new script with a public function on it and drag it onto the canvas button
-
+- Create a new script with a **public** function on it and drag it onto the canvas button.
 - Turn the torch into a prefab ([Create prefab](https://docs.unity3d.com/Manual/CreatingPrefabs.html))
-
 - Instantiate a new torch in the script ([Instantiate documentation](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.Instantiate.html))
-
 - Use the **on Click** box on the **Button** to call the function
 
-  
-
+ 
 Solution
-
-  
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=95b1a9f7-3aac-444c-add8-b26800edfc1b&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity vr - create torch" ></iframe>
 
-  
-
+ 
 ### Documentation
 
   
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NTQ0MjcwNywyMDkwOTA0MzA4XX0=
+eyJoaXN0b3J5IjpbMzI0MzQ4MTMwLDIwOTA5MDQzMDhdfQ==
 -->
