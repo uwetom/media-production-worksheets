@@ -150,11 +150,9 @@ We will use it to play a sound when the user picks up and turns the light on and
 
 ## User Interface
 
-difference is that you want the canvas to be in **World space**
+A VR UI uses the same components as we use in other Unity project, the main difference is that you want to us canvas to be in **World space**.
 
 - **Right click** in the Hierarchy and choose **XR > UI CANVAS**
-
-  
 
 ![canvas](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/ui_canvas.jpg)
 
@@ -226,5 +224,5 @@ Solution
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNjk3MTEwNSwyMDkwOTA0MzA4XX0=
+eyJoaXN0b3J5IjpbODY5NzI2NTE5LDIwOTA5MDQzMDhdfQ==
 -->
