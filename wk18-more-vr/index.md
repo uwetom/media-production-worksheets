@@ -137,33 +137,20 @@ We can now hook this script up to the torch **activate** state.
 
 ## Affordance
 
-The Affordance system allows you to create audio and visual feedback to the user about the current state of the object.
+The Affordance system ([documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/affordance-system.html)) allows you to create audio and visual feedback to the user about the current state of the object.
 
 We will use it to play a sound when the user picks up and turns the light on and off.
 
 - First download the following sounds (or find your own) and add them to your assets.
 
-  
-
-[pickup sound](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/assets/click.wav)
-
-  
-
-[turn on sound](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/assets/bubbleClick.wav)
-
-  
+	[pickup sound](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/assets/click.wav)
+	[turn on sound](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/assets/bubbleClick.wav)
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=c9b3d362-8cb0-467d-b3ce-b26800e59a19&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Unity VR - affordance" ></iframe>
 
-  
-
-### UI
-
-  
+## UI
 
 UI works broadly in the same way as it does with the first person controller, the main difference is that you want the canvas to be in **World space**
-
-  
 
 - **Right click** in the Hierarchy and choose **XR > UI CANVAS**
 
@@ -239,5 +226,5 @@ Solution
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NDY4NTM0MywyMDkwOTA0MzA4XX0=
+eyJoaXN0b3J5IjpbLTIwMjY3NTQyODksMjA5MDkwNDMwOF19
 -->
