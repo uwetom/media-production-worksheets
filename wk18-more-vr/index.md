@@ -188,10 +188,11 @@ Generate a new torch in the scene when the button is clicked.
 - Use the **on Click** box on the **Button** to call the function
 
  
-Solution
+<details>
+<summary>Solution</summary>
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=95b1a9f7-3aac-444c-add8-b26800edfc1b&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity vr - create torch" ></iframe>
-
+</details>
  
 ### Documentation
 
@@ -199,6 +200,6 @@ Solution
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MTg1NzgyOCwzMjQzNDgxMzAsMjA5MD
-kwNDMwOF19
+eyJoaXN0b3J5IjpbLTE3MTI0MTIzNzYsMTg2MTg1NzgyOCwzMj
+QzNDgxMzAsMjA5MDkwNDMwOF19
 -->
