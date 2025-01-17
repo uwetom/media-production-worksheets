@@ -135,7 +135,7 @@ We can now hook this script up to the torch **activate** state.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=ceefc0e5-75a1-46f2-9e5e-b26800e2bb44&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity vr - add script to torch" ></iframe>
 
-Think about other objects you could add which may be useful to activate, 
+Think about other objects you could add which may be useful to activate.
 
 ## Affordance
 
@@ -199,6 +199,6 @@ Solution
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTA2NjIzMTYsMzI0MzQ4MTMwLDIwOT
-A5MDQzMDhdfQ==
+eyJoaXN0b3J5IjpbMTg2MTg1NzgyOCwzMjQzNDgxMzAsMjA5MD
+kwNDMwOF19
 -->
