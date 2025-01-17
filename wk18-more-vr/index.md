@@ -91,29 +91,15 @@ By default the object is grabbed at its origin, for the torch it means it is poi
 Grabbing the torch uses the **Select** action. Now that it has been selected we can utilise its **Activate** action to turn the torch on and off. 
 
 - Create a new Script in the **Scripts** folder and call it "TorchController".
-
 - Drag the new script on the **Torch** in the **Hierarchy**
 
-  
-
-Open the new script and try to do the following, the completed script is shown bellow if you get stuck.
-
-  
+Open the new script and add code to toggle the light on and off
 
 - Make a new **Public** function and call it "ToggleLight"
-
 - Create a Light variable and store the Light component in
-
-  
-
-```
-
-Light torchLight = GetComponentInChildren<Light>();
-
-```
-
-  
-
+	```
+	Light torchLight = GetComponentInChildren<Light>();
+	```
 - Create an if statement to turn the light on if it is off and off if it is on.
 
   
@@ -310,5 +296,5 @@ Solution
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MzgxOTI0OSwyMDkwOTA0MzA4XX0=
+eyJoaXN0b3J5IjpbLTc0NzQ3NDM5OCwyMDkwOTA0MzA4XX0=
 -->
