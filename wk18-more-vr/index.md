@@ -116,7 +116,7 @@ Open the new script and add code to toggle the light on and off
 <summary>Solution</summary>
 	This is one possible solution:
 
-	```
+	
 	using System.Collections;
 	using System.Collections.Generic;
 	using UnityEngine;
@@ -131,7 +131,7 @@ Open the new script and add code to toggle the light on and off
 			}
 		}
 	}
-	```
+
 
 </details>
 
@@ -203,6 +203,6 @@ Generate a new torch in the scene when the button is clicked.
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3OTI5MjU2MiwyMTM1MDgyMjEwLDE4Nj
+eyJoaXN0b3J5IjpbMTE5NDExNjQzNCwyMTM1MDgyMjEwLDE4Nj
 E4NTc4MjgsMzI0MzQ4MTMwLDIwOTA5MDQzMDhdfQ==
 -->
