@@ -62,35 +62,21 @@ A torch is not functional without a light.
 - Add a **Light** component to it and change it to a spotlight.
 - Rotate the light and move it to the front of the torch.
 
-![torch object](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/spotlight.jpg)
+![torch object](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/spotlight.jpg)
 
-  
-
-We now have a torch, but if you rotate the whole torch round, you should see it doesn't seem to create any light.
-
-  
-
+We now have a torch, but if you rotate the whole torch round, you should see it doesn't actually seem to create any light.
+ 
 ### Change Quality settings
-
-  
 
 The VR template we are using has helpfully setup our project to maximise performance. lighting and shadows can be computationally expensive so the template has limited the number and quality of our lighting.
 
-  
-
 We need to carefully adjust the settings to allow us to render our light.
-
-  
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=e192d413-27fb-4b03-84d0-b26800d715d9&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity vr - quality settings" ></iframe>
 
-  
-
 - To see the light more clearly, reduce the **intensity** of the **Directional Light** to 0.1.
 
-  
-
-![torch object](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/directional_light.jpg)
+![torch object](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/directional_light.jpg)
 
   
 
@@ -338,5 +324,5 @@ Solution
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjgzMjQ4NDIsMjA5MDkwNDMwOF19
+eyJoaXN0b3J5IjpbLTIxMzA2MDE4MjMsMjA5MDkwNDMwOF19
 -->
