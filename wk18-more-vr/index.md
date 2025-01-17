@@ -43,59 +43,125 @@ To allow the xr rig to interact with objects in the scene we need two parts, and
 
 A more advance interaction is a grab, this allows you to pick up objects in your scene.
 
+### Make a simple torch
+
 - Add a cylinder to your scene
-- rename it to "staff"
-- Scale it so it is long and thin.
+- rename it to "torch"
+- Scale it to 0.15
 - Add a **Rigidbody** component to it so that it is effected by gravity.
 - Add an **XR Grab Interactable** component to it.
 
-You can now test this in your scene
+![torch object](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/torch1.jpg)
 
-- In the simulator, tab to the right controller, press g while pointing at the staff to grab it.
-- Use the w and s keys to move reel it in.
+We can now test the scene, We should be able to pick up the torch.
+
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=99a84900-005e-4a34-ba3b-b26800dd5b26&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity vr - test light 1" ></iframe>
+
+### Add a Light
+
+A torch is not functional without a light.
+
+- **Right Click** on the torch and add a child object, rename it "Light"
+- Add a **Light** component to it and change it to a spotlight.
+- Rotate the light and move it to the front of  the torch.
+
+![torch object](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/spotlight.jpg)
+
+We now have a torch, but if you rotate the whole torch round, you should see it doesn't seem to create any light.
+
+### Change Quality settings
+
+The VR template we are using has helpfully setup our project to maximise performance. lighting and shadows can be computationally expensive so the template has limited the number and quality of our lighting.
+
+We need to carefully adjust the settings to allow us to render our light.
+
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=e192d413-27fb-4b03-84d0-b26800d715d9&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity vr - quality settings" ></iframe>
+
+- To see the light more clearly, reduce the **intensity** of the **Directional Light** to 0.1.
+
+![torch object](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/directional_light.jpg)
+
+- Test the scene again.
 
 ### Change grab position
 
-By default the object is grabbed at its origin. But normally we want to be able to control where it is grabbed.
+By default the object is grabbed at its origin, for the torch it means it is pointing upward. We want to be able to control where it is grabbed.
 
-- Create an empty game object inside your staff (HINT:right click > create empty)
-- Rename it to "grabPosition"
-- Move it to the bottom of the staff
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=56285cfa-1dd6-4aa8-b61b-b26800defa70&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity vr - grab position" ></iframe>
 
-![Locomotion System](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/grab_position.jpg)
+### Toggle the light
 
-- On the **XR Grab Interactable** component on the staff, scroll to the bottom
-- Drag the new **grabPosition** object onto the **Attach Transform** slot.
+Grabbing the torch uses the **Select** action. Now that it has been selected we can utilise its **Activate** action to turn the torch on and off.
 
-Now, test this out, when you grab the staff you should attach to its base.
+- Create a new Script in the **Scripts** folder and call it "TorchController".
+- Drag the new script on the **Torch** in the **Hierarchy**
 
-### Poke and Affordance
+Open the new script and try to do the following, the completed script is shown bellow if you get stuck.
 
-In the demo template there are more advanced version of the simple interactable
+- Make a new **Public** function and call it "ToggleLight"
+- Create a Light variable and store the Light component in 
 
-- Search for "push" in the assets
-- Drag the **Push Button** prefab into your scene.
+```
+  Light torchLight = GetComponentInChildren<Light>();
+```
 
-If you select the button in the **Hierarchy** you can see it has a **Simple Interactable** component, you can use the events just like you did on the cube.
+- Create an if statement to turn the light on if it is off and off if it is on.
 
-It also has a **poke Filter** components which allow it to be 'physically' pressed down with the controller.
+	- We can find out if the light is on using:
 
-Lastly, it has an **poke Affordance** object and components. Affordance components give the player feedback, here **Color Material Propery Affordance** changes the color of the button when it is selected and pushed down.
+		```
+		torchLight.isActiveAndEnabled
+		```
+	- We can turn the component off using:
+		
+		```
+		torchLight.enabled = false;
+		```
 
-- Download the following sound file and add it to your project.
+Solution
 
-[honk sound](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/assets/honk.mp3)
+This is one possible solution:
 
-- Add an **Audio Source** component to the button
-- Add the sound to the **Audio Resource** input on the **Audio Source**
+```
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-![honk sound](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/audio_source.jpg)
+public class TorchController : MonoBehaviour
+{
+    public void ToggleLight()
+    {
+        Light torchLight = GetComponentInChildren<Light>();
 
-- On the **XR Simple Interactable** component of the button, play the audio source when it is selected.
+        if (torchLight.isActiveAndEnabled)
+        {
+            torchLight.enabled = false;
+        }
+        else
+        {
+            torchLight.enabled = true;
+        }
+    }
+}
+```
 
- ![play audio](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/play_audio.jpg)
+We can now hook this script up to the torch **activate** state.
 
-Now play the scene, the sound should play when you it the button.
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=ceefc0e5-75a1-46f2-9e5e-b26800e2bb44&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity vr - add script to torch" ></iframe>
+
+## Affordance ([documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/affordance-system.html))
+
+The Affordance system allows you to create audio and visual feedback to the user about the current state of the object.
+
+We will use it to play a sound when the user picks up and turns the light on and off.
+
+- First download the following sounds (or find your own) and add them to your assets.
+
+[pickup sound](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/assets/click.wav)
+
+[turn on sound](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/assets/bubbleClick.wav)
+
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=c9b3d362-8cb0-467d-b3ce-b26800e59a19&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Unity VR - affordance" ></iframe>
 
 ### UI
 
@@ -111,24 +177,31 @@ Notice that the render mode is **World Space**
 
  ![canvas sale](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/canvas_scale.jpg)
  
-- Add a **UI Panel, Textbox and Button** to the canvas and scale and position appropriately.
+- Add a **UI Panel, Textbox and Button** to the canvas (HINT: Right click one the canvas in the hierarchy, and choose )
+- Change the width, height and font size in the **Instpector** to size the appropriately.
 
  ![canvas sale](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/ui_panel.jpg)
 
+We could use affordance to change the color or the button when it is highlighted, but its easier to just use the build in options.
 
+ ![canvas sale](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/button_colors.jpg)
+ 
+Finally, we want to do something when the button is pressed.
 
+### Challenge
 
-### Build
+Create a new torch when the button is clicked.
 
-Build your scene to a headset and test it out.
+Hints
 
-### Challenge - Interactive scene
+- Create a new script with a public function on it and drag it onto the canvas button
+- Turn the torch into a prefab ([Create prefab](https://docs.unity3d.com/Manual/CreatingPrefabs.html))
+- Instantiate a new torch in the script ([Instantiate documentation](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.Instantiate.html))
+- Use the **on Click** box on the **Button** to call the function
 
-Create a simple interactive scene including
+Solution
 
-- Objects to pick up, make sure you 
-
-
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=95b1a9f7-3aac-444c-add8-b26800edfc1b&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity vr - create torch" ></iframe>
 
 ### Documentation
 
