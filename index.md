@@ -19,6 +19,7 @@
 ## Week 13, 14 and 15 Augmented Reality
 
 - [Introduction to AR](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/)
+- [Tracked Images](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/worksheet2.html)
 
 - [AR Interactions](https://uwetom.github.io/media-production-worksheets/wk14-unity-ar-interactions/)
 
@@ -37,7 +38,7 @@
  - [Solutions](https://uwetom.github.io/media-production-worksheets/wk15-using-external-data/api-solutions.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMTA3MzQyMSwtMjA1NjcxNTA1NCwxMj
-M0NjI1MDA1LDEwMjI3MDcyNzUsNjU4NDQyNDMsLTgzMzI4ODMy
-XX0=
+eyJoaXN0b3J5IjpbLTEwOTYyMDg5MjEsMTIyMTA3MzQyMSwtMj
+A1NjcxNTA1NCwxMjM0NjI1MDA1LDEwMjI3MDcyNzUsNjU4NDQy
+NDMsLTgzMzI4ODMyXX0=
 -->
