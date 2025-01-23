@@ -2,7 +2,7 @@
 
 # Introduction to Augmented Reality (AR) in Unity
 
-## Unity Instalation
+## Unity Installation
 
 If you are using the lab machines you can skip to the next section **Create a new Project**.
 
@@ -182,6 +182,6 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 4. If it matches, instantiate the correct prefab.
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk5MzE5NzMwLDc4Mzk1MDAyOSwtMTIzMD
-c4ODY3Miw2MTMzNjg0ODcsNTA0MDUyNzU4XX0=
+eyJoaXN0b3J5IjpbLTIwNjA4Mzc0ODYsNzgzOTUwMDI5LC0xMj
+MwNzg4NjcyLDYxMzM2ODQ4Nyw1MDQwNTI3NThdfQ==
 -->
