@@ -2,7 +2,7 @@
 
 # Introduction to Augmented Reality (AR) in Unity
 
-## Create Project
+
 
 Before you begin make sure that your Unity Editor (2023.2.20f1) is installed in inside a parent a folder that contains no spaces. EG: UnityVersions rather than Unity Versions.
 
@@ -178,6 +178,6 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 4. If it matches, instantiate the correct prefab.
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgzOTUwMDI5LC0xMjMwNzg4NjcyLDYxMz
-M2ODQ4Nyw1MDQwNTI3NThdfQ==
+eyJoaXN0b3J5IjpbNDIzMjY4NjEyLDc4Mzk1MDAyOSwtMTIzMD
+c4ODY3Miw2MTMzNjg0ODcsNTA0MDUyNzU4XX0=
 -->
