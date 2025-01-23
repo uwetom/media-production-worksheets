@@ -56,6 +56,9 @@ Move the phone around and see if you can see you cube hanging in space, you may 
 
 ## Challenge
 
+
+
+
 Try to replace the cube with another object
 - Find a free object on the Unity  asset store or  sketchfab.com and add it to your scene.
 - Build your scene to the tablet, it should be much quicker the 2nd time.
@@ -67,7 +70,8 @@ Try to replace the cube with another object
 - [AR foundation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.1/manual/index.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjEwNTQwMTYsMTIwNTkyNDkwMywtND
-YxMDcwMTI0LC0yMDYwODM3NDg2LDc4Mzk1MDAyOSwtMTIzMDc4
-ODY3Miw2MTMzNjg0ODcsNTA0MDUyNzU4XX0=
+eyJoaXN0b3J5IjpbMTU1NTE3NTA1MCwtMTc2MTA1NDAxNiwxMj
+A1OTI0OTAzLC00NjEwNzAxMjQsLTIwNjA4Mzc0ODYsNzgzOTUw
+MDI5LC0xMjMwNzg4NjcyLDYxMzM2ODQ4Nyw1MDQwNTI3NThdfQ
+==
 -->
