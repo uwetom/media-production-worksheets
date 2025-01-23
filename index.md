@@ -12,6 +12,7 @@
 ## wk12 Animating with Motion Capture Data
 
 - [Animating Mo Cap data](https://uwetom.github.io/media-production-worksheets/wk12-animating-mocap-data/)
+
 - [Animating Mo Cap data with triggers](https://uwetom.github.io/media-production-worksheets/wk12-animating-mocap-data/triggers.html)
 
 ## wk13, 14 and 15 Augmented reality
@@ -24,9 +25,9 @@
 
  - [Introduction to VR](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction)
  
-- [VR Interactions](https://uwetom.github.io/media-production-worksheets/wk18-more-vr).
+- [VR Interactions](https://uwetom.github.io/media-production-worksheets/wk18-more-vr)
 
--[Setup your headset for development](https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset)
+- [Setup your headset for development](https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset)
 
 ## wk18 & 19 Using External Data in Unity
 
@@ -35,6 +36,6 @@
  - [Solutions](https://uwetom.github.io/media-production-worksheets/wk15-using-external-data/api-solutions.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzkwNTExNjUsMTAyMjcwNzI3NSw2NT
-g0NDI0MywtODMzMjg4MzJdfQ==
+eyJoaXN0b3J5IjpbMTIzNDYyNTAwNSwxMDIyNzA3Mjc1LDY1OD
+Q0MjQzLC04MzMyODgzMl19
 -->
