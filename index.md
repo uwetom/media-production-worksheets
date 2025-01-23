@@ -7,7 +7,7 @@
  - Using GitHub with Unity
 
 ## Week 11 - Ideation and Motion capture intro
-- Using the Rokoko Motion capture suit and software
+- Using the Motion capture suit and software
  
 ## Week 12 - Animating with Motion Capture Data
 
@@ -36,7 +36,7 @@
  - [Solutions](https://uwetom.github.io/media-production-worksheets/wk15-using-external-data/api-solutions.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4MzQ1MTYzLC0yMDU2NzE1MDU0LDEyMz
-Q2MjUwMDUsMTAyMjcwNzI3NSw2NTg0NDI0MywtODMzMjg4MzJd
-fQ==
+eyJoaXN0b3J5IjpbLTE4Njg2OTI3NTIsLTIwNTY3MTUwNTQsMT
+IzNDYyNTAwNSwxMDIyNzA3Mjc1LDY1ODQ0MjQzLC04MzMyODgz
+Ml19
 -->
