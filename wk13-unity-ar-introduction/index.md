@@ -61,16 +61,21 @@ The cube should remain in place in the real world as you move around it.
 ## Challenge
 
 Try to replace the cube with another object
-- Find a free object on the Unity asset store or  sketchfab.com and add it to your scene.
+- Find a free object on the Unity asset store or  sketchfab.com and add it to your scene. or use the prefab is this package:
+
+- [Nefertiti](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/assets/nefertiti.unitypackage)
+
+
 - Build your scene to the tablet, it should be much quicker the 2nd time.
 
+If
 
 ## Documentation
 - [AR foundation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.1/manual/index.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODc5NDc0MjAsLTE3NjEwNTQwMTYsMT
-IwNTkyNDkwMywtNDYxMDcwMTI0LC0yMDYwODM3NDg2LDc4Mzk1
-MDAyOSwtMTIzMDc4ODY3Miw2MTMzNjg0ODcsNTA0MDUyNzU4XX
-0=
+eyJoaXN0b3J5IjpbNDAzMDg2MTE4LC0yMDg3OTQ3NDIwLC0xNz
+YxMDU0MDE2LDEyMDU5MjQ5MDMsLTQ2MTA3MDEyNCwtMjA2MDgz
+NzQ4Niw3ODM5NTAwMjksLTEyMzA3ODg2NzIsNjEzMzY4NDg3LD
+UwNDA1Mjc1OF19
 -->
