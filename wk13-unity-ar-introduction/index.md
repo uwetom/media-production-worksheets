@@ -48,12 +48,11 @@ Now that we have set the device up we can build to it
 
 ### Test
 
-Move the phone around and see if you can see you cube hanging in space, you may need to move backwards. It should open automatically when you unlock you device, if it does not you should be able to find it installed in your app library.
+Move the phone around and see if you can see you cube hanging in space, you may need to move backwards as it may have appeared ontop of you. It should open automatically when you unlock you device, if it does not you should be able to find it installed in your app library.
 
 - If you cannot find the cube,
-	- The cube may be on top of you, move and look back.
-  try restarting the app. 
-- If you still cannot find it, check that you build the correct scene in Unity.
+	- Try restarting the app. 
+	- If you still cannot find it, check that you build the correct scene in Unity.
 
 ## Challenge
 
@@ -68,7 +67,7 @@ Try to replace the cube with another object
 - [AR foundation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.1/manual/index.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NzI3NzE3NCwxMjA1OTI0OTAzLC00Nj
-EwNzAxMjQsLTIwNjA4Mzc0ODYsNzgzOTUwMDI5LC0xMjMwNzg4
-NjcyLDYxMzM2ODQ4Nyw1MDQwNTI3NThdfQ==
+eyJoaXN0b3J5IjpbLTE3NjEwNTQwMTYsMTIwNTkyNDkwMywtND
+YxMDcwMTI0LC0yMDYwODM3NDg2LDc4Mzk1MDAyOSwtMTIzMDc4
+ODY3Miw2MTMzNjg0ODcsNTA0MDUyNzU4XX0=
 -->
