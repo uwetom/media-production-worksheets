@@ -63,19 +63,21 @@ We will use this project as the template for the other AR worksheets, keep it sa
 
 ## Challenge
 
-Try to replace the cube with another object
+
+1. Try to replace the cube with another object
 - Find a free object on the Unity asset store or  sketchfab.com and add it to your scene. or use the prefab is this package:
 
 	- [Nefertiti](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/assets/nefertiti.unitypackage)
 - Build your scene to the tablet, it should be much quicker the 2nd time.
+2. Add an animation to your object with automatically plays.
 
 ## References
 
 - [AR foundation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.1/manual/index.html)
 - [Nefertiti bust](https://sketchfab.com/3d-models/nefertitis-bust-like-in-the-museum-ce5b14926e494558ab584375a8d63ca7)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNzE4OTg0NiwtMzc3Mjk1MzQzLC0yMD
-g3OTQ3NDIwLC0xNzYxMDU0MDE2LDEyMDU5MjQ5MDMsLTQ2MTA3
-MDEyNCwtMjA2MDgzNzQ4Niw3ODM5NTAwMjksLTEyMzA3ODg2Nz
-IsNjEzMzY4NDg3LDUwNDA1Mjc1OF19
+eyJoaXN0b3J5IjpbMjIyNjQwMzM4LC00MDcxODk4NDYsLTM3Nz
+I5NTM0MywtMjA4Nzk0NzQyMCwtMTc2MTA1NDAxNiwxMjA1OTI0
+OTAzLC00NjEwNzAxMjQsLTIwNjA4Mzc0ODYsNzgzOTUwMDI5LC
+0xMjMwNzg4NjcyLDYxMzM2ODQ4Nyw1MDQwNTI3NThdfQ==
 -->
