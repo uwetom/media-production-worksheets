@@ -41,8 +41,7 @@ Now we can create a script to instantiate our prefab on the image.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=09532d13-dd25-4ab8-8bb5-b21f0096e46c&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Unity - add virtual object" ></iframe>
 
-<details>
-<summary>Finished Script</summary>
+### Finished Script
 
 ```
 using System.Collections;
@@ -75,8 +74,6 @@ public class TrackImage : MonoBehaviour
 
 ```
 
-</details>
-
 ## Build and Test the Scene
 
 We can now build and test the scene again on our device.
@@ -107,8 +104,7 @@ Now that we have a simple image marker scene working we can think about taking i
 
 In the ship folder you can find a sound file, try to make this play when the ship is instantiated.
 
-<details>
-<summary>Solution</summary>
+### Solution
 1. Add an audio source component to the xr origin.	
 2. Add a public AudioClip variable to your script to hold your splash sound
 	```public AudioClip sound;```
@@ -116,14 +112,14 @@ In the ship folder you can find a sound file, try to make this play when the shi
 	```AudioSource source = GetComponent<AudioSource>();```
 4 Use it to play your sound
 	```source.PlayOneShot(sound);```
-</details>
+
 
 ### Add multiple markers
 
 In the ship folder you can find two boats and 2 images. Add both images to your image reference library and add to your script to a different boat for each image.
 
-<details>
-<summary>Solution</summary>
+
+### #Solution
 1. Add the second image to your image library and give it a different name.
 2. In your script add another public gameObject variable to hold  a different prefab.
 3. In your script, you can access the name of image, use this in an if statement to check if the name matches an image in your library.
@@ -131,5 +127,5 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 4. If it matches, instantiate the correct prefab.
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1Njk2Nzg4NF19
+eyJoaXN0b3J5IjpbMTkxMzU4ODg4NV19
 -->
