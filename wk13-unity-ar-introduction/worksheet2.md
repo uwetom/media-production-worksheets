@@ -1,6 +1,8 @@
-## Position Virtual Object
 
-In our template, the cube is located at the origin or our scene. This is normally where the phones camera is when you first open the app, but does not correspond to anything specifically in the real world.
+[Back](https://uwetom.github.io/media-production-worksheets)
+
+
+# Position Virtual Object
 
 We want to be able to decide exactly where object will appear in the real world.
 
@@ -127,5 +129,5 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 4. If it matches, instantiate the correct prefab.
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDQ5MTEzMjldfQ==
+eyJoaXN0b3J5IjpbLTE0MDYzODU4NjRdfQ==
 -->
