@@ -18,7 +18,7 @@ Now you are ready to create your AR Unity template.
 
 ## Create a new Project
 
-First we want to create a new Unity project, Unity Hub has an AR Core template, but I have found it unreliable on some devices and bloated. It is also useful to know how the template is constructed so you are more able to fix and issues so we will set up our own that we can use with all our future AR projects.
+First we want to create a new Unity project, Unity Hub has an AR Core template, but I have found it unreliable on some devices and bloated. It is also useful to know how the template is constructed so you are more able to fix and issues.
 
 In the following video we will:
 - Create a new Unity project using the **Universal 3D** template
@@ -182,7 +182,7 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 4. If it matches, instantiate the correct prefab.
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI0NDc3ODQyLC0yMDYwODM3NDg2LDc4Mz
-k1MDAyOSwtMTIzMDc4ODY3Miw2MTMzNjg0ODcsNTA0MDUyNzU4
-XX0=
+eyJoaXN0b3J5IjpbLTQ2MTA3MDEyNCwtMjA2MDgzNzQ4Niw3OD
+M5NTAwMjksLTEyMzA3ODg2NzIsNjEzMzY4NDg3LDUwNDA1Mjc1
+OF19
 -->
