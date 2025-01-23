@@ -2,7 +2,9 @@
 
 # Introduction to Augmented Reality (AR) in Unity
 
+## Unity Instalation
 
+If you are using the lab machines you can skip to the next section # Create a new Project
 
 Before you begin make sure that your Unity Editor (2023.2.20f1) is installed in inside a parent a folder that contains no spaces. EG: UnityVersions rather than Unity Versions.
 
@@ -13,6 +15,8 @@ If it is installed in a parent folder with spaces it will not build your AR proj
 So you will need to quit the Unity Editor and Unity Hub, rename the folder and then follow the prompts re-add / re locate the Unity editor when you reopen Unity Hub.
 
 Now you are ready to create your AR Unity template.
+
+## Create a new Project
 
 First we want to create a new Unity project, Unity Hub has an AR Core template but I have found it unreliable and bloated so we will set up our own that we can use with all our future AR projects.
 
@@ -178,6 +182,6 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 4. If it matches, instantiate the correct prefab.
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIzMjY4NjEyLDc4Mzk1MDAyOSwtMTIzMD
-c4ODY3Miw2MTMzNjg0ODcsNTA0MDUyNzU4XX0=
+eyJoaXN0b3J5IjpbMTc1NDE4Mjk1MCw3ODM5NTAwMjksLTEyMz
+A3ODg2NzIsNjEzMzY4NDg3LDUwNDA1Mjc1OF19
 -->
