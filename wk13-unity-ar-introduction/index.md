@@ -4,9 +4,9 @@
 
 ## Unity Instalation
 
-If you are using the lab machines you can skip to the next section # Create a new Project
+If you are using the lab machines you can skip to the next section **Create a new Project**.
 
-Before you begin make sure that your Unity Editor (2023.2.20f1) is installed in inside a parent a folder that contains no spaces. EG: UnityVersions rather than Unity Versions.
+If you are using Unity on your own machine check that your Unity Editor (2023.2.20f1) is installed in inside a parent folder that contains no spaces. EG: **UnityVersions** rather than **Unity Versions**.
 
 ![enter image description here](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/images/editor-loc.png)
 
@@ -182,6 +182,6 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 4. If it matches, instantiate the correct prefab.
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NDE4Mjk1MCw3ODM5NTAwMjksLTEyMz
-A3ODg2NzIsNjEzMzY4NDg3LDUwNDA1Mjc1OF19
+eyJoaXN0b3J5IjpbOTk5MzE5NzMwLDc4Mzk1MDAyOSwtMTIzMD
+c4ODY3Miw2MTMzNjg0ODcsNTA0MDUyNzU4XX0=
 -->
