@@ -53,6 +53,7 @@ Move the phone around and see if you can see you cube hanging in space, you may 
 - If you cannot find the cube, try restarting the app. 
 - If you still cannot find it, check that you build the correct scene in Unity.
 
+
 ## Position Virtual Object
 
 In our template, the cube is located at the origin or our scene. This is normally where the phones camera is when you first open the app, but does not correspond to anything specifically in the real world.
@@ -186,7 +187,7 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 - [AR foundation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.1/manual/index.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNTkyNDkwMywtNDYxMDcwMTI0LC0yMD
-YwODM3NDg2LDc4Mzk1MDAyOSwtMTIzMDc4ODY3Miw2MTMzNjg0
-ODcsNTA0MDUyNzU4XX0=
+eyJoaXN0b3J5IjpbLTE2MTk5NzU5NDMsMTIwNTkyNDkwMywtND
+YxMDcwMTI0LC0yMDYwODM3NDg2LDc4Mzk1MDAyOSwtMTIzMDc4
+ODY3Miw2MTMzNjg0ODcsNTA0MDUyNzU4XX0=
 -->
