@@ -53,6 +53,10 @@ Move the phone around and see if you can see you cube hanging in space, you may 
 - If you cannot find the cube, try restarting the app. 
 - If you still cannot find it, check that you build the correct scene in Unity.
 
+## Challenge
+
+Try to replace the cube with another object, find a free object on the Unity  asset store or  sketchfab.com
+
 
 ## Position Virtual Object
 
@@ -187,7 +191,7 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 - [AR foundation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.1/manual/index.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTk5NzU5NDMsMTIwNTkyNDkwMywtND
-YxMDcwMTI0LC0yMDYwODM3NDg2LDc4Mzk1MDAyOSwtMTIzMDc4
-ODY3Miw2MTMzNjg0ODcsNTA0MDUyNzU4XX0=
+eyJoaXN0b3J5IjpbMTcxODEyOTIzMCwxMjA1OTI0OTAzLC00Nj
+EwNzAxMjQsLTIwNjA4Mzc0ODYsNzgzOTUwMDI5LC0xMjMwNzg4
+NjcyLDYxMzM2ODQ4Nyw1MDQwNTI3NThdfQ==
 -->
