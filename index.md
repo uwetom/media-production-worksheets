@@ -22,9 +22,9 @@
 
 ## wk16 and 17 Virtual reality
 
- -[Introduction to VR](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction)
+ - [Introduction to VR](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction)
  
--[VR Interactions](https://uwetom.github.io/media-production-worksheets/wk18-more-vr).
+- [VR Interactions](https://uwetom.github.io/media-production-worksheets/wk18-more-vr).
 
 -[Setup your headset for development](https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset)
 
@@ -35,6 +35,6 @@
  - [Solutions](https://uwetom.github.io/media-production-worksheets/wk15-using-external-data/api-solutions.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNjg1MjQ3MywxMDIyNzA3Mjc1LDY1OD
-Q0MjQzLC04MzMyODgzMl19
+eyJoaXN0b3J5IjpbLTE3MzkwNTExNjUsMTAyMjcwNzI3NSw2NT
+g0NDI0MywtODMzMjg4MzJdfQ==
 -->
