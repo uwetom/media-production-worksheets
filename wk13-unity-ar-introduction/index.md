@@ -181,8 +181,11 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 	```newImage.referenceImage.name```
 4. If it matches, instantiate the correct prefab.
 </details>
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MTA3MDEyNCwtMjA2MDgzNzQ4Niw3OD
-M5NTAwMjksLTEyMzA3ODg2NzIsNjEzMzY4NDg3LDUwNDA1Mjc1
-OF19
+eyJoaXN0b3J5IjpbMTQ4MjU3MjI1NCwtNDYxMDcwMTI0LC0yMD
+YwODM3NDg2LDc4Mzk1MDAyOSwtMTIzMDc4ODY3Miw2MTMzNjg0
+ODcsNTA0MDUyNzU4XX0=
 -->
