@@ -59,7 +59,7 @@ The cube should remain in place in the real world as you move around it.
 	- If you still cannot find it, check that you build the correct scene in Unity.
 
 ## Keep this project
-We will use this project as the template for the other AR worksheets, keep it safe or you may have to make th
+We will use this project as the template for the other AR worksheets, keep it safe or you may have to set it all up again.
 
 ## Challenge
 
@@ -74,7 +74,7 @@ Try to replace the cube with another object
 - [AR foundation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.1/manual/index.html)
 - [Nefertiti bust](https://sketchfab.com/3d-models/nefertitis-bust-like-in-the-museum-ce5b14926e494558ab584375a8d63ca7)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MjQ1MDc5NSwtMzc3Mjk1MzQzLC0yMD
+eyJoaXN0b3J5IjpbLTQwNzE4OTg0NiwtMzc3Mjk1MzQzLC0yMD
 g3OTQ3NDIwLC0xNzYxMDU0MDE2LDEyMDU5MjQ5MDMsLTQ2MTA3
 MDEyNCwtMjA2MDgzNzQ4Niw3ODM5NTAwMjksLTEyMzA3ODg2Nz
 IsNjEzMzY4NDg3LDUwNDA1Mjc1OF19
