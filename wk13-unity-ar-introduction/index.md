@@ -182,12 +182,11 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 4. If it matches, instantiate the correct prefab.
 </details>
 
-
 ## Documentation
-
+- [AR foundation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.1/manual/index.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA5NjgzMjMyLC00NjEwNzAxMjQsLTIwNj
-A4Mzc0ODYsNzgzOTUwMDI5LC0xMjMwNzg4NjcyLDYxMzM2ODQ4
-Nyw1MDQwNTI3NThdfQ==
+eyJoaXN0b3J5IjpbMTIwNTkyNDkwMywtNDYxMDcwMTI0LC0yMD
+YwODM3NDg2LDc4Mzk1MDAyOSwtMTIzMDc4ODY3Miw2MTMzNjg0
+ODcsNTA0MDUyNzU4XX0=
 -->
