@@ -1,27 +1,27 @@
 # Media Production / Unity3D
 
-## wk10 Unity Refresher
+## Week 10 -  Unity Refresher
 
  - [Add a URP Third Person Controller](https://uwetom.github.io/media-production-worksheets/wk10-unity-refresher/) 
  - [C# Code Refresher](https://uwetom.github.io/media-production-worksheets/wk10-unity-refresher/code-refresher.html) (Instantiate / collision detection / communication between scripts)
  - Using GitHub with Unity
 
-## wk11 Ideation and Motion capture intro
+## Week 11 - Ideation and Motion capture intro
 - Using the MoCap suit and software
  
-## wk12 Animating with Motion Capture Data
+## Week 12 - Animating with Motion Capture Data
 
 - [Animating Mo Cap data](https://uwetom.github.io/media-production-worksheets/wk12-animating-mocap-data/)
 
 - [Animating Mo Cap data with triggers](https://uwetom.github.io/media-production-worksheets/wk12-animating-mocap-data/triggers.html)
 
-## wk13, 14 and 15 Augmented reality
+## Week 13, 14 and 15 Augmented reality
 
 - [Introduction to AR](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/)
 
 - [AR Interactions](https://uwetom.github.io/media-production-worksheets/wk14-unity-ar-interactions/)
 
-## wk16 and 17 Virtual reality
+## Week 16 and 17 Virtual reality
 
  - [Introduction to VR](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction)
  
@@ -36,6 +36,6 @@
  - [Solutions](https://uwetom.github.io/media-production-worksheets/wk15-using-external-data/api-solutions.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNDYyNTAwNSwxMDIyNzA3Mjc1LDY1OD
-Q0MjQzLC04MzMyODgzMl19
+eyJoaXN0b3J5IjpbLTIwNTY3MTUwNTQsMTIzNDYyNTAwNSwxMD
+IyNzA3Mjc1LDY1ODQ0MjQzLC04MzMyODgzMl19
 -->
