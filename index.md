@@ -14,11 +14,9 @@
 - [Animating Mo Cap data](https://uwetom.github.io/media-production-worksheets/wk12-animating-mocap-data/)
 - [Animating Mo Cap data with triggers](https://uwetom.github.io/media-production-worksheets/wk12-animating-mocap-data/triggers.html)
 
-## wk13 Introduction to AR
+## wk13, 14 and 15 Augmented reality
 
 - [Introduction to AR](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/)
-
-## wk14 AR Interactions
 
 - [AR Interactions](https://uwetom.github.io/media-production-worksheets/wk14-unity-ar-interactions/)
 
@@ -39,6 +37,6 @@ This week we will explore interacting with objects and creating a user interface
 -[VR Interactions](https://uwetom.github.io/media-production-worksheets/wk18-more-vr)
 -[Setup your headset for development](https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNTMxMDMxOSwxMDIyNzA3Mjc1LDY1OD
-Q0MjQzLC04MzMyODgzMl19
+eyJoaXN0b3J5IjpbLTE2OTI4NDM1MzAsMTAyMjcwNzI3NSw2NT
+g0NDI0MywtODMzMjg4MzJdfQ==
 -->
