@@ -69,15 +69,15 @@ We will use this project as the template for the other AR worksheets, keep it sa
 
 	- [Nefertiti](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/assets/nefertiti.unitypackage)
 - Build your scene to the tablet, it should be much quicker the 2nd time.
-2. Add an animation to your object with automatically plays.
+2. Add an animation to your object that automatically plays.
 
 ## References
 
 - [AR foundation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.1/manual/index.html)
 - [Nefertiti bust](https://sketchfab.com/3d-models/nefertitis-bust-like-in-the-museum-ce5b14926e494558ab584375a8d63ca7)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIyNjQwMzM4LC00MDcxODk4NDYsLTM3Nz
-I5NTM0MywtMjA4Nzk0NzQyMCwtMTc2MTA1NDAxNiwxMjA1OTI0
-OTAzLC00NjEwNzAxMjQsLTIwNjA4Mzc0ODYsNzgzOTUwMDI5LC
-0xMjMwNzg4NjcyLDYxMzM2ODQ4Nyw1MDQwNTI3NThdfQ==
+eyJoaXN0b3J5IjpbMTc4MzMzNTQ3NSwtNDA3MTg5ODQ2LC0zNz
+cyOTUzNDMsLTIwODc5NDc0MjAsLTE3NjEwNTQwMTYsMTIwNTky
+NDkwMywtNDYxMDcwMTI0LC0yMDYwODM3NDg2LDc4Mzk1MDAyOS
+wtMTIzMDc4ODY3Miw2MTMzNjg0ODcsNTA0MDUyNzU4XX0=
 -->
