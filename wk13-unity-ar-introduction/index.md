@@ -48,7 +48,11 @@ Now that we have set the device up we can build to it
 
 ### Test
 
-Move the phone around and see if you can see you cube hanging in space, you may need to move backwards as it may have appeared ontop of you. It should open automatically when you unlock you device, if it does not you should be able to find it installed in your app library.
+Move the phone around and see if you can see you cube hanging in space, you may need to move backwards as it may have appeared on top of you.
+
+The cube should remain in place in the real world as you move around it.
+
+ The app should open automatically when you unlock you device, if it does not you should be able to find it installed in your app library.
 
 - If you cannot find the cube,
 	- Try restarting the app. 
@@ -57,17 +61,15 @@ Move the phone around and see if you can see you cube hanging in space, you may 
 ## Challenge
 
 Try to replace the cube with another object
-- Find a free object on the Unity  asset store or  sketchfab.com and add it to your scene.
+- Find a free object on the Unity asset store or  sketchfab.com and add it to your scene.
 - Build your scene to the tablet, it should be much quicker the 2nd time.
-
-
 
 
 ## Documentation
 - [AR foundation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.1/manual/index.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjEwNTQwMTYsLTE3NjEwNTQwMTYsMT
+eyJoaXN0b3J5IjpbLTIwODc5NDc0MjAsLTE3NjEwNTQwMTYsMT
 IwNTkyNDkwMywtNDYxMDcwMTI0LC0yMDYwODM3NDg2LDc4Mzk1
 MDAyOSwtMTIzMDc4ODY3Miw2MTMzNjg0ODcsNTA0MDUyNzU4XX
 0=
