@@ -36,8 +36,7 @@
 <h3 id="instantiate-a-prefab">Instantiate a prefab</h3>
 <p>Now we can create a script to instantiate our prefab on the image.</p>
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=09532d13-dd25-4ab8-8bb5-b21f0096e46c&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
-
-Finished Script
+<h4 id="finished-script">Finished Script</h4>
 <pre><code>using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -67,7 +66,6 @@ public class TrackImage : MonoBehaviour
 }
 
 </code></pre>
-
 <h2 id="build-and-test-the-scene">Build and Test the Scene</h2>
 <p>We can now build and test the scene again on our device.</p>
 <ul>
@@ -86,26 +84,26 @@ public class TrackImage : MonoBehaviour
 <h3 id="add-sound">Add sound</h3>
 <p>Now that we have a simple image marker scene working we can think about taking it further. In the script, after you instantiate the new prefab you can play a sounds, start an animation or a particle effect.</p>
 <p>In the ship folder you can find a sound file, try to make this play when the ship is instantiated.</p>
-
-Solution
-1. Add an audio source component to the xr origin.	
-2. Add a public AudioClip variable to your script to hold your splash sound
-	```public AudioClip sound;```
-3 In your script, find the Audio source component
-	```AudioSource source = GetComponent();```
-4 Use it to play your sound
-	```source.PlayOneShot(sound);```
-
+<h4 id="solution">Solution</h4>
+<ol>
+<li>Add an audio source component to the xr origin.</li>
+<li>Add a public AudioClip variable to your script to hold your splash sound<br>
+<code>public AudioClip sound;</code><br>
+3 In your script, find the Audio source component<br>
+<code>AudioSource source = GetComponent&lt;AudioSource&gt;();</code><br>
+4 Use it to play your sound<br>
+<code>source.PlayOneShot(sound);</code></li>
+</ol>
 <h3 id="add-multiple-markers">Add multiple markers</h3>
 <p>In the ship folder you can find two boats and 2 images. Add both images to your image reference library and add to your script to a different boat for each image.</p>
-
-Solution
-1. Add the second image to your image library and give it a different name.
-2. In your script add another public gameObject variable to hold  a different prefab.
-3. In your script, you can access the name of image, use this in an if statement to check if the name matches an image in your library.
-	```newImage.referenceImage.name```
-4. If it matches, instantiate the correct prefab.
-
+<h4 id="solution-1">Solution</h4>
+<ol>
+<li>Add the second image to your image library and give it a different name.</li>
+<li>In your script add another public gameObject variable to hold  a different prefab.</li>
+<li>In your script, you can access the name of image, use this in an if statement to check if the name matches an image in your library.<br>
+<code>newImage.referenceImage.name</code></li>
+<li>If it matches, instantiate the correct prefab.</li>
+</ol>
 </div>
 </body>
 
