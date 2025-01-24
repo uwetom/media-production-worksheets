@@ -1,6 +1,6 @@
 # Ar Introduction
 
-## First (Tom 10 mins)
+## First
 
 - Check correct version
 	+ unity 2023.2.20f1
@@ -9,10 +9,10 @@
 	
 - Create new universal 3D project
 
-## Intro to project and AR and ideation (Rod 1h)
+## Intro to project and AR and ideation
 
 
-## Set up template (Tom 1 h)
+## Set up template
 
 - AR foundation
 	- [foundation documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.1/manual/index.html)
