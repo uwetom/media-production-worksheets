@@ -11,7 +11,7 @@ If you do not have your project you can clone this one:
 
 # Position Virtual Object
 
-In the previous worksheet you added a cube to your scene,  or our scene. This is normally where the phones camera is when you first open the app, but does not correspond to anything specifically in the real world.
+In the previous worksheet you added a cube to your scene, if you  or our scene. This is normally where the phones camera is when you first open the app, but does not correspond to anything specifically in the real world.
 
 We want to be able to decide exactly where object will appear in the real world.
 
@@ -132,5 +132,5 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 4. If it matches, instantiate the correct prefab.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MTY0OTA1MSwtMjI5ODYwMjAyXX0=
+eyJoaXN0b3J5IjpbLTI2MjQ0NTEzLC0yMjk4NjAyMDJdfQ==
 -->
