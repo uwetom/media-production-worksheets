@@ -88,10 +88,10 @@ public class TrackImage : MonoBehaviour
 
 ## Build and Test the Scene
 
-We can now build and test the scene again on our device.
+We can now build and test the scene on our device.
 
 - First, on your Android device delete the previous build buy holding down on it and dragging it to delete.
-- Go to **File > Build Settings** and add the current scene, untick the old template scene.
+- Go to **File > Build Settings** and add the current scene, untick any other scenes.
 - Check You **run device** is still connected and selected and press build and run.
 - Name the build something different than before.
 
@@ -137,6 +137,6 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 4. If it matches, instantiate the correct prefab.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3OTg2MTk4MSwxNTk4NTkzMzAzLDEwNj
-Y0NDk0MDcsLTI2MjQ0NTEzLC0yMjk4NjAyMDJdfQ==
+eyJoaXN0b3J5IjpbLTEyMzI4MzEyNTgsMTU5ODU5MzMwMywxMD
+Y2NDQ5NDA3LC0yNjI0NDUxMywtMjI5ODYwMjAyXX0=
 -->
