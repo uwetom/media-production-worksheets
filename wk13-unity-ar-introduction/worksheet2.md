@@ -92,8 +92,10 @@ We can now build and test the scene on our device.
 
 - First, on your Android device delete the previous build buy holding down on it and dragging it to delete.
 - Go to **File > Build Settings** and add the current scene, untick any other scenes.
-- Check You **run device** is still connected and selected and press build and run.
-- Name the build something different than before.
+- Plug your tablet in and approve the connection.
+- Check **run device** is displays your device
+- Press **build and run**
+- Create a folder called "Bu
 
 If you point your camera at your image the model should appear.
 
@@ -137,6 +139,6 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 4. If it matches, instantiate the correct prefab.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzI4MzEyNTgsMTU5ODU5MzMwMywxMD
-Y2NDQ5NDA3LC0yNjI0NDUxMywtMjI5ODYwMjAyXX0=
+eyJoaXN0b3J5IjpbMTQwNTc4ODQ4LDE1OTg1OTMzMDMsMTA2Nj
+Q0OTQwNywtMjYyNDQ1MTMsLTIyOTg2MDIwMl19
 -->
