@@ -83,7 +83,6 @@ public class TrackImage : MonoBehaviour
         }
     }
 }
-
 ```
 
 ## Build and Test the Scene
@@ -127,7 +126,6 @@ In the ship folder you can find a sound file, try to make this play when the shi
 4 Use it to play your sound
 	```source.PlayOneShot(sound);```
 
-
 ## More complex objects
 
 We used a simple prefab of a ship in the last example, but your prefab can be as complex as you need it to be.
@@ -153,6 +151,7 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 4. If it matches, instantiate the correct prefab.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTgyMDE3MjksMTU5ODU5MzMwMywxMD
-Y2NDQ5NDA3LC0yNjI0NDUxMywtMjI5ODYwMjAyXX0=
+eyJoaXN0b3J5IjpbNjI3NTM0MTcxLC0yMDU4MjAxNzI5LDE1OT
+g1OTMzMDMsMTA2NjQ0OTQwNywtMjYyNDQ1MTMsLTIyOTg2MDIw
+Ml19
 -->
