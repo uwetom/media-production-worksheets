@@ -134,8 +134,9 @@ We used a simple prefab of a ship in the last example, but your prefab can be as
 
 ## Challenge
 
-- Create an empty object in the **Hierarchy**
-- Add multiple ships and other objects as chilldren
+- Create an empty object in the **Hierarchy** and rename it "Ship Environment"
+- Add multiple ships and other objects as chilldren.
+- Drag the "Ship Environment" object into the assets panel to turn it into a prefab.
 - 
 
 
@@ -152,6 +153,6 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 4. If it matches, instantiate the correct prefab.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMzQwNzkwNiwxNTk4NTkzMzAzLDEwNj
-Y0NDk0MDcsLTI2MjQ0NTEzLC0yMjk4NjAyMDJdfQ==
+eyJoaXN0b3J5IjpbNDQ3NzI4NDExLDE1OTg1OTMzMDMsMTA2Nj
+Q0OTQwNywtMjYyNDQ1MTMsLTIyOTg2MDIwMl19
 -->
