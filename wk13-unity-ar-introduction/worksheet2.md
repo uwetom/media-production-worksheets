@@ -118,7 +118,7 @@ Now that we have a simple image marker scene working we can think about taking i
 In the ship folder you can find a sound file, try to make this play when the ship is instantiated.
 
 #### Solution
-1. Add an audio source component to the xr origin.	
+1. Add an audio source component to the xr origin object.	
 2. Add a public AudioClip variable to your script to hold your splash sound
 	```public AudioClip sound;```
 3 In your script, find the Audio source component
@@ -151,7 +151,7 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 4. If it matches, instantiate the correct prefab.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI3NTM0MTcxLC0yMDU4MjAxNzI5LDE1OT
-g1OTMzMDMsMTA2NjQ0OTQwNywtMjYyNDQ1MTMsLTIyOTg2MDIw
-Ml19
+eyJoaXN0b3J5IjpbLTE3NjU0MDIxMjAsNjI3NTM0MTcxLC0yMD
+U4MjAxNzI5LDE1OTg1OTMzMDMsMTA2NjQ0OTQwNywtMjYyNDQ1
+MTMsLTIyOTg2MDIwMl19
 -->
