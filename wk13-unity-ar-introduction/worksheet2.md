@@ -1,17 +1,21 @@
 
 [Back](https://uwetom.github.io/media-production-worksheets)
 
-# Position Virtual Object
-
-In the previous worksheet the cube is located at the origin or our scene. This is normally where the phones camera is when you first open the app, but does not correspond to anything specifically in the real world.
-
-We want to be able to decide exactly where object will appear in the real world.
-
 ## Starting Project
 
 This worksheet continues on from the template project you created last week.
 
-If y
+If you do not have your project you can clone this one:
+
+[https://github.com/uwetom/ar_template](https://github.com/uwetom/ar_template)
+
+# Position Virtual Object
+
+In the previous worksheet you added a cube to your scene,  or our scene. This is normally where the phones camera is when you first open the app, but does not correspond to anything specifically in the real world.
+
+We want to be able to decide exactly where object will appear in the real world.
+
+
 ## Tracked Image
 
 The first way we will do this is with a tracked image.
@@ -128,5 +132,5 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 4. If it matches, instantiate the correct prefab.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODQxNTk4ODksLTIyOTg2MDIwMl19
+eyJoaXN0b3J5IjpbMTM3MTY0OTA1MSwtMjI5ODYwMjAyXX0=
 -->
