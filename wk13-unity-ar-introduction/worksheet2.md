@@ -11,14 +11,13 @@ If you do not have your project you can clone this one:
 
 # Position Virtual Object
 
-Last week we made a simple application with a cube, If you placed the cube at the origin of your scene. Normally the origin corresponds to the, but does not correspond to anything specifically in the real world.
+Last week we made a simple application with a cube, If you placed the cube at the origin of your scene. Normally the origin corresponds to the position of your camera when the scene opens. It does not correspond to anything specifically in the real world.
 
-We want to be able to decide exactly where object will appear in the real world.
-
+But we want to be able to decide exactly where object will appear in the real world.
 
 ## Tracked Image
 
-The first way we will do this is with a tracked image.
+One way we can control where our objects appear is by using tracked images.
 
 This allows us to link virtual 3D objects to real images.
 
@@ -132,6 +131,6 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 4. If it matches, instantiate the correct prefab.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDYzNjc3MDcsMTA2NjQ0OTQwNywtMj
-YyNDQ1MTMsLTIyOTg2MDIwMl19
+eyJoaXN0b3J5IjpbLTYzMzMxNDg0LDEwNjY0NDk0MDcsLTI2Mj
+Q0NTEzLC0yMjk4NjAyMDJdfQ==
 -->
