@@ -95,7 +95,7 @@ We can now build and test the scene on our device.
 - Plug your tablet in and approve the connection.
 - Check **run device** is displays your device
 - Press **build and run**
-- Create a folder called "Bu
+- Create a folder called "Build" and save your build into it.
 
 If you point your camera at your image the model should appear.
 
@@ -110,7 +110,7 @@ To get around this you can create a virtual environment in Unity.
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=94c4dac7-3a89-45f1-a3fe-b21f00b95897&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity-xr simulation" ></iframe>
 
 
-## Challenges
+## Challenge
 
 ### Add sound
 
@@ -127,6 +127,13 @@ In the ship folder you can find a sound file, try to make this play when the shi
 4 Use it to play your sound
 	```source.PlayOneShot(sound);```
 
+
+## More complex objects
+
+We used a simple prefab of a ship in t
+
+
+
 ### Add multiple markers
 
 In the ship folder you can find two boats and 2 images. Add both images to your image reference library and add to your script to a different boat for each image.
@@ -139,6 +146,6 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 4. If it matches, instantiate the correct prefab.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNTc4ODQ4LDE1OTg1OTMzMDMsMTA2Nj
-Q0OTQwNywtMjYyNDQ1MTMsLTIyOTg2MDIwMl19
+eyJoaXN0b3J5IjpbLTE1NjA0ODQxNzIsMTU5ODU5MzMwMywxMD
+Y2NDQ5NDA3LC0yNjI0NDUxMywtMjI5ODYwMjAyXX0=
 -->
