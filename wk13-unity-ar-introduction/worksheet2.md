@@ -123,7 +123,7 @@ In the ship folder you can find a sound file, try to make this play when the shi
 	```public AudioClip sound;```
 3 In your script, find the Audio source component
 	```AudioSource source = GetComponent<AudioSource>();```
-4 Use it to play your sound
+4 Use it to play your sound when the prefab is instantiated. 
 	```source.PlayOneShot(sound);```
 
 ## More complex objects
@@ -151,7 +151,7 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 4. If it matches, instantiate the correct prefab.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjU0MDIxMjAsNjI3NTM0MTcxLC0yMD
+eyJoaXN0b3J5IjpbLTIwMzM4NDg5NDEsNjI3NTM0MTcxLC0yMD
 U4MjAxNzI5LDE1OTg1OTMzMDMsMTA2NjQ0OTQwNywtMjYyNDQ1
 MTMsLTIyOTg2MDIwMl19
 -->
