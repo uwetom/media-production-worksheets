@@ -137,9 +137,9 @@ We used a simple prefab of a ship in the last example, but your prefab can be as
 - Create an empty object in the **Hierarchy** and rename it "Ship Environment"
 - Add multiple ships and other objects as chilldren.
 - Drag the "Ship Environment" object into the assets panel to turn it into a prefab.
-- 
-
-
+- Delete the object from the hierarchy
+- Add the prefab to your script
+- test the add again on your device.
 
 ### Add multiple markers
 
@@ -153,6 +153,6 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 4. If it matches, instantiate the correct prefab.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ3NzI4NDExLDE1OTg1OTMzMDMsMTA2Nj
-Q0OTQwNywtMjYyNDQ1MTMsLTIyOTg2MDIwMl19
+eyJoaXN0b3J5IjpbLTIwNTgyMDE3MjksMTU5ODU5MzMwMywxMD
+Y2NDQ5NDA3LC0yNjI0NDUxMywtMjI5ODYwMjAyXX0=
 -->
