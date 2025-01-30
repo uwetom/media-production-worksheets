@@ -11,7 +11,9 @@ If you do not have your project you can clone this one:
 
 - Open the project and create a new empty scene.
 
-- Add an XR
+- Add an **XR Origin** and **AR Session** (hint: right click in the hierarchy and choose XR)
+
+- Save the scene.
 
 # Position Virtual Object
 
@@ -135,6 +137,6 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 4. If it matches, instantiate the correct prefab.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5ODU5MzMwMywxMDY2NDQ5NDA3LC0yNj
-I0NDUxMywtMjI5ODYwMjAyXX0=
+eyJoaXN0b3J5IjpbLTM3OTg2MTk4MSwxNTk4NTkzMzAzLDEwNj
+Y0NDk0MDcsLTI2MjQ0NTEzLC0yMjk4NjAyMDJdfQ==
 -->
