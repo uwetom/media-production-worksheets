@@ -9,6 +9,10 @@ If you do not have your project you can clone this one:
 
 [https://github.com/uwetom/ar_template](https://github.com/uwetom/ar_template)
 
+- Open the project and create a new empty scene.
+
+- Add an XR
+
 # Position Virtual Object
 
 Last week we made a simple application with a cube, If you placed the cube at the origin of your scene. Normally the origin corresponds to the position of your camera when the scene opens. It does not correspond to anything specifically in the real world.
@@ -131,6 +135,6 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 4. If it matches, instantiate the correct prefab.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMzMxNDg0LDEwNjY0NDk0MDcsLTI2Mj
-Q0NTEzLC0yMjk4NjAyMDJdfQ==
+eyJoaXN0b3J5IjpbMTU5ODU5MzMwMywxMDY2NDQ5NDA3LC0yNj
+I0NDUxMywtMjI5ODYwMjAyXX0=
 -->
