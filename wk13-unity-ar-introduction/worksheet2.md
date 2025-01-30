@@ -130,7 +130,13 @@ In the ship folder you can find a sound file, try to make this play when the shi
 
 ## More complex objects
 
-We used a simple prefab of a ship in t
+We used a simple prefab of a ship in the last example, but your prefab can be as complex as you need it to be.
+
+## Challenge
+
+- Create an empty object in the **Hierarchy**
+- Add multiple ships and other objects as chilldren
+- 
 
 
 
@@ -146,6 +152,6 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 4. If it matches, instantiate the correct prefab.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjA0ODQxNzIsMTU5ODU5MzMwMywxMD
-Y2NDQ5NDA3LC0yNjI0NDUxMywtMjI5ODYwMjAyXX0=
+eyJoaXN0b3J5IjpbLTYxMzQwNzkwNiwxNTk4NTkzMzAzLDEwNj
+Y0NDk0MDcsLTI2MjQ0NTEzLC0yMjk4NjAyMDJdfQ==
 -->
