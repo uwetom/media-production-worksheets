@@ -203,24 +203,22 @@ We used a simple prefab of a ship in the last example, but your prefab can be as
 
 ### Add multiple markers
 
-In the ship folder you can find another image in addition to the puddle image. Add both images to your image reference library and add to your script to a different boat for each image.
+In the ship folder you can find another image in addition to the puddle image. 
 
-#### Solution
-1. Add the second image to your image library and give it a different name.
-2. In your script add another public gameObject variable to hold  a different prefab.
-3. In your script, you can access the name of image, use this in an if statement to check if the name matches an image in your library.
+- Add the second image to your image library and give it a different name.
+- In your script add another public gameObject variable to hold  a different prefab.
+- In your script, you can access the name of the  image, use this in an if statement to check if the name matches an image in your library.
 	```newImage.referenceImage.name```
 4. If it matches, instantiate the correct prefab.
-
 
 ## References
 
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjYxMzIzOTksLTEwMTE0NDMzMzksNT
-c3NDM4MzgzLDYxMDgxMzQ5MCwtMTc4MTcxMTE2NSw3NzU4Nzg3
-MjIsLTQ4ODU3MTAwNSw0OTQ1NTI1NSwtMjAzMzg0ODk0MSw2Mj
-c1MzQxNzEsLTIwNTgyMDE3MjksMTU5ODU5MzMwMywxMDY2NDQ5
-NDA3LC0yNjI0NDUxMywtMjI5ODYwMjAyXX0=
+eyJoaXN0b3J5IjpbMTA5NzY0OTQyLC0xMDExNDQzMzM5LDU3Nz
+QzODM4Myw2MTA4MTM0OTAsLTE3ODE3MTExNjUsNzc1ODc4NzIy
+LC00ODg1NzEwMDUsNDk0NTUyNTUsLTIwMzM4NDg5NDEsNjI3NT
+M0MTcxLC0yMDU4MjAxNzI5LDE1OTg1OTMzMDMsMTA2NjQ0OTQw
+NywtMjYyNDQ1MTMsLTIyOTg2MDIwMl19
 -->
