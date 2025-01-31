@@ -107,7 +107,7 @@ We can now build and test the scene on our device just like we did last week.
 - Check **run device** is displays your device
 - Press **build and run**
 
-
+![Build](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/images/build.jpg)
 
 - Create a folder called "Build" and save your build into it.
 
@@ -115,6 +115,7 @@ If you point your camera at your image the model should appear.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=e3e42657-f347-4b16-909d-b21e00b86980&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="android ship demo" ></iframe>
 
+If this doesn't work for you go back and che
 ## Virtual Environment
 
 You may not always have an Android device available for testing and as your project expands it can take a while to do a full build each time you need to test.
@@ -171,9 +172,9 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1ODkwNzk4OCw2MTA4MTM0OTAsLTE3OD
-E3MTExNjUsNzc1ODc4NzIyLC00ODg1NzEwMDUsNDk0NTUyNTUs
-LTIwMzM4NDg5NDEsNjI3NTM0MTcxLC0yMDU4MjAxNzI5LDE1OT
-g1OTMzMDMsMTA2NjQ0OTQwNywtMjYyNDQ1MTMsLTIyOTg2MDIw
-Ml19
+eyJoaXN0b3J5IjpbLTE4MTU4NzYxNzUsNjEwODEzNDkwLC0xNz
+gxNzExMTY1LDc3NTg3ODcyMiwtNDg4NTcxMDA1LDQ5NDU1MjU1
+LC0yMDMzODQ4OTQxLDYyNzUzNDE3MSwtMjA1ODIwMTcyOSwxNT
+k4NTkzMzAzLDEwNjY0NDk0MDcsLTI2MjQ0NTEzLC0yMjk4NjAy
+MDJdfQ==
 -->
