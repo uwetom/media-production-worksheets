@@ -56,7 +56,13 @@ The tracked image manager component manages all the images we want to track.
 
 Now we can create a script to instantiate our prefab on the image.
 
+Follow along with this video, try to right the code yourself, the finished script is bellow the video, but try to only use that if you get stuck.
+
+[AR foundation Documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.1/manual/index.html)
+
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=09532d13-dd25-4ab8-8bb5-b21f0096e46c&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Unity - add virtual object" ></iframe>
+
+
 
 #### Finished Script
 ```
@@ -160,8 +166,8 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODE3MTExNjUsNzc1ODc4NzIyLC00OD
-g1NzEwMDUsNDk0NTUyNTUsLTIwMzM4NDg5NDEsNjI3NTM0MTcx
-LC0yMDU4MjAxNzI5LDE1OTg1OTMzMDMsMTA2NjQ0OTQwNywtMj
-YyNDQ1MTMsLTIyOTg2MDIwMl19
+eyJoaXN0b3J5IjpbLTEzOTkzNjg5NjMsLTE3ODE3MTExNjUsNz
+c1ODc4NzIyLC00ODg1NzEwMDUsNDk0NTUyNTUsLTIwMzM4NDg5
+NDEsNjI3NTM0MTcxLC0yMDU4MjAxNzI5LDE1OTg1OTMzMDMsMT
+A2NjQ0OTQwNywtMjYyNDQ1MTMsLTIyOTg2MDIwMl19
 -->
