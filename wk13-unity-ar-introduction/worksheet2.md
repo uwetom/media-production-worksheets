@@ -191,9 +191,9 @@ We used a simple prefab of a ship in the last example, but your prefab can be as
 
 
 - Drag the "Ship Environment" object into the assets panel to turn it into a prefab ( it should turn blue in the hierarchy)
-- Delete the object from the hierarchy
-- Add the prefab to your script
-- Test on your device.
+- Delete the object from the hierarchy to remove it from the scene, the prefab should still be in your assets.
+- Replace the Ship prefab in your script with the new prefab.
+- Build to your device to test.
 
 ### Add multiple markers
 
@@ -212,9 +212,9 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDUzMzIzNDMsNTc3NDM4MzgzLDYxMD
-gxMzQ5MCwtMTc4MTcxMTE2NSw3NzU4Nzg3MjIsLTQ4ODU3MTAw
-NSw0OTQ1NTI1NSwtMjAzMzg0ODk0MSw2Mjc1MzQxNzEsLTIwNT
-gyMDE3MjksMTU5ODU5MzMwMywxMDY2NDQ5NDA3LC0yNjI0NDUx
-MywtMjI5ODYwMjAyXX0=
+eyJoaXN0b3J5IjpbOTcyMzUwMTAzLDU3NzQzODM4Myw2MTA4MT
+M0OTAsLTE3ODE3MTExNjUsNzc1ODc4NzIyLC00ODg1NzEwMDUs
+NDk0NTUyNTUsLTIwMzM4NDg5NDEsNjI3NTM0MTcxLC0yMDU4Mj
+AxNzI5LDE1OTg1OTMzMDMsMTA2NjQ0OTQwNywtMjYyNDQ1MTMs
+LTIyOTg2MDIwMl19
 -->
