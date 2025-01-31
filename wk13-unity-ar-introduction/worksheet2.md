@@ -137,7 +137,7 @@ In the ship folder you can find a sound file
 - Drag the sound file onto it.
 - Turn off **Play on Awake**
 
-- In your script, add a line in the setup to find the Audio source component:
+- In your script, at the top of the **OnChanged** function add a line  to find the Audio source component:
 	```AudioSource source = GetComponent<AudioSource>();```
 - Use it to play your sound when the prefab is instantiated. 
 	```source.PlayOneShot(sound);```
@@ -179,7 +179,7 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NjI3ODU1Niw1Nzc0MzgzODMsNjEwOD
+eyJoaXN0b3J5IjpbLTMzMzA4ODM5MSw1Nzc0MzgzODMsNjEwOD
 EzNDkwLC0xNzgxNzExMTY1LDc3NTg3ODcyMiwtNDg4NTcxMDA1
 LDQ5NDU1MjU1LC0yMDMzODQ4OTQxLDYyNzUzNDE3MSwtMjA1OD
 IwMTcyOSwxNTk4NTkzMzAzLDEwNjY0NDk0MDcsLTI2MjQ0NTEz
