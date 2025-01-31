@@ -44,7 +44,8 @@ I have created a Unity package with some simple assets in it to get us started.
 [unity ship package download](https://github.com/uwetom/media-production-worksheets/raw/refs/heads/master/wk13-unity-ar-introduction/assets/ship.unitypackage)
 
 - Download it and drag it into the assets panel in Unity to include it in your project.
-- 
+![Add ship package](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/images/add_ship_to_assets.jpg)
+
 ### Tracked image manager
 
 The tracked image manager component manages all the images we want to track.
@@ -159,7 +160,7 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODEwNjEzNzAsNzc1ODc4NzIyLC00OD
+eyJoaXN0b3J5IjpbLTE3ODE3MTExNjUsNzc1ODc4NzIyLC00OD
 g1NzEwMDUsNDk0NTUyNTUsLTIwMzM4NDg5NDEsNjI3NTM0MTcx
 LC0yMDU4MjAxNzI5LDE1OTg1OTMzMDMsMTA2NjQ0OTQwNywtMj
 YyNDQ1MTMsLTIyOTg2MDIwMl19
