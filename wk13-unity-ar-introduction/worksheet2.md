@@ -211,7 +211,6 @@ In the ship folder you can find another image in addition to the puddle image.
 	```newImage.referenceImage.name```
 4. If it matches, instantiate the correct prefab.
 
-
 ## Challenge 2
 
 ### Animation
@@ -223,9 +222,10 @@ In the ship folder you can find another image in addition to the puddle image.
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NjkwMjQ4NSwxMDk3NjQ5NDIsLTEwMT
-E0NDMzMzksNTc3NDM4MzgzLDYxMDgxMzQ5MCwtMTc4MTcxMTE2
-NSw3NzU4Nzg3MjIsLTQ4ODU3MTAwNSw0OTQ1NTI1NSwtMjAzMz
-g0ODk0MSw2Mjc1MzQxNzEsLTIwNTgyMDE3MjksMTU5ODU5MzMw
-MywxMDY2NDQ5NDA3LC0yNjI0NDUxMywtMjI5ODYwMjAyXX0=
+eyJoaXN0b3J5IjpbLTQ4MzQwMTAyMSwxNzY2OTAyNDg1LDEwOT
+c2NDk0MiwtMTAxMTQ0MzMzOSw1Nzc0MzgzODMsNjEwODEzNDkw
+LC0xNzgxNzExMTY1LDc3NTg3ODcyMiwtNDg4NTcxMDA1LDQ5ND
+U1MjU1LC0yMDMzODQ4OTQxLDYyNzUzNDE3MSwtMjA1ODIwMTcy
+OSwxNTk4NTkzMzAzLDEwNjY0NDk0MDcsLTI2MjQ0NTEzLC0yMj
+k4NjAyMDJdfQ==
 -->
