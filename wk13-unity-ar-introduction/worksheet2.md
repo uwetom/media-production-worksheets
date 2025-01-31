@@ -11,7 +11,9 @@ If you do not have your project you can clone this one from Github:
 
 - Open the project and create a new empty scene.
 
-- Add an **XR Origin** and **AR Session** (hint: right click in the hierarchy and choose XR)
+- Like last week, add an **XR Origin** and **AR Session** (hint: right click in the hierarchy and choose XR)
+
+
 
 - Save the scene.
 
@@ -156,7 +158,7 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNTIwMDQ4LDQ5NDU1MjU1LC0yMDMzOD
-Q4OTQxLDYyNzUzNDE3MSwtMjA1ODIwMTcyOSwxNTk4NTkzMzAz
-LDEwNjY0NDk0MDcsLTI2MjQ0NTEzLC0yMjk4NjAyMDJdfQ==
+eyJoaXN0b3J5IjpbLTQ4ODU3MTAwNSw0OTQ1NTI1NSwtMjAzMz
+g0ODk0MSw2Mjc1MzQxNzEsLTIwNTgyMDE3MjksMTU5ODU5MzMw
+MywxMDY2NDQ5NDA3LC0yNjI0NDUxMywtMjI5ODYwMjAyXX0=
 -->
