@@ -101,6 +101,7 @@ public class TrackImage : MonoBehaviour
 
 We can now build and test the scene on our device just like we did last week.
 
+- Save the current scene.
 - Go to **File > Build Settings** and add the current scene, untick any other scenes.
 - Plug your tablet in and approve the connection.
 - Check **run device** is displays your device
@@ -170,8 +171,9 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEwODEzNDkwLC0xNzgxNzExMTY1LDc3NT
-g3ODcyMiwtNDg4NTcxMDA1LDQ5NDU1MjU1LC0yMDMzODQ4OTQx
-LDYyNzUzNDE3MSwtMjA1ODIwMTcyOSwxNTk4NTkzMzAzLDEwNj
-Y0NDk0MDcsLTI2MjQ0NTEzLC0yMjk4NjAyMDJdfQ==
+eyJoaXN0b3J5IjpbMTc1ODkwNzk4OCw2MTA4MTM0OTAsLTE3OD
+E3MTExNjUsNzc1ODc4NzIyLC00ODg1NzEwMDUsNDk0NTUyNTUs
+LTIwMzM4NDg5NDEsNjI3NTM0MTcxLC0yMDU4MjAxNzI5LDE1OT
+g1OTMzMDMsMTA2NjQ0OTQwNywtMjYyNDQ1MTMsLTIyOTg2MDIw
+Ml19
 -->
