@@ -183,8 +183,6 @@ public class TrackImage : MonoBehaviour
 
 We used a simple prefab of a ship in the last example, but your prefab can be as complex as you need it to be.
 
-## Challenge
-
 - Create an empty object in the **Hierarchy** and rename it "Ship Environment"
 - Add multiple ships and other objects as children, you can find other objects in the ship folder.
 
@@ -195,9 +193,11 @@ We used a simple prefab of a ship in the last example, but your prefab can be as
 - Replace the Ship prefab in your script with the new prefab.
 - Build to your device to test.
 
+## Challenge
+
 ### Add multiple markers
 
-In the ship folder you can find two boats and 2 images. Add both images to your image reference library and add to your script to a different boat for each image.
+In the ship folder you can find another image in addition to the puddle image. Add both images to your image reference library and add to your script to a different boat for each image.
 
 #### Solution
 1. Add the second image to your image library and give it a different name.
@@ -212,9 +212,9 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMTAzMTQ3OSw1Nzc0MzgzODMsNjEwOD
-EzNDkwLC0xNzgxNzExMTY1LDc3NTg3ODcyMiwtNDg4NTcxMDA1
-LDQ5NDU1MjU1LC0yMDMzODQ4OTQxLDYyNzUzNDE3MSwtMjA1OD
-IwMTcyOSwxNTk4NTkzMzAzLDEwNjY0NDk0MDcsLTI2MjQ0NTEz
-LC0yMjk4NjAyMDJdfQ==
+eyJoaXN0b3J5IjpbLTEwMTE0NDMzMzksNTc3NDM4MzgzLDYxMD
+gxMzQ5MCwtMTc4MTcxMTE2NSw3NzU4Nzg3MjIsLTQ4ODU3MTAw
+NSw0OTQ1NTI1NSwtMjAzMzg0ODk0MSw2Mjc1MzQxNzEsLTIwNT
+gyMDE3MjksMTU5ODU5MzMwMywxMDY2NDQ5NDA3LC0yNjI0NDUx
+MywtMjI5ODYwMjAyXX0=
 -->
