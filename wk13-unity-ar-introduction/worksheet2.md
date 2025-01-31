@@ -66,7 +66,7 @@ Follow along with this video.
 
 #### Finished Script
 
-This is the finished script from the video, try to only use this if you get suck.
+This is the finished script from the video, try to only use this if you get stuck.
 ```
 using System.Collections;
 using System.Collections.Generic;
@@ -168,7 +168,7 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Nzc1Njg3MzUsLTE3ODE3MTExNjUsNz
+eyJoaXN0b3J5IjpbLTE5NjQxNTg3MTEsLTE3ODE3MTExNjUsNz
 c1ODc4NzIyLC00ODg1NzEwMDUsNDk0NTUyNTUsLTIwMzM4NDg5
 NDEsNjI3NTM0MTcxLC0yMDU4MjAxNzI5LDE1OTg1OTMzMDMsMT
 A2NjQ0OTQwNywtMjYyNDQ1MTMsLTIyOTg2MDIwMl19
