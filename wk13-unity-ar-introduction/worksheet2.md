@@ -186,8 +186,11 @@ We used a simple prefab of a ship in the last example, but your prefab can be as
 ## Challenge
 
 - Create an empty object in the **Hierarchy** and rename it "Ship Environment"
-- Add multiple ships and other objects as chilldren.
-- Drag the "Ship Environment" object into the assets panel to turn it into a prefab.
+- Add multiple ships and other objects as children, you can find other objects in the ship folder.
+
+
+
+- Drag the "Ship Environment" object into the assets panel to turn it into a prefab ( it should turn blue in the hierarchy)
 - Delete the object from the hierarchy
 - Add the prefab to your script
 - Test on your device.
@@ -209,7 +212,7 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDE1NjQ0ODAsNTc3NDM4MzgzLDYxMD
+eyJoaXN0b3J5IjpbLTExMDUzMzIzNDMsNTc3NDM4MzgzLDYxMD
 gxMzQ5MCwtMTc4MTcxMTE2NSw3NzU4Nzg3MjIsLTQ4ODU3MTAw
 NSw0OTQ1NTI1NSwtMjAzMzg0ODk0MSw2Mjc1MzQxNzEsLTIwNT
 gyMDE3MjksMTU5ODU5MzMwMywxMDY2NDQ5NDA3LC0yNjI0NDUx
