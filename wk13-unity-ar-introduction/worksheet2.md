@@ -9,13 +9,15 @@ If you do not have your project you can clone this one from Github:
 
 [https://github.com/uwetom/AR-Template](https://github.com/uwetom/AR-Template)
 
+You can open this project through Unity Hub by using the 
+
+### Create new scene
+
 - Open the project and create a new empty scene.
 
 - Like last week, add an **XR Origin** and **AR Session** (hint: right click in the hierarchy and choose XR)
 
 ![Add xr and ar session](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/images/xr_ar_session.jpg)
-
-
 
 - Save the scene.
 
@@ -160,8 +162,8 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc1ODc4NzIyLC00ODg1NzEwMDUsNDk0NT
-UyNTUsLTIwMzM4NDg5NDEsNjI3NTM0MTcxLC0yMDU4MjAxNzI5
-LDE1OTg1OTMzMDMsMTA2NjQ0OTQwNywtMjYyNDQ1MTMsLTIyOT
-g2MDIwMl19
+eyJoaXN0b3J5IjpbLTE5OTgyNjc4MDgsNzc1ODc4NzIyLC00OD
+g1NzEwMDUsNDk0NTUyNTUsLTIwMzM4NDg5NDEsNjI3NTM0MTcx
+LC0yMDU4MjAxNzI5LDE1OTg1OTMzMDMsMTA2NjQ0OTQwNywtMj
+YyNDQ1MTMsLTIyOTg2MDIwMl19
 -->
