@@ -28,7 +28,6 @@ Last week we made a simple application with a cube, If you placed the cube at th
 But we want to be able to decide exactly where object will appear in the real world.
 
 ## Tracked Image
-
 One way we can control where our objects appear is by using tracked images.
 
 This allows us to link virtual 3D objects to real images.
@@ -44,10 +43,8 @@ I have created a Unity package with some simple assets in it to get us started.
 
 [unity ship package download](https://github.com/uwetom/media-production-worksheets/raw/refs/heads/master/wk13-unity-ar-introduction/assets/ship.unitypackage)
 
-- Download it and drag it into the assets panel in Unity to include it in your project
-- Save the template scene with a new name in the scenes folder ("tracked_image_scene")
-- Delete the cube from the scene
-
+- Download it and drag it into the assets panel in Unity to include it in your project.
+- 
 ### Tracked image manager
 
 The tracked image manager component manages all the images we want to track.
@@ -162,8 +159,8 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4Mjk4MDQyLDc3NTg3ODcyMiwtNDg4NT
-cxMDA1LDQ5NDU1MjU1LC0yMDMzODQ4OTQxLDYyNzUzNDE3MSwt
-MjA1ODIwMTcyOSwxNTk4NTkzMzAzLDEwNjY0NDk0MDcsLTI2Mj
-Q0NTEzLC0yMjk4NjAyMDJdfQ==
+eyJoaXN0b3J5IjpbLTE4ODEwNjEzNzAsNzc1ODc4NzIyLC00OD
+g1NzEwMDUsNDk0NTUyNTUsLTIwMzM4NDg5NDEsNjI3NTM0MTcx
+LC0yMDU4MjAxNzI5LDE1OTg1OTMzMDMsMTA2NjQ0OTQwNywtMj
+YyNDQ1MTMsLTIyOTg2MDIwMl19
 -->
