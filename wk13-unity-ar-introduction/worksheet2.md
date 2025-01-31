@@ -5,9 +5,9 @@
 
 This worksheet continues on from the template project you created last week.
 
-If you do not have your project you can clone this one:
+If you do not have your project you can clone this one from Github:
 
-[https://github.com/uwetom/ar_template](https://github.com/uwetom/ar_template)
+[https://github.com/uwetom/AR-Template](https://github.com/uwetom/AR-Template)
 
 - Open the project and create a new empty scene.
 
@@ -156,7 +156,7 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0NTUyNTUsLTIwMzM4NDg5NDEsNjI3NT
-M0MTcxLC0yMDU4MjAxNzI5LDE1OTg1OTMzMDMsMTA2NjQ0OTQw
-NywtMjYyNDQ1MTMsLTIyOTg2MDIwMl19
+eyJoaXN0b3J5IjpbMTgzNTIwMDQ4LDQ5NDU1MjU1LC0yMDMzOD
+Q4OTQxLDYyNzUzNDE3MSwtMjA1ODIwMTcyOSwxNTk4NTkzMzAz
+LDEwNjY0NDk0MDcsLTI2MjQ0NTEzLC0yMjk4NjAyMDJdfQ==
 -->
