@@ -140,7 +140,7 @@ In the ship folder you can find a sound file
 - In your script, at the top of the **OnChanged** function add a line  to find the Audio source component:
 	```AudioSource source = GetComponent<AudioSource>();```
 - Use it to play your sound when the prefab is instantiated. 
-	```source.PlayOneShot(sound);```
+	```source.Play();```
 - Test out the scene in your Simulated Environment
 
 Your finished script should look like this
@@ -172,7 +172,7 @@ public class TrackImage : MonoBehaviour
             GameObject newObject = GameObject.Instantiate(shipPrefab);
             // parent prefab to the newImage so that they stick together.
             newObject.transform.SetParent(newImage.transform, false);
-            source.PlayOneShot(sound);
+            source.Play();
         }
     }
 }
@@ -212,9 +212,9 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcyMzUwMTAzLDU3NzQzODM4Myw2MTA4MT
-M0OTAsLTE3ODE3MTExNjUsNzc1ODc4NzIyLC00ODg1NzEwMDUs
-NDk0NTUyNTUsLTIwMzM4NDg5NDEsNjI3NTM0MTcxLC0yMDU4Mj
-AxNzI5LDE1OTg1OTMzMDMsMTA2NjQ0OTQwNywtMjYyNDQ1MTMs
-LTIyOTg2MDIwMl19
+eyJoaXN0b3J5IjpbMTgzMTAzMTQ3OSw1Nzc0MzgzODMsNjEwOD
+EzNDkwLC0xNzgxNzExMTY1LDc3NTg3ODcyMiwtNDg4NTcxMDA1
+LDQ5NDU1MjU1LC0yMDMzODQ4OTQxLDYyNzUzNDE3MSwtMjA1OD
+IwMTcyOSwxNTk4NTkzMzAzLDEwNjY0NDk0MDcsLTI2MjQ0NTEz
+LC0yMjk4NjAyMDJdfQ==
 -->
