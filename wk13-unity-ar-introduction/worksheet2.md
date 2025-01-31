@@ -144,8 +144,38 @@ In the ship folder you can find a sound file
 - Test out the scene in your Simulated Environment
 
 Your finished script should look like this
-
 ```
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.XR.ARFoundation; // include xr library
+
+public class TrackImage : MonoBehaviour
+{
+    [SerializeField]
+    ARTrackedImageManager m_TrackedImageManager;
+    public GameObject shipPrefab; //Prefab you want to appear on marker image
+
+    void OnEnable() => m_TrackedImageManager.trackedImagesChanged += OnChanged;
+
+    void OnDisable() => m_TrackedImageManager.trackedImagesChanged -= OnChanged;
+
+    void OnChanged(ARTrackedImagesChangedEventArgs eventArgs)
+    {
+
+        AudioSource source = GetComponent<AudioSource>();
+
+        // When the camera picks up a new image marker Unity adds a game object to it called newImage, this will stick to maker.
+        foreach (ARTrackedImage newImage in eventArgs.added)
+        {
+            // Create new copy of your prefab
+            GameObject newObject = GameObject.Instantiate(shipPrefab);
+            // parent prefab to the newImage so that they stick together.
+            newObject.transform.SetParent(newImage.transform, false);
+            source.PlayOneShot(sound);
+        }
+    }
+}
 
 ```
 
@@ -179,9 +209,9 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMzA4ODM5MSw1Nzc0MzgzODMsNjEwOD
-EzNDkwLC0xNzgxNzExMTY1LDc3NTg3ODcyMiwtNDg4NTcxMDA1
-LDQ5NDU1MjU1LC0yMDMzODQ4OTQxLDYyNzUzNDE3MSwtMjA1OD
-IwMTcyOSwxNTk4NTkzMzAzLDEwNjY0NDk0MDcsLTI2MjQ0NTEz
-LC0yMjk4NjAyMDJdfQ==
+eyJoaXN0b3J5IjpbLTIxMDE1NjQ0ODAsNTc3NDM4MzgzLDYxMD
+gxMzQ5MCwtMTc4MTcxMTE2NSw3NzU4Nzg3MjIsLTQ4ODU3MTAw
+NSw0OTQ1NTI1NSwtMjAzMzg0ODk0MSw2Mjc1MzQxNzEsLTIwNT
+gyMDE3MjksMTU5ODU5MzMwMywxMDY2NDQ5NDA3LC0yNjI0NDUx
+MywtMjI5ODYwMjAyXX0=
 -->
