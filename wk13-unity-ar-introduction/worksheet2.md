@@ -189,11 +189,14 @@ We used a simple prefab of a ship in the last example, but your prefab can be as
 ![Multiple Objects](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/images/multiple_objects.jpg)
 
 - Drag the "Ship Environment" object into the assets panel to turn it into a prefab ( it should turn blue in the hierarchy)
-- 
-![Multiple Objects](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/images/Make_prefab.jpg)
+
+![Make prefab](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/images/Make_prefab.jpg)
 
 - Delete the object from the hierarchy to remove it from the scene, the prefab should still be in your assets.
 - Replace the Ship prefab in your script with the new prefab.
+
+![Updateprefab](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/images/update_prefab.jpg)
+
 - Build to your device to test.
 
 ## Challenge
@@ -215,9 +218,9 @@ In the ship folder you can find another image in addition to the puddle image. A
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NzY3NTM5NiwtMTAxMTQ0MzMzOSw1Nz
-c0MzgzODMsNjEwODEzNDkwLC0xNzgxNzExMTY1LDc3NTg3ODcy
-MiwtNDg4NTcxMDA1LDQ5NDU1MjU1LC0yMDMzODQ4OTQxLDYyNz
-UzNDE3MSwtMjA1ODIwMTcyOSwxNTk4NTkzMzAzLDEwNjY0NDk0
-MDcsLTI2MjQ0NTEzLC0yMjk4NjAyMDJdfQ==
+eyJoaXN0b3J5IjpbLTE1MjYxMzIzOTksLTEwMTE0NDMzMzksNT
+c3NDM4MzgzLDYxMDgxMzQ5MCwtMTc4MTcxMTE2NSw3NzU4Nzg3
+MjIsLTQ4ODU3MTAwNSw0OTQ1NTI1NSwtMjAzMzg0ODk0MSw2Mj
+c1MzQxNzEsLTIwNTgyMDE3MjksMTU5ODU5MzMwMywxMDY2NDQ5
+NDA3LC0yNjI0NDUxMywtMjI5ODYwMjAyXX0=
 -->
