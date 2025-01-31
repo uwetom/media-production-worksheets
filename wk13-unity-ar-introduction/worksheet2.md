@@ -127,14 +127,13 @@ To get around this you can create a virtual environment in Unity.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=94c4dac7-3a89-45f1-a3fe-b21f00b95897&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity-xr simulation" ></iframe>
 
-
-## Challenge
-
 ### Add sound
 
 Now that we have a simple image marker scene working we can think about taking it further. In the script, after you instantiate the new prefab you can play a sounds, start an animation or a particle effect.
 
-In the ship folder you can find a sound file, try to make this play when the ship is instantiated.
+In the ship folder you can find a sound file
+
+- Try to make this play when the ship is instantiated.
 
 #### Solution
 1. Add an audio source component to the xr origin object.	
@@ -175,9 +174,9 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NzIwNzc4Nyw2MTA4MTM0OTAsLTE3OD
-E3MTExNjUsNzc1ODc4NzIyLC00ODg1NzEwMDUsNDk0NTUyNTUs
-LTIwMzM4NDg5NDEsNjI3NTM0MTcxLC0yMDU4MjAxNzI5LDE1OT
-g1OTMzMDMsMTA2NjQ0OTQwNywtMjYyNDQ1MTMsLTIyOTg2MDIw
-Ml19
+eyJoaXN0b3J5IjpbNTc3NDM4MzgzLDYxMDgxMzQ5MCwtMTc4MT
+cxMTE2NSw3NzU4Nzg3MjIsLTQ4ODU3MTAwNSw0OTQ1NTI1NSwt
+MjAzMzg0ODk0MSw2Mjc1MzQxNzEsLTIwNTgyMDE3MjksMTU5OD
+U5MzMwMywxMDY2NDQ5NDA3LC0yNjI0NDUxMywtMjI5ODYwMjAy
+XX0=
 -->
