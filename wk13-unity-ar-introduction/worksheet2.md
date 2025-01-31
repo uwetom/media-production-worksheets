@@ -133,11 +133,10 @@ Now that we have a simple image marker scene working we can think about taking i
 
 In the ship folder you can find a sound file
 
-- Try to make this play when the ship is instantiated.
+- Add an **audio source** component to the xr origin object and drag the sound file onto it.
 
-#### Solution
-1. Add an audio source component to the xr origin object.	
-2. Add a public AudioClip variable to your script to hold your splash sound
+
+- Add a public AudioClip variable to your script to hold your splash sound
 	```public AudioClip sound;```
 3 In your script, find the Audio source component
 	```AudioSource source = GetComponent<AudioSource>();```
@@ -174,9 +173,9 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc3NDM4MzgzLDYxMDgxMzQ5MCwtMTc4MT
-cxMTE2NSw3NzU4Nzg3MjIsLTQ4ODU3MTAwNSw0OTQ1NTI1NSwt
-MjAzMzg0ODk0MSw2Mjc1MzQxNzEsLTIwNTgyMDE3MjksMTU5OD
-U5MzMwMywxMDY2NDQ5NDA3LC0yNjI0NDUxMywtMjI5ODYwMjAy
-XX0=
+eyJoaXN0b3J5IjpbNTc0MzE2NzI5LDU3NzQzODM4Myw2MTA4MT
+M0OTAsLTE3ODE3MTExNjUsNzc1ODc4NzIyLC00ODg1NzEwMDUs
+NDk0NTUyNTUsLTIwMzM4NDg5NDEsNjI3NTM0MTcxLC0yMDU4Mj
+AxNzI5LDE1OTg1OTMzMDMsMTA2NjQ0OTQwNywtMjYyNDQ1MTMs
+LTIyOTg2MDIwMl19
 -->
