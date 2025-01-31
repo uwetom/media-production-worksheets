@@ -99,13 +99,15 @@ public class TrackImage : MonoBehaviour
 
 ## Build and Test the Scene
 
-We can now build and test the scene on our device.
+We can now build and test the scene on our device just like we did last week.
 
-- First, on your Android device delete the previous build buy holding down on it and dragging it to delete.
 - Go to **File > Build Settings** and add the current scene, untick any other scenes.
 - Plug your tablet in and approve the connection.
 - Check **run device** is displays your device
 - Press **build and run**
+
+
+
 - Create a folder called "Build" and save your build into it.
 
 If you point your camera at your image the model should appear.
@@ -168,8 +170,8 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjQxNTg3MTEsLTE3ODE3MTExNjUsNz
-c1ODc4NzIyLC00ODg1NzEwMDUsNDk0NTUyNTUsLTIwMzM4NDg5
-NDEsNjI3NTM0MTcxLC0yMDU4MjAxNzI5LDE1OTg1OTMzMDMsMT
-A2NjQ0OTQwNywtMjYyNDQ1MTMsLTIyOTg2MDIwMl19
+eyJoaXN0b3J5IjpbNjEwODEzNDkwLC0xNzgxNzExMTY1LDc3NT
+g3ODcyMiwtNDg4NTcxMDA1LDQ5NDU1MjU1LC0yMDMzODQ4OTQx
+LDYyNzUzNDE3MSwtMjA1ODIwMTcyOSwxNTk4NTkzMzAzLDEwNj
+Y0NDk0MDcsLTI2MjQ0NTEzLC0yMjk4NjAyMDJdfQ==
 -->
