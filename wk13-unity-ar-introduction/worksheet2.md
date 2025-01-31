@@ -133,15 +133,16 @@ Now that we have a simple image marker scene working we can think about taking i
 
 In the ship folder you can find a sound file
 
-- Add an **audio source** component to the xr origin object and drag the sound file onto it.
+- Add an **audio source** component to the xr origin object
+- Drag the sound file onto it.
+- Turn off **Play on Awake**
 
-
-- Add a public AudioClip variable to your script to hold your splash sound
-	```public AudioClip sound;```
-3 In your script, find the Audio source component
+- In your script, add a line in the setup to find the Audio source component:
 	```AudioSource source = GetComponent<AudioSource>();```
-4 Use it to play your sound when the prefab is instantiated. 
+- Use it to play your sound when the prefab is instantiated. 
 	```source.PlayOneShot(sound);```
+
+
 
 ## More complex objects
 
@@ -173,9 +174,9 @@ In the ship folder you can find two boats and 2 images. Add both images to your 
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc0MzE2NzI5LDU3NzQzODM4Myw2MTA4MT
-M0OTAsLTE3ODE3MTExNjUsNzc1ODc4NzIyLC00ODg1NzEwMDUs
-NDk0NTUyNTUsLTIwMzM4NDg5NDEsNjI3NTM0MTcxLC0yMDU4Mj
-AxNzI5LDE1OTg1OTMzMDMsMTA2NjQ0OTQwNywtMjYyNDQ1MTMs
-LTIyOTg2MDIwMl19
+eyJoaXN0b3J5IjpbMTYyMjgyNTU5NCw1Nzc0MzgzODMsNjEwOD
+EzNDkwLC0xNzgxNzExMTY1LDc3NTg3ODcyMiwtNDg4NTcxMDA1
+LDQ5NDU1MjU1LC0yMDMzODQ4OTQxLDYyNzUzNDE3MSwtMjA1OD
+IwMTcyOSwxNTk4NTkzMzAzLDEwNjY0NDk0MDcsLTI2MjQ0NTEz
+LC0yMjk4NjAyMDJdfQ==
 -->
