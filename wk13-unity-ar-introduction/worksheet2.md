@@ -137,6 +137,7 @@ You can find a sound file in the ship folder.
 - Drag the sound file onto it.
 - Turn off **Play on Awake**
 
+![Audio source](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/images/audio_source.jpg)
 
 - In your script, at the top of the **OnChanged** function add a line  to find the Audio source component:
 	```AudioSource source = GetComponent<AudioSource>();```
@@ -177,7 +178,6 @@ public class TrackImage : MonoBehaviour
         }
     }
 }
-
 ```
 
 ## More complex objects
@@ -223,7 +223,7 @@ In the ship folder you can find another image in addition to the puddle image.
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDc3MzgxODMsLTQ4MzQwMTAyMSwxNz
+eyJoaXN0b3J5IjpbLTE0ODg5NjAwMDMsLTQ4MzQwMTAyMSwxNz
 Y2OTAyNDg1LDEwOTc2NDk0MiwtMTAxMTQ0MzMzOSw1Nzc0Mzgz
 ODMsNjEwODEzNDkwLC0xNzgxNzExMTY1LDc3NTg3ODcyMiwtND
 g4NTcxMDA1LDQ5NDU1MjU1LC0yMDMzODQ4OTQxLDYyNzUzNDE3
