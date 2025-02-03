@@ -211,7 +211,51 @@ In the ship folder you can find another image in addition to the puddle image.
 - In your script, you can access the name of the  image, use this in an if statement to check if the name matches an image in your library.
 	```newImage.referenceImage.name```
 - If it matches, instantiate the correct prefab.
+#### finished script
+```
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.XR.ARFoundation; // include xr library
 
+public class TrackImage : MonoBehaviour
+{
+    [SerializeField]
+    ARTrackedImageManager m_TrackedImageManager;
+    public GameObject shipPrefab; //Prefab you want to appear on marker image
+    public GameObject shipEnvironmentPrefab; //Prefab you want to appear on marker image
+
+    void Start()
+    {
+        // Disable screen dimming
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
+    }
+
+    void OnEnable() => m_TrackedImageManager.trackedImagesChanged += OnChanged;
+
+    void OnDisable() => m_TrackedImageManager.trackedImagesChanged -= OnChanged;
+
+    void OnChanged(ARTrackedImagesChangedEventArgs eventArgs)
+    {
+        AudioSource source = GetComponent<AudioSource>();
+
+        // When the camera picks up a new image marker Unity adds a game object to it called newImage, this will stick to maker.
+        foreach (ARTrackedImage newImage in eventArgs.added)
+        {
+            if(newImage.referenceImage.name == "puddle") {
+                // Create new copy of your prefab
+                GameObject newObject = GameObject.Instantiate(shipPrefab);
+                // parent prefab to the newImage so that they stick together.
+                newObject.transform.SetParent(newImage.transform, false);
+            }else if(newImage.referenceImage.name == "boat")
+            {
+                GameObject newObject = GameObject.Instantiate(shipEnvironmentPrefab);
+                newObject.transform.SetParent(newImage.transform, false);
+            }
+            source.Play();
+        }
+    }
+}
 
 ## Challenge 2
 
@@ -224,10 +268,10 @@ In the ship folder you can find another image in addition to the puddle image.
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NDg4Mjg1MiwtNDgzNDAxMDIxLDE3Nj
-Y5MDI0ODUsMTA5NzY0OTQyLC0xMDExNDQzMzM5LDU3NzQzODM4
-Myw2MTA4MTM0OTAsLTE3ODE3MTExNjUsNzc1ODc4NzIyLC00OD
-g1NzEwMDUsNDk0NTUyNTUsLTIwMzM4NDg5NDEsNjI3NTM0MTcx
-LC0yMDU4MjAxNzI5LDE1OTg1OTMzMDMsMTA2NjQ0OTQwNywtMj
-YyNDQ1MTMsLTIyOTg2MDIwMl19
+eyJoaXN0b3J5IjpbLTg2NzQwODc5NiwxNTQ0ODgyODUyLC00OD
+M0MDEwMjEsMTc2NjkwMjQ4NSwxMDk3NjQ5NDIsLTEwMTE0NDMz
+MzksNTc3NDM4MzgzLDYxMDgxMzQ5MCwtMTc4MTcxMTE2NSw3Nz
+U4Nzg3MjIsLTQ4ODU3MTAwNSw0OTQ1NTI1NSwtMjAzMzg0ODk0
+MSw2Mjc1MzQxNzEsLTIwNTgyMDE3MjksMTU5ODU5MzMwMywxMD
+Y2NDQ5NDA3LC0yNjI0NDUxMywtMjI5ODYwMjAyXX0=
 -->
