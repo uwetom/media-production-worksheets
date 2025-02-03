@@ -164,7 +164,6 @@ public class TrackImage : MonoBehaviour
 
     void OnChanged(ARTrackedImagesChangedEventArgs eventArgs)
     {
-
         AudioSource source = GetComponent<AudioSource>();
 
         // When the camera picks up a new image marker Unity adds a game object to it called newImage, this will stick to maker.
@@ -271,10 +270,11 @@ public class TrackImage : MonoBehaviour
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwODM5MzkzOCwxNTQ0ODgyODUyLC00OD
-M0MDEwMjEsMTc2NjkwMjQ4NSwxMDk3NjQ5NDIsLTEwMTE0NDMz
-MzksNTc3NDM4MzgzLDYxMDgxMzQ5MCwtMTc4MTcxMTE2NSw3Nz
-U4Nzg3MjIsLTQ4ODU3MTAwNSw0OTQ1NTI1NSwtMjAzMzg0ODk0
-MSw2Mjc1MzQxNzEsLTIwNTgyMDE3MjksMTU5ODU5MzMwMywxMD
-Y2NDQ5NDA3LC0yNjI0NDUxMywtMjI5ODYwMjAyXX0=
+eyJoaXN0b3J5IjpbLTIxMjM2MTc1NzIsLTgwODM5MzkzOCwxNT
+Q0ODgyODUyLC00ODM0MDEwMjEsMTc2NjkwMjQ4NSwxMDk3NjQ5
+NDIsLTEwMTE0NDMzMzksNTc3NDM4MzgzLDYxMDgxMzQ5MCwtMT
+c4MTcxMTE2NSw3NzU4Nzg3MjIsLTQ4ODU3MTAwNSw0OTQ1NTI1
+NSwtMjAzMzg0ODk0MSw2Mjc1MzQxNzEsLTIwNTgyMDE3MjksMT
+U5ODU5MzMwMywxMDY2NDQ5NDA3LC0yNjI0NDUxMywtMjI5ODYw
+MjAyXX0=
 -->
