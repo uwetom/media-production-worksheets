@@ -265,10 +265,7 @@ public class TrackImage : MonoBehaviour
 Try to track images around the room
  I have take photos of some objects and posters in 2q25 for you to try
 
-[Add ship package](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/assets/2q25_images.zip)
-
-
-
+[2q25 images](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/assets/2q25_images.zip)
 
 ## Challenge 2
 
@@ -281,7 +278,7 @@ Try to track images around the room
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNzQ1MTc4NCwtMTQwMTY0NjI0NywtMj
+eyJoaXN0b3J5IjpbLTgyMjI2Mzc2OSwtMTQwMTY0NjI0NywtMj
 EyMzYxNzU3MiwtODA4MzkzOTM4LDE1NDQ4ODI4NTIsLTQ4MzQw
 MTAyMSwxNzY2OTAyNDg1LDEwOTc2NDk0MiwtMTAxMTQ0MzMzOS
 w1Nzc0MzgzODMsNjEwODEzNDkwLC0xNzgxNzExMTY1LDc3NTg3
