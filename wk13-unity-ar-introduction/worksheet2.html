@@ -110,28 +110,19 @@ public class TrackImage : MonoBehaviour
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=94c4dac7-3a89-45f1-a3fe-b21f00b95897&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
 <h3 id="add-sound">Add sound</h3>
 <p>Now that we have a simple image marker scene working we can think about taking it further. In the script, after you instantiate the new prefab you can play a sounds, start an animation or a particle effect.</p>
-<p>In the ship folder you can find a sound file</p>
+<p>You can find a sound file in the ship folder.</p>
 <ul>
-<li>
-<p>Add an <strong>audio source</strong> component to the xr origin object</p>
-</li>
-<li>
-<p>Drag the sound file onto it.</p>
-</li>
-<li>
-<p>Turn off <strong>Play on Awake</strong></p>
-</li>
-<li>
-<p>In your script, at the top of the <strong>OnChanged</strong> function add a line  to find the Audio source component:<br>
-<code>AudioSource source = GetComponent&lt;AudioSource&gt;();</code></p>
-</li>
-<li>
-<p>Use it to play your sound when the prefab is instantiated.<br>
-<code>source.Play();</code></p>
-</li>
-<li>
-<p>Test out the scene in your Simulated Environment</p>
-</li>
+<li>Add an <strong>audio source</strong> component to the xr origin object</li>
+<li>Drag the sound file onto it.</li>
+<li>Turn off <strong>Play on Awake</strong></li>
+</ul>
+<p><img src="https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/images/audio_source.jpg" alt="Audio source"></p>
+<ul>
+<li>In your script, at the top of the <strong>OnChanged</strong> function add a line  to find the Audio source component:<br>
+<code>AudioSource source = GetComponent&lt;AudioSource&gt;();</code></li>
+<li>Use it to play your sound when the prefab is instantiated.<br>
+<code>source.Play();</code></li>
+<li>Test out the scene in your Simulated Environment</li>
 </ul>
 <p>Your finished script should look like this</p>
 <pre><code>using System.Collections;
@@ -165,7 +156,6 @@ public class TrackImage : MonoBehaviour
         }
     }
 }
-
 </code></pre>
 <h2 id="more-complex-objects">More complex objects</h2>
 <p>We used a simple prefab of a ship in the last example, but your prefab can be as complex as you need it to be.</p>
@@ -194,10 +184,54 @@ public class TrackImage : MonoBehaviour
 <li>In your script add another public gameObject variable to hold  a different prefab.</li>
 <li>In your script, you can access the name of the  image, use this in an if statement to check if the name matches an image in your library.<br>
 <code>newImage.referenceImage.name</code></li>
-</ul>
-<ol start="4">
 <li>If it matches, instantiate the correct prefab.</li>
-</ol>
+</ul>
+<h4 id="finished-script-1">Finished script</h4>
+<p>Here is my finished script for reference, try to do it yourself first before checking it.</p>
+<pre><code>using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.XR.ARFoundation; // include xr library
+
+public class TrackImage : MonoBehaviour
+{
+    [SerializeField]
+    ARTrackedImageManager m_TrackedImageManager;
+    public GameObject shipPrefab; //Prefab you want to appear on marker image
+    public GameObject shipEnvironmentPrefab; //Prefab you want to appear on marker image
+
+    void Start()
+    {
+        // Disable screen dimming
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
+    }
+
+    void OnEnable() =&gt; m_TrackedImageManager.trackedImagesChanged += OnChanged;
+
+    void OnDisable() =&gt; m_TrackedImageManager.trackedImagesChanged -= OnChanged;
+
+    void OnChanged(ARTrackedImagesChangedEventArgs eventArgs)
+    {
+        AudioSource source = GetComponent&lt;AudioSource&gt;();
+
+        // When the camera picks up a new image marker Unity adds a game object to it called newImage, this will stick to maker.
+        foreach (ARTrackedImage newImage in eventArgs.added)
+        {
+            if(newImage.referenceImage.name == "puddle") {
+                // Create new copy of your prefab
+                GameObject newObject = GameObject.Instantiate(shipPrefab);
+                // parent prefab to the newImage so that they stick together.
+                newObject.transform.SetParent(newImage.transform, false);
+            }else if(newImage.referenceImage.name == "boat")
+            {
+                GameObject newObject = GameObject.Instantiate(shipEnvironmentPrefab);
+                newObject.transform.SetParent(newImage.transform, false);
+            }
+            source.Play();
+        }
+    }
+}
+</code></pre>
 <h2 id="challenge-2">Challenge 2</h2>
 <h3 id="animation">Animation</h3>
 <ul>
