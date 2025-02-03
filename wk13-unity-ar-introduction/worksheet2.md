@@ -5,7 +5,7 @@
 
 This worksheet continues on from the template project you created last week.
 
-If you do not have your project you can clone this template projefrom Github:
+If you do not have your project you can clone this template project from Github:
 
 [https://github.com/uwetom/AR-Template](https://github.com/uwetom/AR-Template)
 
@@ -272,7 +272,7 @@ public class TrackImage : MonoBehaviour
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTg1MjczOTYsLTIxMjM2MTc1NzIsLT
+eyJoaXN0b3J5IjpbLTE0MDE2NDYyNDcsLTIxMjM2MTc1NzIsLT
 gwODM5MzkzOCwxNTQ0ODgyODUyLC00ODM0MDEwMjEsMTc2Njkw
 MjQ4NSwxMDk3NjQ5NDIsLTEwMTE0NDMzMzksNTc3NDM4MzgzLD
 YxMDgxMzQ5MCwtMTc4MTcxMTE2NSw3NzU4Nzg3MjIsLTQ4ODU3
