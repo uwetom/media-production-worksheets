@@ -260,6 +260,15 @@ public class TrackImage : MonoBehaviour
     }
 }
 ```
+## Challenge 3
+
+Try to track images around the room
+ I have take photos of some objects and posters in 2q25 for you to try
+
+[Add ship package](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/assets/2q25_images.zip)
+
+
+
 
 ## Challenge 2
 
@@ -272,11 +281,11 @@ public class TrackImage : MonoBehaviour
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDE2NDYyNDcsLTIxMjM2MTc1NzIsLT
-gwODM5MzkzOCwxNTQ0ODgyODUyLC00ODM0MDEwMjEsMTc2Njkw
-MjQ4NSwxMDk3NjQ5NDIsLTEwMTE0NDMzMzksNTc3NDM4MzgzLD
-YxMDgxMzQ5MCwtMTc4MTcxMTE2NSw3NzU4Nzg3MjIsLTQ4ODU3
-MTAwNSw0OTQ1NTI1NSwtMjAzMzg0ODk0MSw2Mjc1MzQxNzEsLT
-IwNTgyMDE3MjksMTU5ODU5MzMwMywxMDY2NDQ5NDA3LC0yNjI0
-NDUxM119
+eyJoaXN0b3J5IjpbMTMxNzQ1MTc4NCwtMTQwMTY0NjI0NywtMj
+EyMzYxNzU3MiwtODA4MzkzOTM4LDE1NDQ4ODI4NTIsLTQ4MzQw
+MTAyMSwxNzY2OTAyNDg1LDEwOTc2NDk0MiwtMTAxMTQ0MzMzOS
+w1Nzc0MzgzODMsNjEwODEzNDkwLC0xNzgxNzExMTY1LDc3NTg3
+ODcyMiwtNDg4NTcxMDA1LDQ5NDU1MjU1LC0yMDMzODQ4OTQxLD
+YyNzUzNDE3MSwtMjA1ODIwMTcyOSwxNTk4NTkzMzAzLDEwNjY0
+NDk0MDddfQ==
 -->
