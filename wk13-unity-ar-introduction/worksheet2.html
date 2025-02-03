@@ -12,9 +12,10 @@
   <div class="stackedit__html"><p><a href="https://uwetom.github.io/media-production-worksheets">Back</a></p>
 <h2 id="starting-project">Starting Project</h2>
 <p>This worksheet continues on from the template project you created last week.</p>
-<p>If you do not have your project you can clone this one from Github:</p>
+<p>If you do not have your project you can clone this template project from Github:</p>
 <p><a href="https://github.com/uwetom/AR-Template">https://github.com/uwetom/AR-Template</a></p>
 <p>You can open this project through Unity Hub by using <strong>Add &gt; Add Project from Disk</strong></p>
+<p>If you use this you may need to switch your build platform to <strong>Android</strong> in player settings)</p>
 <h3 id="create-new-scene">Create new scene</h3>
 <ul>
 <li>
@@ -142,7 +143,6 @@ public class TrackImage : MonoBehaviour
 
     void OnChanged(ARTrackedImagesChangedEventArgs eventArgs)
     {
-
         AudioSource source = GetComponent&lt;AudioSource&gt;();
 
         // When the camera picks up a new image marker Unity adds a game object to it called newImage, this will stick to maker.
