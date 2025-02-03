@@ -131,11 +131,12 @@ To get around this you can create a virtual environment in Unity.
 
 Now that we have a simple image marker scene working we can think about taking it further. In the script, after you instantiate the new prefab you can play a sounds, start an animation or a particle effect.
 
-In the ship folder you can find a sound file
+You can find a sound file in the ship folder.
 
 - Add an **audio source** component to the xr origin object
 - Drag the sound file onto it.
 - Turn off **Play on Awake**
+
 
 - In your script, at the top of the **OnChanged** function add a line  to find the Audio source component:
 	```AudioSource source = GetComponent<AudioSource>();```
@@ -222,10 +223,10 @@ In the ship folder you can find another image in addition to the puddle image.
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MzQwMTAyMSwxNzY2OTAyNDg1LDEwOT
-c2NDk0MiwtMTAxMTQ0MzMzOSw1Nzc0MzgzODMsNjEwODEzNDkw
-LC0xNzgxNzExMTY1LDc3NTg3ODcyMiwtNDg4NTcxMDA1LDQ5ND
-U1MjU1LC0yMDMzODQ4OTQxLDYyNzUzNDE3MSwtMjA1ODIwMTcy
-OSwxNTk4NTkzMzAzLDEwNjY0NDk0MDcsLTI2MjQ0NTEzLC0yMj
-k4NjAyMDJdfQ==
+eyJoaXN0b3J5IjpbLTE0NDc3MzgxODMsLTQ4MzQwMTAyMSwxNz
+Y2OTAyNDg1LDEwOTc2NDk0MiwtMTAxMTQ0MzMzOSw1Nzc0Mzgz
+ODMsNjEwODEzNDkwLC0xNzgxNzExMTY1LDc3NTg3ODcyMiwtND
+g4NTcxMDA1LDQ5NDU1MjU1LC0yMDMzODQ4OTQxLDYyNzUzNDE3
+MSwtMjA1ODIwMTcyOSwxNTk4NTkzMzAzLDEwNjY0NDk0MDcsLT
+I2MjQ0NTEzLC0yMjk4NjAyMDJdfQ==
 -->
