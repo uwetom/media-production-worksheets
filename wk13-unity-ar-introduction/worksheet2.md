@@ -5,11 +5,13 @@
 
 This worksheet continues on from the template project you created last week.
 
-If you do not have your project you can clone this one from Github:
+If you do not have your project you can clone this template projefrom Github:
 
 [https://github.com/uwetom/AR-Template](https://github.com/uwetom/AR-Template)
 
 You can open this project through Unity Hub by using **Add > Add Project from Disk**
+
+If you use this you may need to switch your build platform to **Android** in player settings)
 
 ### Create new scene
 
@@ -270,11 +272,11 @@ public class TrackImage : MonoBehaviour
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjM2MTc1NzIsLTgwODM5MzkzOCwxNT
-Q0ODgyODUyLC00ODM0MDEwMjEsMTc2NjkwMjQ4NSwxMDk3NjQ5
-NDIsLTEwMTE0NDMzMzksNTc3NDM4MzgzLDYxMDgxMzQ5MCwtMT
-c4MTcxMTE2NSw3NzU4Nzg3MjIsLTQ4ODU3MTAwNSw0OTQ1NTI1
-NSwtMjAzMzg0ODk0MSw2Mjc1MzQxNzEsLTIwNTgyMDE3MjksMT
-U5ODU5MzMwMywxMDY2NDQ5NDA3LC0yNjI0NDUxMywtMjI5ODYw
-MjAyXX0=
+eyJoaXN0b3J5IjpbLTE1MTg1MjczOTYsLTIxMjM2MTc1NzIsLT
+gwODM5MzkzOCwxNTQ0ODgyODUyLC00ODM0MDEwMjEsMTc2Njkw
+MjQ4NSwxMDk3NjQ5NDIsLTEwMTE0NDMzMzksNTc3NDM4MzgzLD
+YxMDgxMzQ5MCwtMTc4MTcxMTE2NSw3NzU4Nzg3MjIsLTQ4ODU3
+MTAwNSw0OTQ1NTI1NSwtMjAzMzg0ODk0MSw2Mjc1MzQxNzEsLT
+IwNTgyMDE3MjksMTU5ODU5MzMwMywxMDY2NDQ5NDA3LC0yNjI0
+NDUxM119
 -->
