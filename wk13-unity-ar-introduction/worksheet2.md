@@ -211,7 +211,8 @@ In the ship folder you can find another image in addition to the puddle image.
 - In your script, you can access the name of the  image, use this in an if statement to check if the name matches an image in your library.
 	```newImage.referenceImage.name```
 - If it matches, instantiate the correct prefab.
-#### finished script
+
+#### Finished script
 ```
 using System.Collections;
 using System.Collections.Generic;
@@ -256,6 +257,7 @@ public class TrackImage : MonoBehaviour
         }
     }
 }
+```
 
 ## Challenge 2
 
@@ -268,10 +270,10 @@ public class TrackImage : MonoBehaviour
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NzQwODc5NiwxNTQ0ODgyODUyLC00OD
-M0MDEwMjEsMTc2NjkwMjQ4NSwxMDk3NjQ5NDIsLTEwMTE0NDMz
-MzksNTc3NDM4MzgzLDYxMDgxMzQ5MCwtMTc4MTcxMTE2NSw3Nz
-U4Nzg3MjIsLTQ4ODU3MTAwNSw0OTQ1NTI1NSwtMjAzMzg0ODk0
-MSw2Mjc1MzQxNzEsLTIwNTgyMDE3MjksMTU5ODU5MzMwMywxMD
-Y2NDQ5NDA3LC0yNjI0NDUxMywtMjI5ODYwMjAyXX0=
+eyJoaXN0b3J5IjpbLTE2MTYxODM2MjIsMTU0NDg4Mjg1MiwtND
+gzNDAxMDIxLDE3NjY5MDI0ODUsMTA5NzY0OTQyLC0xMDExNDQz
+MzM5LDU3NzQzODM4Myw2MTA4MTM0OTAsLTE3ODE3MTExNjUsNz
+c1ODc4NzIyLC00ODg1NzEwMDUsNDk0NTUyNTUsLTIwMzM4NDg5
+NDEsNjI3NTM0MTcxLC0yMDU4MjAxNzI5LDE1OTg1OTMzMDMsMT
+A2NjQ0OTQwNywtMjYyNDQ1MTMsLTIyOTg2MDIwMl19
 -->
