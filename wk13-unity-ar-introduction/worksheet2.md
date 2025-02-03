@@ -210,7 +210,8 @@ In the ship folder you can find another image in addition to the puddle image.
 - In your script add another public gameObject variable to hold  a different prefab.
 - In your script, you can access the name of the  image, use this in an if statement to check if the name matches an image in your library.
 	```newImage.referenceImage.name```
-4. If it matches, instantiate the correct prefab.
+- If it matches, instantiate the correct prefab.
+
 
 ## Challenge 2
 
@@ -223,10 +224,10 @@ In the ship folder you can find another image in addition to the puddle image.
 Ship assets
 [https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODg5NjAwMDMsLTQ4MzQwMTAyMSwxNz
-Y2OTAyNDg1LDEwOTc2NDk0MiwtMTAxMTQ0MzMzOSw1Nzc0Mzgz
-ODMsNjEwODEzNDkwLC0xNzgxNzExMTY1LDc3NTg3ODcyMiwtND
-g4NTcxMDA1LDQ5NDU1MjU1LC0yMDMzODQ4OTQxLDYyNzUzNDE3
-MSwtMjA1ODIwMTcyOSwxNTk4NTkzMzAzLDEwNjY0NDk0MDcsLT
-I2MjQ0NTEzLC0yMjk4NjAyMDJdfQ==
+eyJoaXN0b3J5IjpbMTU0NDg4Mjg1MiwtNDgzNDAxMDIxLDE3Nj
+Y5MDI0ODUsMTA5NzY0OTQyLC0xMDExNDQzMzM5LDU3NzQzODM4
+Myw2MTA4MTM0OTAsLTE3ODE3MTExNjUsNzc1ODc4NzIyLC00OD
+g1NzEwMDUsNDk0NTUyNTUsLTIwMzM4NDg5NDEsNjI3NTM0MTcx
+LC0yMDU4MjAxNzI5LDE1OTg1OTMzMDMsMTA2NjQ0OTQwNywtMj
+YyNDQ1MTMsLTIyOTg2MDIwMl19
 -->
