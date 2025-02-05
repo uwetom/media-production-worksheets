@@ -8,8 +8,6 @@ In this worksheet we will look at adding interactions in our AR project.
 
 This worksheet continues on from last weeks marker tracking project. 
 
-If you have a finished working version of this project open that and skip to **Duplicate Scene** 
-
 If you do not have a completed marker tracking project you can fork and clone my template project from github.
 
 [Github repository](https://github.com/uwetom/Unity-Worksheet-1-finished)
@@ -235,5 +233,5 @@ Now that We have the basic functionality working try to use your Unity skills to
 - Create a second ship with different text.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5OTUyNjE1XX0=
+eyJoaXN0b3J5IjpbLTkzODc0NDY1MCwxNjk5NTI2MTVdfQ==
 -->
