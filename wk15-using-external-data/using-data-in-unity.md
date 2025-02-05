@@ -12,9 +12,10 @@ Eventually we will include this in an AR app, so to get started you should make 
 If you aren't sure how to Fork and Clone a GitHub repository watch this video: (otherwise skip ahead)
 
 
+
 Add a folder in 'Assets' called 'Scripts'.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NjI4NjEwNiwtMTkzNjc2ODc4LC0zMT
-YzMTU4MDEsMTUwMzU3NjMyNiwxNjIxODQyNjY3LC0xNDg1OTQy
-MjE0XX0=
+eyJoaXN0b3J5IjpbMzY0MTI5MjM2LC0xOTM2NzY4NzgsLTMxNj
+MxNTgwMSwxNTAzNTc2MzI2LDE2MjE4NDI2NjcsLTE0ODU5NDIy
+MTRdfQ==
 -->
