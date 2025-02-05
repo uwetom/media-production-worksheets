@@ -6,7 +6,7 @@ In this worksheet we will look at adding interactions in our AR project.
 
 ## Starting project
 
-This worksheet continues on from last weeks marker tracking project. 
+This worksheet continues on from last weeks marker tracking project.  It assumes you have a 
 
 If you do not have a completed marker tracking project you can fork and clone my template project from github.
 
@@ -67,14 +67,14 @@ There are three main **components** we need to add to our scene when using the t
 2. Interactor
 	- This is placed on the camera or controller which will select the interactables.
 3. Interaction manager 
-	- This Contects the interactables to the interactors.
+	- This connects the **Interactables** to the **Interactors**.
 
 ### 1. Interactable
 
 We just want to be able to select our object, so we just need a simple interactable, 
 
 - In the ship folder, double click to open the ship prefab.
-- go into the **Ship-large** object
+- Go into the **Ship-large** object
 - Add an **XR Simple Interactable** component to it.
 
 The object will also need a collider, we don't need it to match the shape of the ship so will just use a box.
@@ -233,5 +233,6 @@ Now that We have the basic functionality working try to use your Unity skills to
 - Create a second ship with different text.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTcwNjIxMzksMTY5OTUyNjE1XX0=
+eyJoaXN0b3J5IjpbLTEzMDA2NDI5MjksLTEzNTcwNjIxMzksMT
+Y5OTUyNjE1XX0=
 -->
