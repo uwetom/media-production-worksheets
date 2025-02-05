@@ -114,7 +114,7 @@ We will make a script with a function that we can call when the object is select
 
 ####  Create a script
 
-Make a new script with a **public** function called "selected" which shows a simple **Debug** message on the console.
+Make a new script called "Interactions"" with a **public** function called "selected" which shows a simple **Debug** message on the console.
 Try to do this yourself before checking the solution bellow.
 
 #### Solution
@@ -228,6 +228,6 @@ Now that We have the basic functionality working try to use your Unity skills to
 - Create a second ship with different text.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTExMDE3OTksLTEzNDkzOTEzMzUsLT
+eyJoaXN0b3J5IjpbLTE1ODExODY3MTcsLTEzNDkzOTEzMzUsLT
 E1MzUzNzUxNDAsLTEzNTcwNjIxMzksMTY5OTUyNjE1XX0=
 -->
