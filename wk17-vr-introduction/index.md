@@ -1,5 +1,6 @@
 [Back](https://uwetom.github.io/media-production-worksheets)
 
+
 # Introduction to VR
 
 In This worksheet I will introduce you to VR in Unity, showing you how to create an XR rig and navigate around a scene.
@@ -17,16 +18,17 @@ These headsets require you to create an account and sign in to use. To save time
 !(How to setup your own headset)[https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset/]
 
 ## Safety
+## Be aware of your environment
 
-When using a VR headset you may not be able to see the world around you, it is therefore very important that you clear the space around you to ensure you don't injure yourself, others or the equipment.
+When using a VR headset you may not be able to see the world around you, it is therefore very important that you clear the space around yousetup your space to ensure you don't injure yourself, others or the equipment.
 
-Please watch the following Meta Video shows you how to safely use the headset.
+Please watch the fFollowing Meta Video shows you how to safely use the headset.
 
 [Safely use the Meta Quest](https://www.youtube.com/watch?v=Ke4MefpmRmc)
 
-The video show the creation of a guardian boundary, which the headset will guide you through when you first put it on. You can make a large boundary allowing you to walk around or a static boundary for seated experiences.
+The video show the creation of a large guardian boundary, which the headset will guide you through when you first put it on. You can make a large boundary allowing you to walk around orbut you are also able to create a staticonary boundary for seated experiences.
 
-## Create a Unity project
+## Create a Unity pProject
 
 First we want to create a new project, we will use the built in VR template: for this.
 
@@ -36,20 +38,22 @@ This will set up our project with all the packages we need and also include some
 
 ## Set up
 
-The template works with many different brands of headset, so we have to tell it which one we are using. We will do this later but a helpful message reminds us.
+The template works with many different brands of headset, so we have to tell it which one we are using. We will do this later but a helpful message reminds us.does not know which headset we are using, so we have to tell it. A helpful message telling us this should pop up
 
 - Close the message.
 
-![Vr proejct popup](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/popup.jpg)
+![Vr proejct popupR core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/popup.jpg)
 
 ### Android
 
 The Meta Quest runs on Android so we need to switch the platform.
 
-- In the top menu, select **File > Build Settings** and change the Platform to **Android** 
+- In the top menu, select **File > Build Settings** and change the Plantform to **Android** 
 - Press **Switch Platform**
 
-![Select Android build](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/switch_platform.jpg)
+![Select Android build
+
+![VR core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/switch_platform.jpg)
 
 ### Device Simulation
 
@@ -220,7 +224,27 @@ When finished put the headset on and try out your scene.
 
 ## Challenge - Build a mini scene
 
-Download these object or find your own and make a simple scene.
+Download these object or find your In the top menu, Select **Window > Package Manager**
+
+- Search for the **Xr Interactions Tookit**
+- Import **XR Device Simulator** in the Samples tab.
+
+![VR core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/device_simulation.jpg)
+
+- Close the **Package Manager**
+
+ We now  need to tell Unity to use the Simulation when playing the scene in Unity.
+
+- Go back into **File > Project Settings** and open **Player Settings...**
+
+![VR core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/player_settings.jpg)
+
+- At the bottom, in **XR Plug-in Management**, in the windows tab, change the plugin to **XR Simulation**
+
+![VR core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/xr_settings.jpg)
+
+- Finally, in the **Project Validation** Section check for any issues issues in the 
+windown and make a simple scene.
 
 [castle pack](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/assets/Castle.unitypackage)
 
@@ -239,5 +263,14 @@ These workshops will get you started, but for your own project you will want to 
 
 [Unity VR Template documentation](https://docs.unity3d.com/Packages/com.unity.template.vr@8.0/manual/index.html)
 
-[Unity Interaction toolkit documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/index.html)
+[Unity Interaction toolkit documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/index.html)Android tabs and press **Fix all**
 
+
+## Open Starter assets scene
+
+
+
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTE1MTc5NTU0XX0=
+-->
