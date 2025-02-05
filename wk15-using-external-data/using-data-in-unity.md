@@ -13,11 +13,11 @@ If you aren't sure how to Fork and Clone a GitHub repository watch this video: (
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=7bf90f82-466e-4255-a7c2-b27b0117b82a&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP fork and clone 5 February 2025 at 16:54:57" ></iframe>
 
-Add a new folder in 'Assets' called 'Scripts'.
+Open the AR-Template project in Unity and add a new folder in 'Assets' called 'Scripts'.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUyMzg5NTM5LC03MzA3ODg2NjUsLTE5Mz
-Y3Njg3OCwtMzE2MzE1ODAxLDE1MDM1NzYzMjYsMTYyMTg0MjY2
-NywtMTQ4NTk0MjIxNF19
+eyJoaXN0b3J5IjpbMTk2MTk3ODUwNiwtNzMwNzg4NjY1LC0xOT
+M2NzY4NzgsLTMxNjMxNTgwMSwxNTAzNTc2MzI2LDE2MjE4NDI2
+NjcsLTE0ODU5NDIyMTRdfQ==
 -->
