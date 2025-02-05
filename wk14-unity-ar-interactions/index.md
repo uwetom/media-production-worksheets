@@ -114,13 +114,9 @@ We will make a script with a function that we can call when the object is select
 
 #### Challenge
 
-Make a new script with a **public** function which shows a simple message on the console when called.
+Make a new script with a **public** function called "selecwhich shows a simple **Debug** message on the console when called.
 
-<details>
-<summary>HINT</summary>
-Debug.Log("my message");
-</details>
-
+#### Solution
 <details>
 <summary>Solution</summary>
 - Create a new script in the script folder by right clicking and selecting **create > c# Script**
@@ -238,6 +234,6 @@ Now that We have the basic functionality working try to use your Unity skills to
 - Create a second ship with different text.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDkzOTEzMzUsLTE1MzUzNzUxNDAsLT
-EzNTcwNjIxMzksMTY5OTUyNjE1XX0=
+eyJoaXN0b3J5IjpbLTE5MTI2NTc2NjksLTEzNDkzOTEzMzUsLT
+E1MzUzNzUxNDAsLTEzNTcwNjIxMzksMTY5OTUyNjE1XX0=
 -->
