@@ -79,7 +79,7 @@ We just want to be able to select our object, so we just need a simple interacta
 
 You should see the blue background to show you are editing a preb.
 
-- In the H **Ship-large** object
+- In the **Hierarchy** find the  **ship-large** object
 - Add an **XR Simple Interactable** component to it.
 
 The object will also need a collider, we don't need it to precisely match the shape of the ship so will just use a box.
@@ -238,6 +238,6 @@ Now that We have the basic functionality working try to use your Unity skills to
 - Create a second ship with different text.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MzEyMjg1MiwtMTUzNTM3NTE0MCwtMT
-M1NzA2MjEzOSwxNjk5NTI2MTVdfQ==
+eyJoaXN0b3J5IjpbLTEzNDkzOTEzMzUsLTE1MzUzNzUxNDAsLT
+EzNTcwNjIxMzksMTY5OTUyNjE1XX0=
 -->
