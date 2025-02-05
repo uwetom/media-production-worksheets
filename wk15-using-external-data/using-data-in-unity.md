@@ -15,11 +15,13 @@ If you aren't sure how to Fork and Clone a GitHub repository watch this video: (
 
 Open the AR-Template project in Unity and add a new folder in 'Assets' called 'Scripts'.
 
-Download the code library for Unity called [SimpleJSON](https://github.com/Bunny83/SimpleJSON) 
+Download the code library for Unity called [SimpleJSON](https://github.com/Bunny83/SimpleJSON) and unzip it.
+
+Add the file called SimpleJSON.cs to your Scripts folder.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkxOTI3NywtNzMwNzg4NjY1LC0xOTM2Nz
-Y4NzgsLTMxNjMxNTgwMSwxNTAzNTc2MzI2LDE2MjE4NDI2Njcs
-LTE0ODU5NDIyMTRdfQ==
+eyJoaXN0b3J5IjpbMjAxNzUyOTQwNCw5OTE5Mjc3LC03MzA3OD
+g2NjUsLTE5MzY3Njg3OCwtMzE2MzE1ODAxLDE1MDM1NzYzMjYs
+MTYyMTg0MjY2NywtMTQ4NTk0MjIxNF19
 -->
