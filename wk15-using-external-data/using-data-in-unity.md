@@ -1,7 +1,7 @@
 [Back](https://uwetom.github.io/media-production-worksheets)
 
 # Using external data in unity 
-In this session we are going to learn how to import external data (in JSON format) in Unity and extract  some data from the imported JSON.  
+In this session we are going to learn how to import live, external data (in JSON format) in Unity and extract  some data from the imported JSON.  
 
 Most of this will involve working with C# scripts and the Unity3D console.
 
@@ -24,7 +24,8 @@ Add the file called SimpleJSON.cs to your Scripts folder. Do not add any of the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTg0MTM5NjIsOTkxOTI3NywtNzMwNz
-g4NjY1LC0xOTM2NzY4NzgsLTMxNjMxNTgwMSwxNTAzNTc2MzI2
-LDE2MjE4NDI2NjcsLTE0ODU5NDIyMTRdfQ==
+eyJoaXN0b3J5IjpbLTE5MDQ4ODk1MTQsLTEyOTg0MTM5NjIsOT
+kxOTI3NywtNzMwNzg4NjY1LC0xOTM2NzY4NzgsLTMxNjMxNTgw
+MSwxNTAzNTc2MzI2LDE2MjE4NDI2NjcsLTE0ODU5NDIyMTRdfQ
+==
 -->
