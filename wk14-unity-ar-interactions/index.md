@@ -8,7 +8,7 @@ In this worksheet we will look at adding interactions in our AR project.
 
 This worksheet continues on from last weeks marker tracking project.  It assumes you have a
 
-If you have a finished working version of this project open that and skip to **Duplicate Scene** 
+If you have a finished working version of this project open that and skip to **Duplicate Scene**  simple marker tracking scene where a ship prefab is placed on a tracker image.
 
 If you do not have a completed marker tracking project you can fork and clone my template project from github.
 
@@ -79,7 +79,7 @@ We just want to be able to select our object, so we just need a simple interacta
 - Ggo into the **Ship-large** object
 - Add an **XR Simple Interactable** component to it.
 
-The object will also need a collider, we don't need it to match the shape of the ship so will just use a box.
+The object will also need a collider, we don't need it to precisely match the shape of the ship so will just use a box.
 
 - Add an a **Box Collider** component 
 
@@ -235,6 +235,6 @@ Now that We have the basic functionality working try to use your Unity skills to
 - Create a second ship with different text.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzUzNzUxNDAsLTEzMDA2NDI5MjksLT
-EzNTcwNjIxMzksMTY5OTUyNjE1XX0=
+eyJoaXN0b3J5IjpbMTIxOTE0MzUxMSwtMTUzNTM3NTE0MCwtMT
+M1NzA2MjEzOSwxNjk5NTI2MTVdfQ==
 -->
