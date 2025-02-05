@@ -162,16 +162,13 @@ We will add some annotations to the ship which appear when its touched.
 
 We now want to alter our interaction script to show and hide the annotation.
 
-Try to do the followin
-
-- Add a new boolean variable to hold the current visibility of the ship, set it to false
-- Add a public GameObject variable to hold the annotation object.
+- Add a new boolean variable to the top of the script to hold the current visibility of the ship set it to false.
+- Add a new public GameObject variable to hold the annotation object.
 - Add an if statement to your selected function to toggle the SetActive() property of your annotation object.
 
 Try to write this yourself before looking at the solution bellow
 
-<details>
-<summary>finished Script</summary>
+Solution
 
 ```
 using System.Collections;
@@ -231,7 +228,7 @@ Now that We have the basic functionality working try to use your Unity skills to
 - Create a second ship with different text.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MjU2OTY1NCwxMjU4MjE4ODA1LC0xMz
-Q5MzkxMzM1LC0xNTM1Mzc1MTQwLC0xMzU3MDYyMTM5LDE2OTk1
-MjYxNV19
+eyJoaXN0b3J5IjpbMTYxMDM5NDAxLC01NjI1Njk2NTQsLTEzND
+kzOTEzMzUsLTE1MzUzNzUxNDAsLTEzNTcwNjIxMzksMTY5OTUy
+NjE1XX0=
 -->
