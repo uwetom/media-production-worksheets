@@ -150,7 +150,7 @@ You can now press play and test your scene in the simulated environment, the shi
 
 ![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/console.jpg?raw=true)
 
-Now that we have a script hooked up to the interaction we fire off any other code we want, we could play a sound, instantiate another object, play an animation, all three or anything else we can think of.
+Now that we have a script hooked up to the interaction we can fire off any other code we want, we could play a sound, instantiate another object, play an animation, all three or anything else we can think of.
 
 ## Annotation
 
@@ -228,6 +228,6 @@ Now that We have the basic functionality working try to use your Unity skills to
 - Create a second ship with different text.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODExODY3MTcsLTEzNDkzOTEzMzUsLT
+eyJoaXN0b3J5IjpbLTIwNjY1MzIxNzMsLTEzNDkzOTEzMzUsLT
 E1MzUzNzUxNDAsLTEzNTcwNjIxMzksMTY5OTUyNjE1XX0=
 -->
