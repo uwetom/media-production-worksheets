@@ -7,9 +7,9 @@ Most of this will involve working with C# scripts and the Unity3D console.
 
 We are also going to use an external library called SimpleJSON to help us.
 
-Eventually we will include this in an AR app, so to get started 
+Eventually we will include this in an AR app, so to get started you should make a new Unity project by forking and cloning Tom's [AR template] 
 Add a folder in 'Assets' called 'Scripts'.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwOTAyNTI1LDE2MjE4NDI2NjcsLTE0OD
+eyJoaXN0b3J5IjpbMjQ5MTc3OTg1LDE2MjE4NDI2NjcsLTE0OD
 U5NDIyMTRdfQ==
 -->
