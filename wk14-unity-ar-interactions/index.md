@@ -199,13 +199,11 @@ public class Interactions : MonoBehaviour
 }
 ```
 
-</details>
-
-In my script I have set the visibility of the annotation to be false at the start, so I want to turn it off in Unity
+In my script I have set the visibility of the annotation to be false at the start, so I want to turn it off in the editor to match.
 
 ![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/turn_off_anotation.jpg?raw=true)
 
-Lastly, I need to drag my annotation object into the new slot I just created on my script.
+Lastly, I need to drag my annotation object into the new public GameObject variable slot I just created on my script.
 
 ![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/drag_anotation.jpg?raw=true)
 
@@ -225,10 +223,10 @@ Now that We have the basic functionality working try to use your Unity skills to
 
 - Animate the ship when selected, you could make the sails or ship rock
 - Make a sound when the ship is selected
-- Create a second ship with different text.
+- Create a second marker and ship with different text.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMDM5NDAxLC01NjI1Njk2NTQsLTEzND
-kzOTEzMzUsLTE1MzUzNzUxNDAsLTEzNTcwNjIxMzksMTY5OTUy
-NjE1XX0=
+eyJoaXN0b3J5IjpbLTc5MjE3NDE0OCwtNTYyNTY5NjU0LC0xMz
+Q5MzkxMzM1LC0xNTM1Mzc1MTQwLC0xMzU3MDYyMTM5LDE2OTk1
+MjYxNV19
 -->
