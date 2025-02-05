@@ -17,11 +17,11 @@ Open the AR-Template project in Unity and add a new folder in 'Assets' called 'S
 
 Download the code library for Unity called [SimpleJSON](https://github.com/Bunny83/SimpleJSON) and unzip it.
 
-Add the file called SimpleJSON.cs to your Scripts folder. Do not ad any of the other files.
+Add the file called SimpleJSON.cs to your Scripts folder. Do not add any of the other files.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3Njg4MjU0MCw5OTE5Mjc3LC03MzA3OD
+eyJoaXN0b3J5IjpbLTk5MzU3NTg2Niw5OTE5Mjc3LC03MzA3OD
 g2NjUsLTE5MzY3Njg3OCwtMzE2MzE1ODAxLDE1MDM1NzYzMjYs
 MTYyMTg0MjY2NywtMTQ4NTk0MjIxNF19
 -->
