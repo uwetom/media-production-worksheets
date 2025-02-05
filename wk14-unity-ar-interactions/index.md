@@ -36,9 +36,9 @@ We want to interact with the objects in our scene by touching the screen.
 
 We could manually setup and program the inputs ourselves but helpfully Unity has made an interaction toolkit package which contains everything we need.
 
-We will be using it for AR, but as the name suggests, the XR toolkit also also works with VR projects and we will use it again later in the course.
+We will be using it for AR, but as the name suggests, the XR toolkit also also works with VR projects and we will use it again later in future week.
 
-- go to **Windows > Package Manager**
+- Go to **Windows > Package Manager**
 - In Unity Registry, search for "XR"
 - Install the **XR Interaction Toolkit**
 
@@ -52,7 +52,7 @@ If in doubt, as always, check the documentation:
 
 [XR Interaction toolkit 2.5](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/index.html)
 
-We will also add the starter assets samples which will give us some assets.
+We will also add the starter assets samples which will give us some useful object.
 
 - In the **XR Interation Toolkit** open the **Samples** tab and import the **Starter Assets**
 
@@ -233,5 +233,5 @@ Now that We have the basic functionality working try to use your Unity skills to
 - Create a second ship with different text.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzODc0NDY1MCwxNjk5NTI2MTVdfQ==
+eyJoaXN0b3J5IjpbLTEzNTcwNjIxMzksMTY5OTUyNjE1XX0=
 -->
