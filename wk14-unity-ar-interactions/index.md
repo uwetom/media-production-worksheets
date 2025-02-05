@@ -114,15 +114,9 @@ We will make a script with a function that we can call when the object is select
 
 #### Challenge
 
-Make a new script with a **public** function called "selecwhich shows a simple **Debug** message on the console when called.
-
+Make a new script with a **public** function called "selected" which shows a simple **Debug** message on the console.
+Try to do this yourself bef
 #### Solution
-<details>
-<summary>Solution</summary>
-- Create a new script in the script folder by right clicking and selecting **create > c# Script**
-- Delete the update and start methods
-- Create a new public function logging out a message
-
 ```
 using System.Collections;
 using System.Collections.Generic;
@@ -142,8 +136,8 @@ public class Interactions : MonoBehaviour
 
 We can now add this script to our Object
 
-- Open your Ship prefab
-- Open the Ship-large object
+- Open your Ship prefab again
+- Open the ship-large object
 - Drag your new script on the object. ( you may need to lock the inspector panel in the top right)
 
 ![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/add_script.jpg?raw=true)
@@ -234,6 +228,6 @@ Now that We have the basic functionality working try to use your Unity skills to
 - Create a second ship with different text.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTI2NTc2NjksLTEzNDkzOTEzMzUsLT
-E1MzUzNzUxNDAsLTEzNTcwNjIxMzksMTY5OTUyNjE1XX0=
+eyJoaXN0b3J5IjpbLTI0NDAwMDAwLC0xMzQ5MzkxMzM1LC0xNT
+M1Mzc1MTQwLC0xMzU3MDYyMTM5LDE2OTk1MjYxNV19
 -->
