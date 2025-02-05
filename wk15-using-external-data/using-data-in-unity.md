@@ -1,7 +1,6 @@
+[Back](https://uwetom.github.io/media-production-worksheets)
 
-
-
-> Written with [StackEdit](https://stackedit.io/).
+# Using external data in unity 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE0ODU5NDIyMTRdfQ==
 -->
