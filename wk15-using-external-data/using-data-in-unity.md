@@ -9,8 +9,12 @@ We are also going to use an external C# code library for Unity called [SimpleJSO
 
 Eventually we will include this in an AR app, so to get started you should make a new Unity project by forking and cloning Tom's [AR template](https://github.com/uwetom/AR-Template) on GitHub.
 
+If you aren't sure how to Fork and Clone a GitHub repository watch this video: (otherwise skip ahead)
+
+
 Add a folder in 'Assets' called 'Scripts'.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzY3Njg3OCwtMzE2MzE1ODAxLDE1MD
-M1NzYzMjYsMTYyMTg0MjY2NywtMTQ4NTk0MjIxNF19
+eyJoaXN0b3J5IjpbLTI5NjI4NjEwNiwtMTkzNjc2ODc4LC0zMT
+YzMTU4MDEsMTUwMzU3NjMyNiwxNjIxODQyNjY3LC0xNDg1OTQy
+MjE0XX0=
 -->
