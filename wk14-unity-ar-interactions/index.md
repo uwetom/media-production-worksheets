@@ -79,7 +79,7 @@ We just want to be able to select our object, so we just need a simple interacta
 
 You should see the blue background to show you are editing a preb.
 
-- In the **Hierarchy** find the  **ship-large** object
+- In the **Hierarchy** find the H **sShip-large** object
 - Add an **XR Simple Interactable** component to it.
 
 The object will also need a collider, we don't need it to precisely match the shape of the ship so will just use a box.
@@ -117,7 +117,8 @@ We will make a script with a function that we can call when the object is select
 Make a new script called "Interactions"" with a **public** function called "selected" which shows a simple **Debug** message on the console.
 Try to do this yourself before checking the solution bellow.
 
-#### Solution
+#### Solution.
+Try tdtisyoursef beoreecing 
 ```
 using System.Collections;
 using System.Collections.Generic;
@@ -137,7 +138,7 @@ public class Interactions : MonoBehaviour
 We can now add this script to our Object
 
 - Open your Ship prefab again
-- Open the ship-large object
+- Open the hip-large object
 - Drag your new script on the object. ( you may need to lock the inspector panel in the top right)
 
 ![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/add_script.jpg?raw=true)
@@ -230,6 +231,7 @@ Now that We have the basic functionality working try to use your Unity skills to
 - Create a second ship with different text.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1ODIxODgwNSwtMTM0OTM5MTMzNSwtMT
-UzNTM3NTE0MCwtMTM1NzA2MjEzOSwxNjk5NTI2MTVdfQ==
+eyJoaXN0b3J5IjpbLTU2MjU2OTY1NCwxMjU4MjE4ODA1LC0xMz
+Q5MzkxMzM1LC0xNTM1Mzc1MTQwLC0xMzU3MDYyMTM5LDE2OTk1
+MjYxNV19
 -->
