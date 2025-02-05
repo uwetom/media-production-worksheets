@@ -112,10 +112,11 @@ We now have everything set up, you can now select the object by clicking on it. 
 
 We will make a script with a function that we can call when the object is selected.
 
-#### Challenge
+####  Create a script
 
 Make a new script with a **public** function called "selected" which shows a simple **Debug** message on the console.
-Try to do this yourself bef
+Try to do this yourself before checking the solution bellow.
+
 #### Solution
 ```
 using System.Collections;
@@ -130,7 +131,6 @@ public class Interactions : MonoBehaviour
    }
 }
 ```
-</details>
 
 ### Add the script to your object	
 
@@ -228,6 +228,6 @@ Now that We have the basic functionality working try to use your Unity skills to
 - Create a second ship with different text.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NDAwMDAwLC0xMzQ5MzkxMzM1LC0xNT
-M1Mzc1MTQwLC0xMzU3MDYyMTM5LDE2OTk1MjYxNV19
+eyJoaXN0b3J5IjpbLTE1NTExMDE3OTksLTEzNDkzOTEzMzUsLT
+E1MzUzNzUxNDAsLTEzNTcwNjIxMzksMTY5OTUyNjE1XX0=
 -->
