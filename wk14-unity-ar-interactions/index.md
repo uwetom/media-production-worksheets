@@ -6,7 +6,9 @@ In this worksheet we will look at adding interactions in our AR project.
 
 ## Starting project
 
-This worksheet continues on from last weeks marker tracking project.  It assumes you have a 
+This worksheet continues on from last weeks marker tracking project.  It assumes you have a
+
+If you have a finished working version of this project open that and skip to **Duplicate Scene** 
 
 If you do not have a completed marker tracking project you can fork and clone my template project from github.
 
@@ -36,9 +38,9 @@ We want to interact with the objects in our scene by touching the screen.
 
 We could manually setup and program the inputs ourselves but helpfully Unity has made an interaction toolkit package which contains everything we need.
 
-We will be using it for AR, but as the name suggests, the XR toolkit also also works with VR projects and we will use it again later in future week.
+We will be using it for AR, but as the name suggests, the XR toolkit also also works with VR projects and we will use it again later in future weekthe course.
 
-- Go to **Windows > Package Manager**
+- Ggo to **Windows > Package Manager**
 - In Unity Registry, search for "XR"
 - Install the **XR Interaction Toolkit**
 
@@ -52,7 +54,7 @@ If in doubt, as always, check the documentation:
 
 [XR Interaction toolkit 2.5](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/index.html)
 
-We will also add the starter assets samples which will give us some useful object.
+We will also add the starter assets samples which will give us some useful objectassets.
 
 - In the **XR Interation Toolkit** open the **Samples** tab and import the **Starter Assets**
 
@@ -67,14 +69,14 @@ There are three main **components** we need to add to our scene when using the t
 2. Interactor
 	- This is placed on the camera or controller which will select the interactables.
 3. Interaction manager 
-	- This connects the **Interactables** to the **Interactors**.
+	- This cConntects the **Iinteractables** to the **Iinteractors**.
 
 ### 1. Interactable
 
 We just want to be able to select our object, so we just need a simple interactable, 
 
 - In the ship folder, double click to open the ship prefab.
-- Go into the **Ship-large** object
+- Ggo into the **Ship-large** object
 - Add an **XR Simple Interactable** component to it.
 
 The object will also need a collider, we don't need it to match the shape of the ship so will just use a box.
@@ -87,11 +89,11 @@ You can now save and go back to the scene
 
 ### 2. Interactor
 
-We want to select our object by touching the screen on our device. o do this we need to setup  things:
+We want to select our object by touching the screen on our device. To do this we need to setup two things:
 
-1. pecify user interactions, this needs to register clicks in the simulated environment and touches on the phone.
-2. ink those interactions to actions in unity.
-3. hen the action is triggered send out a ray from where the user touches and check if it hits an object.
+1. Specify user interactions, this needs to register clicks in the simulated environment and touches on the phone.
+2. Link those interactions to actions in unity.
+3. When the action is triggered send out a ray from where the user touches and check if it hits an object.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=981498de-a32c-4e12-981b-b22901135358&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity ar - interactor" ></iframe>
 	
@@ -233,6 +235,6 @@ Now that We have the basic functionality working try to use your Unity skills to
 - Create a second ship with different text.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDA2NDI5MjksLTEzNTcwNjIxMzksMT
-Y5OTUyNjE1XX0=
+eyJoaXN0b3J5IjpbLTE1MzUzNzUxNDAsLTEzMDA2NDI5MjksLT
+EzNTcwNjIxMzksMTY5OTUyNjE1XX0=
 -->
