@@ -114,11 +114,13 @@ We will make a script with a function that we can call when the object is select
 
 ####  Create a script
 
-Make a new script called "Interactions"" with a **public** function called "selected" which shows a simple **Debug** message on the console.
+- Make a new script called "Interactions"
+- Add a **public** function called "selected" which shows a simple **Debug** message on the console.
+
 Try to do this yourself before checking the solution bellow.
 
-#### Solution.
-Try tdtisyoursef beoreecing 
+#### Solution
+
 ```
 using System.Collections;
 using System.Collections.Generic;
@@ -226,7 +228,7 @@ Now that We have the basic functionality working try to use your Unity skills to
 - Create a second marker and ship with different text.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MjE3NDE0OCwtNTYyNTY5NjU0LC0xMz
-Q5MzkxMzM1LC0xNTM1Mzc1MTQwLC0xMzU3MDYyMTM5LDE2OTk1
-MjYxNV19
+eyJoaXN0b3J5IjpbNjUwNjY3MTMwLC03OTIxNzQxNDgsLTU2Mj
+U2OTY1NCwtMTM0OTM5MTMzNSwtMTUzNTM3NTE0MCwtMTM1NzA2
+MjEzOSwxNjk5NTI2MTVdfQ==
 -->
