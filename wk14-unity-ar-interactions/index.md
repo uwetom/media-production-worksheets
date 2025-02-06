@@ -153,7 +153,7 @@ You can now press play and test your scene in the simulated environment, the shi
 
 ![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/console.jpg?raw=true)
 
-Now that we have a script hooked up to the interaction we can fire off any other code we want, we could play a sound, instantiate another object, play an animation, all three or anything else we can think of.
+Well done, now that we have a script hooked up to the interaction we can fire off any other code we want, we could play a sound, instantiate another object, play an animation, all three or anything else we can think of.
 
 ## Annotation
 
@@ -228,7 +228,7 @@ Now that We have the basic functionality working try to use your Unity skills to
 - Create a second marker and ship with different text.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwNjY3MTMwLC03OTIxNzQxNDgsLTU2Mj
-U2OTY1NCwtMTM0OTM5MTMzNSwtMTUzNTM3NTE0MCwtMTM1NzA2
-MjEzOSwxNjk5NTI2MTVdfQ==
+eyJoaXN0b3J5IjpbLTExNzMzNjMzMzIsLTc5MjE3NDE0OCwtNT
+YyNTY5NjU0LC0xMzQ5MzkxMzM1LC0xNTM1Mzc1MTQwLC0xMzU3
+MDYyMTM5LDE2OTk1MjYxNV19
 -->
