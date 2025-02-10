@@ -104,7 +104,8 @@ We want to select our object by touching the screen on our device. To do this we
 
 We can now add our manager
 
-- In the scene hierachy, **right click** and select **XR > XR Interaction Manager**
+- In the scene hierarchy, **right click** and select **XR >  Interaction Manager**
+- This will appear in the hierarchy as an XR Interaction Manager.
 
 ![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/interaction_manger.jpg?raw=true)
 
@@ -228,7 +229,7 @@ Now that We have the basic functionality working try to use your Unity skills to
 - Create a second marker and ship with different text.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzMzNjMzMzIsLTc5MjE3NDE0OCwtNT
-YyNTY5NjU0LC0xMzQ5MzkxMzM1LC0xNTM1Mzc1MTQwLC0xMzU3
-MDYyMTM5LDE2OTk1MjYxNV19
+eyJoaXN0b3J5IjpbNzA2ODQ0MTExLC0xMTczMzYzMzMyLC03OT
+IxNzQxNDgsLTU2MjU2OTY1NCwtMTM0OTM5MTMzNSwtMTUzNTM3
+NTE0MCwtMTM1NzA2MjEzOSwxNjk5NTI2MTVdfQ==
 -->
