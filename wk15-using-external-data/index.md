@@ -49,7 +49,7 @@ If you have successfully installed the Chrome or Firefox extension you should se
   ![JSON data](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/joke-api-1.png)
 
 ## Code Challenge - get some data
-Now you have a go using weather forecast data using open meteo. Look at the documentation and try and work out what request you need to make in order to return some weather data for today about our current location…
+Now you have a go using weather data using open meteo. Look at the documentation and try and work out what request you need to make in order to return some weather data for our current location…
 [https://open-meteo.com/](https://open-meteo.com/)
 (Hint: use maps to get our Latitude and Longitude position)
 
@@ -61,7 +61,7 @@ The returned data should look like:
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1Njg5MjQ1MSwxNDkzNTEwMjc2LC0xNz
+eyJoaXN0b3J5IjpbMTk0ODg5MjQyOCwxNDkzNTEwMjc2LC0xNz
 YwNjI0MzY4LDE2MjE3NTk3NjcsLTEwNDAxNTMxMjMsMTM4NDg1
 ODE3OCwxMzM2MTI4MjA4LC02Njk4MzkzMTAsLTY5MjYwODAxNi
 w5MDkxNjgzODEsOTMxMjMxNDY0XX0=
