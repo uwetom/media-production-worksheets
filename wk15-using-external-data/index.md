@@ -59,13 +59,16 @@ The returned data should look like:
 
 [Need the solution?](https://uwetom.github.io/media-production-worksheets/api-solutions.html)
 
+## API Keys
 For many data repositories it is quite common to need to make an account and log in. You are then given a key (an API Key) which you ad to the url with the request.
 
-This example of data about Near Earth Objects (asteroids that will pass close to earth) needs a log in
+This example of data about Near Earth Objects (asteroids that will pass close to earth) https://api.nasa.gov/ needs a log in and API Key.
+
+
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQ5MTUyNzcsMTQ5MzUxMDI3NiwtMT
+eyJoaXN0b3J5IjpbLTEwMzE3MzkyNjgsMTQ5MzUxMDI3NiwtMT
 c2MDYyNDM2OCwxNjIxNzU5NzY3LC0xMDQwMTUzMTIzLDEzODQ4
 NTgxNzgsMTMzNjEyODIwOCwtNjY5ODM5MzEwLC02OTI2MDgwMT
 YsOTA5MTY4MzgxLDkzMTIzMTQ2NF19
