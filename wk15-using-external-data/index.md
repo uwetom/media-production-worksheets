@@ -85,7 +85,7 @@ It is also common for the data to be nested like this:
 	}
 }
 ```
-
+To access the data you 'parse' the JSON file and turn into in a
 
 ## Data repositories / libraries
 You can find a list of unsecured data with API access here
@@ -104,9 +104,9 @@ This example of data about Near Earth Objects (asteroids that will pass close to
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc1NjAzNzY4LC0zNTgzMDY0LDI4NzAyMz
-c4MiwtMTQyMzI0MjYwMywxNDkzNTEwMjc2LC0xNzYwNjI0MzY4
-LDE2MjE3NTk3NjcsLTEwNDAxNTMxMjMsMTM4NDg1ODE3OCwxMz
-M2MTI4MjA4LC02Njk4MzkzMTAsLTY5MjYwODAxNiw5MDkxNjgz
-ODEsOTMxMjMxNDY0XX0=
+eyJoaXN0b3J5IjpbLTQ4NzI1MzY3OSwtMzU4MzA2NCwyODcwMj
+M3ODIsLTE0MjMyNDI2MDMsMTQ5MzUxMDI3NiwtMTc2MDYyNDM2
+OCwxNjIxNzU5NzY3LC0xMDQwMTUzMTIzLDEzODQ4NTgxNzgsMT
+MzNjEyODIwOCwtNjY5ODM5MzEwLC02OTI2MDgwMTYsOTA5MTY4
+MzgxLDkzMTIzMTQ2NF19
 -->
