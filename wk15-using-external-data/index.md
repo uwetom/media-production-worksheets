@@ -61,10 +61,12 @@ The returned data should look like:
 
 For many data repositories it is quite common to need to make an account and log in. Then pass the pass the log in details with the request.
 
+This example of data about Near Earth Objects (asteroids that will pass close to earth) needs a log in
+
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzU3OTc4NDQsMTQ5MzUxMDI3NiwtMT
-c2MDYyNDM2OCwxNjIxNzU5NzY3LC0xMDQwMTUzMTIzLDEzODQ4
-NTgxNzgsMTMzNjEyODIwOCwtNjY5ODM5MzEwLC02OTI2MDgwMT
-YsOTA5MTY4MzgxLDkzMTIzMTQ2NF19
+eyJoaXN0b3J5IjpbLTcyOTg2OTEzMSwxNDkzNTEwMjc2LC0xNz
+YwNjI0MzY4LDE2MjE3NTk3NjcsLTEwNDAxNTMxMjMsMTM4NDg1
+ODE3OCwxMzM2MTI4MjA4LC02Njk4MzkzMTAsLTY5MjYwODAxNi
+w5MDkxNjgzODEsOTMxMjMxNDY0XX0=
 -->
