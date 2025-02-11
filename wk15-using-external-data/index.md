@@ -120,7 +120,7 @@ For many data repositories it is quite common to need to make an account and log
 This Nasa data repository about Near Earth Objects (NEO / asteroids that will pass close to earth) https://api.nasa.gov/ needs a log in and API Key. 
 
 Scroll down on the link above to find the documentation about Asteroids-NeoWs (Near Earth Object Web Service).
-
+![JSON file](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-1.png)
 The format for the HTTP web request to retrieve all Near Earth Objects is:
 
 [`https://api.nasa.gov/neo/rest/v1/neo/browse?api_key=DEMO_KEY`](https://api.nasa.gov/neo/rest/v1/neo/browse?api_key=DEMO_KEY)
@@ -133,10 +133,10 @@ Open Chrome browser and run the link.
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTQ4NDM4MDQsNTA2MjU3NzQwLC0xNT
-MxOTM5MDIwLC01NTU0MDEzODEsMTAxNDk4NTM4NiwtMTg1NTM2
-MTIwOCwtMzU4MzA2NCwyODcwMjM3ODIsLTE0MjMyNDI2MDMsMT
-Q5MzUxMDI3NiwtMTc2MDYyNDM2OCwxNjIxNzU5NzY3LC0xMDQw
-MTUzMTIzLDEzODQ4NTgxNzgsMTMzNjEyODIwOCwtNjY5ODM5Mz
-EwLC02OTI2MDgwMTYsOTA5MTY4MzgxLDkzMTIzMTQ2NF19
+eyJoaXN0b3J5IjpbNTY5MDQ0ODc3LDUwNjI1Nzc0MCwtMTUzMT
+kzOTAyMCwtNTU1NDAxMzgxLDEwMTQ5ODUzODYsLTE4NTUzNjEy
+MDgsLTM1ODMwNjQsMjg3MDIzNzgyLC0xNDIzMjQyNjAzLDE0OT
+M1MTAyNzYsLTE3NjA2MjQzNjgsMTYyMTc1OTc2NywtMTA0MDE1
+MzEyMywxMzg0ODU4MTc4LDEzMzYxMjgyMDgsLTY2OTgzOTMxMC
+wtNjkyNjA4MDE2LDkwOTE2ODM4MSw5MzEyMzE0NjRdfQ==
 -->
