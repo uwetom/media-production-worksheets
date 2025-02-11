@@ -58,7 +58,7 @@ The returned meteo JSON data should look like:
 
 ## How JSON works
 JSON files are structured using a ```key : value``` system. 
-```key : value``` pairs are separated by commas.
+
 A simple example JSON file might look like this:
 ```Javascript
 { "latitude": 52.52, "longtitude": 13.419, "location": "Bristol"}
@@ -122,7 +122,7 @@ This example of data about Near Earth Objects (asteroids that will pass close to
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMjg2MTg2OCwtNTU1NDAxMzgxLDEwMT
+eyJoaXN0b3J5IjpbLTQzODY2MTAwNywtNTU1NDAxMzgxLDEwMT
 Q5ODUzODYsLTE4NTUzNjEyMDgsLTM1ODMwNjQsMjg3MDIzNzgy
 LC0xNDIzMjQyNjAzLDE0OTM1MTAyNzYsLTE3NjA2MjQzNjgsMT
 YyMTc1OTc2NywtMTA0MDE1MzEyMywxMzg0ODU4MTc4LDEzMzYx
