@@ -39,7 +39,7 @@ Let's start getting some data with a joke API to begin with. This API returns a 
 
 Put this URl in your browser
 [https://v2.jokeapi.dev/joke/Any?safe-mode](https://v2.jokeapi.dev/joke/Any?safe-mode)
-If you have successfully installed the Chrome or Firefox extension you should see the following.
+If you have successfully installed the Chrome or Firefox extension you should see a joke similar to the following.
 
   ![JSON data](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/joke-api-2.png)
 
@@ -118,9 +118,9 @@ This example of data about Near Earth Objects (asteroids that will pass close to
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTI5MTM5NTAsLTE4NTUzNjEyMDgsLT
-M1ODMwNjQsMjg3MDIzNzgyLC0xNDIzMjQyNjAzLDE0OTM1MTAy
-NzYsLTE3NjA2MjQzNjgsMTYyMTc1OTc2NywtMTA0MDE1MzEyMy
-wxMzg0ODU4MTc4LDEzMzYxMjgyMDgsLTY2OTgzOTMxMCwtNjky
-NjA4MDE2LDkwOTE2ODM4MSw5MzEyMzE0NjRdfQ==
+eyJoaXN0b3J5IjpbLTUyMTg2OCwtMTg1NTM2MTIwOCwtMzU4Mz
+A2NCwyODcwMjM3ODIsLTE0MjMyNDI2MDMsMTQ5MzUxMDI3Niwt
+MTc2MDYyNDM2OCwxNjIxNzU5NzY3LC0xMDQwMTUzMTIzLDEzOD
+Q4NTgxNzgsMTMzNjEyODIwOCwtNjY5ODM5MzEwLC02OTI2MDgw
+MTYsOTA5MTY4MzgxLDkzMTIzMTQ2NF19
 -->
