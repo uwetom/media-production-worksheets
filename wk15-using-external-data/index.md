@@ -35,7 +35,7 @@ https://addons.mozilla.org/en-GB/firefox/addon/basic-json-formatter/
 Use Safari or Edge? We feel for you…
 
 ## Getting some data
-Let's start getting some data with a joke API to begin with. This API returns a random / different joke on every request.
+Let's start getting some data with a joke API to begin with. This API returns a random / different joke on every request. (The jokes aren't very good).
 
 Put this URl in your browser
 [https://v2.jokeapi.dev/joke/Any?safe-mode](https://v2.jokeapi.dev/joke/Any?safe-mode)
@@ -120,10 +120,10 @@ This example of data about Near Earth Objects (asteroids that will pass close to
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NTQwMTM4MSwxMDE0OTg1Mzg2LC0xOD
-U1MzYxMjA4LC0zNTgzMDY0LDI4NzAyMzc4MiwtMTQyMzI0MjYw
-MywxNDkzNTEwMjc2LC0xNzYwNjI0MzY4LDE2MjE3NTk3NjcsLT
-EwNDAxNTMxMjMsMTM4NDg1ODE3OCwxMzM2MTI4MjA4LC02Njk4
-MzkzMTAsLTY5MjYwODAxNiw5MDkxNjgzODEsOTMxMjMxNDY0XX
-0=
+eyJoaXN0b3J5IjpbLTYwMTgyOTksLTU1NTQwMTM4MSwxMDE0OT
+g1Mzg2LC0xODU1MzYxMjA4LC0zNTgzMDY0LDI4NzAyMzc4Miwt
+MTQyMzI0MjYwMywxNDkzNTEwMjc2LC0xNzYwNjI0MzY4LDE2Mj
+E3NTk3NjcsLTEwNDAxNTMxMjMsMTM4NDg1ODE3OCwxMzM2MTI4
+MjA4LC02Njk4MzkzMTAsLTY5MjYwODAxNiw5MDkxNjgzODEsOT
+MxMjMxNDY0XX0=
 -->
