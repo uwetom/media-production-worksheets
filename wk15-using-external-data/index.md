@@ -131,15 +131,14 @@ Open Chrome browser and run the link. You should see a list of  ```near_earth_ob
 
 ![JSON file](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-3.png)
 
-
-
+How many are ```"is_potentially_hazardous_asteroid": true,```
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUzOTI2MzIwLDE5NDk5Mjg1MjYsNTA2Mj
-U3NzQwLC0xNTMxOTM5MDIwLC01NTU0MDEzODEsMTAxNDk4NTM4
-NiwtMTg1NTM2MTIwOCwtMzU4MzA2NCwyODcwMjM3ODIsLTE0Mj
-MyNDI2MDMsMTQ5MzUxMDI3NiwtMTc2MDYyNDM2OCwxNjIxNzU5
-NzY3LC0xMDQwMTUzMTIzLDEzODQ4NTgxNzgsMTMzNjEyODIwOC
-wtNjY5ODM5MzEwLC02OTI2MDgwMTYsOTA5MTY4MzgxLDkzMTIz
-MTQ2NF19
+eyJoaXN0b3J5IjpbODczMTc1NDY5LDc1MzkyNjMyMCwxOTQ5OT
+I4NTI2LDUwNjI1Nzc0MCwtMTUzMTkzOTAyMCwtNTU1NDAxMzgx
+LDEwMTQ5ODUzODYsLTE4NTUzNjEyMDgsLTM1ODMwNjQsMjg3MD
+IzNzgyLC0xNDIzMjQyNjAzLDE0OTM1MTAyNzYsLTE3NjA2MjQz
+NjgsMTYyMTc1OTc2NywtMTA0MDE1MzEyMywxMzg0ODU4MTc4LD
+EzMzYxMjgyMDgsLTY2OTgzOTMxMCwtNjkyNjA4MDE2LDkwOTE2
+ODM4MV19
 -->
