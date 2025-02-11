@@ -44,8 +44,10 @@ If you have successfully installed the Chrome or Firefox extension you should se
   ![JSON data](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/joke-api-2.png)
 
 ### Code challenge - get some data
-Now you have a go using weather data using open meteo. Look at the documentation and try and work out what HTTP browser request you need to make in order to return some live weather data for our current location…
+Now you have a go using weather data using open meteo. 
 [https://open-meteo.com/](https://open-meteo.com/)
+Look at the documentation and try and work out what HTTP browser request you need to make in order to return some live weather data for our current location…
+
 (Hint: use maps to get our Latitude and Longitude position)
 
 The returned meteo JSON data should look like:
@@ -118,9 +120,9 @@ This example of data about Near Earth Objects (asteroids that will pass close to
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTg2OCwtMTg1NTM2MTIwOCwtMzU4Mz
-A2NCwyODcwMjM3ODIsLTE0MjMyNDI2MDMsMTQ5MzUxMDI3Niwt
-MTc2MDYyNDM2OCwxNjIxNzU5NzY3LC0xMDQwMTUzMTIzLDEzOD
-Q4NTgxNzgsMTMzNjEyODIwOCwtNjY5ODM5MzEwLC02OTI2MDgw
-MTYsOTA5MTY4MzgxLDkzMTIzMTQ2NF19
+eyJoaXN0b3J5IjpbMTAxNDk4NTM4NiwtMTg1NTM2MTIwOCwtMz
+U4MzA2NCwyODcwMjM3ODIsLTE0MjMyNDI2MDMsMTQ5MzUxMDI3
+NiwtMTc2MDYyNDM2OCwxNjIxNzU5NzY3LC0xMDQwMTUzMTIzLD
+EzODQ4NTgxNzgsMTMzNjEyODIwOCwtNjY5ODM5MzEwLC02OTI2
+MDgwMTYsOTA5MTY4MzgxLDkzMTIzMTQ2NF19
 -->
