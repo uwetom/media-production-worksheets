@@ -19,6 +19,7 @@ This often involves making a HTTP request and the data is returned from that req
 
 This process is known as an application programming interface or API.
 
+
 Let's have a look at how it works and access some data from our web browser and then we can try and work out how to do this in unity.
 
 You can find a list of unsecured data with API access here
@@ -60,7 +61,7 @@ The returned data should look like:
 [Need the solution?](https://uwetom.github.io/media-production-worksheets/api-solutions.html)
 
 ## API Keys
-For many data repositories it is quite common to need to make an account and log in. You are then given a key (an API Key) which you ad to the url with the request.
+For many data repositories it is quite common to need to make an account and log in. You are then given a passkey (an API Key) which you ad to the url with the request.
 
 This example of data about Near Earth Objects (asteroids that will pass close to earth) https://api.nasa.gov/ needs a log in and API Key.
 
@@ -68,8 +69,8 @@ This example of data about Near Earth Objects (asteroids that will pass close to
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzE3MzkyNjgsMTQ5MzUxMDI3NiwtMT
-c2MDYyNDM2OCwxNjIxNzU5NzY3LC0xMDQwMTUzMTIzLDEzODQ4
-NTgxNzgsMTMzNjEyODIwOCwtNjY5ODM5MzEwLC02OTI2MDgwMT
-YsOTA5MTY4MzgxLDkzMTIzMTQ2NF19
+eyJoaXN0b3J5IjpbNTA0MzU0NDI3LDE0OTM1MTAyNzYsLTE3Nj
+A2MjQzNjgsMTYyMTc1OTc2NywtMTA0MDE1MzEyMywxMzg0ODU4
+MTc4LDEzMzYxMjgyMDgsLTY2OTgzOTMxMCwtNjkyNjA4MDE2LD
+kwOTE2ODM4MSw5MzEyMzE0NjRdfQ==
 -->
