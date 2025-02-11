@@ -90,7 +90,11 @@ To access the data in most programming languages you 'parse' the JSON file and t
 MyJsonFile["latitude"]; // returns 52.52
 MyJsonFile["longtitude"]; // returns 13.419
 ```
-Access nested data like t
+Access nested data like this:
+```Javascript
+MyJsonFile["location"]["city"]; // returns "Bristol"
+MyJsonFile["location"]["street"]; // returns "Coldharbour Lane"
+```
 
 ## Data repositories / libraries
 You can find a list of unsecured data with API access here
@@ -109,9 +113,9 @@ This example of data about Near Earth Objects (asteroids that will pass close to
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ2NjY3NDg2LC0zNTgzMDY0LDI4NzAyMz
-c4MiwtMTQyMzI0MjYwMywxNDkzNTEwMjc2LC0xNzYwNjI0MzY4
-LDE2MjE3NTk3NjcsLTEwNDAxNTMxMjMsMTM4NDg1ODE3OCwxMz
-M2MTI4MjA4LC02Njk4MzkzMTAsLTY5MjYwODAxNiw5MDkxNjgz
-ODEsOTMxMjMxNDY0XX0=
+eyJoaXN0b3J5IjpbLTUzMjQ3NDkyMywtMzU4MzA2NCwyODcwMj
+M3ODIsLTE0MjMyNDI2MDMsMTQ5MzUxMDI3NiwtMTc2MDYyNDM2
+OCwxNjIxNzU5NzY3LC0xMDQwMTUzMTIzLDEzODQ4NTgxNzgsMT
+MzNjEyODIwOCwtNjY5ODM5MzEwLC02OTI2MDgwMTYsOTA5MTY4
+MzgxLDkzMTIzMTQ2NF19
 -->
