@@ -42,6 +42,17 @@ If you have successfully installed the Chrome or Firefox extension you should se
 
   ![JSON data](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/joke-api-2.png)
 
+## Code Challenge - get some data
+Now you have a go using weather data using open meteo. Look at the documentation and try and work out what request you need to make in order to return some liveweather data for our current location…
+[https://open-meteo.com/](https://open-meteo.com/)
+(Hint: use maps to get our Latitude and Longitude position)
+
+The returned data should look like:
+
+![enter image description here](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/meteo-api-2.png)
+
+[Need the solution?](https://uwetom.github.io/media-production-worksheets/api-solutions.html)
+
 ## How JSON works
 
 
@@ -52,16 +63,7 @@ You can find a list of unsecured data with API access here
 
 [https://free-apis.github.io/#/browse](https://free-apis.github.io/#/browse)
 
-## Code Challenge - get some data
-Now you have a go using weather data using open meteo. Look at the documentation and try and work out what request you need to make in order to return some weather data for our current location…
-[https://open-meteo.com/](https://open-meteo.com/)
-(Hint: use maps to get our Latitude and Longitude position)
 
-The returned data should look like:
-
-![enter image description here](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/meteo-api-2.png)
-
-[Need the solution?](https://uwetom.github.io/media-production-worksheets/api-solutions.html)
 
 ## API Keys
 For many data repositories it is quite common to need to make an account and log in. You are then given a passkey (an API Key) which you ad to the url with the request.
@@ -72,8 +74,9 @@ This example of data about Near Earth Objects (asteroids that will pass close to
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg3MDIzNzgyLC0xNDIzMjQyNjAzLDE0OT
-M1MTAyNzYsLTE3NjA2MjQzNjgsMTYyMTc1OTc2NywtMTA0MDE1
-MzEyMywxMzg0ODU4MTc4LDEzMzYxMjgyMDgsLTY2OTgzOTMxMC
-wtNjkyNjA4MDE2LDkwOTE2ODM4MSw5MzEyMzE0NjRdfQ==
+eyJoaXN0b3J5IjpbMjA3OTYyMDczMiwyODcwMjM3ODIsLTE0Mj
+MyNDI2MDMsMTQ5MzUxMDI3NiwtMTc2MDYyNDM2OCwxNjIxNzU5
+NzY3LC0xMDQwMTUzMTIzLDEzODQ4NTgxNzgsMTMzNjEyODIwOC
+wtNjY5ODM5MzEwLC02OTI2MDgwMTYsOTA5MTY4MzgxLDkzMTIz
+MTQ2NF19
 -->
