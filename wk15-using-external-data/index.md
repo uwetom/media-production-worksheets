@@ -78,7 +78,7 @@ Often JSON is written with line breaks so the same JSON file could be written li
 	"location": "Bristol"
 }
 ```
-It is also common for the data to be nested like this:
+It is also common for data to be nested like this:
 ```Javascript
 { 
 	"latitude": 52.52, 
@@ -120,9 +120,10 @@ This example of data about Near Earth Objects (asteroids that will pass close to
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNDk4NTM4NiwtMTg1NTM2MTIwOCwtMz
-U4MzA2NCwyODcwMjM3ODIsLTE0MjMyNDI2MDMsMTQ5MzUxMDI3
-NiwtMTc2MDYyNDM2OCwxNjIxNzU5NzY3LC0xMDQwMTUzMTIzLD
-EzODQ4NTgxNzgsMTMzNjEyODIwOCwtNjY5ODM5MzEwLC02OTI2
-MDgwMTYsOTA5MTY4MzgxLDkzMTIzMTQ2NF19
+eyJoaXN0b3J5IjpbLTU1NTQwMTM4MSwxMDE0OTg1Mzg2LC0xOD
+U1MzYxMjA4LC0zNTgzMDY0LDI4NzAyMzc4MiwtMTQyMzI0MjYw
+MywxNDkzNTEwMjc2LC0xNzYwNjI0MzY4LDE2MjE3NTk3NjcsLT
+EwNDAxNTMxMjMsMTM4NDg1ODE3OCwxMzM2MTI4MjA4LC02Njk4
+MzkzMTAsLTY5MjYwODAxNiw5MDkxNjgzODEsOTMxMjMxNDY0XX
+0=
 -->
