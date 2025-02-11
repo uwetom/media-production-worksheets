@@ -10,7 +10,7 @@ For example it's quite possible to completely change your unity scene based on s
 In this session we're going to look at how to access external data from unity, where you might find it, and then how you might deploy it and use it in unity.
 
 ## Rest APIs
-Most external data is held in databases and can be accessed via a simple web link using ```https://...`` through designated entry points. Sometimes you will need an account and passkey to access data other times the data will be open and unsecured.
+Most external data is held in databases and can be accessed via a simple web link using ```https://...`` these custom links are called designated entry points. Sometimes you will need an account and passkey to access data other times the data will be open and unsecured.
 
 Usually documentation that accompanies the database and repository of data will explain how you can access it.
 
@@ -116,7 +116,7 @@ This example of data about Near Earth Objects (asteroids that will pass close to
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NzQ1NzI5LC0xODU1MzYxMjA4LC0zNT
+eyJoaXN0b3J5IjpbMjc4ODA1Njk0LC0xODU1MzYxMjA4LC0zNT
 gzMDY0LDI4NzAyMzc4MiwtMTQyMzI0MjYwMywxNDkzNTEwMjc2
 LC0xNzYwNjI0MzY4LDE2MjE3NTk3NjcsLTEwNDAxNTMxMjMsMT
 M4NDg1ODE3OCwxMzM2MTI4MjA4LC02Njk4MzkzMTAsLTY5MjYw
