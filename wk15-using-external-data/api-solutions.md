@@ -10,7 +10,12 @@ Scroll down to find the API request URL: It begins with https://api.open-meteo.c
 The returned data should look like:
 
 ![enter image description here](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/meteo-api-2.png)
+
+Configure and grab the full url:
+
+![enter image description here](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/meteo-api-3.png)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzOTcyMDEyMSwyNzgxMDYxMDQsMTAzMT
-M1NTY3NywtMTE5NjAwOTQ2NF19
+eyJoaXN0b3J5IjpbLTE0OTgwMTQ3MjIsMTIzOTcyMDEyMSwyNz
+gxMDYxMDQsMTAzMTM1NTY3NywtMTE5NjAwOTQ2NF19
 -->
