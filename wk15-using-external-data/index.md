@@ -42,6 +42,9 @@ If you have successfully installed the Chrome or Firefox extension you should se
 
   ![JSON data](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/joke-api-2.png)
 
+## How JSON works
+
+
 ## Data repositories / libraries
 You can find a list of unsecured data with API access here
 
@@ -69,7 +72,7 @@ This example of data about Near Earth Objects (asteroids that will pass close to
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMxMjUzMzk4LC0xNDIzMjQyNjAzLDE0OT
+eyJoaXN0b3J5IjpbMjg3MDIzNzgyLC0xNDIzMjQyNjAzLDE0OT
 M1MTAyNzYsLTE3NjA2MjQzNjgsMTYyMTc1OTc2NywtMTA0MDE1
 MzEyMywxMzg0ODU4MTc4LDEzMzYxMjgyMDgsLTY2OTgzOTMxMC
 wtNjkyNjA4MDE2LDkwOTE2ODM4MSw5MzEyMzE0NjRdfQ==
