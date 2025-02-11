@@ -41,7 +41,7 @@ If you have successfully installed the Chrome or Firefox extension you should se
 
   ![JSON data](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/joke-api-2.png)
 
-### Code Challenge - get some data
+### Code challenge - get some data
 Now you have a go using weather data using open meteo. Look at the documentation and try and work out what request you need to make in order to return some live weather data for our current location…
 [https://open-meteo.com/](https://open-meteo.com/)
 (Hint: use maps to get our Latitude and Longitude position)
@@ -96,7 +96,7 @@ Access nested data like this:
 MyJsonFile["location"]["city"]; // returns "Bristol"
 MyJsonFile["location"]["street"]; // returns "Coldharbour Lane"
 ```
-### Code Challenge - get some data
+### Code challenge - get some data
 Using the meteo JSON example above what would write to access the the current temperature and rain?
 
 ## Data repositories / libraries
@@ -116,7 +116,7 @@ This example of data about Near Earth Objects (asteroids that will pass close to
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NTQ5MjM5MCwtMzU4MzA2NCwyODcwMj
+eyJoaXN0b3J5IjpbLTMzMjk2OTgxOCwtMzU4MzA2NCwyODcwMj
 M3ODIsLTE0MjMyNDI2MDMsMTQ5MzUxMDI3NiwtMTc2MDYyNDM2
 OCwxNjIxNzU5NzY3LC0xMDQwMTUzMTIzLDEzODQ4NTgxNzgsMT
 MzNjEyODIwOCwtNjY5ODM5MzEwLC02OTI2MDgwMTYsOTA5MTY4
