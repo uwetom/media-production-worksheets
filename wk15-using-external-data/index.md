@@ -55,10 +55,13 @@ The returned data should look like:
 
 ## How JSON works
 JSON files are structured using a key:value system. 
-A simple JSON file looks like:
+A simple JSON file might look like this:
 ```Javascript
-{ "latitude": 52.52, "longtitude": 13.419
+{ "latitude": 52.52, "longtitude": 13.419, "location": "Bristol"}
 ```
+Here ```"latitude"``` and ```"location": "Bristol"}
+```
+
 
 ## Data repositories / libraries
 You can find a list of unsecured data with API access here
@@ -77,9 +80,9 @@ This example of data about Near Earth Objects (asteroids that will pass close to
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MzY5NDA2NywtMzU4MzA2NCwyODcwMj
-M3ODIsLTE0MjMyNDI2MDMsMTQ5MzUxMDI3NiwtMTc2MDYyNDM2
-OCwxNjIxNzU5NzY3LC0xMDQwMTUzMTIzLDEzODQ4NTgxNzgsMT
-MzNjEyODIwOCwtNjY5ODM5MzEwLC02OTI2MDgwMTYsOTA5MTY4
-MzgxLDkzMTIzMTQ2NF19
+eyJoaXN0b3J5IjpbLTIxMjY5MTkwOTIsLTM1ODMwNjQsMjg3MD
+IzNzgyLC0xNDIzMjQyNjAzLDE0OTM1MTAyNzYsLTE3NjA2MjQz
+NjgsMTYyMTc1OTc2NywtMTA0MDE1MzEyMywxMzg0ODU4MTc4LD
+EzMzYxMjgyMDgsLTY2OTgzOTMxMCwtNjkyNjA4MDE2LDkwOTE2
+ODM4MSw5MzEyMzE0NjRdfQ==
 -->
