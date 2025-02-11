@@ -66,7 +66,7 @@ The format is
 ```Javascript 
 { "key": "value"}
 ```
-Often JSON is written with line breaks:
+Often JSON is written with line breaks so the same JSON file could be written like this:
 ```Javascript
 { 
 	"latitude": 52.52, 
@@ -93,9 +93,9 @@ This example of data about Near Earth Objects (asteroids that will pass close to
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NTI3OTAzMiwtMzU4MzA2NCwyODcwMj
-M3ODIsLTE0MjMyNDI2MDMsMTQ5MzUxMDI3NiwtMTc2MDYyNDM2
-OCwxNjIxNzU5NzY3LC0xMDQwMTUzMTIzLDEzODQ4NTgxNzgsMT
-MzNjEyODIwOCwtNjY5ODM5MzEwLC02OTI2MDgwMTYsOTA5MTY4
-MzgxLDkzMTIzMTQ2NF19
+eyJoaXN0b3J5IjpbMzk1MDY3MDIzLC0zNTgzMDY0LDI4NzAyMz
+c4MiwtMTQyMzI0MjYwMywxNDkzNTEwMjc2LC0xNzYwNjI0MzY4
+LDE2MjE3NTk3NjcsLTEwNDAxNTMxMjMsMTM4NDg1ODE3OCwxMz
+M2MTI4MjA4LC02Njk4MzkzMTAsLTY5MjYwODAxNiw5MDkxNjgz
+ODEsOTMxMjMxNDY0XX0=
 -->
