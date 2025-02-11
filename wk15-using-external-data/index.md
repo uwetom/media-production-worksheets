@@ -10,7 +10,6 @@ For example it's quite possible to completely change your unity scene based on s
 In this session we're going to look at how to access external data from unity, where you might find it, and then how you might deploy it and use it in unity.
 
 ## Rest APIs
-
 Most external data is held in databases and can be accessed through designated entry points. Sometimes you will need an account and passkey to access data other times the data will be open and unsecured.
 
 Usually documentation that accompanies the database and repository of data will explain how you can access it.
@@ -74,6 +73,14 @@ Often JSON is written with line breaks so the same JSON file could be written li
 	"location": "Bristol"
 }
 ```
+It is also common for the data to be nested like this:
+```Javascript
+{ 
+	"latitude": 52.52, 
+	"longtitude": 13.419, 
+	"location": "Bristol"
+}
+```
 
 
 ## Data repositories / libraries
@@ -93,7 +100,7 @@ This example of data about Near Earth Objects (asteroids that will pass close to
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDI1ODc4OTksLTM1ODMwNjQsMjg3MD
+eyJoaXN0b3J5IjpbLTE1NjM5NzA2ODgsLTM1ODMwNjQsMjg3MD
 IzNzgyLC0xNDIzMjQyNjAzLDE0OTM1MTAyNzYsLTE3NjA2MjQz
 NjgsMTYyMTc1OTc2NywtMTA0MDE1MzEyMywxMzg0ODU4MTc4LD
 EzMzYxMjgyMDgsLTY2OTgzOTMxMCwtNjkyNjA4MDE2LDkwOTE2
