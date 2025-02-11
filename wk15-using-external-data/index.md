@@ -7,7 +7,8 @@ Or if you want to use unity to visualise some sort of data.
 
 For example it's quite possible to completely change your unity scene based on say environmental or climate data.
 
-In this session we're going to look at how to access external data from unity, where you might find it, and then how you might deploy it and use it in unity.
+In this session we're going to look at how to access external data from unity, where you might find it, and then how you might deploy it and use it in unity.  
+
 
 ## Rest APIs
 Most external data is held in databases and can be accessed via a simple web link (HTTP request) using ```https://...``` these custom links are called 'designated entry points'. 
@@ -137,11 +138,11 @@ How many are
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg3MDI5MzAzLDE2ODQ4MTg1NjksNzUzOT
-I2MzIwLDE5NDk5Mjg1MjYsNTA2MjU3NzQwLC0xNTMxOTM5MDIw
-LC01NTU0MDEzODEsMTAxNDk4NTM4NiwtMTg1NTM2MTIwOCwtMz
-U4MzA2NCwyODcwMjM3ODIsLTE0MjMyNDI2MDMsMTQ5MzUxMDI3
-NiwtMTc2MDYyNDM2OCwxNjIxNzU5NzY3LC0xMDQwMTUzMTIzLD
-EzODQ4NTgxNzgsMTMzNjEyODIwOCwtNjY5ODM5MzEwLC02OTI2
-MDgwMTZdfQ==
+eyJoaXN0b3J5IjpbMTI1MDg4MDIyOSwxNjg0ODE4NTY5LDc1Mz
+kyNjMyMCwxOTQ5OTI4NTI2LDUwNjI1Nzc0MCwtMTUzMTkzOTAy
+MCwtNTU1NDAxMzgxLDEwMTQ5ODUzODYsLTE4NTUzNjEyMDgsLT
+M1ODMwNjQsMjg3MDIzNzgyLC0xNDIzMjQyNjAzLDE0OTM1MTAy
+NzYsLTE3NjA2MjQzNjgsMTYyMTc1OTc2NywtMTA0MDE1MzEyMy
+wxMzg0ODU4MTc4LDEzMzYxMjgyMDgsLTY2OTgzOTMxMCwtNjky
+NjA4MDE2XX0=
 -->
