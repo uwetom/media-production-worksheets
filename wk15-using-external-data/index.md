@@ -127,17 +127,19 @@ The format for the HTTP web request to retrieve all Near Earth Objects is:
 
 Go to https://api.nasa.gov/ Make a free account and replace ```DEMO_KEY``` with your api key. 
 
-Open Chrome browser and run the link. You should see a list of 
+Open Chrome browser and run the link. You should see a list of  ```near_earth_objects```:
+
+![JSON file](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-3.png)
 
 
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MzI0Nzk3MSwxOTQ5OTI4NTI2LDUwNj
-I1Nzc0MCwtMTUzMTkzOTAyMCwtNTU1NDAxMzgxLDEwMTQ5ODUz
-ODYsLTE4NTUzNjEyMDgsLTM1ODMwNjQsMjg3MDIzNzgyLC0xND
-IzMjQyNjAzLDE0OTM1MTAyNzYsLTE3NjA2MjQzNjgsMTYyMTc1
-OTc2NywtMTA0MDE1MzEyMywxMzg0ODU4MTc4LDEzMzYxMjgyMD
-gsLTY2OTgzOTMxMCwtNjkyNjA4MDE2LDkwOTE2ODM4MSw5MzEy
-MzE0NjRdfQ==
+eyJoaXN0b3J5IjpbNzUzOTI2MzIwLDE5NDk5Mjg1MjYsNTA2Mj
+U3NzQwLC0xNTMxOTM5MDIwLC01NTU0MDEzODEsMTAxNDk4NTM4
+NiwtMTg1NTM2MTIwOCwtMzU4MzA2NCwyODcwMjM3ODIsLTE0Mj
+MyNDI2MDMsMTQ5MzUxMDI3NiwtMTc2MDYyNDM2OCwxNjIxNzU5
+NzY3LC0xMDQwMTUzMTIzLDEzODQ4NTgxNzgsMTMzNjEyODIwOC
+wtNjY5ODM5MzEwLC02OTI2MDgwMTYsOTA5MTY4MzgxLDkzMTIz
+MTQ2NF19
 -->
