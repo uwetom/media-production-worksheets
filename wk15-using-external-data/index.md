@@ -42,7 +42,7 @@ If you have successfully installed the Chrome or Firefox extension you should se
   ![JSON data](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/joke-api-2.png)
 
 ### Code challenge - get some data
-Now you have a go using weather data using open meteo. Look at the documentation and try and work out what https browser request you need to make in order to return some live weather data for our current location…
+Now you have a go using weather data using open meteo. Look at the documentation and try and work out what HTTP browser request you need to make in order to return some live weather data for our current location…
 [https://open-meteo.com/](https://open-meteo.com/)
 (Hint: use maps to get our Latitude and Longitude position)
 
@@ -97,7 +97,7 @@ MyJsonFile["location"]["city"]; // returns "Bristol"
 MyJsonFile["location"]["street"]; // returns "Coldharbour Lane"
 ```
 ### Code challenge - get some data
-Using the meteo JSON example above what would write to access the the current temperature and rain?
+Using the meteo JSON example above what would you write to access the the current temperature and rain?
 
 ## Data repositories / libraries
 You can find a list of unsecured data with API access here
@@ -108,7 +108,7 @@ You can find a list of unsecured data with API access here
 
 
 ## API Keys
-For many data repositories it is quite common to need to make an account and log in. You are then given a passkey (an API Key) which you add to the http url with the request.
+For many data repositories it is quite common to need to make an account and log in. You are then given a passkey (an API Key) which you add to the HTTP url with the request.
 
 This example of data about Near Earth Objects (asteroids that will pass close to earth) https://api.nasa.gov/ needs a log in and API Key.
 
@@ -116,9 +116,9 @@ This example of data about Near Earth Objects (asteroids that will pass close to
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzI2MzYzMzcsLTM1ODMwNjQsMjg3MD
-IzNzgyLC0xNDIzMjQyNjAzLDE0OTM1MTAyNzYsLTE3NjA2MjQz
-NjgsMTYyMTc1OTc2NywtMTA0MDE1MzEyMywxMzg0ODU4MTc4LD
-EzMzYxMjgyMDgsLTY2OTgzOTMxMCwtNjkyNjA4MDE2LDkwOTE2
-ODM4MSw5MzEyMzE0NjRdfQ==
+eyJoaXN0b3J5IjpbMTg4Nzg5NDE1MSwtMzU4MzA2NCwyODcwMj
+M3ODIsLTE0MjMyNDI2MDMsMTQ5MzUxMDI3NiwtMTc2MDYyNDM2
+OCwxNjIxNzU5NzY3LC0xMDQwMTUzMTIzLDEzODQ4NTgxNzgsMT
+MzNjEyODIwOCwtNjY5ODM5MzEwLC02OTI2MDgwMTYsOTA5MTY4
+MzgxLDkzMTIzMTQ2NF19
 -->
