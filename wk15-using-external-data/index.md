@@ -59,10 +59,12 @@ The returned data should look like:
 
 [Need the solution?](https://uwetom.github.io/media-production-worksheets/api-solutions.html)
 
+It is quite common to need to make an account and 
+
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0ODg5MjQyOCwxNDkzNTEwMjc2LC0xNz
-YwNjI0MzY4LDE2MjE3NTk3NjcsLTEwNDAxNTMxMjMsMTM4NDg1
-ODE3OCwxMzM2MTI4MjA4LC02Njk4MzkzMTAsLTY5MjYwODAxNi
-w5MDkxNjgzODEsOTMxMjMxNDY0XX0=
+eyJoaXN0b3J5IjpbLTIwNDg5MzY2MTksMTQ5MzUxMDI3NiwtMT
+c2MDYyNDM2OCwxNjIxNzU5NzY3LC0xMDQwMTUzMTIzLDEzODQ4
+NTgxNzgsMTMzNjEyODIwOCwtNjY5ODM5MzEwLC02OTI2MDgwMT
+YsOTA5MTY4MzgxLDkzMTIzMTQ2NF19
 -->
