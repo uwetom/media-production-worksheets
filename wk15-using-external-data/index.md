@@ -55,14 +55,14 @@ Now you have a go using weather forecast data using open meteo. Look at the docu
 
 The returned data should look like:
 
-![enter image description here](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/meteo-api-1.png)
+![enter image description here](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/meteo-api-2.png)
 
 [Need the solution?](https://uwetom.github.io/media-production-worksheets/api-solutions.html)
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MzUxMDI3NiwtMTc2MDYyNDM2OCwxNj
-IxNzU5NzY3LC0xMDQwMTUzMTIzLDEzODQ4NTgxNzgsMTMzNjEy
-ODIwOCwtNjY5ODM5MzEwLC02OTI2MDgwMTYsOTA5MTY4MzgxLD
-kzMTIzMTQ2NF19
+eyJoaXN0b3J5IjpbMTI1Njg5MjQ1MSwxNDkzNTEwMjc2LC0xNz
+YwNjI0MzY4LDE2MjE3NTk3NjcsLTEwNDAxNTMxMjMsMTM4NDg1
+ODE3OCwxMzM2MTI4MjA4LC02Njk4MzkzMTAsLTY5MjYwODAxNi
+w5MDkxNjgzODEsOTMxMjMxNDY0XX0=
 -->
