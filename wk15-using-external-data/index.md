@@ -54,7 +54,9 @@ The returned data should look like:
 [Need the solution?](https://uwetom.github.io/media-production-worksheets/api-solutions.html)
 
 ## How JSON works
-
+JSON files are structured using a key:value system. 
+A simple JSON file looks like:
+```
 
 ## Data repositories / libraries
 You can find a list of unsecured data with API access here
@@ -73,9 +75,9 @@ This example of data about Near Earth Objects (asteroids that will pass close to
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1ODMwNjQsMjg3MDIzNzgyLC0xNDIzMj
-QyNjAzLDE0OTM1MTAyNzYsLTE3NjA2MjQzNjgsMTYyMTc1OTc2
-NywtMTA0MDE1MzEyMywxMzg0ODU4MTc4LDEzMzYxMjgyMDgsLT
-Y2OTgzOTMxMCwtNjkyNjA4MDE2LDkwOTE2ODM4MSw5MzEyMzE0
-NjRdfQ==
+eyJoaXN0b3J5IjpbODI3MzUwMTE4LC0zNTgzMDY0LDI4NzAyMz
+c4MiwtMTQyMzI0MjYwMywxNDkzNTEwMjc2LC0xNzYwNjI0MzY4
+LDE2MjE3NTk3NjcsLTEwNDAxNTMxMjMsMTM4NDg1ODE3OCwxMz
+M2MTI4MjA4LC02Njk4MzkzMTAsLTY5MjYwODAxNiw5MDkxNjgz
+ODEsOTMxMjMxNDY0XX0=
 -->
