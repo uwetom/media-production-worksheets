@@ -77,9 +77,9 @@ We just want to be able to select our object, so we just need a simple interacta
 
 - In the ship folder, double click to open the ship prefab.
 
-You should see the blue background to show you are editing a preb.
+You should see the blue background to show you are editing a prefab.
 
-- In the **Hierarchy** find the H **sShip-large** object
+- In the **Hierarchy** find the  **Ship-large** object
 - Add an **XR Simple Interactable** component to it.
 
 The object will also need a collider, we don't need it to precisely match the shape of the ship so will just use a box.
@@ -141,7 +141,7 @@ public class Interactions : MonoBehaviour
 We can now add this script to our Object
 
 - Open your Ship prefab again
-- Open the hip-large object
+- Open the Ship-large object
 - Drag your new script on the object. ( you may need to lock the inspector panel in the top right)
 
 ![toolkit samples](https://github.com/uwetom/media-production-worksheets/blob/master/wk14-unity-ar-interactions/images/add_script.jpg?raw=true)
@@ -229,7 +229,8 @@ Now that We have the basic functionality working try to use your Unity skills to
 - Create a second marker and ship with different text.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA2ODQ0MTExLC0xMTczMzYzMzMyLC03OT
-IxNzQxNDgsLTU2MjU2OTY1NCwtMTM0OTM5MTMzNSwtMTUzNTM3
-NTE0MCwtMTM1NzA2MjEzOSwxNjk5NTI2MTVdfQ==
+eyJoaXN0b3J5IjpbLTExNDMxOTkzMCw3MDY4NDQxMTEsLTExNz
+MzNjMzMzIsLTc5MjE3NDE0OCwtNTYyNTY5NjU0LC0xMzQ5Mzkx
+MzM1LC0xNTM1Mzc1MTQwLC0xMzU3MDYyMTM5LDE2OTk1MjYxNV
+19
 -->
