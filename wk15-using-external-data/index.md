@@ -62,7 +62,8 @@ A simple JSON file might look like this:
 Here ```"latitude"``` and ```"longtitude"``` and ```"location"``` are the keys
 While ```52.52``` ```13.419``` ``"Bristol"`` are the values.
 
-The format is ```Javascript { "key": "value"}```
+The format is ```Javascript 
+{ "key": "value"}```
 ```
 { "latitude": 52.52, "longtitude": 13.419, "location": "Bristol"}
 ```
@@ -86,9 +87,9 @@ This example of data about Near Earth Objects (asteroids that will pass close to
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjAwNDE5NCwtMzU4MzA2NCwyODcwMj
-M3ODIsLTE0MjMyNDI2MDMsMTQ5MzUxMDI3NiwtMTc2MDYyNDM2
-OCwxNjIxNzU5NzY3LC0xMDQwMTUzMTIzLDEzODQ4NTgxNzgsMT
-MzNjEyODIwOCwtNjY5ODM5MzEwLC02OTI2MDgwMTYsOTA5MTY4
-MzgxLDkzMTIzMTQ2NF19
+eyJoaXN0b3J5IjpbNjQxOTExOTUyLC0zNTgzMDY0LDI4NzAyMz
+c4MiwtMTQyMzI0MjYwMywxNDkzNTEwMjc2LC0xNzYwNjI0MzY4
+LDE2MjE3NTk3NjcsLTEwNDAxNTMxMjMsMTM4NDg1ODE3OCwxMz
+M2MTI4MjA4LC02Njk4MzkzMTAsLTY5MjYwODAxNiw5MDkxNjgz
+ODEsOTMxMjMxNDY0XX0=
 -->
