@@ -52,7 +52,7 @@ Look at the documentation and try and work out what HTTP browser request you nee
 
 The returned meteo JSON data should look like:
 
-![enter image description here](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/meteo-api-2.png)
+![JSON file](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/meteo-api-2.png)
 
 [Need the solution?](https://uwetom.github.io/media-production-worksheets/api-solutions.html)
 
@@ -133,10 +133,10 @@ Open Chrome browser and run the link.
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE4MDM4NjY5LDUwNjI1Nzc0MCwtMTUzMT
-kzOTAyMCwtNTU1NDAxMzgxLDEwMTQ5ODUzODYsLTE4NTUzNjEy
-MDgsLTM1ODMwNjQsMjg3MDIzNzgyLC0xNDIzMjQyNjAzLDE0OT
-M1MTAyNzYsLTE3NjA2MjQzNjgsMTYyMTc1OTc2NywtMTA0MDE1
-MzEyMywxMzg0ODU4MTc4LDEzMzYxMjgyMDgsLTY2OTgzOTMxMC
-wtNjkyNjA4MDE2LDkwOTE2ODM4MSw5MzEyMzE0NjRdfQ==
+eyJoaXN0b3J5IjpbLTEwNTQ4NDM4MDQsNTA2MjU3NzQwLC0xNT
+MxOTM5MDIwLC01NTU0MDEzODEsMTAxNDk4NTM4NiwtMTg1NTM2
+MTIwOCwtMzU4MzA2NCwyODcwMjM3ODIsLTE0MjMyNDI2MDMsMT
+Q5MzUxMDI3NiwtMTc2MDYyNDM2OCwxNjIxNzU5NzY3LC0xMDQw
+MTUzMTIzLDEzODQ4NTgxNzgsMTMzNjEyODIwOCwtNjY5ODM5Mz
+EwLC02OTI2MDgwMTYsOTA5MTY4MzgxLDkzMTIzMTQ2NF19
 -->
