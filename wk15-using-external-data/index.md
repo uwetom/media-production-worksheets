@@ -108,7 +108,7 @@ You can find a list of unsecured data with API access here
 
 
 ## API Keys
-For many data repositories it is quite common to need to make an account and log in. You are then given a passkey (an API Key) which you ad to the url with the request.
+For many data repositories it is quite common to need to make an account and log in. You are then given a passkey (an API Key) which you add to the http url with the request.
 
 This example of data about Near Earth Objects (asteroids that will pass close to earth) https://api.nasa.gov/ needs a log in and API Key.
 
@@ -116,7 +116,7 @@ This example of data about Near Earth Objects (asteroids that will pass close to
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzI2MzU4NzcsLTM1ODMwNjQsMjg3MD
+eyJoaXN0b3J5IjpbLTExMzI2MzYzMzcsLTM1ODMwNjQsMjg3MD
 IzNzgyLC0xNDIzMjQyNjAzLDE0OTM1MTAyNzYsLTE3NjA2MjQz
 NjgsMTYyMTc1OTc2NywtMTA0MDE1MzEyMywxMzg0ODU4MTc4LD
 EzMzYxMjgyMDgsLTY2OTgzOTMxMCwtNjkyNjA4MDE2LDkwOTE2
