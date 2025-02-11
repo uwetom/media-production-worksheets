@@ -19,14 +19,7 @@ This often involves making a HTTP request and the data is returned from that req
 
 This process is known as an application programming interface or API.
 
-
 Let's have a look at how it works and access some data from our web browser and then we can try and work out how to do this in unity.
-
-You can find a list of unsecured data with API access here
-
-[https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/](https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/)
-
-[https://free-apis.github.io/#/browse](https://free-apis.github.io/#/browse)
 
 ## Install a JSON formatter browser extension / addon Chrome browser extension
 So that we can easily read the returned data Install one of these browser extensions.
@@ -49,6 +42,13 @@ If you have successfully installed the Chrome or Firefox extension you should se
 
   ![JSON data](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/joke-api-1.png)
 
+## Data repositories / libraries
+You can find a list of unsecured data with API access here
+
+[https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/](https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/)
+
+[https://free-apis.github.io/#/browse](https://free-apis.github.io/#/browse)
+
 ## Code Challenge - get some data
 Now you have a go using weather data using open meteo. Look at the documentation and try and work out what request you need to make in order to return some weather data for our current location…
 [https://open-meteo.com/](https://open-meteo.com/)
@@ -69,8 +69,8 @@ This example of data about Near Earth Objects (asteroids that will pass close to
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA0MzU0NDI3LDE0OTM1MTAyNzYsLTE3Nj
-A2MjQzNjgsMTYyMTc1OTc2NywtMTA0MDE1MzEyMywxMzg0ODU4
-MTc4LDEzMzYxMjgyMDgsLTY2OTgzOTMxMCwtNjkyNjA4MDE2LD
-kwOTE2ODM4MSw5MzEyMzE0NjRdfQ==
+eyJoaXN0b3J5IjpbLTE0MjMyNDI2MDMsMTQ5MzUxMDI3NiwtMT
+c2MDYyNDM2OCwxNjIxNzU5NzY3LC0xMDQwMTUzMTIzLDEzODQ4
+NTgxNzgsMTMzNjEyODIwOCwtNjY5ODM5MzEwLC02OTI2MDgwMT
+YsOTA5MTY4MzgxLDkzMTIzMTQ2NF19
 -->
