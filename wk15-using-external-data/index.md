@@ -79,8 +79,8 @@ It is also common for the data to be nested like this:
 	"latitude": 52.52, 
 	"longtitude": 13.419, 
 	"location": {
-		"City": "Bristol",
-		
+		"city": "Bristol",
+		"street" : "Coldharbour Lane"
 	}
 }
 ```
@@ -103,9 +103,9 @@ This example of data about Near Earth Objects (asteroids that will pass close to
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxODQyOSwtMzU4MzA2NCwyODcwMjM3OD
-IsLTE0MjMyNDI2MDMsMTQ5MzUxMDI3NiwtMTc2MDYyNDM2OCwx
-NjIxNzU5NzY3LC0xMDQwMTUzMTIzLDEzODQ4NTgxNzgsMTMzNj
-EyODIwOCwtNjY5ODM5MzEwLC02OTI2MDgwMTYsOTA5MTY4Mzgx
-LDkzMTIzMTQ2NF19
+eyJoaXN0b3J5IjpbLTExMjIzMTQ4MTMsLTM1ODMwNjQsMjg3MD
+IzNzgyLC0xNDIzMjQyNjAzLDE0OTM1MTAyNzYsLTE3NjA2MjQz
+NjgsMTYyMTc1OTc2NywtMTA0MDE1MzEyMywxMzg0ODU4MTc4LD
+EzMzYxMjgyMDgsLTY2OTgzOTMxMCwtNjkyNjA4MDE2LDkwOTE2
+ODM4MSw5MzEyMzE0NjRdfQ==
 -->
