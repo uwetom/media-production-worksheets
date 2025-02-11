@@ -97,7 +97,7 @@ MyJsonFile["location"]["city"]; // returns "Bristol"
 MyJsonFile["location"]["street"]; // returns "Coldharbour Lane"
 ```
 ### Code Challenge - get some data
-Using the meteo example above what would write to access the the current tempertaure 
+Using the meteo JSON example above what would write to access the the current temperature and rain?
 
 ## Data repositories / libraries
 You can find a list of unsecured data with API access here
@@ -116,9 +116,9 @@ This example of data about Near Earth Objects (asteroids that will pass close to
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDUzMDYxODQsLTM1ODMwNjQsMjg3MD
-IzNzgyLC0xNDIzMjQyNjAzLDE0OTM1MTAyNzYsLTE3NjA2MjQz
-NjgsMTYyMTc1OTc2NywtMTA0MDE1MzEyMywxMzg0ODU4MTc4LD
-EzMzYxMjgyMDgsLTY2OTgzOTMxMCwtNjkyNjA4MDE2LDkwOTE2
-ODM4MSw5MzEyMzE0NjRdfQ==
+eyJoaXN0b3J5IjpbMTI0NTQ5MjM5MCwtMzU4MzA2NCwyODcwMj
+M3ODIsLTE0MjMyNDI2MDMsMTQ5MzUxMDI3NiwtMTc2MDYyNDM2
+OCwxNjIxNzU5NzY3LC0xMDQwMTUzMTIzLDEzODQ4NTgxNzgsMT
+MzNjEyODIwOCwtNjY5ODM5MzEwLC02OTI2MDgwMTYsOTA5MTY4
+MzgxLDkzMTIzMTQ2NF19
 -->
