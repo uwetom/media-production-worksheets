@@ -59,12 +59,12 @@ The returned data should look like:
 
 [Need the solution?](https://uwetom.github.io/media-production-worksheets/api-solutions.html)
 
-For many data repositories it is quite common to need to make an account and log in. Then pass the pass the user name 
+For many data repositories it is quite common to need to make an account and log in. Then pass the pass the log in details with the request.
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MjYwNTcxOSwxNDkzNTEwMjc2LC0xNz
-YwNjI0MzY4LDE2MjE3NTk3NjcsLTEwNDAxNTMxMjMsMTM4NDg1
-ODE3OCwxMzM2MTI4MjA4LC02Njk4MzkzMTAsLTY5MjYwODAxNi
-w5MDkxNjgzODEsOTMxMjMxNDY0XX0=
+eyJoaXN0b3J5IjpbLTIwMzU3OTc4NDQsMTQ5MzUxMDI3NiwtMT
+c2MDYyNDM2OCwxNjIxNzU5NzY3LC0xMDQwMTUzMTIzLDEzODQ4
+NTgxNzgsMTMzNjEyODIwOCwtNjY5ODM5MzEwLC02OTI2MDgwMT
+YsOTA5MTY4MzgxLDkzMTIzMTQ2NF19
 -->
