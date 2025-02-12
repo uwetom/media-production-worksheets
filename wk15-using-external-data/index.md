@@ -1,6 +1,7 @@
 [Back](https://uwetom.github.io/media-production-worksheets)
 
-# Accessing external data 
+# Introduction to using external data (what are APIs)
+## Accessing external data 
 Using external data can be a powerful addition to your unity 3D environment, particularly if you want to simulate a physical environment in real time.
 
 Or if you want to use unity to visualise some sort of data.
@@ -138,11 +139,11 @@ How many are
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjgxMjE0MjgsMTI1MDg4MDIyOSwxNj
-g0ODE4NTY5LDc1MzkyNjMyMCwxOTQ5OTI4NTI2LDUwNjI1Nzc0
-MCwtMTUzMTkzOTAyMCwtNTU1NDAxMzgxLDEwMTQ5ODUzODYsLT
-E4NTUzNjEyMDgsLTM1ODMwNjQsMjg3MDIzNzgyLC0xNDIzMjQy
-NjAzLDE0OTM1MTAyNzYsLTE3NjA2MjQzNjgsMTYyMTc1OTc2Ny
-wtMTA0MDE1MzEyMywxMzg0ODU4MTc4LDEzMzYxMjgyMDgsLTY2
-OTgzOTMxMF19
+eyJoaXN0b3J5IjpbMTU3NTE1MjMwNiwtMTMyODEyMTQyOCwxMj
+UwODgwMjI5LDE2ODQ4MTg1NjksNzUzOTI2MzIwLDE5NDk5Mjg1
+MjYsNTA2MjU3NzQwLC0xNTMxOTM5MDIwLC01NTU0MDEzODEsMT
+AxNDk4NTM4NiwtMTg1NTM2MTIwOCwtMzU4MzA2NCwyODcwMjM3
+ODIsLTE0MjMyNDI2MDMsMTQ5MzUxMDI3NiwtMTc2MDYyNDM2OC
+wxNjIxNzU5NzY3LC0xMDQwMTUzMTIzLDEzODQ4NTgxNzgsMTMz
+NjEyODIwOF19
 -->
