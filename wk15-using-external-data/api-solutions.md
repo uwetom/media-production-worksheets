@@ -2,7 +2,7 @@
 
 # Using external data in unity solutions
 
-The following link should link to the settings to get a link / URL to the weather for today at Q Block
+The following link should take you to a web page where you can configure options to get a URL for the current weather data for today at Q Block
 [https://open-meteo.com/en/docs#current=temperature_2m,is_day,precipitation,rain,cloud_cover&hourly=wind_speed_10m&timezone=Europe%2FLondon&forecast_days=1](https://open-meteo.com/en/docs#current=temperature_2m,is_day,precipitation,rain,cloud_cover&hourly=wind_speed_10m&timezone=Europe%2FLondon&forecast_days=1)
 
 Scroll down to find the API request URL: It begins with https://api.open-meteo.com...
@@ -19,7 +19,7 @@ The returned data should look like:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1ODMzMzA3MSwtNzMxOTQ4MTI1LC0xND
-k4MDE0NzIyLDEyMzk3MjAxMjEsMjc4MTA2MTA0LDEwMzEzNTU2
-NzcsLTExOTYwMDk0NjRdfQ==
+eyJoaXN0b3J5IjpbMTk4NTY3MDMxMSwxNzU4MzMzMDcxLC03Mz
+E5NDgxMjUsLTE0OTgwMTQ3MjIsMTIzOTcyMDEyMSwyNzgxMDYx
+MDQsMTAzMTM1NTY3NywtMTE5NjAwOTQ2NF19
 -->
