@@ -7,16 +7,18 @@ The following link should output weather for today at Q Block
 
 Scroll down to find the API request URL: It begins with https://api.open-meteo.com...
 
+![enter image description here](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/meteo-api-3.png)
+
 The returned data should look like:
 
 ![enter image description here](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/meteo-api-2.png)
 
-Configure and grab the full url:
 
-![enter image description here](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/meteo-api-3.png)
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NDIxNTA4MSwtNzMxOTQ4MTI1LC0xND
+eyJoaXN0b3J5IjpbLTE0MzcxMjY4NSwtNzMxOTQ4MTI1LC0xND
 k4MDE0NzIyLDEyMzk3MjAxMjEsMjc4MTA2MTA0LDEwMzEzNTU2
 NzcsLTExOTYwMDk0NjRdfQ==
 -->
