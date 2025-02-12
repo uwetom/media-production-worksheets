@@ -55,7 +55,7 @@ The returned meteo JSON data should look like:
 
 ![JSON file](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/meteo-api-2.png)
 
-[Need the solution?](https://uwetom.github.io/media-production-worksheets/api-solutions.html)
+[Need the solution?](https://uwetom.github.io/media-production-worksheets/wk15-using-external-data/api-solutions.html)
 
 
 ## How JSON works
@@ -138,11 +138,11 @@ How many are
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MDg4MDIyOSwxNjg0ODE4NTY5LDc1Mz
-kyNjMyMCwxOTQ5OTI4NTI2LDUwNjI1Nzc0MCwtMTUzMTkzOTAy
-MCwtNTU1NDAxMzgxLDEwMTQ5ODUzODYsLTE4NTUzNjEyMDgsLT
-M1ODMwNjQsMjg3MDIzNzgyLC0xNDIzMjQyNjAzLDE0OTM1MTAy
-NzYsLTE3NjA2MjQzNjgsMTYyMTc1OTc2NywtMTA0MDE1MzEyMy
-wxMzg0ODU4MTc4LDEzMzYxMjgyMDgsLTY2OTgzOTMxMCwtNjky
-NjA4MDE2XX0=
+eyJoaXN0b3J5IjpbLTEzMjgxMjE0MjgsMTI1MDg4MDIyOSwxNj
+g0ODE4NTY5LDc1MzkyNjMyMCwxOTQ5OTI4NTI2LDUwNjI1Nzc0
+MCwtMTUzMTkzOTAyMCwtNTU1NDAxMzgxLDEwMTQ5ODUzODYsLT
+E4NTUzNjEyMDgsLTM1ODMwNjQsMjg3MDIzNzgyLC0xNDIzMjQy
+NjAzLDE0OTM1MTAyNzYsLTE3NjA2MjQzNjgsMTYyMTc1OTc2Ny
+wtMTA0MDE1MzEyMywxMzg0ODU4MTc4LDEzMzYxMjgyMDgsLTY2
+OTgzOTMxMF19
 -->
