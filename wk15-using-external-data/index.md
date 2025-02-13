@@ -132,6 +132,8 @@ Go to https://api.nasa.gov/ Make a free account and replace ```DEMO_KEY``` with 
 
 Open Chrome browser and run the link. You should see a list of  ```near_earth_objects```:
 
+**Save the link in a text file.**
+
 ![JSON file](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-3.png)
 
 How many are 
@@ -139,11 +141,11 @@ How many are
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDkzMTY3NDMsMTU3NTE1MjMwNiwtMT
-MyODEyMTQyOCwxMjUwODgwMjI5LDE2ODQ4MTg1NjksNzUzOTI2
-MzIwLDE5NDk5Mjg1MjYsNTA2MjU3NzQwLC0xNTMxOTM5MDIwLC
-01NTU0MDEzODEsMTAxNDk4NTM4NiwtMTg1NTM2MTIwOCwtMzU4
-MzA2NCwyODcwMjM3ODIsLTE0MjMyNDI2MDMsMTQ5MzUxMDI3Ni
-wtMTc2MDYyNDM2OCwxNjIxNzU5NzY3LC0xMDQwMTUzMTIzLDEz
-ODQ4NTgxNzhdfQ==
+eyJoaXN0b3J5IjpbMTQ1NDQxNTc0LDE1NzUxNTIzMDYsLTEzMj
+gxMjE0MjgsMTI1MDg4MDIyOSwxNjg0ODE4NTY5LDc1MzkyNjMy
+MCwxOTQ5OTI4NTI2LDUwNjI1Nzc0MCwtMTUzMTkzOTAyMCwtNT
+U1NDAxMzgxLDEwMTQ5ODUzODYsLTE4NTUzNjEyMDgsLTM1ODMw
+NjQsMjg3MDIzNzgyLC0xNDIzMjQyNjAzLDE0OTM1MTAyNzYsLT
+E3NjA2MjQzNjgsMTYyMTc1OTc2NywtMTA0MDE1MzEyMywxMzg0
+ODU4MTc4XX0=
 -->
