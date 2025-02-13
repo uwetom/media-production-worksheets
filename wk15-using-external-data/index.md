@@ -128,7 +128,7 @@ The format for the HTTP web request to retrieve all Near Earth Objects is:
 
 [`https://api.nasa.gov/neo/rest/v1/neo/browse?api_key=DEMO_KEY`](https://api.nasa.gov/neo/rest/v1/neo/browse?api_key=DEMO_KEY)
 
-Go to https://api.nasa.gov/ Make a free account and replace ```DEMO_KEY``` with your api key. 
+Go to https://api.nasa.gov/ Make a free account and replace ```DEMO_KEY``` with your api key on the link above. 
 
 Open Chrome browser and run the link. You should see a list of  ```near_earth_objects```:
 
@@ -139,11 +139,11 @@ How many are
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NTE1MjMwNiwtMTMyODEyMTQyOCwxMj
-UwODgwMjI5LDE2ODQ4MTg1NjksNzUzOTI2MzIwLDE5NDk5Mjg1
-MjYsNTA2MjU3NzQwLC0xNTMxOTM5MDIwLC01NTU0MDEzODEsMT
-AxNDk4NTM4NiwtMTg1NTM2MTIwOCwtMzU4MzA2NCwyODcwMjM3
-ODIsLTE0MjMyNDI2MDMsMTQ5MzUxMDI3NiwtMTc2MDYyNDM2OC
-wxNjIxNzU5NzY3LC0xMDQwMTUzMTIzLDEzODQ4NTgxNzgsMTMz
-NjEyODIwOF19
+eyJoaXN0b3J5IjpbLTEzNDkzMTY3NDMsMTU3NTE1MjMwNiwtMT
+MyODEyMTQyOCwxMjUwODgwMjI5LDE2ODQ4MTg1NjksNzUzOTI2
+MzIwLDE5NDk5Mjg1MjYsNTA2MjU3NzQwLC0xNTMxOTM5MDIwLC
+01NTU0MDEzODEsMTAxNDk4NTM4NiwtMTg1NTM2MTIwOCwtMzU4
+MzA2NCwyODcwMjM3ODIsLTE0MjMyNDI2MDMsMTQ5MzUxMDI3Ni
+wtMTc2MDYyNDM2OCwxNjIxNzU5NzY3LC0xMDQwMTUzMTIzLDEz
+ODQ4NTgxNzhdfQ==
 -->
