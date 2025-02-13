@@ -1,7 +1,13 @@
 [Back](https://uwetom.github.io/media-production-worksheets)
 
 # Using external data in unity 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VZ1ThbYgEcQ?si=YO7O_Asb9WVCA67t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+(Near Earth Objects designated as hazardous by NASA)
+
 In this session we are going to learn how to import live, external data (in JSON format) in Unity and extract  some data from the imported JSON.  
+
+Then we will use the data to add objects and information into an AR scene.
 
 Most of this will involve working with C# scripts and the Unity3D console.
 
@@ -24,8 +30,8 @@ Add the file called SimpleJSON.cs to your Scripts folder. Do not add any of the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDQ4ODk1MTQsLTEyOTg0MTM5NjIsOT
-kxOTI3NywtNzMwNzg4NjY1LC0xOTM2NzY4NzgsLTMxNjMxNTgw
-MSwxNTAzNTc2MzI2LDE2MjE4NDI2NjcsLTE0ODU5NDIyMTRdfQ
-==
+eyJoaXN0b3J5IjpbMTI4ODMyNDMwNCwtMTkwNDg4OTUxNCwtMT
+I5ODQxMzk2Miw5OTE5Mjc3LC03MzA3ODg2NjUsLTE5MzY3Njg3
+OCwtMzE2MzE1ODAxLDE1MDM1NzYzMjYsMTYyMTg0MjY2NywtMT
+Q4NTk0MjIxNF19
 -->
