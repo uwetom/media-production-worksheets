@@ -31,12 +31,14 @@ Add the file called SimpleJSON.cs to your Scripts folder. Do not add any of the 
 
 Next set up the virtual testing environment for AR... Check it works.
 
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=86f965ba-81fe-474c-ad22-b2830133d12d&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-livedata-1 Thursday 13 February 2025 at 18:37:48" ></iframe>
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMjk1MzIyNiwxMjg4MzI0MzA0LC0xOT
-A0ODg5NTE0LC0xMjk4NDEzOTYyLDk5MTkyNzcsLTczMDc4ODY2
-NSwtMTkzNjc2ODc4LC0zMTYzMTU4MDEsMTUwMzU3NjMyNiwxNj
-IxODQyNjY3LC0xNDg1OTQyMjE0XX0=
+eyJoaXN0b3J5IjpbMTMyNTkwNTE2OCwyMTAyOTUzMjI2LDEyOD
+gzMjQzMDQsLTE5MDQ4ODk1MTQsLTEyOTg0MTM5NjIsOTkxOTI3
+NywtNzMwNzg4NjY1LC0xOTM2NzY4NzgsLTMxNjMxNTgwMSwxNT
+AzNTc2MzI2LDE2MjE4NDI2NjcsLTE0ODU5NDIyMTRdfQ==
 -->
