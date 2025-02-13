@@ -27,11 +27,16 @@ Download the code library for Unity called [SimpleJSON](https://github.com/Bunny
 
 Add the file called SimpleJSON.cs to your Scripts folder. Do not add any of the other files.
 
+## Set up the virtual testing environment for AR
+
+Next set up the virtual testing environment for AR...
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4ODMyNDMwNCwtMTkwNDg4OTUxNCwtMT
-I5ODQxMzk2Miw5OTE5Mjc3LC03MzA3ODg2NjUsLTE5MzY3Njg3
-OCwtMzE2MzE1ODAxLDE1MDM1NzYzMjYsMTYyMTg0MjY2NywtMT
-Q4NTk0MjIxNF19
+eyJoaXN0b3J5IjpbLTM1NTc4MDk3MywxMjg4MzI0MzA0LC0xOT
+A0ODg5NTE0LC0xMjk4NDEzOTYyLDk5MTkyNzcsLTczMDc4ODY2
+NSwtMTkzNjc2ODc4LC0zMTYzMTU4MDEsMTUwMzU3NjMyNiwxNj
+IxODQyNjY3LC0xNDg1OTQyMjE0XX0=
 -->
