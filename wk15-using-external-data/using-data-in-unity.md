@@ -45,9 +45,7 @@ You should be able to preview the HTTP request from the URL link you saved in yo
 
 If this isn't working you will need to revisit the previous tutorial.
 
-Follow the next video to find out how get this NASA data into your Unity project.
-
-In the next video we will use Unity networking to access the data in the NASA file, live from the web / 
+In the next video we will use Unity networking to access the data in the NASA JSON file, live from the NASA dataset. Unity will access the link and download the data into your project.
 
 
 
@@ -56,10 +54,10 @@ In the next video we will use Unity networking to access the data in the NASA fi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE1MzEzNDExLC0xMzExNzU3MTY2LC04ND
-E1MDIwMzMsLTExMjA1NDQ5NTEsMTMyNTkwNTE2OCwyMTAyOTUz
-MjI2LDEyODgzMjQzMDQsLTE5MDQ4ODk1MTQsLTEyOTg0MTM5Nj
-IsOTkxOTI3NywtNzMwNzg4NjY1LC0xOTM2NzY4NzgsLTMxNjMx
-NTgwMSwxNTAzNTc2MzI2LDE2MjE4NDI2NjcsLTE0ODU5NDIyMT
-RdfQ==
+eyJoaXN0b3J5IjpbLTQxMjc1NTQ5NSwtMTMxMTc1NzE2NiwtOD
+QxNTAyMDMzLC0xMTIwNTQ0OTUxLDEzMjU5MDUxNjgsMjEwMjk1
+MzIyNiwxMjg4MzI0MzA0LC0xOTA0ODg5NTE0LC0xMjk4NDEzOT
+YyLDk5MTkyNzcsLTczMDc4ODY2NSwtMTkzNjc2ODc4LC0zMTYz
+MTU4MDEsMTUwMzU3NjMyNiwxNjIxODQyNjY3LC0xNDg1OTQyMj
+E0XX0=
 -->
