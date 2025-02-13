@@ -47,6 +47,7 @@ If this isn't working you will need to revisit the previous tutorial.
 
 In the next video we will use Unity networking to access the data in the NASA JSON file, live from the NASA dataset. Unity will access the link and download the data into your project.
 
+https://learn.unity.com/tutorial/coroutines# 
 
 
 
@@ -54,10 +55,10 @@ In the next video we will use Unity networking to access the data in the NASA JS
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjc1NTQ5NSwtMTMxMTc1NzE2NiwtOD
-QxNTAyMDMzLC0xMTIwNTQ0OTUxLDEzMjU5MDUxNjgsMjEwMjk1
-MzIyNiwxMjg4MzI0MzA0LC0xOTA0ODg5NTE0LC0xMjk4NDEzOT
-YyLDk5MTkyNzcsLTczMDc4ODY2NSwtMTkzNjc2ODc4LC0zMTYz
-MTU4MDEsMTUwMzU3NjMyNiwxNjIxODQyNjY3LC0xNDg1OTQyMj
-E0XX0=
+eyJoaXN0b3J5IjpbLTY2MTUzNTI0LC00MTI3NTU0OTUsLTEzMT
+E3NTcxNjYsLTg0MTUwMjAzMywtMTEyMDU0NDk1MSwxMzI1OTA1
+MTY4LDIxMDI5NTMyMjYsMTI4ODMyNDMwNCwtMTkwNDg4OTUxNC
+wtMTI5ODQxMzk2Miw5OTE5Mjc3LC03MzA3ODg2NjUsLTE5MzY3
+Njg3OCwtMzE2MzE1ODAxLDE1MDM1NzYzMjYsMTYyMTg0MjY2Ny
+wtMTQ4NTk0MjIxNF19
 -->
