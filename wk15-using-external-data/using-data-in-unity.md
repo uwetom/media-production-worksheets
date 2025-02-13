@@ -39,17 +39,20 @@ In the next steps we will add some external data.
 
 ## Adding external data to your Unity project
 
-Before you start this section you should have followed the previous tutorial and made and account and used your API key to get some external data about Near Earth Objects.
+Before you start this section you should have followed the previous tutorial and made an account and used your API key to get some external data about Near Earth Objects.
 
-You should be able to preview the HTTP request in your browser and see a JSON file that looks like ![this]( https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-3.png)
+You should be able to preview the HTTP request in your browser and see a JSON file that looks like [this]( https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-3.png).
+
+If you can't you revisit the previous tutorial.
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMjAzNTk4MywtODQxNTAyMDMzLC0xMT
-IwNTQ0OTUxLDEzMjU5MDUxNjgsMjEwMjk1MzIyNiwxMjg4MzI0
-MzA0LC0xOTA0ODg5NTE0LC0xMjk4NDEzOTYyLDk5MTkyNzcsLT
-czMDc4ODY2NSwtMTkzNjc2ODc4LC0zMTYzMTU4MDEsMTUwMzU3
-NjMyNiwxNjIxODQyNjY3LC0xNDg1OTQyMjE0XX0=
+eyJoaXN0b3J5IjpbLTE0OTc2NjEwNDgsLTg0MTUwMjAzMywtMT
+EyMDU0NDk1MSwxMzI1OTA1MTY4LDIxMDI5NTMyMjYsMTI4ODMy
+NDMwNCwtMTkwNDg4OTUxNCwtMTI5ODQxMzk2Miw5OTE5Mjc3LC
+03MzA3ODg2NjUsLTE5MzY3Njg3OCwtMzE2MzE1ODAxLDE1MDM1
+NzYzMjYsMTYyMTg0MjY2NywtMTQ4NTk0MjIxNF19
 -->
