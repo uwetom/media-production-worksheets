@@ -3,15 +3,15 @@
 
 # Introduction to VR
 
-In this introduou to VR in Unity, showing you how to create an XR rig and navigate around a scene.
+This worksheet will show you how to create a VR project in Unity, create an XR rig and navigate around a scene.
 
 We will be using Unity version **2023.2.20f1** 
 
 ## VR Headsets
 
-We are using Meta Quest headsets, they can be used as stand alone devices. This allows you to build content directly to the headset without requiring the user to be tethered to a powerful PC (although you can also do this on a Windows PC). They are also relatively affordable and the best selling.
+We are using Meta Quest headsets, they can be used as stand alone devices. This allows you to build content directly to the headset without requiring the user to be tethered to a powerful PC.
 
-We will be using Meta Quest 1 and 2 headsets, you can also use the Quest 3 if you have one. All the projects created in these worksheets will work for all 3 headsets.
+We will be using Meta Quest 1 and 2 headsets, you can also use the Quest 3 if you have one. 
 
 These headsets require you to create an account and sign in to use. To save time I will do this for you before the in class workshops, but you will need to do yourself if you use them outside class.
 
@@ -272,5 +272,5 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyNDgzMDUwLDExNTE3OTU1NF19
+eyJoaXN0b3J5IjpbMjA5MTkxODU1LDExNTE3OTU1NF19
 -->
