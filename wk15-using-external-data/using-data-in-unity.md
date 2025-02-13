@@ -9,11 +9,11 @@ In this session we are going to learn how to import live, external data (in JSON
 
 Then we will use the data to add objects and information into an AR scene.
 
-Most of this will involve working with C# scripts and the Unity3D console.
+Most of this will involve working with C# scripts and the Unity3D console. We are going to use the NASA data for Near Earth Objects that we looked at previously https://api.nasa.gov/.
 
 We are also going to use an external C# code library for Unity called [SimpleJSON](https://github.com/Bunny83/SimpleJSON) to help us.
 
-Eventually we will include this in an AR app, so to get started you should make a new Unity project by forking and cloning Tom's [AR template](https://github.com/uwetom/AR-Template) on GitHub.
+Eventually we will include this in an AR app (preview above), so to get started you should make a new Unity project by forking and cloning Tom's [AR template](https://github.com/uwetom/AR-Template) on GitHub.
 
 If you aren't sure how to Fork and Clone a GitHub repository watch this video: (otherwise skip ahead)
 
@@ -37,8 +37,9 @@ Next set up the virtual testing environment for AR... Check it works.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNTkwNTE2OCwyMTAyOTUzMjI2LDEyOD
-gzMjQzMDQsLTE5MDQ4ODk1MTQsLTEyOTg0MTM5NjIsOTkxOTI3
-NywtNzMwNzg4NjY1LC0xOTM2NzY4NzgsLTMxNjMxNTgwMSwxNT
-AzNTc2MzI2LDE2MjE4NDI2NjcsLTE0ODU5NDIyMTRdfQ==
+eyJoaXN0b3J5IjpbMTg2MzkzMzIwMCwxMzI1OTA1MTY4LDIxMD
+I5NTMyMjYsMTI4ODMyNDMwNCwtMTkwNDg4OTUxNCwtMTI5ODQx
+Mzk2Miw5OTE5Mjc3LC03MzA3ODg2NjUsLTE5MzY3Njg3OCwtMz
+E2MzE1ODAxLDE1MDM1NzYzMjYsMTYyMTg0MjY2NywtMTQ4NTk0
+MjIxNF19
 -->
