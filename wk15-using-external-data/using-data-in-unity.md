@@ -47,7 +47,7 @@ If this isn't working you will need to revisit the previous tutorial.
 
 In the next video we will use Unity networking to access the data in the NASA JSON file, live from the NASA dataset. Unity will access the link and download the data into your project.
 
-Coroutines provide an excellent way of easily managing things that need to happen after a delay or over the course of time.
+Coroutines provide an excellent way of easily managing things that need to happen after a delay or over the course of time. You can learn more about them here:
 https://learn.unity.com/tutorial/coroutines# 
 
 
@@ -56,10 +56,10 @@ https://learn.unity.com/tutorial/coroutines#
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5NjQ2NzI2LC00MTI3NTU0OTUsLTEzMT
-E3NTcxNjYsLTg0MTUwMjAzMywtMTEyMDU0NDk1MSwxMzI1OTA1
-MTY4LDIxMDI5NTMyMjYsMTI4ODMyNDMwNCwtMTkwNDg4OTUxNC
-wtMTI5ODQxMzk2Miw5OTE5Mjc3LC03MzA3ODg2NjUsLTE5MzY3
-Njg3OCwtMzE2MzE1ODAxLDE1MDM1NzYzMjYsMTYyMTg0MjY2Ny
-wtMTQ4NTk0MjIxNF19
+eyJoaXN0b3J5IjpbMTgwMDA3ODM5NywtNDEyNzU1NDk1LC0xMz
+ExNzU3MTY2LC04NDE1MDIwMzMsLTExMjA1NDQ5NTEsMTMyNTkw
+NTE2OCwyMTAyOTUzMjI2LDEyODgzMjQzMDQsLTE5MDQ4ODk1MT
+QsLTEyOTg0MTM5NjIsOTkxOTI3NywtNzMwNzg4NjY1LC0xOTM2
+NzY4NzgsLTMxNjMxNTgwMSwxNTAzNTc2MzI2LDE2MjE4NDI2Nj
+csLTE0ODU5NDIyMTRdfQ==
 -->
