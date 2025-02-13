@@ -26,9 +26,9 @@ Please watch the following Meta Video shows you how to safely use the headset.
 
 [Safely use the Meta Quest](https://www.youtube.com/watch?v=Ke4MefpmRmc)
 
-The video shows the creation of a large guardian boundary, which the headset will guide you through when you first put it on. As there is not very much space int the class you should create a s
+The video shows the creation of a large guardian boundary, which the headset will guide you through when you first put it on. As there is not very much space int the class you should create a stationary boundary.
 
-## Create a Unity pProject
+## Create a Unity Project
 
 First we want to create a new project, we will use the built in VR template: for this.
 
@@ -272,5 +272,5 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU5MjU4NDkxLDExNTE3OTU1NF19
+eyJoaXN0b3J5IjpbLTQyODY3Mzc2NiwxMTUxNzk1NTRdfQ==
 -->
