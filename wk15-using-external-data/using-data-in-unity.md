@@ -45,6 +45,8 @@ You should be able to preview the HTTP request from the URL link you saved in yo
 
 If this isn't working you will need to revisit the previous tutorial.
 
+Follow the next video to find out how get this NASA data into your Unity project.
+
 
 
 
@@ -52,9 +54,10 @@ If this isn't working you will need to revisit the previous tutorial.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTE3NTcxNjYsLTg0MTUwMjAzMywtMT
-EyMDU0NDk1MSwxMzI1OTA1MTY4LDIxMDI5NTMyMjYsMTI4ODMy
-NDMwNCwtMTkwNDg4OTUxNCwtMTI5ODQxMzk2Miw5OTE5Mjc3LC
-03MzA3ODg2NjUsLTE5MzY3Njg3OCwtMzE2MzE1ODAxLDE1MDM1
-NzYzMjYsMTYyMTg0MjY2NywtMTQ4NTk0MjIxNF19
+eyJoaXN0b3J5IjpbLTk4OTc2Njg0MiwtMTMxMTc1NzE2NiwtOD
+QxNTAyMDMzLC0xMTIwNTQ0OTUxLDEzMjU5MDUxNjgsMjEwMjk1
+MzIyNiwxMjg4MzI0MzA0LC0xOTA0ODg5NTE0LC0xMjk4NDEzOT
+YyLDk5MTkyNzcsLTczMDc4ODY2NSwtMTkzNjc2ODc4LC0zMTYz
+MTU4MDEsMTUwMzU3NjMyNiwxNjIxODQyNjY3LC0xNDg1OTQyMj
+E0XX0=
 -->
