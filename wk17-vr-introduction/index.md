@@ -3,7 +3,7 @@
 
 # Introduction to VR
 
-In This worksheet I will introduce you to VR in Unity, showing you how to create an XR rig and navigate around a scene.
+In this introduou to VR in Unity, showing you how to create an XR rig and navigate around a scene.
 
 We will be using Unity version **2023.2.20f1** 
 
@@ -272,5 +272,5 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MTc5NTU0XX0=
+eyJoaXN0b3J5IjpbOTYyNDgzMDUwLDExNTE3OTU1NF19
 -->
