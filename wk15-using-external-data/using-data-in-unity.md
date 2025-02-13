@@ -41,7 +41,7 @@ In the next steps we will add some external data.
 
 Before you start this section you should have followed the previous tutorial and made an account on https://api.nasa.gov/ and used your API key to get some external data about Near Earth Objects.
 
-You should be able to preview the HTTP request in your browser and see a JSON file that looks like [this]( https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-3.png).
+You should be able to preview the HTTP request from the URL link you saved in your browser and see a JSON file that looks like [this]( https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-3.png).
 
 If this isn't working you will need to revisit the previous tutorial.
 
@@ -52,7 +52,7 @@ If this isn't working you will need to revisit the previous tutorial.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MDU0OTA4NywtODQxNTAyMDMzLC0xMT
+eyJoaXN0b3J5IjpbMTc2NDU3Mzk3MywtODQxNTAyMDMzLC0xMT
 IwNTQ0OTUxLDEzMjU5MDUxNjgsMjEwMjk1MzIyNiwxMjg4MzI0
 MzA0LC0xOTA0ODg5NTE0LC0xMjk4NDEzOTYyLDk5MTkyNzcsLT
 czMDc4ODY2NSwtMTkzNjc2ODc4LC0zMTYzMTU4MDEsMTUwMzU3
