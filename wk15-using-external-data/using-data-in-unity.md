@@ -47,6 +47,8 @@ If this isn't working you will need to revisit the previous tutorial.
 
 Follow the next video to find out how get this NASA data into your Unity project.
 
+In the next video we will use Unity networking to access the data in the NASA file, live from the web / 
+
 
 
 
@@ -54,10 +56,10 @@ Follow the next video to find out how get this NASA data into your Unity project
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4OTc2Njg0MiwtMTMxMTc1NzE2NiwtOD
-QxNTAyMDMzLC0xMTIwNTQ0OTUxLDEzMjU5MDUxNjgsMjEwMjk1
-MzIyNiwxMjg4MzI0MzA0LC0xOTA0ODg5NTE0LC0xMjk4NDEzOT
-YyLDk5MTkyNzcsLTczMDc4ODY2NSwtMTkzNjc2ODc4LC0zMTYz
-MTU4MDEsMTUwMzU3NjMyNiwxNjIxODQyNjY3LC0xNDg1OTQyMj
-E0XX0=
+eyJoaXN0b3J5IjpbMzE1MzEzNDExLC0xMzExNzU3MTY2LC04ND
+E1MDIwMzMsLTExMjA1NDQ5NTEsMTMyNTkwNTE2OCwyMTAyOTUz
+MjI2LDEyODgzMjQzMDQsLTE5MDQ4ODk1MTQsLTEyOTg0MTM5Nj
+IsOTkxOTI3NywtNzMwNzg4NjY1LC0xOTM2NzY4NzgsLTMxNjMx
+NTgwMSwxNTAzNTc2MzI2LDE2MjE4NDI2NjcsLTE0ODU5NDIyMT
+RdfQ==
 -->
