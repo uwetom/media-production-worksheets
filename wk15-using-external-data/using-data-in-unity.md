@@ -39,15 +39,17 @@ In the next steps we will add some external data.
 
 ## Adding external data to your Unity project
 
-Before you start this section you should have followed the previous tutorial and made and account and used your API key to get some external data about 
+Before you start this section you should have followed the previous tutorial and made and account and used your API key to get some external data about Near Earth Objects.
+
+You should be able to preview the HTTP r
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MTUwMjAzMywtMTEyMDU0NDk1MSwxMz
-I1OTA1MTY4LDIxMDI5NTMyMjYsMTI4ODMyNDMwNCwtMTkwNDg4
-OTUxNCwtMTI5ODQxMzk2Miw5OTE5Mjc3LC03MzA3ODg2NjUsLT
-E5MzY3Njg3OCwtMzE2MzE1ODAxLDE1MDM1NzYzMjYsMTYyMTg0
-MjY2NywtMTQ4NTk0MjIxNF19
+eyJoaXN0b3J5IjpbNTQ2NTU4Mjk2LC04NDE1MDIwMzMsLTExMj
+A1NDQ5NTEsMTMyNTkwNTE2OCwyMTAyOTUzMjI2LDEyODgzMjQz
+MDQsLTE5MDQ4ODk1MTQsLTEyOTg0MTM5NjIsOTkxOTI3NywtNz
+MwNzg4NjY1LC0xOTM2NzY4NzgsLTMxNjMxNTgwMSwxNTAzNTc2
+MzI2LDE2MjE4NDI2NjcsLTE0ODU5NDIyMTRdfQ==
 -->
