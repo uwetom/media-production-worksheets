@@ -29,13 +29,13 @@ Add the file called SimpleJSON.cs to your Scripts folder. Do not add any of the 
 
 ## Set up the virtual testing environment for AR
 
-Next set up the virtual testing environment for AR...
+Next set up the virtual testing environment for AR... Check it works.
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NTc4MDk3MywxMjg4MzI0MzA0LC0xOT
+eyJoaXN0b3J5IjpbMjEwMjk1MzIyNiwxMjg4MzI0MzA0LC0xOT
 A0ODg5NTE0LC0xMjk4NDEzOTYyLDk5MTkyNzcsLTczMDc4ODY2
 NSwtMTkzNjc2ODc4LC0zMTYzMTU4MDEsMTUwMzU3NjMyNiwxNj
 IxODQyNjY3LC0xNDg1OTQyMjE0XX0=
