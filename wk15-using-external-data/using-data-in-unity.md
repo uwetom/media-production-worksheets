@@ -33,13 +33,19 @@ Next set up the virtual testing environment for AR... Check it works.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=86f965ba-81fe-474c-ad22-b2830133d12d&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-livedata-1 Thursday 13 February 2025 at 18:37:48" ></iframe>
 
+So we now have a basic AR scene working in the virtual testing environment.
+
+In the next steps we will as some live data.
+
+## Adding live data to y
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MzkzMzIwMCwxMzI1OTA1MTY4LDIxMD
-I5NTMyMjYsMTI4ODMyNDMwNCwtMTkwNDg4OTUxNCwtMTI5ODQx
-Mzk2Miw5OTE5Mjc3LC03MzA3ODg2NjUsLTE5MzY3Njg3OCwtMz
-E2MzE1ODAxLDE1MDM1NzYzMjYsMTYyMTg0MjY2NywtMTQ4NTk0
-MjIxNF19
+eyJoaXN0b3J5IjpbLTEyODc0NjY4NjgsMTMyNTkwNTE2OCwyMT
+AyOTUzMjI2LDEyODgzMjQzMDQsLTE5MDQ4ODk1MTQsLTEyOTg0
+MTM5NjIsOTkxOTI3NywtNzMwNzg4NjY1LC0xOTM2NzY4NzgsLT
+MxNjMxNTgwMSwxNTAzNTc2MzI2LDE2MjE4NDI2NjcsLTE0ODU5
+NDIyMTRdfQ==
 -->
