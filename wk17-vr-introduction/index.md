@@ -20,13 +20,13 @@ The headsets require you to create an account and sign in to use. To save time I
 ## Safety
 ## Be aware of your environment
 
-When using a VR headset you may not be able to see the world around you, it is therefore very important that you clear the space around yousetup your space to ensure you don't injure yourself, others or the equipment.
+When using a VR headset you may not be able to see the world around you, it is therefore very important that you clear the space around your space to ensure you don't injure yourself, others or the equipment.
 
-Please watch the fFollowing Meta Video shows you how to safely use the headset.
+Please watch the following Meta Video shows you how to safely use the headset.
 
 [Safely use the Meta Quest](https://www.youtube.com/watch?v=Ke4MefpmRmc)
 
-The video show the creation of a large guardian boundary, which the headset will guide you through when you first put it on. You can make a large boundary allowing you to walk around orbut you are also able to create a staticonary boundary for seated experiences.
+The video shows the creation of a large guardian boundary, which the headset will guide you through when you first put it on. You can make a large boundary allowing you to walk around but you are also able to create a staticonary boundary for seated experiences.
 
 ## Create a Unity pProject
 
@@ -272,5 +272,5 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MDEwNDk4OSwxMTUxNzk1NTRdfQ==
+eyJoaXN0b3J5IjpbNzMwODIxOTg5LDExNTE3OTU1NF19
 -->
