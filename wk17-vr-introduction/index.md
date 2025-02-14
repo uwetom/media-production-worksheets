@@ -224,29 +224,7 @@ When finished put the headset on and try out your scene.
 
 ## Challenge - Build a mini scene
 
-Download these object or find your In the top menu, Select **Window > Package Manager**
-
-- Search for the **Xr Interactions Tookit**
-- Import **XR Device Simulator** in the Samples tab.
-
-![VR core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/device_simulation.jpg)
-
-- Close the **Package Manager**
-
- We now  need to tell Unity to use the Simulation when playing the scene in Unity.
-
-- Go back into **File > Project Settings** and open **Player Settings...**
-
-![VR core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/player_settings.jpg)
-
-- At the bottom, in **XR Plug-in Management**, in the windows tab, change the plugin to **XR Simulation**
-
-![VR core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/xr_settings.jpg)
-
-- Finally, in the **Project Validation** Section check for any issues issues in the 
-windown and make a simple scene.
-
-[castle pack](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/assets/Castle.unitypackage)
+Find 
 
 [left hand](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/assets/left_hand.fbx)
 
@@ -266,11 +244,8 @@ These workshops will get you started, but for your own project you will want to 
 [Unity Interaction toolkit documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/index.html)Android tabs and press **Fix all**
 
 
-## Open Starter assets scene
-
-
-
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyODY3Mzc2NiwxMTUxNzk1NTRdfQ==
+eyJoaXN0b3J5IjpbMjY2OTI1NTYyLC00Mjg2NzM3NjYsMTE1MT
+c5NTU0XX0=
 -->
