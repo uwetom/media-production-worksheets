@@ -106,7 +106,7 @@ It will also work in an AR / VR or normal Unity project. Very useful!
 In the next video I am going to add to the ``GetData`` C# script to extract specific information from the JSON data.
 
 I want to get information about Near Earth Objects (asteroids) that NASA has designated as hazardous, listing the asteroid names and their size in km.
-The NASA json data contains all this information.  Each [near_earth_object](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-3.png) (asteroid) has a name and  size.  Each asteroid is also classified as ```"is_potentially_hazardous_asteroid": false,``` or ```true```. We will use this to filter the data.
+The NASA json data contains all this information.  Each [near_earth_object](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-4.png) (asteroid) has a name and  size.  Each asteroid is also classified as ```"is_potentially_hazardous_asteroid": false,``` or ```true```. We will use this to filter the data.
 
 **Note:** Before you follow this video it might be helpful to review the section of the last worksheet called **How to get values from JSON**. We will be using keys to access the values in data.
 
@@ -174,11 +174,11 @@ public class GetData : MonoBehaviour
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNzA2NzY0NiwtNjU2Nzc0NDY4LDIzND
-k3NjY2MSwxMzQ4MDM0MzA0LC05MDgyNzk5NDYsLTE1NDMyNTA5
-MzcsLTY3MjgzNjAsMTAwNTY2MDc0MiwxNzcyMjE1MjE0LC00OD
-MzODc5LC05MDgzNDgxMjYsMzM2NjQ0MTQ4LC0xNTU2NDQwOTg4
-LDUxNTU2MzY3MywtNDEyNzU1NDk1LC0xMzExNzU3MTY2LC04ND
-E1MDIwMzMsLTExMjA1NDQ5NTEsMTMyNTkwNTE2OCwyMTAyOTUz
-MjI2XX0=
+eyJoaXN0b3J5IjpbLTEwNDQ2NjY4NTEsLTY1Njc3NDQ2OCwyMz
+Q5NzY2NjEsMTM0ODAzNDMwNCwtOTA4Mjc5OTQ2LC0xNTQzMjUw
+OTM3LC02NzI4MzYwLDEwMDU2NjA3NDIsMTc3MjIxNTIxNCwtND
+gzMzg3OSwtOTA4MzQ4MTI2LDMzNjY0NDE0OCwtMTU1NjQ0MDk4
+OCw1MTU1NjM2NzMsLTQxMjc1NTQ5NSwtMTMxMTc1NzE2NiwtOD
+QxNTAyMDMzLC0xMTIwNTQ0OTUxLDEzMjU5MDUxNjgsMjEwMjk1
+MzIyNl19
 -->
