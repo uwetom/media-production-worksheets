@@ -3,7 +3,7 @@
 # Using external data in unity 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VZ1ThbYgEcQ?si=YO7O_Asb9WVCA67t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-*(Near Earth Objects designated as hazardous by NASA, generated from a NASA dataset)*
+*(AR scene of Near Earth Objects designated as hazardous by NASA, generated from a NASA dataset)*
 
 In this session we are going to learn how to import live, external data (in JSON format) in Unity and extract  some data from the imported JSON.  
 
@@ -58,10 +58,11 @@ https://learn.unity.com/tutorial/coroutines#
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTY0NDA5ODgsNTE1NTYzNjczLC00MT
-I3NTU0OTUsLTEzMTE3NTcxNjYsLTg0MTUwMjAzMywtMTEyMDU0
-NDk1MSwxMzI1OTA1MTY4LDIxMDI5NTMyMjYsMTI4ODMyNDMwNC
-wtMTkwNDg4OTUxNCwtMTI5ODQxMzk2Miw5OTE5Mjc3LC03MzA3
-ODg2NjUsLTE5MzY3Njg3OCwtMzE2MzE1ODAxLDE1MDM1NzYzMj
-YsMTYyMTg0MjY2NywtMTQ4NTk0MjIxNF19
+eyJoaXN0b3J5IjpbLTE0MDcxNTE0MjYsLTE1NTY0NDA5ODgsNT
+E1NTYzNjczLC00MTI3NTU0OTUsLTEzMTE3NTcxNjYsLTg0MTUw
+MjAzMywtMTEyMDU0NDk1MSwxMzI1OTA1MTY4LDIxMDI5NTMyMj
+YsMTI4ODMyNDMwNCwtMTkwNDg4OTUxNCwtMTI5ODQxMzk2Miw5
+OTE5Mjc3LC03MzA3ODg2NjUsLTE5MzY3Njg3OCwtMzE2MzE1OD
+AxLDE1MDM1NzYzMjYsMTYyMTg0MjY2NywtMTQ4NTk0MjIxNF19
+
 -->
