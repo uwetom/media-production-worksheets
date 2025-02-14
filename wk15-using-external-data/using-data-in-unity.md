@@ -9,7 +9,7 @@
 ## Overview
 In this session we are going to learn how to import live, external data (in JSON format) in Unity and extract  some data from the imported JSON.  
 
-Then in the next worksheet we will use the data to add objects and information into an AR scene.
+Then in the next worksheet we will use the data to add objects and information to an AR scene.
 
 Most of this will involve working with C# scripts and the Unity3D console. We are going to use the NASA data for Near Earth Objects that we looked at previously https://api.nasa.gov/.
 
@@ -172,11 +172,11 @@ public class GetData : MonoBehaviour
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODQwMTAxODYsLTY1Njc3NDQ2OCwyMz
-Q5NzY2NjEsMTM0ODAzNDMwNCwtOTA4Mjc5OTQ2LC0xNTQzMjUw
-OTM3LC02NzI4MzYwLDEwMDU2NjA3NDIsMTc3MjIxNTIxNCwtND
-gzMzg3OSwtOTA4MzQ4MTI2LDMzNjY0NDE0OCwtMTU1NjQ0MDk4
-OCw1MTU1NjM2NzMsLTQxMjc1NTQ5NSwtMTMxMTc1NzE2NiwtOD
-QxNTAyMDMzLC0xMTIwNTQ0OTUxLDEzMjU5MDUxNjgsMjEwMjk1
-MzIyNl19
+eyJoaXN0b3J5IjpbLTgxMjY2MjQ0NywtNjU2Nzc0NDY4LDIzND
+k3NjY2MSwxMzQ4MDM0MzA0LC05MDgyNzk5NDYsLTE1NDMyNTA5
+MzcsLTY3MjgzNjAsMTAwNTY2MDc0MiwxNzcyMjE1MjE0LC00OD
+MzODc5LC05MDgzNDgxMjYsMzM2NjQ0MTQ4LC0xNTU2NDQwOTg4
+LDUxNTU2MzY3MywtNDEyNzU1NDk1LC0xMzExNzU3MTY2LC04ND
+E1MDIwMzMsLTExMjA1NDQ5NTEsMTMyNTkwNTE2OCwyMTAyOTUz
+MjI2XX0=
 -->
