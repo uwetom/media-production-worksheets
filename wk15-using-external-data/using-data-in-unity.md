@@ -56,6 +56,15 @@ In this next video we will use Unity networking to access the data in the NASA J
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=3f680212-dab6-4da2-acc3-b28400e8c6db&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-data-2 Get JSON data" ></iframe>
 
+
+<details>
+<summary>Hint:</summary>
+You can find the answers to the code challenges including the final sketch.js code in this weeks folder.
+
+
+See the finished sketch running here  
+https://editor.p5js.org/roddicki/sketches/cZt3R4BYQ
+</details>  
 The code in this file will work with an API URL request
 
 In this video we used a Coroutine / IENumerator. 
@@ -102,7 +111,7 @@ public class GetData : MonoBehaviour
 ## Use C# to navigate and extract data from JSON
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxODQwNDg1MiwxNzcyMjE1MjE0LC00OD
+eyJoaXN0b3J5IjpbLTQ1MjUyNzYyNSwxNzcyMjE1MjE0LC00OD
 MzODc5LC05MDgzNDgxMjYsMzM2NjQ0MTQ4LC0xNTU2NDQwOTg4
 LDUxNTU2MzY3MywtNDEyNzU1NDk1LC0xMzExNzU3MTY2LC04ND
 E1MDIwMzMsLTExMjA1NDQ5NTEsMTMyNTkwNTE2OCwyMTAyOTUz
