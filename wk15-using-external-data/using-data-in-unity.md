@@ -103,13 +103,15 @@ The code in this file will work with any API URL request / data that is in JSON 
 
 ## Use C# to navigate and extract data from JSON
 
-In the next video I am going to extract information about 
+In the next video I am going to extract information from the JSON data about Near Earth Objects (asteroids) that NASA has designated as hazardous.
+I want to list all their names and get their size in km.
+The NASA json data contains all this information. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgwOTE0NzQyLC02NzI4MzYwLDEwMDU2Nj
-A3NDIsMTc3MjIxNTIxNCwtNDgzMzg3OSwtOTA4MzQ4MTI2LDMz
-NjY0NDE0OCwtMTU1NjQ0MDk4OCw1MTU1NjM2NzMsLTQxMjc1NT
-Q5NSwtMTMxMTc1NzE2NiwtODQxNTAyMDMzLC0xMTIwNTQ0OTUx
-LDEzMjU5MDUxNjgsMjEwMjk1MzIyNiwxMjg4MzI0MzA0LC0xOT
-A0ODg5NTE0LC0xMjk4NDEzOTYyLDk5MTkyNzcsLTczMDc4ODY2
-NV19
+eyJoaXN0b3J5IjpbLTIyNDI1MjExNywtNjcyODM2MCwxMDA1Nj
+YwNzQyLDE3NzIyMTUyMTQsLTQ4MzM4NzksLTkwODM0ODEyNiwz
+MzY2NDQxNDgsLTE1NTY0NDA5ODgsNTE1NTYzNjczLC00MTI3NT
+U0OTUsLTEzMTE3NTcxNjYsLTg0MTUwMjAzMywtMTEyMDU0NDk1
+MSwxMzI1OTA1MTY4LDIxMDI5NTMyMjYsMTI4ODMyNDMwNCwtMT
+kwNDg4OTUxNCwtMTI5ODQxMzk2Miw5OTE5Mjc3LC03MzA3ODg2
+NjVdfQ==
 -->
