@@ -52,7 +52,7 @@ Save the https://... link in a text file (if you haven't already).
 If this isn't working you will need to revisit the previous tutorial.
 
 ## Use C# to get external data into Unity
-In the next video we will use Unity networking to access the data in the NASA JSON file, live from the NASA dataset. Unity will access the link and download the data into your project.
+In the next video we will use Unity networking to access the data in the NASA JSON file, live from the NASA dataset. Unity will access the link and download the data into your Unity project. We will look at it in the console.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=3f680212-dab6-4da2-acc3-b28400e8c6db&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-data-2 Get JSON data" ></iframe>
 
@@ -65,11 +65,11 @@ https://learn.unity.com/tutorial/coroutines#
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI2NDI1MzM4LC00ODMzODc5LC05MDgzND
-gxMjYsMzM2NjQ0MTQ4LC0xNTU2NDQwOTg4LDUxNTU2MzY3Mywt
-NDEyNzU1NDk1LC0xMzExNzU3MTY2LC04NDE1MDIwMzMsLTExMj
-A1NDQ5NTEsMTMyNTkwNTE2OCwyMTAyOTUzMjI2LDEyODgzMjQz
-MDQsLTE5MDQ4ODk1MTQsLTEyOTg0MTM5NjIsOTkxOTI3NywtNz
-MwNzg4NjY1LC0xOTM2NzY4NzgsLTMxNjMxNTgwMSwxNTAzNTc2
-MzI2XX0=
+eyJoaXN0b3J5IjpbMTMxNzk2NzYzOSwtNDgzMzg3OSwtOTA4Mz
+Q4MTI2LDMzNjY0NDE0OCwtMTU1NjQ0MDk4OCw1MTU1NjM2NzMs
+LTQxMjc1NTQ5NSwtMTMxMTc1NzE2NiwtODQxNTAyMDMzLC0xMT
+IwNTQ0OTUxLDEzMjU5MDUxNjgsMjEwMjk1MzIyNiwxMjg4MzI0
+MzA0LC0xOTA0ODg5NTE0LC0xMjk4NDEzOTYyLDk5MTkyNzcsLT
+czMDc4ODY2NSwtMTkzNjc2ODc4LC0zMTYzMTU4MDEsMTUwMzU3
+NjMyNl19
 -->
