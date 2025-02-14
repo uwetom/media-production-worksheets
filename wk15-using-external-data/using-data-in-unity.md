@@ -106,14 +106,14 @@ The code in this file will work with any API URL request / data that is in JSON 
 In the next video I am going to add to the ``GetData`` C# script to extract specific information from the JSON data.
 
 I want to get information about Near Earth Objects (asteroids) that NASA has designated as hazardous, listing the asteroid names and their size in km.
-The NASA json data contains all this information.  Each [near_earth_object](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-3.png) is classified as ```"is_potentially_hazardous_asteroid": false,``` or ```true```. We will use this to filter the data.
+The NASA json data contains all this information.  Each [near_earth_object](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-3.png) (asteroid) has a name and size and is classified as ```"is_potentially_hazardous_asteroid": false,``` or ```true```. We will use this to filter the data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTU3MTE4MzcsLTE1NDMyNTA5MzcsLT
-Y3MjgzNjAsMTAwNTY2MDc0MiwxNzcyMjE1MjE0LC00ODMzODc5
-LC05MDgzNDgxMjYsMzM2NjQ0MTQ4LC0xNTU2NDQwOTg4LDUxNT
-U2MzY3MywtNDEyNzU1NDk1LC0xMzExNzU3MTY2LC04NDE1MDIw
-MzMsLTExMjA1NDQ5NTEsMTMyNTkwNTE2OCwyMTAyOTUzMjI2LD
-EyODgzMjQzMDQsLTE5MDQ4ODk1MTQsLTEyOTg0MTM5NjIsOTkx
-OTI3N119
+eyJoaXN0b3J5IjpbMTY0NjgzNzU1NiwtMTU0MzI1MDkzNywtNj
+cyODM2MCwxMDA1NjYwNzQyLDE3NzIyMTUyMTQsLTQ4MzM4Nzks
+LTkwODM0ODEyNiwzMzY2NDQxNDgsLTE1NTY0NDA5ODgsNTE1NT
+YzNjczLC00MTI3NTU0OTUsLTEzMTE3NTcxNjYsLTg0MTUwMjAz
+MywtMTEyMDU0NDk1MSwxMzI1OTA1MTY4LDIxMDI5NTMyMjYsMT
+I4ODMyNDMwNCwtMTkwNDg4OTUxNCwtMTI5ODQxMzk2Miw5OTE5
+Mjc3XX0=
 -->
