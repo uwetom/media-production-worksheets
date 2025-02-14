@@ -5,6 +5,7 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VZ1ThbYgEcQ?si=YO7O_Asb9WVCA67t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 *(AR scene of Near Earth Objects designated as hazardous by NASA, generated from a NASA dataset)*
 
+## Overview
 In this session we are going to learn how to import live, external data (in JSON format) in Unity and extract  some data from the imported JSON.  
 
 Then we will use the data to add objects and information into an AR scene.
@@ -15,6 +16,7 @@ We are also going to use an external C# code library for Unity called [SimpleJSO
 
 Eventually we will include this in an AR app (preview above), so to get started you should make a new Unity project by forking and cloning Tom's [AR template](https://github.com/uwetom/AR-Template) on GitHub.
 
+## Setup: Fork and clone the AR template
 If you aren't sure how to Fork and Clone a GitHub repository watch this video: (otherwise skip ahead)
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=7bf90f82-466e-4255-a7c2-b27b0117b82a&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP fork and clone 5 February 2025 at 16:54:57" ></iframe>
@@ -58,11 +60,11 @@ https://learn.unity.com/tutorial/coroutines#
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDcxNTE0MjYsLTE1NTY0NDA5ODgsNT
-E1NTYzNjczLC00MTI3NTU0OTUsLTEzMTE3NTcxNjYsLTg0MTUw
-MjAzMywtMTEyMDU0NDk1MSwxMzI1OTA1MTY4LDIxMDI5NTMyMj
-YsMTI4ODMyNDMwNCwtMTkwNDg4OTUxNCwtMTI5ODQxMzk2Miw5
-OTE5Mjc3LC03MzA3ODg2NjUsLTE5MzY3Njg3OCwtMzE2MzE1OD
-AxLDE1MDM1NzYzMjYsMTYyMTg0MjY2NywtMTQ4NTk0MjIxNF19
+eyJoaXN0b3J5IjpbMzM2NjQ0MTQ4LC0xNTU2NDQwOTg4LDUxNT
+U2MzY3MywtNDEyNzU1NDk1LC0xMzExNzU3MTY2LC04NDE1MDIw
+MzMsLTExMjA1NDQ5NTEsMTMyNTkwNTE2OCwyMTAyOTUzMjI2LD
+EyODgzMjQzMDQsLTE5MDQ4ODk1MTQsLTEyOTg0MTM5NjIsOTkx
+OTI3NywtNzMwNzg4NjY1LC0xOTM2NzY4NzgsLTMxNjMxNTgwMS
+wxNTAzNTc2MzI2LDE2MjE4NDI2NjcsLTE0ODU5NDIyMTRdfQ==
 
 -->
