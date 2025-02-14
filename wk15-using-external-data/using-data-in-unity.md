@@ -147,7 +147,6 @@ public class GetData : MonoBehaviour
                 Debug.Log(json);
                 ReadJSON(json);
             }
-
         }
     }
 
@@ -160,7 +159,6 @@ public class GetData : MonoBehaviour
 
         for (int i = 0; i < numOfAsteroids; i++)
         {
-            
             string isHazardous = obj["near_earth_objects"][i]["is_potentially_hazardous_asteroid"].Value;
 
             if (isHazardous == "True")
@@ -170,13 +168,11 @@ public class GetData : MonoBehaviour
                 Debug.Log(obj["near_earth_objects"][i]["estimated_diameter"]["kilometers"]["estimated_diameter_max"].Value);
             }
         }
-
     }
-    
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjU4MDY3NzksLTY1Njc3NDQ2OCwyMz
+eyJoaXN0b3J5IjpbLTE4NjMyNjQ3MzUsLTY1Njc3NDQ2OCwyMz
 Q5NzY2NjEsMTM0ODAzNDMwNCwtOTA4Mjc5OTQ2LC0xNTQzMjUw
 OTM3LC02NzI4MzYwLDEwMDU2NjA3NDIsMTc3MjIxNTIxNCwtND
 gzMzg3OSwtOTA4MzQ4MTI2LDMzNjY0NDE0OCwtMTU1NjQ0MDk4
