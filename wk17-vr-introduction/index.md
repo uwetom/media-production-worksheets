@@ -224,7 +224,7 @@ When finished put the headset on and try out your scene.
 
 ## Challenge - Build a mini scene
 
-Find 
+Find some assets on the 
 
 [left hand](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/assets/left_hand.fbx)
 
@@ -246,6 +246,6 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY2OTI1NTYyLC00Mjg2NzM3NjYsMTE1MT
-c5NTU0XX0=
+eyJoaXN0b3J5IjpbMTY1NDY0MTU0OSwtNDI4NjczNzY2LDExNT
+E3OTU1NF19
 -->
