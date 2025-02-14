@@ -94,6 +94,7 @@ It is also common for data to be nested like this:
 	}
 }
 ```
+## How to get values from JSON
 To access the data in most programming languages you 'parse' the JSON file and turn into in an Object, then call each key to access the value
 Using the JSON above:
 ```Javascript
@@ -141,11 +142,11 @@ How many are
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNjU4MjA0MSwxNTc1MTUyMzA2LC0xMz
-I4MTIxNDI4LDEyNTA4ODAyMjksMTY4NDgxODU2OSw3NTM5MjYz
-MjAsMTk0OTkyODUyNiw1MDYyNTc3NDAsLTE1MzE5MzkwMjAsLT
-U1NTQwMTM4MSwxMDE0OTg1Mzg2LC0xODU1MzYxMjA4LC0zNTgz
-MDY0LDI4NzAyMzc4MiwtMTQyMzI0MjYwMywxNDkzNTEwMjc2LC
-0xNzYwNjI0MzY4LDE2MjE3NTk3NjcsLTEwNDAxNTMxMjMsMTM4
-NDg1ODE3OF19
+eyJoaXN0b3J5IjpbMTg5MjMyMzQ5OCwxNjE2NTgyMDQxLDE1Nz
+UxNTIzMDYsLTEzMjgxMjE0MjgsMTI1MDg4MDIyOSwxNjg0ODE4
+NTY5LDc1MzkyNjMyMCwxOTQ5OTI4NTI2LDUwNjI1Nzc0MCwtMT
+UzMTkzOTAyMCwtNTU1NDAxMzgxLDEwMTQ5ODUzODYsLTE4NTUz
+NjEyMDgsLTM1ODMwNjQsMjg3MDIzNzgyLC0xNDIzMjQyNjAzLD
+E0OTM1MTAyNzYsLTE3NjA2MjQzNjgsMTYyMTc1OTc2NywtMTA0
+MDE1MzEyM119
 -->
