@@ -45,7 +45,9 @@ In the next steps we will add some external data.
 
 Before you start this section you should have followed the previous tutorial and made an account on https://api.nasa.gov/ and used your API key to get some external data about Near Earth Objects.
 
-You should be able to preview the HTTP request from the URL link you generated at https://api.nasa.gov/ in your browser and see a JSON file that looks like [this]( https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-3.png). It has a list of ```near_earth_objects``` that we will be using.
+You should be able to preview the HTTP request from the URL link you generated  in your browser and see a JSON file that looks like [this]( https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-3.png). It has a list of ```near_earth_objects``` that we will be using.
+
+Save the https://... link in a text file (if you haven't already).
 
 If this isn't working you will need to revisit the previous tutorial.
 
@@ -62,11 +64,11 @@ https://learn.unity.com/tutorial/coroutines#
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkzNjc4NTQwLC05MDgzNDgxMjYsMzM2Nj
-Q0MTQ4LC0xNTU2NDQwOTg4LDUxNTU2MzY3MywtNDEyNzU1NDk1
-LC0xMzExNzU3MTY2LC04NDE1MDIwMzMsLTExMjA1NDQ5NTEsMT
-MyNTkwNTE2OCwyMTAyOTUzMjI2LDEyODgzMjQzMDQsLTE5MDQ4
-ODk1MTQsLTEyOTg0MTM5NjIsOTkxOTI3NywtNzMwNzg4NjY1LC
-0xOTM2NzY4NzgsLTMxNjMxNTgwMSwxNTAzNTc2MzI2LDE2MjE4
-NDI2NjddfQ==
+eyJoaXN0b3J5IjpbLTE1Njc3NzE1NDIsLTkwODM0ODEyNiwzMz
+Y2NDQxNDgsLTE1NTY0NDA5ODgsNTE1NTYzNjczLC00MTI3NTU0
+OTUsLTEzMTE3NTcxNjYsLTg0MTUwMjAzMywtMTEyMDU0NDk1MS
+wxMzI1OTA1MTY4LDIxMDI5NTMyMjYsMTI4ODMyNDMwNCwtMTkw
+NDg4OTUxNCwtMTI5ODQxMzk2Miw5OTE5Mjc3LC03MzA3ODg2Nj
+UsLTE5MzY3Njg3OCwtMzE2MzE1ODAxLDE1MDM1NzYzMjYsMTYy
+MTg0MjY2N119
 -->
