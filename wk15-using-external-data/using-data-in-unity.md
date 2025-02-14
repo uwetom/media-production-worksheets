@@ -97,7 +97,7 @@ public class GetData : MonoBehaviour
     }
 }
 ```
-The Unity project that we now have will work with any API URL request / data that is in JSON format. It will also work in an AR / VR or normal Unity project.
+The Unity project that you now have will work with any API URL request / data that is in JSON format. It will also work in an AR / VR or normal Unity project.
 
 
 ## Use C# to navigate and extract data from JSON
@@ -172,11 +172,11 @@ public class GetData : MonoBehaviour
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTM3NzkzNCwtNjU2Nzc0NDY4LDIzND
-k3NjY2MSwxMzQ4MDM0MzA0LC05MDgyNzk5NDYsLTE1NDMyNTA5
-MzcsLTY3MjgzNjAsMTAwNTY2MDc0MiwxNzcyMjE1MjE0LC00OD
-MzODc5LC05MDgzNDgxMjYsMzM2NjQ0MTQ4LC0xNTU2NDQwOTg4
-LDUxNTU2MzY3MywtNDEyNzU1NDk1LC0xMzExNzU3MTY2LC04ND
-E1MDIwMzMsLTExMjA1NDQ5NTEsMTMyNTkwNTE2OCwyMTAyOTUz
-MjI2XX0=
+eyJoaXN0b3J5IjpbNDkwMjc4NjY5LC02NTY3NzQ0NjgsMjM0OT
+c2NjYxLDEzNDgwMzQzMDQsLTkwODI3OTk0NiwtMTU0MzI1MDkz
+NywtNjcyODM2MCwxMDA1NjYwNzQyLDE3NzIyMTUyMTQsLTQ4Mz
+M4NzksLTkwODM0ODEyNiwzMzY2NDQxNDgsLTE1NTY0NDA5ODgs
+NTE1NTYzNjczLC00MTI3NTU0OTUsLTEzMTE3NTcxNjYsLTg0MT
+UwMjAzMywtMTEyMDU0NDk1MSwxMzI1OTA1MTY4LDIxMDI5NTMy
+MjZdfQ==
 -->
