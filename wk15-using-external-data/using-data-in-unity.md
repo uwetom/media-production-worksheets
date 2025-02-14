@@ -44,7 +44,7 @@ In the next steps we will add some external data.
 
 ## Get a link to some external data
 
-Before you start this section you should have followed the previous tutorial and made an account on https://api.nasa.gov/ and used your API key to get some external data about Near Earth Objects.
+Before you start this next section you should have followed the previous tutorial and made an account on https://api.nasa.gov/ and used your API key to get some external data about Near Earth Objects.
 
 You should be able to preview the HTTP request from the URL link you generated  in your browser and see a JSON file that looks like [this]( https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-3.png). It has a list of ```near_earth_objects``` that we will be using.
 
@@ -109,7 +109,7 @@ I want to get information about Near Earth Objects (asteroids) that NASA has des
 The NASA json data contains all this information.  Each [near_earth_object](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-3.png) (asteroid) has a name and  size.  Each asteroid is also classified as ```"is_potentially_hazardous_asteroid": false,``` or ```true```. We will use this to filter the data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMzQwMTQzNiwtMTU0MzI1MDkzNywtNj
+eyJoaXN0b3J5IjpbMTI5NjEzMjQwMywtMTU0MzI1MDkzNywtNj
 cyODM2MCwxMDA1NjYwNzQyLDE3NzIyMTUyMTQsLTQ4MzM4Nzks
 LTkwODM0ODEyNiwzMzY2NDQxNDgsLTE1NTY0NDA5ODgsNTE1NT
 YzNjczLC00MTI3NTU0OTUsLTEzMTE3NTcxNjYsLTg0MTUwMjAz
