@@ -41,7 +41,7 @@ So we now have a basic AR scene working in the virtual testing environment.
 
 In the next steps we will add some external data.
 
-## Adding external data to your Unity project
+## Get a link to some external data (JSON)
 
 Before you start this section you should have followed the previous tutorial and made an account on https://api.nasa.gov/ and used your API key to get some external data about Near Earth Objects.
 
@@ -65,7 +65,7 @@ https://learn.unity.com/tutorial/coroutines#
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzE1NTMxOTYsLTkwODM0ODEyNiwzMz
+eyJoaXN0b3J5IjpbLTEyNTYzNDY3MjQsLTkwODM0ODEyNiwzMz
 Y2NDQxNDgsLTE1NTY0NDA5ODgsNTE1NTYzNjczLC00MTI3NTU0
 OTUsLTEzMTE3NTcxNjYsLTg0MTUwMjAzMywtMTEyMDU0NDk1MS
 wxMzI1OTA1MTY4LDIxMDI5NTMyMjYsMTI4ODMyNDMwNCwtMTkw
