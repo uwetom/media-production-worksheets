@@ -53,7 +53,7 @@ Save the https://... link in a text file (if you haven't already).
 If this isn't working you will need to revisit the previous tutorial.
 
 ## Use C# to get external data into Unity
-In this next video we will use Unity networking to access the data in the NASA JSON file, live from the NASA dataset. Unity will access the link and download the data into your Unity project. We will look at it in the console.
+In this next video we will use Unity networking to access the data in the NASA JSON file, live from the NASA dataset. Unity will access the link and download the data into your Unity project. We will look at the raw downloaded data in the console.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=3f680212-dab6-4da2-acc3-b28400e8c6db&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-data-2 Get JSON data" ></iframe>
 
@@ -109,7 +109,7 @@ I want to get information about Near Earth Objects (asteroids) that NASA has des
 The NASA json data contains all this information.  Each [near_earth_object](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-3.png) (asteroid) has a name and  size.  Each asteroid is also classified as ```"is_potentially_hazardous_asteroid": false,``` or ```true```. We will use this to filter the data.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NjEzMjQwMywtMTU0MzI1MDkzNywtNj
+eyJoaXN0b3J5IjpbLTkwODI3OTk0NiwtMTU0MzI1MDkzNywtNj
 cyODM2MCwxMDA1NjYwNzQyLDE3NzIyMTUyMTQsLTQ4MzM4Nzks
 LTkwODM0ODEyNiwzMzY2NDQxNDgsLTE1NTY0NDA5ODgsNTE1NT
 YzNjczLC00MTI3NTU0OTUsLTEzMTE3NTcxNjYsLTg0MTUwMjAz
