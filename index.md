@@ -35,14 +35,13 @@
 
  - [Introduction to using external data (what are APIs)](https://uwetom.github.io/media-production-worksheets/wk15-using-external-data/)
  
- - Using external data in Unity pt 1
+ - Using external data in Unity pt 1 (getting data)
 
 - Using external data in Unity pt 2 (animating a scene)
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDQ0OTc5NzksLTM4ODYyMjM2MywtMT
-A5NjIwODkyMSwxMjIxMDczNDIxLC0yMDU2NzE1MDU0LDEyMzQ2
-MjUwMDUsMTAyMjcwNzI3NSw2NTg0NDI0MywtODMzMjg4MzJdfQ
-==
+eyJoaXN0b3J5IjpbMTI2NDY5NDQxNiwtMzg4NjIyMzYzLC0xMD
+k2MjA4OTIxLDEyMjEwNzM0MjEsLTIwNTY3MTUwNTQsMTIzNDYy
+NTAwNSwxMDIyNzA3Mjc1LDY1ODQ0MjQzLC04MzMyODgzMl19
 -->
