@@ -14,9 +14,11 @@ Most of this will involve working with C# scripts and the Unity3D console. We ar
 
 We are also going to use an external C# code library for Unity called [SimpleJSON](https://github.com/Bunny83/SimpleJSON) to help us.
 
-Eventually we will include this in an AR app (preview above), so to get started you should make a new Unity project by forking and cloning Tom's [AR template](https://github.com/uwetom/AR-Template) on GitHub.
+Eventually we will include this in an AR app (preview above). 
 
 ## Setup: Fork and clone the AR template
+To get started you should make a new Unity project by forking and cloning Tom's [AR template](https://github.com/uwetom/AR-Template) on GitHub.
+
 If you aren't sure how to Fork and Clone a GitHub repository watch this video: (otherwise skip ahead)
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=7bf90f82-466e-4255-a7c2-b27b0117b82a&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP fork and clone 5 February 2025 at 16:54:57" ></iframe>
@@ -60,11 +62,11 @@ https://learn.unity.com/tutorial/coroutines#
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM2NjQ0MTQ4LC0xNTU2NDQwOTg4LDUxNT
-U2MzY3MywtNDEyNzU1NDk1LC0xMzExNzU3MTY2LC04NDE1MDIw
-MzMsLTExMjA1NDQ5NTEsMTMyNTkwNTE2OCwyMTAyOTUzMjI2LD
-EyODgzMjQzMDQsLTE5MDQ4ODk1MTQsLTEyOTg0MTM5NjIsOTkx
-OTI3NywtNzMwNzg4NjY1LC0xOTM2NzY4NzgsLTMxNjMxNTgwMS
-wxNTAzNTc2MzI2LDE2MjE4NDI2NjcsLTE0ODU5NDIyMTRdfQ==
-
+eyJoaXN0b3J5IjpbLTE5NjI3MDE1OTIsMzM2NjQ0MTQ4LC0xNT
+U2NDQwOTg4LDUxNTU2MzY3MywtNDEyNzU1NDk1LC0xMzExNzU3
+MTY2LC04NDE1MDIwMzMsLTExMjA1NDQ5NTEsMTMyNTkwNTE2OC
+wyMTAyOTUzMjI2LDEyODgzMjQzMDQsLTE5MDQ4ODk1MTQsLTEy
+OTg0MTM5NjIsOTkxOTI3NywtNzMwNzg4NjY1LC0xOTM2NzY4Nz
+gsLTMxNjMxNTgwMSwxNTAzNTc2MzI2LDE2MjE4NDI2NjcsLTE0
+ODU5NDIyMTRdfQ==
 -->
