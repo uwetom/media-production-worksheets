@@ -47,7 +47,7 @@ Before you start this next section you should have followed the previous tutoria
 
 You should be able to preview the HTTP request from the URL link you generated  in your browser and see a JSON file that looks like [this]( https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-3.png). It has a list of ```near_earth_objects``` that we will be using.
 
-Save the https://... link in a text file (if you haven't already).
+Save the URL link in a text file (if you haven't already).
 
 If this isn't working you will need to revisit the previous tutorial.
 
@@ -171,7 +171,7 @@ public class GetData : MonoBehaviour
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NjA5OTg5NywtNjU2Nzc0NDY4LDIzND
+eyJoaXN0b3J5IjpbLTk4NTEwNjAwNywtNjU2Nzc0NDY4LDIzND
 k3NjY2MSwxMzQ4MDM0MzA0LC05MDgyNzk5NDYsLTE1NDMyNTA5
 MzcsLTY3MjgzNjAsMTAwNTY2MDc0MiwxNzcyMjE1MjE0LC00OD
 MzODc5LC05MDgzNDgxMjYsMzM2NjQ0MTQ4LC0xNTU2NDQwOTg4
