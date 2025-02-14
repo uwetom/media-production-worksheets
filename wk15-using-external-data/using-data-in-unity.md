@@ -105,13 +105,13 @@ The code in this file will work with any API URL request / data that is in JSON 
 
 In the next video I am going to extract information from the JSON data about Near Earth Objects (asteroids) that NASA has designated as hazardous.
 I want to list all the asteroid names and get their size in km.
-The NASA json data contains all this information. 
+The NASA json data contains all this information.  Each [near_earth_object](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-3.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDMyNTA5MzcsLTY3MjgzNjAsMTAwNT
-Y2MDc0MiwxNzcyMjE1MjE0LC00ODMzODc5LC05MDgzNDgxMjYs
-MzM2NjQ0MTQ4LC0xNTU2NDQwOTg4LDUxNTU2MzY3MywtNDEyNz
-U1NDk1LC0xMzExNzU3MTY2LC04NDE1MDIwMzMsLTExMjA1NDQ5
-NTEsMTMyNTkwNTE2OCwyMTAyOTUzMjI2LDEyODgzMjQzMDQsLT
-E5MDQ4ODk1MTQsLTEyOTg0MTM5NjIsOTkxOTI3NywtNzMwNzg4
-NjY1XX0=
+eyJoaXN0b3J5IjpbLTUxMzc0MjU0NSwtMTU0MzI1MDkzNywtNj
+cyODM2MCwxMDA1NjYwNzQyLDE3NzIyMTUyMTQsLTQ4MzM4Nzks
+LTkwODM0ODEyNiwzMzY2NDQxNDgsLTE1NTY0NDA5ODgsNTE1NT
+YzNjczLC00MTI3NTU0OTUsLTEzMTE3NTcxNjYsLTg0MTUwMjAz
+MywtMTEyMDU0NDk1MSwxMzI1OTA1MTY4LDIxMDI5NTMyMjYsMT
+I4ODMyNDMwNCwtMTkwNDg4OTUxNCwtMTI5ODQxMzk2Miw5OTE5
+Mjc3XX0=
 -->
