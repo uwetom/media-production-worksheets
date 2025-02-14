@@ -54,7 +54,7 @@ If this isn't working you will need to revisit the previous tutorial.
 ## Use C# to get external data into Unity
 In the next video we will use Unity networking to access the data in the NASA JSON file, live from the NASA dataset. Unity will access the link and download the data into your project.
 
-
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=3f680212-dab6-4da2-acc3-b28400e8c6db&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-data-2 Get JSON data" ></iframe>
 
 Coroutines provide an excellent way of easily managing things that need to happen after a delay or over the course of time. You can learn more about them here:
 https://learn.unity.com/tutorial/coroutines# 
@@ -65,11 +65,11 @@ https://learn.unity.com/tutorial/coroutines#
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MzM4NzksLTkwODM0ODEyNiwzMzY2ND
-QxNDgsLTE1NTY0NDA5ODgsNTE1NTYzNjczLC00MTI3NTU0OTUs
-LTEzMTE3NTcxNjYsLTg0MTUwMjAzMywtMTEyMDU0NDk1MSwxMz
-I1OTA1MTY4LDIxMDI5NTMyMjYsMTI4ODMyNDMwNCwtMTkwNDg4
-OTUxNCwtMTI5ODQxMzk2Miw5OTE5Mjc3LC03MzA3ODg2NjUsLT
-E5MzY3Njg3OCwtMzE2MzE1ODAxLDE1MDM1NzYzMjYsMTYyMTg0
-MjY2N119
+eyJoaXN0b3J5IjpbNjI2NDI1MzM4LC00ODMzODc5LC05MDgzND
+gxMjYsMzM2NjQ0MTQ4LC0xNTU2NDQwOTg4LDUxNTU2MzY3Mywt
+NDEyNzU1NDk1LC0xMzExNzU3MTY2LC04NDE1MDIwMzMsLTExMj
+A1NDQ5NTEsMTMyNTkwNTE2OCwyMTAyOTUzMjI2LDEyODgzMjQz
+MDQsLTE5MDQ4ODk1MTQsLTEyOTg0MTM5NjIsOTkxOTI3NywtNz
+MwNzg4NjY1LC0xOTM2NzY4NzgsLTMxNjMxNTgwMSwxNTAzNTc2
+MzI2XX0=
 -->
