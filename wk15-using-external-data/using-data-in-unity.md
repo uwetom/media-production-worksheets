@@ -98,7 +98,7 @@ public class GetData : MonoBehaviour
 }
 ```
 The Unity project that you now have will allow you to download data from any data repository or API that is in JSON format. 
-It will also work in an AR / VR or normal Unity project.
+It will also work in an AR / VR or normal Unity project. Very useful!
 
 
 ## Use C# to navigate and extract data from JSON
@@ -174,7 +174,7 @@ public class GetData : MonoBehaviour
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5ODk1NTMzMywtNjU2Nzc0NDY4LDIzND
+eyJoaXN0b3J5IjpbMjAyNzA2NzY0NiwtNjU2Nzc0NDY4LDIzND
 k3NjY2MSwxMzQ4MDM0MzA0LC05MDgyNzk5NDYsLTE1NDMyNTA5
 MzcsLTY3MjgzNjAsMTAwNTY2MDc0MiwxNzcyMjE1MjE0LC00OD
 MzODc5LC05MDgzNDgxMjYsMzM2NjQ0MTQ4LC0xNTU2NDQwOTg4
