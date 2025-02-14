@@ -108,12 +108,15 @@ In the next video I am going to add to the ``GetData`` C# script to extract spec
 I want to get information about Near Earth Objects (asteroids) that NASA has designated as hazardous, listing the asteroid names and their size in km.
 The NASA json data contains all this information.  Each [near_earth_object](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-3.png) (asteroid) has a name and  size.  Each asteroid is also classified as ```"is_potentially_hazardous_asteroid": false,``` or ```true```. We will use this to filter the data.
 
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwODI3OTk0NiwtMTU0MzI1MDkzNywtNj
-cyODM2MCwxMDA1NjYwNzQyLDE3NzIyMTUyMTQsLTQ4MzM4Nzks
-LTkwODM0ODEyNiwzMzY2NDQxNDgsLTE1NTY0NDA5ODgsNTE1NT
-YzNjczLC00MTI3NTU0OTUsLTEzMTE3NTcxNjYsLTg0MTUwMjAz
-MywtMTEyMDU0NDk1MSwxMzI1OTA1MTY4LDIxMDI5NTMyMjYsMT
-I4ODMyNDMwNCwtMTkwNDg4OTUxNCwtMTI5ODQxMzk2Miw5OTE5
-Mjc3XX0=
+eyJoaXN0b3J5IjpbMTM0ODAzNDMwNCwtOTA4Mjc5OTQ2LC0xNT
+QzMjUwOTM3LC02NzI4MzYwLDEwMDU2NjA3NDIsMTc3MjIxNTIx
+NCwtNDgzMzg3OSwtOTA4MzQ4MTI2LDMzNjY0NDE0OCwtMTU1Nj
+Q0MDk4OCw1MTU1NjM2NzMsLTQxMjc1NTQ5NSwtMTMxMTc1NzE2
+NiwtODQxNTAyMDMzLC0xMTIwNTQ0OTUxLDEzMjU5MDUxNjgsMj
+EwMjk1MzIyNiwxMjg4MzI0MzA0LC0xOTA0ODg5NTE0LC0xMjk4
+NDEzOTYyXX0=
 -->
