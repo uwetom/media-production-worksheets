@@ -25,7 +25,7 @@ If you aren't sure how to Fork and Clone a GitHub repository watch this video: (
 
 Open the AR-Template project in Unity and add a new folder in 'Assets' called 'Scripts'.
 
-Download the code library for Unity called [SimpleJSON](https://github.com/Bunny83/SimpleJSON) and unzip it.
+Download a zip file of the code library for Unity called [SimpleJSON](https://github.com/Bunny83/SimpleJSON) and unzip it.
 
 ![download a GitHub repo as zip file](https://uwetom.github.io/media-production-worksheets/wk15-using-external-data/images/download-repo.png)
 
@@ -62,11 +62,11 @@ https://learn.unity.com/tutorial/coroutines#
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjI3MDE1OTIsMzM2NjQ0MTQ4LC0xNT
-U2NDQwOTg4LDUxNTU2MzY3MywtNDEyNzU1NDk1LC0xMzExNzU3
-MTY2LC04NDE1MDIwMzMsLTExMjA1NDQ5NTEsMTMyNTkwNTE2OC
-wyMTAyOTUzMjI2LDEyODgzMjQzMDQsLTE5MDQ4ODk1MTQsLTEy
-OTg0MTM5NjIsOTkxOTI3NywtNzMwNzg4NjY1LC0xOTM2NzY4Nz
-gsLTMxNjMxNTgwMSwxNTAzNTc2MzI2LDE2MjE4NDI2NjcsLTE0
-ODU5NDIyMTRdfQ==
+eyJoaXN0b3J5IjpbLTkzOTc1NDMyNSwzMzY2NDQxNDgsLTE1NT
+Y0NDA5ODgsNTE1NTYzNjczLC00MTI3NTU0OTUsLTEzMTE3NTcx
+NjYsLTg0MTUwMjAzMywtMTEyMDU0NDk1MSwxMzI1OTA1MTY4LD
+IxMDI5NTMyMjYsMTI4ODMyNDMwNCwtMTkwNDg4OTUxNCwtMTI5
+ODQxMzk2Miw5OTE5Mjc3LC03MzA3ODg2NjUsLTE5MzY3Njg3OC
+wtMzE2MzE1ODAxLDE1MDM1NzYzMjYsMTYyMTg0MjY2NywtMTQ4
+NTk0MjIxNF19
 -->
