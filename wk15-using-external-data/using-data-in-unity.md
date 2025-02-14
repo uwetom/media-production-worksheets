@@ -29,7 +29,7 @@ Download a zip file of the code library for Unity called [SimpleJSON](https://gi
 
 ![download a GitHub repo as zip file](https://uwetom.github.io/media-production-worksheets/wk15-using-external-data/images/download-repo.png)
 
-Add the file called SimpleJSON.cs to your Scripts folder. Do not add any of the other files.
+Add / drag the file called SimpleJSON.cs to your Scripts folder. Do not add any of the other files.
 
 ## Set up the virtual testing environment for AR
 
@@ -62,7 +62,7 @@ https://learn.unity.com/tutorial/coroutines#
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzOTc1NDMyNSwzMzY2NDQxNDgsLTE1NT
+eyJoaXN0b3J5IjpbLTkwODM0ODEyNiwzMzY2NDQxNDgsLTE1NT
 Y0NDA5ODgsNTE1NTYzNjczLC00MTI3NTU0OTUsLTEzMTE3NTcx
 NjYsLTg0MTUwMjAzMywtMTEyMDU0NDk1MSwxMzI1OTA1MTY4LD
 IxMDI5NTMyMjYsMTI4ODMyNDMwNCwtMTkwNDg4OTUxNCwtMTI5
