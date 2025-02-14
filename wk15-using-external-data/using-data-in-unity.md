@@ -97,13 +97,13 @@ public class GetData : MonoBehaviour
     }
 }
 ```
-The code in this file will work with any API URL request / data that is in JSON format.
+The code in this file will work with any API URL request / data that is in JSON format. It will also work in an AT / VR or normal Unity project.
 
 
 ## Use C# to navigate and extract data from JSON
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NjAwNzI3NywxNzcyMjE1MjE0LC00OD
+eyJoaXN0b3J5IjpbMTAwNTY2MDc0MiwxNzcyMjE1MjE0LC00OD
 MzODc5LC05MDgzNDgxMjYsMzM2NjQ0MTQ4LC0xNTU2NDQwOTg4
 LDUxNTU2MzY3MywtNDEyNzU1NDk1LC0xMzExNzU3MTY2LC04ND
 E1MDIwMzMsLTExMjA1NDQ5NTEsMTMyNTkwNTE2OCwyMTAyOTUz
