@@ -107,7 +107,7 @@ In the next video I am going to add to the ``GetData`` C# script to extract spec
 I want to get information about Near Earth Objects (asteroids) that NASA has designated as hazardous, listing the asteroid names and their size in km.
 The NASA json data contains all this information.  Each [near_earth_object](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-3.png) (asteroid) has a name and  size.  Each asteroid is also classified as ```"is_potentially_hazardous_asteroid": false,``` or ```true```. We will use this to filter the data.
 
-Note: Before you start this video review the section of the last worksheet on **How to get values from JSON**. We will be using keys to access the values in data.
+Note: Before you start this video review the section of the last worksheet called **How to get values from JSON**. We will be using keys to access the values in data.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=d9464bce-ae0c-4ecc-bcb6-b284011ed94b&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-data-3b extract data" ></iframe>
 
@@ -172,11 +172,11 @@ public class GetData : MonoBehaviour
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkwMjc4NjY5LC02NTY3NzQ0NjgsMjM0OT
-c2NjYxLDEzNDgwMzQzMDQsLTkwODI3OTk0NiwtMTU0MzI1MDkz
-NywtNjcyODM2MCwxMDA1NjYwNzQyLDE3NzIyMTUyMTQsLTQ4Mz
-M4NzksLTkwODM0ODEyNiwzMzY2NDQxNDgsLTE1NTY0NDA5ODgs
-NTE1NTYzNjczLC00MTI3NTU0OTUsLTEzMTE3NTcxNjYsLTg0MT
-UwMjAzMywtMTEyMDU0NDk1MSwxMzI1OTA1MTY4LDIxMDI5NTMy
-MjZdfQ==
+eyJoaXN0b3J5IjpbLTg4MDA0Nzk1NywtNjU2Nzc0NDY4LDIzND
+k3NjY2MSwxMzQ4MDM0MzA0LC05MDgyNzk5NDYsLTE1NDMyNTA5
+MzcsLTY3MjgzNjAsMTAwNTY2MDc0MiwxNzcyMjE1MjE0LC00OD
+MzODc5LC05MDgzNDgxMjYsMzM2NjQ0MTQ4LC0xNTU2NDQwOTg4
+LDUxNTU2MzY3MywtNDEyNzU1NDk1LC0xMzExNzU3MTY2LC04ND
+E1MDIwMzMsLTExMjA1NDQ5NTEsMTMyNTkwNTE2OCwyMTAyOTUz
+MjI2XX0=
 -->
