@@ -60,17 +60,52 @@ In this video we used a Coroutine / IENumerator.
 Coroutines provide an excellent way of easily managing things that need to happen after a delay or over the course of time. You can learn more about them here:
 https://learn.unity.com/tutorial/coroutines# 
 
+This is the code in the video
+```C#
+using System.Collections.Generic;
+using UnityEngine;
+using SimpleJSON;
+using UnityEngine.Networking;
 
+public class GetData : MonoBehaviour
+{
+    public string DataURL;
 
+    // Start is called before the first frame update
+    void Start()
+    {
+        StartCoroutine(getData());
+    }
+
+    IEnumerator getData()
+    {
+        using (UnityWebRequest request = UnityWebRequest.Get(DataURL))
+        {
+            yield return request.SendWebRequest();
+
+            if (request.result == UnityWebRequest.Result.ConnectionError)
+            {
+                Debug.LogError(request.error);
+            }
+            else
+            {
+                string json = request.downloadHandler.text;
+                Debug.Log(json);
+            }
+
+        }
+    }
+}
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MjIxNTIxNCwtNDgzMzg3OSwtOTA4Mz
-Q4MTI2LDMzNjY0NDE0OCwtMTU1NjQ0MDk4OCw1MTU1NjM2NzMs
-LTQxMjc1NTQ5NSwtMTMxMTc1NzE2NiwtODQxNTAyMDMzLC0xMT
-IwNTQ0OTUxLDEzMjU5MDUxNjgsMjEwMjk1MzIyNiwxMjg4MzI0
-MzA0LC0xOTA0ODg5NTE0LC0xMjk4NDEzOTYyLDk5MTkyNzcsLT
-czMDc4ODY2NSwtMTkzNjc2ODc4LC0zMTYzMTU4MDEsMTUwMzU3
-NjMyNl19
+eyJoaXN0b3J5IjpbNDg0NDM4ODgwLDE3NzIyMTUyMTQsLTQ4Mz
+M4NzksLTkwODM0ODEyNiwzMzY2NDQxNDgsLTE1NTY0NDA5ODgs
+NTE1NTYzNjczLC00MTI3NTU0OTUsLTEzMTE3NTcxNjYsLTg0MT
+UwMjAzMywtMTEyMDU0NDk1MSwxMzI1OTA1MTY4LDIxMDI5NTMy
+MjYsMTI4ODMyNDMwNCwtMTkwNDg4OTUxNCwtMTI5ODQxMzk2Mi
+w5OTE5Mjc3LC03MzA3ODg2NjUsLTE5MzY3Njg3OCwtMzE2MzE1
+ODAxXX0=
 -->
