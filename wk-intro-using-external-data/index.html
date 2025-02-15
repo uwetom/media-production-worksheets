@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><p><a href="https://uwetom.github.io/media-production-worksheets">Back</a></p>
+<h1 id="introduction-to-using-external-data-what-are-apis">Introduction to using external data (what are APIs)</h1>
+<h2 id="accessing-external-data">Accessing external data</h2>
+<p>Using external data can be a powerful addition to your unity 3D environment, particularly if you want to simulate a physical environment in real time.</p>
+<p>Or if you want to use unity to visualise some sort of data.</p>
+<p>For example it’s quite possible to completely change your unity scene based on say environmental or climate data.</p>
+<p>In this session we’re going to look at how to access external data from unity, where you might find it, and then how you might deploy it and use it in unity.</p>
+<h2 id="rest-apis">Rest APIs</h2>
+<p>Most external data is held in databases and can be accessed via a simple web link (HTTP request) using <code>https://...</code> these custom links are called ‘designated entry points’.</p>
+<p>Sometimes you will need an account and passkey to access data other times the data will be open and unsecured.</p>
+<p>Usually documentation that accompanies the database and repository of data will explain how you can access it.</p>
+<p>This often involves making a HTTP request and the data is returned from that request in a JSON format.</p>
+<p>This process is known as an application programming interface or API.</p>
+<p>Let’s have a look at how it works and access some data from our web browser and then we can try and work out how to do this in unity.</p>
+<h2 id="install-a-json-formatter-browser-extension--addon-chrome-browser-extension">Install a JSON formatter browser extension / addon Chrome browser extension</h2>
+<p>So that we can easily read the returned data Install one of these browser extensions.</p>
+<p>The data that will be returned to us will be formatted as javaScript Object Notation. The browser extension will make it much easier to read.<br>
+Chrome extension:<br>
+<a href="https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en">https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en</a></p>
+<p>Firefox addon:<br>
+<a href="https://addons.mozilla.org/en-GB/firefox/addon/basic-json-formatter/">https://addons.mozilla.org/en-GB/firefox/addon/basic-json-formatter/</a></p>
+<p>Use Safari or Edge? We feel for you…</p>
+<h2 id="getting-some-data">Getting some data</h2>
+<p>Let’s start getting some data with a joke API to begin with. This API returns a random / different joke on every request. (The jokes aren’t very good).</p>
+<p>Put this URl in your browser<br>
+<a href="https://v2.jokeapi.dev/joke/Any?safe-mode">https://v2.jokeapi.dev/joke/Any?safe-mode</a><br>
+If you have successfully installed the Chrome or Firefox extension you should see a joke similar to the following.</p>
+<p><img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/joke-api-2.png" alt="JSON data"></p>
+<h3 id="code-challenge---get-some-data">Code challenge - get some data</h3>
+<p>Now you have a go using weather data using open meteo.<br>
+<a href="https://open-meteo.com/">https://open-meteo.com/</a><br>
+Look at the documentation and try and work out what HTTP browser request you need to make in order to return some live weather data for our current location…</p>
+<p>(Hint: use maps to get our Latitude and Longitude position)</p>
+<p>The returned meteo JSON data should look like:</p>
+<p><img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/meteo-api-2.png" alt="JSON file"></p>
+<p><a href="https://uwetom.github.io/media-production-worksheets/wk15-using-external-data/api-solutions.html">Need the solution?</a></p>
+<h2 id="how-json-works">How JSON works</h2>
+<p>JSON files are structured using a <code>key : value</code> system.<br>
+Multiple pairs are separated by commas.<br>
+A simple example JSON file might look like this:</p>
+<pre class=" language-javascript"><code class="prism  language-javascript"><span class="token punctuation">{</span> <span class="token string">"latitude"</span><span class="token punctuation">:</span> <span class="token number">52.52</span><span class="token punctuation">,</span> <span class="token string">"longtitude"</span><span class="token punctuation">:</span> <span class="token number">13.419</span><span class="token punctuation">,</span> <span class="token string">"location"</span><span class="token punctuation">:</span> <span class="token string">"Bristol"</span><span class="token punctuation">}</span>
+</code></pre>
+<p>Here <code>"latitude"</code> and <code>"longtitude"</code> and <code>"location"</code> are the keys<br>
+While <code>52.52</code> <code>13.419</code> <code>"Bristol"</code> are the values.</p>
+<p>The format is</p>
+<pre class=" language-javascript"><code class="prism  language-javascript"><span class="token punctuation">{</span> <span class="token string">"key"</span><span class="token punctuation">:</span> <span class="token string">"value"</span><span class="token punctuation">}</span>
+</code></pre>
+<p>Multiple <code>key : value</code> pairs are separated by commas.</p>
+<p>Often JSON is written with line breaks so the same JSON file could be written like this:</p>
+<pre class=" language-javascript"><code class="prism  language-javascript"><span class="token punctuation">{</span> 
+	<span class="token string">"latitude"</span><span class="token punctuation">:</span> <span class="token number">52.52</span><span class="token punctuation">,</span> 
+	<span class="token string">"longtitude"</span><span class="token punctuation">:</span> <span class="token number">13.419</span><span class="token punctuation">,</span> 
+	<span class="token string">"location"</span><span class="token punctuation">:</span> <span class="token string">"Bristol"</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>It is also common for data to be nested like this:</p>
+<pre class=" language-javascript"><code class="prism  language-javascript"><span class="token punctuation">{</span> 
+	<span class="token string">"latitude"</span><span class="token punctuation">:</span> <span class="token number">52.52</span><span class="token punctuation">,</span> 
+	<span class="token string">"longtitude"</span><span class="token punctuation">:</span> <span class="token number">13.419</span><span class="token punctuation">,</span> 
+	<span class="token string">"location"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+		<span class="token string">"city"</span><span class="token punctuation">:</span> <span class="token string">"Bristol"</span><span class="token punctuation">,</span>
+		<span class="token string">"street"</span> <span class="token punctuation">:</span> <span class="token string">"Coldharbour Lane"</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>To access the data in most programming languages you ‘parse’ the JSON file and turn into in an Object, then call each key to access the value<br>
+Using the JSON above:</p>
+<pre class=" language-javascript"><code class="prism  language-javascript">MyJsonFile<span class="token punctuation">[</span><span class="token string">"latitude"</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">// returns 52.52</span>
+MyJsonFile<span class="token punctuation">[</span><span class="token string">"longtitude"</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">// returns 13.419</span>
+</code></pre>
+<p>Access nested data like this:</p>
+<pre class=" language-javascript"><code class="prism  language-javascript">MyJsonFile<span class="token punctuation">[</span><span class="token string">"location"</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token string">"city"</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">// returns "Bristol"</span>
+MyJsonFile<span class="token punctuation">[</span><span class="token string">"location"</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token string">"street"</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">// returns "Coldharbour Lane"</span>
+</code></pre>
+<h3 id="code-challenge---get-some-data-1">Code challenge - get some data</h3>
+<p>Using the meteo JSON example above what would you write to access the the current temperature and rain?</p>
+<h2 id="data-repositories--libraries">Data repositories / libraries</h2>
+<p>You can find a list of unsecured data with API access here</p>
+<p><a href="https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/">https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/</a></p>
+<p><a href="https://free-apis.github.io/#/browse">https://free-apis.github.io/#/browse</a></p>
+<h2 id="api-keys">API Keys</h2>
+<p>For many data repositories it is quite common to need to make an account and log in. You are then given a passkey (an API Key) which you add to the HTTP url when you make the request.</p>
+<h4 id="near-earth-objects-example">Near Earth Objects example:</h4>
+<p>This Nasa data repository about Near Earth Objects (NEO / asteroids that will pass close to earth) <a href="https://api.nasa.gov/">https://api.nasa.gov/</a> needs a log in and API Key.</p>
+<p>Scroll down on the link above to find the documentation about Asteroids-NeoWs (Near Earth Object Web Service).<br>
+<img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-2.png" alt="JSON file"><br>
+The format for the HTTP web request to retrieve all Near Earth Objects is:</p>
+<p><a href="https://api.nasa.gov/neo/rest/v1/neo/browse?api_key=DEMO_KEY"><code>https://api.nasa.gov/neo/rest/v1/neo/browse?api_key=DEMO_KEY</code></a></p>
+<p>Go to <a href="https://api.nasa.gov/">https://api.nasa.gov/</a> Make a free account and replace <code>DEMO_KEY</code> with your api key.</p>
+<p>Open Chrome browser and run the link. You should see a list of  <code>near_earth_objects</code>:</p>
+<p><img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-3.png" alt="JSON file"></p>
+<p>How many are<br>
+<code>"is_potentially_hazardous_asteroid": true,</code></p>
+<p>Now let’s get this data into Unity and learn how to use it…</p>
+</div>
+</body>
+
+</html>
