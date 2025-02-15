@@ -106,7 +106,7 @@ In the next video I am going to add to the ``GetData`` C# script to extract spec
 
 I want to get information about Near Earth Objects (asteroids) that NASA has designated as hazardous, listing the asteroid names and their size in km.
 
-In this  [Preview](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk-intro-external-data/images/neows-4.png)   you can see that NASA json data contains all this information.  
+In this [Preview](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk-intro-external-data/images/neows-4.png)   you can see that NASA json data contains all this information.  
 
 Each ```near_earth_object```(asteroid) has a name and  size.
 Each asteroid is also classified as ```"is_potentially_hazardous_asteroid": false,``` or ```true```. 
@@ -178,7 +178,7 @@ public class GetData : MonoBehaviour
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAwOTAyMzExLDk3MTA2NDc2MiwxNTYzOT
+eyJoaXN0b3J5IjpbMzE0ODEwMTgzLDk3MTA2NDc2MiwxNTYzOT
 gxMTYyLDIwNzg0MDExMjYsLTM4MjM1NzM0MiwxMzc3MTkxMDc0
 LC0xMjgzMzkxNTc4XX0=
 -->
