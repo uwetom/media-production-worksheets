@@ -135,12 +135,12 @@ Open Chrome browser and run the link. You should see a list of  ```near_earth_ob
 
 **! Important: Save the link in a text file.**
 
-![JSON file](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-3.png)
+![JSON file](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk-intro-using-external-data/images/neows-3.png)
 
 How many are 
 ```"is_potentially_hazardous_asteroid": true,```
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTA2MzgzNjcsMzY2Mzc0NTEwXX0=
+eyJoaXN0b3J5IjpbLTU5MjQ5MjEzMiwzNjYzNzQ1MTBdfQ==
 -->
