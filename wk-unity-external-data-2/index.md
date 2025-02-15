@@ -18,7 +18,10 @@ In this example we are going to use the data instantiate (create) objects in our
 ## Set up: install rock package
 
 Download and install this rock package of prefabs and animations.
+png)
 
+[<img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/videoframe_4502.png">](http://example.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNjM1NzAxMSwtODQzOTk1OTgyXX0=
+eyJoaXN0b3J5IjpbLTMxMDM2ODI0OCwtODI2MzU3MDExLC04ND
+M5OTU5ODJdfQ==
 -->
