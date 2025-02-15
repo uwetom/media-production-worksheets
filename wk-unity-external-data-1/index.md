@@ -27,7 +27,7 @@ Open the AR-Template project in Unity and add a new folder in 'Assets' called 'S
 
 Next download a zip file of the code library for Unity called [SimpleJSON](https://github.com/Bunny83/SimpleJSON) and unzip it.
 
-![download a GitHub repo as zip file](https://uwetom.github.io/media-production-worksheets/wk-using-external-data-1/images/download-repo.png)
+![download a GitHub repo as zip file](https://uwetom.github.io/media-production-worksheets/wk-intro-external-data/images/download-repo.png)
 
 Add / drag the file called SimpleJSON.cs to your Scripts folder. Do not add any of the other files.
 
@@ -175,5 +175,5 @@ public class GetData : MonoBehaviour
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODMzOTE1NzhdfQ==
+eyJoaXN0b3J5IjpbMTM3NzE5MTA3NCwtMTI4MzM5MTU3OF19
 -->
