@@ -17,8 +17,8 @@ In this example we are going to use the data instantiate (create) objects in our
 
 ## Set up: install rock package
 
-Download and i
+Download and install this rock package of prefabs and animations.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MjA4NzMzNCwtODQzOTk1OTgyXX0=
+eyJoaXN0b3J5IjpbLTgyNjM1NzAxMSwtODQzOTk1OTgyXX0=
 -->
