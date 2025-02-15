@@ -1,6 +1,6 @@
 [Back](https://uwetom.github.io/media-production-worksheets)
 
-# Using external data in unity 
+# Using external data in unity pt 1
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VZ1ThbYgEcQ?si=YO7O_Asb9WVCA67t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -175,5 +175,5 @@ public class GetData : MonoBehaviour
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwODg1ODcxNV19
+eyJoaXN0b3J5IjpbMTc3Mzc5MjE2Nl19
 -->
