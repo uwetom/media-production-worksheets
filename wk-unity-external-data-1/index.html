@@ -33,7 +33,7 @@
 <p>In the next steps we will add some external data.</p>
 <h2 id="get-a-link-to-some-external-data">Get a link to some external data</h2>
 <p>Before you start this next section you should have followed the previous tutorial and made an account on <a href="https://api.nasa.gov/">https://api.nasa.gov/</a> and used your API key to get some external data about Near Earth Objects.</p>
-<p>The URL link you generated should allow you to preview the HTTP request in your browser and see a JSON file that looks like <a href="https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-3.png">this</a>. It has a list of <code>near_earth_objects</code> that we will be using.</p>
+<p>The URL link you generated should allow you to preview the HTTP request in your browser and see a JSON file that looks like <a href="https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk-intro-external-data/images/neows-3.png">this</a>. It has a list of <code>near_earth_objects</code> that we will be using.</p>
 <p>Save the URL link in a text file (if you haven’t already).</p>
 <p>If this isn’t working you will need to revisit the previous tutorial.</p>
 <h2 id="use-c-to-get-external-data-into-unity">Use C# to get external data into Unity</h2>
@@ -83,7 +83,7 @@ It will also work in an AR / VR or normal Unity project. Very useful!</p>
 <h2 id="use-c-to-navigate-and-extract-data-from-json">Use C# to navigate and extract data from JSON</h2>
 <p>In the next video I am going to add to the <code>GetData</code> C# script to extract specific information from the JSON data.</p>
 <p>I want to get information about Near Earth Objects (asteroids) that NASA has designated as hazardous, listing the asteroid names and their size in km.<br>
-The NASA json data contains all this information.  Each <a href="https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-4.png">near_earth_object</a> (asteroid) has a name and  size.  Each asteroid is also classified as <code>"is_potentially_hazardous_asteroid": false,</code> or <code>true</code>.<br>
+The NASA json data contains all this information.  Each <a href="https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk-intro-external-data/images/neows-4.png">near_earth_object</a> (asteroid) has a name and  size.  Each asteroid is also classified as <code>"is_potentially_hazardous_asteroid": false,</code> or <code>true</code>.<br>
 We will use this to filter the data with an ```if()`` statement.</p>
 <p><strong>Note:</strong> Before you follow this video it might be helpful to review the section of the last worksheet called <strong>How to get values from JSON</strong>. We will be using keys to access the values in data.</p>
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=d9464bce-ae0c-4ecc-bcb6-b284011ed94b&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=true&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
