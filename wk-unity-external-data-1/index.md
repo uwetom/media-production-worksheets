@@ -2,7 +2,7 @@
 
 # Using external data in unity pt 1
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VZ1ThbYgEcQ?si=YO7O_Asb9WVCA67t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+![enter image description here](https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/asteroids.gif)
 
 *(AR scene of Near Earth Objects designated as hazardous by NASA, generated from a NASA dataset)*
 
@@ -175,6 +175,7 @@ public class GetData : MonoBehaviour
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2Mzk4MTE2MiwyMDc4NDAxMTI2LC0zOD
-IzNTczNDIsMTM3NzE5MTA3NCwtMTI4MzM5MTU3OF19
+eyJoaXN0b3J5IjpbLTE1Njg4MTUxNzAsMTU2Mzk4MTE2MiwyMD
+c4NDAxMTI2LC0zODIzNTczNDIsMTM3NzE5MTA3NCwtMTI4MzM5
+MTU3OF19
 -->
