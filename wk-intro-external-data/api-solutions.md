@@ -1,6 +1,6 @@
 [Back](https://uwetom.github.io/media-production-worksheets/wk-intro-external-data)
 
-# Using external data in unity solutions
+# Code challenge - get some data
 
 The following link should take you to a web page where you can configure options to get a URL for the current weather data for today at Q Block
 [https://open-meteo.com/en/docs#current=temperature_2m,is_day,precipitation,rain,cloud_cover&hourly=wind_speed_10m&timezone=Europe%2FLondon&forecast_days=1](https://open-meteo.com/en/docs#current=temperature_2m,is_day,precipitation,rain,cloud_cover&hourly=wind_speed_10m&timezone=Europe%2FLondon&forecast_days=1)
@@ -19,5 +19,6 @@ The returned data should look like:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MjAwNjYzNSwtOTc2NDk5MTYxXX0=
+eyJoaXN0b3J5IjpbNjM0MDkwMTEsMTk0MjAwNjYzNSwtOTc2ND
+k5MTYxXX0=
 -->
