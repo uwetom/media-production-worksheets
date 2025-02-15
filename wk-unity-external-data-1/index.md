@@ -45,7 +45,7 @@ In the next steps we will add some external data.
 
 Before you start this next section you should have followed the previous tutorial and made an account on https://api.nasa.gov/ and used your API key to get some external data about Near Earth Objects.
 
-The URL link you generated should allow you to preview the HTTP request in your browser and see a JSON file that looks like [this]( https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/neows-3.png). It has a list of ```near_earth_objects``` that we will be using.
+The URL link you generated should allow you to preview the HTTP request in your browser and see a JSON file that looks like [this]( https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk-using-external-data-1/images/neows-3.png). It has a list of ```near_earth_objects``` that we will be using.
 
 Save the URL link in a text file (if you haven't already).
 
@@ -175,5 +175,6 @@ public class GetData : MonoBehaviour
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NzE5MTA3NCwtMTI4MzM5MTU3OF19
+eyJoaXN0b3J5IjpbLTM4MjM1NzM0MiwxMzc3MTkxMDc0LC0xMj
+gzMzkxNTc4XX0=
 -->
