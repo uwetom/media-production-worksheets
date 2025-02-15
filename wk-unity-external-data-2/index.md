@@ -2,8 +2,7 @@
 
 # Using external data in unity pt 2
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VZ1ThbYgEcQ?si=YO7O_Asb9WVCA67t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+![enter image description here](https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/asteroids.gif)
 *(AR scene of Near Earth Objects designated as hazardous by NASA, generated from a NASA dataset)*
 
 ## Overview
@@ -18,10 +17,9 @@ In this example we are going to use the data instantiate (create) objects in our
 ## Set up: install rock package
 
 Download and install this rock package of prefabs and animations.
-png)
 
 [<img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/videoframe_4502.png">](http://example.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMDM2ODI0OCwtODI2MzU3MDExLC04ND
-M5OTU5ODJdfQ==
+eyJoaXN0b3J5IjpbLTg5NDM0Mjc1NCwtMzEwMzY4MjQ4LC04Mj
+YzNTcwMTEsLTg0Mzk5NTk4Ml19
 -->
