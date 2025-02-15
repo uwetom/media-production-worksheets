@@ -11,8 +11,10 @@ In this next tutorial we are going to use  data to add objects and information t
 
 This follows on directly from **Using external data in unity pt 1** So you should have completed pt 1 and have your your Unity project open and your **GetData** C# script open in Visual Studio to begin.
 
+It is possible to use incoming data to alter nearly every aspect of your your scene (objects, atmosphere, materials, texture, physics and so on). In this
+
 ## Set up: install rock package
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MjY1NTE2NywtMTQ5NTMxMDAxNF19
+eyJoaXN0b3J5IjpbMTM2NDk4NDkxMSwtMTQ5NTMxMDAxNF19
 -->
