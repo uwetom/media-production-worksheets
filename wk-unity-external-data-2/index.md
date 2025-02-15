@@ -17,6 +17,8 @@ In this example we are going to use the data instantiate (create) objects in our
 
 ## Set up: install rock package
 
+Download and i
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0Mzk5NTk4Ml19
+eyJoaXN0b3J5IjpbMTY1MjA4NzMzNCwtODQzOTk1OTgyXX0=
 -->
