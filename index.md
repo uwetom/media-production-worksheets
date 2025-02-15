@@ -39,15 +39,9 @@
 
   - [Using external data in Unity pt 2 (Animating a scene)](https://uwetom.github.io/media-production-worksheets/wk-unity-external-data-2/)
 
-
- - Using external data in Unity pt 1 (Getting data)
-
-- Using external data in Unity pt 2 (Animating a scene)
- 
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MDcwMjMzNywxMzI4NDI3MDQsLTM4OD
-YyMjM2MywtMTA5NjIwODkyMSwxMjIxMDczNDIxLC0yMDU2NzE1
-MDU0LDEyMzQ2MjUwMDUsMTAyMjcwNzI3NSw2NTg0NDI0MywtOD
-MzMjg4MzJdfQ==
+eyJoaXN0b3J5IjpbLTE3NTY3NjcxNDUsMTMyODQyNzA0LC0zOD
+g2MjIzNjMsLTEwOTYyMDg5MjEsMTIyMTA3MzQyMSwtMjA1Njcx
+NTA1NCwxMjM0NjI1MDA1LDEwMjI3MDcyNzUsNjU4NDQyNDMsLT
+gzMzI4ODMyXX0=
 -->
