@@ -9,8 +9,10 @@
 ## Overview
 In this next tutorial we are going to use  data to add objects and information to an AR scene (preview above)..
 
-This follows on directly from **Using external data in unity pt 1** 
+This follows on directly from **Using external data in unity pt 1** So you should have completed pt 1 and have your your Unity project open and your **GetData** C# script open in Visual Studio to begin.
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE1MzcxMDQzXX0=
+eyJoaXN0b3J5IjpbLTE0OTUzMTAwMTRdfQ==
 -->
