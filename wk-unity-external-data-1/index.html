@@ -11,8 +11,8 @@
 <body class="stackedit">
   <div class="stackedit__html"><p><a href="https://uwetom.github.io/media-production-worksheets">Back</a></p>
 <h1 id="using-external-data-in-unity-pt-1">Using external data in unity pt 1</h1>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VZ1ThbYgEcQ?si=YO7O_Asb9WVCA67t" title="YouTube video player" allowfullscreen=""></iframe>
-<p><em>(AR scene of Near Earth Objects designated as hazardous by NASA, generated from a NASA dataset)</em></p>
+<p><img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/asteroids.gif" alt="enter image description here"><br>
+<em>(AR scene of Near Earth Objects designated as hazardous by NASA, generated from a NASA dataset)</em></p>
 <h2 id="overview">Overview</h2>
 <p>In this session we are going to learn how to import live, external data (in JSON format) in Unity and extract  some data from the imported JSON.</p>
 <p>Then in the next worksheet we will use the data to add objects and information to an AR scene (preview above)…</p>
@@ -82,9 +82,11 @@ public class GetData <span class="token punctuation">:</span> MonoBehaviour
 It will also work in an AR / VR or normal Unity project. Very useful!</p>
 <h2 id="use-c-to-navigate-and-extract-data-from-json">Use C# to navigate and extract data from JSON</h2>
 <p>In the next video I am going to add to the <code>GetData</code> C# script to extract specific information from the JSON data.</p>
-<p>I want to get information about Near Earth Objects (asteroids) that NASA has designated as hazardous, listing the asteroid names and their size in km.<br>
-The NASA json data contains all this information.  Each <a href="https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk-intro-external-data/images/neows-4.png">near_earth_object</a> (asteroid) has a name and  size.  Each asteroid is also classified as <code>"is_potentially_hazardous_asteroid": false,</code> or <code>true</code>.<br>
+<p>I want to get information about Near Earth Objects (asteroids) that NASA has designated as hazardous, then listing the asteroid names and their size in km.</p>
+<p>Each asteroid is  classified as <code>"is_potentially_hazardous_asteroid": false,</code> or <code>true</code>.<br>
 We will use this to filter the data with an ```if()`` statement.</p>
+<p>Each <code>near_earth_object</code>(asteroid) also has a name and  size.</p>
+<p>In this <a href="https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk-intro-external-data/images/neows-4.png">Preview</a>   you can see that NASA json data contains all this information.</p>
 <p><strong>Note:</strong> Before you follow this video it might be helpful to review the section of the last worksheet called <strong>How to get values from JSON</strong>. We will be using keys to access the values in data.</p>
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=d9464bce-ae0c-4ecc-bcb6-b284011ed94b&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=true&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
 <p>This code should give you a good starting point and some methods for extracting data from <strong>any</strong> JSON file. The key / value principles and the nested key / value structure are used in all datasets.</p>
