@@ -43,7 +43,7 @@ Put this URl in your browser
 [https://v2.jokeapi.dev/joke/Any?safe-mode](https://v2.jokeapi.dev/joke/Any?safe-mode)
 If you have successfully installed the Chrome or Firefox extension you should see a joke similar to the following.
 
-  ![JSON data](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/joke-api-2.png)
+  ![JSON data](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk-intro-external-data/images/joke-api-2.png)
 
 ### Code challenge - get some data
 Now you have a go using weather data using open meteo. 
@@ -142,11 +142,11 @@ How many are
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MjMyMzQ5OCwxNjE2NTgyMDQxLDE1Nz
-UxNTIzMDYsLTEzMjgxMjE0MjgsMTI1MDg4MDIyOSwxNjg0ODE4
-NTY5LDc1MzkyNjMyMCwxOTQ5OTI4NTI2LDUwNjI1Nzc0MCwtMT
-UzMTkzOTAyMCwtNTU1NDAxMzgxLDEwMTQ5ODUzODYsLTE4NTUz
-NjEyMDgsLTM1ODMwNjQsMjg3MDIzNzgyLC0xNDIzMjQyNjAzLD
-E0OTM1MTAyNzYsLTE3NjA2MjQzNjgsMTYyMTc1OTc2NywtMTA0
-MDE1MzEyM119
+eyJoaXN0b3J5IjpbMzY2Mzc0NTEwLDE4OTIzMjM0OTgsMTYxNj
+U4MjA0MSwxNTc1MTUyMzA2LC0xMzI4MTIxNDI4LDEyNTA4ODAy
+MjksMTY4NDgxODU2OSw3NTM5MjYzMjAsMTk0OTkyODUyNiw1MD
+YyNTc3NDAsLTE1MzE5MzkwMjAsLTU1NTQwMTM4MSwxMDE0OTg1
+Mzg2LC0xODU1MzYxMjA4LC0zNTgzMDY0LDI4NzAyMzc4MiwtMT
+QyMzI0MjYwMywxNDkzNTEwMjc2LC0xNzYwNjI0MzY4LDE2MjE3
+NTk3NjddfQ==
 -->
