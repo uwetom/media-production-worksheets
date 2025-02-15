@@ -54,9 +54,9 @@ Look at the documentation and try and work out what HTTP browser request you nee
 
 The returned meteo JSON data should look like:
 
-![JSON file](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk15-using-external-data/images/meteo-api-2.png)
+![JSON file](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk-intro-external-data/images/meteo-api-2.png)
 
-[Need the solution?](https://uwetom.github.io/media-production-worksheets/wk15-using-external-data/api-solutions.html)
+[Need the solution?](https://uwetom.github.io/media-production-worksheets/wk-intro-external-data/api-solutions.html)
 
 
 ## How JSON works
@@ -142,5 +142,5 @@ How many are
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY2Mzc0NTEwXX0=
+eyJoaXN0b3J5IjpbMTg5MjA5Njc0MiwzNjYzNzQ1MTBdfQ==
 -->
