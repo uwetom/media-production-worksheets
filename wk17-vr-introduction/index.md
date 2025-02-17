@@ -13,9 +13,11 @@ We are using Meta Quest headsets, they can be used as stand alone devices. This 
 
 We will be using Meta Quest 1 and 2 headsets, you can also use the Quest 3 if you have one. 
 
-The headsets require you to create an account and sign in to use. To save time I will do this for you before the in class workshops, but you will need to do yourself if you use them outside class.
+The headsets require you to create an account and sign in to use. To save time I will do this for you before the in class workshops, but you will need to do yourself if you book them from the project room for use outside class.
 
 !(How to setup your own headset)[https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset/]
+
+Please make sure you reset them using the guide in the kit before returning them to the project room.
 
 ## Safety
 ## Be aware of your environment
@@ -246,6 +248,6 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzU5NDIyMjQsMTY1NDY0MTU0OSwtND
-I4NjczNzY2LDExNTE3OTU1NF19
+eyJoaXN0b3J5IjpbMTc5NjA3NTkyMCwxNjU0NjQxNTQ5LC00Mj
+g2NzM3NjYsMTE1MTc5NTU0XX0=
 -->
