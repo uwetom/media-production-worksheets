@@ -141,7 +141,7 @@ The major cause of sickness is a disconnect between what the user can see and wh
 
 One factor is frame rate, if your add too much to your scene the frame rate will drop. This will cause a delay between moving in the real world and your view in the virtual world. Even a tiny delay will be uncomfortable. Test your scene often to ensure it runs smoothly.
 
-The other factor is motion, although you want to be able to move your character around, if you are standing still in the real world, but your virtual character is running the discrepancy can be uncomfortable.
+The other factor is motion, although you want to be able to move your character around, if you are standing still in the real world, but your virtual character is running or riding in a roller coaster  the discrepancy can be uncomfortable.
 
 Meta have come up with useful locomotion guidelines that you may want to consider:
 
@@ -252,7 +252,7 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwMTUyNjIsMTczMDM0OTMwNCwxODMxNj
-E0NDgyLC0xOTEzMzI2MTQ1LDE2NTQ2NDE1NDksLTQyODY3Mzc2
-NiwxMTUxNzk1NTRdfQ==
+eyJoaXN0b3J5IjpbMjU2NDcxMjE5LDE3MzAzNDkzMDQsMTgzMT
+YxNDQ4MiwtMTkxMzMyNjE0NSwxNjU0NjQxNTQ5LC00Mjg2NzM3
+NjYsMTE1MTc5NTU0XX0=
 -->
