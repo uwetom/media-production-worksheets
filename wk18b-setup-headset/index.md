@@ -52,7 +52,7 @@ On your Meta phone app, find the device and in the settings turn on developer mo
 
 ![create organisation](https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset/images/phone_1.png)
 
-Scroll down to open**Headset settings**
+Scroll down to open **Headset settings**
 Then turn on **Developer mode**
 
 ### Plug in
@@ -65,6 +65,6 @@ If this box does not pop up, make sure it is firmly plugged in, or try restartin
 
 [Meta developer documentation](https://developers.meta.com/horizon/documentation/unity/unity-env-device-setup/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MzA1OTQ4NSwtMTgxOTUzNzY0MCwtMj
-U1MDU2MDM1XX0=
+eyJoaXN0b3J5IjpbMTk0NzE2NjQzNSwxODUzMDU5NDg1LC0xOD
+E5NTM3NjQwLC0yNTUwNTYwMzVdfQ==
 -->
