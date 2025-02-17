@@ -74,12 +74,14 @@ This scene demonstrates basic VR interactions and motion. This demo scene is a u
 
 ### Test out the scene
 
-- Try out the scene in the simulator **AND** on the VR headset.
+- Try out the scene in the simulator (A) **and** on the VR headset (B).
 - Practice with the controls, moving around the scene and interacting with the objects and UI
 
-### Simulated environment
+### A. Simulated environment
 
 To play the scene in the simulator you can just press the play button in the editor as normal.
+
+![simulated environment](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/play.jpg)
 
 ![simulated environment](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/simulated_environment.jpg)
 
@@ -250,7 +252,7 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNjA2NTA3MSwxNzMwMzQ5MzA0LDE4Mz
+eyJoaXN0b3J5IjpbLTIxMzY5NTE0MCwxNzMwMzQ5MzA0LDE4Mz
 E2MTQ0ODIsLTE5MTMzMjYxNDUsMTY1NDY0MTU0OSwtNDI4Njcz
 NzY2LDExNTE3OTU1NF19
 -->
