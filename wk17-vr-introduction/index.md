@@ -212,13 +212,12 @@ Notice that although you can select anywhere on the cube, as soon as you telepor
 
 Once the headset is setup, building to it is just as easy as building to any Android device.
 
-- Plug in the headset to the computer
+Connect the headset to the computer via the USBc cable in the VR box.
 
-n the headset:
-- Put it on and accept the debug connection.
+**On the headset:**
+- Put it on and accept the debug connection. Always allow.
 
-In Unity:
-
+**In Unity:**
 - On the top menu, select **File > Build settings**
 - Make sure the correct scene is ticked in the top box.
 - Press **Refresh** under **Run Device** and select your headset.
@@ -259,9 +258,9 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMxNDk3NjY1LC0xMTA5NTc2NDM2LC02OT
-UyMTMxODUsMTAzNjg3Nzg1OSwtNzE4NzQ5MjQzLDM5Nzc0NzUy
-MywyNTY0NzEyMTksMTczMDM0OTMwNCwxODMxNjE0NDgyLC0xOT
-EzMzI2MTQ1LDE2NTQ2NDE1NDksLTQyODY3Mzc2NiwxMTUxNzk1
-NTRdfQ==
+eyJoaXN0b3J5IjpbMTA4ODA5MTMzMiwtMTEwOTU3NjQzNiwtNj
+k1MjEzMTg1LDEwMzY4Nzc4NTksLTcxODc0OTI0MywzOTc3NDc1
+MjMsMjU2NDcxMjE5LDE3MzAzNDkzMDQsMTgzMTYxNDQ4MiwtMT
+kxMzMyNjE0NSwxNjU0NjQxNTQ5LC00Mjg2NzM3NjYsMTE1MTc5
+NTU0XX0=
 -->
