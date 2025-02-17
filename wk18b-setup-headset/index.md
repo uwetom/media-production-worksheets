@@ -1,3 +1,5 @@
+[Back](https://uwetom.github.io/media-production-worksheets)
+
 # Setup headset for developing
 
 When you first use a Meta Quest headset you will need to log in and set it up before you can start to use it.
@@ -65,6 +67,6 @@ If this box does not pop up, make sure it is firmly plugged in, or try restartin
 
 [Meta developer documentation](https://developers.meta.com/horizon/documentation/unity/unity-env-device-setup/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NzE2NjQzNSwxODUzMDU5NDg1LC0xOD
+eyJoaXN0b3J5IjpbMTE5MDUwMjI3NywxODUzMDU5NDg1LC0xOD
 E5NTM3NjQwLC0yNTUwNTYwMzVdfQ==
 -->
