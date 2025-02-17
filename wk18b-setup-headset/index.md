@@ -59,12 +59,12 @@ Then turn on **Developer mode**
 
 Now, when you plug your headset into a computer a box will pop up on the headset asking if you to **Allow USB debugging**
 
-If this box do
+If this box does not pop up, make sure it is firmly plugged in, or try restarting the headset.
 
 ## Reference
 
 [Meta developer documentation](https://developers.meta.com/horizon/documentation/unity/unity-env-device-setup/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MTQ0OTU5MiwtMTgxOTUzNzY0MCwtMj
+eyJoaXN0b3J5IjpbMTg1MzA1OTQ4NSwtMTgxOTUzNzY0MCwtMj
 U1MDU2MDM1XX0=
 -->
