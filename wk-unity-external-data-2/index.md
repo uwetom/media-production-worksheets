@@ -18,6 +18,7 @@ In this example we are going to use the data instantiate (create) objects in our
 
 Download [this](https://github.com/uwetom/media-production-worksheets/raw/refs/heads/master/wk-unity-external-data-2/Asteroids.unitypackage) unity package of asteroids / rock prefabs and animations.
 Drag it into your Assets folder to install it.
+
 ![enter image description here](https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/install-rocks.png)
  
 In the next video we are going to set up the script and prefabs ready to deploy in the AR scene.
@@ -26,7 +27,7 @@ In the next video we are going to set up the script and prefabs ready to deploy 
 
 ### Key technique
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjA3NzQzNTcsNzQyODY3OTUzLDk3OD
-k0MzMyMCw3MjUyODI0MDQsLTg5NDM0Mjc1NCwtMzEwMzY4MjQ4
-LC04MjYzNTcwMTEsLTg0Mzk5NTk4Ml19
+eyJoaXN0b3J5IjpbMjU0Njk5NzczLC0xMjIwNzc0MzU3LDc0Mj
+g2Nzk1Myw5Nzg5NDMzMjAsNzI1MjgyNDA0LC04OTQzNDI3NTQs
+LTMxMDM2ODI0OCwtODI2MzU3MDExLC04NDM5OTU5ODJdfQ==
 -->
