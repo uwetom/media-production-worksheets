@@ -133,11 +133,11 @@ The Scene has a floor plane and a complete XR rig.
 
 You may notice that this rig doesn't have the helper labels, if you need these you can swap the **Complete XR Origin Set Up** for the **Complete XR Origin Set Up Variant** found in **Assets > VRTemplateAssets > Prefabs > Setup**
 
-## 7.  User Comfort
+## 7.  User Comfort - Cybersickness
 
 Users Can feel motion sickness when in VR, as a creator, it is your responsibility to minimise this as much as you can in your project.
 
-Studies suggest between 40-60% of VR users experience motion sickness in the first 15 minutes of use.
+Studies suggest between 40-60% of VR users experience motion sickness ([pc gamer](https://www.pcgamer.com/vr-still-makes-40-70-of-players-want-to-throw-up-and-thats-a-huge-problem-for-the-companies-behind-it/)) in the first 15 minutes of use.
 
 The major cause of sickness is a disconnect between what the user can see and what there body is physically experiencing.
 
@@ -254,7 +254,7 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3NzQ3NTIzLDI1NjQ3MTIxOSwxNzMwMz
-Q5MzA0LDE4MzE2MTQ0ODIsLTE5MTMzMjYxNDUsMTY1NDY0MTU0
-OSwtNDI4NjczNzY2LDExNTE3OTU1NF19
+eyJoaXN0b3J5IjpbLTQ0NjYyMjcxNiwzOTc3NDc1MjMsMjU2ND
+cxMjE5LDE3MzAzNDkzMDQsMTgzMTYxNDQ4MiwtMTkxMzMyNjE0
+NSwxNjU0NjQxNTQ5LC00Mjg2NzM3NjYsMTE1MTc5NTU0XX0=
 -->
