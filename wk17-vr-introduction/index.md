@@ -15,7 +15,7 @@ We will be using Meta Quest 1 and 2 headsets, you can also use the Quest 3 if yo
 
 The headsets require you to create an account and sign in to use. To save time I will do this for you before the in class workshops, but you will need to do yourself if you book them from the project room for use outside class.
 
-!(How to setup your own headset)[https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset/]
+[How to setup your own headset](https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset/)
 
 Please make sure you reset them using the guide in the kit before returning them to the project room.
 
@@ -258,9 +258,9 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4ODA5MTMzMiwtMTEwOTU3NjQzNiwtNj
-k1MjEzMTg1LDEwMzY4Nzc4NTksLTcxODc0OTI0MywzOTc3NDc1
-MjMsMjU2NDcxMjE5LDE3MzAzNDkzMDQsMTgzMTYxNDQ4MiwtMT
-kxMzMyNjE0NSwxNjU0NjQxNTQ5LC00Mjg2NzM3NjYsMTE1MTc5
-NTU0XX0=
+eyJoaXN0b3J5IjpbOTk3MjM4ODc3LDEwODgwOTEzMzIsLTExMD
+k1NzY0MzYsLTY5NTIxMzE4NSwxMDM2ODc3ODU5LC03MTg3NDky
+NDMsMzk3NzQ3NTIzLDI1NjQ3MTIxOSwxNzMwMzQ5MzA0LDE4Mz
+E2MTQ0ODIsLTE5MTMzMjYxNDUsMTY1NDY0MTU0OSwtNDI4Njcz
+NzY2LDExNTE3OTU1NF19
 -->
