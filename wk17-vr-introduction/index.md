@@ -235,8 +235,6 @@ When finished put the headset on and try out your scene.
 
 Find some assets on the asset store or download and import these into your project:
 
-
-
 [left hand](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/assets/left_hand.fbx)
 
 [right hand](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/assets/right_hand.fbx)
@@ -257,8 +255,8 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNjg3Nzg1OSwtNzE4NzQ5MjQzLDM5Nz
-c0NzUyMywyNTY0NzEyMTksMTczMDM0OTMwNCwxODMxNjE0NDgy
-LC0xOTEzMzI2MTQ1LDE2NTQ2NDE1NDksLTQyODY3Mzc2NiwxMT
-UxNzk1NTRdfQ==
+eyJoaXN0b3J5IjpbLTY5NTIxMzE4NSwxMDM2ODc3ODU5LC03MT
+g3NDkyNDMsMzk3NzQ3NTIzLDI1NjQ3MTIxOSwxNzMwMzQ5MzA0
+LDE4MzE2MTQ0ODIsLTE5MTMzMjYxNDUsMTY1NDY0MTU0OSwtND
+I4NjczNzY2LDExNTE3OTU1NF19
 -->
