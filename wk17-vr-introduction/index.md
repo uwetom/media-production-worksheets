@@ -108,13 +108,13 @@ We can build the scene to the headset, but as this can take a while, to save tim
 
 ![app](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/vr_app.png)
 
-## Basic VR rig
+## 5. Basic VR rig
 
-We now want to make our own scene. You don't need to follow along with the 
+We now want to make our own scene. You don't need to follow along with this video, but you may find it useful to know who to make your own rig:
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=b3a6d9c3-e639-43fb-ac8d-b26600a323fb&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity vr - basic rig" ></iframe> 
 
-## Complete VR rig
+## 6. Complete VR rig
  
 We don't want to made a complex rig from scratch so will use the complete rig.
 
@@ -133,7 +133,7 @@ The Scene has a floor plane and a complete XR rig.
 
 You may notice that this rig doesn't have the helper labels, if you need these you can swap the **Complete XR Origin Set Up** for the **Complete XR Origin Set Up Variant** found in **Assets > VRTemplateAssets > Prefabs > Setup**
 
-#### User Comfort
+## 7.  User Comfort
 
 Users Can feel motion sickness when in VR, as a creator, it is your responsibility to minimise this as much as you can in your project.
 
@@ -252,7 +252,7 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDQ3NjA2NywxNzMwMzQ5MzA0LDE4Mz
-E2MTQ0ODIsLTE5MTMzMjYxNDUsMTY1NDY0MTU0OSwtNDI4Njcz
-NzY2LDExNTE3OTU1NF19
+eyJoaXN0b3J5IjpbNTUwMTUyNjIsMTczMDM0OTMwNCwxODMxNj
+E0NDgyLC0xOTEzMzI2MTQ1LDE2NTQ2NDE1NDksLTQyODY3Mzc2
+NiwxMTUxNzk1NTRdfQ==
 -->
