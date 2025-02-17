@@ -110,7 +110,7 @@ We can build the scene to the headset, but as this can take a while, to save tim
 
 ## Basic VR rig
 
-We now want to make our own scene.
+We now want to make our own scene. You don't need to follow along with the 
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=b3a6d9c3-e639-43fb-ac8d-b26600a323fb&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity vr - basic rig" ></iframe> 
 
@@ -252,7 +252,7 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjg2NTY2NzYsMTczMDM0OTMwNCwxOD
-MxNjE0NDgyLC0xOTEzMzI2MTQ1LDE2NTQ2NDE1NDksLTQyODY3
-Mzc2NiwxMTUxNzk1NTRdfQ==
+eyJoaXN0b3J5IjpbMTEyNDQ3NjA2NywxNzMwMzQ5MzA0LDE4Mz
+E2MTQ0ODIsLTE5MTMzMjYxNDUsMTY1NDY0MTU0OSwtNDI4Njcz
+NzY2LDExNTE3OTU1NF19
 -->
