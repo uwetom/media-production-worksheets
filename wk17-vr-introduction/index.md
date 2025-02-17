@@ -48,7 +48,7 @@ The Meta Quest runs on Android so we need to switch the platform.
 
 ### Device Simulation
 
-We also want to be able to test our device in Unity on our computer without having to build to the headset.
+We also want to be able to test our project in Unity on without having to build to the headset.
 
 - Go into **File > Project Settings** and open **Player Settings...**
 
@@ -247,6 +247,7 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMTYxNDQ4MiwtMTkxMzMyNjE0NSwxNj
-U0NjQxNTQ5LC00Mjg2NzM3NjYsMTE1MTc5NTU0XX0=
+eyJoaXN0b3J5IjpbLTgwNzgyOTQzMiwxODMxNjE0NDgyLC0xOT
+EzMzI2MTQ1LDE2NTQ2NDE1NDksLTQyODY3Mzc2NiwxMTUxNzk1
+NTRdfQ==
 -->
