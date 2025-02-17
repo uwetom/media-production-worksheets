@@ -21,13 +21,14 @@ Drag it into your Assets folder to install it.
 
 ![enter image description here](https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/install-rocks.png)
  
-In the next video we are going to set up the script and prefabs ready to deploy in the AR scene.
+In this next video we are going to set up the script and prefabs ready to deploy in the AR scene.
+
 [<img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/edit-prefab-video.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=18c829c7-389e-48d9-8617-b28701019986)
 
 
 ### Key technique
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU0Njk5NzczLC0xMjIwNzc0MzU3LDc0Mj
-g2Nzk1Myw5Nzg5NDMzMjAsNzI1MjgyNDA0LC04OTQzNDI3NTQs
-LTMxMDM2ODI0OCwtODI2MzU3MDExLC04NDM5OTU5ODJdfQ==
+eyJoaXN0b3J5IjpbLTEzNjYyNjM5MTQsLTEyMjA3NzQzNTcsNz
+QyODY3OTUzLDk3ODk0MzMyMCw3MjUyODI0MDQsLTg5NDM0Mjc1
+NCwtMzEwMzY4MjQ4LC04MjYzNTcwMTEsLTg0Mzk5NTk4Ml19
 -->
