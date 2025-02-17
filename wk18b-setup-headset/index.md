@@ -53,12 +53,18 @@ On your Meta phone app, find the device and in the settings turn on developer mo
 ![create organisation](https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset/images/phone_1.png)
 
 Scroll down to open**Headset settings**
-Then turn on 
+Then turn on **Developer mode**
+
+### Plug in
+
+Now, when you plug your headset into a computer a box will pop up on the headset asking if you to **Allow USB debugging**
+
+If this box do
 
 ## Reference
 
 [Meta developer documentation](https://developers.meta.com/horizon/documentation/unity/unity-env-device-setup/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2OTUzOTc3MywtMTgxOTUzNzY0MCwtMj
+eyJoaXN0b3J5IjpbMTI4MTQ0OTU5MiwtMTgxOTUzNzY0MCwtMj
 U1MDU2MDM1XX0=
 -->
