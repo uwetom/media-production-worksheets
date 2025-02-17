@@ -52,13 +52,13 @@ On your Meta phone app, find the device and in the settings turn on developer mo
 
 ![create organisation](https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset/images/phone_1.png)
 
-![create organisation](https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset/images/phone_2.png)
-
-
+Scroll down to open**Headset settings**
+Then turn on 
 
 ## Reference
 
 [Meta developer documentation](https://developers.meta.com/horizon/documentation/unity/unity-env-device-setup/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTk1Mzc2NDAsLTI1NTA1NjAzNV19
+eyJoaXN0b3J5IjpbMTk2OTUzOTc3MywtMTgxOTUzNzY0MCwtMj
+U1MDU2MDM1XX0=
 -->
