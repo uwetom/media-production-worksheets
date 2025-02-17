@@ -212,9 +212,9 @@ Notice that although you can select anywhere on the cube, as soon as you telepor
 
 Once the headset is setup, building to it is just as easy as building to any Android device.
 
-On the headset:
+- Plug in the headset to the computer
 
-- Plug it into the computer
+n the headset:
 - Put it on and accept the debug connection.
 
 In Unity:
@@ -259,8 +259,9 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDk1NzY0MzYsLTY5NTIxMzE4NSwxMD
-M2ODc3ODU5LC03MTg3NDkyNDMsMzk3NzQ3NTIzLDI1NjQ3MTIx
-OSwxNzMwMzQ5MzA0LDE4MzE2MTQ0ODIsLTE5MTMzMjYxNDUsMT
-Y1NDY0MTU0OSwtNDI4NjczNzY2LDExNTE3OTU1NF19
+eyJoaXN0b3J5IjpbNDMxNDk3NjY1LC0xMTA5NTc2NDM2LC02OT
+UyMTMxODUsMTAzNjg3Nzg1OSwtNzE4NzQ5MjQzLDM5Nzc0NzUy
+MywyNTY0NzEyMTksMTczMDM0OTMwNCwxODMxNjE0NDgyLC0xOT
+EzMzI2MTQ1LDE2NTQ2NDE1NDksLTQyODY3Mzc2NiwxMTUxNzk1
+NTRdfQ==
 -->
