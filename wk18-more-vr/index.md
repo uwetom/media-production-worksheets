@@ -14,7 +14,7 @@ We want to be able to interact with our environment, triggering sounds, animatio
 
 ![Basic scene](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/basicscene.jpg)
 
-- Save it back into the Scene folder and name it "interactions".
+- Save it back into the Scene folder and name it "Interactions".
 
 ## Simple Interactable
 
@@ -203,6 +203,7 @@ Generate a new torch in the scene when the button is clicked.
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NDExNjQzNCwyMTM1MDgyMjEwLDE4Nj
-E4NTc4MjgsMzI0MzQ4MTMwLDIwOTA5MDQzMDhdfQ==
+eyJoaXN0b3J5IjpbMzMxNTAyODk4LDExOTQxMTY0MzQsMjEzNT
+A4MjIxMCwxODYxODU3ODI4LDMyNDM0ODEzMCwyMDkwOTA0MzA4
+XX0=
 -->
