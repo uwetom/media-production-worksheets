@@ -29,7 +29,7 @@ This will set up our project with all the packages we need and also include some
 
 ## 3. Set up
 
-The template works with many different brands of headset, so we have to tell it which one we are using. We will do this later but a helpful message reminds us.does not know which headset we are using, so we have to tell it. A helpful message telling us this should pop up
+The template works with many different brands of headset, so we have to tell it which one we are using. We will do this later but a helpful message reminds us.
 
 - Close the message.
 
@@ -39,7 +39,7 @@ The template works with many different brands of headset, so we have to tell it 
 
 The Meta Quest runs on Android so we need to switch the platform.
 
-- In the top menu, select **File > Build Settings** and change the Plantform to **Android** 
+- In the top menu, select **File > Build Settings** and change the Platform to **Android** 
 - Press **Switch Platform**
 
 ![Select Android build
@@ -247,6 +247,6 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTMzMjYxNDUsMTY1NDY0MTU0OSwtND
-I4NjczNzY2LDExNTE3OTU1NF19
+eyJoaXN0b3J5IjpbMTgzMTYxNDQ4MiwtMTkxMzMyNjE0NSwxNj
+U0NjQxNTQ5LC00Mjg2NzM3NjYsMTE1MTc5NTU0XX0=
 -->
