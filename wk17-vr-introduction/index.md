@@ -129,7 +129,7 @@ To avoid changing this template scene, we now want to save the scene with a diff
 
 The Scene has a floor plane and a complete XR rig.
 
-- Press play to make sure the scene plays without any issues and you can move around.
+- Press play to make sure the scene plays without any issues and you can move around in the simulator.
 
 You may notice that this rig doesn't have the helper labels, if you need these you can swap the **Complete XR Origin Set Up** for the **Complete XR Origin Set Up Variant** found in **Assets > VRTemplateAssets > Prefabs > Setup**
 
@@ -252,7 +252,7 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzkyOTQ4NDgsMTczMDM0OTMwNCwxOD
+eyJoaXN0b3J5IjpbLTEyMjg2NTY2NzYsMTczMDM0OTMwNCwxOD
 MxNjE0NDgyLC0xOTEzMzI2MTQ1LDE2NTQ2NDE1NDksLTQyODY3
 Mzc2NiwxMTUxNzk1NTRdfQ==
 -->
