@@ -79,19 +79,16 @@ This scene demonstrates basic VR interactions and motion. This demo scene is a u
 
 ### A. Simulated environment
 
-To play the scene in the simulator you can just press the play button in the editor as normal.
-
-![simulated environment](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/play.jpg)
+This video shows you how to use the simulated environment.
 
 ![simulated environment](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/simulated_environment.jpg)
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=77afc393-1244-453f-82a7-b26100a887f6&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Unity VR - Simulator" ></iframe>
 
-### On the headset
+### B. On the headset
 
-## 5. Safety
-
-### Be aware of your environment
+Before you use th
+#### Safety - Be aware of your environment
 
 When using a VR headset you may not be able to see the world around you, it is therefore very important that you clear the space around your space to ensure you don't injure yourself, others or the equipment.
 
@@ -252,7 +249,7 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzY5NTE0MCwxNzMwMzQ5MzA0LDE4Mz
-E2MTQ0ODIsLTE5MTMzMjYxNDUsMTY1NDY0MTU0OSwtNDI4Njcz
-NzY2LDExNTE3OTU1NF19
+eyJoaXN0b3J5IjpbLTIwNTE3MjM4NjAsMTczMDM0OTMwNCwxOD
+MxNjE0NDgyLC0xOTEzMzI2MTQ1LDE2NTQ2NDE1NDksLTQyODY3
+Mzc2NiwxMTUxNzk1NTRdfQ==
 -->
