@@ -137,6 +137,8 @@ You may notice that this rig doesn't have the helper labels, if you need these y
 
 Users Can feel motion sickness when in VR, as a creator, it is your responsibility to minimise this as much as you can in your project.
 
+Studies suggest between 40-60% of VR users experience motion sickness in the first 15 minutes of use.
+
 The major cause of sickness is a disconnect between what the user can see and what there body is physically experiencing.
 
 One factor is frame rate, if your add too much to your scene the frame rate will drop. This will cause a delay between moving in the real world and your view in the virtual world. Even a tiny delay will be uncomfortable. Test your scene often to ensure it runs smoothly.
@@ -252,7 +254,7 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU2NDcxMjE5LDE3MzAzNDkzMDQsMTgzMT
-YxNDQ4MiwtMTkxMzMyNjE0NSwxNjU0NjQxNTQ5LC00Mjg2NzM3
-NjYsMTE1MTc5NTU0XX0=
+eyJoaXN0b3J5IjpbMzk3NzQ3NTIzLDI1NjQ3MTIxOSwxNzMwMz
+Q5MzA0LDE4MzE2MTQ0ODIsLTE5MTMzMjYxNDUsMTY1NDY0MTU0
+OSwtNDI4NjczNzY2LDExNTE3OTU1NF19
 -->
