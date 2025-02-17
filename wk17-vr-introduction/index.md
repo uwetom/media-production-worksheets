@@ -133,7 +133,14 @@ The Scene has a floor plane and a complete XR rig.
 
 You may notice that this rig doesn't have the helper labels, if you need these you can swap the **Complete XR Origin Set Up** for the **Complete XR Origin Set Up Variant** found in **Assets > VRTemplateAssets > Prefabs > Setup**
 
-## 7.  User Comfort - Cybersickness
+## 7. Change the controllers
+
+Now that we have a rig, we can customise it, changing the appearance and altering the controls.
+
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=5521f875-99ec-4074-952b-b26100bf24dd&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Unity VR -XR rig" ></iframe>
+
+
+## 8.  User Comfort - Cybersickness
 
 Users Can feel motion sickness when in VR, as a creator, it is your responsibility to minimise this as much as you can in your project.
 
@@ -147,11 +154,7 @@ Meta have come up with useful locomotion guidelines that you may want to conside
 
 [VR Locomotion](https://developers.meta.com/horizon/resources/locomotion-comfort-usability/?locale=en_GB)
 
-### Change tontrollers
-
-Now that we have a rig, we can customise it, changing the appearance and altering the controls.
-
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=5521f875-99ec-4074-952b-b26100bf24dd&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Unity VR -XR rig" ></iframe>
+## 9. Motion 
 
 ### Turning
 
@@ -252,7 +255,7 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTU4ODY4MDksMzk3NzQ3NTIzLDI1Nj
-Q3MTIxOSwxNzMwMzQ5MzA0LDE4MzE2MTQ0ODIsLTE5MTMzMjYx
-NDUsMTY1NDY0MTU0OSwtNDI4NjczNzY2LDExNTE3OTU1NF19
+eyJoaXN0b3J5IjpbLTcxODc0OTI0MywzOTc3NDc1MjMsMjU2ND
+cxMjE5LDE3MzAzNDkzMDQsMTgzMTYxNDQ4MiwtMTkxMzMyNjE0
+NSwxNjU0NjQxNTQ5LC00Mjg2NzM3NjYsMTE1MTc5NTU0XX0=
 -->
