@@ -19,20 +19,9 @@ The headsets require you to create an account and sign in to use. To save time I
 
 Please make sure you reset them using the guide in the kit before returning them to the project room.
 
-## Safety
-## Be aware of your environment
+## 2.  Create a Unity Project
 
-When using a VR headset you may not be able to see the world around you, it is therefore very important that you clear the space around your space to ensure you don't injure yourself, others or the equipment.
-
-Please watch the following Meta Video shows you how to safely use the headset.
-
-[Safely use the Meta Quest](https://www.youtube.com/watch?v=Ke4MefpmRmc)
-
-The video shows the creation of a large guardian boundary, which the headset will guide you through when you first put it on. As there is not very much space int the class you should create a stationary boundary.
-
-## Create a Unity Project
-
-First we want to create a new project, we will use the built in VR template: for this.
+Open Unity and create a new project, we will use the built in VR template: for this.
 
 ![VR core template in unity hub](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/vr_core.jpg)
 
@@ -248,6 +237,6 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NjA3NTkyMCwxNjU0NjQxNTQ5LC00Mj
+eyJoaXN0b3J5IjpbLTM4ODMyMjAxNCwxNjU0NjQxNTQ5LC00Mj
 g2NzM3NjYsMTE1MTc5NTU0XX0=
 -->
