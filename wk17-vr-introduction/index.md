@@ -170,13 +170,13 @@ You should also see **Grab and Climb providers** these allow you to use objects 
 
 If you are interested in these for your project, there is a demo scene in **Assets\Samples\XR Interaction Toolkit\2.5.2\Starter Assets**
 
-## Teleportation 
+## 10. Teleportation 
 
 Teleportation is turned on by default on our XR rig, It allows users to move around the scene more comfortably then using continuous movement.
 
 ### Area
 
-Select the plane and look at the inspector.
+- Select the plane and look at the inspector.
 
 You should see it has a **Teleportation Area** component.
 
@@ -208,7 +208,7 @@ You can also use a teleportation anchor. These allow you to pick specific spots 
 
 Notice that although you can select anywhere on the cube, as soon as you teleport it locks you to the center.
 
-## Build to the headset
+## 11. Build to the headset
 
 Once the headset is setup, building to it is just as easy as building to any Android device.
 
@@ -227,7 +227,7 @@ In Unity:
 
 ![build settings](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/build.jpg)
 
-The first time, it may take quite a while ( it took me 10 minutes) to build but will be much quicker when you make changes and build again.
+The first time, it may take quite a while ( it took me 10 minutes! ) to build but it will be much quicker when you make changes and build again.
 
 When finished put the headset on and try out your scene.
 
@@ -250,12 +250,13 @@ These workshops will get you started, but for your own project you will want to 
 
 [Unity VR Template documentation](https://docs.unity3d.com/Packages/com.unity.template.vr@8.0/manual/index.html)
 
-[Unity Interaction toolkit documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/index.html)Android tabs and press **Fix all**
+[Unity Interaction toolkit documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/index.html)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxODc0OTI0MywzOTc3NDc1MjMsMjU2ND
-cxMjE5LDE3MzAzNDkzMDQsMTgzMTYxNDQ4MiwtMTkxMzMyNjE0
-NSwxNjU0NjQxNTQ5LC00Mjg2NzM3NjYsMTE1MTc5NTU0XX0=
+eyJoaXN0b3J5IjpbMjk1ODA5MzA2LC03MTg3NDkyNDMsMzk3Nz
+Q3NTIzLDI1NjQ3MTIxOSwxNzMwMzQ5MzA0LDE4MzE2MTQ0ODIs
+LTE5MTMzMjYxNDUsMTY1NDY0MTU0OSwtNDI4NjczNzY2LDExNT
+E3OTU1NF19
 -->
