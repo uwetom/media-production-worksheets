@@ -50,6 +50,7 @@ Now that we have created a developer organisation,  Meta will allow us to turn o
 
 On your Meta phone app, find the device and in the settings turn on developer mode.
 
+![create organisation](https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset/images/phone_1.png)
 
 
 
@@ -58,5 +59,5 @@ On your Meta phone app, find the device and in the settings turn on developer mo
 
 [Meta developer documentation](https://developers.meta.com/horizon/documentation/unity/unity-env-device-setup/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NTA1NjAzNV19
+eyJoaXN0b3J5IjpbLTU5MTM1MjUwNywtMjU1MDU2MDM1XX0=
 -->
