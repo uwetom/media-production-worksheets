@@ -68,8 +68,7 @@ We are now set up all the VR settings.
 
 The VR sample scene should already be open, if not, you can find it in **Scenes > Sample Scenes**
 
-
-
+![uwe xr device simulator button](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/sample.jpg)
 
 This scene demonstrates basic VR interactions and motion. This demo scene is a useful reference to work out how to implement similar functionality in your own project.
 
@@ -249,7 +248,7 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMDM0OTMwNCwxODMxNjE0NDgyLC0xOT
-EzMzI2MTQ1LDE2NTQ2NDE1NDksLTQyODY3Mzc2NiwxMTUxNzk1
-NTRdfQ==
+eyJoaXN0b3J5IjpbLTIwNTEzMzAwMjMsMTczMDM0OTMwNCwxOD
+MxNjE0NDgyLC0xOTEzMzI2MTQ1LDE2NTQ2NDE1NDksLTQyODY3
+Mzc2NiwxMTUxNzk1NTRdfQ==
 -->
