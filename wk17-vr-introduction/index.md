@@ -108,7 +108,6 @@ We can build the scene to the headset, but as this can take a while, to save tim
 
 ![app](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/vr_app.png)
 
-
 ## Basic VR rig
 
 We now want to make our own scene.
@@ -253,7 +252,7 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1MDAxNDI2LDE3MzAzNDkzMDQsMTgzMT
-YxNDQ4MiwtMTkxMzMyNjE0NSwxNjU0NjQxNTQ5LC00Mjg2NzM3
-NjYsMTE1MTc5NTU0XX0=
+eyJoaXN0b3J5IjpbLTEyMzkyOTQ4NDgsMTczMDM0OTMwNCwxOD
+MxNjE0NDgyLC0xOTEzMzI2MTQ1LDE2NTQ2NDE1NDksLTQyODY3
+Mzc2NiwxMTUxNzk1NTRdfQ==
 -->
