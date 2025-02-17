@@ -20,6 +20,8 @@ Download [this](https://github.com/uwetom/media-production-worksheets/raw/refs/h
 Drag it into your Assets folder to install it.
 ![enter image description here](https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/install-rocks.png)
  
+In the next video we are going to set up the script and prefabs ready to deploy in the scene.
+
 
 
 
@@ -28,7 +30,7 @@ Drag it into your Assets folder to install it.
 
 ### Key technique
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDc2Mjc3MjksOTc4OTQzMzIwLDcyNT
-I4MjQwNCwtODk0MzQyNzU0LC0zMTAzNjgyNDgsLTgyNjM1NzAx
-MSwtODQzOTk1OTgyXX0=
+eyJoaXN0b3J5IjpbMjkwNDgxMzIyLDk3ODk0MzMyMCw3MjUyOD
+I0MDQsLTg5NDM0Mjc1NCwtMzEwMzY4MjQ4LC04MjYzNTcwMTEs
+LTg0Mzk5NTk4Ml19
 -->
