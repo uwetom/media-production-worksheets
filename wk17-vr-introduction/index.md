@@ -87,7 +87,8 @@ This video shows you how to use the simulated environment.
 
 ### B. On the headset
 
-Before you use th
+Before you use the headset read the following:
+
 #### Safety - Be aware of your environment
 
 When using a VR headset you may not be able to see the world around you, it is therefore very important that you clear the space around your space to ensure you don't injure yourself, others or the equipment.
@@ -96,10 +97,12 @@ Please watch the following Meta Video shows you how to safely use the headset.
 
 [Safely use the Meta Quest](https://www.youtube.com/watch?v=Ke4MefpmRmc)
 
+#### Play the sample scene
 
 We can build the scene to the headset, but as this can take a while, to save time I have pre-installed it for you. I will show you how to do it yourself later in the worksheet.
 
-- Put the headset on, clear the space around you and follow the instructions to create a guardian boundary.
+-  Clear the space around you then put the headset on,
+- -follow the instructions to create a guardian boundary.
 - Open the app:
 
 ![app](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/vr_app.png)
@@ -249,7 +252,7 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTE3MjM4NjAsMTczMDM0OTMwNCwxOD
-MxNjE0NDgyLC0xOTEzMzI2MTQ1LDE2NTQ2NDE1NDksLTQyODY3
-Mzc2NiwxMTUxNzk1NTRdfQ==
+eyJoaXN0b3J5IjpbMjg0NTY0NDkwLDE3MzAzNDkzMDQsMTgzMT
+YxNDQ4MiwtMTkxMzMyNjE0NSwxNjU0NjQxNTQ5LC00Mjg2NzM3
+NjYsMTE1MTc5NTU0XX0=
 -->
