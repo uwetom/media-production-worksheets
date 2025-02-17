@@ -239,6 +239,10 @@ Find some assets on the asset store or download and import these into your proje
 
 [right hand](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/assets/right_hand.fbx)
 
+Kenney create some useful free assets for prototyping
+
+[kenney.nl](https://kenney.nl/assets/prototype-kit)
+
 Try to Include
 - Multiple teleportation anchors and areas
 - Change the controllers.
@@ -255,8 +259,8 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTIxMzE4NSwxMDM2ODc3ODU5LC03MT
-g3NDkyNDMsMzk3NzQ3NTIzLDI1NjQ3MTIxOSwxNzMwMzQ5MzA0
-LDE4MzE2MTQ0ODIsLTE5MTMzMjYxNDUsMTY1NDY0MTU0OSwtND
-I4NjczNzY2LDExNTE3OTU1NF19
+eyJoaXN0b3J5IjpbLTExMDk1NzY0MzYsLTY5NTIxMzE4NSwxMD
+M2ODc3ODU5LC03MTg3NDkyNDMsMzk3NzQ3NTIzLDI1NjQ3MTIx
+OSwxNzMwMzQ5MzA0LDE4MzE2MTQ0ODIsLTE5MTMzMjYxNDUsMT
+Y1NDY0MTU0OSwtNDI4NjczNzY2LDExNTE3OTU1NF19
 -->
