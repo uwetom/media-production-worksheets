@@ -16,7 +16,8 @@ In this example we are going to use the data instantiate (create) objects in our
 
 ## Set up: install asteroids package
 
-I've prepared the rock / asteroids that we are going to use giving them a simple rotation animationDownload [this](https://github.com/uwetom/media-production-worksheets/raw/refs/heads/master/wk-unity-external-data-2/Asteroids.unitypackage) unity package of asteroids / rock prefabs and animations.
+I've prepared the rock / asteroids that we are going to use, creating prefabs with a simple rotation animation. Download [the package here](https://github.com/uwetom/media-production-worksheets/raw/refs/heads/master/wk-unity-external-data-2/Asteroids.unitypackage) 
+
 Drag it into your Assets folder to install it.
 
 ![enter image description here](https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/install-rocks.png)
@@ -28,7 +29,7 @@ In this next video we are going to set up the script and prefabs ready to deploy
 
 ### Key technique
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTk3NjM1MDEsLTEyMjA3NzQzNTcsNz
-QyODY3OTUzLDk3ODk0MzMyMCw3MjUyODI0MDQsLTg5NDM0Mjc1
-NCwtMzEwMzY4MjQ4LC04MjYzNTcwMTEsLTg0Mzk5NTk4Ml19
+eyJoaXN0b3J5IjpbLTIyNzE4ODY2MywtMTIyMDc3NDM1Nyw3ND
+I4Njc5NTMsOTc4OTQzMzIwLDcyNTI4MjQwNCwtODk0MzQyNzU0
+LC0zMTAzNjgyNDgsLTgyNjM1NzAxMSwtODQzOTk1OTgyXX0=
 -->
