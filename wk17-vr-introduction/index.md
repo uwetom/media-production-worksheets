@@ -73,10 +73,17 @@ The VR sample scene should already be open, if not, you can find it in **Scenes 
 This scene demonstrates basic VR interactions and motion. This demo scene is a useful reference to work out how to implement similar functionality in your own project.
 
 ### Test out the scene
-We can now try out the scene, 
 
-- Try out the scene in the simulator **and** on the VR headset.
+- Try out the scene in the simulator **AND** on the VR headset.
 - Practice with the controls, moving around the scene and interacting with the objects and UI
+
+### Simulated environment
+
+To play the scene in the simulator you can just press the play button in the editor as normal.
+
+![simulated environment](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/simulated_environment.jpg)
+
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=77afc393-1244-453f-82a7-b26100a887f6&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Unity VR - Simulator" ></iframe>
 
 ### On the headset
 
@@ -98,13 +105,6 @@ We can build the scene to the headset, but as this can take a while, to save tim
 
 ![app](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/vr_app.png)
 
-### Simulated environment
-
-To play the scene in the simulator you can just press the play button as normal.
-
-![simulated environment](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/simulated_environment.jpg)
-
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=77afc393-1244-453f-82a7-b26100a887f6&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Unity VR - Simulator" ></iframe>
 
 ## Basic VR rig
 
@@ -250,7 +250,7 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MDI2Mzk5NiwxNzMwMzQ5MzA0LDE4Mz
+eyJoaXN0b3J5IjpbMTkyNjA2NTA3MSwxNzMwMzQ5MzA0LDE4Mz
 E2MTQ0ODIsLTE5MTMzMjYxNDUsMTY1NDY0MTU0OSwtNDI4Njcz
 NzY2LDExNTE3OTU1NF19
 -->
