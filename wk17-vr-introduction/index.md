@@ -72,7 +72,16 @@ The VR sample scene should already be open, if not, you can find it in **Scenes 
 
 This scene demonstrates basic VR interactions and motion. This demo scene is a useful reference to work out how to implement similar functionality in your own project.
 
-## 2. Safety
+### Test out the scene
+We can now try out the scene, 
+
+- Try out the scene in the simulator **and** on the VR headset.
+- Practice with the controls, moving around the scene and interacting with the objects and UI
+
+### On the headset
+
+## 5. Safety
+
 ### Be aware of your environment
 
 When using a VR headset you may not be able to see the world around you, it is therefore very important that you clear the space around your space to ensure you don't injure yourself, others or the equipment.
@@ -81,13 +90,6 @@ Please watch the following Meta Video shows you how to safely use the headset.
 
 [Safely use the Meta Quest](https://www.youtube.com/watch?v=Ke4MefpmRmc)
 
-
-### Test out the scene
-
-- Try out the scene in the simulator **and** on the VR headset.
-- Practice with the controls, moving around the scene and interacting with the objects and UI
-
-### On the headset
 
 We can build the scene to the headset, but as this can take a while, to save time I have pre-installed it for you. I will show you how to do it yourself later in the worksheet.
 
@@ -248,7 +250,7 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTEzMzAwMjMsMTczMDM0OTMwNCwxOD
-MxNjE0NDgyLC0xOTEzMzI2MTQ1LDE2NTQ2NDE1NDksLTQyODY3
-Mzc2NiwxMTUxNzk1NTRdfQ==
+eyJoaXN0b3J5IjpbLTY4MDI2Mzk5NiwxNzMwMzQ5MzA0LDE4Mz
+E2MTQ0ODIsLTE5MTMzMjYxNDUsMTY1NDY0MTU0OSwtNDI4Njcz
+NzY2LDExNTE3OTU1NF19
 -->
