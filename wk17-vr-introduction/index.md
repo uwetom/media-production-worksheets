@@ -21,13 +21,13 @@ Please make sure you reset them using the guide in the kit before returning them
 
 ## 2.  Create a Unity Project
 
-Open Unity and create a new project, we will use the built in VR template: for this.
+Open Unity and create a new project, we will use the built in VR template.
 
 ![VR core template in unity hub](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/vr_core.jpg)
 
 This will set up our project with all the packages we need and also include some helpful starter assets.
 
-## Set up
+## 3. Set up
 
 The template works with many different brands of headset, so we have to tell it which one we are using. We will do this later but a helpful message reminds us.does not know which headset we are using, so we have to tell it. A helpful message telling us this should pop up
 
@@ -70,6 +70,16 @@ We are now set up all the VR settings.
 The VR sample scene should already be open, if not, you can find it in **Scenes > Sample Scenes**
 
 This scene demonstrates basic VR interactions and motion. This demo scene is a useful reference to work out how to implement similar functionality in your own project.
+
+## 2. Safety
+### Be aware of your environment
+
+When using a VR headset you may not be able to see the world around you, it is therefore very important that you clear the space around your space to ensure you don't injure yourself, others or the equipment.
+
+Please watch the following Meta Video shows you how to safely use the headset.
+
+[Safely use the Meta Quest](https://www.youtube.com/watch?v=Ke4MefpmRmc)
+
 
 ### Test out the scene
 
@@ -237,6 +247,6 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4ODMyMjAxNCwxNjU0NjQxNTQ5LC00Mj
-g2NzM3NjYsMTE1MTc5NTU0XX0=
+eyJoaXN0b3J5IjpbLTE5MTMzMjYxNDUsMTY1NDY0MTU0OSwtND
+I4NjczNzY2LDExNTE3OTU1NF19
 -->
