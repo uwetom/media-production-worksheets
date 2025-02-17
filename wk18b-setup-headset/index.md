@@ -16,7 +16,7 @@ Then login with your own personal account.
 
 Turn on your VR headset and put it on.
 
-The headset will guide you through the setup, from adding the code to the phone app, to  this should take about 15 minutes.
+The headset will guide you through the setup, this should take about 15 minutes.
 
 ## Wifi
 
@@ -46,13 +46,17 @@ If may ask you to add extra authentication but you don't need to add a credit ca
 
 ### Developer mode
 
-Now that we have created a developer organisation Meta will allow us to turn on developer mode on the headset.
+Now that we have created a developer organisation,  Meta will allow us to turn on developer mode on the headset.
 
 On your Meta phone app, find the device and in the settings turn on developer mode.
+
+
+
+
 
 ## Reference
 
 [Meta developer documentation](https://developers.meta.com/horizon/documentation/unity/unity-env-device-setup/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NTk4NzA4Nl19
+eyJoaXN0b3J5IjpbLTI1NTA1NjAzNV19
 -->
