@@ -60,14 +60,16 @@ We also want to be able to test our project in Unity on without having to build 
 
 Accept the pop-up to download the simulator package.
 
-- Finally, in the **Project Validation** Section check for any issues in the 
-window and Android tabs and press **Fix all**
+- Finally, in the **Project Validation** Section check for any issues in the window and Android tabs and press **Fix all**
 
 We are now set up all the VR settings.
 
-## Sample scene
+## 4. Sample scene
 
 The VR sample scene should already be open, if not, you can find it in **Scenes > Sample Scenes**
+
+
+
 
 This scene demonstrates basic VR interactions and motion. This demo scene is a useful reference to work out how to implement similar functionality in your own project.
 
@@ -247,7 +249,7 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNzgyOTQzMiwxODMxNjE0NDgyLC0xOT
+eyJoaXN0b3J5IjpbMTczMDM0OTMwNCwxODMxNjE0NDgyLC0xOT
 EzMzI2MTQ1LDE2NTQ2NDE1NDksLTQyODY3Mzc2NiwxMTUxNzk1
 NTRdfQ==
 -->
