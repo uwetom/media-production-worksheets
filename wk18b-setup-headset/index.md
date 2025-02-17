@@ -6,7 +6,7 @@ When you first use a Meta Quest headset you will need to log in and set it up be
 
 ## Phone App
 
-Start by downloading the Meta Horizons app on your phone.
+Sstart by downloading the Meta Horizons app on your phone.
 
 [Android App](https://apps.apple.com/us/app/meta-horizon/id1366478176)
 
@@ -18,7 +18,7 @@ Then login with your own personal account.
 
 Turn on your VR headset and put it on.
 
-The headset will guide you through the setup, this should take about 15 minutes.
+TPut the headset on and it will guide you through the setup, this should take about 15 minutes.
 
 ## Wifi
 
@@ -67,6 +67,6 @@ If this box does not pop up, make sure it is firmly plugged in, or try restartin
 
 [Meta developer documentation](https://developers.meta.com/horizon/documentation/unity/unity-env-device-setup/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MDUwMjI3NywxODUzMDU5NDg1LC0xOD
-E5NTM3NjQwLC0yNTUwNTYwMzVdfQ==
+eyJoaXN0b3J5IjpbLTEyOTY4NjU4MTgsMTE5MDUwMjI3NywxOD
+UzMDU5NDg1LC0xODE5NTM3NjQwLC0yNTUwNTYwMzVdfQ==
 -->
