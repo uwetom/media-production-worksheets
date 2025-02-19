@@ -58,11 +58,14 @@ Learn more about Arrays and Lists here
 https://www.youtube.com/watch?v=Q16KIxtomeo
 
 ## Use data to add text to the asteroids / rocks in the AR scene
+
+
+## Build the project to an Android device
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2ODI3NzA5NCwtNDUxMTUxODc4LDg4Nj
-I2ODgzOCw2ODA1NzMwLC04MDYyMzY2NDAsLTE4NjE3MzI0MTQs
-LTQ3MDc4OTI4LC00ODg0MjUxOTQsLTIyNzE4ODY2MywtMTIyMD
-c3NDM1Nyw3NDI4Njc5NTMsOTc4OTQzMzIwLDcyNTI4MjQwNCwt
-ODk0MzQyNzU0LC0zMTAzNjgyNDgsLTgyNjM1NzAxMSwtODQzOT
-k1OTgyXX0=
+eyJoaXN0b3J5IjpbODgxMTU3NjM5LC00NTExNTE4NzgsODg2Mj
+Y4ODM4LDY4MDU3MzAsLTgwNjIzNjY0MCwtMTg2MTczMjQxNCwt
+NDcwNzg5MjgsLTQ4ODQyNTE5NCwtMjI3MTg4NjYzLC0xMjIwNz
+c0MzU3LDc0Mjg2Nzk1Myw5Nzg5NDMzMjAsNzI1MjgyNDA0LC04
+OTQzNDI3NTQsLTMxMDM2ODI0OCwtODI2MzU3MDExLC04NDM5OT
+U5ODJdfQ==
 -->
