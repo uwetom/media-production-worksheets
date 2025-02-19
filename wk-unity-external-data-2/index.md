@@ -43,7 +43,7 @@ Then we assigned data to the Array in the inspector. Adding the rock prefabs to 
 
 ![inspector screenshot](https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/assign-array.png)
 
-We accessed data from the array using the index of each element (0, 1, 2).
+We accessed data from the array using the index of each element (0, 1, 2).   
 ```rockInstances[0] // returns Rock_01```
 
 The key thing about Arrays in Unity is that you cannot add or remove elements to them once they have been initialised.
@@ -55,9 +55,9 @@ You could also make a List in Unity which works slightly differently to an Array
 Learn more about Arrays and Lists here
 https://www.youtube.com/watch?v=Q16KIxtomeo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDU5MzcwMTQsODg2MjY4ODM4LDY4MD
-U3MzAsLTgwNjIzNjY0MCwtMTg2MTczMjQxNCwtNDcwNzg5Mjgs
-LTQ4ODQyNTE5NCwtMjI3MTg4NjYzLC0xMjIwNzc0MzU3LDc0Mj
-g2Nzk1Myw5Nzg5NDMzMjAsNzI1MjgyNDA0LC04OTQzNDI3NTQs
-LTMxMDM2ODI0OCwtODI2MzU3MDExLC04NDM5OTU5ODJdfQ==
+eyJoaXN0b3J5IjpbLTQ1MTE1MTg3OCw4ODYyNjg4MzgsNjgwNT
+czMCwtODA2MjM2NjQwLC0xODYxNzMyNDE0LC00NzA3ODkyOCwt
+NDg4NDI1MTk0LC0yMjcxODg2NjMsLTEyMjA3NzQzNTcsNzQyOD
+Y3OTUzLDk3ODk0MzMyMCw3MjUyODI0MDQsLTg5NDM0Mjc1NCwt
+MzEwMzY4MjQ4LC04MjYzNTcwMTEsLTg0Mzk5NTk4Ml19
 -->
