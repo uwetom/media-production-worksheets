@@ -118,9 +118,9 @@ In this [Preview](https://raw.githubusercontent.com/uwetom/media-production-work
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=d9464bce-ae0c-4ecc-bcb6-b284011ed94b&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-data-3b extract data" ></iframe>
 
-This code should give you a good starting point and some methods for extracting data from **any** JSON file. The key / value principles and the nested key / value structure are used in all datasets.
+The final code is below (please type not copy and paste!):
 
-The final code is (please type not copy and paste!):
+This should give you a good starting point and some methods for extracting data from **any** JSON file. The key / value principles and the nested key / value structure are used in all datasets.
 
 ```C#
 using System.Collections;
@@ -180,8 +180,8 @@ public class GetData : MonoBehaviour
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMTE3MDk5MywxNDM2MjEwMDM0LC0xMz
-U1OTA0NzI2LDk3MTA2NDc2MiwxNTYzOTgxMTYyLDIwNzg0MDEx
-MjYsLTM4MjM1NzM0MiwxMzc3MTkxMDc0LC0xMjgzMzkxNTc4XX
-0=
+eyJoaXN0b3J5IjpbNTM2NTY3NzcsMTUxMTE3MDk5MywxNDM2Mj
+EwMDM0LC0xMzU1OTA0NzI2LDk3MTA2NDc2MiwxNTYzOTgxMTYy
+LDIwNzg0MDExMjYsLTM4MjM1NzM0MiwxMzc3MTkxMDc0LC0xMj
+gzMzkxNTc4XX0=
 -->
