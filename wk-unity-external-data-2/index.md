@@ -8,7 +8,7 @@
 ## Overview
 In this next tutorial we are going to use  data to add objects and information to an AR scene (preview above)..
 
-This follows on directly from **Using external data in unity pt 1** So you should have completed pt 1 and have your your Unity project open and your **GetData** C# script open in Visual Studio to begin.
+This follows on directly from **Using external data in unity pt 1** So you should have completed pt 1 and have your Unity project open and your **GetData** C# script open in Visual Studio to begin.
 
 It is possible to use incoming data to alter nearly every aspect of  your project by using the data to change, add and remove  Game Objects in your scene. (This could include objects in your scene, or atmosphere (fog), skybox, materials, textures, physics properties and so on). 
 
@@ -64,10 +64,10 @@ https://www.youtube.com/watch?v=Q16KIxtomeo
 
 ## Build the project to an Android device
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYxOTI0MzY4LDc4MjA2NDQwNywtNDUxMT
-UxODc4LDg4NjI2ODgzOCw2ODA1NzMwLC04MDYyMzY2NDAsLTE4
-NjE3MzI0MTQsLTQ3MDc4OTI4LC00ODg0MjUxOTQsLTIyNzE4OD
-Y2MywtMTIyMDc3NDM1Nyw3NDI4Njc5NTMsOTc4OTQzMzIwLDcy
-NTI4MjQwNCwtODk0MzQyNzU0LC0zMTAzNjgyNDgsLTgyNjM1Nz
-AxMSwtODQzOTk1OTgyXX0=
+eyJoaXN0b3J5IjpbLTE0MDQxODM4NDUsNDYxOTI0MzY4LDc4Mj
+A2NDQwNywtNDUxMTUxODc4LDg4NjI2ODgzOCw2ODA1NzMwLC04
+MDYyMzY2NDAsLTE4NjE3MzI0MTQsLTQ3MDc4OTI4LC00ODg0Mj
+UxOTQsLTIyNzE4ODY2MywtMTIyMDc3NDM1Nyw3NDI4Njc5NTMs
+OTc4OTQzMzIwLDcyNTI4MjQwNCwtODk0MzQyNzU0LC0zMTAzNj
+gyNDgsLTgyNjM1NzAxMSwtODQzOTk1OTgyXX0=
 -->
