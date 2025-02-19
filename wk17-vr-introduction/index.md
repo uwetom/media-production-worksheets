@@ -63,6 +63,7 @@ Accept the pop-up to download the simulator package.
 #### Mac
 
 Unity Mock HMD
+
 - Finally, in the **Project Validation** Section check for any issues in the window and Android tabs and press **Fix all**
 
 We are now set up all the VR settings.
@@ -261,9 +262,9 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDg4NjQ3NCw5OTcyMzg4NzcsMTA4OD
-A5MTMzMiwtMTEwOTU3NjQzNiwtNjk1MjEzMTg1LDEwMzY4Nzc4
-NTksLTcxODc0OTI0MywzOTc3NDc1MjMsMjU2NDcxMjE5LDE3Mz
-AzNDkzMDQsMTgzMTYxNDQ4MiwtMTkxMzMyNjE0NSwxNjU0NjQx
-NTQ5LC00Mjg2NzM3NjYsMTE1MTc5NTU0XX0=
+eyJoaXN0b3J5IjpbOTEwNzQ3NDAwLDk5NzIzODg3NywxMDg4MD
+kxMzMyLC0xMTA5NTc2NDM2LC02OTUyMTMxODUsMTAzNjg3Nzg1
+OSwtNzE4NzQ5MjQzLDM5Nzc0NzUyMywyNTY0NzEyMTksMTczMD
+M0OTMwNCwxODMxNjE0NDgyLC0xOTEzMzI2MTQ1LDE2NTQ2NDE1
+NDksLTQyODY3Mzc2NiwxMTUxNzk1NTRdfQ==
 -->
