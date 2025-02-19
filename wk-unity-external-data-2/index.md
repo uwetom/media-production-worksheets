@@ -39,9 +39,13 @@ Then we assigned data to the Array in the inspector. Adding the rock prefabs to 
 
 We accessed data from the array using the index of each element (0, 1, 2).
 ```rockInstances[0] // returns Rock_01```
+
+The key thing about Arrays in Unity is that you cannot add or remove elements to them once they have been initialised.
+
+Unity also has lists which work slightly differently to arrays
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU4MTg0NTA5LC0yMjcxODg2NjMsLTEyMj
-A3NzQzNTcsNzQyODY3OTUzLDk3ODk0MzMyMCw3MjUyODI0MDQs
-LTg5NDM0Mjc1NCwtMzEwMzY4MjQ4LC04MjYzNTcwMTEsLTg0Mz
-k5NTk4Ml19
+eyJoaXN0b3J5IjpbLTEzMzEzNDMwMTcsLTIyNzE4ODY2MywtMT
+IyMDc3NDM1Nyw3NDI4Njc5NTMsOTc4OTQzMzIwLDcyNTI4MjQw
+NCwtODk0MzQyNzU0LC0zMTAzNjgyNDgsLTgyNjM1NzAxMSwtOD
+QzOTk1OTgyXX0=
 -->
