@@ -38,10 +38,10 @@ Then we assigned data to the Array in the inspector. Adding the rock prefabs to 
 ![inspector screenshot](https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/assign-array.png)
 
 We accessed data from the array using the index of each item (0, 1, 2).
-```rockInstances[0]
+```rockInstances[0] // returns Rock_01```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTU4OTEwOTYsLTIyNzE4ODY2MywtMT
-IyMDc3NDM1Nyw3NDI4Njc5NTMsOTc4OTQzMzIwLDcyNTI4MjQw
-NCwtODk0MzQyNzU0LC0zMTAzNjgyNDgsLTgyNjM1NzAxMSwtOD
-QzOTk1OTgyXX0=
+eyJoaXN0b3J5IjpbLTEwMTEyMjY4MiwtMjI3MTg4NjYzLC0xMj
+IwNzc0MzU3LDc0Mjg2Nzk1Myw5Nzg5NDMzMjAsNzI1MjgyNDA0
+LC04OTQzNDI3NTQsLTMxMDM2ODI0OCwtODI2MzU3MDExLC04ND
+M5OTU5ODJdfQ==
 -->
