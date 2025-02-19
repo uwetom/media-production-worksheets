@@ -28,8 +28,12 @@ In this next video we are going to set up the script and prefabs ready to deploy
 
 
 ### Key technique
+We have used an Array in our code to hold all the Rock prefabs.
+
+We initialised the Array in the code ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNzE4ODY2MywtMTIyMDc3NDM1Nyw3ND
-I4Njc5NTMsOTc4OTQzMzIwLDcyNTI4MjQwNCwtODk0MzQyNzU0
-LC0zMTAzNjgyNDgsLTgyNjM1NzAxMSwtODQzOTk1OTgyXX0=
+eyJoaXN0b3J5IjpbLTczODg2MDMzOCwtMjI3MTg4NjYzLC0xMj
+IwNzc0MzU3LDc0Mjg2Nzk1Myw5Nzg5NDMzMjAsNzI1MjgyNDA0
+LC04OTQzNDI3NTQsLTMxMDM2ODI0OCwtODI2MzU3MDExLC04ND
+M5OTU5ODJdfQ==
 -->
