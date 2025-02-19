@@ -62,7 +62,7 @@ Accept the pop-up to download the simulator package.
 
 #### Mac
 
-Unity Mock HMD LoaIf you are on a Mac, particularly in the lab you also need to change the 
+If you on a Mac, particularly in the lab you also need to change the plugin in manager from **openXR** to Mock **HMD Loader**
 
 der
 ![uwe xr device simulator button](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/hmd.png)
@@ -266,9 +266,9 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzg5NTI5MjcsMTU4OTU0MzAsOTk3Mj
-M4ODc3LDEwODgwOTEzMzIsLTExMDk1NzY0MzYsLTY5NTIxMzE4
-NSwxMDM2ODc3ODU5LC03MTg3NDkyNDMsMzk3NzQ3NTIzLDI1Nj
-Q3MTIxOSwxNzMwMzQ5MzA0LDE4MzE2MTQ0ODIsLTE5MTMzMjYx
-NDUsMTY1NDY0MTU0OSwtNDI4NjczNzY2LDExNTE3OTU1NF19
+eyJoaXN0b3J5IjpbMjk2NTU1MzE1LDE1ODk1NDMwLDk5NzIzOD
+g3NywxMDg4MDkxMzMyLC0xMTA5NTc2NDM2LC02OTUyMTMxODUs
+MTAzNjg3Nzg1OSwtNzE4NzQ5MjQzLDM5Nzc0NzUyMywyNTY0Nz
+EyMTksMTczMDM0OTMwNCwxODMxNjE0NDgyLC0xOTEzMzI2MTQ1
+LDE2NTQ2NDE1NDksLTQyODY3Mzc2NiwxMTUxNzk1NTRdfQ==
 -->
