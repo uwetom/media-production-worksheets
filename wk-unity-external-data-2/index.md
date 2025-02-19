@@ -32,7 +32,7 @@ We have used an Array in our code to hold all the Rock prefabs.
 
 We initialised the Array in the code 
 ```public GameObject[] rockInstances;```   
-as a public Array of Game Objects that we are named rockInstances.
+as a public Array of Game Objects that we named rockInstances.
 
 Then we assigned data to the Array in the inspector. Adding the rock prefabs to it.
 ![inspector screenshot](https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/assign-array.png)
@@ -47,8 +47,8 @@ Unity also has lists which work slightly differently to arrays (and you can add 
 Learn more about Arrays and Lists here
 https://www.youtube.com/watch?v=Q16KIxtomeo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4ODQyNTE5NCwtMjI3MTg4NjYzLC0xMj
-IwNzc0MzU3LDc0Mjg2Nzk1Myw5Nzg5NDMzMjAsNzI1MjgyNDA0
-LC04OTQzNDI3NTQsLTMxMDM2ODI0OCwtODI2MzU3MDExLC04ND
-M5OTU5ODJdfQ==
+eyJoaXN0b3J5IjpbNzIxODQ5MTYyLC00ODg0MjUxOTQsLTIyNz
+E4ODY2MywtMTIyMDc3NDM1Nyw3NDI4Njc5NTMsOTc4OTQzMzIw
+LDcyNTI4MjQwNCwtODk0MzQyNzU0LC0zMTAzNjgyNDgsLTgyNj
+M1NzAxMSwtODQzOTk1OTgyXX0=
 -->
