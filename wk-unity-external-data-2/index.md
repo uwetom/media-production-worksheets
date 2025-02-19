@@ -26,6 +26,9 @@ In this next video we are going to set up the script and prefabs ready to deploy
 
 [<img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/edit-prefab-video.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=18c829c7-389e-48d9-8617-b28701019986)
 
+[<img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/add-rocks.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=18c829c7-389e-48d9-8617-b28701019986)
+
+
 
 
 ### Key technique
@@ -50,8 +53,9 @@ Unity also has lists which work slightly differently to arrays (and you can add 
 Learn more about Arrays and Lists here
 https://www.youtube.com/watch?v=Q16KIxtomeo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjE3MzI0MTQsLTQ3MDc4OTI4LC00OD
-g0MjUxOTQsLTIyNzE4ODY2MywtMTIyMDc3NDM1Nyw3NDI4Njc5
-NTMsOTc4OTQzMzIwLDcyNTI4MjQwNCwtODk0MzQyNzU0LC0zMT
-AzNjgyNDgsLTgyNjM1NzAxMSwtODQzOTk1OTgyXX0=
+eyJoaXN0b3J5IjpbMTM1NTIxNDM0NiwtMTg2MTczMjQxNCwtND
+cwNzg5MjgsLTQ4ODQyNTE5NCwtMjI3MTg4NjYzLC0xMjIwNzc0
+MzU3LDc0Mjg2Nzk1Myw5Nzg5NDMzMjAsNzI1MjgyNDA0LC04OT
+QzNDI3NTQsLTMxMDM2ODI0OCwtODI2MzU3MDExLC04NDM5OTU5
+ODJdfQ==
 -->
