@@ -34,9 +34,10 @@ We initialised the Array in the code ```public GameObject[] rockInstances;``` as
 
 Then we assigned data to the Array in the inspector
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NTYyMzkxNywtMjI3MTg4NjYzLC0xMj
-IwNzc0MzU3LDc0Mjg2Nzk1Myw5Nzg5NDMzMjAsNzI1MjgyNDA0
-LC04OTQzNDI3NTQsLTMxMDM2ODI0OCwtODI2MzU3MDExLC04ND
-M5OTU5ODJdfQ==
+eyJoaXN0b3J5IjpbLTEzMzE3MjE3MjcsLTIyNzE4ODY2MywtMT
+IyMDc3NDM1Nyw3NDI4Njc5NTMsOTc4OTQzMzIwLDcyNTI4MjQw
+NCwtODk0MzQyNzU0LC0zMTAzNjgyNDgsLTgyNjM1NzAxMSwtOD
+QzOTk1OTgyXX0=
 -->
