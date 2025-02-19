@@ -60,7 +60,7 @@ In this video we used a Coroutine / IENumerator.
 Coroutines provide an excellent way of easily managing things that need to happen after a delay or over the course of time. You can learn more about them here:
 https://learn.unity.com/tutorial/coroutines# 
 
-Code (but please type not copy and paste!):
+This is the code I used in the video ( please type not copy and paste!):
 ```C#
 using System.Collections.Generic;
 using UnityEngine;
@@ -180,7 +180,8 @@ public class GetData : MonoBehaviour
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNjIxMDAzNCwtMTM1NTkwNDcyNiw5Nz
-EwNjQ3NjIsMTU2Mzk4MTE2MiwyMDc4NDAxMTI2LC0zODIzNTcz
-NDIsMTM3NzE5MTA3NCwtMTI4MzM5MTU3OF19
+eyJoaXN0b3J5IjpbMTUxMTE3MDk5MywxNDM2MjEwMDM0LC0xMz
+U1OTA0NzI2LDk3MTA2NDc2MiwxNTYzOTgxMTYyLDIwNzg0MDEx
+MjYsLTM4MjM1NzM0MiwxMzc3MTkxMDc0LC0xMjgzMzkxNTc4XX
+0=
 -->
