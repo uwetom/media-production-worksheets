@@ -26,11 +26,11 @@ In this next video we are going to set up the script and prefabs ready to deploy
 
 [<img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/edit-prefab-video.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=18c829c7-389e-48d9-8617-b28701019986)
 
-Next let's add asteroids / rocks to the AR scene using the ```instantiate``` function.
+(Note: In the last video I reffered to the Array that we created as a 'list'. It is in fact an Array. In Unity Lists are quite different).
+
+Now we are ready to add asteroids / rocks to the AR scene based on the NASA data, and using the ```instantiate``` function.
 
 [<img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/add-rocks.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=de75c10d-37ff-4556-955e-b28900b87d0c)
-
-
 
 
 ### Key technique
@@ -55,9 +55,9 @@ Unity also has lists which work slightly differently to arrays (and you can add 
 Learn more about Arrays and Lists here
 https://www.youtube.com/watch?v=Q16KIxtomeo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNjIzNjY0MCwtMTg2MTczMjQxNCwtND
-cwNzg5MjgsLTQ4ODQyNTE5NCwtMjI3MTg4NjYzLC0xMjIwNzc0
-MzU3LDc0Mjg2Nzk1Myw5Nzg5NDMzMjAsNzI1MjgyNDA0LC04OT
-QzNDI3NTQsLTMxMDM2ODI0OCwtODI2MzU3MDExLC04NDM5OTU5
-ODJdfQ==
+eyJoaXN0b3J5IjpbNjgwNTczMCwtODA2MjM2NjQwLC0xODYxNz
+MyNDE0LC00NzA3ODkyOCwtNDg4NDI1MTk0LC0yMjcxODg2NjMs
+LTEyMjA3NzQzNTcsNzQyODY3OTUzLDk3ODk0MzMyMCw3MjUyOD
+I0MDQsLTg5NDM0Mjc1NCwtMzEwMzY4MjQ4LC04MjYzNTcwMTEs
+LTg0Mzk5NTk4Ml19
 -->
