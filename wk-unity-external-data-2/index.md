@@ -14,7 +14,7 @@ It is possible to use incoming data to alter nearly every aspect of  your projec
 
 In this example we are going to use the data instantiate (create) objects in our scene.
 
-We will use the NASA JSON data to add a rock / asteroid into our scene to represents every hazardous near earth object in the dataset.
+We will use the NASA JSON data to add a rock / asteroid into our scene for every hazardous near earth object in the dataset.
 
 ## Set up: install asteroids package
 
@@ -64,10 +64,10 @@ https://www.youtube.com/watch?v=Q16KIxtomeo
 
 ## Build the project to an Android device
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgyMDY0NDA3LC00NTExNTE4NzgsODg2Mj
-Y4ODM4LDY4MDU3MzAsLTgwNjIzNjY0MCwtMTg2MTczMjQxNCwt
-NDcwNzg5MjgsLTQ4ODQyNTE5NCwtMjI3MTg4NjYzLC0xMjIwNz
-c0MzU3LDc0Mjg2Nzk1Myw5Nzg5NDMzMjAsNzI1MjgyNDA0LC04
-OTQzNDI3NTQsLTMxMDM2ODI0OCwtODI2MzU3MDExLC04NDM5OT
-U5ODJdfQ==
+eyJoaXN0b3J5IjpbNDYxOTI0MzY4LDc4MjA2NDQwNywtNDUxMT
+UxODc4LDg4NjI2ODgzOCw2ODA1NzMwLC04MDYyMzY2NDAsLTE4
+NjE3MzI0MTQsLTQ3MDc4OTI4LC00ODg0MjUxOTQsLTIyNzE4OD
+Y2MywtMTIyMDc3NDM1Nyw3NDI4Njc5NTMsOTc4OTQzMzIwLDcy
+NTI4MjQwNCwtODk0MzQyNzU0LC0zMTAzNjgyNDgsLTgyNjM1Nz
+AxMSwtODQzOTk1OTgyXX0=
 -->
