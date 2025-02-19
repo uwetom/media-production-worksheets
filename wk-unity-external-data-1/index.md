@@ -120,7 +120,7 @@ In this [Preview](https://raw.githubusercontent.com/uwetom/media-production-work
 
 The final code is below (please type not copy and paste!):
 
-This should give you a good starting point and some methods for extracting data from **any** JSON file. The key / value principles and the nested key / value structure are used in all datasets.
+This should give you a good starting point and a useful method for extracting data from **any** JSON file. The key / value principles and the nested key / value structure are used in all datasets.
 
 ```C#
 using System.Collections;
@@ -180,8 +180,8 @@ public class GetData : MonoBehaviour
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM2NTY3NzcsMTUxMTE3MDk5MywxNDM2Mj
-EwMDM0LC0xMzU1OTA0NzI2LDk3MTA2NDc2MiwxNTYzOTgxMTYy
-LDIwNzg0MDExMjYsLTM4MjM1NzM0MiwxMzc3MTkxMDc0LC0xMj
-gzMzkxNTc4XX0=
+eyJoaXN0b3J5IjpbLTIwNTAzNDg3MDEsMTUxMTE3MDk5MywxND
+M2MjEwMDM0LC0xMzU1OTA0NzI2LDk3MTA2NDc2MiwxNTYzOTgx
+MTYyLDIwNzg0MDExMjYsLTM4MjM1NzM0MiwxMzc3MTkxMDc0LC
+0xMjgzMzkxNTc4XX0=
 -->
