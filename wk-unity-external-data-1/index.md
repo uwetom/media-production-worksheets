@@ -60,7 +60,7 @@ In this video we used a Coroutine / IENumerator.
 Coroutines provide an excellent way of easily managing things that need to happen after a delay or over the course of time. You can learn more about them here:
 https://learn.unity.com/tutorial/coroutines# 
 
-Code (but please type not copy and paste!):
+This is the code I used in the video ( please type not copy and paste!):
 ```C#
 using System.Collections.Generic;
 using UnityEngine;
@@ -118,9 +118,9 @@ In this [Preview](https://raw.githubusercontent.com/uwetom/media-production-work
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=d9464bce-ae0c-4ecc-bcb6-b284011ed94b&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="MP-data-3b extract data" ></iframe>
 
-This code should give you a good starting point and some methods for extracting data from **any** JSON file. The key / value principles and the nested key / value structure are used in all datasets.
+The final code is below (please type not copy and paste!):
 
-The final code is (please type not copy and paste!):
+This should give you a good starting point and a useful method for extracting data from **any** JSON file. The key / value principles and the nested key / value structure are used in many datasets.
 
 ```C#
 using System.Collections;
@@ -180,7 +180,8 @@ public class GetData : MonoBehaviour
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNjIxMDAzNCwtMTM1NTkwNDcyNiw5Nz
-EwNjQ3NjIsMTU2Mzk4MTE2MiwyMDc4NDAxMTI2LC0zODIzNTcz
-NDIsMTM3NzE5MTA3NCwtMTI4MzM5MTU3OF19
+eyJoaXN0b3J5IjpbLTE1Mzg0NjIyMTEsMTUxMTE3MDk5MywxND
+M2MjEwMDM0LC0xMzU1OTA0NzI2LDk3MTA2NDc2MiwxNTYzOTgx
+MTYyLDIwNzg0MDExMjYsLTM4MjM1NzM0MiwxMzc3MTkxMDc0LC
+0xMjgzMzkxNTc4XX0=
 -->
