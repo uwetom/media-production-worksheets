@@ -18,9 +18,28 @@
 <p>This follows on directly from <strong>Using external data in unity pt 1</strong> So you should have completed pt 1 and have your your Unity project open and your <strong>GetData</strong> C# script open in Visual Studio to begin.</p>
 <p>It is possible to use incoming data to alter nearly every aspect of your your scene by using the data to interact with the components in your Game Objects (objects, atmosphere, materials, texture, physics and so on).</p>
 <p>In this example we are going to use the data instantiate (create) objects in our scene.</p>
-<h2 id="set-up-install-rock-package">Set up: install rock package</h2>
-<p>Download and install this rock package of prefabs and animations.</p>
-<p><a href="http://example.com/"><img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/videoframe_4502.png"></a></p>
+<h2 id="set-up-install-asteroids-package">Set up: install asteroids package</h2>
+<p>I’ve prepared the rock / asteroids that we are going to use, creating prefabs with a simple rotation animation. Download <a href="https://github.com/uwetom/media-production-worksheets/raw/refs/heads/master/wk-unity-external-data-2/Asteroids.unitypackage">the package here</a></p>
+<p>Drag it into your Assets folder to install it.</p>
+<p><img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/install-rocks.png" alt="Inspector screenshot"></p>
+<p>In this next video we are going to set up the script and prefabs ready to deploy in the AR scene.</p>
+<p><a href="https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=18c829c7-389e-48d9-8617-b28701019986"><img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/edit-prefab-video.png"></a></p>
+<p>Next let’s add asteroids / rocks to the AR scene using the <code>instantiate</code> function.</p>
+<p><a href="https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=de75c10d-37ff-4556-955e-b28900b87d0c"><img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/add-rocks.png"></a></p>
+<h3 id="key-technique">Key technique</h3>
+<p>We have used an Array in our code to hold all the Rock prefabs.</p>
+<p>We initialised the Array in the code<br>
+<code>public GameObject[] rockInstances;</code><br>
+as a public Array of Game Objects that we named rockInstances.</p>
+<p>Then we assigned data to the Array in the inspector. Adding the rock prefabs to it.<br>
+<img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/assign-array.png" alt="inspector screenshot"></p>
+<p>We accessed data from the array using the index of each element (0, 1, 2).<br>
+<code>rockInstances[0] // returns Rock_01</code></p>
+<p>The key thing about Arrays in Unity is that you cannot add or remove elements to them once they have been initialised.</p>
+<p>Like all variables in Unity you have to declare the type of data the Array wil hold (in our case: Game Objects).</p>
+<p>Unity also has lists which work slightly differently to arrays (and you can add or remove elements to them).</p>
+<p>Learn more about Arrays and Lists here<br>
+<a href="https://www.youtube.com/watch?v=Q16KIxtomeo">https://www.youtube.com/watch?v=Q16KIxtomeo</a></p>
 </div>
 </body>
 

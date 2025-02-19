@@ -39,10 +39,11 @@
 <h2 id="use-c-to-get-external-data-into-unity">Use C# to get external data into Unity</h2>
 <p>In this next video we will use Unity networking to access the data in the NASA JSON file, live from the NASA website. Unity will access the link and download the data into your Unity project. We will look at the raw downloaded data in the console.</p>
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=3f680212-dab6-4da2-acc3-b28400e8c6db&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=true&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
+<h3 id="key-technique">Key technique</h3>
 <p>In this video we used a Coroutine / IENumerator.<br>
 Coroutines provide an excellent way of easily managing things that need to happen after a delay or over the course of time. You can learn more about them here:<br>
 <a href="https://learn.unity.com/tutorial/coroutines#">https://learn.unity.com/tutorial/coroutines#</a></p>
-<p>Code (but please type not copy and paste!):</p>
+<p>This is the code I used in the video ( please type not copy and paste!):</p>
 <pre class=" language-c"><code class="prism # language-c">using System<span class="token punctuation">.</span>Collections<span class="token punctuation">.</span>Generic<span class="token punctuation">;</span>
 using UnityEngine<span class="token punctuation">;</span>
 using SimpleJSON<span class="token punctuation">;</span>
@@ -89,8 +90,8 @@ We will use this to filter the data with an ```if()`` statement.</p>
 <p>In this <a href="https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk-intro-external-data/images/neows-4.png">Preview</a>   you can see that NASA json data contains all this information.</p>
 <p><strong>Note:</strong> Before you follow this video it might be helpful to review the section of the last worksheet called <strong>How to get values from JSON</strong>. We will be using keys to access the values in data.</p>
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=d9464bce-ae0c-4ecc-bcb6-b284011ed94b&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=true&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
-<p>This code should give you a good starting point and some methods for extracting data from <strong>any</strong> JSON file. The key / value principles and the nested key / value structure are used in all datasets.</p>
-<p>The final code is (please type not copy and paste!):</p>
+<p>The final code is below (please type not copy and paste!):</p>
+<p>This should give you a good starting point and a useful method for extracting data from <strong>any</strong> JSON file. The key / value principles and the nested key / value structure are used in many datasets.</p>
 <pre class=" language-c"><code class="prism # language-c">using System<span class="token punctuation">.</span>Collections<span class="token punctuation">;</span>
 using System<span class="token punctuation">.</span>Collections<span class="token punctuation">.</span>Generic<span class="token punctuation">;</span>
 using UnityEngine<span class="token punctuation">;</span>
