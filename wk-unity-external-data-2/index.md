@@ -10,7 +10,7 @@ In this next tutorial we are going to use  data to add objects and information t
 
 This follows on directly from **Using external data in unity pt 1** So you should have completed pt 1 and have your your Unity project open and your **GetData** C# script open in Visual Studio to begin.
 
-It is possible to use incoming data to alter nearly every aspect of  your project by using the data to change, add and remove  Game Objects in your scene. (This could include objects in your scene, atmosphere, skybox, materials, textures, physics properties and so on). 
+It is possible to use incoming data to alter nearly every aspect of  your project by using the data to change, add and remove  Game Objects in your scene. (This could include objects in your scene, or atmosphere (fog), skybox, materials, textures, physics properties and so on). 
 
 In this example we are going to use the data instantiate (create) objects in our scene.
 
@@ -62,10 +62,10 @@ https://www.youtube.com/watch?v=Q16KIxtomeo
 
 ## Build the project to an Android device
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NjkyMjUzLC00NTExNTE4NzgsODg2Mj
-Y4ODM4LDY4MDU3MzAsLTgwNjIzNjY0MCwtMTg2MTczMjQxNCwt
-NDcwNzg5MjgsLTQ4ODQyNTE5NCwtMjI3MTg4NjYzLC0xMjIwNz
-c0MzU3LDc0Mjg2Nzk1Myw5Nzg5NDMzMjAsNzI1MjgyNDA0LC04
-OTQzNDI3NTQsLTMxMDM2ODI0OCwtODI2MzU3MDExLC04NDM5OT
-U5ODJdfQ==
+eyJoaXN0b3J5IjpbMTA0NTEwNzU1NywtNDUxMTUxODc4LDg4Nj
+I2ODgzOCw2ODA1NzMwLC04MDYyMzY2NDAsLTE4NjE3MzI0MTQs
+LTQ3MDc4OTI4LC00ODg0MjUxOTQsLTIyNzE4ODY2MywtMTIyMD
+c3NDM1Nyw3NDI4Njc5NTMsOTc4OTQzMzIwLDcyNTI4MjQwNCwt
+ODk0MzQyNzU0LC0zMTAzNjgyNDgsLTgyNjM1NzAxMSwtODQzOT
+k1OTgyXX0=
 -->
