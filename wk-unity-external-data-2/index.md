@@ -56,11 +56,13 @@ We could also have used a List in Unity which works slightly differently to an A
 
 Learn more about Arrays and Lists here
 https://www.youtube.com/watch?v=Q16KIxtomeo
+
+## Use data to add text to the asteroids / rocks in the AR scene
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDE5MDg1NDYsLTQ1MTE1MTg3OCw4OD
-YyNjg4MzgsNjgwNTczMCwtODA2MjM2NjQwLC0xODYxNzMyNDE0
-LC00NzA3ODkyOCwtNDg4NDI1MTk0LC0yMjcxODg2NjMsLTEyMj
-A3NzQzNTcsNzQyODY3OTUzLDk3ODk0MzMyMCw3MjUyODI0MDQs
-LTg5NDM0Mjc1NCwtMzEwMzY4MjQ4LC04MjYzNTcwMTEsLTg0Mz
-k5NTk4Ml19
+eyJoaXN0b3J5IjpbMTk2ODI3NzA5NCwtNDUxMTUxODc4LDg4Nj
+I2ODgzOCw2ODA1NzMwLC04MDYyMzY2NDAsLTE4NjE3MzI0MTQs
+LTQ3MDc4OTI4LC00ODg0MjUxOTQsLTIyNzE4ODY2MywtMTIyMD
+c3NDM1Nyw3NDI4Njc5NTMsOTc4OTQzMzIwLDcyNTI4MjQwNCwt
+ODk0MzQyNzU0LC0zMTAzNjgyNDgsLTgyNjM1NzAxMSwtODQzOT
+k1OTgyXX0=
 -->
