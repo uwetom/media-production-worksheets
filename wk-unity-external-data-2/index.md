@@ -12,9 +12,7 @@ This follows on directly from **Using external data in unity pt 1** So you shoul
 
 It is possible to use incoming data to alter nearly every aspect of  your project by using the data to change, add and remove  Game Objects in your scene. (This could include objects in your scene, or atmosphere (fog), skybox, materials, textures, physics properties and so on). 
 
-In this example we are going to use the data instantiate (create) objects in our scene.
-
-We will use the NASA JSON data to add a rock / asteroid into our scene for every hazardous near earth object in the dataset.
+In this example we are going to use the data instantiate (create) objects in our scene. We will use the NASA JSON data to add a rock / asteroid into our scene for every hazardous near earth object in the dataset.
 
 ## Set up: install asteroids package
 
@@ -64,10 +62,10 @@ https://www.youtube.com/watch?v=Q16KIxtomeo
 
 ## Build the project to an Android device
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDQxODM4NDUsNDYxOTI0MzY4LDc4Mj
-A2NDQwNywtNDUxMTUxODc4LDg4NjI2ODgzOCw2ODA1NzMwLC04
-MDYyMzY2NDAsLTE4NjE3MzI0MTQsLTQ3MDc4OTI4LC00ODg0Mj
-UxOTQsLTIyNzE4ODY2MywtMTIyMDc3NDM1Nyw3NDI4Njc5NTMs
-OTc4OTQzMzIwLDcyNTI4MjQwNCwtODk0MzQyNzU0LC0zMTAzNj
-gyNDgsLTgyNjM1NzAxMSwtODQzOTk1OTgyXX0=
+eyJoaXN0b3J5IjpbLTEwMTQ4MTA0NSw0NjE5MjQzNjgsNzgyMD
+Y0NDA3LC00NTExNTE4NzgsODg2MjY4ODM4LDY4MDU3MzAsLTgw
+NjIzNjY0MCwtMTg2MTczMjQxNCwtNDcwNzg5MjgsLTQ4ODQyNT
+E5NCwtMjI3MTg4NjYzLC0xMjIwNzc0MzU3LDc0Mjg2Nzk1Myw5
+Nzg5NDMzMjAsNzI1MjgyNDA0LC04OTQzNDI3NTQsLTMxMDM2OD
+I0OCwtODI2MzU3MDExLC04NDM5OTU5ODJdfQ==
 -->
