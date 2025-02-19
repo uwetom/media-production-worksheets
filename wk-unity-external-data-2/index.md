@@ -20,7 +20,7 @@ I've prepared the rock / asteroids that we are going to use, creating prefabs wi
 
 Drag it into your Assets folder to install it.
 
-![enter image description here](https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/install-rocks.png)
+![Inspector screenshot](https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/install-rocks.png)
  
 In this next video we are going to set up the script and prefabs ready to deploy in the AR scene.
 
@@ -33,11 +33,11 @@ We have used an Array in our code to hold all the Rock prefabs.
 We initialised the Array in the code ```public GameObject[] rockInstances;``` as a public Array of Game Objects that we are calling rockInstances.
 
 Then we assigned data to the Array in the inspector
-
+![inspector screenshot](https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/assign-array.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzE3MjE3MjcsLTIyNzE4ODY2MywtMT
-IyMDc3NDM1Nyw3NDI4Njc5NTMsOTc4OTQzMzIwLDcyNTI4MjQw
-NCwtODk0MzQyNzU0LC0zMTAzNjgyNDgsLTgyNjM1NzAxMSwtOD
-QzOTk1OTgyXX0=
+eyJoaXN0b3J5IjpbMTA0OTQzMjQ2MywtMjI3MTg4NjYzLC0xMj
+IwNzc0MzU3LDc0Mjg2Nzk1Myw5Nzg5NDMzMjAsNzI1MjgyNDA0
+LC04OTQzNDI3NTQsLTMxMDM2ODI0OCwtODI2MzU3MDExLC04ND
+M5OTU5ODJdfQ==
 -->
