@@ -34,7 +34,7 @@ Now we are ready to add asteroids / rocks to the AR scene based on the NASA data
 
 
 ### Key technique
-We have used an Array in our code to hold all the Rock prefabs.
+We have used an Array in our ```GetData``` script to hold all the Rock prefabs.
 
 We initialised the Array in the code 
 ```public GameObject[] rockInstances;```   
@@ -55,9 +55,9 @@ You could also make a List in Unity which works slightly differently to an Array
 Learn more about Arrays and Lists here
 https://www.youtube.com/watch?v=Q16KIxtomeo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg2MjY4ODM4LDY4MDU3MzAsLTgwNjIzNj
-Y0MCwtMTg2MTczMjQxNCwtNDcwNzg5MjgsLTQ4ODQyNTE5NCwt
-MjI3MTg4NjYzLC0xMjIwNzc0MzU3LDc0Mjg2Nzk1Myw5Nzg5ND
-MzMjAsNzI1MjgyNDA0LC04OTQzNDI3NTQsLTMxMDM2ODI0OCwt
-ODI2MzU3MDExLC04NDM5OTU5ODJdfQ==
+eyJoaXN0b3J5IjpbMTkxMDg2MTc5Niw4ODYyNjg4MzgsNjgwNT
+czMCwtODA2MjM2NjQwLC0xODYxNzMyNDE0LC00NzA3ODkyOCwt
+NDg4NDI1MTk0LC0yMjcxODg2NjMsLTEyMjA3NzQzNTcsNzQyOD
+Y3OTUzLDk3ODk0MzMyMCw3MjUyODI0MDQsLTg5NDM0Mjc1NCwt
+MzEwMzY4MjQ4LC04MjYzNTcwMTEsLTg0Mzk5NTk4Ml19
 -->
