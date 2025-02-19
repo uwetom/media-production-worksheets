@@ -48,16 +48,16 @@ We accessed data from the array using the index of each element (0, 1, 2).
 
 The key thing about Arrays in Unity is that you cannot add or remove elements to them once they have been initialised.
 
-Like all variables in Unity you have to declare the type of data the Array wil hold (in our case: Game Objects).
+Like all variables in Unity you have to declare the type of data the Array will hold (in our case: Game Objects).
 
 Unity also has lists which work slightly differently to arrays (and you can add or remove elements to them).
 
 Learn more about Arrays and Lists here
 https://www.youtube.com/watch?v=Q16KIxtomeo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgwNTczMCwtODA2MjM2NjQwLC0xODYxNz
-MyNDE0LC00NzA3ODkyOCwtNDg4NDI1MTk0LC0yMjcxODg2NjMs
-LTEyMjA3NzQzNTcsNzQyODY3OTUzLDk3ODk0MzMyMCw3MjUyOD
-I0MDQsLTg5NDM0Mjc1NCwtMzEwMzY4MjQ4LC04MjYzNTcwMTEs
-LTg0Mzk5NTk4Ml19
+eyJoaXN0b3J5IjpbOTM2NTg1OTY2LDY4MDU3MzAsLTgwNjIzNj
+Y0MCwtMTg2MTczMjQxNCwtNDcwNzg5MjgsLTQ4ODQyNTE5NCwt
+MjI3MTg4NjYzLC0xMjIwNzc0MzU3LDc0Mjg2Nzk1Myw5Nzg5ND
+MzMjAsNzI1MjgyNDA0LC04OTQzNDI3NTQsLTMxMDM2ODI0OCwt
+ODI2MzU3MDExLC04NDM5OTU5ODJdfQ==
 -->
