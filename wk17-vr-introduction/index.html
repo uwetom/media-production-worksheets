@@ -17,7 +17,7 @@
 <p>We are using Meta Quest headsets, they can be used as stand alone devices. This allows you to build content directly to the headset without requiring the user to be tethered to a powerful PC.</p>
 <p>We will be using Meta Quest 1 and 2 headsets, you can also use the Quest 3 if you have one.</p>
 <p>The headsets require you to create an account and sign in to use. To save time I will do this for you before the in class workshops, but you will need to do yourself if you book them from the project room for use outside class.</p>
-<p>!(How to setup your own headset)[<a href="https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset/">https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset/</a>]</p>
+<p><a href="https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset/">How to setup your own headset</a></p>
 <p>Please make sure you reset them using the guide in the kit before returning them to the project room.</p>
 <h2 id="create-a-unity-project">2.  Create a Unity Project</h2>
 <p>Open Unity and create a new project, we will use the built in VR template.</p>
@@ -48,8 +48,11 @@
 </ul>
 <p><img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/use_simulation.jpg" alt="uwe xr device simulator button"></p>
 <p>Accept the pop-up to download the simulator package.</p>
+<h4 id="mac">Mac</h4>
+<p>nity oc  oaIf you are on a Mac, particularly in the lab you also need to change the plugin in manager from <strong>penXR</strong> to <strong>Mock HMD Loader</strong>. IMPORTANT, only do this for the left tab, NOT the android tab.</p>
+<p><img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/hmd.png" alt="uwe xr device simulator button"></p>
 <ul>
-<li>Finally, in the <strong>Project Validation</strong> Section check for any issues in the window and Android tabs and press <strong>Fix all</strong></li>
+<li>Finally, in the <strong>Project Validation</strong> Section check for any issues in the window and Android tabs and press <strong>Fix all</strong>. It make take a few minutes to reload the scripts.</li>
 </ul>
 <p>We are now set up all the VR settings.</p>
 <h2 id="sample-scene">4. Sample scene</h2>
@@ -156,12 +159,12 @@
 <p>Notice that although you can select anywhere on the cube, as soon as you teleport it locks you to the center.</p>
 <h2 id="build-to-the-headset">11. Build to the headset</h2>
 <p>Once the headset is setup, building to it is just as easy as building to any Android device.</p>
-<p>On the headset:</p>
+<p>Connect the headset to the computer via the USBc cable in the VR box.</p>
+<p><strong>On the headset:</strong></p>
 <ul>
-<li>Plug it into the computer</li>
-<li>Put it on and accept the debug connection.</li>
+<li>Put it on and accept the debug connection. Always allow.</li>
 </ul>
-<p>In Unity:</p>
+<p><strong>In Unity:</strong></p>
 <ul>
 <li>On the top menu, select <strong>File &gt; Build settings</strong></li>
 <li>Make sure the correct scene is ticked in the top box.</li>
