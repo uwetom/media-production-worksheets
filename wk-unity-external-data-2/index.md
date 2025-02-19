@@ -34,12 +34,14 @@ We initialised the Array in the code
 ```public GameObject[] rockInstances;```   
 as a public Array of Game Objects that we are named rockInstances.
 
-Then we assigned data to the Array in the inspector
+Then we assigned data to the Array in the inspector. Adding the rock prefabs to it.
 ![inspector screenshot](https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/assign-array.png)
 
+We accessed data from the array using the index of each item (0, 1, 2).
+```rockInstances[0]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA4MzU0MTcwLC0yMjcxODg2NjMsLTEyMj
-A3NzQzNTcsNzQyODY3OTUzLDk3ODk0MzMyMCw3MjUyODI0MDQs
-LTg5NDM0Mjc1NCwtMzEwMzY4MjQ4LC04MjYzNTcwMTEsLTg0Mz
-k5NTk4Ml19
+eyJoaXN0b3J5IjpbLTEwNTU4OTEwOTYsLTIyNzE4ODY2MywtMT
+IyMDc3NDM1Nyw3NDI4Njc5NTMsOTc4OTQzMzIwLDcyNTI4MjQw
+NCwtODk0MzQyNzU0LC0zMTAzNjgyNDgsLTgyNjM1NzAxMSwtOD
+QzOTk1OTgyXX0=
 -->
