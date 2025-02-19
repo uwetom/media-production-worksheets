@@ -42,10 +42,13 @@ We accessed data from the array using the index of each element (0, 1, 2).
 
 The key thing about Arrays in Unity is that you cannot add or remove elements to them once they have been initialised.
 
-Unity also has lists which work slightly differently to arrays
+Unity also has lists which work slightly differently to arrays (and you can add or remove elements to them).
+
+Learn more about Arrays and Lists here
+https://www.youtube.com/watch?v=Q16KIxtomeo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzEzNDMwMTcsLTIyNzE4ODY2MywtMT
-IyMDc3NDM1Nyw3NDI4Njc5NTMsOTc4OTQzMzIwLDcyNTI4MjQw
-NCwtODk0MzQyNzU0LC0zMTAzNjgyNDgsLTgyNjM1NzAxMSwtOD
-QzOTk1OTgyXX0=
+eyJoaXN0b3J5IjpbLTQ4ODQyNTE5NCwtMjI3MTg4NjYzLC0xMj
+IwNzc0MzU3LDc0Mjg2Nzk1Myw5Nzg5NDMzMjAsNzI1MjgyNDA0
+LC04OTQzNDI3NTQsLTMxMDM2ODI0OCwtODI2MzU3MDExLC04ND
+M5OTU5ODJdfQ==
 -->
