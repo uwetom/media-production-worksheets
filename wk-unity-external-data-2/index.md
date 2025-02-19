@@ -27,6 +27,7 @@ In this next video we are going to set up the script and prefabs ready to deploy
 [<img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/edit-prefab-video.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=18c829c7-389e-48d9-8617-b28701019986)
 
 
+
 ### Key technique
 We have used an Array in our code to hold all the Rock prefabs.
 
@@ -49,8 +50,8 @@ Unity also has lists which work slightly differently to arrays (and you can add 
 Learn more about Arrays and Lists here
 https://www.youtube.com/watch?v=Q16KIxtomeo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MDc4OTI4LC00ODg0MjUxOTQsLTIyNz
-E4ODY2MywtMTIyMDc3NDM1Nyw3NDI4Njc5NTMsOTc4OTQzMzIw
-LDcyNTI4MjQwNCwtODk0MzQyNzU0LC0zMTAzNjgyNDgsLTgyNj
-M1NzAxMSwtODQzOTk1OTgyXX0=
+eyJoaXN0b3J5IjpbLTE4NjE3MzI0MTQsLTQ3MDc4OTI4LC00OD
+g0MjUxOTQsLTIyNzE4ODY2MywtMTIyMDc3NDM1Nyw3NDI4Njc5
+NTMsOTc4OTQzMzIwLDcyNTI4MjQwNCwtODk0MzQyNzU0LC0zMT
+AzNjgyNDgsLTgyNjM1NzAxMSwtODQzOTk1OTgyXX0=
 -->
