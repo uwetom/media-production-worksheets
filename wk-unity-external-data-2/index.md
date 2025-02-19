@@ -30,9 +30,12 @@ In this next video we are going to set up the script and prefabs ready to deploy
 ### Key technique
 We have used an Array in our code to hold all the Rock prefabs.
 
-We initialised the Array in the code ```
+We initialised the Array in the code ```public GameObject[] rockInstances;``` as a public Array of Game Objects that we are calling rockInstances.
+
+Then we assigned data to the Array in the inspector
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODg2MDMzOCwtMjI3MTg4NjYzLC0xMj
+eyJoaXN0b3J5IjpbLTc4NTYyMzkxNywtMjI3MTg4NjYzLC0xMj
 IwNzc0MzU3LDc0Mjg2Nzk1Myw5Nzg5NDMzMjAsNzI1MjgyNDA0
 LC04OTQzNDI3NTQsLTMxMDM2ODI0OCwtODI2MzU3MDExLC04ND
 M5OTU5ODJdfQ==
