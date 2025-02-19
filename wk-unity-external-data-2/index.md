@@ -41,14 +41,15 @@ We accessed data from the array using the index of each element (0, 1, 2).
 ```rockInstances[0] // returns Rock_01```
 
 The key thing about Arrays in Unity is that you cannot add or remove elements to them once they have been initialised.
+Like all variables in Unity you have to declare the type of data the Array wil hold (in our case: Game Objects).
 
 Unity also has lists which work slightly differently to arrays (and you can add or remove elements to them).
 
 Learn more about Arrays and Lists here
 https://www.youtube.com/watch?v=Q16KIxtomeo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIxODQ5MTYyLC00ODg0MjUxOTQsLTIyNz
-E4ODY2MywtMTIyMDc3NDM1Nyw3NDI4Njc5NTMsOTc4OTQzMzIw
-LDcyNTI4MjQwNCwtODk0MzQyNzU0LC0zMTAzNjgyNDgsLTgyNj
-M1NzAxMSwtODQzOTk1OTgyXX0=
+eyJoaXN0b3J5IjpbLTIxMjg1NzE4NzQsLTQ4ODQyNTE5NCwtMj
+I3MTg4NjYzLC0xMjIwNzc0MzU3LDc0Mjg2Nzk1Myw5Nzg5NDMz
+MjAsNzI1MjgyNDA0LC04OTQzNDI3NTQsLTMxMDM2ODI0OCwtOD
+I2MzU3MDExLC04NDM5OTU5ODJdfQ==
 -->
