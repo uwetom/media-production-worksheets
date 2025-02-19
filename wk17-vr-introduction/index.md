@@ -60,7 +60,12 @@ We also want to be able to test our project in Unity on without having to build 
 
 Accept the pop-up to download the simulator package.
 
-- Finally, in the **Project Validation** Section check for any issues in the window and Android tabs and press **Fix all**
+#### Mac
+nity oc  oaIf you are on a Mac, particularly in the lab you also need to change the plugin in manager from **penXR** to **Mock HMD Loader**. IMPORTANT, only do this for the left tab, NOT the android tab.
+
+![uwe xr device simulator button](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/hmd.png)
+
+- Finally, in the **Project Validation** Section check for any issues in the window and Android tabs and press **Fix all**. It make take a few minutes to reload the scripts.
 
 We are now set up all the VR settings.
 
@@ -258,9 +263,10 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk3MjM4ODc3LDEwODgwOTEzMzIsLTExMD
-k1NzY0MzYsLTY5NTIxMzE4NSwxMDM2ODc3ODU5LC03MTg3NDky
-NDMsMzk3NzQ3NTIzLDI1NjQ3MTIxOSwxNzMwMzQ5MzA0LDE4Mz
-E2MTQ0ODIsLTE5MTMzMjYxNDUsMTY1NDY0MTU0OSwtNDI4Njcz
-NzY2LDExNTE3OTU1NF19
+eyJoaXN0b3J5IjpbLTQ2NzMyNzExLDM0MDEyMDQ2NywxNTg5NT
+QzMCw5OTcyMzg4NzcsMTA4ODA5MTMzMiwtMTEwOTU3NjQzNiwt
+Njk1MjEzMTg1LDEwMzY4Nzc4NTksLTcxODc0OTI0MywzOTc3ND
+c1MjMsMjU2NDcxMjE5LDE3MzAzNDkzMDQsMTgzMTYxNDQ4Miwt
+MTkxMzMyNjE0NSwxNjU0NjQxNTQ5LC00Mjg2NzM3NjYsMTE1MT
+c5NTU0XX0=
 -->

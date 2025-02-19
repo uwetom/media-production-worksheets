@@ -20,23 +20,38 @@ I've prepared the rock / asteroids that we are going to use, creating prefabs wi
 
 Drag it into your Assets folder to install it.
 
-![enter image description here](https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/install-rocks.png)
+![Inspector screenshot](https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/install-rocks.png)
  
 In this next video we are going to set up the script and prefabs ready to deploy in the AR scene.
 
 [<img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/edit-prefab-video.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=18c829c7-389e-48d9-8617-b28701019986)
 
 
+
 ### Key technique
 We have used an Array in our code to hold all the Rock prefabs.
 
-We initialised the Array in the code ```public GameObject[] rockInstances;``` as a public Array of Game Objects that we are calling rockInstances.
+We initialised the Array in the code 
+```public GameObject[] rockInstances;```   
+as a public Array of Game Objects that we named rockInstances.
 
-Then we assigned data to the Array in the inspector
+Then we assigned data to the Array in the inspector. Adding the rock prefabs to it.
+![inspector screenshot](https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/assign-array.png)
 
+We accessed data from the array using the index of each element (0, 1, 2).
+```rockInstances[0] // returns Rock_01```
+
+The key thing about Arrays in Unity is that you cannot add or remove elements to them once they have been initialised.
+
+Like all variables in Unity you have to declare the type of data the Array wil hold (in our case: Game Objects).
+
+Unity also has lists which work slightly differently to arrays (and you can add or remove elements to them).
+
+Learn more about Arrays and Lists here
+https://www.youtube.com/watch?v=Q16KIxtomeo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NTYyMzkxNywtMjI3MTg4NjYzLC0xMj
-IwNzc0MzU3LDc0Mjg2Nzk1Myw5Nzg5NDMzMjAsNzI1MjgyNDA0
-LC04OTQzNDI3NTQsLTMxMDM2ODI0OCwtODI2MzU3MDExLC04ND
-M5OTU5ODJdfQ==
+eyJoaXN0b3J5IjpbLTE4NjE3MzI0MTQsLTQ3MDc4OTI4LC00OD
+g0MjUxOTQsLTIyNzE4ODY2MywtMTIyMDc3NDM1Nyw3NDI4Njc5
+NTMsOTc4OTQzMzIwLDcyNTI4MjQwNCwtODk0MzQyNzU0LC0zMT
+AzNjgyNDgsLTgyNjM1NzAxMSwtODQzOTk1OTgyXX0=
 -->
