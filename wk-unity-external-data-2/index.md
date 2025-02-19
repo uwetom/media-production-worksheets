@@ -50,14 +50,15 @@ The key thing about Arrays in Unity is that you cannot add or remove elements to
 
 Like all variables in Unity you have to declare the type of data the Array will hold (in our case: Game Objects).
 
-You could also make a List in Unity which works slightly differently to an Array (you can add or remove elements to Lists).
+We could also have used a List in Unity which works slightly differently to an Array (you can add or remove elements to Lists).
 
 Learn more about Arrays and Lists here
 https://www.youtube.com/watch?v=Q16KIxtomeo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MTE1MTg3OCw4ODYyNjg4MzgsNjgwNT
-czMCwtODA2MjM2NjQwLC0xODYxNzMyNDE0LC00NzA3ODkyOCwt
-NDg4NDI1MTk0LC0yMjcxODg2NjMsLTEyMjA3NzQzNTcsNzQyOD
-Y3OTUzLDk3ODk0MzMyMCw3MjUyODI0MDQsLTg5NDM0Mjc1NCwt
-MzEwMzY4MjQ4LC04MjYzNTcwMTEsLTg0Mzk5NTk4Ml19
+eyJoaXN0b3J5IjpbMTM0NDEwMTY2NCwtNDUxMTUxODc4LDg4Nj
+I2ODgzOCw2ODA1NzMwLC04MDYyMzY2NDAsLTE4NjE3MzI0MTQs
+LTQ3MDc4OTI4LC00ODg0MjUxOTQsLTIyNzE4ODY2MywtMTIyMD
+c3NDM1Nyw3NDI4Njc5NTMsOTc4OTQzMzIwLDcyNTI4MjQwNCwt
+ODk0MzQyNzU0LC0zMTAzNjgyNDgsLTgyNjM1NzAxMSwtODQzOT
+k1OTgyXX0=
 -->
