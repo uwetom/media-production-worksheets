@@ -62,7 +62,11 @@ Accept the pop-up to download the simulator package.
 
 #### Mac
 
-Unity Mock HMD Loa
+Unity Mock HMD LoaIf you are on a Mac, particularly in the lab you also need to change the 
+
+der
+![uwe xr device simulator button](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/hmd.png)
+
 
 - Finally, in the **Project Validation** Section check for any issues in the window and Android tabs and press **Fix all**
 
@@ -262,9 +266,9 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4OTU0MzAsLTE4MTUyMDU0OSw5OTcyMz
-g4NzcsMTA4ODA5MTMzMiwtMTEwOTU3NjQzNiwtNjk1MjEzMTg1
-LDEwMzY4Nzc4NTksLTcxODc0OTI0MywzOTc3NDc1MjMsMjU2ND
-cxMjE5LDE3MzAzNDkzMDQsMTgzMTYxNDQ4MiwtMTkxMzMyNjE0
-NSwxNjU0NjQxNTQ5LC00Mjg2NzM3NjYsMTE1MTc5NTU0XX0=
+eyJoaXN0b3J5IjpbLTExNzg5NTI5MjcsMTU4OTU0MzAsOTk3Mj
+M4ODc3LDEwODgwOTEzMzIsLTExMDk1NzY0MzYsLTY5NTIxMzE4
+NSwxMDM2ODc3ODU5LC03MTg3NDkyNDMsMzk3NzQ3NTIzLDI1Nj
+Q3MTIxOSwxNzMwMzQ5MzA0LDE4MzE2MTQ0ODIsLTE5MTMzMjYx
+NDUsMTY1NDY0MTU0OSwtNDI4NjczNzY2LDExNTE3OTU1NF19
 -->
