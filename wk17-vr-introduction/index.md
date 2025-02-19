@@ -62,7 +62,7 @@ Accept the pop-up to download the simulator package.
 
 #### Mac
 
-Mock HMD Loa
+Unity Mock HMD Loa
 
 - Finally, in the **Project Validation** Section check for any issues in the window and Android tabs and press **Fix all**
 
@@ -262,9 +262,9 @@ These workshops will get you started, but for your own project you will want to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTUyMDU0OSw5OTcyMzg4NzcsMTA4OD
-A5MTMzMiwtMTEwOTU3NjQzNiwtNjk1MjEzMTg1LDEwMzY4Nzc4
-NTksLTcxODc0OTI0MywzOTc3NDc1MjMsMjU2NDcxMjE5LDE3Mz
-AzNDkzMDQsMTgzMTYxNDQ4MiwtMTkxMzMyNjE0NSwxNjU0NjQx
-NTQ5LC00Mjg2NzM3NjYsMTE1MTc5NTU0XX0=
+eyJoaXN0b3J5IjpbMTU4OTU0MzAsLTE4MTUyMDU0OSw5OTcyMz
+g4NzcsMTA4ODA5MTMzMiwtMTEwOTU3NjQzNiwtNjk1MjEzMTg1
+LDEwMzY4Nzc4NTksLTcxODc0OTI0MywzOTc3NDc1MjMsMjU2ND
+cxMjE5LDE3MzAzNDkzMDQsMTgzMTYxNDQ4MiwtMTkxMzMyNjE0
+NSwxNjU0NjQxNTQ5LC00Mjg2NzM3NjYsMTE1MTc5NTU0XX0=
 -->
