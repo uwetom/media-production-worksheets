@@ -14,6 +14,8 @@ It is possible to use incoming data to alter nearly every aspect of  your projec
 
 In this example we are going to use the data instantiate (create) objects in our scene.
 
+We will use the NASA JSO add a rock / asteroid into our scene to represents every hazardous near earth object in the NASA data.
+
 ## Set up: install asteroids package
 
 I've prepared the rock / asteroids that we are going to use, creating prefabs with a simple rotation animation. Download [the package here](https://github.com/uwetom/media-production-worksheets/raw/refs/heads/master/wk-unity-external-data-2/Asteroids.unitypackage) 
@@ -62,10 +64,10 @@ https://www.youtube.com/watch?v=Q16KIxtomeo
 
 ## Build the project to an Android device
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NTEwNzU1NywtNDUxMTUxODc4LDg4Nj
-I2ODgzOCw2ODA1NzMwLC04MDYyMzY2NDAsLTE4NjE3MzI0MTQs
-LTQ3MDc4OTI4LC00ODg0MjUxOTQsLTIyNzE4ODY2MywtMTIyMD
-c3NDM1Nyw3NDI4Njc5NTMsOTc4OTQzMzIwLDcyNTI4MjQwNCwt
-ODk0MzQyNzU0LC0zMTAzNjgyNDgsLTgyNjM1NzAxMSwtODQzOT
-k1OTgyXX0=
+eyJoaXN0b3J5IjpbLTE5NDAyNjIwNjMsLTQ1MTE1MTg3OCw4OD
+YyNjg4MzgsNjgwNTczMCwtODA2MjM2NjQwLC0xODYxNzMyNDE0
+LC00NzA3ODkyOCwtNDg4NDI1MTk0LC0yMjcxODg2NjMsLTEyMj
+A3NzQzNTcsNzQyODY3OTUzLDk3ODk0MzMyMCw3MjUyODI0MDQs
+LTg5NDM0Mjc1NCwtMzEwMzY4MjQ4LC04MjYzNTcwMTEsLTg0Mz
+k5NTk4Ml19
 -->
