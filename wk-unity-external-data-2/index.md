@@ -147,7 +147,7 @@ Now we have some Asteroids rocks in our scene let's add some information about t
 
 [<img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/AR-asteroids-finished-2.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=81b2075b-22d1-4719-9e27-b28e01678c96)
 
-### Code
+### Code updates
 
 With the text added your script should now look like this.
 Please type not copy and paste
@@ -247,10 +247,11 @@ public class GetData : MonoBehaviour
 
 ## Build the project to an Android device
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc2MzEwNTUsMTczNDc0NDAzNywzNjY3OT
-g5NzEsOTkwNTg3MjY3LDE5MzE5MTE5MTAsLTU1ODc0NTYyMywt
-MTAxNDgxMDQ1LDQ2MTkyNDM2OCw3ODIwNjQ0MDcsLTQ1MTE1MT
-g3OCw4ODYyNjg4MzgsNjgwNTczMCwtODA2MjM2NjQwLC0xODYx
-NzMyNDE0LC00NzA3ODkyOCwtNDg4NDI1MTk0LC0yMjcxODg2Nj
-MsLTEyMjA3NzQzNTcsNzQyODY3OTUzLDk3ODk0MzMyMF19
+eyJoaXN0b3J5IjpbLTE1MDI2NjU3MzUsMTczNDc0NDAzNywzNj
+Y3OTg5NzEsOTkwNTg3MjY3LDE5MzE5MTE5MTAsLTU1ODc0NTYy
+MywtMTAxNDgxMDQ1LDQ2MTkyNDM2OCw3ODIwNjQ0MDcsLTQ1MT
+E1MTg3OCw4ODYyNjg4MzgsNjgwNTczMCwtODA2MjM2NjQwLC0x
+ODYxNzMyNDE0LC00NzA3ODkyOCwtNDg4NDI1MTk0LC0yMjcxOD
+g2NjMsLTEyMjA3NzQzNTcsNzQyODY3OTUzLDk3ODk0MzMyMF19
+
 -->
