@@ -34,6 +34,9 @@ Now we are ready to add asteroids / rocks to the AR scene based on the NASA data
 
 [<img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/add-rocks.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=de75c10d-37ff-4556-955e-b28900b87d0c)
 
+### Code
+
+Please type not copy
 
 ### Key technique
 We have used an Array in our ```GetData``` script to hold all the Rock prefabs.
@@ -62,10 +65,11 @@ https://www.youtube.com/watch?v=Q16KIxtomeo
 
 ## Build the project to an Android device
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTQ4MTA0NSw0NjE5MjQzNjgsNzgyMD
-Y0NDA3LC00NTExNTE4NzgsODg2MjY4ODM4LDY4MDU3MzAsLTgw
-NjIzNjY0MCwtMTg2MTczMjQxNCwtNDcwNzg5MjgsLTQ4ODQyNT
-E5NCwtMjI3MTg4NjYzLC0xMjIwNzc0MzU3LDc0Mjg2Nzk1Myw5
-Nzg5NDMzMjAsNzI1MjgyNDA0LC04OTQzNDI3NTQsLTMxMDM2OD
-I0OCwtODI2MzU3MDExLC04NDM5OTU5ODJdfQ==
+eyJoaXN0b3J5IjpbMjA5Nzc3OTU3NywtMTAxNDgxMDQ1LDQ2MT
+kyNDM2OCw3ODIwNjQ0MDcsLTQ1MTE1MTg3OCw4ODYyNjg4Mzgs
+NjgwNTczMCwtODA2MjM2NjQwLC0xODYxNzMyNDE0LC00NzA3OD
+kyOCwtNDg4NDI1MTk0LC0yMjcxODg2NjMsLTEyMjA3NzQzNTcs
+NzQyODY3OTUzLDk3ODk0MzMyMCw3MjUyODI0MDQsLTg5NDM0Mj
+c1NCwtMzEwMzY4MjQ4LC04MjYzNTcwMTEsLTg0Mzk5NTk4Ml19
+
 -->
