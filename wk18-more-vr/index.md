@@ -16,9 +16,9 @@ We want to be able to interact with our environment, triggering sounds, animatio
 
 - Save it back into the Scene folder and name it "Interactions".
 
-## Simple Interactable
+## 1. Simple Interactable
 
-To allow the xr rig to interact with objects in the scene we need two parts, and **Interactor** component on the rig, and an **Interactable** component on the object.
+To allow the XR rig to interact with objects in the scene we need two parts, and **Interactor** component on the rig, and an **Interactable** component on the object.
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=44ca29a5-e698-41cd-9e8c-b26600e01254&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Unity vr - simple interactable" ></iframe>
 
@@ -36,7 +36,7 @@ public void Activated(){
 }
 ```
 
-## Grab
+## 2. Grab Interactable
 
 A more advance interaction is a grab, this allows you to pick up objects in your scene.
 
@@ -141,7 +141,7 @@ We can now hook this script up to the torch **activate** state.
 
 Think about other objects you could add which may be useful to activate.
 
-## Affordance
+## 3. Affordance
 
 The Affordance system ([documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/affordance-system.html)) allows you to create audio and visual feedback to the user about the current state of the object.
 
@@ -154,7 +154,7 @@ We will use it to play a sound when the user picks up and turns the light on and
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=c9b3d362-8cb0-467d-b3ce-b26800e59a19&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Unity VR - affordance" ></iframe>
 
-## User Interface
+## 4. User Interface
 
 A VR UI uses the same components as we use in other Unity project, the main difference is that you want to use the XR canvas which is created in **World space**. 
 
@@ -203,7 +203,7 @@ Generate a new torch in the scene when the button is clicked.
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMxNTAyODk4LDExOTQxMTY0MzQsMjEzNT
-A4MjIxMCwxODYxODU3ODI4LDMyNDM0ODEzMCwyMDkwOTA0MzA4
-XX0=
+eyJoaXN0b3J5IjpbNjU0MTQxNDI2LDMzMTUwMjg5OCwxMTk0MT
+E2NDM0LDIxMzUwODIyMTAsMTg2MTg1NzgyOCwzMjQzNDgxMzAs
+MjA5MDkwNDMwOF19
 -->
