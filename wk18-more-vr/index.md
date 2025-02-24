@@ -80,7 +80,7 @@ We need to carefully adjust the settings to allow us to render our light.
 
 - Test the scene again.
 
-### Change grab position
+### Change grab position - Optional
 
 By default the object is grabbed at its origin, for the torch it means it is pointing upward. We want to be able to control where it is grabbed.
 
@@ -116,7 +116,6 @@ Open the new script and add code to toggle the light on and off
 <summary>Solution</summary>
 	This is one possible solution:
 
-	
 	using System.Collections;
 	using System.Collections.Generic;
 	using UnityEngine;
@@ -131,7 +130,6 @@ Open the new script and add code to toggle the light on and off
 			}
 		}
 	}
-
 
 </details>
 
@@ -199,11 +197,9 @@ Generate a new torch in the scene when the button is clicked.
  
 ### Documentation
 
-  
-
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU0MTQxNDI2LDMzMTUwMjg5OCwxMTk0MT
-E2NDM0LDIxMzUwODIyMTAsMTg2MTg1NzgyOCwzMjQzNDgxMzAs
-MjA5MDkwNDMwOF19
+eyJoaXN0b3J5IjpbLTU0NTIwMDU4NywzMzE1MDI4OTgsMTE5ND
+ExNjQzNCwyMTM1MDgyMjEwLDE4NjE4NTc4MjgsMzI0MzQ4MTMw
+LDIwOTA5MDQzMDhdfQ==
 -->
