@@ -36,7 +36,7 @@ public void Activated(){
 }
 ```
 
-## 2. Grab Interactable - 
+## 2. Grab Interactable - Optional
 
 A more advance interaction is a grab, this allows you to pick up objects in your scene.
 
@@ -139,7 +139,7 @@ We can now hook this script up to the torch **activate** state.
 
 Think about other objects you could add which may be useful to activate.
 
-## 3. Affordance
+## 3. Affordance - Optional
 
 The Affordance system ([documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/affordance-system.html)) allows you to create audio and visual feedback to the user about the current state of the object.
 
@@ -199,7 +199,7 @@ Generate a new torch in the scene when the button is clicked.
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzA4ODY2NCwtNTQ1MjAwNTg3LDMzMT
+eyJoaXN0b3J5IjpbLTE0MjI2NTcyNSwtNTQ1MjAwNTg3LDMzMT
 UwMjg5OCwxMTk0MTE2NDM0LDIxMzUwODIyMTAsMTg2MTg1Nzgy
 OCwzMjQzNDgxMzAsMjA5MDkwNDMwOF19
 -->
