@@ -6,7 +6,7 @@
 *(AR scene of Near Earth Objects designated as hazardous by NASA, generated from a NASA dataset)*
 
 ## Overview
-In this next tutorial we are going to use  data to add objects and information to an AR scene (preview above)..
+In this tutorial we are going to use  data to add objects and information to an AR scene (preview above)..
 
 This follows on directly from **Using external data in unity pt 1** So you should have completed pt 1 and have your Unity project open and your **GetData** C# script open in Visual Studio to begin.
 
@@ -146,11 +146,11 @@ https://www.youtube.com/watch?v=Q16KIxtomeo
 
 ## Build the project to an Android device
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1ODc0NTYyMywtMTAxNDgxMDQ1LDQ2MT
-kyNDM2OCw3ODIwNjQ0MDcsLTQ1MTE1MTg3OCw4ODYyNjg4Mzgs
-NjgwNTczMCwtODA2MjM2NjQwLC0xODYxNzMyNDE0LC00NzA3OD
-kyOCwtNDg4NDI1MTk0LC0yMjcxODg2NjMsLTEyMjA3NzQzNTcs
-NzQyODY3OTUzLDk3ODk0MzMyMCw3MjUyODI0MDQsLTg5NDM0Mj
-c1NCwtMzEwMzY4MjQ4LC04MjYzNTcwMTEsLTg0Mzk5NTk4Ml19
+eyJoaXN0b3J5IjpbMTkzMTkxMTkxMCwtNTU4NzQ1NjIzLC0xMD
+E0ODEwNDUsNDYxOTI0MzY4LDc4MjA2NDQwNywtNDUxMTUxODc4
+LDg4NjI2ODgzOCw2ODA1NzMwLC04MDYyMzY2NDAsLTE4NjE3Mz
+I0MTQsLTQ3MDc4OTI4LC00ODg0MjUxOTQsLTIyNzE4ODY2Mywt
+MTIyMDc3NDM1Nyw3NDI4Njc5NTMsOTc4OTQzMzIwLDcyNTI4Mj
+QwNCwtODk0MzQyNzU0LC0zMTAzNjgyNDgsLTgyNjM1NzAxMV19
 
 -->
