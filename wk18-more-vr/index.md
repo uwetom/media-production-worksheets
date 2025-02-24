@@ -26,7 +26,7 @@ If you created a new Vr core project you will need to set it up like last week:
 ![Basic scene](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/basicscene.jpg)
 
 - Save it back into the Scene folder and name it "Interactions".
-- Press the play button to make sure your scene plays in the simulator and you can move around
+- Press the play button to make sure your scene plays in the simulator and you can move around.
 
 ## 1. Simple Interactable
 
@@ -214,7 +214,7 @@ Generate a new object in the scene when the button is clicked.
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NTY5NDgwNywtNjM2ODIzNjQwLDEzNj
+eyJoaXN0b3J5IjpbLTE2MzE4MjI0MSwtNjM2ODIzNjQwLDEzNj
 czMjM3ODUsLTU0NTIwMDU4NywzMzE1MDI4OTgsMTE5NDExNjQz
 NCwyMTM1MDgyMjEwLDE4NjE4NTc4MjgsMzI0MzQ4MTMwLDIwOT
 A5MDQzMDhdfQ==
