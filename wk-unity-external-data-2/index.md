@@ -145,15 +145,17 @@ https://www.youtube.com/watch?v=Q16KIxtomeo
 
 Now we have some Asteroids rocks in our scene let's add some information about them accessing the data from the NASA JSON data.
 
+[<img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/AR-asteroids-finished-2.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=81b2075b-22d1-4719-9e27-b28e01678c96)
 
+https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/AR-asteroids-finished-2.png
 
 ## Build the project to an Android device
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkwNTg3MjY3LDE5MzE5MTE5MTAsLTU1OD
-c0NTYyMywtMTAxNDgxMDQ1LDQ2MTkyNDM2OCw3ODIwNjQ0MDcs
-LTQ1MTE1MTg3OCw4ODYyNjg4MzgsNjgwNTczMCwtODA2MjM2Nj
-QwLC0xODYxNzMyNDE0LC00NzA3ODkyOCwtNDg4NDI1MTk0LC0y
-MjcxODg2NjMsLTEyMjA3NzQzNTcsNzQyODY3OTUzLDk3ODk0Mz
-MyMCw3MjUyODI0MDQsLTg5NDM0Mjc1NCwtMzEwMzY4MjQ4XX0=
+eyJoaXN0b3J5IjpbLTIwNDE5NDk4NjQsOTkwNTg3MjY3LDE5Mz
+E5MTE5MTAsLTU1ODc0NTYyMywtMTAxNDgxMDQ1LDQ2MTkyNDM2
+OCw3ODIwNjQ0MDcsLTQ1MTE1MTg3OCw4ODYyNjg4MzgsNjgwNT
+czMCwtODA2MjM2NjQwLC0xODYxNzMyNDE0LC00NzA3ODkyOCwt
+NDg4NDI1MTk0LC0yMjcxODg2NjMsLTEyMjA3NzQzNTcsNzQyOD
+Y3OTUzLDk3ODk0MzMyMCw3MjUyODI0MDQsLTg5NDM0Mjc1NF19
 
 -->
