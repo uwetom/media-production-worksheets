@@ -12,12 +12,12 @@ This worksheet is made up of different parts, it is important that you do sectio
 
 ![vr core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/vr_core.jpg)
 
-If you created a new VR core project you will need to set it up like last week. You can go back and look at [section 3 in last weeks workshop]() , or if you just need a reminder do the following:
+If you created a new VR core project you will need to set it up like last week. You can go back and look at [section 3 in last weeks workshop](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/) , or if you just need a reminder do the following:
 
-- In **Build Settings** switch the platform to Android
-- In **Project Settings > XR Interaction Toolkit** tick **Use XR Device Simulator in scene**
-- In  **Project Settings > XR Plug-in Management** change the computer tab to **Mock HMD Loader**
--  In **Project  Settings > Project Validation** click **Fix all**
+- In **File > Build Settings** switch the platform to Android
+- In **Edit > Project Settings > XR Interaction Toolkit** tick **Use XR Device Simulator in scene**
+- In  **Edit > Project Settings > XR Plug-in Management** change the computer tab to **Mock HMD Loader**
+-  In **Edit >  Project  Settings > Project Validation** click **Fix all**
 
 ## Create new Scene
 
@@ -214,8 +214,8 @@ Generate a new object in the scene when the button is clicked.
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTU2NDc0OTcsLTE2MzE4MjI0MSwtNj
-M2ODIzNjQwLDEzNjczMjM3ODUsLTU0NTIwMDU4NywzMzE1MDI4
-OTgsMTE5NDExNjQzNCwyMTM1MDgyMjEwLDE4NjE4NTc4MjgsMz
-I0MzQ4MTMwLDIwOTA5MDQzMDhdfQ==
+eyJoaXN0b3J5IjpbNjU2MzQ4MDIzLC0xNjMxODIyNDEsLTYzNj
+gyMzY0MCwxMzY3MzIzNzg1LC01NDUyMDA1ODcsMzMxNTAyODk4
+LDExOTQxMTY0MzQsMjEzNTA4MjIxMCwxODYxODU3ODI4LDMyND
+M0ODEzMCwyMDkwOTA0MzA4XX0=
 -->
