@@ -147,9 +147,93 @@ Now we have some Asteroids rocks in our scene let's add some information about i
 
 [<img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/AR-asteroids-finished-2.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=81b2075b-22d1-4719-9e27-b28e01678c96)
 
+### Code
+
+Your script should now look like this.
+Please type not copy and paste
+```C#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using SimpleJSON;
+using UnityEngine.Networking;
+
+public class GetData : MonoBehaviour
+{
+    public string DataURL;
+    public GameObject rockText;
+    public GameObject[] rockInstances;
+    private int counter;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        counter = 0;
+        StartCoroutine(getData());
+    }
+
+    // download the data 
+    IEnumerator getData()
+    {
+        using (UnityWebRequest request = UnityWebRequest.Get(DataURL))
+        {
+            yield return request.SendWebRequest();
+
+            if (request.result == UnityWebRequest.Result.ConnectionError)
+            {
+                Debug.LogError(request.error);
+            }
+            else
+            {
+                string json = request.downloadHandler.text;
+                Debug.Log(json);
+                ReadJSON(json);
+            }
+
+        }
+    }
+
+    // this function reads the Json data
+    // turns into an 'object' that can be parsed
+    // and extracts information from it using different keys
+    void ReadJSON(string jsonString)
+    {
+        JSONNode node = JSON.Parse(jsonString);
+        JSONObject obj = node.AsObject;
+        Debug.Log(obj["near_earth_objects"].Count);
+        int numOfAsteroids = obj["near_earth_objects"].Count;
+
+        for (int i = 0; i < numOfAsteroids; i++)
+        {
+            
+            string isHazardous = obj["near_earth_objects"][i]["is_potentially_hazardous_asteroid"].Value;
+
+            if (isHazardous == "True")
+            {
+                //Debug.Log(obj["near_earth_objects"][i]["name"].Value);
+                //Debug.Log(obj["near_earth_objects"][i]["estimated_diameter"]["kilometers"]["estimated_diameter_min"].Value);
+                //Debug.Log(obj["near_earth_objects"][i]["estimated_diameter"]["kilometers"]["estimated_diameter_max"].Value);
+
+                // Rocks
+                // Instantiate(Game object, xyz position, rotation)
+                Vector3 position = new Vector3(Random.Range(-10.0f, 5.0f), Random.Range(0f, 10.0f), Random.Range(2.0f, 10.0f));
+                if (counter >= rockInstances.Length)
+                {
+                    counter = 0;
+                }
+                Instantiate(rockInstances[counter], position, Random.rotation);
+                counter++;
+            }
+        }
+
+    }
+    
+}
+```
+
 ## Build the project to an Android device
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjg5Mzg0NSw5OTA1ODcyNjcsMTkzMT
+eyJoaXN0b3J5IjpbMTcyNjc3OTExNCw5OTA1ODcyNjcsMTkzMT
 kxMTkxMCwtNTU4NzQ1NjIzLC0xMDE0ODEwNDUsNDYxOTI0MzY4
 LDc4MjA2NDQwNywtNDUxMTUxODc4LDg4NjI2ODgzOCw2ODA1Nz
 MwLC04MDYyMzY2NDAsLTE4NjE3MzI0MTQsLTQ3MDc4OTI4LC00
