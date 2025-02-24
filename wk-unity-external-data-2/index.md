@@ -143,14 +143,15 @@ https://www.youtube.com/watch?v=Q16KIxtomeo
 
 ## Use data to add text to the asteroids / rocks in the AR scene
 
+Now we have some Asteroids rocks in our scene let's add some information about them accessing the
 
 ## Build the project to an Android device
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMTkxMTkxMCwtNTU4NzQ1NjIzLC0xMD
-E0ODEwNDUsNDYxOTI0MzY4LDc4MjA2NDQwNywtNDUxMTUxODc4
-LDg4NjI2ODgzOCw2ODA1NzMwLC04MDYyMzY2NDAsLTE4NjE3Mz
-I0MTQsLTQ3MDc4OTI4LC00ODg0MjUxOTQsLTIyNzE4ODY2Mywt
-MTIyMDc3NDM1Nyw3NDI4Njc5NTMsOTc4OTQzMzIwLDcyNTI4Mj
-QwNCwtODk0MzQyNzU0LC0zMTAzNjgyNDgsLTgyNjM1NzAxMV19
+eyJoaXN0b3J5IjpbMTE0NzA4MzI5OSwxOTMxOTExOTEwLC01NT
+g3NDU2MjMsLTEwMTQ4MTA0NSw0NjE5MjQzNjgsNzgyMDY0NDA3
+LC00NTExNTE4NzgsODg2MjY4ODM4LDY4MDU3MzAsLTgwNjIzNj
+Y0MCwtMTg2MTczMjQxNCwtNDcwNzg5MjgsLTQ4ODQyNTE5NCwt
+MjI3MTg4NjYzLC0xMjIwNzc0MzU3LDc0Mjg2Nzk1Myw5Nzg5ND
+MzMjAsNzI1MjgyNDA0LC04OTQzNDI3NTQsLTMxMDM2ODI0OF19
 
 -->
