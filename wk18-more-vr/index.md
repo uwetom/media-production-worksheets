@@ -4,7 +4,7 @@
 
 We want to be able to interact with our environment, triggering sounds, animations and scripts.
 
-This worksheet is made up of different parts, it is important that you do sections 1 and 4
+This worksheet is made up of different parts, it is important that you do sections 1 and 4. 
 
 ## Open a project
 
@@ -38,7 +38,7 @@ public void Activated(){
 }
 ```
 
-During the in class workshop we will skip sections 2 and 3, but feel free to do them in your own time if you are interested.
+During the in class workshop we will skip sections 2 and 3, but feel free to do them in your own time.
 
 ## 2. Mini Project- Interactable torch - Optional
 
@@ -204,7 +204,7 @@ Generate a new object in the scene when the button is clicked.
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTk4MzkyODAsLTU0NTIwMDU4NywzMz
-E1MDI4OTgsMTE5NDExNjQzNCwyMTM1MDgyMjEwLDE4NjE4NTc4
-MjgsMzI0MzQ4MTMwLDIwOTA5MDQzMDhdfQ==
+eyJoaXN0b3J5IjpbMTM2NzMyMzc4NSwtNTQ1MjAwNTg3LDMzMT
+UwMjg5OCwxMTk0MTE2NDM0LDIxMzUwODIyMTAsMTg2MTg1Nzgy
+OCwzMjQzNDgxMzAsMjA5MDkwNDMwOF19
 -->
