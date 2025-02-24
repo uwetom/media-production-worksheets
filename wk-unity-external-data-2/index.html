@@ -14,7 +14,7 @@
 <p><img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/asteroids.gif" alt="enter image description here"><br>
 <em>(AR scene of Near Earth Objects designated as hazardous by NASA, generated from a NASA dataset)</em></p>
 <h2 id="overview">Overview</h2>
-<p>In this next tutorial we are going to use  data to add objects and information to an AR scene (preview above)…</p>
+<p>In this tutorial we are going to use  data to add objects and information to an AR scene (preview above)…</p>
 <p>This follows on directly from <strong>Using external data in unity pt 1</strong> So you should have completed pt 1 and have your Unity project open and your <strong>GetData</strong> C# script open in Visual Studio to begin.</p>
 <p>It is possible to use incoming data to alter nearly every aspect of  your project by using the data to change, add and remove  Game Objects in your scene. (This could include objects in your scene, or atmosphere (fog), skybox, materials, textures, physics properties and so on).</p>
 <p>In this example we are going to use the data instantiate (create) objects in our scene. We will use the NASA JSON data to add a rock / asteroid into our scene for every hazardous near earth object in the dataset.</p>
@@ -124,6 +124,103 @@ public class GetData <span class="token punctuation">:</span> MonoBehaviour
 <p>Learn more about Arrays and Lists here<br>
 <a href="https://www.youtube.com/watch?v=Q16KIxtomeo">https://www.youtube.com/watch?v=Q16KIxtomeo</a></p>
 <h2 id="use-data-to-add-text-to-the-asteroids--rocks-in-the-ar-scene">Use data to add text to the asteroids / rocks in the AR scene</h2>
+<p>Now we have some Asteroids rocks in our scene let’s add some information about into the AR scene</p>
+<p><a href="https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=81b2075b-22d1-4719-9e27-b28e01678c96"><img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/AR-asteroids-finished-2.png"></a></p>
+<h3 id="code-1">Code</h3>
+<p>With the text added your script should now look like this.<br>
+Please type not copy and paste</p>
+<pre class=" language-c"><code class="prism # language-c">using System<span class="token punctuation">.</span>Collections<span class="token punctuation">;</span>
+using System<span class="token punctuation">.</span>Collections<span class="token punctuation">.</span>Generic<span class="token punctuation">;</span>
+using UnityEngine<span class="token punctuation">;</span>
+using SimpleJSON<span class="token punctuation">;</span>
+using UnityEngine<span class="token punctuation">.</span>Networking<span class="token punctuation">;</span>
+using TMPro<span class="token punctuation">;</span> <span class="token comment">// using TextMeshPro</span>
+
+public class GetData <span class="token punctuation">:</span> MonoBehaviour
+<span class="token punctuation">{</span>
+    public string DataURL<span class="token punctuation">;</span>
+    public GameObject rockText<span class="token punctuation">;</span>
+    public GameObject<span class="token punctuation">[</span><span class="token punctuation">]</span> rockInstances<span class="token punctuation">;</span>
+    private <span class="token keyword">int</span> counter<span class="token punctuation">;</span>
+
+    <span class="token comment">// Start is called before the first frame update</span>
+    <span class="token keyword">void</span> <span class="token function">Start</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        counter <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token function">StartCoroutine</span><span class="token punctuation">(</span><span class="token function">getData</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">// download the data </span>
+    IEnumerator <span class="token function">getData</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token function">using</span> <span class="token punctuation">(</span>UnityWebRequest request <span class="token operator">=</span> UnityWebRequest<span class="token punctuation">.</span><span class="token function">Get</span><span class="token punctuation">(</span>DataURL<span class="token punctuation">)</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            yield <span class="token keyword">return</span> request<span class="token punctuation">.</span><span class="token function">SendWebRequest</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>request<span class="token punctuation">.</span>result <span class="token operator">==</span> UnityWebRequest<span class="token punctuation">.</span>Result<span class="token punctuation">.</span>ConnectionError<span class="token punctuation">)</span>
+            <span class="token punctuation">{</span>
+                Debug<span class="token punctuation">.</span><span class="token function">LogError</span><span class="token punctuation">(</span>request<span class="token punctuation">.</span>error<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+            <span class="token keyword">else</span>
+            <span class="token punctuation">{</span>
+                string json <span class="token operator">=</span> request<span class="token punctuation">.</span>downloadHandler<span class="token punctuation">.</span>text<span class="token punctuation">;</span>
+                Debug<span class="token punctuation">.</span><span class="token function">Log</span><span class="token punctuation">(</span>json<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token function">ReadJSON</span><span class="token punctuation">(</span>json<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">// this function reads the Json data</span>
+    <span class="token comment">// turns into an 'object' that can be parsed</span>
+    <span class="token comment">// and extracts information from it using different keys</span>
+    <span class="token keyword">void</span> <span class="token function">ReadJSON</span><span class="token punctuation">(</span>string jsonString<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        JSONNode node <span class="token operator">=</span> JSON<span class="token punctuation">.</span><span class="token function">Parse</span><span class="token punctuation">(</span>jsonString<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        JSONObject obj <span class="token operator">=</span> node<span class="token punctuation">.</span>AsObject<span class="token punctuation">;</span>
+        Debug<span class="token punctuation">.</span><span class="token function">Log</span><span class="token punctuation">(</span>obj<span class="token punctuation">[</span><span class="token string">"near_earth_objects"</span><span class="token punctuation">]</span><span class="token punctuation">.</span>Count<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">int</span> numOfAsteroids <span class="token operator">=</span> obj<span class="token punctuation">[</span><span class="token string">"near_earth_objects"</span><span class="token punctuation">]</span><span class="token punctuation">.</span>Count<span class="token punctuation">;</span>
+
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> numOfAsteroids<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            
+            string isHazardous <span class="token operator">=</span> obj<span class="token punctuation">[</span><span class="token string">"near_earth_objects"</span><span class="token punctuation">]</span><span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token string">"is_potentially_hazardous_asteroid"</span><span class="token punctuation">]</span><span class="token punctuation">.</span>Value<span class="token punctuation">;</span>
+
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>isHazardous <span class="token operator">==</span> <span class="token string">"True"</span><span class="token punctuation">)</span>
+            <span class="token punctuation">{</span>
+                <span class="token comment">//Debug.Log(obj["near_earth_objects"][i]["name"].Value);</span>
+                <span class="token comment">//Debug.Log(obj["near_earth_objects"][i]["estimated_diameter"]["kilometers"]["estimated_diameter_min"].Value);</span>
+                <span class="token comment">//Debug.Log(obj["near_earth_objects"][i]["estimated_diameter"]["kilometers"]["estimated_diameter_max"].Value);</span>
+
+                <span class="token comment">// Rocks</span>
+                <span class="token comment">// Instantiate(Game object, xyz position, rotation)</span>
+                Vector3 position <span class="token operator">=</span> new <span class="token function">Vector3</span><span class="token punctuation">(</span>Random<span class="token punctuation">.</span><span class="token function">Range</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">10.0f</span><span class="token punctuation">,</span> <span class="token number">5.0f</span><span class="token punctuation">)</span><span class="token punctuation">,</span> Random<span class="token punctuation">.</span><span class="token function">Range</span><span class="token punctuation">(</span><span class="token number">0f</span><span class="token punctuation">,</span> <span class="token number">10.0f</span><span class="token punctuation">)</span><span class="token punctuation">,</span> Random<span class="token punctuation">.</span><span class="token function">Range</span><span class="token punctuation">(</span><span class="token number">2.0f</span><span class="token punctuation">,</span> <span class="token number">10.0f</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword">if</span> <span class="token punctuation">(</span>counter <span class="token operator">&gt;=</span> rockInstances<span class="token punctuation">.</span>Length<span class="token punctuation">)</span>
+                <span class="token punctuation">{</span>
+                    counter <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+                <span class="token function">Instantiate</span><span class="token punctuation">(</span>rockInstances<span class="token punctuation">[</span>counter<span class="token punctuation">]</span><span class="token punctuation">,</span> position<span class="token punctuation">,</span> Random<span class="token punctuation">.</span>rotation<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                counter<span class="token operator">++</span><span class="token punctuation">;</span>
+
+                <span class="token comment">// get some data</span>
+                string asteroidName <span class="token operator">=</span> obj<span class="token punctuation">[</span><span class="token string">"near_earth_objects"</span><span class="token punctuation">]</span><span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token string">"name"</span><span class="token punctuation">]</span><span class="token punctuation">.</span>Value<span class="token punctuation">;</span>
+                string minSize <span class="token operator">=</span> obj<span class="token punctuation">[</span><span class="token string">"near_earth_objects"</span><span class="token punctuation">]</span><span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token string">"estimated_diameter"</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token string">"kilometers"</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token string">"estimated_diameter_min"</span><span class="token punctuation">]</span><span class="token punctuation">.</span>Value<span class="token punctuation">;</span>
+                string maxSize <span class="token operator">=</span> obj<span class="token punctuation">[</span><span class="token string">"near_earth_objects"</span><span class="token punctuation">]</span><span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token string">"estimated_diameter"</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token string">"kilometers"</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token string">"estimated_diameter_max"</span><span class="token punctuation">]</span><span class="token punctuation">.</span>Value<span class="token punctuation">;</span>
+                Debug<span class="token punctuation">.</span><span class="token function">Log</span><span class="token punctuation">(</span>asteroidName <span class="token operator">+</span> minSize <span class="token operator">+</span> maxSize<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+                <span class="token function">Instantiate</span><span class="token punctuation">(</span>rockText<span class="token punctuation">,</span> position <span class="token operator">+</span> new <span class="token function">Vector3</span><span class="token punctuation">(</span><span class="token number">3.0f</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">,</span> Quaternion<span class="token punctuation">.</span>identity<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                TextMeshPro textComponent <span class="token operator">=</span> rockText<span class="token punctuation">.</span>GetComponent<span class="token operator">&lt;</span>TextMeshPro<span class="token operator">&gt;</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                textComponent<span class="token punctuation">.</span>text <span class="token operator">=</span> asteroidName <span class="token operator">+</span> <span class="token string">"\n"</span> <span class="token operator">+</span> minSize <span class="token operator">+</span> <span class="token string">"-"</span> <span class="token operator">+</span> maxSize <span class="token operator">+</span> <span class="token string">" km"</span><span class="token punctuation">;</span>
+
+
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+
+    <span class="token punctuation">}</span>
+    
+<span class="token punctuation">}</span>
+
+</code></pre>
 <h2 id="build-the-project-to-an-android-device">Build the project to an Android device</h2>
 </div>
 </body>
