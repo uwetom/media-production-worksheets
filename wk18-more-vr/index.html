@@ -12,6 +12,7 @@
   <div class="stackedit__html"><p><a href="https://uwetom.github.io/media-production-worksheets">Back</a></p>
 <h1 id="vr-interactions">VR Interactions</h1>
 <p>We want to be able to interact with our environment, triggering sounds, animations and scripts.</p>
+<p>This worksheet is made up of different parts, it is important that you do sections 1 and 4.</p>
 <h2 id="open-a-project">Open a project</h2>
 <ul>
 <li>Open last weeks Unity Project, or create a new VR Core project.</li>
@@ -22,10 +23,10 @@
 </ul>
 <p><img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/basicscene.jpg" alt="Basic scene"></p>
 <ul>
-<li>Save it back into the Scene folder and name it “interactions”.</li>
+<li>Save it back into the Scene folder and name it “Interactions”.</li>
 </ul>
-<h2 id="simple-interactable">Simple Interactable</h2>
-<p>To allow the xr rig to interact with objects in the scene we need two parts, and <strong>Interactor</strong> component on the rig, and an <strong>Interactable</strong> component on the object.</p>
+<h2 id="simple-interactable">1. Simple Interactable</h2>
+<p>To allow the XR rig to interact with objects in the scene we need two parts, and <strong>Interactor</strong> component on the rig, and an <strong>Interactable</strong> component on the object.</p>
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=44ca29a5-e698-41cd-9e8c-b26600e01254&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
 <pre><code>public void Hovered(){
 	Debug.Log("hovered");
@@ -39,7 +40,9 @@ public void Activated(){
 	Debug.Log("activated");
 }
 </code></pre>
-<h2 id="grab">Grab</h2>
+<p>During the in class workshop we will skip sections 2 and 3, but feel free to do them in your own time.</p>
+<h2 id="mini-project--interactable-torch---optional">2. Mini Project- Interactable torch - Optional</h2>
+<h3 id="grab-interactable">Grab Interactable</h3>
 <p>A more advance interaction is a grab, this allows you to pick up objects in your scene.</p>
 <h3 id="make-a-simple-torch">Make a simple torch</h3>
 <ul>
@@ -72,7 +75,7 @@ public void Activated(){
 <ul>
 <li>Test the scene again.</li>
 </ul>
-<h3 id="change-grab-position">Change grab position</h3>
+<h3 id="change-grab-position---optional">Change grab position - Optional</h3>
 <p>By default the object is grabbed at its origin, for the torch it means it is pointing upward. We want to be able to control where it is grabbed.</p>
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=56285cfa-1dd6-4aa8-b61b-b26800defa70&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
 <h3 id="toggle-the-light">Toggle the light</h3>
@@ -99,11 +102,11 @@ public void Activated(){
 </ul>
 
 Solution
-This is one possible solution:
+	This is one possible solution:
 <pre><code>using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+	
 public class TorchController : MonoBehaviour{
 	public void ToggleLight(){
 		Light torchLight = GetComponentInChildren&lt;Light&gt;();
@@ -119,7 +122,7 @@ public class TorchController : MonoBehaviour{
 <p>We can now hook this script up to the torch <strong>activate</strong> state.</p>
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=ceefc0e5-75a1-46f2-9e5e-b26800e2bb44&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
 <p>Think about other objects you could add which may be useful to activate.</p>
-<h2 id="affordance">Affordance</h2>
+<h2 id="affordance---optional">3. Affordance - Optional</h2>
 <p>The Affordance system (<a href="https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/affordance-system.html">documentation</a>) allows you to create audio and visual feedback to the user about the current state of the object.</p>
 <p>We will use it to play a sound when the user picks up and turns the light on and off.</p>
 <ul>
@@ -130,7 +133,7 @@ public class TorchController : MonoBehaviour{
 </li>
 </ul>
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=c9b3d362-8cb0-467d-b3ce-b26800e59a19&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=false&amp;showbrand=false&amp;captions=false&amp;interactivity=all" height="405" width="720" allowfullscreen=""></iframe>
-<h2 id="user-interface">User Interface</h2>
+<h2 id="user-interface">4. User Interface</h2>
 <p>A VR UI uses the same components as we use in other Unity project, the main difference is that you want to use the XR canvas which is created in <strong>World space</strong>.</p>
 <ul>
 <li><strong>Right click</strong> in the Hierarchy and choose <strong>XR &gt; UI CANVAS</strong></li>
@@ -154,12 +157,12 @@ public class TorchController : MonoBehaviour{
 <p><img src="https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/button_colors.jpg" alt="canvas sale"></p>
 <p>Finally, we want to do something when the button is pressed.</p>
 <h3 id="challenge">Challenge</h3>
-<p>Generate a new torch in the scene when the button is clicked.</p>
+<p>Generate a new object in the scene when the button is clicked.</p>
 <h4 id="hints-1">Hints</h4>
 <ul>
 <li>Create a new script with a <strong>public</strong> function on it and drag it onto the canvas button.</li>
-<li>Turn the torch into a prefab (<a href="https://docs.unity3d.com/Manual/CreatingPrefabs.html">Create prefab</a>)</li>
-<li>Instantiate a new torch in the script (<a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.Instantiate.html">Instantiate documentation</a>)</li>
+<li>Turn your torch or cube into a prefab (<a href="https://docs.unity3d.com/Manual/CreatingPrefabs.html">Create prefab</a>)</li>
+<li>Instantiate a new prefab in the script (<a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.Instantiate.html">Instantiate documentation</a>)</li>
 <li>Use the <strong>on Click</strong> box on the <strong>Button</strong> to call the function</li>
 </ul>
 
