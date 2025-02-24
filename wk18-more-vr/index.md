@@ -8,11 +8,13 @@ This worksheet is made up of different parts, it is important that you do sectio
 
 ## Open a project
 
-- Open last weeks Unity Project, or create a new VR Core project.
+- Open last weeks Unity Project, or create a new VR Core project
 
 ![vr core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/vr_core.jpg)
 
-- In **Build Sett
+If you created a new Vr core project you will need to set it up like last week:
+- In **Build Settings** switch the platform to Android
+- In  **Player Settings** 
 
 
 - Open the **Basic Scene** inside the Scenes folder.
@@ -207,7 +209,7 @@ Generate a new object in the scene when the button is clicked.
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEwMzM2NjUsMTM2NzMyMzc4NSwtNTQ1Mj
-AwNTg3LDMzMTUwMjg5OCwxMTk0MTE2NDM0LDIxMzUwODIyMTAs
-MTg2MTg1NzgyOCwzMjQzNDgxMzAsMjA5MDkwNDMwOF19
+eyJoaXN0b3J5IjpbLTYzNjgyMzY0MCwxMzY3MzIzNzg1LC01ND
+UyMDA1ODcsMzMxNTAyODk4LDExOTQxMTY0MzQsMjEzNTA4MjIx
+MCwxODYxODU3ODI4LDMyNDM0ODEzMCwyMDkwOTA0MzA4XX0=
 -->
