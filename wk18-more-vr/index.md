@@ -14,7 +14,8 @@ This worksheet is made up of different parts, it is important that you do sectio
 
 If you created a new Vr core project you will need to set it up like last week:
 - In **Build Settings** switch the platform to Android
-- In  **Player Settings** 
+- In  **Player Settings > XR Plug-in Management** change the computer tab to **Mock HMD Loader**
+-  
 
 
 - Open the **Basic Scene** inside the Scenes folder.
@@ -209,7 +210,8 @@ Generate a new object in the scene when the button is clicked.
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNjgyMzY0MCwxMzY3MzIzNzg1LC01ND
-UyMDA1ODcsMzMxNTAyODk4LDExOTQxMTY0MzQsMjEzNTA4MjIx
-MCwxODYxODU3ODI4LDMyNDM0ODEzMCwyMDkwOTA0MzA4XX0=
+eyJoaXN0b3J5IjpbMTYyODU5MzA0MCwtNjM2ODIzNjQwLDEzNj
+czMjM3ODUsLTU0NTIwMDU4NywzMzE1MDI4OTgsMTE5NDExNjQz
+NCwyMTM1MDgyMjEwLDE4NjE4NTc4MjgsMzI0MzQ4MTMwLDIwOT
+A5MDQzMDhdfQ==
 -->
