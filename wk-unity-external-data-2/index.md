@@ -36,10 +36,91 @@ Now we are ready to add asteroids / rocks to the AR scene based on the NASA data
 
 ### Code
 
-Please type not copy
+Please type not copy and paste
+```C#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using SimpleJSON;
+using UnityEngine.Networking;
+
+public class GetData : MonoBehaviour
+{
+    public string DataURL;
+    public GameObject rockText;
+    public GameObject[] rockInstances;
+    private int counter;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        counter = 0;
+        StartCoroutine(getData());
+    }
+
+    // download the data 
+    IEnumerator getData()
+    {
+        using (UnityWebRequest request = UnityWebRequest.Get(DataURL))
+        {
+            yield return request.SendWebRequest();
+
+            if (request.result == UnityWebRequest.Result.ConnectionError)
+            {
+                Debug.LogError(request.error);
+            }
+            else
+            {
+                string json = request.downloadHandler.text;
+                Debug.Log(json);
+                ReadJSON(json);
+            }
+
+        }
+    }
+
+    // this function reads the Json data
+    // turns into an 'object' that can be parsed
+    // and extracts information from it using different keys
+    void ReadJSON(string jsonString)
+    {
+        JSONNode node = JSON.Parse(jsonString);
+        JSONObject obj = node.AsObject;
+        Debug.Log(obj["near_earth_objects"].Count);
+        int numOfAsteroids = obj["near_earth_objects"].Count;
+
+        for (int i = 0; i < numOfAsteroids; i++)
+        {
+            
+            string isHazardous = obj["near_earth_objects"][i]["is_potentially_hazardous_asteroid"].Value;
+
+            if (isHazardous == "True")
+            {
+                //Debug.Log(obj["near_earth_objects"][i]["name"].Value);
+                //Debug.Log(obj["near_earth_objects"][i]["estimated_diameter"]["kilometers"]["estimated_diameter_min"].Value);
+                //Debug.Log(obj["near_earth_objects"][i]["estimated_diameter"]["kilometers"]["estimated_diameter_max"].Value);
+
+                // Rocks
+                // Instantiate(Game object, xyz position, rotation)
+                Vector3 position = new Vector3(Random.Range(-10.0f, 5.0f), Random.Range(0f, 10.0f), Random.Range(2.0f, 10.0f));
+                if (counter >= rockInstances.Length)
+                {
+                    counter = 0;
+                }
+                Instantiate(rockInstances[counter], position, Random.rotation);
+                counter++;
+            }
+        }
+
+    }
+    
+}
+```
+
 
 ### Key technique
-We have used an Array in our ```GetData``` script to hold all the Rock prefabs.
+We have used an Array in our `
+``GetData``` script to hold all the Rock prefabs.
 
 We initialised the Array in the code as a public Array of Game Objects that we named rockInstances:   
 ```public GameObject[] rockInstances;```   
@@ -65,7 +146,7 @@ https://www.youtube.com/watch?v=Q16KIxtomeo
 
 ## Build the project to an Android device
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5Nzc3OTU3NywtMTAxNDgxMDQ1LDQ2MT
+eyJoaXN0b3J5IjpbLTU1ODc0NTYyMywtMTAxNDgxMDQ1LDQ2MT
 kyNDM2OCw3ODIwNjQ0MDcsLTQ1MTE1MTg3OCw4ODYyNjg4Mzgs
 NjgwNTczMCwtODA2MjM2NjQwLC0xODYxNzMyNDE0LC00NzA3OD
 kyOCwtNDg4NDI1MTk0LC0yMjcxODg2NjMsLTEyMjA3NzQzNTcs
