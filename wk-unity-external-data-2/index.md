@@ -157,6 +157,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using SimpleJSON;
 using UnityEngine.Networking;
+using TMPro; // using TextMeshPro
 
 public class GetData : MonoBehaviour
 {
@@ -223,21 +224,34 @@ public class GetData : MonoBehaviour
                 }
                 Instantiate(rockInstances[counter], position, Random.rotation);
                 counter++;
+
+                // get some data
+                string asteroidName = obj["near_earth_objects"][i]["name"].Value;
+                string minSize = obj["near_earth_objects"][i]["estimated_diameter"]["kilometers"]["estimated_diameter_min"].Value;
+                string maxSize = obj["near_earth_objects"][i]["estimated_diameter"]["kilometers"]["estimated_diameter_max"].Value;
+                Debug.Log(asteroidName + minSize + maxSize);
+
+                Instantiate(rockText, position + new Vector3(3.0f, 0, 0), Quaternion.identity);
+                TextMeshPro textComponent = rockText.GetComponent<TextMeshPro>();
+                textComponent.text = asteroidName + "\n" + minSize + "-" + maxSize + " km";
+
+
             }
         }
 
     }
     
 }
+
 ```
 
 ## Build the project to an Android device
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNjc3OTExNCw5OTA1ODcyNjcsMTkzMT
-kxMTkxMCwtNTU4NzQ1NjIzLC0xMDE0ODEwNDUsNDYxOTI0MzY4
-LDc4MjA2NDQwNywtNDUxMTUxODc4LDg4NjI2ODgzOCw2ODA1Nz
-MwLC04MDYyMzY2NDAsLTE4NjE3MzI0MTQsLTQ3MDc4OTI4LC00
-ODg0MjUxOTQsLTIyNzE4ODY2MywtMTIyMDc3NDM1Nyw3NDI4Nj
-c5NTMsOTc4OTQzMzIwLDcyNTI4MjQwNCwtODk0MzQyNzU0XX0=
+eyJoaXN0b3J5IjpbMzY2Nzk4OTcxLDk5MDU4NzI2NywxOTMxOT
+ExOTEwLC01NTg3NDU2MjMsLTEwMTQ4MTA0NSw0NjE5MjQzNjgs
+NzgyMDY0NDA3LC00NTExNTE4NzgsODg2MjY4ODM4LDY4MDU3Mz
+AsLTgwNjIzNjY0MCwtMTg2MTczMjQxNCwtNDcwNzg5MjgsLTQ4
+ODQyNTE5NCwtMjI3MTg4NjYzLC0xMjIwNzc0MzU3LDc0Mjg2Nz
+k1Myw5Nzg5NDMzMjAsNzI1MjgyNDA0LC04OTQzNDI3NTRdfQ==
 
 -->
