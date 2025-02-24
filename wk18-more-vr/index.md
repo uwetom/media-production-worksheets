@@ -183,13 +183,13 @@ Finally, we want to do something when the button is pressed.
 
 ### Challenge
 
-Generate a new torch in the scene when the button is clicked.
+Generate a new object in the scene when the button is clicked.
 
 #### Hints
 
 - Create a new script with a **public** function on it and drag it onto the canvas button.
-- Turn the torch into a prefab ([Create prefab](https://docs.unity3d.com/Manual/CreatingPrefabs.html))
-- Instantiate a new torch in the script ([Instantiate documentation](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.Instantiate.html))
+- Turn your torch or cube into a prefab ([Create prefab](https://docs.unity3d.com/Manual/CreatingPrefabs.html))
+- Instantiate a new prefab in the script ([Instantiate documentation](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.Instantiate.html))
 - Use the **on Click** box on the **Button** to call the function
 
  
@@ -202,7 +202,7 @@ Generate a new torch in the scene when the button is clicked.
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkzMjUxNzY0LC01NDUyMDA1ODcsMzMxNT
-AyODk4LDExOTQxMTY0MzQsMjEzNTA4MjIxMCwxODYxODU3ODI4
-LDMyNDM0ODEzMCwyMDkwOTA0MzA4XX0=
+eyJoaXN0b3J5IjpbMjA4MzY1ODI5MSwtNTQ1MjAwNTg3LDMzMT
+UwMjg5OCwxMTk0MTE2NDM0LDIxMzUwODIyMTAsMTg2MTg1Nzgy
+OCwzMjQzNDgxMzAsMjA5MDkwNDMwOF19
 -->
