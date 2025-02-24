@@ -149,7 +149,7 @@ Now we have some Asteroids rocks in our scene let's add some information about i
 
 ### Code
 
-Your script should now look like this.
+With the text added your script should now look like this.
 Please type not copy and paste
 ```C#
 using System.Collections;
@@ -247,11 +247,11 @@ public class GetData : MonoBehaviour
 
 ## Build the project to an Android device
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY2Nzk4OTcxLDk5MDU4NzI2NywxOTMxOT
-ExOTEwLC01NTg3NDU2MjMsLTEwMTQ4MTA0NSw0NjE5MjQzNjgs
-NzgyMDY0NDA3LC00NTExNTE4NzgsODg2MjY4ODM4LDY4MDU3Mz
-AsLTgwNjIzNjY0MCwtMTg2MTczMjQxNCwtNDcwNzg5MjgsLTQ4
-ODQyNTE5NCwtMjI3MTg4NjYzLC0xMjIwNzc0MzU3LDc0Mjg2Nz
-k1Myw5Nzg5NDMzMjAsNzI1MjgyNDA0LC04OTQzNDI3NTRdfQ==
+eyJoaXN0b3J5IjpbMTczNDc0NDAzNywzNjY3OTg5NzEsOTkwNT
+g3MjY3LDE5MzE5MTE5MTAsLTU1ODc0NTYyMywtMTAxNDgxMDQ1
+LDQ2MTkyNDM2OCw3ODIwNjQ0MDcsLTQ1MTE1MTg3OCw4ODYyNj
+g4MzgsNjgwNTczMCwtODA2MjM2NjQwLC0xODYxNzMyNDE0LC00
+NzA3ODkyOCwtNDg4NDI1MTk0LC0yMjcxODg2NjMsLTEyMjA3Nz
+QzNTcsNzQyODY3OTUzLDk3ODk0MzMyMCw3MjUyODI0MDRdfQ==
 
 -->
