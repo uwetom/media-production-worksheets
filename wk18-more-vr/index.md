@@ -200,7 +200,7 @@ Generate a new object in the scene when the button is clicked.
 #### Hints
 
 - Create a new script with a **public** function on it and drag it onto the canvas button.
-- Turn your torch or cube into a prefab ([Create prefab](https://docs.unity3d.com/Manual/CreatingPrefabs.html)), (add a ridgid
+- Turn your torch or cube into a prefab ([Create prefab](https://docs.unity3d.com/Manual/CreatingPrefabs.html)), (add a ridgidbody component to the cube to allow it to fall)
 - Instantiate a new prefab in the script ([Instantiate documentation](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.Instantiate.html))
 - Use the **on Click** box on the **Button** to call the function
 
@@ -216,9 +216,9 @@ Generate a new object in the scene when the button is clicked.
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNTIwNDU2NCwtOTA4ODY3NTcsNjU2Mz
-Q4MDIzLC0xNjMxODIyNDEsLTYzNjgyMzY0MCwxMzY3MzIzNzg1
-LC01NDUyMDA1ODcsMzMxNTAyODk4LDExOTQxMTY0MzQsMjEzNT
-A4MjIxMCwxODYxODU3ODI4LDMyNDM0ODEzMCwyMDkwOTA0MzA4
-XX0=
+eyJoaXN0b3J5IjpbLTExMzU5MzcxNzYsLTkwODg2NzU3LDY1Nj
+M0ODAyMywtMTYzMTgyMjQxLC02MzY4MjM2NDAsMTM2NzMyMzc4
+NSwtNTQ1MjAwNTg3LDMzMTUwMjg5OCwxMTk0MTE2NDM0LDIxMz
+UwODIyMTAsMTg2MTg1NzgyOCwzMjQzNDgxMzAsMjA5MDkwNDMw
+OF19
 -->
