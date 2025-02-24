@@ -36,7 +36,7 @@ public void Activated(){
 }
 ```
 
-## 2. Grab Interactable
+## 2. Grab Interactable - 
 
 A more advance interaction is a grab, this allows you to pick up objects in your scene.
 
@@ -199,7 +199,7 @@ Generate a new torch in the scene when the button is clicked.
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NTIwMDU4NywzMzE1MDI4OTgsMTE5ND
-ExNjQzNCwyMTM1MDgyMjEwLDE4NjE4NTc4MjgsMzI0MzQ4MTMw
-LDIwOTA5MDQzMDhdfQ==
+eyJoaXN0b3J5IjpbMTQ2MzA4ODY2NCwtNTQ1MjAwNTg3LDMzMT
+UwMjg5OCwxMTk0MTE2NDM0LDIxMzUwODIyMTAsMTg2MTg1Nzgy
+OCwzMjQzNDgxMzAsMjA5MDkwNDMwOF19
 -->
