@@ -12,6 +12,9 @@ This worksheet is made up of different parts, it is important that you do sectio
 
 ![vr core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/vr_core.jpg)
 
+- In **Build Sett
+
+
 - Open the **Basic Scene** inside the Scenes folder.
 
 ![Basic scene](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/basicscene.jpg)
@@ -204,7 +207,7 @@ Generate a new object in the scene when the button is clicked.
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NzMyMzc4NSwtNTQ1MjAwNTg3LDMzMT
-UwMjg5OCwxMTk0MTE2NDM0LDIxMzUwODIyMTAsMTg2MTg1Nzgy
-OCwzMjQzNDgxMzAsMjA5MDkwNDMwOF19
+eyJoaXN0b3J5IjpbODEwMzM2NjUsMTM2NzMyMzc4NSwtNTQ1Mj
+AwNTg3LDMzMTUwMjg5OCwxMTk0MTE2NDM0LDIxMzUwODIyMTAs
+MTg2MTg1NzgyOCwzMjQzNDgxMzAsMjA5MDkwNDMwOF19
 -->
