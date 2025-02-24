@@ -209,13 +209,15 @@ Generate a new object in the scene when the button is clicked.
 <summary>Solution</summary>
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=95b1a9f7-3aac-444c-add8-b26800edfc1b&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity vr - create torch" ></iframe>
 </details>
+
+
  
 ### Documentation
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU2MzQ4MDIzLC0xNjMxODIyNDEsLTYzNj
-gyMzY0MCwxMzY3MzIzNzg1LC01NDUyMDA1ODcsMzMxNTAyODk4
-LDExOTQxMTY0MzQsMjEzNTA4MjIxMCwxODYxODU3ODI4LDMyND
-M0ODEzMCwyMDkwOTA0MzA4XX0=
+eyJoaXN0b3J5IjpbLTkwODg2NzU3LDY1NjM0ODAyMywtMTYzMT
+gyMjQxLC02MzY4MjM2NDAsMTM2NzMyMzc4NSwtNTQ1MjAwNTg3
+LDMzMTUwMjg5OCwxMTk0MTE2NDM0LDIxMzUwODIyMTAsMTg2MT
+g1NzgyOCwzMjQzNDgxMzAsMjA5MDkwNDMwOF19
 -->
