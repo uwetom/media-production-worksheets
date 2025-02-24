@@ -4,6 +4,8 @@
 
 We want to be able to interact with our environment, triggering sounds, animations and scripts.
 
+This worksheet is made up of different parts,
+
 ## Open a project
 
 - Open last weeks Unity Project, or create a new VR Core project.
@@ -36,8 +38,9 @@ public void Activated(){
 }
 ```
 
-## 2. Grab Interactable - Optional
+## 2. Mini Project- Interactable torch
 
+### Grab Interactable 
 A more advance interaction is a grab, this allows you to pick up objects in your scene.
 
 ### Make a simple torch
@@ -199,7 +202,7 @@ Generate a new torch in the scene when the button is clicked.
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjI2NTcyNSwtNTQ1MjAwNTg3LDMzMT
-UwMjg5OCwxMTk0MTE2NDM0LDIxMzUwODIyMTAsMTg2MTg1Nzgy
-OCwzMjQzNDgxMzAsMjA5MDkwNDMwOF19
+eyJoaXN0b3J5IjpbOTkzMjUxNzY0LC01NDUyMDA1ODcsMzMxNT
+AyODk4LDExOTQxMTY0MzQsMjEzNTA4MjIxMCwxODYxODU3ODI4
+LDMyNDM0ODEzMCwyMDkwOTA0MzA4XX0=
 -->
