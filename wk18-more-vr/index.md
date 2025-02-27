@@ -34,7 +34,7 @@ To allow the XR rig to interact with objects in the scene we need two parts, and
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=44ca29a5-e698-41cd-9e8c-b26600e01254&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Unity vr - simple interactable" ></iframe>
 
-```
+```c#
 public void Hovered(){
 	Debug.Log("hovered");
 }
@@ -115,21 +115,24 @@ Open the new script and add code to toggle the light on and off
 #### Hints
 - Make a new **Public** function and call it "ToggleLight"
 - Create a Light variable and store the Light component in
-	```
+	```c#
 	Light torchLight = GetComponentInChildren<Light>();
 	```
 - Create an if statement to turn the light on if it is off and off if it is on.
 - We can find out if the light is on using:
-	```
+	```c#
 	torchLight.isActiveAndEnabled
 	```
 - We can turn the component off using:
-	```
+	```c#
 	torchLight.enabled = false;
 	```
-<details>
-<summary>Solution</summary>
+
+### Solution
+
+
 	This is one possible solution:
+
 
 	using System.Collections;
 	using System.Collections.Generic;
@@ -146,7 +149,7 @@ Open the new script and add code to toggle the light on and off
 		}
 	}
 
-</details>
+
 
 We can now hook this script up to the torch **activate** state.
 
@@ -216,9 +219,9 @@ Generate a new object in the scene when the button is clicked.
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5Njc3NzM1MiwtMTEzNTkzNzE3NiwtOT
-A4ODY3NTcsNjU2MzQ4MDIzLC0xNjMxODIyNDEsLTYzNjgyMzY0
-MCwxMzY3MzIzNzg1LC01NDUyMDA1ODcsMzMxNTAyODk4LDExOT
-QxMTY0MzQsMjEzNTA4MjIxMCwxODYxODU3ODI4LDMyNDM0ODEz
-MCwyMDkwOTA0MzA4XX0=
+eyJoaXN0b3J5IjpbLTEzMzAyODg2NjMsMTM5Njc3NzM1MiwtMT
+EzNTkzNzE3NiwtOTA4ODY3NTcsNjU2MzQ4MDIzLC0xNjMxODIy
+NDEsLTYzNjgyMzY0MCwxMzY3MzIzNzg1LC01NDUyMDA1ODcsMz
+MxNTAyODk4LDExOTQxMTY0MzQsMjEzNTA4MjIxMCwxODYxODU3
+ODI4LDMyNDM0ODEzMCwyMDkwOTA0MzA4XX0=
 -->
