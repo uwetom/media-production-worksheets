@@ -2,11 +2,11 @@
 
 ### Intro
 
-- VR interactions 
+- VRr interactions 
 
 - At the end of the session make sure you have built your project to a headset.
 
-### New project and scene
+### Nnew project and scene
 
 - Make new Vr core project
 
@@ -79,3 +79,6 @@ add to button
 
 hook up script
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTgzODY4MzA1MV19
+-->
