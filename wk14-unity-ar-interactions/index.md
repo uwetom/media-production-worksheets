@@ -173,7 +173,7 @@ Try to write this yourself before looking at the solution bellow
 
 Solution
 
-```
+```c#
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -229,8 +229,8 @@ Now that We have the basic functionality working try to use your Unity skills to
 - Create a second marker and ship with different text.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDMxOTkzMCw3MDY4NDQxMTEsLTExNz
-MzNjMzMzIsLTc5MjE3NDE0OCwtNTYyNTY5NjU0LC0xMzQ5Mzkx
-MzM1LC0xNTM1Mzc1MTQwLC0xMzU3MDYyMTM5LDE2OTk1MjYxNV
-19
+eyJoaXN0b3J5IjpbLTE1NTM2MDA0NzQsLTExNDMxOTkzMCw3MD
+Y4NDQxMTEsLTExNzMzNjMzMzIsLTc5MjE3NDE0OCwtNTYyNTY5
+NjU0LC0xMzQ5MzkxMzM1LC0xNTM1Mzc1MTQwLC0xMzU3MDYyMT
+M5LDE2OTk1MjYxNV19
 -->
