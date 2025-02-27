@@ -131,9 +131,9 @@ Open the new script and add code to toggle the light on and off
 ### Solution
 
 
-	This is one possible solution:
+This is one possible solution:
 
-
+```c#
 	using System.Collections;
 	using System.Collections.Generic;
 	using UnityEngine;
@@ -148,7 +148,7 @@ Open the new script and add code to toggle the light on and off
 			}
 		}
 	}
-
+```
 
 
 We can now hook this script up to the torch **activate** state.
@@ -219,7 +219,7 @@ Generate a new object in the scene when the button is clicked.
 
 [XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzAyODg2NjMsMTM5Njc3NzM1MiwtMT
+eyJoaXN0b3J5IjpbLTE1MzUzNzAyNDcsMTM5Njc3NzM1MiwtMT
 EzNTkzNzE3NiwtOTA4ODY3NTcsNjU2MzQ4MDIzLC0xNjMxODIy
 NDEsLTYzNjgyMzY0MCwxMzY3MzIzNzg1LC01NDUyMDA1ODcsMz
 MxNTAyODk4LDExOTQxMTY0MzQsMjEzNTA4MjIxMCwxODYxODU3
