@@ -2,10 +2,11 @@
 
 ### Intro
 
-- Vr interactions 
-- At the end of the session make sure you have built your project to a headset
+- VR interactions 
 
-### new project and scene
+- At the end of the session make sure you have built your project to a headset.
+
+### New project and scene
 
 - Make new Vr core project
 
