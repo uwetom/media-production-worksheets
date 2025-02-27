@@ -62,6 +62,7 @@ https://learn.unity.com/tutorial/coroutines#
 
 This is the code I used in the video ( please type not copy and paste!):
 ```C#
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using SimpleJSON;
@@ -180,8 +181,8 @@ public class GetData : MonoBehaviour
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzg0NjIyMTEsMTUxMTE3MDk5MywxND
-M2MjEwMDM0LC0xMzU1OTA0NzI2LDk3MTA2NDc2MiwxNTYzOTgx
-MTYyLDIwNzg0MDExMjYsLTM4MjM1NzM0MiwxMzc3MTkxMDc0LC
-0xMjgzMzkxNTc4XX0=
+eyJoaXN0b3J5IjpbLTY2NDMzNjQyOCwtMTUzODQ2MjIxMSwxNT
+ExMTcwOTkzLDE0MzYyMTAwMzQsLTEzNTU5MDQ3MjYsOTcxMDY0
+NzYyLDE1NjM5ODExNjIsMjA3ODQwMTEyNiwtMzgyMzU3MzQyLD
+EzNzcxOTEwNzQsLTEyODMzOTE1NzhdfQ==
 -->
