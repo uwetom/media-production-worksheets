@@ -107,8 +107,8 @@ Access nested data like this:
 MyJsonFile["location"]["city"]; // returns "Bristol"
 MyJsonFile["location"]["street"]; // returns "Coldharbour Lane"
 ```
-### Code challenge - get some data
-Using the meteo JSON example above what would you write to access the the current temperature and rain?
+### Code challenge - try accessing some data
+Using the meteo JSON example above write out (on paper) the syntax to access the the current temperature and rain?
 
 ## Data repositories / libraries
 You can find a list of unsecured data with API access here
@@ -143,6 +143,6 @@ How many are
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxODQ3MzM5NCw3ODM3NDg5NDYsLTU5Mj
-Q5MjEzMiwzNjYzNzQ1MTBdfQ==
+eyJoaXN0b3J5IjpbMTUzMTgwOTg5MywxMzE4NDczMzk0LDc4Mz
+c0ODk0NiwtNTkyNDkyMTMyLDM2NjM3NDUxMF19
 -->
