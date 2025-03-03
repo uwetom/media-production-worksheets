@@ -247,13 +247,15 @@ public class GetData : MonoBehaviour
 
 ## Build the project to an Android device
 
-Build your AR scene to a de
+Build your AR scene to a device
+
+<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=1c0abd93-e11a-40b9-8d4d-b21e00a3fea0&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity-build to android" ></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjg5NTk0MDcsLTQ2Nzc3ODE0LDE3Mz
-Q3NDQwMzcsMzY2Nzk4OTcxLDk5MDU4NzI2NywxOTMxOTExOTEw
-LC01NTg3NDU2MjMsLTEwMTQ4MTA0NSw0NjE5MjQzNjgsNzgyMD
-Y0NDA3LC00NTExNTE4NzgsODg2MjY4ODM4LDY4MDU3MzAsLTgw
-NjIzNjY0MCwtMTg2MTczMjQxNCwtNDcwNzg5MjgsLTQ4ODQyNT
-E5NCwtMjI3MTg4NjYzLC0xMjIwNzc0MzU3LDc0Mjg2Nzk1M119
+eyJoaXN0b3J5IjpbLTIyMTc4MjUzMCwtNDY3Nzc4MTQsMTczND
+c0NDAzNywzNjY3OTg5NzEsOTkwNTg3MjY3LDE5MzE5MTE5MTAs
+LTU1ODc0NTYyMywtMTAxNDgxMDQ1LDQ2MTkyNDM2OCw3ODIwNj
+Q0MDcsLTQ1MTE1MTg3OCw4ODYyNjg4MzgsNjgwNTczMCwtODA2
+MjM2NjQwLC0xODYxNzMyNDE0LC00NzA3ODkyOCwtNDg4NDI1MT
+k0LC0yMjcxODg2NjMsLTEyMjA3NzQzNTcsNzQyODY3OTUzXX0=
 
 -->
