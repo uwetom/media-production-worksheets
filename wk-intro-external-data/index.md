@@ -125,7 +125,7 @@ For many data repositories it is quite common to need to make an account and log
 This Nasa data repository about Near Earth Objects (NEO / asteroids that will pass close to earth) https://api.nasa.gov/ needs a log in and API Key. 
 
 Scroll down on the link above to find the documentation about Asteroids-NeoWs (Near Earth Object Web Service).
-![JSON file](https://github.com/uwetom/media-production-worksheets/blob/master/wk-intro-external-data/images/neows-2.png)
+![JSON file](https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-intro-external-data/images/neows-2.png)
 The format for the HTTP web request to retrieve all Near Earth Objects is:
 
 [`https://api.nasa.gov/neo/rest/v1/neo/browse?api_key=DEMO_KEY`](https://api.nasa.gov/neo/rest/v1/neo/browse?api_key=DEMO_KEY)
@@ -143,7 +143,7 @@ How many are
 
 Now let's get this data into Unity and learn how to use it....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxOTU2ODAzMSwzMTU3NzU4MywxNTMxOD
+eyJoaXN0b3J5IjpbLTI3MTAwMjU1NCwzMTU3NzU4MywxNTMxOD
 A5ODkzLDEzMTg0NzMzOTQsNzgzNzQ4OTQ2LC01OTI0OTIxMzIs
 MzY2Mzc0NTEwXX0=
 -->
