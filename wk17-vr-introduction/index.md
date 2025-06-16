@@ -5,13 +5,13 @@
 
 This worksheet will show you how to create a VR project in Unity and how to move around using an XR rig.
 
-We will be using Unity version **2023.2.20f1** 
+We will be using Unity version **6** 
 
 ## 1. VR Headsets
 
 We are using Meta Quest headsets, they can be used as stand alone devices. This allows you to build content directly to the headset without requiring the user to be tethered to a powerful PC.
 
-We will be using Meta Quest 1 and 2 headsets, you can also use the Quest 3 if you have one. 
+We will be using Meta Quest 1,2 and 3s headsets, you can also use the Quest 3 if you have one. 
 
 The headsets require you to create an account and sign in to use. To save time I will do this for you before the in class workshops, but you will need to do yourself if you book them from the project room for use outside class.
 
@@ -23,7 +23,7 @@ Please make sure you reset them using the guide in the kit before returning them
 
 Open Unity and create a new project, we will use the built in VR template.
 
-![VR core template in unity hub](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/vr_core.jpg)
+![VR core template in unity hub](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/new_project_6.jpg)
 
 This will set up our project with all the packages we need and also include some helpful starter assets.
 
@@ -37,14 +37,14 @@ The template works with many different brands of headset, so we have to tell it 
 
 ### Android
 
-The Meta Quest runs on Android so we need to switch the platform.
+The Meta Quest runs on **Android** we could choose this as our platform, but Unity also gives us a specific **Meta Quest** option which will configure everything we need.
 
-- In the top menu, select **File > Build Settings** and change the Platform to **Android** 
+- In the top menu, select **File > Build Profiles** and change the Platform to **Meta Quest**
 - Press **Switch Platform**
 
-![Select Android build
+![VR core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/switch_platform_6.jpg)
 
-![VR core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/switch_platform.jpg)
+After it has finished you will see that the Active platform is now **Android**, this is slightly confusing UI, but ut e 
 
 ### Device Simulation
 
