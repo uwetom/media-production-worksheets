@@ -44,15 +44,13 @@ The Meta Quest runs on **Android** we could choose this as our platform, but Uni
 
 ![VR core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/switch_platform_6.jpg)
 
-After it has finished you will see that the Active platform is now **Android**, this is slightly confusing UI, but ut e 
+After it has finished you will see that the Active platform is now **Android**, this is slightly confusing UI which will hopefull be fixed in future Unity versions.
 
 ### Device Simulation
 
 We also want to be able to test our project in Unity on without having to build to the headset.
 
-- Go into **File > Project Settings** and open **Player Settings...**
-
-![Player Settings button](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/player_settings.jpg)
+- Go into **Edit > Project Settings**
 
 - At the bottom, in **XR Plug-in Management**, under **XR Interaction Toolkit**  turn on **Use XR Device Simulator in Scene**
 
@@ -60,12 +58,10 @@ We also want to be able to test our project in Unity on without having to build 
 
 Accept the pop-up to download the simulator package.
 
-#### Mac
-nity oc  oaIf you are on a Mac, particularly in the lab you also need to change the plugin in manager from **penXR** to **Mock HMD Loader**. IMPORTANT, only do this for the left tab, NOT the android tab.
+- In the **XR Plug-in management** section, in the left tab
+ change the **Plug-in Providers** from **OpenXR** to **Mock HMD Loader**. IMPORTANT, only do this for the left tab, **NOT** the android tab or it wont work in the headset.
 
 ![uwe xr device simulator button](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/hmd.png)
-
-- Finally, in the **Project Validation** Section check for any issues in the window and Android tabs and press **Fix all**. It make take a few minutes to reload the scripts.
 
 We are now set up all the VR settings.
 
@@ -75,7 +71,7 @@ The VR sample scene should already be open, if not, you can find it in **Scenes 
 
 ![uwe xr device simulator button](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/sample.jpg)
 
-This scene demonstrates basic VR interactions and motion. This demo scene is a useful reference to work out how to implement similar functionality in your own project.
+This scene demonstrates basic VR interactions and motion. It is also a useful reference to work out how to implement similar functionality in your own project.
 
 ### Test out the scene
 
