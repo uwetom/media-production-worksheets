@@ -82,9 +82,7 @@ This scene demonstrates basic VR interactions and motion. It is also a useful re
 
 This video shows you how to use the simulated environment.
 
-![simulated environment](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/simulated_environment.jpg)
-
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=77afc393-1244-453f-82a7-b26100a887f6&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Unity VR - Simulator" ></iframe>
+[<img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/xr_simulator_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d11c7102-37ff-454f-a4bd-b2fe00e91a5b)
 
 ### B. On the headset
 
@@ -92,7 +90,7 @@ Before you use the headset read the following:
 
 #### Safety - Be aware of your environment
 
-When using a VR headset you may not be able to see the world around you, it is therefore very important that you clear the space around your space to ensure you don't injure yourself, others or the equipment.
+When using a VR headset you may not be able to see the world around you, it is therefore very important that you clear your space to ensure you don't injure yourself, others or the equipment.
 
 Please watch the following Meta Video shows you how to safely use the headset.
 
@@ -100,7 +98,7 @@ Please watch the following Meta Video shows you how to safely use the headset.
 
 #### Play the sample scene
 
-We can build the scene to the headset, but as this can take a while, to save time I have pre-installed it for you. I will show you how to do it yourself later in the worksheet.
+We can build a scene to the headset, but as this can take a while, to save time I have pre-installed the sample scene for you. I will show you how to do it yourself later in the worksheet.
 
 -  Clear the space around you then put the headset on,
 - Follow the instructions on the headset  to create a guardian boundary, I recommend the stationary boundary when working in the busy classroom.
@@ -109,28 +107,26 @@ We can build the scene to the headset, but as this can take a while, to save tim
 
 ![app](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/vr_app.png)
 
-## 5. Basic VR rig
-
-We now want to make our own scene. You don't need to follow along with this video, but you may find it useful to know who to make your own rig:
-
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=b3a6d9c3-e639-43fb-ac8d-b26600a323fb&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity vr - basic rig" ></iframe> 
-
-## 6. Complete VR rig
+## 5. Complete VR rig
  
-We don't want to made a complex rig from scratch so will use the complete rig.
+If we had specific requirements we could create a custom VR rig from scratch.
+
+For this tutorial we will use the pre-made rig provided in the template.
 
 - Open **BasicScene** in the Scenes folder
 
 ![Locomotion System](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/basicscene.jpg)
 
-To avoid changing this template scene, we now want to save the scene with a different name.
+We may want this template scene again, so to avoid saving it over it we want to save the scene with a different name.
 
 - In the top menu, go to **File > Save as**
 - Save the scene in the Scenes folder and call it "PracticeScene"
 
-The Scene has a floor plane and a complete XR rig.
+The Scene already includes a floor plane and an XR Origin (XR Rig)
 
-- Press play to make sure the scene plays without any issues and you can move around in the simulator.
+- Press play to make sure the scene plays without any issues and you can move around in the simulator just as you did in the sample scene.
+
+We recomend you use this scene for your project.
 
 You may notice that this rig doesn't have the helper labels, if you need these you can swap the **Complete XR Origin Set Up** for the **Complete XR Origin Set Up Variant** found in **Assets > VRTemplateAssets > Prefabs > Setup**
 
