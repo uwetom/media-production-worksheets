@@ -146,7 +146,6 @@ Meta have come up with useful locomotion guidelines that you may want to conside
 
 [VR Locomotion](https://developers.meta.com/horizon/resources/locomotion-comfort-usability/?locale=en_GB)
 
-
 ## 7. Teleportation 
 
 Teleportation is turned on by default on our XR rig, It allows users to move around the scene more comfortably then using continuous movement provided by the left thumb stick.
@@ -188,64 +187,33 @@ You can also use a teleportation anchor. These allow you to pick specific spots 
 
 Notice that although you can select anywhere on the cube, as soon as you teleport it locks you to the centre.
 
-## 9. Build to the headset
+## 8. Build to the headset
 
-Once the headset is setup, building to it is just as easy as building to any Android device.
+Once the headset is setup we can build our project to it.
 
-In the lab, I have already turned on developer mode for you, if you have your own headset or book one out of the project room you will need to set them up yourself
+[<img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/build_video_image.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=405feefe-6503-4415-9c49-b2ff00f8a659)
 
-[How to setup your own headset](https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset/)
 
-- Connect the headset to the computer via the USB C cable in the VR box.
+## Challenge 1 - Build a mini scene
 
-**On the headset:**
-- Put it on and accept the debug connection. Always allow.
+Create a new scene and make an obstacle course
 
-**In Unity:**
-- On the top menu, select **File > Build settings**
-- Make sure the correct scene is ticked in the top box.
-- Press **Refresh** under **Run Device** and select your headset.
-- In **Run Device** Select the headset
-- Press **Build and Run**
-
-![build settings](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/build.jpg)
-
-The first time, it may take quite a while ( it took me 10 minutes! ) to build but it will be much quicker when you make changes and build again.
-
-When finished put the headset on and try out your scene.
-
-## Challenge - Build a mini scene
-
-Find some assets on the asset store or download and import these into your project:
-
-[left hand](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/assets/left_hand.fbx)
-
-[right hand](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/assets/right_hand.fbx)
-
-Kenney create some useful free assets for prototyping
-
-[kenney.nl](https://kenney.nl/assets/prototype-kit)
-
-Try to Include
+Try to include:
 - Multiple teleportation anchors and areas
-- Change the controllers.
-- Try it out on the simulator and build it to the device.
+- Include platforms at different heights
+- Change the materials on the platforms
+
+Try it out on the simulator and build it to the device.
+
+## Challenge 2 - Change the controllers
+
+- Try to find the controllers in the XR rig and change the materials on them or swap them out for different models.
+- Add some assets from the assets store to make your course more interesting.
 
 ## Documentation
 
 These workshops will get you started, but for your own project you will want to dive more deeply into the detail, the documentation is a great starting point:
 
-[Unity VR Template documentation](https://docs.unity3d.com/Packages/com.unity.template.vr@8.0/manual/index.html)
+[Unity VR Template documentation](https://docs.unity3d.com/Packages/com.unity.template.vr@9.1/manual/index.html)
 
-[Unity Interaction toolkit documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/index.html)
-
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NzMyNzExLDM0MDEyMDQ2NywxNTg5NT
-QzMCw5OTcyMzg4NzcsMTA4ODA5MTMzMiwtMTEwOTU3NjQzNiwt
-Njk1MjEzMTg1LDEwMzY4Nzc4NTksLTcxODc0OTI0MywzOTc3ND
-c1MjMsMjU2NDcxMjE5LDE3MzAzNDkzMDQsMTgzMTYxNDQ4Miwt
-MTkxMzMyNjE0NSwxNjU0NjQxNTQ5LC00Mjg2NzM3NjYsMTE1MT
-c5NTU0XX0=
--->
+[Developing for Meta Quest](https://docs.unity3d.com/6000.1/Documentation/Manual/xr-meta-quest-develop.html)
