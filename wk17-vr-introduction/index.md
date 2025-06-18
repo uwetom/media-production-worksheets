@@ -37,7 +37,7 @@ The template will work with many different brands of headset so we have to tell 
 
 ### Android
 
-The Meta Quest runs on **Android** we could choose this as our platform, but Unity also gives us a specific **Meta Quest** option to configure android for VR.
+The Meta Quest runs on **Android** we could choose this as our platform, but Unity 6 also gives us a specific **Meta Quest** option to configure android for VR.
 
 - In the top menu, select **File > Build Profiles** and change the Platform to **Meta Quest**
 - Press **Switch Platform**
@@ -48,7 +48,7 @@ After it has finished you will see that the Active platform has been set to **An
 
 ### Device Simulation
 
-It is important to test in a real headset to know that you project works as intended, but during development we also want to be able to quickly test our project in Unity.
+It is important to test in a real headset to know that you project works as intended. But this can take a while, so for a quick test you can use the simulator.
 
 - Go into **Edit > Project Settings**
 
@@ -64,6 +64,11 @@ Accept the pop-up to download the simulator package.
 ![uwe xr device simulator button](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/hmd.png)
 
 We are now setup and ready to try out a VR scene.
+
+_NOTE: If you have a high specification gaming PC there is another alternative; you can stream the project directly from the Unity editor to your headset.
+
+[Meta Quest Link](https://docs.unity3d.com/Packages/com.unity.xr.meta-openxr@2.2/manual/get-started/link.html)
+
 
 ## 4. Sample scene
 
@@ -111,7 +116,9 @@ We can build a scene to the headset, but as this can take a while, to save time 
 
 - try to move around and pick up object to get familiar with a VR environment.
 
-## 5. Complete VR rig
+## 5. Create our own scene
+
+### XR Rig
  
 For this tutorial we will use the pre-made rig provided in the template. 
 
@@ -132,21 +139,9 @@ We recomend you use this scene for your project.
 
 You may notice that this rig doesn't have the helper labels, if you need these you can swap the **Complete XR Origin Set Up** for the **Complete XR Origin Set Up Variant** found in **Assets > VRTemplateAssets > Prefabs > Setup**
 
-## 6. User Comfort - Cybersickness
+## 6. Teleportation 
 
-Many users Can feel motion sickness when in VR, as a creator, it is your responsibility to minimise this as much as you can in your project.
-
-The major cause of sickness is a disconnect between what the user can see and what there body is physically experiencing.
-
-One factor is frame rate, if your add too much to your scene the frame rate will drop. This will cause a delay between moving in the real world and your view in the virtual world. Even a tiny delay will be uncomfortable. Test your scene often to ensure it runs smoothly.
-
-The other factor is motion, although you want to be able to move your character around, if you are standing still in the real world, but your virtual character is running or riding in a roller coaster the discrepancy can be uncomfortable.
-
-Meta have come up with useful locomotion guidelines that you may want to consider:
-
-[VR Locomotion](https://developers.meta.com/horizon/resources/locomotion-comfort-usability/?locale=en_GB)
-
-## 7. Teleportation 
+Many users Can feel motion sickness when in VR, as a creator, it is your responsibility to minimise this as much as you can in your project and consider the VR experience of your Users.
 
 Teleportation is turned on by default on our XR rig, It allows users to move around the scene more comfortably then using continuous movement provided by the left thumb stick.
 
@@ -187,12 +182,23 @@ You can also use a teleportation anchor. These allow you to pick specific spots 
 
 Notice that although you can select anywhere on the cube, as soon as you teleport it locks you to the centre.
 
-## 8. Build to the headset
+## 7. Build to the headset
 
 Once the headset is setup we can build our project to it.
 
 [<img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/build_video_image.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=405feefe-6503-4415-9c49-b2ff00f8a659)
 
+## 8. User Comfort - Cybersickness
+
+The major cause of sickness is a disconnect between what the user can see and what there body is physically experiencing.
+
+One factor is frame rate, if your add too much to your scene the frame rate will drop. This will cause a delay between moving in the real world and your view in the virtual world. Even a tiny delay will be uncomfortable. Test your scene often to ensure it runs smoothly.
+
+The other factor is motion, although you want to be able to move your character around, if you are standing still in the real world, but your virtual character is running or riding in a roller coaster the discrepancy can be uncomfortable.
+
+Meta have come up with useful locomotion guidelines that you may want to consider:
+
+[VR Locomotion](https://developers.meta.com/horizon/resources/locomotion-comfort-usability/?locale=en_GB)
 
 ## Challenge 1 - Build a mini scene
 
