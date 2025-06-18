@@ -6,7 +6,7 @@ When you first use a Meta Quest headset you will need to log in and set it up be
 
 ## Phone App
 
-Sstart by downloading the Meta Horizons app on your phone.
+start by downloading the Meta Horizons app on your phone.
 
 [Android App](https://apps.apple.com/us/app/meta-horizon/id1366478176)
 
@@ -18,11 +18,11 @@ Then login with your own personal account.
 
 Turn on your VR headset and put it on.
 
-TPut the headset on and it will guide you through the setup, this should take about 15 minutes.
+Put the headset on and it will guide you through the setup, this will take about 15 minutes.
 
 ## Wifi
 
-During the setup you will be asked to connect to Wifi, If you are on Campus most of the headsets will be able connect to "Guest WIfi". You cannot connect to Eduroam through the headset, but if your phone is connected, open the Meta app and find your Headset, you can then go into settings and connect the headset to Eduroam from there.
+During the setup you will be asked to connect to Wifi, If you are on Campus most of the headsets will be able connect to "Guest WIfi". Otherwise you will need to create a hotspot on your phone or connect to your home wifi. You cannot connect to Eduroam through the headset, but if your phone is connected, open the Meta app and find your Headset, you can then go into settings and connect the headset to Eduroam from there.
 
 ## Developers
 
@@ -66,7 +66,3 @@ If this box does not pop up, make sure it is firmly plugged in, or try restartin
 ## Reference
 
 [Meta developer documentation](https://developers.meta.com/horizon/documentation/unity/unity-env-device-setup/)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTY4NjU4MTgsMTE5MDUwMjI3NywxOD
-UzMDU5NDg1LC0xODE5NTM3NjQwLC0yNTUwNTYwMzVdfQ==
--->
