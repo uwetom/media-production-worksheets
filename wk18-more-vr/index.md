@@ -2,7 +2,7 @@
 
 # VR Interactions
 
-We want to be able to interact with our environment, triggering sounds, animations and scripts.
+In this worksheet we will interact with objects in our scene and explore creating a user interface.
 
 ## Open a project
 
@@ -25,9 +25,9 @@ If you created a new VR core project you will need to set it up like last week. 
 
 To allow the XR rig to interact with objects in the scene we need two parts, an **Interactor** component on the XR rig, and an **Interactable** component on the object.
 
-The most basic type of interactable is a **simple interactable** 
+The most basic type of interactable is a **simple interactable**, this will allow us to detect when a user hovers over and selects an object with the controller.
 
-[<img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/xr_simulator_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d11c7102-37ff-454f-a4bd-b2fe00e91a5b)
+[<img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/xr_simulator_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=8ee3d93f-6a2a-4705-b058-b30000fbf702)
 
 ```c#
 public void hover(){
@@ -38,7 +38,6 @@ public void unhover(){
 	Debug.Log("unhover");
 	
 }
-
 public void selected(){
 	Debug.Log("selected");
 	GetComponent<Renderer>().material.SetColor("_BaseColor",Color.blue);
@@ -47,15 +46,18 @@ public void selected(){
 
 ## 2. Grab Interactable
 
-Next we can try a **Grab interactable** to allow us to grab objects in our scene
+Next we can try a **Grab interactable** to allow us to pick up objects in our scene.
 
-[<img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/xr_simulator_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d11c7102-37ff-454f-a4bd-b2fe00e91a5b)
+[<img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/xr_simulator_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c037b363-6479-49f1-89ce-b30001106ff9)
 
-We can also add grab interactables to our own objects
+We can also add grab an interactable to our own objects
+
+[<img src="https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/pizza_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b85003b4-643d-40e1-abdc-b30001142c77)
 
 [Kenney.nl objects](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/assets/kenney_objects.unitypackage)
 
-[<img src="https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/pizza_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b85003b4-643d-40e1-abdc-b30001142c77)
+[sounds](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/assets/sounds.zip)
+
 
 
 ## 3. User Interface

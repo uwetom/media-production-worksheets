@@ -203,21 +203,17 @@ Meta have come up with useful locomotion guidelines that you may want to conside
 
 [VR Locomotion](https://developers.meta.com/horizon/resources/locomotion-comfort-usability/?locale=en_GB)
 
-## Challenge 1 - Build a mini scene
+## Challenge - Build a mini scene
 
 Create a new scene and make an obstacle course
 
 Try to include:
 - Multiple teleportation anchors and areas
 - Include platforms at different heights
+- Create barriers to guide the user around the space.
 - Change the materials on the platforms
 
 Try it out on the simulator and build it to the device.
-
-## Challenge 2 - Change the controllers
-
-- Try to find the controllers in the XR rig and change the materials on them or swap them out for different models.
-- Add some assets from the assets store to make your course more interesting.
 
 ## Documentation
 
