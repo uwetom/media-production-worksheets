@@ -27,6 +27,8 @@ Open Unity and create a new project, we will use the built in VR template.
 
 This will set up our project with all the packages we need and also include some helpful starter assets.
 
+Make sure to save it somewhere sensible as we will carry on with this project next week.
+
 ## 3. Set up
 
 The template will work with many different brands of headset so we have to tell it which one we are using. We will do this later but a helpful message reminds us.
@@ -187,6 +189,7 @@ Notice that although you can select anywhere on the cube, as soon as you telepor
 Once the headset is setup we can build our project to it.
 
 [<img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/build_video_image.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=405feefe-6503-4415-9c49-b2ff00f8a659)
+
 
 ## 8. User Comfort - Cybersickness
 

@@ -4,20 +4,13 @@
 
 We want to be able to interact with our environment, triggering sounds, animations and scripts.
 
-This worksheet is made up of different parts, it is important that you do sections 1 and 4. 
-
 ## Open a project
 
 - Open last weeks Unity Project, or create a new VR Core project
 
-![vr core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/vr_core.jpg)
+![vr core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/new_project_6.jpg)
 
-If you created a new VR core project you will need to set it up like last week. You can go back and look at [section 3 in last weeks workshop](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/) , or if you just need a reminder do the following:
-
-- In **File > Build Settings** switch the platform to Android
-- In **Edit > Project Settings > XR Interaction Toolkit** tick **Use XR Device Simulator in scene**
-- In  **Edit > Project Settings > XR Plug-in Management** change the computer tab to **Mock HMD Loader**
--  In **Edit >  Project  Settings > Project Validation** click **Fix all**
+If you created a new VR core project you will need to set it up like last week. You can go back and look at [section 3 in last weeks workshop](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/) 
 
 ## Create new Scene
 
@@ -30,44 +23,70 @@ If you created a new VR core project you will need to set it up like last week. 
 
 ## 1. Simple Interactable
 
-To allow the XR rig to interact with objects in the scene we need two parts, and **Interactor** component on the rig, and an **Interactable** component on the object.
+To allow the XR rig to interact with objects in the scene we need two parts, an **Interactor** component on the XR rig, and an **Interactable** component on the object.
 
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=44ca29a5-e698-41cd-9e8c-b26600e01254&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Unity vr - simple interactable" ></iframe>
+The most basic type of interactable is a **simple interactable** 
+
+[<img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/xr_simulator_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d11c7102-37ff-454f-a4bd-b2fe00e91a5b)
 
 ```c#
-public void Hovered(){
-	Debug.Log("hovered");
-}
-public void Selected(){
-	Debug.Log("Selected");
+public void hover(){
+	Debug.Log("hover");
 	GetComponent<Renderer>().material.SetColor("_BaseColor",Color.red);
 }
+public void unhover(){
+	Debug.Log("unhover");
+	
+}
 
-public void Activated(){
-	Debug.Log("activated");
+public void selected(){
+	Debug.Log("selected");
+	GetComponent<Renderer>().material.SetColor("_BaseColor",Color.blue);
 }
 ```
 
-During the in class workshop we will skip sections 2 and 3, but feel free to do them in your own time.
+## 2. Grab Interactable
 
-## 2. Mini Project- Interactable torch - Optional
+Next we can try a **Grab interactable** to allow us to grab objects in our scene
 
-### Grab Interactable 
-A more advance interaction is a grab, this allows you to pick up objects in your scene.
+[<img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/xr_simulator_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d11c7102-37ff-454f-a4bd-b2fe00e91a5b)
 
-### Make a simple torch
+We can also add grab interactables to our own objects
 
-- Add a cylinder to your scene.
-- Rename it to "torch".
-- Scale it to 0.15
-- Add a **Rigidbody** component to it so that it is effected by gravity.
-- Add an **XR Grab Interactable** component to it.
+[Kenney.nl objects](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/assets/kenney_objects.unitypackage)
 
-![torch object](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/torch1.jpg)
+[<img src="https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/pizza_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b85003b4-643d-40e1-abdc-b30001142c77)
 
-We can now test the scene, We should be able to pick up the torch.
 
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=99a84900-005e-4a34-ba3b-b26800dd5b26&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity vr - test light 1" ></iframe>
+## 3. User Interface
+
+A VR UI uses the same components as we use in other Unity project, the main difference is that you want to use the XR canvas which is created in **World space**. 
+
+- **Right click** in the Hierarchy and choose **XR > UI CANVAS**
+
+![canvas](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/ui_canvas.jpg)
+
+- On the canvas component, scale the canvas down to 0.02.
+
+Notice that the render mode is **World Space**.
+
+![canvas sale](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/canvas_scale.jpg)
+
+- Add a **UI Panel, Textbox and Button** to the canvas (HINT: Right click one the canvas in the hierarchy, and choose **UI > panel** etc...  )
+
+- Change the width, height and font size in the **Instpector** to size the appropriately.
+
+![canvas sale](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/ui_panel.jpg)
+
+We could use affordance to change the color or the button when it is highlighted, but its easier to just use the build in options.
+
+![canvas sale](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/button_colors.jpg)
+
+Finally, we want to do something when the button is pressed.
+
+
+
+
 
 ### Add a Light
 
@@ -170,31 +189,7 @@ We will use it to play a sound when the user picks up and turns the light on and
 
 <iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=c9b3d362-8cb0-467d-b3ce-b26800e59a19&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Unity VR - affordance" ></iframe>
 
-## 4. User Interface
 
-A VR UI uses the same components as we use in other Unity project, the main difference is that you want to use the XR canvas which is created in **World space**. 
-
-- **Right click** in the Hierarchy and choose **XR > UI CANVAS**
-
-![canvas](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/ui_canvas.jpg)
-
-- On the canvas component, scale the canvas down to 0.02.
-
-Notice that the render mode is **World Space**.
-
-![canvas sale](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/canvas_scale.jpg)
-
-- Add a **UI Panel, Textbox and Button** to the canvas (HINT: Right click one the canvas in the hierarchy, and choose **UI > panel** etc...  )
-
-- Change the width, height and font size in the **Instpector** to size the appropriately.
-
-![canvas sale](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/ui_panel.jpg)
-
-We could use affordance to change the color or the button when it is highlighted, but its easier to just use the build in options.
-
-![canvas sale](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/button_colors.jpg)
-
-Finally, we want to do something when the button is pressed.
 
 ### Challenge
 
