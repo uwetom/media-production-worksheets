@@ -141,7 +141,7 @@ We recomend you use this scene for your project.
 
 You may notice that this rig doesn't have the helper labels, if you need these you can swap the **Complete XR Origin Set Up** for the **Complete XR Origin Set Up Variant** found in **Assets > VRTemplateAssets > Prefabs > Setup**
 
-## 6. Teleportation 
+## 6. Teleportation
 
 Many users Can feel motion sickness when in VR, as a creator, it is your responsibility to minimise this as much as you can in your project and consider the VR experience of your Users.
 

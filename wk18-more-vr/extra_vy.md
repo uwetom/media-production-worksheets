@@ -1,12 +1,113 @@
-# VR Extras
+# VR UI, 2D interactions and lighting
+
+In this worksheet we will export UI and lighting in VR
+
+## Open a Project
+
+- Open last weeks Unity project or create a new VR project.
+
+## 1. User Interface
+
+### Create a UI
+
+A VR User interface (UI) uses the same components as we use in other Unity project, the main difference is that you want to use the XR canvas which is created in **World space**. 
+
+- **Right click** in the Hierarchy and choose **XR > UI CANVAS**
+
+![canvas](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/ui_canvas.jpg)
+
+- scale the canvas down to 0.02.
+
+Notice that the render mode is **World Space**.
+
+![canvas sale](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/canvas_scale.jpg)
+
+You can now add standard ui elements to the canvas
+
+- Add a **UI Panel, Textbox and Button** to the canvas (HINT: Right click one the canvas in the hierarchy, and choose **UI > panel** etc...  )
+
+- Change the width, height and font size in the **Inspector** to size the appropriately.
+
+![canvas sale](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/ui_panel.jpg)
+
+- Change the colours of the buttons so the user gets feedback when they interact with them.
+
+![canvas sale](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/button_colors.jpg)
+
+### UI events
+
+Now that we have a UI we want the button to do something when it is clicked.
+
+- Make a new Script and call it **UiInteractions**
+- Create a new public function on the script we can call from the button
+- Make the function log a Debug message so we can test it works.
+
+```c#
+using UnityEngine;
+
+public class UIiInteraction : MonoBehaviour
+{
+    public void buttonPressed() {
+        Debug.Log("button Pressed !");    
+    }
+    
+}
+```
+
+- Now drag the script onto the button
+- Link the script up to the buttons On Click event
+
+![canvas sale](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/button_script.jpg)
+
+- Test the scene to see if you get a console message when you click the button.
+
+Now that we know that the button event works we can make it do something
+
+## 2. Lights
+
+The VR template we are using has helpfully setup our project to maximise performance. lighting and shadows can be computationally expensive making our project run slowly, so the template has limited the number and quality of our lighting.
+
+This means we need to thoughtfully change some settings to increase the number of lights rendered.
+
+
+
+
+
+// turn off main light
+
+// add spot light over ui
+
+// create prefab with light.
+
+
+
+
+
+
+// make prefab and instantiate it when button clicked.
+
+
+- build you scene
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 This worksheet will cover some more advanced VR topics which may be useful for your projects
 
-## Lighting
+## 2. Lighting
 
-The VR template we are using has helpfully setup our project to maximise performance. lighting and shadows can be computationally expensive so the template has limited the number and quality of our lighting.
-
-If you want to use more than one light you 
 
 
 ## Affordance
