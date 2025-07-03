@@ -49,76 +49,54 @@ You should see it has a **Teleportation Area** component. This allows the player
 
 Remember In the simulator, you need to press tab to select the controllers, then press the **i** key to simulate pressing up on the thumb stick and producing a teleport beam.
 
-### Anchor
-
-You can also use a teleportation anchor. These allow you to pick specific spots for the player to teleport to.
-
-- Add a cube to the scene
-- scale it down so it's flatter
-- move it next to one of the planes
-- Add a **Teleportation Anchor** component to it
-- Change the **Interaction layer mask** to Teleport
-
-![Locomotion System](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/anchor.jpg)
-
-- Test it out
-
-Notice that although you can select a
-
-
-
-
 ## 2. Simple Interactable
 
 To allow the XR rig to interact with objects in the scene we need two parts, an **Interactor** component on the XR rig, and an **Interactable** component on the object.
 
-The most basic type of interactable is a **simple interactable**, this will allow us to detect when a user hovers over and selects an object with the controller.
+The most basic type of interactable is a **simple interactable**, this will allow us to detect when a user interacts with an object using the controller.
 
-- Create a cube and move it away from the origin so it's not on to of the rig.
+- Create a cube and move it away from the origin so it's not on top of the rig.
 - Add a **XR Simple Interactable** component to the cube
 
 ![vr core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/xr_simple_interactable.jpg)
 
 The cube will now be able to detect if the user interacts with it but we have to add a script and tell it what we want to do.
 
-- Create a new Script and add 2 public functions which we can call when the user hovers and selects the cube
+- Create a new Script and add 2 public functions which we can call when the user hovers and selects the cube, try to do this yourself first before looking at the solution bellow.
 
 ```c#
-public void hoverEnter()
-{
-    Debug.Log("hover entered");
-}
+using UnityEngine;
 
-public void selected()
+public class CubeBehaviour : MonoBehaviour
 {
-    Debug.Log("selected");
+    
+    //These are public functions so they can be accessed outside the script
+    public void hoverEnter()
+    {
+        Debug.Log("hover entered");
+    }
+    
+    public void selected()
+    {
+        Debug.Log("selected");
+    }
 }
 
 ```
 
-- Go back to unity and fix any errors that appear in the console.
+- Go back to Unity and fix any errors that appear in the console.
 
 ### Connect the script to the Simple Interactable component
 
-
-
-
-
-
-// video showing how to connect the script to the component
-
-
-
-
-
+[<img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/simple_cube_interactable_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=8af55669-e80c-4689-aba9-b30f00f096fe)
 
 - Test your project on the simulator to see if you get the correct console logs.
 
 ### Challenge 1
 
-- When the user hovers over the cube, change its colour
+When the user hovers over the cube, change its colour
 
-Hint:
+*Hint:*
 
 ```c#
 GetComponent<Renderer>().material.SetColor("_BaseColor",Color.red);
@@ -130,6 +108,16 @@ Hint:
 ```c#
 DestroyObject(gameObject);
 ```
+
+### Challenge 2
+
+When the user hovers over the cube, play a sound.
+
+You can find a sound here ()[https://uwetom.github.io/media-production-worksheets/wk18-more-vr\assets\clean-pop.mp3]
+
+*solution*:
+
+[<img src="https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/audio_feedback_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=76740649-d1d2-4682-99c2-b30f00ff732c)
 
 ## 3. Grab Interactable
 
@@ -149,21 +137,21 @@ The package contains assets from the free resourse kenney.nl
 
 We can now turn it into an interactable
 
-- Add an **XR Grab Interactable** component to the object
+- Add an **XR Grab Interactable** component to the pizza cutter
 
 Notice that it also added a **Rigidbody** component automatically.
-
-The cube already had a collider on it, but if you use your own object it will not have one.
 
 - Add a **Mesh Collider** component to the pizza cutter and set it to **convex** ( you see a green mesh around the object)
 
 ![vr core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/mesh_collider.jpg)
 
-You can now try this out in the simulator. You should be able to pick up the pizza cutter using grab.
+- Now try this out in the simulator. 
+
+You can pick up the pizza cutter by first pressing **]** to use the right controller, then hover over the pizza cutter and pressing **G**
 
 ### Grab properties
 
-Grab interactable have a few useful properties we can change to impove the experience.
+Grab interactable have a few useful properties we can change to improve the experience.
 
 #### Near attach
 
@@ -175,7 +163,7 @@ We want the pizza cutter to stick the controller when picked up
 
 #### Attach position
 
-Currently, the pizza cutter will be picked up at its center. But we can move it to somewhere more appropriate.
+Currently, the pizza cutter will be picked up at its centre. But we can move it to somewhere more appropriate.
 
 - **Right click** on the object and choose **Create empty**
 - Rename the new object to **attachPoint**
@@ -188,22 +176,19 @@ Currently, the pizza cutter will be picked up at its center. But we can move it 
 
 ![vr core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/attach_transform_field.jpg)
 
-#### Attach a script
+#### Challenge 3
 
+We can attach a script to the pizza cutter in the same way that we did with the cube.
 
+- Create a new script 
+- Create a public function which displays "activated" in the console
+- Attach the script to the pizza cutter
+- assign the function to the activated event
+- Test it out, the activate function is fired when you press the trigger (t) while grabbing the object.
 
-[<img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/xr_simulator_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c037b363-6479-49f1-89ce-b30001106ff9)
+#### Challenge 4
 
-
-
-
-
-[<img src="https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/pizza_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b85003b4-643d-40e1-abdc-b30001142c77)
-
-[Kenney.nl objects](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/assets/kenney_objects.unitypackage)
-
-[sounds](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/assets/sounds.zip)
-
+Make something happen when activate is triggered
 
 ## 4. Extra - More interactions
 
@@ -223,6 +208,4 @@ At the time of writing this worksheet the project only worked with Unity 2022, h
  
 ### Documentation
 
-[3D interactions](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@3.2/manual/object-interaction.html)
-
-[Affordance documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@3.2/manual/affordance-system.html)
+[3D interactions](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@3.1/manual/architecture.html)

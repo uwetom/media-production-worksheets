@@ -1,6 +1,5 @@
 [Back](https://uwetom.github.io/media-production-worksheets)
 
-
 # Introduction to VR
 
 In this worksheet we will
@@ -31,7 +30,7 @@ If you have your own headset, or book one out from the project room you will nee
 We will use the built in VR template.
 
 - Open Unity and create a new VR project ( you may need to download the template)
-- 
+
 ![VR core template in unity hub](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/new_project_6.jpg)
 
 This will setup our project with all the packages we need and also include some helpful starter assets.
