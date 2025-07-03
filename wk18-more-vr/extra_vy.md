@@ -106,21 +106,12 @@ This means we need to thoughtfully change some settings to increase the number o
 
 This worksheet will cover some more advanced VR topics which may be useful for your projects
 
+
 ## 2. Lighting
 
 
 
-## Affordance
-
-
-## Changing the controllers
-
-- hands
-- limit or change the functionality
-
-## meta package - AR
-
-## Designing a VR experience
+## 3. Shadows
 
 
 

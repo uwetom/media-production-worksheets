@@ -21,7 +21,54 @@ If you created a new VR core project you will need to set it up like last week. 
 - Save it back into the Scene folder and name it "Interactions".
 - Press the play button to make sure your scene plays in the simulator and you can move around.
 
-## 1. Simple Interactable
+
+## 1. Teleportation
+
+Many users Can feel motion sickness when in VR, as a creator, it is your responsibility to minimise this as much as you can in your project and consider the VR experience of your Users.
+
+Teleportation is turned on by default on our XR rig, It allows users to move around the scene more comfortably then using continuous movement provided by the left thumb stick.
+
+### Area
+
+- Select the plane and look at the inspector.
+
+You should see it has a **Teleportation Area** component. This allows the player to teleport anywhere on this surface.
+
+- Scale it down to 1 
+
+- Create a new plane and place it next to the existing one.
+- Give it a new material, you can find some in **Assets\VRTemplateAssets\Materials\Environment**
+
+- Add a **teleportation Area** component to it.
+
+- Change the **Interaction Layer Mask** to **Teleport**
+
+![Locomotion System](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/teleportation_area.jpg)
+
+- Test it out in the simulator, try to teleport from one plane to the other.
+
+Remember In the simulator, you need to press tab to select the controllers, then press the **i** key to simulate pressing up on the thumb stick and producing a teleport beam.
+
+### Anchor
+
+You can also use a teleportation anchor. These allow you to pick specific spots for the player to teleport to.
+
+- Add a cube to the scene
+- scale it down so it's flatter
+- move it next to one of the planes
+- Add a **Teleportation Anchor** component to it
+- Change the **Interaction layer mask** to Teleport
+
+![Locomotion System](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/anchor.jpg)
+
+- Test it out
+
+Notice that although you can select a
+
+
+
+
+## 2. Simple Interactable
 
 To allow the XR rig to interact with objects in the scene we need two parts, an **Interactor** component on the XR rig, and an **Interactable** component on the object.
 
@@ -34,7 +81,7 @@ The most basic type of interactable is a **simple interactable**, this will allo
 
 The cube will now be able to detect if the user interacts with it but we have to add a script and tell it what we want to do.
 
-- Create a new Script and add 3 public functions which we can call when the user hovers, selects activate the cube.
+- Create a new Script and add 2 public functions which we can call when the user hovers and selects the cube
 
 ```c#
 public void hoverEnter()
@@ -47,10 +94,6 @@ public void selected()
     Debug.Log("selected");
 }
 
-public void activated()
-{
-    Debug.Log("activated");
-}
 ```
 
 - Go back to unity and fix any errors that appear in the console.
@@ -88,7 +131,7 @@ Hint:
 DestroyObject(gameObject);
 ```
 
-## 2. Grab Interactable
+## 3. Grab Interactable
 
 Next we can try a **Grab interactable** to allow us to pick up objects in our scene.
 
@@ -145,35 +188,21 @@ Currently, the pizza cutter will be picked up at its center. But we can move it 
 
 ![vr core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/attach_transform_field.jpg)
 
-
-
-
-
-
-
-
+#### Attach a script
 
 
 
 [<img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/xr_simulator_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c037b363-6479-49f1-89ce-b30001106ff9)
 
-We can also add grab an interactable to our own objects
+
+
+
 
 [<img src="https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/pizza_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b85003b4-643d-40e1-abdc-b30001142c77)
 
 [Kenney.nl objects](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/assets/kenney_objects.unitypackage)
 
 [sounds](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/assets/sounds.zip)
-
-## 3. Affordance
-
-It is useful to know how to call a script when interacting with an object, however, if we only want to provide audio or visual feedback to the user that an object is interactable Unity has a better solution.
-
-Adding an Affordance component to an object allows you to provide consistent feedback to a user.
-
-
-// add another object
-// add audio and visual affordance to it
 
 
 ## 4. Extra - More interactions

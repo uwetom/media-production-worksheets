@@ -3,29 +3,38 @@
 
 # Introduction to VR
 
-This worksheet will show you how to create a VR project in Unity and how to move around using an XR rig.
+In this worksheet we will
 
-We will be using Unity version **6** 
+- Create a VR project
+- Explore the XR rig
+- Use the VR simulator
+- Build to a VR headset
+
+We will be using Unity version **6**, Make sure you install the correct version on your machine.
+
+Unity 6 is very similar to previous versions of Unity but you may notice that some of the menus and options have changed.
 
 ## 1. VR Headsets
 
 We are using Meta Quest headsets, they can be used as stand alone devices. This allows you to build content directly to the headset without requiring the user to be tethered to a powerful PC.
 
-We will be using Meta Quest 1,2 and 3s headsets, you can also use the Quest 3 if you have one. 
+We will be using Meta Quest 1,2 and 3s headsets, you can also use the Quest 3 if you have your own. 
 
-The headsets require you to create an account and sign in to use. To save time I will do this for you before the in class workshops, but you will need to do yourself if you book them from the project room for use outside class.
+The headsets normally require you to create an account and sign in to use. To save time I will do this for you before the in class workshops
+
+If you have your own headset, or book one out from the project room you will need to set it up for development yourself.
 
 [How to setup your own headset](https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset/)
 
-Please reset the headset to wipe any personal data before you return it to the project room.
-
 ## 2. Create a Unity Project
 
-Open Unity and create a new project, we will use the built in VR template.
+We will use the built in VR template.
 
+- Open Unity and create a new VR project ( you may need to download the template)
+- 
 ![VR core template in unity hub](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/new_project_6.jpg)
 
-This will set up our project with all the packages we need and also include some helpful starter assets.
+This will setup our project with all the packages we need and also include some helpful starter assets.
 
 Make sure to save it somewhere sensible as we will carry on with this project next week.
 
@@ -39,18 +48,18 @@ The template will work with many different brands of headset so we have to tell 
 
 ### Android
 
-The Meta Quest runs on **Android** we could choose this as our platform, but Unity 6 also gives us a specific **Meta Quest** option to configure android for VR.
+The Meta Quest runs on **Android** we could choose this as our platform, but Unity 6 also gives us a specific **Meta Quest** option.
 
-- In the top menu, select **File > Build Profiles** and change the Platform to **Meta Quest**
+- In the **top menu**, select **File > Build Profiles** and change the Platform to **Meta Quest**
 - Press **Switch Platform**
 
 ![VR core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/switch_platform_6.jpg)
 
-After it has finished you will see that the Active platform has been set to **Android**, but this is fine for us.
+After it has finished you will see that the Active platform has been set to **Android**, don't worry about this, it has switched successfully. 
 
 ### Device Simulation
 
-It is important to test in a real headset to know that you project works as intended. But this can take a while, so for a quick test you can use the simulator.
+The device simulator will let up test our VR project without having to build it to a headset.
 
 - Go into **Edit > Project Settings**
 
@@ -67,10 +76,9 @@ Accept the pop-up to download the simulator package.
 
 We are now setup and ready to try out a VR scene.
 
-_NOTE: If you have a high specification gaming PC there is another alternative; you can stream the project directly from the Unity editor to your headset.
+*NOTE: If you have a high specification gaming PC there is an  alternative to using the simulator that you may want to try; you can stream the project directly from the Unity editor to your headset.*
 
-[Meta Quest Link](https://docs.unity3d.com/Packages/com.unity.xr.meta-openxr@2.2/manual/get-started/link.html)
-
+[Meta Quest Link app](https://docs.unity3d.com/Packages/com.unity.xr.meta-openxr@2.2/manual/get-started/link.html)
 
 ## 4. Sample scene
 
@@ -82,14 +90,20 @@ This scene demonstrates basic VR interactions and motion. It is also a useful re
 
 ### Test out the scene
 
-- Try out the scene in the simulator (A) **and** on the VR headset (B).
-- Practice with the controls, moving around the scene and interacting with the objects and UI
+- Try out the scene in the simulator (A) **AND** on the VR headset (B).
+- Practice with the controls, moving around the scene and interacting with the objects and UI.
 
 ### A. Simulated environment
+
+It is really important to regularly test your project on a real VR headset, however, it can take a few minutes to build to your headset each time you want to test it. 
+
+The simulator is great for checking the basic functionality of your scene before you invest in a full build, but be aware that some issues will only become apparent when tested on a headset.
 
 This video shows you how to use the simulated environment.
 
 [<img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/xr_simulator_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d11c7102-37ff-454f-a4bd-b2fe00e91a5b)
+
+![uwe xr device simulator button](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/simulator_controls.jpg)
 
 ### B. On the headset
 
@@ -107,21 +121,19 @@ When asking others to test your scene, it is your responsibility to create a saf
 
 #### Play the sample scene
 
-We can build a scene to the headset, but as this can take a while, to save time I have pre-installed the sample scene for you. I will show you how to do it yourself later in the worksheet.
+For the workshop, I have build already build the sample scene to your headset.
 
--  Clear the space around you then put the headset on,
-- Follow the instructions on the headset  to create a guardian boundary, I recommend the stationary boundary when working in the busy classroom.
-- You should see a black unity logo on the menu bar, this is the pre-installed sample scene:
+- Clear the space around you then put the headset on,
+- Follow the instructions on the headset to create a guardian boundary, I recommend the stationary boundary when working in the busy classroom.
+- You should see a black Unity logo on the menu bar, this is the pre-installed sample scene:
 - Click on it to open.
 
 ![app](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/vr_app.png)
 
-- try to move around and pick up object to get familiar with a VR environment.
+## 5. New blank Scene
 
-## 5. Create our own scene
+We can now create our own scene.
 
-### XR Rig
- 
 For this tutorial we will use the pre-made rig provided in the template. 
 
 - Open **BasicScene** in the Scenes folder
@@ -139,59 +151,31 @@ The Scene already includes a floor plane and an XR Origin (XR Rig)
 
 We recomend you use this scene for your project.
 
-You may notice that this rig doesn't have the helper labels, if you need these you can swap the **Complete XR Origin Set Up** for the **Complete XR Origin Set Up Variant** found in **Assets > VRTemplateAssets > Prefabs > Setup**
+NOTE:You may notice that this rig doesn't have the helper labels, if you need these you can swap the **Complete XR Origin Set Up** for the **Complete XR Origin Set Up Variant** found in **Assets > VRTemplateAssets > Prefabs > Setup**
 
-## 6. Teleportation
+## 6. Build to the headset
 
-Many users Can feel motion sickness when in VR, as a creator, it is your responsibility to minimise this as much as you can in your project and consider the VR experience of your Users.
-
-Teleportation is turned on by default on our XR rig, It allows users to move around the scene more comfortably then using continuous movement provided by the left thumb stick.
-
-### Area
-
-- Select the plane and look at the inspector.
-
-You should see it has a **Teleportation Area** component. This allows the player to teleport anywhere on this surface.
-
-- Scale it down to 1 
-
-- Create a new plane and place it next to the existing one.
-- Give it a new material, you can find some in **Assets\VRTemplateAssets\Materials\Environment**
-
-- Add a **teleportation Area** component to it.
-
-- Change the **Interaction Layer Mask** to **Teleport**
-
-![Locomotion System](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/teleportation_area.jpg)
-
-- Test it out in the simulator, try to teleport from one plane to the other.
-
-Remember In the simulator, you need to press tab to select the controllers, then press the **i** key to simulate pressing up on the thumb stick and producing a teleport beam.
-
-### Anchor
-
-You can also use a teleportation anchor. These allow you to pick specific spots for the player to teleport to.
-
-- Add a cube to the scene
-- scale it down so it's flatter
-- move it next to one of the planes
-- Add a **Teleportation Anchor** component to it
-- Change the **Interaction layer mask** to Teleport
-
-![Locomotion System](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/anchor.jpg)
-
-- Test it out
-
-Notice that although you can select anywhere on the cube, as soon as you teleport it locks you to the centre.
-
-## 7. Build to the headset
-
-Once the headset is setup we can build our project to it.
+There are a few important steps to building your project to a headset. The following video guides you through the process. If you have already switched your project to Android you do not need to do it again.
 
 [<img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/build_video_image.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=405feefe-6503-4415-9c49-b2ff00f8a659)
 
+## 7. Challenge - Create a simple scene
 
-## 8. User Comfort - Cybersickness
+Our scene is currently very blank.
+
+- Create a simple scene using found assets, or you can use this pack downloaded from [kenney.nl](https://kenney.nl/assets/nature-kit)
+
+Unzip and drag the whole folder into your assets panel. You should use the fbx models but you will need to rescale them.
+
+### Size and scale
+
+You can experiment with scale in your scene, but it is very important that you **DO NOT** rescale the XR rig. 
+
+If you create a new cube it is always 1m square. You can use that as a reference for other objects.
+
+If you need to, measure objects in the real world, a UK ceiling is about 2.5m tall.
+
+### User Comfort - Cybersickness
 
 The major cause of sickness is a disconnect between what the user can see and what there body is physically experiencing.
 
@@ -202,18 +186,6 @@ The other factor is motion, although you want to be able to move your character 
 Meta have come up with useful locomotion guidelines that you may want to consider:
 
 [VR Locomotion](https://developers.meta.com/horizon/resources/locomotion-comfort-usability/?locale=en_GB)
-
-## Challenge - Build a mini scene
-
-Create a new scene and make an obstacle course
-
-Try to include:
-- Multiple teleportation anchors and areas
-- Include platforms at different heights
-- Create barriers to guide the user around the space.
-- Change the materials on the platforms
-
-Try it out on the simulator and build it to the device.
 
 ## Documentation
 
