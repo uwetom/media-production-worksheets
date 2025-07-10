@@ -73,8 +73,7 @@ public class UIiInteraction : MonoBehaviour
  
  [<img src="https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/additional_lights_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=7baeea87-0e5a-4c29-8307-b31400fbc72d)
  
-
- ## Challenge
+ ### Challenge 1
  
  - Turn the light on and off when you click the button on the ui.
  
@@ -82,10 +81,6 @@ Solution:
 
  [<img src="https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/turn_light_on_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=04711d78-bd53-45e4-9c69-b314010c9669)
  
- 
-
-
-
 
 
 
