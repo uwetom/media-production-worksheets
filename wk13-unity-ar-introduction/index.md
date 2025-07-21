@@ -6,7 +6,7 @@
 
 If you are using the lab machines you can skip to the next section **Create a new Project**.
 
-If you are using Unity on your own machine check that your Unity Editor (2023.2.20f1) is installed in inside a parent folder that contains no spaces. EG: **UnityVersions** rather than **Unity Versions**.
+If you are using Unity on your own machine check that your Unity Editor (6000) is installed in inside a parent folder that contains no spaces. EG: **UnityVersions** rather than **Unity Versions**.
 
 ![enter image description here](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/images/editor-loc.png)
 

@@ -2,22 +2,15 @@
 
 # VR Interactions
 
-We want to be able to interact with our environment, triggering sounds, animations and scripts.
-
-This worksheet is made up of different parts, it is important that you do sections 1 and 4. 
+In this worksheet we will learn how to interact with 3D objects in our scene.
 
 ## Open a project
 
 - Open last weeks Unity Project, or create a new VR Core project
 
-![vr core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/vr_core.jpg)
+![vr core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/new_project_6.jpg)
 
-If you created a new VR core project you will need to set it up like last week. You can go back and look at [section 3 in last weeks workshop](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/) , or if you just need a reminder do the following:
-
-- In **File > Build Settings** switch the platform to Android
-- In **Edit > Project Settings > XR Interaction Toolkit** tick **Use XR Device Simulator in scene**
-- In  **Edit > Project Settings > XR Plug-in Management** change the computer tab to **Mock HMD Loader**
--  In **Edit >  Project  Settings > Project Validation** click **Fix all**
+If you created a new VR core project you will need to set it up like last week. You can go back and look at [section 3 in last weeks workshop](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/) 
 
 ## Create new Scene
 
@@ -28,200 +21,191 @@ If you created a new VR core project you will need to set it up like last week. 
 - Save it back into the Scene folder and name it "Interactions".
 - Press the play button to make sure your scene plays in the simulator and you can move around.
 
-## 1. Simple Interactable
 
-To allow the XR rig to interact with objects in the scene we need two parts, and **Interactor** component on the rig, and an **Interactable** component on the object.
+## 1. Teleportation
 
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=44ca29a5-e698-41cd-9e8c-b26600e01254&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Unity vr - simple interactable" ></iframe>
+Many users Can feel motion sickness when in VR, as a creator, it is your responsibility to minimise this as much as you can in your project and consider the VR experience of your Users.
 
-```c#
-public void Hovered(){
-	Debug.Log("hovered");
-}
-public void Selected(){
-	Debug.Log("Selected");
-	GetComponent<Renderer>().material.SetColor("_BaseColor",Color.red);
-}
+Teleportation is turned on by default on our XR rig, It allows users to move around the scene more comfortably then using continuous movement provided by the left thumb stick.
 
-public void Activated(){
-	Debug.Log("activated");
-}
-```
+### Area
 
-During the in class workshop we will skip sections 2 and 3, but feel free to do them in your own time.
+- Select the plane and look at the inspector.
 
-## 2. Mini Project- Interactable torch - Optional
+You should see it has a **Teleportation Area** component. This allows the player to teleport anywhere on this surface.
 
-### Grab Interactable 
-A more advance interaction is a grab, this allows you to pick up objects in your scene.
+- Scale it down to 1 
 
-### Make a simple torch
+- Create a new plane and place it next to the existing one.
+- Give it a new material, you can find some in **Assets\VRTemplateAssets\Materials\Environment**
 
-- Add a cylinder to your scene.
-- Rename it to "torch".
-- Scale it to 0.15
-- Add a **Rigidbody** component to it so that it is effected by gravity.
-- Add an **XR Grab Interactable** component to it.
+- Add a **teleportation Area** component to it.
 
-![torch object](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/torch1.jpg)
+- Change the **Interaction Layer Mask** to **Teleport**
 
-We can now test the scene, We should be able to pick up the torch.
+![Locomotion System](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/teleportation_area.jpg)
 
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=99a84900-005e-4a34-ba3b-b26800dd5b26&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity vr - test light 1" ></iframe>
+- Test it out in the simulator, try to teleport from one plane to the other.
 
-### Add a Light
+Remember In the simulator, you need to press tab to select the controllers, then press the **i** key to simulate pressing up on the thumb stick and producing a teleport beam.
 
-A torch is not functional without a light.
+## 2. Simple Interactable
 
-- **Right Click** on the torch and add a child object, rename it "Light"
-- Add a **Light** component to it and change it to a spotlight.
-- Rotate the light and move it to the front of the torch.
+To allow the XR rig to interact with objects in the scene we need two parts, an **Interactor** component on the XR rig, and an **Interactable** component on the object.
 
-![torch object](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/spotlight.jpg)
+The most basic type of interactable is a **simple interactable**, this will allow us to detect when a user interacts with an object using the controller.
 
-We now have a torch, but if you rotate the whole torch round, you should see it doesn't actually seem to create any light.
- 
-### Change Quality settings
+- Create a cube and move it away from the origin so it's not on top of the rig.
+- Add a **XR Simple Interactable** component to the cube
 
-The VR template we are using has helpfully setup our project to maximise performance. lighting and shadows can be computationally expensive so the template has limited the number and quality of our lighting.
+![vr core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/xr_simple_interactable.jpg)
 
-We need to carefully adjust the settings to allow us to render our light.
+The cube will now be able to detect if the user interacts with it but we have to add a script and tell it what we want to do.
 
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=e192d413-27fb-4b03-84d0-b26800d715d9&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity vr - quality settings" ></iframe>
-
-- To see the light more clearly, reduce the **intensity** of the **Directional Light** to 0.1.
-
-![torch object](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/directional_light.jpg)
-
-- Test the scene again.
-
-### Change grab position - Optional
-
-By default the object is grabbed at its origin, for the torch it means it is pointing upward. We want to be able to control where it is grabbed.
-
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=56285cfa-1dd6-4aa8-b61b-b26800defa70&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity vr - grab position" ></iframe>
-
-### Toggle the light
-
-Grabbing the torch uses the **Select** action. Now that it has been selected we can utilise its **Activate** action to turn the torch on and off. 
-
-- Create a new Script in the **Scripts** folder and call it "TorchController".
-- Drag the new script on the **Torch** in the **Hierarchy**
-
-### Challlenge
-
-Open the new script and add code to toggle the light on and off
-
-#### Hints
-- Make a new **Public** function and call it "ToggleLight"
-- Create a Light variable and store the Light component in
-	```c#
-	Light torchLight = GetComponentInChildren<Light>();
-	```
-- Create an if statement to turn the light on if it is off and off if it is on.
-- We can find out if the light is on using:
-	```c#
-	torchLight.isActiveAndEnabled
-	```
-- We can turn the component off using:
-	```c#
-	torchLight.enabled = false;
-	```
-
-### Solution
-
-
-This is one possible solution:
+- Create a new Script and add 2 public functions which we can call when the user hovers and selects the cube, try to do this yourself first before looking at the solution bellow.
 
 ```c#
-	using System.Collections;
-	using System.Collections.Generic;
-	using UnityEngine;
-		
-	public class TorchController : MonoBehaviour{
-		public void ToggleLight(){
-			Light torchLight = GetComponentInChildren<Light>();
-			if (torchLight.isActiveAndEnabled){
-				torchLight.enabled = false;
-			}else{
-				torchLight.enabled = true;
-			}
-		}
-	}
+using UnityEngine;
+
+public class CubeBehaviour : MonoBehaviour
+{
+    
+    //These are public functions so they can be accessed outside the script
+    public void hoverEnter()
+    {
+        Debug.Log("hover entered");
+    }
+    
+    public void selected()
+    {
+        Debug.Log("selected");
+    }
+}
+
 ```
 
+- Go back to Unity and fix any errors that appear in the console.
 
-We can now hook this script up to the torch **activate** state.
+### Connect the script to the Simple Interactable component
 
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=ceefc0e5-75a1-46f2-9e5e-b26800e2bb44&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity vr - add script to torch" ></iframe>
+[<img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/simple_cube_interactable_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=8af55669-e80c-4689-aba9-b30f00f096fe)
 
-Think about other objects you could add which may be useful to activate.
+- Test your project on the simulator to see if you get the correct console logs.
 
-## 3. Affordance - Optional
+### Challenge 1
 
-The Affordance system ([documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/affordance-system.html)) allows you to create audio and visual feedback to the user about the current state of the object.
+When the user hovers over the cube, change its colour
 
-We will use it to play a sound when the user picks up and turns the light on and off.
+*Hint:*
 
-- First download the following sounds (or find your own) and add them to your assets.
+```c#
+GetComponent<Renderer>().material.SetColor("_BaseColor",Color.red);
+```
 
-	[pickup sound](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/assets/click.wav)
-	[turn on sound](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/assets/bubbleclick.wav)
+- Make the cube disappear when activated
 
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=c9b3d362-8cb0-467d-b3ce-b26800e59a19&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Unity VR - affordance" ></iframe>
+Hint:
+```c#
+DestroyObject(gameObject);
+```
 
-## 4. User Interface
+### Challenge 2
 
-A VR UI uses the same components as we use in other Unity project, the main difference is that you want to use the XR canvas which is created in **World space**. 
+When the user hovers over the cube, play a sound.
 
-- **Right click** in the Hierarchy and choose **XR > UI CANVAS**
+You can find a sound here ()[https://uwetom.github.io/media-production-worksheets/wk18-more-vr\assets\clean-pop.mp3]
 
-![canvas](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/ui_canvas.jpg)
+*solution*:
 
-- On the canvas component, scale the canvas down to 0.02.
+[<img src="https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/audio_feedback_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=76740649-d1d2-4682-99c2-b30f00ff732c)
 
-Notice that the render mode is **World Space**.
+## 3. Grab Interactable
 
-![canvas sale](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/canvas_scale.jpg)
+Next we can try a **Grab interactable** to allow us to pick up objects in our scene.
 
-- Add a **UI Panel, Textbox and Button** to the canvas (HINT: Right click one the canvas in the hierarchy, and choose **UI > panel** etc...  )
+First we need some objects, we could use another cube, but a real 3D model is more interesting.
 
-- Change the width, height and font size in the **Instpector** to size the appropriately.
+- Download the following unity package and drag it into your assets panel
 
-![canvas sale](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/ui_panel.jpg)
+[Kenney.nl objects](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/assets/kenney_objects.unitypackage) 
 
-We could use affordance to change the color or the button when it is highlighted, but its easier to just use the build in options.
+The package contains assets from the free resourse kenney.nl
 
-![canvas sale](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/button_colors.jpg)
+- Drag the pizza cutter into your scene and move it in front of the cube.
 
-Finally, we want to do something when the button is pressed.
+![vr core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/pizza_cutter.jpg)
 
-### Challenge
+We can now turn it into an interactable
 
-Generate a new object in the scene when the button is clicked.
+- Add an **XR Grab Interactable** component to the pizza cutter
 
-#### Hints
+Notice that it also added a **Rigidbody** component automatically.
 
-- Create a new script with a **public** function on it and drag it onto the canvas button.
-- Turn your torch or cube into a prefab ([Create prefab](https://docs.unity3d.com/Manual/CreatingPrefabs.html)), (add a ridgidbody component to the cube to allow it to fall)
-- Instantiate a new prefab in the script ([Instantiate documentation](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.Instantiate.html))
-- Use the **on Click** box on the **Button** to call the function
+- Add a **Mesh Collider** component to the pizza cutter and set it to **convex** ( you see a green mesh around the object)
 
- 
-<details>
-<summary>Solution</summary>
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=95b1a9f7-3aac-444c-add8-b26800edfc1b&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity vr - create torch" ></iframe>
-</details>
+![vr core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/mesh_collider.jpg)
 
+- Now try this out in the simulator. 
 
+You can pick up the pizza cutter by first pressing **]** to use the right controller, then hover over the pizza cutter and pressing **G**
+
+### Grab properties
+
+Grab interactable have a few useful properties we can change to improve the experience.
+
+#### Near attach
+
+We want the pizza cutter to stick the controller when picked up
+
+- On the **XR Grab Interactable** component, change the **far attach mode** to **near**
+
+![vr core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/far_attach.jpg)
+
+#### Attach position
+
+Currently, the pizza cutter will be picked up at its centre. But we can move it to somewhere more appropriate.
+
+- **Right click** on the object and choose **Create empty**
+- Rename the new object to **attachPoint**
+
+![vr core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/attach_point.jpg)
+
+- Move the attach point to the middle of the handle, we can also rotate it, but this may take a few tries to get get right.
+
+- lastly, we need to drag the attach point object onto the **attach_transform** field on the **XR Grab Interactable** component.
+
+![vr core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/attach_transform_field.jpg)
+
+#### Challenge 3
+
+We can attach a script to the pizza cutter in the same way that we did with the cube.
+
+- Create a new script 
+- Create a public function which displays "activated" in the console
+- Attach the script to the pizza cutter
+- assign the function to the activated event
+- Test it out, the activate function is fired when you press the trigger (t) while grabbing the object.
+
+#### Challenge 4
+
+Make something happen when activate is triggered
+
+## 4. Extra - More interactions
+
+If you are interested in exploring other VR interactions you can find another demo scene in your project
+
+- Open **DemoScene** in **Assets\Samples\XR Interaction Toolkit\3.1.1\Starter Assets**
+
+- Explore the demo
+
+Unity has also created an extensive demo scene containing lots of examples of interactions you can use
+
+[https://github.com/Unity-Technologies/XR-Interaction-Toolkit-Examples](https://github.com/Unity-Technologies/XR-Interaction-Toolkit-Examples)
+
+At the time of writing this worksheet the project only worked with Unity 2022, here is a version which works with Unity 6
+
+[https://github.com/uwetom/XR-Interaction-Toolkit-Examples](https://github.com/uwetom/XR-Interaction-Toolkit-Examples)
  
 ### Documentation
 
-[XR Interaction 2.5 documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/samples-starter-assets.html)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzUzNzAyNDcsMTM5Njc3NzM1MiwtMT
-EzNTkzNzE3NiwtOTA4ODY3NTcsNjU2MzQ4MDIzLC0xNjMxODIy
-NDEsLTYzNjgyMzY0MCwxMzY3MzIzNzg1LC01NDUyMDA1ODcsMz
-MxNTAyODk4LDExOTQxMTY0MzQsMjEzNTA4MjIxMCwxODYxODU3
-ODI4LDMyNDM0ODEzMCwyMDkwOTA0MzA4XX0=
--->
+[3D interactions](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@3.1/manual/architecture.html)
