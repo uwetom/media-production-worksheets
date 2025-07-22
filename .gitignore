@@ -1,1 +1,4 @@
+
 *.md.backup
+# ignore my personal notes
+**/notes.md

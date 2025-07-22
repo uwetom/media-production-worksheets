@@ -21,7 +21,7 @@ Turn on your VR headset and put it on.
 Put the headset on and it will guide you through the setup, 
 
 > [!NOTE]
-> this will take about 15 minutes.
+> This will take about 15 minutes.
 
 ## Wi-Fi
 
