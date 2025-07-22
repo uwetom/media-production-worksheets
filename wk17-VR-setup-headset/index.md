@@ -1,18 +1,21 @@
 [Back](https://uwetom.github.io/media-production-worksheets)
 
+
+I will setup the headsets for the workshop sessions, but if you have your own headset or borrow one from the project room you will need to set it up yourself, I will take about 15 minutes.
+
 # Setup headset for developing
 
 When you first use a Meta Quest headset you will need to log in and set it up before you can start to use it.
 
 ## Phone App
 
-start by downloading the Meta Horizons app on your phone.
+Start by downloading the Meta Horizons app on your phone.
 
 [Android App](https://apps.apple.com/us/app/meta-horizon/id1366478176)
 
 [Apple App](https://play.google.com/store/apps/details?id=com.oculus.twilight&hl=en_GB)
 
-Then login with your own personal account. 
+Create a personal Meta account and login.
 
 ## Headset
 
@@ -20,9 +23,9 @@ Turn on your VR headset and put it on.
 
 Put the headset on and it will guide you through the setup, this will take about 15 minutes.
 
-## Wifi
+## Wi-Fi
 
-During the setup you will be asked to connect to Wifi, If you are on Campus most of the headsets will be able connect to "Guest WIfi". Otherwise you will need to create a hotspot on your phone or connect to your home wifi. You cannot connect to Eduroam through the headset, but if your phone is connected, open the Meta app and find your Headset, you can then go into settings and connect the headset to Eduroam from there.
+During the setup you will be asked to connect to Wi-Fi, If you are on Campus most of the headsets will be able connect to "Guest Wifi". Otherwise you will need to create a hotspot on your phone or connect to your home Wi-Fi. You cannot connect to Eduroam through the headset, but if your phone is connected, open the Meta app and find your Headset, you can then go into settings and connect the headset to Eduroam from there.
 
 ## Developers
 
@@ -44,7 +47,7 @@ Now Create an organisation, name it whatever you like.
 
 ![create organisation](https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset/images/createorganisation.jpg)
 
-If may ask you to add extra authentication but you don't need to add a credit card or any payment information.
+If may ask you to add extra authentication but you don't need to add a credit card or any payment information but may need to add two-factor authentication.
 
 ### Developer mode
 
