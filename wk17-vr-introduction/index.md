@@ -23,7 +23,7 @@ The headsets normally require you to create an account and sign in to use. To sa
 
 If you have your own headset, or book one out from the project room you will need to set it up for development yourself.
 
-[How to setup your own headset](https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset/)
+[How to setup your own headset](../wk17-VR-setup-headset/index.md)
 
 ## 2. Create a Unity Project
 
@@ -31,19 +31,19 @@ We will use the built in VR template.
 
 - Open Unity and create a new VR project ( you may need to download the template)
 
-![VR core template in unity hub](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/new_project_6.jpg)
+![VR core template in unity hub](images/new_project_6.jpg)
 
-This will setup our project with all the packages we need and also include some helpful starter assets.
+This will setup our project with all the packages we need and includes some helpful starter assets.
 
-Make sure to save it somewhere sensible as we will carry on with this project next week.
+Save it somewhere sensible as we will carry on with this project next week.
 
 ## 3. Set up
 
-The template will work with many different brands of headset so we have to tell it which one we are using. We will do this later but a helpful message reminds us.
+The template works with many different brands of headset, the pop up reminds us to specify what we are are using.
 
 - Close the message.
 
-![Vr proejct popupR core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/popup.jpg)
+![Vr proejct popupR core template](images/popup.jpg)
 
 ### Android
 
@@ -52,9 +52,10 @@ The Meta Quest runs on **Android** we could choose this as our platform, but Uni
 - In the **top menu**, select **File > Build Profiles** and change the Platform to **Meta Quest**
 - Press **Switch Platform**
 
-![VR core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/switch_platform_6.jpg)
+![VR core template](images/switch_platform_6.jpg)
 
-After it has finished you will see that the Active platform has been set to **Android**, don't worry about this, it has switched successfully. 
+> [!NOTE]
+> After it has finished you will see that the Active platform has been set to **Android**, this is slightly confusing UI but it has worked as expected.
 
 ### Device Simulation
 
@@ -64,26 +65,30 @@ The device simulator will let up test our VR project without having to build it 
 
 - At the bottom, in **XR Plug-in Management**, under **XR Interaction Toolkit**  turn on **Use XR Device Simulator in Scene**
 
-![uwe xr device simulator button](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/use_simulation.jpg)
+![uwe xr device simulator button](images/use_simulation.jpg)
 
 Accept the pop-up to download the simulator package.
 
 - In the **XR Plug-in management** section, in the left tab
- change the **Plug-in Providers** from **OpenXR** to **Mock HMD Loader**. IMPORTANT, only do this for the left tab, **NOT** the android tab or it wont work in the headset.
+ change the **Plug-in Providers** from **OpenXR** to **Mock HMD Loader**.
+ 
+ > [!CAUTION]
+ > Only do this for the left tab, **NOT** the android tab or it wont work in the headset.
 
 ![uwe xr device simulator button](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/hmd.png)
 
 We are now setup and ready to try out a VR scene.
 
-*NOTE: If you have a high specification gaming PC there is an  alternative to using the simulator that you may want to try; you can stream the project directly from the Unity editor to your headset.*
-
-[Meta Quest Link app](https://docs.unity3d.com/Packages/com.unity.xr.meta-openxr@2.2/manual/get-started/link.html)
+> [!TIP]
+> If you have a **high specification** gaming PC you can also stream the project directly from the Unity editor to your headset.
+> [Meta Quest Link app](https://docs.unity3d.com/Packages/com.unity.xr.meta-openxr@2.2/manual/get-started/link.html).
+> This will not work on Macs, or lower spec PC's.
 
 ## 4. Sample scene
 
 The VR sample scene should already be open, if not, you can find it in **Scenes > Sample Scenes**
 
-![uwe xr device simulator button](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/sample.jpg)
+![uwe xr device simulator button](images/sample.jpg)
 
 This scene demonstrates basic VR interactions and motion. It is also a useful reference to work out how to implement similar functionality in your own project.
 
@@ -102,32 +107,34 @@ This video shows you how to use the simulated environment.
 
 [<img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/xr_simulator_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d11c7102-37ff-454f-a4bd-b2fe00e91a5b)
 
-![uwe xr device simulator button](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/simulator_controls.jpg)
+![uwe xr device simulator button](images/simulator_controls.jpg)
 
 ### B. On the headset
 
 Before you use the headset read the following:
 
-#### Safety - Be aware of your environment
+#### Be aware of your environment
 
 When using a VR headset you may not be able to see the world around you, it is therefore very important that you clear your space to ensure you don't injure yourself, others or the equipment.
 
-Please watch the following Meta Video shows you how to safely use the headset.
+- Watch the following Meta Video shows you how to safely use the headset.
 
 [Safely use the Meta Quest](https://www.youtube.com/watch?v=Ke4MefpmRmc)
 
-When asking others to test your scene, it is your responsibility to create a safe environment.
+
+> [!IMPORTANT]
+> When asking others to test your scene, it is your responsibility to create a safe environment.
 
 #### Play the sample scene
 
 For the workshop, I have build already build the sample scene to your headset.
 
-- Clear the space around you then put the headset on,
+- Clear the space around you then put the headset on.
 - Follow the instructions on the headset to create a guardian boundary, I recommend the stationary boundary when working in the busy classroom.
 - You should see a black Unity logo on the menu bar, this is the pre-installed sample scene:
 - Click on it to open.
 
-![app](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/vr_app.png)
+![app](images/vr_app.png)
 
 ## 5. New blank Scene
 
@@ -137,7 +144,7 @@ For this tutorial we will use the pre-made rig provided in the template.
 
 - Open **BasicScene** in the Scenes folder
 
-![Locomotion System](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/basicscene.jpg)
+![Locomotion System](images/basicscene.jpg)
 
 We may want this template scene again, so to avoid saving it over it we want to save the scene with a different name.
 
@@ -150,7 +157,9 @@ The Scene already includes a floor plane and an XR Origin (XR Rig)
 
 We recomend you use this scene for your project.
 
-NOTE:You may notice that this rig doesn't have the helper labels, if you need these you can swap the **Complete XR Origin Set Up** for the **Complete XR Origin Set Up Variant** found in **Assets > VRTemplateAssets > Prefabs > Setup**
+
+> [!TIP]
+> You may notice that this rig doesn't have the helper labels, if you need these you can swap the **Complete XR Origin Set Up** for the **Complete XR Origin Set Up Variant** found in **Assets > VRTemplateAssets > Prefabs > Setup**
 
 ## 6. Build to the headset
 
@@ -168,13 +177,25 @@ Unzip and drag the whole folder into your assets panel. You should use the fbx m
 
 ### Size and scale
 
-You can experiment with scale in your scene, but it is very important that you **DO NOT** rescale the XR rig. 
+Your user will be interacting with your scene from a real first person perspective so think very carefully about the size of your objects.
 
-If you create a new cube it is always 1m square. You can use that as a reference for other objects.
+> [!IMPORTANT]
+> You can experiment with scale in your scene, but to avoid physics issues **DO NOT** rescale the XR rig. 
 
-If you need to, measure objects in the real world, a UK ceiling is about 2.5m tall.
+> [!TIP]
+> If you create a new cube it is always 1 meter square. You can use that as a reference for other objects.
+
+> [!TIP]
+> Use real world sizes, search for dimensions online or just measure real objects, a ceiling is about 2.5 meters tall, the surface of a desk is about 75cm from the ground.
 
 ### User Comfort - Cybersickness
+
+Also called [Virtual Reality Sickness](https://en.wikipedia.org/wiki/Virtual_reality_sickness)
+
+You may not experience it, but many people have symptoms of cybersickness when using VR. 
+
+> [!CAUTION]
+> Choices you make in the design of your experience will dramatically reduce or increase the discomfort of your users.
 
 The major cause of sickness is a disconnect between what the user can see and what there body is physically experiencing.
 
