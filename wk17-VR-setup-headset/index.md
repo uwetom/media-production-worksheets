@@ -1,4 +1,4 @@
-I will setup the headsets for the workshop sessions, but if you have your own headset or borrow one from the project room you will need to set it up yourself, I will take about 15 minutes.
+I will setup the headsets for the workshop sessions, but if you have your own headset or borrow one from the project room you will need to set it up yourself.
 
 # Setup headset for developing
 
@@ -18,7 +18,10 @@ Create a personal Meta account and login.
 
 Turn on your VR headset and put it on.
 
-Put the headset on and it will guide you through the setup, this will take about 15 minutes.
+Put the headset on and it will guide you through the setup, 
+
+> [!NOTE]
+> this will take about 15 minutes.
 
 ## Wi-Fi
 
@@ -38,7 +41,7 @@ Log in to the meta developer site.
 
 Select My apps in the top right corner
 
-![my apps](images/my_apps.jpg)
+<img src="images/my_apps.jpg" width="500" alt="My app button in top right of screen">
 
 Now Create an organisation, name it whatever you like.
 
