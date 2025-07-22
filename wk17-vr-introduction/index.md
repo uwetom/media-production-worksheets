@@ -1,5 +1,3 @@
-[Back](https://uwetom.github.io/media-production-worksheets)
-
 # Introduction to VR
 
 In this worksheet we will
@@ -11,11 +9,12 @@ In this worksheet we will
 
 We will be using Unity version **6**, Make sure you install the correct version on your machine.
 
-Unity 6 is very similar to previous versions of Unity but you may notice that some of the menus and options have changed.
+> [!NOTE]
+> Unity 6 is very similar to previous versions of Unity but you may notice that some of the menus and options have changed.
 
 ## 1. VR Headsets
 
-We are using Meta Quest headsets, they can be used as stand alone devices. This allows you to build content directly to the headset without requiring the user to be tethered to a powerful PC.
+We are using [Meta Quest](https://www.meta.com/gb/quest/) headsets, they can be used as stand alone devices which allows you to build content directly to the headset without requiring the user to be tethered to a powerful PC. However, this does limit their performance which you will need to consider when designing your experience.
 
 We will be using Meta Quest 1,2 and 3s headsets, you can also use the Quest 3 if you have your own. 
 
@@ -159,7 +158,7 @@ We recomend you use this scene for your project.
 
 
 > [!TIP]
-> You may notice that this rig doesn't have the helper labels, if you need these you can swap the **Complete XR Origin Set Up** for the **Complete XR Origin Set Up Variant** found in **Assets > VRTemplateAssets > Prefabs > Setup**
+> You may notice that this rig does not have the helper labels, if you need these you can swap the **Complete XR Origin Set Up** for the **Complete XR Origin Set Up Variant** found in **Assets > VRTemplateAssets > Prefabs > Setup**
 
 ## 6. Build to the headset
 
