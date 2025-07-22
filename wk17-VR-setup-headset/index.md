@@ -41,7 +41,7 @@ Log in to the meta developer site.
 
 Select My apps in the top right corner
 
-<img src="images/my_apps.jpg" width="500" alt="My app button in top right of screen">
+![My app button in top right of screen](images/my_apps.jpg)
 
 Now Create an organisation, name it whatever you like.
 
