@@ -38,11 +38,11 @@ Log in to the meta developer site.
 
 Select My apps in the top right corner
 
-![my apps](https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset/images/my_apps.jpg)
+![my apps](../images/my_apps.jpg)
 
 Now Create an organisation, name it whatever you like.
 
-![create organisation](https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset/images/createorganisation.jpg)
+![create organisation](../images/createorganisation.jpg)
 
 If may ask you to add extra authentication but you don't need to add a credit card or any payment information but may need to add two-factor authentication.
 
@@ -52,7 +52,7 @@ Now that we have created a developer organisation,  Meta will allow us to turn o
 
 On your Meta phone app, find the device and in the settings turn on developer mode.
 
-![create organisation](https://uwetom.github.io/media-production-worksheets/wk18b-setup-headset/images/phone_1.png)
+![create organisation](../images/phone_1.png)
 
 Scroll down to open **Headset settings**
 Then turn on **Developer mode**
