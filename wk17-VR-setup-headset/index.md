@@ -1,6 +1,3 @@
-[Back](https://uwetom.github.io/media-production-worksheets)
-
-
 I will setup the headsets for the workshop sessions, but if you have your own headset or borrow one from the project room you will need to set it up yourself, I will take about 15 minutes.
 
 # Setup headset for developing
