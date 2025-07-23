@@ -1,4 +1,3 @@
-[Back](https://uwetom.github.io/media-production-worksheets)
 
 # VR Interactions
 
@@ -8,15 +7,15 @@ In this worksheet we will learn how to interact with 3D objects in our scene.
 
 - Open last weeks Unity Project, or create a new VR Core project
 
-![vr core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/new_project_6.jpg)
+![vr core template](images/new_project_6.jpg)
 
-If you created a new VR core project you will need to set it up like last week. You can go back and look at [section 3 in last weeks workshop](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/) 
+If you created a new VR core project you will need to set it up like last week. You can go back and look at [section 3 in last weeks workshop](../wk17-VR-introduction/) 
 
 ## Create new Scene
 
 - Open the **Basic Scene** inside the Scenes folder.
 
-![Basic scene](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/basicscene.jpg)
+![Basic scene](images/basicscene.jpg)
 
 - Save it back into the Scene folder and name it "Interactions".
 - Press the play button to make sure your scene plays in the simulator and you can move around.
@@ -24,9 +23,9 @@ If you created a new VR core project you will need to set it up like last week. 
 
 ## 1. Teleportation
 
-Many users Can feel motion sickness when in VR, as a creator, it is your responsibility to minimise this as much as you can in your project and consider the VR experience of your Users.
-
 Teleportation is turned on by default on our XR rig, It allows users to move around the scene more comfortably then using continuous movement provided by the left thumb stick.
+
+It also allow you to have more control over where the user can go in your scene.
 
 ### Area
 
@@ -34,16 +33,16 @@ Teleportation is turned on by default on our XR rig, It allows users to move aro
 
 You should see it has a **Teleportation Area** component. This allows the player to teleport anywhere on this surface.
 
-- Scale it down to 1 
-
 - Create a new plane and place it next to the existing one.
 - Give it a new material, you can find some in **Assets\VRTemplateAssets\Materials\Environment**
 
+- Scale it down to 1 
+- 
 - Add a **teleportation Area** component to it.
 
 - Change the **Interaction Layer Mask** to **Teleport**
 
-![Locomotion System](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/teleportation_area.jpg)
+![Locomotion System](images/teleportation_area.jpg)
 
 - Test it out in the simulator, try to teleport from one plane to the other.
 
