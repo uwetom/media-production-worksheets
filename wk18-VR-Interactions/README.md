@@ -56,11 +56,19 @@ The most basic type of interactable is a **simple interactable**, this will allo
 
 The cube will now be able to detect if the user interacts with it but we have to add a script and tell it what we want to do.
 
-Try to do this yourself first before looking at the solution bellow.
+Try to do this yourself first before looking at the solution below.
 
 - Create a new Script 
 - Add 2 public functions which we can call when the user hovers and selects the cube.
-- Log a debug message to the console
+- Log a debug message to the console for each function.
+
+
+
+
+
+
+
+
 
 
 Solution:
@@ -87,26 +95,27 @@ public class CubeBehaviour : MonoBehaviour
 
 - Go back to Unity and fix any errors that appear in the console.
 
-### Connect the script to the Simple Interactable component
+### Connect up the script 
 
-[<img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/simple_cube_interactable_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=8af55669-e80c-4689-aba9-b30f00f096fe)
+The following video shows you how to connect your scipt up to your Simple Interactable component.
+
+[<img src="images/simple_cube_interactable_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=8af55669-e80c-4689-aba9-b30f00f096fe)
 
 - Test your project on the simulator to see if you get the correct console logs.
 
 ### Challenge 1
 
-When the user hovers over the cube, change its colour
+- When the user hovers over the cube, change its colour
 
-*Hint:*
-
-```c#
+> [!TIP]
+> ```c#
 GetComponent<Renderer>().material.SetColor("_BaseColor",Color.red);
 ```
 
 - Make the cube disappear when activated
 
-Hint:
-```c#
+> [!TIP]
+> ```c#
 DestroyObject(gameObject);
 ```
 
@@ -114,43 +123,52 @@ DestroyObject(gameObject);
 
 When the user hovers over the cube, play a sound.
 
-You can find a sound here ()[https://uwetom.github.io/media-production-worksheets/wk18-more-vr\assets\clean-pop.mp3]
+Find your own of use one of these:
+ 
+[pop sound](assets\clean-pop.mp3)
 
-*solution*:
+[honk sound](assets\honk.mp3)
 
-[<img src="https://uwetom.github.io/media-production-worksheets/wk18-more-vr/images/audio_feedback_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=76740649-d1d2-4682-99c2-b30f00ff732c)
+*Solution*:
+
+[<img src="images/audio_feedback_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=76740649-d1d2-4682-99c2-b30f00ff732c)
 
 ## 3. Grab Interactable
 
 Next we can try a **Grab interactable** to allow us to pick up objects in our scene.
 
-First we need some objects, we could use another cube, but a real 3D model is more interesting.
+First we need some objects, we could use another cube, but a real 3D model will highlight some other issues you may encounter.
 
 - Download the following unity package and drag it into your assets panel
 
-[Kenney.nl objects](https://uwetom.github.io/media-production-worksheets/wk18-more-vr/assets/kenney_objects.unitypackage) 
+[Kenney.nl objects](assets/kenney_objects.unitypackage) 
 
-The package contains assets from the free resourse kenney.nl
+The package contains assets from the free resource kenney.nl
 
 - Drag the pizza cutter into your scene and move it in front of the cube.
 
-![vr core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/pizza_cutter.jpg)
+![vr core template](images/pizza_cutter.jpg)
 
 We can now turn it into an interactable
 
 - Add an **XR Grab Interactable** component to the pizza cutter
 
-Notice that it also added a **Rigidbody** component automatically.
+> [!NOTE]
+> You should see that a**Rigidbody** component is also added automatically.
 
 - Add a **Mesh Collider** component to the pizza cutter and set it to **convex** ( you see a green mesh around the object)
 
-![vr core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/mesh_collider.jpg)
+> [!IMPORTANT]
+> If you don't add a collider you will not be able to select your object, we didn't need to add one to the cube we added earlier as it has one automatically.
+
+![vr core template](images/mesh_collider.jpg)
 
 - Now try this out in the simulator. 
 
-You can pick up the pizza cutter by first pressing **]** to use the right controller, then hover over the pizza cutter and pressing **G**
+> [!TIP]
+> You can pick up the pizza cutter by first pressing **]** to use the right controller, then hover over the pizza cutter and pressing **G**
 
-### Grab properties
+## 4. Extra - Grab properties
 
 Grab interactable have a few useful properties we can change to improve the experience.
 
@@ -160,7 +178,7 @@ We want the pizza cutter to stick the controller when picked up
 
 - On the **XR Grab Interactable** component, change the **far attach mode** to **near**
 
-![vr core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/far_attach.jpg)
+![vr core template](images/far_attach.jpg)
 
 #### Attach position
 
@@ -169,13 +187,19 @@ Currently, the pizza cutter will be picked up at its centre. But we can move it 
 - **Right click** on the object and choose **Create empty**
 - Rename the new object to **attachPoint**
 
-![vr core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/attach_point.jpg)
+![vr core template](images/attach_point.jpg)
 
-- Move the attach point to the middle of the handle, we can also rotate it, but this may take a few tries to get get right.
+- Move the attach point to the middle of the handle.
 
 - lastly, we need to drag the attach point object onto the **attach_transform** field on the **XR Grab Interactable** component.
 
-![vr core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/attach_transform_field.jpg)
+![vr core template](images/attach_transform_field.jpg)
+
+- Test in the simulator
+
+The pizza cutter should now be in the correct position
+
+- Rotate the attach point to make the cutter point upwards when grabbed.
 
 #### Challenge 3
 
@@ -189,9 +213,9 @@ We can attach a script to the pizza cutter in the same way that we did with the 
 
 #### Challenge 4
 
-Make something happen when activate is triggered
+Make something happen when activate is triggered, maybe make it play a sound or something you remember from last year.
 
-## 4. Extra - More interactions
+## 5. Extra - More interactions
 
 If you are interested in exploring other VR interactions you can find another demo scene in your project
 
