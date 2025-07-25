@@ -125,9 +125,9 @@ When the user hovers over the cube, play a sound.
 
 Find your own of use one of these:
  
-[pop sound](assets\clean-pop.mp3)
+[pop sound](assets/clean-pop.mp3)
 
-[honk sound](assets\honk.mp3)
+[honk sound](assets/honk.mp3)
 
 *Solution*:
 
