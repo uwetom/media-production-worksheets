@@ -108,6 +108,7 @@ The following video shows you how to connect your scipt up to your Simple Intera
 - When the user hovers over the cube, change its colour
 
 > [!TIP]
+
 ```c#
 GetComponent<Renderer>().material.SetColor("_BaseColor",Color.red);
 ```
@@ -115,6 +116,7 @@ GetComponent<Renderer>().material.SetColor("_BaseColor",Color.red);
 - Make the cube disappear when activated
 
 > [!TIP]
+
 ```c#
 DestroyObject(gameObject);
 ```
