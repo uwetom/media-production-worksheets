@@ -18,35 +18,30 @@ If you created a new VR core project you will need to set it up like last week. 
 ![Basic scene](images/basicscene.jpg)
 
 - Save it back into the Scene folder and name it "Interactions".
-- Press the play button to make sure your scene plays in the simulator and you can move around.
-
+- Play the scene plays in the simulator to test it works.
 
 ## 1. Teleportation
 
-Teleportation is turned on by default on our XR rig, It allows users to move around the scene more comfortably then using continuous movement provided by the left thumb stick.
+Teleportation is turned on by default on our XR rig, It allows users to move around the scene more comfortably then using continuous movement.
 
-It also allow you to have more control over where the user can go in your scene.
-
-### Area
+### Teleportation Area
 
 - Select the plane and look at the inspector.
 
 You should see it has a **Teleportation Area** component. This allows the player to teleport anywhere on this surface.
 
 - Create a new plane and place it next to the existing one.
-- Give it a new material, you can find some in **Assets\VRTemplateAssets\Materials\Environment**
-
-- Scale it down to 1 
-- 
+- Give it a new material, you can find some in **Assets\VRTemplateAssets\Materials\Environment**.
+- Scale it down to 1. 
 - Add a **teleportation Area** component to it.
-
-- Change the **Interaction Layer Mask** to **Teleport**
+- Change the **Interaction Layer Mask** to **Teleport**.
 
 ![Locomotion System](images/teleportation_area.jpg)
 
 - Test it out in the simulator, try to teleport from one plane to the other.
 
-Remember In the simulator, you need to press tab to select the controllers, then press the **i** key to simulate pressing up on the thumb stick and producing a teleport beam.
+> [!TIP]
+> In the simulator, you need to press tab to select the controllers, then press the **i** key to simulate pressing up on the right thumb stick and producing a teleport beam.
 
 ## 2. Simple Interactable
 
@@ -55,13 +50,20 @@ To allow the XR rig to interact with objects in the scene we need two parts, an 
 The most basic type of interactable is a **simple interactable**, this will allow us to detect when a user interacts with an object using the controller.
 
 - Create a cube and move it away from the origin so it's not on top of the rig.
-- Add a **XR Simple Interactable** component to the cube
+- Add a **XR Simple Interactable** component to the cube.
 
-![vr core template](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/xr_simple_interactable.jpg)
+![vr core template](images/xr_simple_interactable.jpg)
 
 The cube will now be able to detect if the user interacts with it but we have to add a script and tell it what we want to do.
 
-- Create a new Script and add 2 public functions which we can call when the user hovers and selects the cube, try to do this yourself first before looking at the solution bellow.
+Try to do this yourself first before looking at the solution bellow.
+
+- Create a new Script 
+- Add 2 public functions which we can call when the user hovers and selects the cube.
+- Log a debug message to the console
+
+
+Solution:
 
 ```c#
 using UnityEngine;
