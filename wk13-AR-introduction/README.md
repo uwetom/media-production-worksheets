@@ -1,4 +1,3 @@
-[Back](https://uwetom.github.io/media-production-worksheets)
 
 # Introduction to Augmented Reality (AR) in Unity
 

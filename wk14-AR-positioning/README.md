@@ -1,19 +1,16 @@
 
-[Back](https://uwetom.github.io/media-production-worksheets)
 
-## Starting Project
+## Tracking an image
 
-This worksheet continues on from the template project you created last week.
+Last week we learnt how to create a simple AR scene, how to test it in the simulator and build it to a real device.
 
-If you do not have your project you can clone this template project from Github:
-
-[https://github.com/uwetom/AR-Template](https://github.com/uwetom/AR-Template)
-
-You can open this project through Unity Hub by using **Add > Add Project from Disk**
-
-If you use this you may need to switch your build platform to **Android** in player settings)
+This week we will look into how to position our 3D object at specific locations in the real world.
 
 ### Create new scene
+
+You can carry on from last weeks worksheet, or make a new AR project like you did last week.
+
+
 
 - Create a new empty scene.
 

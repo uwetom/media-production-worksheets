@@ -74,7 +74,7 @@ Accept the pop-up to download the simulator package.
  > [!CAUTION]
  > Only do this for the left tab, **NOT** the android tab or it wont work in the headset.
 
-![uwe xr device simulator button](https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/hmd.png)
+![uwe xr device simulator button](images/hmd.png)
 
 We are now setup and ready to try out a VR scene.
 
@@ -104,7 +104,7 @@ The simulator is great for checking the basic functionality of your scene before
 
 This video shows you how to use the simulated environment.
 
-[<img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/xr_simulator_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d11c7102-37ff-454f-a4bd-b2fe00e91a5b)
+[<img src="images/xr_simulator_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d11c7102-37ff-454f-a4bd-b2fe00e91a5b)
 
 ![uwe xr device simulator button](images/simulator_controls.jpg)
 
@@ -164,7 +164,7 @@ We recomend you use this scene for your project.
 
 There are a few important steps to building your project to a headset. The following video guides you through the process. If you have already switched your project to Android you do not need to do it again.
 
-[<img src="https://uwetom.github.io/media-production-worksheets/wk17-vr-introduction/images/build_video_image.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=405feefe-6503-4415-9c49-b2ff00f8a659)
+[<img src="images/build_video_image.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=405feefe-6503-4415-9c49-b2ff00f8a659)
 
 ## 7. Challenge - Create a simple scene
 
