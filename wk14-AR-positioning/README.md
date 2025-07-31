@@ -1,285 +1,212 @@
 
-
-## Tracking an image
+# Track an image
 
 Last week we learnt how to create a simple AR scene, how to test it in the simulator and build it to a real device.
 
 This week we will look into how to position our 3D object at specific locations in the real world.
 
-### Create new scene
+## 1. Create new scene
 
 You can carry on from last weeks worksheet, or make a new AR project like you did last week.
-
-
 
 - Create a new empty scene.
 
 - Like last week, add an **XR Origin** and **AR Session** (hint: right click in the hierarchy and choose XR)
 
-![Add xr and ar session](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/images/xr_ar_session.jpg)
+![Add xr and ar session](images/xr_ar_session.jpg)
 
 - Save the scene.
 
-# Position Virtual Object
+## 2. Tracked image
 
 Last week we made a simple application with a cube, If you placed the cube at the origin of your scene. Normally the origin corresponds to the position of your camera when the scene opens. It does not correspond to anything specifically in the real world.
 
-But we want to be able to decide exactly where object will appear in the real world.
+But we want to create an experience in a specific location, so want to be able to decide exactly where object will appear in the real world.
 
-## Tracked Image
 One way we can control where our objects appear is by using tracked images.
 
 This allows us to link virtual 3D objects to real images.
 
 This image can be anything we want, but for accurate tracking Unity recommends:
 
-- Size must be at least 300 x 300 pixels.
+- Size must be at least 300 x 300 pixels
 - Format must be PNG or JPG.
-- Image can be black and white or colour but must have strong contrast.
 - Image should avoid repeated patterns.
+- Avoid images with that contain a large number of geometric features, or very few features (e.g. barcodes, QR codes, logos and other line art)
 
-I have created a Unity package with some simple assets in it to get us started. 
+> [!NOTE]
+> You can find more detailed recomendations here [ARCore tracked image recomendations](https://developers.google.com/ar/develop/augmented-images)
 
-[unity ship package download](https://github.com/uwetom/media-production-worksheets/raw/refs/heads/master/wk13-unity-ar-introduction/assets/ship.unitypackage)
+> [!TIP]
+> Google has a tool that you can use to see the quality of your image [arcoreimg tool](https://developers.google.com/ar/develop/augmented-images/arcoreimg#macos)
 
-- Download it and drag it into the assets panel in Unity to include it in your project.
-![Add ship package](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/images/add_ship_to_assets.jpg)
+- Download this image and drag it into your assets folder
 
-### Tracked image manager
+[sea10x10.jpg](assets/sea10x10cm.jpg)
+
+## 3. Tracked image manager
 
 The tracked image manager component manages all the images we want to track.
 
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=67d369cb-c479-4dc7-8732-b21f00951b6a&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity - tracked image manager" ></iframe>
+- Add a tracked image manager component to your Rig
 
-### Instantiate a prefab
+[<img src="images/tracked_imag_manager_video.jpg"](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9d6bb1d7-8616-40bb-9069-b32b00c41f36)
 
-Now we can create a script to instantiate our prefab on the image.
+### 4. Import a 3d model
 
-Follow along with this video.
+We want a 3D object to appear on our tracked image.
 
-[AR foundation Documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.1/manual/index.html)
+- Download this fbx file and add it to your assets
 
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=09532d13-dd25-4ab8-8bb5-b21f0096e46c&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="Unity - add virtual object" ></iframe>
+[wind turbine model](assets/turbine.fbx)
 
+We can now create a script to instantiate our 3d model onto the tracked image when it is found
 
+[<img src="images/tracked-image-script-video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a9c04acb-d421-4cdb-9c88-b32b00cc1ba9)
+
+[AR foundation Documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.1/manual/features/image-tracking/artrackedimagemanager.html)
 
 #### Finished Script
 
 This is the finished script from the video, try to only use this if you get stuck.
 ```
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.XR.ARFoundation; // include xr library
+using UnityEngine.XR.ARFoundation;
+using System.Collections.Generic;
+using UnityEngine.XR.ARSubsystems;
 
-public class TrackImage : MonoBehaviour
+
+public class ImageTracker : MonoBehaviour
 {
+
     [SerializeField]
-    ARTrackedImageManager m_TrackedImageManager; 
-    public GameObject shipPrefab; //Prefab you want to appear on marker image
-    
-    void OnEnable() => m_TrackedImageManager.trackedImagesChanged += OnChanged;
+    ARTrackedImageManager m_ImageManager;
+    public GameObject turbinePrefab;
 
-    void OnDisable() => m_TrackedImageManager.trackedImagesChanged -= OnChanged;
+void OnEnable() => m_ImageManager.trackablesChanged.AddListener(OnChanged);
 
-    void OnChanged(ARTrackedImagesChangedEventArgs eventArgs)
-    {
-    	// When the camera picks up a new image marker Unity adds a game object to it called newImage, this will stick to maker.
-        foreach (ARTrackedImage newImage in eventArgs.added)
+void OnDisable() => m_ImageManager.trackablesChanged.RemoveListener(OnChanged);
+
+void OnChanged(ARTrackablesChangedEventArgs<ARTrackedImage> eventArgs)
+{
+        foreach (var newImage in eventArgs.added)
         {
-        	// Create new copy of your prefab
-        	GameObject newObject = GameObject.Instantiate(shipPrefab);
-        	// parent prefab to the newImage so that they stick together.
-			newObject.transform.SetParent(newImage.transform, false);
+            GameObject newObject = Instantiate(turbinePrefab);
+            newObject.transform.SetParent(newImage.transform, false);
+
+        // Handle added event
         }
+
+    foreach (var updatedImage in eventArgs.updated)
+    {
+        // Handle updated event
+    }
+
+    foreach (var removed in eventArgs.removed)
+    {
+        // Handle removed event
+        TrackableId removedImageTrackableId = removed.Key;
+        ARTrackedImage removedImage = removed.Value;
     }
 }
+
+}
+
 ```
 
-## Build and Test the Scene
 
-We can now build and test the scene on our device just like we did last week.
+## 5. Test in the simulator
 
-- Save the current scene.
-- Go to **File > Build Settings** and add the current scene, untick any other scenes.
-- Plug your tablet in and approve the connection.
-- Check **run device** is displays your device
-- Press **build and run**
+You can now press play to test the scene in the simulator
 
-![Build](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/images/build.jpg)
+Helpfully the simulator has a simulated image, move aroud the scene until you see you turbine.
 
-- Create a folder called "Build" and save your build into it.
+![simulator with turbine](images/simulator_with_turbine.jpg)
+
+## Adjust simulator
+
+You may notice that the turbine is on its side.
+
+You can adjust the angle of the simulated image plane by editing the environment.
+
+[<img src="images/adjust_simulator.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=fe6c7413-df5e-4795-a889-b32b00e708e1)
+
+
+## 6. Build
+
+We can now build and test the scene on our device just like we did last week and try it with a real image.
+
+- Build the scene to an device.
 
 If you point your camera at your image the model should appear.
 
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=e3e42657-f347-4b16-909d-b21e00b86980&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="android ship demo" ></iframe>
-
 Make sure this works for you before you carry on to the next step.
 
-## Virtual Environment
 
-You may not always have an Android device available for testing and as your project expands it can take a while to do a full build each time you need to test.
+## 7. Optional Challenges 1
 
-To get around this you can create a virtual environment in Unity.
+These challenges are optional, but will help you with your final project.
 
-- Setup your virtual environment using this video:
+### Play a sound when the prefab is instantiated
 
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=94c4dac7-3a89-45f1-a3fe-b21f00b95897&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity-xr simulation" ></iframe>
+- Add an Audio source to the xr Origin and attach a sound to it.
 
-### Add sound
+- Use your existing script to play the sound when the tracked image is found.
 
-Now that we have a simple image marker scene working we can think about taking it further. In the script, after you instantiate the new prefab you can play a sounds, start an animation or a particle effect.
+### Animate the turbine
 
-You can find a sound file in the ship folder.
+If you open up the turbine in the assets panel you can see it has an animation on it. 
 
-- Add an **audio source** component to the xr origin object
-- Drag the sound file onto it.
-- Turn off **Play on Awake**
+- Try to make the animation play in the scene.
 
-![Audio source](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/images/audio_source.jpg)
+## 8. More complex objects.
 
-- In your script, at the top of the **OnChanged** function add a line  to find the Audio source component:
-	```AudioSource source = GetComponent<AudioSource>();```
-- Use it to play your sound when the prefab is instantiated. 
-	```source.Play();```
-- Test out the scene in your Simulated Environment
+We have just instantiated one prefab onto our tracked image, but that prefab can be as complex as we like.
 
-Your finished script should look like this
+- **Right click in the Hierarchy to create a new empty game object
+- Rename it "Turbine Environment"
+- Add multiple turbines, and maybe other shapes and objects to the new object.
+- Drag the object into the Assets panel to turn it into a prefab
+- Delete the object from the hierarchy
+- drag the new prefab onto the turbine prefab slot on your script
+- test the scene in the simulator
+
+## 9. Optional Challenges 2
+
+### multiple markers
+
+You can track multiple markers at the same time
+
+- Find and add another image to the library just like you did at the start of this worksheet. When you add them you can see they have a name.
+
+In your existing script you can use that name to instantiate different prefabs
+
+e.g.
+
 ```
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.XR.ARFoundation; // include xr library
-
-public class TrackImage : MonoBehaviour
-{
-    [SerializeField]
-    ARTrackedImageManager m_TrackedImageManager;
-    public GameObject shipPrefab; //Prefab you want to appear on marker image
-
-    void OnEnable() => m_TrackedImageManager.trackedImagesChanged += OnChanged;
-
-    void OnDisable() => m_TrackedImageManager.trackedImagesChanged -= OnChanged;
-
-    void OnChanged(ARTrackedImagesChangedEventArgs eventArgs)
+ void OnChanged(ARTrackedImagesChangedEventArgs eventArgs)
     {
-        AudioSource source = GetComponent<AudioSource>();
-
-        // When the camera picks up a new image marker Unity adds a game object to it called newImage, this will stick to maker.
+       
         foreach (ARTrackedImage newImage in eventArgs.added)
         {
-            // Create new copy of your prefab
-            GameObject newObject = GameObject.Instantiate(shipPrefab);
-            // parent prefab to the newImage so that they stick together.
+            if(newImage.referenceImage.name == "sea") {
+            	GameObject newObject = GameObject.Instantiate(turbinePrefab);
             newObject.transform.SetParent(newImage.transform, false);
-            source.Play();
-        }
-    }
-}
-```
-
-## More complex objects
-
-We used a simple prefab of a ship in the last example, but your prefab can be as complex as you need it to be.
-
-- Create an empty object in the **Hierarchy** and rename it "Ship Environment"
-- Add multiple ships and other objects as children, you can find other objects in the ship folder.
-
-![Multiple Objects](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/images/multiple_objects.jpg)
-
-- Drag the "Ship Environment" object into the assets panel to turn it into a prefab ( it should turn blue in the hierarchy)
-
-![Make prefab](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/images/Make_prefab.jpg)
-
-- Delete the object from the hierarchy to remove it from the scene, the prefab should still be in your assets.
-- Replace the Ship prefab in your script with the new prefab.
-
-![Updateprefab](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/images/update_prefab.jpg)
-
-- Build to your device to test.
-
-## Challenge
-
-### Add multiple markers
-
-In the ship folder you can find another image in addition to the puddle image. 
-
-- Add the second image to your image library and give it a different name.
-- In your script add another public gameObject variable to hold  a different prefab.
-- In your script, you can access the name of the  image, use this in an if statement to check if the name matches an image in your library.
-	```newImage.referenceImage.name```
-- If it matches, instantiate the correct prefab.
-
-#### Finished script
-Here is my finished script for reference, try to do it yourself first before checking it.
-```
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.XR.ARFoundation; // include xr library
-
-public class TrackImage : MonoBehaviour
-{
-    [SerializeField]
-    ARTrackedImageManager m_TrackedImageManager;
-    public GameObject shipPrefab; //Prefab you want to appear on marker image
-    public GameObject shipEnvironmentPrefab; //Prefab you want to appear on marker image
-
-    void Start()
-    {
-        // Disable screen dimming
-        Screen.sleepTimeout = SleepTimeout.NeverSleep;
-    }
-
-    void OnEnable() => m_TrackedImageManager.trackedImagesChanged += OnChanged;
-
-    void OnDisable() => m_TrackedImageManager.trackedImagesChanged -= OnChanged;
-
-    void OnChanged(ARTrackedImagesChangedEventArgs eventArgs)
-    {
-        AudioSource source = GetComponent<AudioSource>();
-
-        // When the camera picks up a new image marker Unity adds a game object to it called newImage, this will stick to maker.
-        foreach (ARTrackedImage newImage in eventArgs.added)
-        {
-            if(newImage.referenceImage.name == "puddle") {
-                // Create new copy of your prefab
-                GameObject newObject = GameObject.Instantiate(shipPrefab);
-                // parent prefab to the newImage so that they stick together.
-                newObject.transform.SetParent(newImage.transform, false);
-            }else if(newImage.referenceImage.name == "boat")
-            {
-                GameObject newObject = GameObject.Instantiate(shipEnvironmentPrefab);
-                newObject.transform.SetParent(newImage.transform, false);
+            
+            } else if(newImage.referenceImage.name == "beach") {
+                	GameObject newObject = GameObject.Instantiate(otherPrefab);
+            newObject.transform.SetParent(newImage.transform, false);
             }
-            source.Play();
+            
         }
-    }
-}
-```
-## Challenge 2
+                
+       }         
 
-Try to track images around the room
- I have take photos of some objects and posters in 2q25 for you to try
-
-[2q25 images](https://uwetom.github.io/media-production-worksheets/wk13-unity-ar-introduction/assets/2q25_images.zip)
-
-## Challenge 3
-
-### Animation
-
-- Animate one of the objects in the ship environment
+-
 
 ## References
 
-Ship assets
-[https://kenney.nl/assets/pirate-kit](https://kenney.nl/assets/pirate-kit)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMTQ1MDg1NSwtODIyMjYzNzY5LC0xND
-AxNjQ2MjQ3LC0yMTIzNjE3NTcyLC04MDgzOTM5MzgsMTU0NDg4
-Mjg1MiwtNDgzNDAxMDIxLDE3NjY5MDI0ODUsMTA5NzY0OTQyLC
-0xMDExNDQzMzM5LDU3NzQzODM4Myw2MTA4MTM0OTAsLTE3ODE3
-MTExNjUsNzc1ODc4NzIyLC00ODg1NzEwMDUsNDk0NTUyNTUsLT
-IwMzM4NDg5NDEsNjI3NTM0MTcxLC0yMDU4MjAxNzI5LDE1OTg1
-OTMzMDNdfQ==
--->
+
+["Wind Turbine" (https://skfb.ly/6QZUA) by iedalton is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).](https://skfb.ly/6QZUA)
+
+[AR foundation Documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.1/manual/index.html)
