@@ -43,7 +43,7 @@ Watch the full description of the Code Challenge:
 
 ## Creating an interaction with collisions
 
-The next task is to use the collision created by the spheres falling to the ground to trigger the spot light to turn on and off.
+The next task is to use the collision created by the balls / spheres falling to the ground to trigger the light to turn on and off.
 
 ![interaction flow](images/interaction-flow-1.png)
 
