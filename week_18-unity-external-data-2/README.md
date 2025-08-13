@@ -15,7 +15,9 @@ In this example we are going to use the data instantiate (create) objects in our
 
 ## Set up: install asteroids package
 
-I've prepared the rock / asteroids that we are going to use, creating prefabs with a simple rotation animation. Download [the package here](https://github.com/uwetom/media-production-worksheets/raw/refs/heads/master/wk-unity-external-data-2/Asteroids.unitypackage) 
+I've prepared the rock / asteroids that we are going to use, creating prefabs with a simple rotation animation. Download [the package here](https://github.com/uwetom/media-production-worksheets/blob/master/week_18-unity-external-data-2/Asteroids.unitypackage) 
+
+![download package](images/download-package.png)
 
 Drag it into your Assets folder to install it.
 
