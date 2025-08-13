@@ -1,5 +1,3 @@
-[Back](https://uwetom.github.io/media-production-worksheets)
-
 # Introduction to using external data (what are APIs)
 
 ## Accessing external data 
@@ -57,7 +55,7 @@ The returned meteo JSON data should look like:
 
 ![JSON file](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk-intro-external-data/images/meteo-api-2.png)
 
-[Need the solution?](https://uwetom.github.io/media-production-worksheets/wk-intro-external-data/api-solutions.html)
+[Need the solution?](api-solutions.md)
 
 
 ## How JSON works
