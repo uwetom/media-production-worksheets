@@ -42,7 +42,7 @@ Put this URl in your browser
 [https://v2.jokeapi.dev/joke/Any?safe-mode](https://v2.jokeapi.dev/joke/Any?safe-mode)
 If you have successfully installed the Chrome or Firefox extension you should see a joke similar to the following.
 
-  ![JSON data](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk-intro-external-data/images/joke-api-2.png)
+  ![JSON data](images/joke-api-2.png)
 
 ### Code challenge - get some data
 Now you have a go using weather data using open meteo. 
@@ -53,7 +53,7 @@ Look at the documentation and try and work out what HTTP browser request you nee
 
 The returned meteo JSON data should look like:
 
-![JSON file](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk-intro-external-data/images/meteo-api-2.png)
+![JSON file](images/meteo-api-2.png)
 
 [Need the solution?](api-solutions.md)
 
@@ -123,7 +123,7 @@ For many data repositories it is quite common to need to make an account and log
 This Nasa data repository about Near Earth Objects (NEO / asteroids that will pass close to earth) https://api.nasa.gov/ needs a log in and API Key. 
 
 Scroll down on the link above to find the documentation about Asteroids-NeoWs (Near Earth Object Web Service).
-![JSON file](https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-intro-external-data/images/neows-2.png)
+![JSON file](images/neows-2.png)
 The format for the HTTP web request to retrieve all Near Earth Objects is:
 
 [`https://api.nasa.gov/neo/rest/v1/neo/browse?api_key=DEMO_KEY`](https://api.nasa.gov/neo/rest/v1/neo/browse?api_key=DEMO_KEY)
@@ -134,7 +134,7 @@ Open Chrome browser and run the link. You should see a list of  ```near_earth_ob
 
 **! Important: Save the link in a text file.**
 
-![JSON file](https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-intro-external-data/images/neows-4.png)
+![JSON file](images/neows-4.png)
 
 How many are 
 ```"is_potentially_hazardous_asteroid": true,```

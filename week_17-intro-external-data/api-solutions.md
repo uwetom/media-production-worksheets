@@ -8,17 +8,9 @@ The following link should take you to a web page where you can configure options
 Scroll down to find the API request URL: It begins with https://api.open-meteo.com...
 Try it in your browser.
 
-![enter image description here](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk-intro-external-data/images/meteo-api-3.png)
+![select the data you want](images/meteo-api-3.png)
 
 The returned data should look like:
 
-![enter image description here](https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk-intro-external-data/images/meteo-api-2.png)
+![returned JSON data](images/meteo-api-2.png)
 
-
-
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM0MDkwMTEsMTk0MjAwNjYzNSwtOTc2ND
-k5MTYxXX0=
--->
