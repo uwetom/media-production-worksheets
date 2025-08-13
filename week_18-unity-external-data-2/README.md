@@ -1,8 +1,7 @@
-[Back](https://uwetom.github.io/media-production-worksheets)
 
 # Using external data in unity pt 2
 
-![enter image description here](https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/asteroids.gif)
+![asteroids](images/asteroids.gif)
 *(AR scene of Near Earth Objects designated as hazardous by NASA, generated from a NASA dataset)*
 
 ## Overview
@@ -20,19 +19,19 @@ I've prepared the rock / asteroids that we are going to use, creating prefabs wi
 
 Drag it into your Assets folder to install it.
 
-![Inspector screenshot](https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/install-rocks.png)
+![Inspector screenshot](images/install-rocks.png)
 
 ## Set up: script and prefabs
 In this next video we are going to set up the script and prefabs ready to deploy in the AR scene.
 
-[<img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/edit-prefab-video.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=18c829c7-389e-48d9-8617-b28701019986)
+[<img src="images/edit-prefab-video.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=18c829c7-389e-48d9-8617-b28701019986)
 
 (Note: In the video above  I referred to the Array that we created as a 'List'. It is in fact an Array. In Unity Lists are quite different).
 
 ## Use data to add asteroids / rocks to the AR scene
 Now we are ready to add asteroids / rocks to the AR scene based on the NASA data, and using the ```instantiate``` function.
 
-[<img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/add-rocks.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=de75c10d-37ff-4556-955e-b28900b87d0c)
+[<img src="images/add-rocks.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=de75c10d-37ff-4556-955e-b28900b87d0c)
 
 ### Code
 
@@ -127,7 +126,7 @@ We initialised the Array in the code as a public Array of Game Objects that we n
 
 Then we assigned data to the Array in the inspector. Adding the rock prefabs to it.   
 
-![inspector screenshot](https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/assign-array.png)
+![inspector screenshot](images/assign-array.png)
 
 We accessed data from the array using the index of each element (0, 1, 2).   
 ```rockInstances[0] // returns Rock_01```
@@ -145,7 +144,7 @@ https://www.youtube.com/watch?v=Q16KIxtomeo
 
 Now we have some Asteroids rocks in our scene let's add some information about them into the AR scene
 
-[<img src="https://raw.githubusercontent.com/uwetom/media-production-worksheets/refs/heads/master/wk-unity-external-data-2/images/AR-asteroids-finished-2.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=81b2075b-22d1-4719-9e27-b28e01678c96)
+[<img src="images/AR-asteroids-finished-2.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=81b2075b-22d1-4719-9e27-b28e01678c96)
 
 ### Code updated
 
@@ -249,13 +248,4 @@ public class GetData : MonoBehaviour
 
 Build your AR scene to a device
 
-<iframe src="https://uwe.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=1c0abd93-e11a-40b9-8d4d-b21e00a3fea0&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="unity-build to android" ></iframe>
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMTc4MjUzMCwtNDY3Nzc4MTQsMTczND
-c0NDAzNywzNjY3OTg5NzEsOTkwNTg3MjY3LDE5MzE5MTE5MTAs
-LTU1ODc0NTYyMywtMTAxNDgxMDQ1LDQ2MTkyNDM2OCw3ODIwNj
-Q0MDcsLTQ1MTE1MTg3OCw4ODYyNjg4MzgsNjgwNTczMCwtODA2
-MjM2NjQwLC0xODYxNzMyNDE0LC00NzA3ODkyOCwtNDg4NDI1MT
-k0LC0yMjcxODg2NjMsLTEyMjA3NzQzNTcsNzQyODY3OTUzXX0=
-
--->
+[<img src="images/edit-prefab-video.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1c0abd93-e11a-40b9-8d4d-b21e00a3fea0)

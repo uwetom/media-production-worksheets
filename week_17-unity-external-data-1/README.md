@@ -1,6 +1,6 @@
 # Using external data in unity pt 1
 
-![enter image description here](images/asteroids.gif)
+![asteroids](images/asteroids.gif)
 *(AR scene of Near Earth Objects designated as hazardous by NASA, generated from a NASA dataset)*
 
 ## Overview
