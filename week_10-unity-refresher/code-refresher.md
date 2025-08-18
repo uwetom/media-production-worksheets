@@ -55,7 +55,7 @@ Intro to the next part of the task
 
 See if you can work out you how to detect collisions in your scene with c#
 
-[<img src="images/code-refresher-6.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b0f2ae28-7ff1-4904-9b28-b2020117a4e3&start=0)
+[<img src="images/code-refresher-6.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=de455367-9454-4008-81a4-b33d00ff8d1a)
 
 Tip you'll need to use `OnCollisionEnter` to detect a collision and retrieve information about the collision object.
 
