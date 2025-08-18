@@ -68,10 +68,10 @@ The rough plan for the script looks like this:
 
     // create isOn bool variable
     // create ChangeLight() function to turn light on and off
-    // if light is on 
+    // Check if light is on 
     // if isOn == true 
     //		turn off the light
-    // if light is off 
+    // else if the light is off 
     // else if isOn == false 
     //		turn off the light
 
