@@ -25,7 +25,7 @@ It is currently too big and the wrong way round
 - Drag the model into the scene, then rotate and resize it until it is about 1m high.
 
 > [!NOTE]
-> Remember a cube is 1m high**
+> Remember a new cube is 1m high**
 
 ![](images/scale_nef.jpg)
 
@@ -109,9 +109,9 @@ public class Interactions : MonoBehaviour
 
 ### Add the script to your object	
 
-Now add this script to our Object
+Now add the script to your Object
 
-- Drag your new script onto the statue, next to the **XR Simple Interactable** component.
+- Drag your new script onto the default object, next to the **XR Simple Interactable** component.
 
 ![](images/Interactions_sctipt.jpg)
 
