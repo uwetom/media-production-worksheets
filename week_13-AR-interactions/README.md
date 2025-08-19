@@ -59,7 +59,7 @@ We just want to be able to select our object, so we just need a simple interacta
 ![simple interactable component](images/simple_interactable.jpg)
 
 > [!NOTE]
-> We added them here, next to the **Mesh Renderer**component of the object to the collider was sized correctly.
+> Adding the **Mesh Collider** next to the objects **Mesh Renderer** component ensures it sizes correctly.
 
 ### 2. Interactor
 
