@@ -15,8 +15,7 @@ You can use last weeks project or make a new project using the AR mobile templat
 We can now add an 3d object to interact with,
 
 - Download this Nefertiti package and import it into your project.
-
-- [Nefertiti](assets/nefertiti.unitypackage)
+[Nefertiti](assets/nefertiti.unitypackage)
 
 It will appear in a folder called **Nefertiti**
 
