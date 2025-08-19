@@ -25,7 +25,7 @@ It is currently too big and the wrong way round
 - Drag the model into the scene, then rotate and resize it until it is about 1m high.
 
 > [!NOTE]
-> Remember a new cube is 1m high**
+> Remember a new cube is 1m high
 
 ![](images/scale_nef.jpg)
 
