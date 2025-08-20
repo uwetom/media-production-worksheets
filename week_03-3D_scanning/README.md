@@ -20,17 +20,17 @@ You can or even use a web based version where you can upload images.
 
 Before we scan anything we need consider how photogrammetry works so that we can get the best quality scan.
 
-### 1. Image Quality
+### Image Quality
 
 Each image needs to be sharp, not blurry or noisy
 	- Move the camera slowly
 	- Ensure there is plenty of light.
 	
-### 2. Subject Coverage
+### Subject Coverage
 
 The entire object needs to be captured, take photos above and bellow the object and circle it to at multiple heights to capture all the details.
 
-### 3. Information Overlap
+### Information Overlap
 
 Each image should overlap with another so that common reference points on each photo can be used to stitch together the whole object.
 
@@ -47,20 +47,19 @@ Some objects are more suitable then other and will give better results
 
 Avoid objects which are:
 - Transparent
-- Shiney
+- Shiny
 - Plain
 
 Organic objects with texture and detail work best.
 
-
 - Find a suitable small object to scan
-- Place it somewhere you can access every side to get the best angle.
+- Place it somewhere you can access every side to get the best angle or use a turn table
 - Open the app and press the plus symbol to create a new scan.
 
 # 3. Export the scan
 
 
-
+f
 
 
 

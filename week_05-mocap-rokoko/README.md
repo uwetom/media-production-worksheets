@@ -47,10 +47,6 @@ press the record button
 
 
 
-
-
-
-
 ### References
 
 [rokoko studio](https://www.youtube.com/watch?v=WF4FwVRWOa8&list=PL0nPCZDbYnms3zt1-A1cmf-S1fGyS6Rc3&index=6)
