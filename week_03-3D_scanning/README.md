@@ -1,34 +1,48 @@
 # 3D scanning
 
-For this worksheet we will be using phones and tablets to 3D scan objects and people into a 3D meshes. Will then clean up these meshes to use in our projects.
+For this worksheet we will be using phones and tablets to 3D scan objects.
 
-# 1. Reality Scan
+## 1. Photogrammetry
 
-To scan objects we will use [Reality scan](https://www.realityscan.com/en-US) from Epic games who make the Unreal Game Engine.
+We will be using Photogrametry to scan our objects, this works by taking lots of photos of your subject and then finding common elements to compare them, triangulating features to create a 3D model.
 
-Reality scan uses photogrammetry to create a 3D model from pictures of an object. 
+> [!NOTE]
+> There are other methods for 3D scanning objects such as Lidar through a specialist device or on higher end phones and tablets. At the bottom of this worksheet I link to other apps which support Lidar which you may want to experiment with.
 
-## Download the app
+# 2. Reality Scan
 
+We will use [Reality scan](https://www.realityscan.com/en-US) from Epic games who make the Unreal Game Engine. It is free and available on most mobile devices.
+
+It can produces some very good results if used well:
+
+[Reality scan examples on sketchfab](https://sketchfab.com/search?q=realityscan&type=models)
+ 
 You can find the app on the android of Apple store
 
 [https://www.realityscan.com/en-US/mobile](https://www.realityscan.com/en-US/mobile)
 
-You can or even use a web based version where you can upload images.
+There is also a PC app which allows you to upload images and give you much more control over how your scan is processed.
 
-## Principles of Photogrammetry 
+> [!IMPORTANT]
+> This guide uses version 1.7.1 of the mobile app, but you should use the latest version which may have some differences.
 
-Before we scan anything we need consider how photogrammetry works so that we can get the best quality scan.
+## 3. Principles of Photogrammetry 
 
-### Image Quality
+Before we scan anything we need consider how photogrammetry works to achieve the best quality 3D model
+
+It can take a while to take all the images and process them so we want to maximise our chances of getting a good scan.
+
+### Photo Quality
 
 Each image needs to be sharp, not blurry or noisy
 	- Move the camera slowly
-	- Ensure there is plenty of light.
+	- Ensure there is plenty of even light
 	
 ### Subject Coverage
 
-The entire object needs to be captured, take photos above and bellow the object and circle it to at multiple heights to capture all the details.
+The entire object needs to be captured, if you don't take a photo of an area it will not be part of your model.
+
+Take photos above and bellow the object and circle it to at multiple heights to capture all the details.
 
 ### Information Overlap
 
@@ -36,12 +50,12 @@ Each image should overlap with another so that common reference points on each p
 
 ## Environment
 
-We also need to make sure the environment is consistent through out the scan to ensure the images all match
+The environment your object is in should be consistent through out the scan to ensure the images all match, using a turntable and a blank background can help with this.
 
 - If you are outside, choose a grey day to avoid harsh shadows or the light levels changing during the scan
 - no wind, the object or background should not move during the scan.
 
-# 2. Scan an object
+## Materials
 
 Some objects are more suitable then other and will give better results
 
@@ -52,40 +66,93 @@ Avoid objects which are:
 
 Organic objects with texture and detail work best.
 
+# 4. Scan an object
+
+Now we know the basics we can try to scan an object
+
 - Find a suitable small object to scan
 - Place it somewhere you can access every side to get the best angle or use a turn table
 - Open the app and press the plus symbol to create a new scan.
 
 - [reality scan youtube site](https://www.youtube.com/@RealityScanOfficial)
 
+Reality scan has 2 modes, 
+
+- Automatic guides you through the process and automatically takes images
+- Manual give you move control giving better results but you have to manually take the photos. One huge benefit is that it allows you to flip the object over and capture the base.
+
 # 3. Export the scan
 
 Once you have finished scanning your object you need to wait for it to process it locally.
 
-At this stage you want to look at the point cloud and see how it looks. If lots of bits are missing or missaligned you may want to consider rescanning the object differently to improve the results.
+At this stage you want to look at the point cloud and see how it looks. If lots of bits are missing or misaligned you may want to consider rescanning the object differently to improve the results.
 
+When you are happy with it, press process and wait for it to generate your 3D model.
 
 ## Get your scan
+
+When its finished you should be able to view the model on the app.
 
 You can either download or send it to sketchfab.
 
 If you Export the model to sketchfab you can download it as an .obj file which will import to most 3D packages.
 
-If you export straight from the app you will get a .zip file containing a .glb file, these can be difficult to open in some packages, but there are lots of tools ways to convert the file to a different format.
+Here are some I created and sent to sketchfab:
+
+[limestone sculpture](https://sketchfab.com/3d-models/limestone-sculpture-c4f95299aa564662b8b6a532c6e152da)
+
+[wooden cup](https://sketchfab.com/3d-models/wooden-tankard-859f4a430da14b728d80ea953bcf8e43)
+
+You should be able to download them using the link bellow the model.
+
+If you export straight from the app you will get a .zip file containing a .glb file and textures, these can be difficult to open in some packages (Maya), but there are lots of tools ways to convert the file to a different format.
 
 [https://convert3d.org/glb-to-fbx](https://convert3d.org/glb-to-fbx)
 
-# 4. Import your scan
+# 4. Cleanup
 
-We can now import our scans in to Maya to clean them up if needed.
+We can now import our scans in to Maya to clean them up
 
 - Make a new Maya file 
 - Import your model
 
+You may want to think about a few things
+
+- Are there any holes
+- Can I delete any parts
+- Do I need to reduce the polycount
+
+# 5. People
+
+Once you have mastered scanning objects you can thing about scanning people.
+
+The process is exactly the same, but scanning a person has additional challenges.
+
+## Size
+
+People are quite big, make sure you get images over the entire body including the top of their head and under their arms and legs. Pay particular attention to the face and hands. 
+
+## Movement
+
+Your subject must remain entirely still, even a slight movement will cause ghosting or extra features on the final model.
+
+Holding you arms still and up for 2 minutes is virtually impossible, one technique to hold them still is to rest them on stands which you can then crop out later in Maya.
+
+## Position
+
+If you want to rig your character you need to scan them with their arms away from their body and their legs separated so they don't stick together.
+
+## Scan a person
+
+- Try to scan a persons face or hand.
+
+- Look at the result and consider how you could improve it.
+
+
 
 # Additional resources
 
-## Other photogrametry apps
+## Other photogrammetry apps
 
 There are other photogrametry apps available which you can experiment with for you own project, I particularly recomend:
 - [polycam](https://poly.cam/tools/photogrammetry)
