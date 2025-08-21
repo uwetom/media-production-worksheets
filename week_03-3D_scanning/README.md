@@ -56,14 +56,49 @@ Organic objects with texture and detail work best.
 - Place it somewhere you can access every side to get the best angle or use a turn table
 - Open the app and press the plus symbol to create a new scan.
 
+- [reality scan youtube site](https://www.youtube.com/@RealityScanOfficial)
+
 # 3. Export the scan
 
+Once you have finished scanning your object you need to wait for it to process it locally.
 
-f
+At this stage you want to look at the point cloud and see how it looks. If lots of bits are missing or missaligned you may want to consider rescanning the object differently to improve the results.
 
 
+## Get your scan
+
+You can either download or send it to sketchfab.
+
+If you Export the model to sketchfab you can download it as an .obj file which will import to most 3D packages.
+
+If you export straight from the app you will get a .zip file containing a .glb file, these can be difficult to open in some packages, but there are lots of tools ways to convert the file to a different format.
+
+[https://convert3d.org/glb-to-fbx](https://convert3d.org/glb-to-fbx)
+
+# 4. Import your scan
+
+We can now import our scans in to Maya to clean them up if needed.
+
+- Make a new Maya file 
+- Import your model
 
 
+# Additional resources
+
+## Other photogrametry apps
+
+There are other photogrametry apps available which you can experiment with for you own project, I particularly recomend:
+- [polycam](https://poly.cam/tools/photogrammetry)
+- [Kiriengine](https://www.kiriengine.app/)
+
+If you are on a PC, you can also use the reality scan PC add through the Epic games launcher which has many more options for refining you scan.
+
+-[reality scan](https://www.realityscan.com/en-US)
+
+## More tutorials
+
+- [How to use reality scan for mobile](https://www.youtube.com/watch?v=spPIqK3NVwc)
+- [reality scan youtube site](https://www.youtube.com/@RealityScanOfficial)
 
 # References
 
