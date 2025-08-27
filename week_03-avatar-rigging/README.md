@@ -1,0 +1,2 @@
+# Rigging Avatars with Mixamo
+
