@@ -19,7 +19,7 @@ Create an account https://studio.tripo3d.ai/ to get free credits.
 
 ![](images/generate-3d-1.jpg)
 
-Select Build and refine and then 'Generate'.  
+Make sure 'Build & Refine' is selected and Image / Text to 3D.  
 
 ![](images/generate-3d-2.jpg)
 
@@ -54,7 +54,7 @@ Now click 'Generate'.
 
 ![](images/generate-3d-9.jpg)
 
-Add the texture as before: Result  
+Add the texture as before:     
 
 ![](images/generate-3d-10.jpg)
 
@@ -69,7 +69,7 @@ A variable result, you may need to expriment with different images for a better 
 
 ![](images/generate-3d-11.jpg)
 
-Or try scanning a head and and stitching that onto a T Pose body in Maya.   
+Finally if your character is someone you know or have access too try 3D scanning their head and and stitching that onto a T Pose body in Maya.   
 
 
 In the next worksheet we will rig the avatar.   
