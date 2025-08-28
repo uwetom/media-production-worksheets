@@ -61,7 +61,7 @@ Add the texture as before:
 This produces variable results, as you can see, but maybe useful if you have no full body photo.
 
 # Method Three
-You can also try generating a head and shoulders from a portrait and stitching that onto a T Pose body in Maya.   
+You can also try generating a head from a portrait photo and stitching that onto a T Pose body in Maya.   
 
 ![](images/generate-3d-7.jpg)
 
