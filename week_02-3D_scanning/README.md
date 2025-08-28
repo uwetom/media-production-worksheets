@@ -64,36 +64,46 @@ Avoid objects which are:
 - Shiny
 - Plain
 
-Organic objects with texture and detail work best.
+> [!NOTE] Organic objects with texture and detail work best.
 
-# 4. Scan an object
+# 4. Scan an Object
 
 Now we know the basics we can try to scan an object
 
-- Find a suitable small object to scan
-- Place it somewhere you can access every side to get the best angle or use a turn table
 - Open the app and press the plus symbol to create a new scan.
 
 - [reality scan youtube site](https://www.youtube.com/@RealityScanOfficial)
 
 Reality scan has 2 modes, 
 
-- Automatic guides you through the process and automatically takes images
-- Manual give you move control giving better results but you have to manually take the photos. One huge benefit is that it allows you to flip the object over and capture the base.
+1. Automatic guides you through the process and automatically takes images
 
-# 3. Export the scan
+2. Manual give you move control giving better results but you have to manually take the photos. One huge benefit is that it allows you to flip the object over and capture the base.
 
-Once you have finished scanning your object you need to wait for it to process it locally.
+For this first test we will try automatic mode.
 
-At this stage you want to look at the point cloud and see how it looks. If lots of bits are missing or misaligned you may want to consider rescanning the object differently to improve the results.
+
+- Find a suitable small object to scan
+- Place it somewhere you can access every side to get the best angle or use a turn table
+- Scan you object, make sure you capture everything and don't move too quickly.
+
+## Evaluate the scan
+
+Once you have finished scanning your object you need to wait for it to process a point cloud locally on the device.
+
+At this stage you want to see how it looks. If lots of bits are missing or misaligned you may want to consider rescanning the object differently to improve the results.
 
 When you are happy with it, press process and wait for it to generate your 3D model.
 
-## Get your scan
+## Process
 
 When its finished you should be able to view the model on the app.
 
-You can either download or send it to sketchfab.
+it is a good idea to crop it before processing it further to maximise the texutre quality.
+
+## Export
+
+Once the 3d model has been generated you can either download or send it to sketchfab.
 
 If you Export the model to sketchfab you can download it as an .obj file which will import to most 3D packages.
 
@@ -109,46 +119,40 @@ If you export straight from the app you will get a .zip file containing a .glb f
 
 [https://convert3d.org/glb-to-fbx](https://convert3d.org/glb-to-fbx)
 
-# 4. Cleanup
+# 5. Scan a person
 
-We can now import our scans in to Maya to clean them up
+The process is exactly the same with the added challenge that the person has to stay absolutely still for the entire scan to avoid ghosting and blurred textures.
 
-- Make a new Maya file 
-- Import your model
+## Just the head
 
-You may want to think about a few things
+In pairs, scan each others head.
 
-- Are there any holes
-- Can I delete any parts
-- Do I need to reduce the polycount
+- Use manual mode, I have found it gives much better results.
+- Take off any glasses, you can always add them in again later.
+- Consider tying up long hair.
+- Seat the model in a comfortable position with access all around them for scanning.
+- Try to not blink when you are taking photos of the front of their face.
 
-# 5. People
+> [!NOTE]Think about the facial expression, you could make multiple scans with different expressions.
 
-Once you have mastered scanning objects you can thing about scanning people.
+## Extra - Scan a whole person
 
-The process is exactly the same, but scanning a person has additional challenges.
+It is very difficult to get a good scan of an entire person, but it is possible to get aceptable results if you are careful and your subject is good at standing still.
 
-## Size
+### Size
 
 People are quite big, make sure you get images over the entire body including the top of their head and under their arms and legs. Pay particular attention to the face and hands. 
 
-## Movement
-
-Your subject must remain entirely still, even a slight movement will cause ghosting or extra features on the final model.
-
-Holding you arms still and up for 2 minutes is virtually impossible, one technique to hold them still is to rest them on stands which you can then crop out later in Maya.
-
-## Position
+### Position
 
 If you want to rig your character you need to scan them with their arms away from their body and their legs separated so they don't stick together.
 
-## Scan a person
+### Scan
 
-- Try to scan a persons face or hand.
-
+- Try to scan a whole person
 - Look at the result and consider how you could improve it.
 
-
+> [!NOTE] If you are struggling to get a complete scan, you could consider scanning the person in parts and joining them together in Maya afterwards.
 
 # Additional resources
 
