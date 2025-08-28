@@ -64,7 +64,7 @@ Avoid objects which are:
 - Shiny
 - Plain
 
-Organic objects with texture and detail work best.
+> [!NOTE] Organic objects with texture and detail work best.
 
 # 4. Scan an Object
 
@@ -121,39 +121,36 @@ If you export straight from the app you will get a .zip file containing a .glb f
 
 # 5. Scan a person
 
-Once you have mastered scanning objects you can thing about scanning people.
-
 The process is exactly the same with the added challenge that the person has to stay absolutely still for the entire scan to avoid ghosting and blurred textures.
 
 ## Just the head
 
 In pairs, scan each others head.
 
+- Use manual mode, I have found it gives much better results.
 - Take off any glasses, you can always add them in again later.
 - Consider tying up long hair.
 - Seat the model in a comfortable position with access all around them for scanning.
-
-I have found the manual mode gives much better results, 
+- Try to not blink when you are taking photos of the front of their face.
 
 ## Extra - Scan a whole person
 
 It is very difficult to get a good scan of an entire person, but it is possible to get aceptable results if you are careful and your subject is good at standing still.
 
-## Size
+### Size
 
 People are quite big, make sure you get images over the entire body including the top of their head and under their arms and legs. Pay particular attention to the face and hands. 
 
-
-## Position
+### Position
 
 If you want to rig your character you need to scan them with their arms away from their body and their legs separated so they don't stick together.
 
-## Scan
+### Scan
 
 - Try to scan a whole person
 - Look at the result and consider how you could improve it.
 
-If you are struggling to get a complete scan, you could consider scanning the person in parts and joining them together in Maya afterwards.
+> [!NOTE] If you are struggling to get a complete scan, you could consider scanning the person in parts and joining them together in Maya afterwards.
 
 # Additional resources
 
