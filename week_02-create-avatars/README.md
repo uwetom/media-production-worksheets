@@ -32,3 +32,5 @@ Result:
 
 To download select FBX (file type) and Export.   
 ![](images/generate-3d-6.jpg)
+
+Now I'm ready to rig the avatar.   
