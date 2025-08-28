@@ -19,7 +19,7 @@ Create an account https://studio.tripo3d.ai/ to get free credits.
 
 ![](images/generate-3d-1.jpg)
 
-Select Generation and Build and refine.   
+Select Build and refine and then 'Generate'.  
 
 ![](images/generate-3d-2.jpg)
 
@@ -41,12 +41,12 @@ To download select FBX (file type) and Export.
 ![](images/generate-3d-6.jpg)
 
 # Method Two
-You can also try generating the T pose from a portrait photo
+You can also try generating the T pose from a portrait photo.   
 Upload the photo and add a text prompt. Click 'Edit Image'.    
 
 ![](images/generate-3d-7.jpg)
 
-Result:  
+This creates a T pose photo:  
 
 ![](images/generate-3d-8.jpg)
 
@@ -55,14 +55,23 @@ Now click 'Generate'.
 ![](images/generate-3d-9.jpg)
 
 Add the texture as before: Result  
-    
+
 ![](images/generate-3d-10.jpg)
 
 This produces variable results, as you can see, but maybe useful if you have no full body photo.
 
+# Method Three
+You can also try generating a head and shoulders from a portrait and stitching that onto a T Pose body in Maya.   
+
+![](images/generate-3d-7.jpg)
+
+A variable result, you may need to expriment with different images for a better result.  
+
+![](images/generate-3d-11.jpg)
+
+Or try scanning a head and and stitching that onto a T Pose body in Maya.   
 
 
-Now I'm ready to rig the avatar.   
+In the next worksheet we will rig the avatar.   
 
-## Generate Avatar Method Two
 
