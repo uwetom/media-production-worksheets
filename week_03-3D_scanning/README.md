@@ -133,6 +133,8 @@ In pairs, scan each others head.
 - Seat the model in a comfortable position with access all around them for scanning.
 - Try to not blink when you are taking photos of the front of their face.
 
+> [!NOTE]Think about the facial expression, you could make multiple scans with different expressions.
+
 ## Extra - Scan a whole person
 
 It is very difficult to get a good scan of an entire person, but it is possible to get aceptable results if you are careful and your subject is good at standing still.
