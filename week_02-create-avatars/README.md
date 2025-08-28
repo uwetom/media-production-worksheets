@@ -1,6 +1,6 @@
 # Creating Avatars with Generative AI
 
-In this worksheet we're going to generate a 3D Avatar using generative AI.
+In this worksheet we're going to create a 3D Avatar using generative AI.
 
 ## 1. Remove background
 In this example I have made an Avatar of myself from a single still photo of me in T pose.   
