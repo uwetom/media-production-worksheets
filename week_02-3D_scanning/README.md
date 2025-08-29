@@ -1,10 +1,10 @@
 # 3D scanning
 
-For this worksheet we will be using phones and tablets to 3D scan objects.
+For this worksheet we will be using phones and tablets to 3D scan objects and people.
 
 ## 1. Photogrammetry
 
-We will be using Photogrametry to scan our objects, this works by taking lots of photos of your subject and then finding common elements to compare them, triangulating features to create a 3D model.
+We will be using Photogrametry,  this works by taking lots of photos of your subject and then finding common elements to compare them, triangulating features to create a 3D model.
 
 > [!NOTE]
 > There are other methods for 3D scanning objects such as Lidar through a specialist device or on higher end phones and tablets. At the bottom of this worksheet I link to other apps which support Lidar which you may want to experiment with.

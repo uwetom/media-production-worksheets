@@ -56,8 +56,6 @@ Now that we have our footage we may need to clean it up to impove the tracking q
 - You can now export your clips as fbx files for use in Maya or Unity
 
 
-[<img src="images/export_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=92cebaf2-81cc-44dd-b0fd-b34800d6de9d)
-
 ### Extras
 
 There are lots of video on the Rokoko you tube site you can use to impove your motion capture
