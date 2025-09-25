@@ -9,6 +9,7 @@ To begin you'll need some 1920 x 1080 HD video footage and your avatar outputted
 We are aiming for something like this: 
 
 ![composited scene](images/rod-short-clip.gif)
+(see the full 20s video: https://youtu.be/g9yxjUjCvWk)
 
 The avatar is stitched into the video footage, tracked / pans with the video, has shadows being cast in real time, and is integrated into the scene using perspective and some filters / fog / post production effects.
 
