@@ -20,7 +20,7 @@ If not https://www.pexels.com/ is a good source of footage:
 
 We are going to using Adobe After Effects 2025 to do the compositing. These techniques will not work with earlier versions.  
 
-## Importing into After Effects (AE)
+## 1. Importing into After Effects (AE)
 
 Before you import any assets into After Effects create a dedicated folder for both your assets and your AE project file as I have done here. 
 
@@ -35,14 +35,14 @@ This first video steps you through how to import your footage and avatar into Af
 [<img src="images/AE-1.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=464ed015-7f98-42dc-ba4c-b36300bebee9) 
 
 
-## Tracking your footage 
+## 2. Tracking your footage 
 
 This video shows you how to track your footage so that your avatar moves with the footage.  
 This uses image tracking and a virtual camera.
 
 [<img src="images/AE-2.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=907211f7-5623-44de-af65-b36300d64790) 
 
-## Add lighting and shadows
+## 3. Add lighting and shadows
 
 We will add an environment light and HDRI light map and activate the shadows on the avatar.  
 Now that your avatar is moving with the footage this video shows you how to light and add a shadow to the avatar to visually connect it with the ground.  
@@ -54,20 +54,20 @@ https://polyhaven.com/hdris
 
 [<img src="images/AE-3.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5ca99618-4b64-4d1f-a204-b36300e20067) 
 
-## Adding some post production polish: Fog
+## 4. Adding some post production polish: Fog
 
 This next video shows you how to add some atomsphere / fog to the scene.
 
 [<img src="images/AE-4.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e0a67a15-f1b5-41db-978c-b36300edc6d5) 
 
-## Adding some post production polish: Colour filter / adjustment layer
+## 5. Adding some post production polish: Colour filter / adjustment layer
 
 This video shows you how to colour tint the whole scene with an adjustment layer.  
 
 [<img src="images/AE-5.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5b98dc3e-1673-4c2a-aba1-b36300f5a62b) 
 
 
-## Add to render queue and render output.
+## 6. Add to render queue and render output.
 
 Once your video compositing is complete the final step is to render the output.  
 Set the render area by dragging the handles (green laso). And then add to the render queue.  
