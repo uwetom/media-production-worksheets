@@ -20,24 +20,52 @@ If not https://www.pexels.com/ is a good source of footage:
 
 We are going to using Adobe After Effects 2025 to do the compositing. These techniques will not work with earlier versions.  
 
-## Importing into After Effects
+## Importing into After Effects (AE)
 
-This video steps you through how to import your footage and avatar into After Effects and how set up your composition (timeline). And how to position your avatar.  
+Before you import any assets into After Effects create a dedicated folder for both your assets and your AE project file as I have done here. 
+
+<p align="center">
+<img src="images/folders.png" alt="folders" width="70%"/>
+</p>   
+
+After Effects references files when they are in your project, so if you move the files the reference will be lost and your footage and 3D model will not show in AE. 
+
+This first video steps you through how to import your footage and avatar into After Effects and how set up your composition (timeline). And how to position your avatar.  
+
+[<img src="images/AE-1.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=464ed015-7f98-42dc-ba4c-b36300bebee9) 
+
 
 ## Tracking your footage 
 
 This video shows you how to track your footage so that your avatar moves with the footage.  
 This uses image tracking and a virtual camera.
 
-## Adding some post production polish
+[<img src="images/AE-2.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=907211f7-5623-44de-af65-b36300d64790) 
 
+## Add lighting and shadows
+
+We will add an environment light and HDRI light map and activate the shadows on the avatar.  
 Now that your avatar is moving with the footage this video shows you how to light and add a shadow to the avatar to visually connect it with the ground.  
+
+We will add an environment light and HDRI light map and activate the shadows on the avatar.   
+
 For this video you will need an HDRI backdrop to match the lighting your scene:   
 https://polyhaven.com/hdris
 
-This next video shows you how to add some atomsphere to the scene.
+[<img src="images/AE-3.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5ca99618-4b64-4d1f-a204-b36300e20067) 
 
-This video shows you how to colour tint the whole scene.
+## Adding some post production polish: Fog
+
+This next video shows you how to add some atomsphere / fog to the scene.
+
+[<img src="images/AE-4.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e0a67a15-f1b5-41db-978c-b36300edc6d5) 
+
+## Adding some post production polish: Colour filter / adjustment layer
+
+This video shows you how to colour tint the whole scene with an adjustment layer.  
+
+[<img src="images/AE-5.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5b98dc3e-1673-4c2a-aba1-b36300f5a62b) 
+
 
 ## Add to render queue and render output.
 
@@ -59,7 +87,9 @@ Adjusting the output module:
 - In the dialog / settings select quicktime > click Ok to accept and close the dialog     
 This will render the video as a .mov (on windows you should select .avi)
 
-![render queue settings](images/render-settings-2.png)
+<p align="center">
+<img src="images/render-settings-2.png" alt="render queue settings" width="70%"/>
+</p>
 
 Render the video:
 
