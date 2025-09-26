@@ -31,7 +31,6 @@ Just doing the head is good compromise, it is easier to keep just your head stil
 
 [scanned head](https://sketchfab.com/3d-models/grandpa-realityscan-35316e9640384a5589ab662a4f4998c8)
 
-
 In pairs, scan each others head.
 
 - Your subject **must** stay absolutely still

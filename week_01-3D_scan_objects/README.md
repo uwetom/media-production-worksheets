@@ -1,10 +1,12 @@
 # 3D scanning
 
-For this worksheet we will be using phones and tablets to 3D scan objects and people.
+For this worksheet we will be using phones and tablets to 3D scan objects
 
 ## 1. Photogrammetry
 
-We will be using Photogrametry,  this works by taking lots of photos of your subject and then finding common elements to compare them, triangulating features to create a 3D model.
+We will be using Photogrammetry,  this works by taking lots of photos of your subject and then finding common elements to compare them, triangulating features to create a 3D model.
+
+![](images/review-scan-1.png)
 
 > [!NOTE]
 > There are other methods for 3D scanning objects such as Lidar through a specialist device or on higher end phones and tablets. At the bottom of this worksheet I link to other apps which support Lidar which you may want to experiment with.
@@ -32,13 +34,17 @@ Before we scan anything we need consider how photogrammetry works to achieve the
 
 It can take a while to take all the images and process them so we want to maximise our chances of getting a good scan.
 
+
+
 ### Photo Quality
 
 Each image needs to be sharp, not blurry or noisy
-	- Move the camera slowly
+	- Move the camera **slowly**
 	- Ensure there is plenty of even light
 	
 ### Subject Coverage
+
+![](images/RealityScan_app_intro.png)
 
 The entire object needs to be captured, if you don't take a photo of an area it will not be part of your model.
 
@@ -76,16 +82,21 @@ Now we know the basics we can try to scan an object
 
 Reality scan has 2 modes, 
 
-1. Automatic guides you through the process and automatically takes images
+![](images/guide-new-project.png)
+
+1. Augmented reality guides you through the process and automatically takes images
 
 2. Manual give you move control giving better results but you have to manually take the photos. One huge benefit is that it allows you to flip the object over and capture the base.
 
-For this first test we will try automatic mode.
-
+For this first test we will try augmented mode.
 
 - Find a suitable small object to scan
 - Place it somewhere you can access every side to get the best angle or use a turn table
 - Scan you object, make sure you capture everything and don't move too quickly.
+
+For more detailed instructions, there is a useful guide
+
+[reality scan step by step](https://dev.epicgames.com/documentation/en-us/realityscan-mobile/realityscan-step-by-step-guide)
 
 ## Evaluate the scan
 
@@ -119,40 +130,10 @@ If you export straight from the app you will get a .zip file containing a .glb f
 
 [https://convert3d.org/glb-to-fbx](https://convert3d.org/glb-to-fbx)
 
-# 5. Scan a person
+## Import
 
-The process is exactly the same with the added challenge that the person has to stay absolutely still for the entire scan to avoid ghosting and blurred textures.
+Try to import the .fbx file in to Maya
 
-## Just the head
-
-In pairs, scan each others head.
-
-- Use manual mode, I have found it gives much better results.
-- Take off any glasses, you can always add them in again later.
-- Consider tying up long hair.
-- Seat the model in a comfortable position with access all around them for scanning.
-- Try to not blink when you are taking photos of the front of their face.
-
-> [!NOTE]Think about the facial expression, you could make multiple scans with different expressions.
-
-## Extra - Scan a whole person
-
-It is very difficult to get a good scan of an entire person, but it is possible to get aceptable results if you are careful and your subject is good at standing still.
-
-### Size
-
-People are quite big, make sure you get images over the entire body including the top of their head and under their arms and legs. Pay particular attention to the face and hands. 
-
-### Position
-
-If you want to rig your character you need to scan them with their arms away from their body and their legs separated so they don't stick together.
-
-### Scan
-
-- Try to scan a whole person
-- Look at the result and consider how you could improve it.
-
-> [!NOTE] If you are struggling to get a complete scan, you could consider scanning the person in parts and joining them together in Maya afterwards.
 
 # Additional resources
 
