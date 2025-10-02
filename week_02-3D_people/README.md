@@ -68,6 +68,7 @@ Using 2 tripods as stands for the arms can really help them to hold the arms sti
 - Try to scan a whole person
 - Look at the result and consider how you could improve it.
 
-> [!NOTE] If you are struggling to get a complete scan, you could consider scanning the person in parts and joining them together in Maya afterwards.
+> [!NOTE]
+> If you are struggling to get a complete scan, you could consider scanning the person in parts and joining them together in Maya afterwards.
 
 
