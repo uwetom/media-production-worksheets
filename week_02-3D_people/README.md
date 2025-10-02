@@ -40,6 +40,8 @@ In pairs, scan each others head.
 - Seat the model in a comfortable position with access all around them for scanning.
 - Try to not blink when you are taking photos of the front of their face.
 
+- Take Lots of photos, the app lets you take 250, you should aim to take at least 150. The more the better.
+
 > [!NOTE]Think about the facial expression, you could make multiple scans with different expressions.
 
 After you have scanned, wait for initial processing then crop the image before the final cloud processing
