@@ -42,7 +42,8 @@ In pairs, scan each others head.
 
 - Take Lots of photos, the app lets you take 250, you should aim to take at least 150. The more the better.
 
-> [!NOTE]Think about the facial expression, you could make multiple scans with different expressions.
+>[!NOTE]
+>Think about the facial expression, you could make multiple scans with different expressions.
 
 After you have scanned, wait for initial processing then crop the image before the final cloud processing
 
