@@ -11,6 +11,7 @@ We will be using Photogrammetry,  this works by taking lots of photos of your su
 > [!NOTE]
 > There are other methods for 3D scanning objects such as Lidar through a specialist device or on higher end phones and tablets. At the bottom of this worksheet I link to other apps which support Lidar which you may want to experiment with.
 
+
 # 2. Reality Scan
 
 We will use [Reality scan](https://www.realityscan.com/en-US) from Epic games who make the Unreal Game Engine. It is free and available on most mobile devices.
@@ -33,7 +34,6 @@ There is also a PC app which allows you to upload images and give you much more 
 Before we scan anything we need consider how photogrammetry works to achieve the best quality 3D model
 
 It can take a while to take all the images and process them so we want to maximise our chances of getting a good scan.
-
 
 
 ### Photo Quality
@@ -110,11 +110,11 @@ When you are happy with it, press process and wait for it to generate your 3D mo
 
 When its finished you should be able to view the model on the app.
 
-it is a good idea to crop it before processing it further to maximise the texutre quality.
+it is a good idea to crop it before processing it further to maximise the texture quality.
 
 ## Export
 
-Once the 3d model has been generated you can either download or send it to sketchfab.
+Once the 3D model has been generated you can either download or send it to sketchFab.
 
 If you Export the model to sketchfab you can download it as an .obj file which will import to most 3D packages.
 
