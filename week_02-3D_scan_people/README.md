@@ -31,16 +31,19 @@ Just doing the head is good compromise, it is easier to keep just your head stil
 
 [scanned head](https://sketchfab.com/3d-models/grandpa-realityscan-35316e9640384a5589ab662a4f4998c8)
 
+![](images/rod_head.jpg)
+
 In pairs, scan each others head.
 
 - Your subject **must** stay absolutely still
+- Take **Lots** of photos, the app lets you take 250, you should aim to take at least 150. The more the better.
 - Use **manual mode**, I have found it gives much better results.
 - Take off any glasses, you can always add them in again later.
 - Consider tying up long hair.
 - Seat the model in a comfortable position with access all around them for scanning.
 - Try to not blink when you are taking photos of the front of their face.
+- Try to also capture the neck and shoulder.
 
-- Take Lots of photos, the app lets you take 250, you should aim to take at least 150. The more the better.
 
 >[!NOTE]
 >Think about the facial expression, you could make multiple scans with different expressions.
@@ -57,11 +60,24 @@ It is very difficult to get a good scan of an entire person, but it is possible 
 
 People are quite big, make sure you get images over the entire body including the top of their head and under their arms and legs. Pay particular attention to the face and hands. 
 
+### Sections
+
+Capture a person in sections, start at the head and work your way around the body in circles.
+
 ### Position
 
 If you want to rig your character you need to scan them with their arms away from their body and their legs separated so they don't stick together.
 
 Using 2 tripods as stands for the arms can really help them to hold the arms still.
+
+Ideally the arms would be in a t-pose
+
+![man with tripods holding out arms](images/tripod_man.jpg)
+
+But an A-pose will also work.
+
+![man in A pose](images/tom.jpg)
+
 
 ### Scan
 
