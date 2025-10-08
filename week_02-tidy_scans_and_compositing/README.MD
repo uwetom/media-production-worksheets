@@ -29,13 +29,14 @@ Now that we have cleaned up the model we can look into adding other elements, Ad
 
 You can find your own accessories on Sketchfab.com. or use this hat
 
-[Beanie hat download](assets/beanie.zip)
+[Beanie hat download](assets/beanie.fbx)
+(This file is from https://sketchfab.com/3d-models/black-knit-beanie-edb7f2c044b64d5da40484495239fee3, but the texture has been reduced)
 
 The following 2 charcters have been downloaded from Mixamo.com using the t-pose animation.
 
-[Character 1 download](assets/Ch18_nonPBR.fbx)
+[Character 1 download](assets/Ch18_nonPBR.fbx)(from Mixamo.com)
 
-[Character 2 download](assets/Ch31_nonPBR.fbx)
+[Character 2 download](assets/Ch31_nonPBR.fbx)(from Mixamo.com)
 
 [<img src="images/compositing_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=83294299-c7fe-43c6-a99c-b34700f600ab)
 
