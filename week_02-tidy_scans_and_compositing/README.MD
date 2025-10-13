@@ -27,12 +27,16 @@ or just double click on the tool to open the options panel.
 
 Now that we have cleaned up the model we can look into adding other elements, Adding glasses and a body.
 
-You can find your own accessories on Sketchfab.com. or use this hat
+Here is a clean version of Rods Head:
+
+[Rods Head](assets/rod_head.fbx)
+
+You can find your own accessories on Sketchfab.com. or use this hat:
 
 [Beanie hat download](assets/beanie.fbx)
 (This file is from https://sketchfab.com/3d-models/black-knit-beanie-edb7f2c044b64d5da40484495239fee3, but the texture has been reduced)
 
-The following 2 charcters have been downloaded from Mixamo.com using the t-pose animation.
+The following 2 characters have been downloaded from Mixamo.com using the t-pose animation.
 
 [Character 1 download](assets/Ch18_nonPBR.fbx)(from Mixamo.com)
 
