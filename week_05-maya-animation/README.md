@@ -10,30 +10,33 @@ In this worksheet we apply motion capture data to our character.
 
 When rigging, a t-pose is used to calibrate the character. 
 
-You need to do this before importing any other mo-cap data from Mixamo or Rococo.
+You need to do this before importing any other mo-cap data
 
 In this video we will export our character in a t-pose from Mixamo and import it into Maya.
 
-[<img src="images/tpose-video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d6b047d6-07af-442e-913d-b34c00b70c18)
+[<img src="images/1-tpose.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6fe41312-87aa-46a0-a596-b38000ebb834)
 
 ## 2. Add a Mixamo Mo-cap clip
 
-We can now add more animations from Mixamo
+We can now add a motion capture clip from Rokoko.
 
-[<img src="images/mixamo_clip_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=af4668be-d5e9-4aff-87d3-b34c00bce067)
+[<img src="images/2-add-animation.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9d193643-e436-4832-9fcb-b38000edc830)
 
-## 3. Blending Multiple Mixamo Mo-cap clips
+## 3. Edit animation data
 
-We can now add another Mixamo mo-cap clip and blend it with the first.
+The animation data you get from the Rokoko motion capture suit is not always perfect, this video show you how to adjust it.
+
+[<img src="images/3-animation_layers.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=47db9eb8-4c31-4a0f-8ef8-b38000efd9e5)
+
+## 4. Add multiple clips
+
+You can blend together multiple Rokoko animation clips.
+
+[<img src="images/4-multiple-clips.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f831fe63-fc92-49de-9815-b38000fde5a6)
 
 > [!TIP]
 > The end of the first clip should match the start of second clip as closely as possible to get a good blend, you can clip either of the clips to find the best spot.
 
-[<img src="images/blend_mocap-video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=77143cc8-f2d4-460a-ad39-b34c00cb0670)
+If the clips do not start and end in the same position you can alter the location using a relocator
 
-## 4. Adding Rokoko Mo-cap data
-
-Adding the Rokoko MO-cap data take a few more steps, be we can blend 
-
-[<img src="images/rokokok_mocap-vid.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=0d74d8a0-911d-408d-8636-b34c00de3742)
-
+[<img src="images/5-relocator.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=61e9586d-4a5f-44f4-9f82-b38001004387)
