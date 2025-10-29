@@ -40,3 +40,9 @@ You can blend together multiple Rokoko animation clips.
 If the clips do not start and end in the same position you can alter the location using a relocator
 
 [<img src="images/5-relocator.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=61e9586d-4a5f-44f4-9f82-b38001004387)
+
+## 5. Export from Maya
+
+You can easily export your animated character from Maya for use in other software:
+
+[<img src="images/export.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c8bc6f76-b320-4b03-a42b-b38500fd806d)
