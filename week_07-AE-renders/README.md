@@ -4,9 +4,7 @@
 
 In this worksheet we are going to export a composition from After Effects.  
 
-If you are going to produce a final mp4 video from After Effects the settings are slightly different to producing a video for further editing in Premiere.  
-
-Watch out for the variations in the settings...    
+If you are going to produce a final mp4 video from After Effects the settings (explored below) are slightly different to producing a video for further editing in Premiere.  
 
 ## 1. Select your render area   
 
