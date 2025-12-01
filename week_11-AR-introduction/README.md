@@ -43,7 +43,7 @@ This scene now needs some specific AR assets to work.
 
 - Delete the **main Camera** in the hierarchy.
 - **right click** in the Hierarchy and add an **XR>AR Session**
-- also Add an **XR>XR Origin (Mobile AR)
+- also Add an **XR>XR Origin (Mobile AR)**
 
 ![](images/xr_session.jpg)
 
