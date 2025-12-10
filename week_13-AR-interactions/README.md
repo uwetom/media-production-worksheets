@@ -180,11 +180,11 @@ public class Interactions : MonoBehaviour
 
 In my script I have set the visibility of the annotation to be false at the start, so I want to turn it off in the editor to match.
 
-[Hide annotations](images/hide_annotation.jpg)
+![Hide annotations](images/hide_annotation.jpg)
 
 Lastly, I need to drag my annotation object into the new public GameObject variable slot I just created on my script.
 
-[Drag object to script](images/annotation_to_script.jpg)
+![Drag object to script](images/annotation_to_script.jpg)
 
 ## 5. Test
 
