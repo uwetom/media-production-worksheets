@@ -61,7 +61,7 @@ The tracked image manager component manages all the images we want to track.
 
 [<img src="images/tracked_imag_manager_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9d6bb1d7-8616-40bb-9069-b32b00c41f36)
 
-Lastly, we need to add our new library to our tracked image manager
+Lastly, we need to add our new library to our tracked image manager so that it knows what images it is looking for.
 
 - Drag the **ReferenceImageLibrary** onto the **Serialized Library** slot in your **AR Tracked Image Manager** component.
 
