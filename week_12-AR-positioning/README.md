@@ -61,6 +61,12 @@ The tracked image manager component manages all the images we want to track.
 
 [<img src="images/tracked_imag_manager_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9d6bb1d7-8616-40bb-9069-b32b00c41f36)
 
+Lastly, we need to add our new library to our tracked image manager
+
+- Drag the **ReferenceImageLibrary** onto the **Serialized Library** slot in your **AR Tracked Image Manager** component.
+
+![Add tracked image library](images/serialized_lib.jpg)
+
 ### 4. Import a 3D model
 
 We want a 3D object to appear on our tracked image.
@@ -152,11 +158,7 @@ If you point your camera at your image the model should appear.
 Make sure this works for you before you carry on to the next step.
 
 
-## 7. Ooptional Challenges
-
-These challenges are optional, but will help you with your final project.
-
-### Add Sound
+## 7. Sound
 
 - Play a sound when the prefab is instantiated
 	- Add an Audio source to the xr Origin and attach a sound to it.
@@ -168,7 +170,7 @@ Here is a solution if you get stuck:
  
 [<img src="images/add_sound.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4911b432-39b3-4772-b220-b3af01070cdb)
 
-### Animate the turbine
+## 8. Animation
 
 If you open up the turbine in the assets panel you can see it has an animation on it. 
 
@@ -179,7 +181,7 @@ Here is a solution if you get stuck:
 [<img src="images/animated_turbine.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e11433f3-76e4-48e7-95fa-b3af010c5b96)
 
 
-## 8. More complex objects.
+## 9. More complex objects.
 
 We have just instantiated one prefab onto our tracked image, but that prefab can be as complex as we like.
 
@@ -192,9 +194,7 @@ We have just instantiated one prefab onto our tracked image, but that prefab can
 - test the scene in the simulator
 
 
-## 9. Optional Challenges 2
-
-### multiple markers
+## 10. multiple markers
 
 You can track multiple markers at the same time
 
