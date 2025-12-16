@@ -74,6 +74,9 @@ We want a 3D object to appear on our tracked image.
 - Download this fbx file and add it to your assets in Unity but do not add it to the scene.
 ![turbine 3d model](images/turbine.jpg)
 [wind turbine model download](assets/turbine.fbx)
+( to dowload this model, click to open then click **Download raw file**)
+
+![download raw](images/download_raw.jpg)
 
 We can now create a script to instantiate our 3D model onto the tracked image when it is found by the camera.
 
