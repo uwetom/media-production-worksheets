@@ -225,6 +225,9 @@ e.g.
 
 ```
 
+Unfortunately, the simulator currently does not allow you to specify the name of different images in the simulated environment, so you will need to test this on a device to see if it works.
+
+
 ## References
 
 ["Wind Turbine" (https://skfb.ly/6QZUA) by iedalton is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).](https://skfb.ly/6QZUA)
