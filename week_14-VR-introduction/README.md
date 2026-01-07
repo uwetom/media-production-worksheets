@@ -7,7 +7,7 @@ In this worksheet we will
 - Use the VR simulator
 - Build to a VR headset
 
-We will be using Unity version **6**, Make sure you install the correct version on your machine.
+We will be using Unity version **6000.1.9f1**, Make sure you install and use the correct version on your machine.
 
 > [!NOTE]
 > Unity 6 is very similar to previous versions of Unity but you may notice that some of the menus and options have changed.
@@ -44,6 +44,11 @@ The template works with many different brands of headset, the pop up reminds us 
 
 ![Vr proejct popupR core template](images/popup.jpg)
 
+> [!NOTE]
+> You may see lots of errors in the console relating to inaccessible packages. These should not effect your project but can be confusing, to fix them remove the **version control** package in **window > package management > package manager** in the top menu.
+
+![Vr proejct popupR core template](images/version_control.jpg)
+
 ### Android
 
 The Meta Quest runs on **Android** we could choose this as our platform, but Unity 6 also gives us a specific **Meta Quest** option.
@@ -52,9 +57,6 @@ The Meta Quest runs on **Android** we could choose this as our platform, but Uni
 - Press **Switch Platform**
 
 ![VR core template](images/switch_platform_6.jpg)
-
-> [!NOTE]
-> After it has finished you will see that the Active platform has been set to **Android**, this is slightly confusing UI but it has worked as expected.
 
 ### Device Simulation
 
@@ -81,7 +83,7 @@ We are now setup and ready to try out a VR scene.
 > [!TIP]
 > If you have a **high specification** gaming PC you can also stream the project directly from the Unity editor to your headset.
 > [Meta Quest Link app](https://docs.unity3d.com/Packages/com.unity.xr.meta-openxr@2.2/manual/get-started/link.html).
-> This will not work on Macs, or lower spec PC's.
+> This will not work on Macs, or standard spec PC's.
 
 ## 4. Sample scene
 
@@ -133,7 +135,24 @@ For the workshop, I have build already build the sample scene to your headset.
 - You should see a black Unity logo on the menu bar, this is the pre-installed sample scene:
 - Click on it to open.
 
-![app](images/vr_app.png)
+On a Quest 2 you can find it on the bottom Bar
+
+![app button on quest 2](images/vr_app.png)
+
+On a Quest 3s it is more hidden.
+
+- Press the Meta button on the right controller
+
+![meta button on controller](images/metaButton.jpg)
+
+- Select the apps button in the center bottom
+- Select **Unknown Sources**
+- Select the app you want to run
+
+![select app on headset](images/unknown_sources.jpg)
+
+> [!NOTE]
+> When you build your own apps they will appear here 
 
 ## 5. New blank Scene
 
@@ -156,9 +175,11 @@ The Scene already includes a floor plane and an XR Origin (XR Rig)
 
 We recomend you use this scene for your project.
 
-
 > [!TIP]
 > You may notice that this rig does not have the helper labels, if you need these you can swap the **Complete XR Origin Set Up** for the **Complete XR Origin Set Up Variant** found in **Assets > VRTemplateAssets > Prefabs > Setup**
+
+>[!NOTE]
+> The template uses the URP renderer.
 
 ## 6. Build to the headset
 
@@ -168,11 +189,15 @@ There are a few important steps to building your project to a headset. The follo
 
 ## 7. Challenge - Create a simple scene
 
-Our scene is currently very blank.
+We deliberately built a blank scene to test our build process for we add further complexity.
 
-- Create a simple scene using found assets, or you can use this pack downloaded from [kenney.nl](https://kenney.nl/assets/nature-kit)
+But now that we know it works we can add some more assets
 
-Unzip and drag the whole folder into your assets panel. You should use the fbx models but you will need to rescale them.
+- Create a simple scene using found assets, 
+
+> [!NOTE]
+> You can use this pack downloaded from [kenney.nl](https://kenney.nl/assets/nature-kit)
+> Unzip and drag the whole folder into your assets panel. You should use the fbx models but you will need to rescale them.
 
 ### Size and scale
 
@@ -185,7 +210,7 @@ Your user will be interacting with your scene from a real first person perspecti
 > If you create a new cube it is always 1 meter square. You can use that as a reference for other objects.
 
 > [!TIP]
-> Use real world sizes, search for dimensions online or just measure real objects, a ceiling is about 2.5 meters tall, the surface of a desk is about 75cm from the ground.
+> Use real world sizes, search for dimensions online or just measure real objects, a ceiling is about 2.5 meters tall, the surface of a desk is about 0.7m from the ground.
 
 ### User Comfort - Cybersickness
 

@@ -1,10 +1,14 @@
-I will setup the headsets for the workshop sessions, but if you have your own headset or borrow one from the project room you will need to set it up yourself.
-
-# Setup headset for developing
+# Setup a Meta Quest VR headset
 
 When you first use a Meta Quest headset you will need to log in and set it up before you can start to use it.
 
-## Phone App
+Additionally, if you want to run your own projects you will need to set it up for development.
+
+I will setup the headsets for the workshop sessions, but if you have your own headset or borrow one from the project room you will need to set it up yourself.
+
+## Basic setup
+
+### Phone App
 
 Start by downloading the Meta Horizons app on your phone.
 
@@ -14,20 +18,25 @@ Start by downloading the Meta Horizons app on your phone.
 
 Create a personal Meta account and login.
 
-## Headset
+### Headset
 
 Turn on your VR headset and put it on.
 
-Put the headset on and it will guide you through the setup, 
+The headset will now guide you through the basic setup.
 
 > [!NOTE]
 > This will take about 15 minutes.
 
-## Wi-Fi
+### WIFI
 
-During the setup you will be asked to connect to Wi-Fi, If you are on Campus most of the headsets will be able connect to "Guest Wifi". Otherwise you will need to create a hotspot on your phone or connect to your home Wi-Fi. You cannot connect to Eduroam through the headset, but if your phone is connected, open the Meta app and find your Headset, you can then go into settings and connect the headset to Eduroam from there.
+On Campus the headsets will be able connect to "Guest Wifi". 
 
-## Developers
+Off Campus you will need to create a hotspot on your phone or connect to your home Wi-Fi. 
+
+>[!NOTE]
+> You cannot connect to Eduroam through the headset, but if your phone is connected, open the Meta app and find your Headset, you can then go into settings and connect the headset to Eduroam from there.
+
+## Developer setup
 
 When you have finished the initial setup you can use the device as a normal consumer, downloading and running apps from the app store.
 
@@ -47,7 +56,7 @@ Now Create an organisation, name it whatever you like.
 
 ![create organisation](images/createorganisation.jpg)
 
-If may ask you to add extra authentication but you don't need to add a credit card or any payment information but may need to add two-factor authentication.
+If may ask you to add extra authentication but you **do not** need to add a credit card or any payment information but may need to add two-factor authentication.
 
 ### Developer mode
 
@@ -62,9 +71,15 @@ Then turn on **Developer mode**
 
 ### Plug in
 
-Now, when you plug your headset into a computer a box will pop up on the headset asking if you to **Allow USB debugging**
+Now, when you plug your headset into a computer a box will pop up on the headset asking if you to **Allow USB debugging** 
+
+Press OK
+
+![create organisation](images/allowdebugging.png)
 
 If this box does not pop up, make sure it is firmly plugged in, or try restarting the headset.
+
+You will need to accept this every time you plug your headset in.
 
 ## Reference
 
