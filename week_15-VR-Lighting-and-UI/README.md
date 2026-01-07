@@ -6,6 +6,12 @@ In this worksheet we will export UI and lighting in VR
 
 - Open last weeks Unity project or create a new VR project.
 
+## New scene
+
+- In the Scenes folder, duplicate the **BasicScene** and rename it to **UIExample**
+
+- Add a new cube so that we can use it to judge the scale ( new cubes are 1m)
+
 ## 1. User Interface
 
 ### Create a UI
@@ -16,7 +22,8 @@ A VR User interface (UI) uses the same components as we use in other Unity proje
 
 ![canvas](images/ui_canvas.jpg)
 
-- Ccale the canvas down to 0.02.
+- Scale the canvas down to 0.02.
+- Move it back a meter so it is not right ontop of the player.
 
 Notice that the render mode is **World Space**.
 
@@ -24,7 +31,7 @@ Notice that the render mode is **World Space**.
 
 You can now add standard ui elements to the canvas
 
-- Add a **UI Panel, Textbox and Button** to the canvas.
+- Add a **Panel, Text and Button** to the canvas.
 
 > [!TIP]
 > Right click one the canvas in the hierarchy, and choose **UI > panel** 
@@ -33,13 +40,13 @@ You can now add standard ui elements to the canvas
 
 ![canvas sale](images/ui_panel.jpg)
 
-### Challenge 1
+### Challenge - change button colour
 
 - Change the colours of the buttons so the user gets feedback when they interact with them.
 
 ![canvas sale](images/button_colors.jpg)
 
-- Change the text on the text box and button to something appropriate, later we will use the button to turn the light on and off.
+- Change the text on the text box and button to something appropriate, later we will use the button to turn a light on and off.
 
 ### UI events
 
@@ -61,12 +68,15 @@ public class UIiInteraction : MonoBehaviour
 }
 ```
 
+
 - Now drag the script onto the button
 - Link the script up to the buttons On Click event
 
 ![canvas sale](images/button_script.jpg)
 
-- Test the scene to see if you get a console message when press the trigger when hovering over the button.
+- Test the scene to see if you get a console message when press the trigger when you hover over the button the press the trigger.
+
+Make sure this works before continuing to the next step.
 
 ## 2. Lights
 
@@ -82,23 +92,29 @@ You should notice that it does not seem to cast any light.
  
  ### Challenge 1
  
- - Turn the light on and off when you click the button on the ui.
+ - Use your existing script to turn the light on and off when you click the button on the ui.
  
-Solution:
+ > [HINT]
+ > To turn off a light in a script you can set the enabled property to false.
+ 
+Try to do this yourself first, but if you get stuck here is the solution:
 
  [<img src="images/turn_light_on_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=04711d78-bd53-45e4-9c69-b314010c9669)
  
+### Challenge 2
 
-### Extras - Spatialize audio
+- Add another button to the UI and use it to spawn a prefab object when it is clicked.
 
-Basic 3D audio will work by default, but if you are instest in spatialized audio you can investigate Meta's Audio package
+You can just turn a simple cube into a prefab or use something more fun from the assets store.
 
-[https://developers.meta.com/horizon/documentation/unity/unity-tutorial-basic-audio/](https://developers.meta.com/horizon/documentation/unity/unity-tutorial-basic-audio/)
+Or use one of these assets from Kenney.nl
 
+[kenney](assets/kenney_objects.unitypackage)
 
+> [!HINT]
+> - Create a prefab by dragging an object from the hierarchy into the assets folder
+> - Create a new instance of a prefab using Instantiate [instantiate documentation](https://docs.unity3d.com/6000.3/Documentation/ScriptReference/Object.Instantiate.html)
 
+Solution for if you get stuck:
 
-
-
-
-
+ [<img src="images/turn_light_on_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=04711d78-bd53-45e4-9c69-b314010c9669)
