@@ -94,7 +94,7 @@ You should notice that it does not seem to cast any light.
  
  - Use your existing script to turn the light on and off when you click the button on the ui.
  
- > [HINT]
+ > [!NOTE]
  > To turn off a light in a script you can set the enabled property to false.
  
 Try to do this yourself first, but if you get stuck here is the solution:
@@ -107,14 +107,14 @@ Try to do this yourself first, but if you get stuck here is the solution:
 
 You can just turn a simple cube into a prefab or use something more fun from the assets store.
 
-Or use one of these assets from Kenney.nl
+Or use one of these assets from Kenney.nl (click on link then download raw)
 
-[kenney](assets/kenney_objects.unitypackage)
+[kenney asset download](assets/kenney_objects.unitypackage)
 
-> [!HINT]
+> [!NOTE]
 > - Create a prefab by dragging an object from the hierarchy into the assets folder
 > - Create a new instance of a prefab using Instantiate [instantiate documentation](https://docs.unity3d.com/6000.3/Documentation/ScriptReference/Object.Instantiate.html)
 
 Solution for if you get stuck:
 
- [<img src="images/turn_light_on_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=04711d78-bd53-45e4-9c69-b314010c9669)
+ [<img src="images/banana.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=bfbb757c-a85e-4a54-bf06-b3cb011ed02a)
