@@ -22,7 +22,7 @@ The headsets normally require you to create an account and sign in to use. To sa
 
 If you have your own headset, or book one out from the project room you will need to set it up for development yourself.
 
-[How to setup your own headset](../wk14-VR-setup-headset/index.md)
+[How to setup your own headset](../wk14-VR-setup-headset/)
 
 ## 2. Create a Unity Project
 
