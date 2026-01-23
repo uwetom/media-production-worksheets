@@ -132,15 +132,6 @@ For the workshop, I have build already build the sample scene to your headset.
 
 - Clear the space around you then put the headset on.
 - Follow the instructions on the headset to create a guardian boundary, I recommend the stationary boundary when working in the busy classroom.
-- You should see a black Unity logo on the menu bar, this is the pre-installed sample scene:
-- Click on it to open.
-
-On a Quest 2 you can find it on the bottom Bar
-
-![app button on quest 2](images/vr_app.png)
-
-On a Quest 3s it is more hidden.
-
 - Press the Meta button on the right controller
 
 ![meta button on controller](images/metaButton.jpg)
