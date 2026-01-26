@@ -36,6 +36,9 @@ This will setup our project with all the packages we need and includes some help
 
 Save it somewhere sensible as we will carry on with this project next week.
 
+>[!NOTE]
+> The template uses the URP renderer.
+
 ## 3. Set up
 
 The template works with many different brands of headset, the pop up reminds us to specify what we are are using.
@@ -119,6 +122,9 @@ For the workshop, I have build already build the sample scene to your headset.
 
 - Clear the space around you then put the headset on.
 - Follow the instructions on the headset to create a guardian boundary, I recommend the stationary boundary when working in the busy classroom.
+
+To open the app on your headset:
+
 - Press the Meta button on the right controller
 
 ![meta button on controller](images/metaButton.jpg)
@@ -130,7 +136,17 @@ For the workshop, I have build already build the sample scene to your headset.
 ![select app on headset](images/unknown_sources.jpg)
 
 > [!NOTE]
-> When you build your own apps they will appear here 
+> When you build your own apps they will also appear here 
+
+To Quit an app
+
+- Press the **Oculus** button
+![](images/metaButton.jpg)
+- Choose **more options**
+![](images/menu.jpg)
+- Choose **Quit and return to home**
+![](images/quit.jpg)
+
 
 ## 5. New blank Scene
 
@@ -142,7 +158,7 @@ For this tutorial we will use the pre-made rig provided in the template.
 
 ![Locomotion System](images/basicscene.jpg)
 
-We may want this template scene again, so to avoid saving it over it we want to save the scene with a different name.
+We may want this template scene again, so to avoid saving over it we want to save the scene with a different name.
 
 - In the top menu, go to **File > Save as**
 - Save the scene in the Scenes folder and call it "PracticeScene"
@@ -156,18 +172,16 @@ We recomend you use this scene for your project.
 > [!TIP]
 > You may notice that this rig does not have the helper labels, if you need these you can swap the **Complete XR Origin Set Up** for the **Complete XR Origin Set Up Variant** found in **Assets > VRTemplateAssets > Prefabs > Setup**
 
->[!NOTE]
-> The template uses the URP renderer.
 
 ## 6. Build to the headset
+
+before we add further complexity we want to make sure our scene builds successfully.
 
 There are a few important steps to building your project to a headset. The following video guides you through the process. If you have already switched your project to Android you do not need to do it again.
 
 [<img src="images/build_video_image.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=405feefe-6503-4415-9c49-b2ff00f8a659)
 
 ## 7. Challenge - Create a simple scene
-
-We deliberately built a blank scene to test our build process for we add further complexity.
 
 But now that we know it works we can add some more assets
 
