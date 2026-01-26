@@ -112,7 +112,6 @@ When using a VR headset you may not be able to see the world around you, it is t
 
 [Safely use the Meta Quest](https://www.youtube.com/watch?v=Ke4MefpmRmc)
 
-
 > [!IMPORTANT]
 > When asking others to test your scene, it is your responsibility to create a safe environment.
 
@@ -141,12 +140,16 @@ To open the app on your headset:
 To Quit an app
 
 - Press the **Oculus** button
-![](images/metaButton.jpg)
-- Choose **more options**
-![](images/menu.jpg)
-- Choose **Quit and return to home**
-![](images/quit.jpg)
 
+![](images/metaButton.jpg)
+
+- Choose **more options**
+
+![](images/menu.jpg)
+
+- Choose **Quit and return to home**
+
+![](images/quit.jpg)
 
 ## 5. New blank Scene
 
