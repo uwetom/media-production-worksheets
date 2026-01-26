@@ -42,11 +42,6 @@ The template works with many different brands of headset, the pop up reminds us 
 
 - Close the message.
 
-![Vr proejct popupR core template](images/popup.jpg)
-
-> [!NOTE]
-> You may see lots of errors in the console relating to inaccessible packages. These should not effect your project but can be confusing, to fix them remove the **version control** package in **window > package management > package manager** in the top menu.
-
 ![Vr proejct popupR core template](images/version_control.jpg)
 
 ### Android
@@ -54,7 +49,7 @@ The template works with many different brands of headset, the pop up reminds us 
 The Meta Quest runs on **Android** we could choose this as our platform, but Unity 6 also gives us a specific **Meta Quest** option.
 
 - In the **top menu**, select **File > Build Profiles** and change the Platform to **Meta Quest**
-- Press **Switch Platform**
+- Press **Switch Platform** (you may need to enable it first)
 
 ![VR core template](images/switch_platform_6.jpg)
 
@@ -69,14 +64,6 @@ The device simulator will let up test our VR project without having to build it 
 ![uwe xr device simulator button](images/use_simulation.jpg)
 
 Accept the pop-up to download the simulator package.
-
-- In the **XR Plug-in management** section, in the left tab
- change the **Plug-in Providers** from **OpenXR** to **Mock HMD Loader**.
- 
- > [!CAUTION]
- > Only do this for the left tab, **NOT** the android tab or it wont work in the headset.
-
-![uwe xr device simulator button](images/hmd.png)
 
 We are now setup and ready to try out a VR scene.
 
