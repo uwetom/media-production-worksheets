@@ -184,12 +184,12 @@ There are a few important steps to building your project to a headset. The follo
 [<img src="images/build_video_image.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=405feefe-6503-4415-9c49-b2ff00f8a659)
 
 > [!IMPORTANT]
-> VIDEO CORRECTION - An update has fixed the platform selection, it will now show "meta Quest" correctly.
+> VIDEO CORRECTION - An update has fixed the platform selection, it will now show "meta Quest" correctly when selected
 
 ## 7. Challenge - Create a simple scene
 
 But now that we know it works we can add some more assets
-
+	
 - Create a simple scene using found assets, 
 
 > [!NOTE]
