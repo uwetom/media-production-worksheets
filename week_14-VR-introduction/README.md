@@ -175,7 +175,6 @@ We recomend you use this scene for your project.
 > [!TIP]
 > You may notice that this rig does not have the helper labels, if you need these you can swap the **Complete XR Origin Set Up** for the **Complete XR Origin Set Up Variant** found in **Assets > VRTemplateAssets > Prefabs > Setup**
 
-
 ## 6. Build to the headset
 
 before we add further complexity we want to make sure our scene builds successfully.
@@ -183,6 +182,9 @@ before we add further complexity we want to make sure our scene builds successfu
 There are a few important steps to building your project to a headset. The following video guides you through the process. If you have already switched your project to Android you do not need to do it again.
 
 [<img src="images/build_video_image.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=405feefe-6503-4415-9c49-b2ff00f8a659)
+
+> [!IMPORTANT]
+> VIDEO CORRECTION - An update has fixed the platform selection, it will now show "meta Quest" correctly.
 
 ## 7. Challenge - Create a simple scene
 
