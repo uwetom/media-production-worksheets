@@ -152,7 +152,7 @@ We can now turn it into an interactable
 - Add an **XR Grab Interactable** component to the pizza cutter
 
 > [!NOTE]
-> You should see that a**Rigidbody** component is also added automatically.
+> You should see that a **Rigidbody** component is also added automatically.
 
 - Add a **Mesh Collider** component to the pizza cutter and set it to **convex** ( you see a green mesh around the object)
 
