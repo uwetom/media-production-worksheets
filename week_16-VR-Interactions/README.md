@@ -9,7 +9,7 @@ In this worksheet we will learn how to interact with 3D objects in our scene.
 
 ![vr core template](images/new_project_6.jpg)
 
-If you created a new VR core project you will need to set it up like last week. You can go back and look at [week 14 worksheet](../week_14-VR-introduction/)
+If you created a new VR core project you will need to set it up like last week. You can go back and look at [section 3 in last weeks workshop](../wk17-VR-introduction/) 
 
 ## Create new Scene
 
@@ -42,6 +42,9 @@ You should see it has a **Teleportation Area** component. This allows the player
 
 > [!TIP]
 > In the simulator, you need to press tab to select the controllers, then press the **i** key to simulate pressing up on the right thumb stick and producing a teleport beam.
+
+> [!TIP]
+> You can use a teleportation anchor instead of an area if you want to lock the user to a particular spot.
 
 ## 2. Simple Interactable
 
@@ -114,7 +117,7 @@ GetComponent<Renderer>().material.SetColor("_BaseColor",Color.red);
 - Make the cube disappear when activated
 
 ```c#
-DestroyObject(gameObject);
+Destroy(gameObject);
 ```
 
 ### Challenge 2
@@ -152,7 +155,7 @@ We can now turn it into an interactable
 - Add an **XR Grab Interactable** component to the pizza cutter
 
 > [!NOTE]
-> You should see that a **Rigidbody** component is also added automatically.
+> You should see that a**Rigidbody** component is also added automatically.
 
 - Add a **Mesh Collider** component to the pizza cutter and set it to **convex** ( you see a green mesh around the object)
 
