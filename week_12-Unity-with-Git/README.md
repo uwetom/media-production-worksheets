@@ -13,7 +13,7 @@ You will also need to create a github account
 
 The following video will show you how to add an existing Unity project to github:
 
-[<img src="images/video_thumbnail.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6f4a2151-8874-4ca9-80f4-b32a00837ed9b)
+[<img src="images/video_thumbnail.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2c0f405b-bcbf-47f9-af52-b0c2009ccb32)
 
 It does not always go so simply, especially if you are trying to add an existing project which you have already been working on.
 
