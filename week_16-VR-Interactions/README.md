@@ -9,7 +9,7 @@ In this worksheet we will learn how to interact with 3D objects in our scene.
 
 ![vr core template](images/new_project_6.jpg)
 
-If you created a new VR core project you will need to set it up like last week. You can go back and look at [section 3 in last weeks workshop](../wk17-VR-introduction/) 
+If you created a new VR core project you will need to set it up like last week. You can go back and look at [week 14 worksheet](../week_14-VR-introduction/)
 
 ## Create new Scene
 
