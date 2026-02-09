@@ -124,7 +124,7 @@ Destroy(gameObject);
 
 When the user hovers over the cube, play a sound.
 
-Find your own of use one of these:
+Find your own of use one of these (click the link and press **download raw** in the top right):
  
 [pop sound](assets/clean-pop.mp3)
 
@@ -140,7 +140,7 @@ Next we can try a **Grab interactable** to allow us to pick up objects in our sc
 
 First we need some objects, we could use another cube, but a real 3D model will highlight some other issues you may encounter.
 
-- Download the following unity package and drag it into your assets panel
+- Download the following unity package (click the link press download raw) and drag it into your assets panel.
 
 [Kenney.nl objects](assets/kenney_objects.unitypackage) 
 
