@@ -216,7 +216,11 @@ We can attach a script to the pizza cutter in the same way that we did with the 
 
 Make something happen when activate is triggered, maybe make it play a sound or something you remember from last year.
 
-## 5. Extra - More interactions
+## 5. Build to the headset
+
+We have now added quite a lot of functionality, build your scene to a real headset and try it out.
+
+## 6. Extra - More interactions
 
 If you are interested in exploring other VR interactions you can find another demo scene in your project
 
