@@ -38,7 +38,7 @@ In the next steps we will add some external data.
 
 Before you start this next section you should have followed the previous tutorial and made an account on https://api.nasa.gov/ and used your API key to get some external data about Near Earth Objects.
 
-The URL link you generated should allow you to preview the HTTP request in your browser and see a JSON file that looks like [this]( https://raw.githubusercontent.com/uwetom/media-production-worksheets/master/wk-intro-external-data/images/neows-3.png). It has a list of ```near_earth_objects``` that we will be using.
+The URL link you generated should allow you to preview the HTTP request in your browser and see a JSON file that looks like [this]( https://api.nasa.gov/neo/rest/v1/feed?start_date=2015-09-07&end_date=2015-09-08&api_key=DEMO_KEY). It has a list of ```near_earth_objects``` that we will be using.
 
 Save the URL link in a text file (if you haven't already).
 
