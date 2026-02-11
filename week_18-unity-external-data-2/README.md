@@ -40,11 +40,11 @@ Now we are ready to add asteroids / rocks to the AR scene based on the NASA data
 
 Please type not copy and paste
 ```C#
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using SimpleJSON;
+using System.Collections;
 using UnityEngine.Networking;
+using SimpleJSON;
+
 
 public class GetData : MonoBehaviour
 {
@@ -154,11 +154,10 @@ Now we have some Asteroids rocks in our scene let's add some information about t
 With the text added your script should now look like this.
 Please type not copy and paste
 ```C#
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using SimpleJSON;
+using System.Collections;
 using UnityEngine.Networking;
+using SimpleJSON;
 using TMPro; // using TextMeshPro
 
 public class GetData : MonoBehaviour
@@ -251,4 +250,4 @@ public class GetData : MonoBehaviour
 
 Build your AR scene to a device
 
-[<img src="images/edit-prefab-video.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1c0abd93-e11a-40b9-8d4d-b21e00a3fea0)
+[<img src="images/edit-prefab-video.png">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ed134b10-93de-4950-908b-b32901065750)
