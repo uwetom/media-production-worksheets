@@ -106,7 +106,9 @@ MyJsonFile["location"]["city"]; // returns "Bristol"
 MyJsonFile["location"]["street"]; // returns "Coldharbour Lane"
 ```
 ### Code challenge - try accessing some data
-Using the meteo JSON example above write out (on paper) the syntax to access the the current temperature and rain?
+Using the system above with this [API JSON viewer](https://roddicki.github.io/api-viewer/) get the time of sunset today from the this Open Meteo link:  
+
+[https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&daily=temperature_2m_max,temperature_2m_min,sunrise,sunset](https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&daily=temperature_2m_max,temperature_2m_min,sunrise,sunset)
 
 ## Data repositories / libraries
 You can find a list of unsecured data with API access here
