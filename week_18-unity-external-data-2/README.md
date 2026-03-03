@@ -152,7 +152,7 @@ Now we have some Asteroids rocks in our scene let's add some information about t
 ### Code updated
 
 With the text added your script should now look like this.
-Please type not copy and paste
+Please type not copy and paste (note the slight difference in Instantiating the rockText to the video)
 ```C#
 using UnityEngine;
 using System.Collections;
@@ -232,8 +232,8 @@ public class GetData : MonoBehaviour
                 string maxSize = obj["near_earth_objects"][i]["estimated_diameter"]["kilometers"]["estimated_diameter_max"].Value;
                 Debug.Log(asteroidName + minSize + maxSize);
 
-                Instantiate(rockText, position + new Vector3(3.0f, 0, 0), Quaternion.identity);
-                TextMeshPro textComponent = rockText.GetComponent<TextMeshPro>();
+                GameObject myText = Instantiate(rockText, position + new Vector3(3.0f, 0, 0), Quaternion.identity);
+                TextMeshPro textComponent = myText.GetComponent<TextMeshPro>();
                 textComponent.text = asteroidName + "\n" + minSize + "-" + maxSize + " km";
 
 
