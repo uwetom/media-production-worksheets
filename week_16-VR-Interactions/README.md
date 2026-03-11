@@ -232,7 +232,8 @@ Unity has also created an extensive demo scene containing lots of examples of in
 
 [https://github.com/Unity-Technologies/XR-Interaction-Toolkit-Examples](https://github.com/Unity-Technologies/XR-Interaction-Toolkit-Examples)
 
-At the time of writing this worksheet the project only worked with Unity 2022, here is a version which works with Unity 6
+At the time of writing this worksheet the project only worked with Unity 2022, here is a version ar
+dwhich works with Unity 6
 
 [https://github.com/uwetom/XR-Interaction-Toolkit-Examples](https://github.com/uwetom/XR-Interaction-Toolkit-Examples)
  
