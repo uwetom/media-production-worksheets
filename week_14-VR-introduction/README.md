@@ -129,6 +129,10 @@ To open the app on your headset:
 ![meta button on controller](images/metaButton.jpg)
 
 - Select the apps button in the center bottom
+- Select the menu button ( 3 lines on the left of the screen)
+
+![select app on headset](images/unknown_sources_menu.jpg)
+
 - Select **Unknown Sources**
 - Select the app you want to run
 
