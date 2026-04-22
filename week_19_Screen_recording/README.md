@@ -3,7 +3,7 @@
 
 ## VR recording
 
-You can record a video on a Meta quest by **holding down ** the Meta or Oculus button and then **holding down** the trigger.
+You can record a video on a Meta quest by **holding down** the Meta or Oculus button and then **holding down** the trigger.
 
 ![](images/q2_buttons.jpg)
 
@@ -27,13 +27,13 @@ To see your videos, tap the Meta or Oculus button to view all apps, then open th
 
 There are a few ways to get your recordings from the headset.
 
-### Plug into a mac (recommended)
+### Plug into a Mac (recommended)
 
 The macs in the lab all have **Android File Transfer** installed, open it and plug your headset in. You can find your videos and screen shots in the **Oculus** folder.
 
 ![](images/android_file_transfere.jpg)
 
-On your own mac you will need to install it first, however, it is technically no longer supported so you may want to try other options
+On your own Mac you will need to install **Android File transfer** or an alternative app. 
 
 [android file transfer](https://www.android-file-transfer-mac.com/)
 
@@ -41,11 +41,11 @@ On your own mac you will need to install it first, however, it is technically no
 
 ### Plug into PC
 
-This can be unreliable, but if you plug your headset into a Windows PC is should show up as a normal external drive. If you are struggling to see it try to restart the headset and check for any permissions messages on screen.
+If you plug your headset into a Windows PC is should show up as a normal external drive. However, this can be unreliable, If you are struggling to see it try to restart the headset and check for any permissions messages on screen.
 
 ### Share on whatsApp
 
-You can select images and videoson the headset and share them to yourself on your whatsApp account.
+You can select images and videos on the headset and share them to yourself on your whatsApp account.
 
 ![](images/Watsapp.jpg)
 
