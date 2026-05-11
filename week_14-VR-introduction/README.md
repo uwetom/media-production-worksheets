@@ -24,7 +24,23 @@ If you have your own headset, or book one out from the project room you will nee
 
 [How to setup your own headset](../week_14-VR-setup-headset/)
 
-## 2. Create a Unity Project
+## 2. Example Experiences
+
+Here are a few VR experiences which you should try:
+
+
+
+[Pollinator-park](https://www.meta.com/en-gb/experiences/pollinator-park/3630788480370853/)
+
+[we live here](https://www.meta.com/en-gb/experiences/we-live-here/2537261906377373/)
+
+[On the morning you wake](https://www.meta.com/en-gb/experiences/on-the-morning-you-wake-to-the-end-of-the-world/5334662579895130/)
+
+[Home after war](https://www.meta.com/en-gb/experiences/home-after-war/2900834523285203/)
+
+
+
+## 3. Create a Unity Project
 
 We will use the built in VR template.
 
@@ -39,7 +55,7 @@ Save it somewhere sensible as we will carry on with this project next week.
 >[!NOTE]
 > The template uses the URP renderer.
 
-## 3. Set up
+## 4. Set up
 
 The template works with many different brands of headset, the pop up reminds us to specify what we are are using.
 
@@ -75,7 +91,7 @@ We are now setup and ready to try out a VR scene.
 > [Meta Quest Link app](https://docs.unity3d.com/Packages/com.unity.xr.meta-openxr@2.2/manual/get-started/link.html).
 > This will not work on Macs, or standard spec PC's.
 
-## 4. Sample scene
+## 5. Sample scene
 
 The VR sample scene should already be open, if not, you can find it in **Scenes > Sample Scenes**
 
@@ -155,7 +171,7 @@ To Quit an app
 
 ![](images/quit.jpg)
 
-## 5. New blank Scene
+## 6. New blank Scene
 
 We can now create our own scene.
 
@@ -179,7 +195,7 @@ We recomend you use this scene for your project.
 > [!TIP]
 > You may notice that this rig does not have the helper labels, if you need these you can swap the **Complete XR Origin Set Up** for the **Complete XR Origin Set Up Variant** found in **Assets > VRTemplateAssets > Prefabs > Setup**
 
-## 6. Build to the headset
+## 7. Build to the headset
 
 before we add further complexity we want to make sure our scene builds successfully.
 
@@ -190,7 +206,7 @@ There are a few important steps to building your project to a headset. The follo
 > [!IMPORTANT]
 > VIDEO CORRECTION - An update has fixed the platform selection, it will now show "meta Quest" correctly when selected
 
-## 7. Challenge - Create a simple scene
+## 8. Challenge - Create a simple scene
 
 But now that we know it works we can add some more assets
 	
