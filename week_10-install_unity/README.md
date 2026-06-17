@@ -1,7 +1,7 @@
 
 # Installing Unity for AR and VR
 
-The brief requires you to use a specific version of Unity, this year we will be using version 6000.1.9f1.
+The brief requires you to use a specific version of Unity, this year we will be using version 6000.3.11f1.
 
 This version is already installed on the lab machines, the rest of this guide will show you how to install it on your own machine.
 
@@ -23,11 +23,15 @@ You can now open Unity hub and install the correct version of Unity
 
 ![](images/archive.jpg)
 
-- find version **6000.1.9f1** and choose **Install**
+- find version **6000.3.11f1** and choose **Install**
 
-![](images/install.jpg)
+![](images/lts.jpg)
 
-- Select the **Android Build support** platforms and the **OpenJDK** and **Android SDK & NDK tools**
+![](images/6311.jpg)
+
+This will open the installer in Unity Hub.
+
+- Select the **Android Build support** platforms and the **OpenJDK** and **Android SDK & NDK tools** so that we can build to the tablets and Vr headsets.
 
 ![](images/android.jpg)
 
