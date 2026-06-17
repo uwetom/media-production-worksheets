@@ -7,7 +7,7 @@ Unity is already installed in the lab, but if you want it on your own machine fo
 
 [Unity install guide](../wk13-install_unity)
 
-You need version 6000.1.9f1, it will take 15 to 20 minutes to install.
+You need version 6000.3.11f1, it will take 15 to 20 minutes to install.
 
 ## 2. Create a new Project
 
