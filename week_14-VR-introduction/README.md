@@ -28,8 +28,6 @@ If you have your own headset, or book one out from the project room you will nee
 
 Here are a few VR experiences which you should try:
 
-
-
 [Pollinator-park](https://www.meta.com/en-gb/experiences/pollinator-park/3630788480370853/)
 
 [we live here](https://www.meta.com/en-gb/experiences/we-live-here/2537261906377373/)
