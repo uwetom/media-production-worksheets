@@ -70,7 +70,8 @@ Avoid objects which are:
 - Shiny
 - Plain
 
-> [!NOTE] Organic objects with texture and detail work best.
+> [!NOTE] 
+> Organic objects with texture and detail work best.
 
 # 4. Scan an Object
 
@@ -82,7 +83,7 @@ Now we know the basics we can try to scan an object
 
 Reality scan has 2 modes, 
 
-![](images/guide-new-project.png)
+![reality scan app screenshot showing augmented and camera control mode buttons](images/guide-new-project.png)
 
 1. Augmented reality guides you through the process and automatically takes images
 
@@ -134,7 +135,6 @@ If you export straight from the app you will get a .zip file containing a .glb f
 
 Try to import the .fbx file in to Maya
 
-
 # Additional resources
 
 ## Other photogrammetry apps
@@ -145,7 +145,7 @@ There are other photogrametry apps available which you can experiment with for y
 
 If you are on a PC, you can also use the reality scan PC add through the Epic games launcher which has many more options for refining you scan.
 
--[reality scan](https://www.realityscan.com/en-US)
+- [Reality scan](https://www.realityscan.com/en-US)
 
 ## More tutorials
 
