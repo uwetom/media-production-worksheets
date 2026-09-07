@@ -56,5 +56,4 @@ We need to
 
 [<img src="images/export_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5e4bc6ee-9b7c-4d14-b9a8-b34c00ff6477)
 
-We are now ready to rig the Character next week.
 
