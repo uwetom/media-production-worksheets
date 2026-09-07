@@ -81,13 +81,14 @@ Now we know the basics we can try to scan an object
 
 - [reality scan youtube site](https://www.youtube.com/@RealityScanOfficial)
 
-Reality scan has 2 modes, 
+Reality scan has 3 modes, 
 
 ![reality scan app screenshot showing augmented and camera control mode buttons](images/guide-new-project.png)
 
 1. Augmented reality guides you through the process and automatically takes images
 
 2. Manual give you move control giving better results but you have to manually take the photos. One huge benefit is that it allows you to flip the object over and capture the base.
+3. Object mode allows you to flip your object and automatically mask it so you can capture all of it.
 
 For this first test we will try augmented mode.
 
@@ -134,6 +135,10 @@ If you export straight from the app you will get a .zip file containing a .glb f
 ## Import
 
 Try to import the .fbx file in to Maya
+
+# 5. Object mode
+
+Next try to scan your using object mode and a turntable, compare the results with what you achieved above.
 
 # Additional resources
 
