@@ -52,6 +52,23 @@ I recomend the standard surface material for rendering as it will give the most 
 
 [<img alt="video showing how to texture objects in Maya" src="images/video-4-materials.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=55a852e2-5485-4805-ab5b-b49f009e26a8)
 
+### Opacity and transmission
+
+You can create transparent materials in Maya, this can be very useful for glass or translucent creatures.
+
+- Add a new standard surface material and change the colour and weight.
+![maya transmission](images/transparent_material.jpg)
+
+You can also add an image rather than a flat colour
+
+You can add an image file instead of a flat colour to create a stained glass effect, 
+
+![maya image transparency](images/image_transparency.jpg)
+
+This video shows you this in more detail
+
+[External youtube video ](https://www.youtube.com/watch?v=j9jjmyk-ins&t=1s)
+
 ## Next steps
 
 In the next worksheet we will cover animation and rendering.
@@ -68,3 +85,7 @@ In the next worksheet we will cover animation and rendering.
 login to linked in learning with your students email
 - [linked in learning](https://www.linkedin.com/learning/maya-2026-essentials-training/welcome?u=56744785)
 
+### References
+
+Transparency in Maya
+- [https://www.youtube.com/watch?v=j9jjmyk-ins&t=1s](https://www.youtube.com/watch?v=j9jjmyk-ins&t=1s)
