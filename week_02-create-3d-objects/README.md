@@ -2,7 +2,7 @@
 
 In this worksheet we're going to create a 3D Mesh of a flower using generative AI.
 
-## Remove background from reference photo
+
 In this example I have made a 3D model of a flower from a single still photo.   
 
 
@@ -11,8 +11,12 @@ I'm using https://www.meshy.ai/  but you should also try https://studio.tripo3d.
 ![](images/meshyai-source.jpg)
 
 I was careful to make sure the photo had a plain background. If yours doesn't you could clean up the photo and remove the backaground using Adobe Express.    
+https://new.express.adobe.com/.  
 
-[<img src="images/remove-bg-vid.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e9fb772b-4df6-4f2e-becb-b34700b74c7a ) 
+
+## Remove background from reference photo
+
+[<img src="images/adobe-express.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5a196d57-f4ba-49d9-bfd6-b4cd01328425 ) 
 
 ## Generate Model 
 ### Meshy.ai
@@ -60,7 +64,7 @@ This generates the model and texture, but as you can see with variable results.
 
 ### Conclusion
 
-Try both platforms and a variety of photos. Experiment! Sometimes https://studio.tripo3d.ai/ may be more successful than https://www.meshy.ai/.
+Try both platforms and a variety of photos. Experiment! Sometimes https://studio.tripo3d.ai/ may be more successful than https://www.meshy.ai/. Sometimes the result from your second or third model maybe better than the first one. 
 
 
 
