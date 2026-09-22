@@ -132,6 +132,10 @@ If you export straight from the app you will get a .zip file containing a .glb f
 
 [https://convert3d.org/glb-to-fbx](https://convert3d.org/glb-to-fbx)
 
+I have also created some from polycam
+
+[stone](https://poly.cam/capture/B4E2BD79-F8D8-4BB7-84E0-838081B58A6F?)
+
 ## Import
 
 Try to import the .fbx file in to Maya
@@ -140,9 +144,8 @@ Try to import the .fbx file in to Maya
 
 Next try to scan your using object mode and a turntable, compare the results with what you achieved above.
 
-# Additional resources
 
-## Other photogrammetry apps
+## Other Photogrammetry Apps
 
 There are other photogrametry apps available which you can experiment with for you own project, I particularly recomend:
 - [polycam](https://poly.cam/tools/photogrammetry)
@@ -151,6 +154,25 @@ There are other photogrametry apps available which you can experiment with for y
 If you are on a PC, you can also use the reality scan PC add through the Epic games launcher which has many more options for refining you scan.
 
 - [Reality scan](https://www.realityscan.com/en-US)
+
+# 6.  Gaussian Splats
+
+A fairly new technology is Gaussian Splats. Rather than creating a Polygon Mesh from photos, they create a type of point cloud (Gaussians), which are stretched circles which   each contain colour information which changes depending on which angle they are viewed.
+
+The process is the same as photogrametry, you take lots of photos and software compares all your images to make a 3d scene. However, it take longer to process and the result can be closer to reality, allowing you to capture transparent, shiny and fine detail such as hair.
+
+You cannot create Gaussian splats in reality scan, but we do have licences for Polycam on some tablets you can borrow.
+
+[https://poly.cam/library](https://poly.cam/library)
+
+ here is a prickly pear I have captured
+ 
+ [https://poly.cam/capture/417c7ec7-dbb4-4eda-bb70-8f7a5c89c6c9](https://poly.cam/capture/417c7ec7-dbb4-4eda-bb70-8f7a5c89c6c9)
+
+Splats are saved as ply files, here is the one for the cactus
+
+[pear splat](assets/Prickly_Pear_SPLAT.ply)
+
 
 ## More tutorials
 
