@@ -10,7 +10,7 @@ I'm using https://www.meshy.ai/  but you should also try https://studio.tripo3d.
 
 ![](images/meshyai-source.jpg)
 
-I was careful to make sure the photo had a plain background. If yours doesn't you could clean up the photo and remove the backaground using Adobe Express.    
+I was careful to make sure the photo had a plain background. If yours doesn't you could clean up the photo and remove the background using Adobe Express.    
 https://new.express.adobe.com/.  
 
 
@@ -64,7 +64,7 @@ This generates the model and texture, but as you can see with variable results.
 
 ### Conclusion
 
-Try both platforms and a variety of photos. Experiment! Sometimes https://studio.tripo3d.ai/ may be more successful than https://www.meshy.ai/. Sometimes the result from your second or third model maybe better than the first one. 
+Try both platforms and a variety of photos. Experiment! Sometimes https://studio.tripo3d.ai/ may be more successful than https://www.meshy.ai/. Sometimes the result from your second or third attempt maybe better than the first one. 
 
 
 
