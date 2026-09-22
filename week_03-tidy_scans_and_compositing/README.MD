@@ -1,4 +1,6 @@
-# Tidy up scans
+
+
+# Tidy up Photogrametry scans
 
 Now that you have finished scanning your objects or people you may find they need some tiding up.
 
@@ -23,37 +25,46 @@ If you do not have your own model you can use this one.
 Hold down **Ctrl + M** and move the mouse to change the brush hardness
 or just double click on the tool to open the options panel.
 
-## Compositing
+# Importing Gaussian  Splats
 
-Now that we have cleaned up the model we can look into adding other elements, Adding glasses and a body.
+Recent versions of Maya support splats, you will need version 2027, with the MtoA plugin version 5.3 or higher ( look at arnolde > about  in the top menu)
 
-Here is a clean version of Rods Head:
 
-[Rods Head](assets/rod_head.fbx)
+## Add a splat to Maya
 
-You can find your own accessories on Sketchfab.com. or use this hat:
+You can practice adding a splat using [my cactus splat file](assets/Prickly_Pear_SPLAT.ply), or download one your self from somewhere like [Super splat](https://superspl.at/), you will need to create a free account and not all splats are downloadable.
 
-[Beanie hat download](assets/beanie.fbx)
-(This file is from https://sketchfab.com/3d-models/black-knit-beanie-edb7f2c044b64d5da40484495239fee3, but the texture has been reduced)
 
-The following 2 characters have been downloaded from Mixamo.com using the t-pose animation.
+To add a splay to Maya, go to **Arnold > Gaussian Splat**
+ 
+![add a Gaussian splat to your scene](images/import_splat.jpg)
 
-[Character 1 download](assets/Ch18_nonPBR.fbx)(from Mixamo.com)
+In the **Attribute editor** choose the path to your splat, is should be a ply file
 
-[Character 2 download](assets/Ch31_nonPBR.fbx)(from Mixamo.com)
+![select your splat](images/add_splat.jpg)
 
-[<img src="images/compositing_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=83294299-c7fe-43c6-a99c-b34700f600ab)
+Finally, you will need to change the **draw mode** to **Gaussian Splat**
 
-## Exporting
+![gaussian draw mode](images/display_mode.jpg)
 
-Now that our model is complete we need to export it so that it can be rigged.
+You may also need to rotate it.
 
-We need to 
+![gaussian rotate](images/up.jpg)
 
-- Rescale so it the correct height
-- Position the origin
-- freeze transforms
+## Edit your splat
 
-[<img src="images/export_video.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5e4bc6ee-9b7c-4d14-b9a8-b34c00ff6477)
+The following official Maya videos show you how to maske and light your Gaussian splats.
+
+[Masking Gaussian Splats](https://www.youtube.com/watch?v=Bv7dejoLly4)
+
+[Lighting Gassian Splats](https://www.youtube.com/watch?v=vX3fLhrTavM)
+
+## Rendering 
+
+You can render them out the same way you would a normal scene in Maya, but if you want to render out a point cloud instead of a gaussians you can use this video
+
+[Render out a point cloud](https://www.youtube.com/watch?v=LNhsTrYBUto)
+
+
 
 
