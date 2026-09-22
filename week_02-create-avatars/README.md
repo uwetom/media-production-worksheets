@@ -1,77 +1,67 @@
-# Creating Avatars with Generative AI
+# Creating 3D models with Generative AI
 
-In this worksheet we're going to create a 3D Avatar using generative AI.
+In this worksheet we're going to create a 3D Mesh of a flower using generative AI.
 
 ## Remove background from reference photo
-In this example I have made an Avatar of myself from a single still photo of me in T pose.   
-![](images/rod-t-pose.jpg)
+In this example I have made a 3D model of a flower from a single still photo.   
 
-I'm using https://studio.tripo3d.ai/   but you could also try https://www.meshy.ai/    
 
-First of all I'm going to clean up the photograph and remove the background using Adobe Express.    
+I'm using https://www.meshy.ai/  but you should also try https://studio.tripo3d.ai/    
+
+![](images/meshyai-source.jpg)
+
+I was careful to make sure the photo had a plain background. If yours doesn't you could clean up the photo and remove the backaground using Adobe Express.    
 
 [<img src="images/remove-bg-vid.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e9fb772b-4df6-4f2e-becb-b34700b74c7a ) 
 
-## Generate Avatar 
-Now I'm going to use the downloaded cleaned image to generate a 3D avatar.   
+## Generate Model 
+### Meshy.ai
 
-Create an account https://studio.tripo3d.ai/ to get free credits.  
+Now I'm going to use the downloaded cleaned image to generate a 3D mesh.   
 
-![](images/generate-3d-1.jpg)
+Create an account https://www.meshy.ai/ to get free credits.  You should get enough credits to do a number of tests and produce the assets for this project.
+Upload your photo. Click generate, but then change the model to 'Meshy 6 Lite' on the next screen.   
 
-Make sure 'Build & Refine' is selected and Image / Text to 3D.  
+![](images/meshyai-0-meshy6Lite.jpg)
 
-![](images/generate-3d-2.jpg)
+Make sure 'Meshy 6 Lite' is selected and click generate (otherwise you have to pay to download the model).  
 
-# Method One
-Upload the photo and add a text prompt. Click 'Generate'.     
-
-![](images/generate-3d-3.jpg)
+![](images/meshyai-0a-meshy6Lite.jpg)
 
 To texture the 3D model select texture and Generate Texture.   
 
-![](images/generate-3d-4.jpg)
+![](images/meshyai-2a-meshy6Lite.jpg)
+
+![](images/meshyai-2-meshy6Lite.jpg)
 
 Result:   
 
-![](images/generate-3d-5.jpg)
+![](images/meshyai-3-meshy6Lite.jpg)
 
 To download select FBX (file type) and Export. 
 
-![](images/generate-3d-6.jpg)
+![](images/meshyai-4-meshy6Lite.jpg)
+### tripo3d.ai
+You can also try using https://studio.tripo3d.ai/ .   This works in exactly the same way. Make an account, log in and use the free credits.   
 
-# Method Two
-You can also try generating the T pose from a portrait photo.   
-Upload the photo and add a text prompt. Click 'Edit Image'.    
+Upload the photo. Click 'Generate'.    
 
-![](images/generate-3d-7.jpg)
+![](images/tripo3d-1.jpg)
 
-This creates a T pose photo:  
+Now on the next screen change the model to 'Legacy 2.5' so that you can download the result for free.
 
-![](images/generate-3d-8.jpg)
+![](images/tripo3d-2.jpg)
 
-Now click 'Generate'.     
+Now click 'Generate'.    
 
-![](images/generate-3d-9.jpg)
+This generates the model and texture, but as you can see with variable results.    
 
-Add the texture as before:     
+![](images/tripo3d-3.jpg)
 
-![](images/generate-3d-10.jpg)
+### Conclusion
 
-This produces variable results, as you can see, but maybe useful if you have no full body photo.
-
-# Method Three
-You can also try generating a head from a portrait photo and stitching that onto a T Pose body in Maya.   
-
-![](images/generate-3d-7.jpg)
-
-A variable result, you may need to expriment with different images for a better result.  
-
-![](images/generate-3d-11.jpg)
-
-Finally if your character is someone you know or have access too try 3D scanning their head and and stitching that onto a T Pose body in Maya.   
+Try both platforms and a variety of photos. Experiment! Sometimes https://studio.tripo3d.ai/ may be more successful than https://www.meshy.ai/.
 
 
-In the next worksheet we will rig the avatar.   
 
 
