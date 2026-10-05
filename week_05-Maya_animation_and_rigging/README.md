@@ -62,4 +62,8 @@ If you are interested in doing more rigging, this is a great video showing you t
 
 https://www.youtube.com/watch?v=1wvdQy2Fdhw&t=798s
 
+If you want to animate your camera on a path, this video may be helpful
+
+https://www.youtube.com/watch?v=FYtc27jxIXg
+
 
