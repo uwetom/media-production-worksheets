@@ -1,6 +1,6 @@
 
 
-# Tidy up Photogrametry scans
+# Tidy up Photogrammetry scans
 
 Now that you have finished scanning your objects or people you may find they need some tiding up.
 
