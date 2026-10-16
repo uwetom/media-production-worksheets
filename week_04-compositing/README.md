@@ -6,8 +6,8 @@ In this workshop we are going to composite your exported image sequence into Aft
 
 We are aiming for something like this: 
 
-![composited scene](images/rod-short-clip.gif)
-(see the full 20s video: https://youtu.be/g9yxjUjCvWk) 
+![composited scene](images/Comp-sml.gif).  
+(see the full 11s video: https://youtu.be/icJrGrl88JM) 
 
 To begin you'll need your exported sequence. Your image sequence (exported from Maya or Blender) should be .png images set with transparent background. The images should automatically output in a number sequence: 0001.png, 0002.png and so on.
 
