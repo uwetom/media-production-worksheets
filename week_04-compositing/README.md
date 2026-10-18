@@ -121,7 +121,7 @@ Your .mov or .avi will be a huge file. But it will be uncompressed and exactly w
 
 If you are stuck you can watch this [video](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=526ddc50-c1ed-4350-bb6e-b4e5010fab19) which steps you through the whole process
 
-However for other purposes you can can compress it and change the format to .mp4 either using Adobe Media Encoder, or import it into Premiere or Cap cut to edit and add sound / graphics. (There isn't a video for this as we know you used Premiere extensively last year).  
+For more general purpose you can can compress your video file and change the format to .mp4 either using Adobe Media Encoder, or import it into Premiere or Cap cut to edit and add sound / graphics. (There isn't a video for this as we know you used Premiere extensively last year).  
 
 Tip: Handbrake is an excellent free video converter and compressor   
 https://handbrake.fr/downloads.php (I use it much more than Adobe Media Encoder).   
