@@ -68,9 +68,19 @@ This video shows you how to colour tint the whole scene with an adjustment layer
 
 [<img src="images/ae-colorize.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f3f27da4-6943-483a-9aa7-b4e5010763c5) 
 
-=======
 ## 7. Adding sounds to your composition
-=======
+Add sound effects to your After Effects compostion.   
+
+Download sound effects from:    
+https://freesound.org/   
+https://www.soundsnap.com/    
+
+Convert sounds using:   
+https://cloudconvert.com/audio-converter    
+
+
+[<img src="images/ae-sounds.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f1c924fb-9bb2-47c8-9b58-b4e7012b446e) 
+
 
 ## 8. Add to render queue and render output.
 
