@@ -36,6 +36,7 @@ This first video steps you through how to import your image sequence into After 
 ## 2. Adding layers, effects and using the transform properties 
 
 This video shows you how to add a new layer (a background in this case), how to add effects to layers (a blur in the case) and how to use the transform tools (scale in this case).
+You can find lots of copyright free background images at https://www.pexels.com/photo/  
 
 [<img src="images/ae-2.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=caaa7422-0b1d-43b0-b5f7-b4e30109dda7) 
 
