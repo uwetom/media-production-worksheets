@@ -53,7 +53,7 @@ How to scale and animate an assets.
 
 ## 4. How to duplicate a layer and animate an assest with the transform (scale & position) properties
 
-This video shows you how to duplicate a layer and edit it using key frames with the transfrom scale properties.  
+This video shows you how to duplicate a layer and edit it using key frames with the transform scale properties.  
 
 [<img src="images/ae-4.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5584eff3-651d-4f86-a4b2-b4e30112c65d) 
 
