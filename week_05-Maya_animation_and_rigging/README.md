@@ -44,7 +44,9 @@ One way to do this is by creating a rig. You can use a complex rig to control ch
 
 ### Challenge
 
-Try to rig a different object, maybe a ball cylinder. Animate it so it jumps in the air.
+Try to rig a different object, try out this jellyfish
+
+[jellyfish](assets/jelly.fbx)
 
 ## 5. Physics
 
@@ -66,4 +68,6 @@ If you want to animate your camera on a path, this video may be helpful
 
 https://www.youtube.com/watch?v=FYtc27jxIXg
 
+## References
 
+[jellyfish from sketchrfab](https://skfb.ly/6TnGA)
