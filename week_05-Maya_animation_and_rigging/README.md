@@ -48,6 +48,10 @@ Try to rig a different object, try out this jellyfish
 
 [jellyfish](assets/jelly.fbx)
 
+When binding the skin, choose "heatmap" as the bind method.
+
+![skin bind options in maya](images/heatmap.jpg)
+
 ## 5. Physics
 
 Physics can be a very quick and powerful way to animate objects in a realistic way.
@@ -59,6 +63,13 @@ Physics can be a very quick and powerful way to animate objects in a realistic w
 Try to add physics to a new scene, maybe duplicate lots of spheres and see how they interact.
 
 ## Extra
+
+### Animating a camera on a path
+
+You can animate a camera on a path by following this video
+[https://www.youtube.com/watch?v=FYtc27jxIXg](https://www.youtube.com/watch?v=FYtc27jxIXg)
+
+### More Rigging
 
 If you are interested in doing more rigging, this is a great video showing you the basics of controllers which you can use to more easily control your rig:
 
