@@ -45,6 +45,19 @@ Now we have setup our camera we can render it out, but first we need to decide o
 
 [<img alt="video showing how to change the render settings in Maya" src="images/video-render-settings.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=7c7cb552-0fc0-49a1-9aa3-b49c00ef3d73)
 
+
+### Grey box settings
+
+If you are rendering out a quick grey box version of your scene you can reduce the render quality settings.
+
+Render to jpg and HD_1080
+
+![grey box render settings](images/grey_render_settings_1.jpg)
+
+Reduce the Arnold render sampling
+
+![grey box render settings 2](images/grey_render_settings_2.jpg)
+
 ## Render a sequence
 
 We can now render out our sequence.
