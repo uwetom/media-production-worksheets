@@ -57,11 +57,17 @@ If you are rendering out a quick grey box version of your scene you can reduce t
 
 Render to jpg and HD_1080
 
-![grey box render settings](images/grey_render_settings_1.jpg)
+<p align="center">
+<img src="images/grey_render_settings_1.jpg" alt="grey box render settings" width="80%"/>
+</p>  
 
-Reduce the Arnold render sampling
 
-![grey box render settings 2](images/grey_render_settings_2.jpg)
+Reduce the Arnold render sampling.  
+
+<p align="center">
+<img src="images/grey_render_settings_2.jpg" alt="grey box render settings" width="80%"/>
+</p>  
+
 
 ### Render a sequence
 
@@ -100,7 +106,7 @@ The final step is to render the output.
 Set the render area by dragging the handles (green laso). And then add to the render queue.  
 
 
-![add to the render queue](images/render-q.jpg)
+![add to the render queue](images/render-settings-3.jpg)
 
 - View the render queue - yellow lasso
 - In the render queue you can select where the output should go (and filename) - green lasso
